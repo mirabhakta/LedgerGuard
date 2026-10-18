@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 
 import { useBenchmarks } from "../api/queries";
 import type { BenchmarkRun, DecimalValue } from "../api/types";
@@ -165,8 +165,50 @@ function RunBlock({ run }: { run: BenchmarkRun }) {
   );
 }
 
+/** Providers the backend can evaluate. Unmeasured ones stay in the menu with no numbers. */
+const MODEL_ORDER = ["rules", "gemini", "openjev", "system_one"] as const;
+
+const MODEL_LABELS: Record<string, string> = {
+  rules: "Rules",
+  gemini: "Gemini",
+  openjev: "OpenJev",
+  system_one: "System One",
+};
+
+function modelLabel(provider: string | null | undefined): string {
+  if (!provider) return "Unknown model";
+  return MODEL_LABELS[provider] ?? provider;
+}
+
+function runLabel(run: BenchmarkRun): string {
+  const sample = run.sample_size === null || run.sample_size === undefined ? "sample n/a" : `${run.sample_size} scenarios`;
+  return `${modelLabel(run.provider)} · ${run.model_name ?? "model n/a"} · ${sample}`;
+}
+
 export function BenchmarksPage() {
   const benchmarks = useBenchmarks();
+  const runs = benchmarks.data?.runs ?? [];
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+
+  const options = useMemo(() => {
+    const measured = [...runs].sort((a, b) => {
+      const rank = (provider: string | null) => {
+        const index = MODEL_ORDER.indexOf((provider ?? "") as (typeof MODEL_ORDER)[number]);
+        return index === -1 ? MODEL_ORDER.length : index;
+      };
+      const byProvider = rank(a.provider) - rank(b.provider);
+      if (byProvider !== 0) return byProvider;
+      return (b.sample_size ?? 0) - (a.sample_size ?? 0);
+    });
+    const covered = new Set(measured.map((run) => run.provider));
+    const missing = MODEL_ORDER.filter((provider) => !covered.has(provider));
+    return { measured, missing };
+  }, [runs]);
+
+  const selected =
+    options.measured.find((run) => run.run_id === selectedId) ?? options.measured[0] ?? null;
+  const showingMissing = selectedId !== null && selectedId.startsWith("missing:");
+  const missingProvider = showingMissing ? selectedId.slice("missing:".length) : null;
 
   return (
     <div className="flex min-h-0 grow flex-col">
@@ -200,10 +242,94 @@ export function BenchmarksPage() {
             />
           </div>
         ) : (
-          <div className="flex flex-col gap-10">
-            {benchmarks.data?.runs.map((run) => (
-              <RunBlock key={run.run_id ?? Math.random()} run={run} />
-            ))}
+          <div className="flex flex-col">
+            <div className="flex flex-col gap-2 px-6 pb-5 md:px-12">
+              <label className="flex flex-col gap-1.75" htmlFor="benchmark-model">
+                <MonoLabel>MODEL</MonoLabel>
+                <select
+                  id="benchmark-model"
+                  value={showingMissing ? selectedId ?? "" : (selected?.run_id ?? "")}
+                  onChange={(event) => setSelectedId(event.target.value)}
+                  className="h-10 w-full max-w-[520px] rounded-[3px] border border-hairline bg-surface px-3 font-mono text-[12px] text-ink"
+                >
+                  {options.measured.map((run) => (
+                    <option key={run.run_id ?? runLabel(run)} value={run.run_id ?? ""}>
+                      {runLabel(run)}
+                    </option>
+                  ))}
+                  {options.missing.map((provider) => (
+                    <option key={provider} value={`missing:${provider}`}>
+                      {MODEL_LABELS[provider]} — not measured
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <MonoLabel className="tracking-[0.08em]!">
+                SWITCH MODELS TO COMPARE THE SAME METRICS · UNMEASURED MODELS SHOW NO NUMBERS
+              </MonoLabel>
+            </div>
+
+            {options.measured.length > 1 ? (
+              <div className="mx-6 mb-6 overflow-x-auto border border-hairline md:mx-12">
+                <table className="w-full border-collapse text-left">
+                  <thead>
+                    <tr className="border-b border-hairline">
+                      {["MODEL", "SAMPLE", "PREVENTION", "ACCURACY", "ESCAPE"].map((heading) => (
+                        <th
+                          key={heading}
+                          className="whitespace-nowrap px-4 py-2.5 font-mono text-[10px] font-medium tracking-[0.12em] text-ink-3"
+                        >
+                          {heading}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {options.measured.map((run) => {
+                      const active = run.run_id === selected?.run_id && !showingMissing;
+                      return (
+                        <tr
+                          key={run.run_id ?? runLabel(run)}
+                          className={active ? "bg-ink/3" : "hover:bg-ink/3"}
+                        >
+                          <td className="px-4 py-3">
+                            <button
+                              type="button"
+                              onClick={() => setSelectedId(run.run_id)}
+                              className="whitespace-nowrap text-left font-mono text-[12px] font-medium text-ink"
+                            >
+                              {modelLabel(run.provider)} · {run.model_name ?? "—"}
+                            </button>
+                          </td>
+                          <td className="px-4 py-3 font-mono text-[12px] text-ink-2">{run.sample_size ?? "—"}</td>
+                          <td className="px-4 py-3 font-mono text-[12px] text-ink">
+                            {formatMetricValue(metric(run, HERO_KEY), HERO_KEY)}
+                          </td>
+                          <td className="px-4 py-3 font-mono text-[12px] text-ink">
+                            {formatMetricValue(metric(run, "accuracy"), "accuracy")}
+                          </td>
+                          <td className="px-4 py-3 font-mono text-[12px] text-ink">
+                            {formatMetricValue(metric(run, "unsafe_action_escape_rate"), "unsafe_action_escape_rate")}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            ) : null}
+
+            {showingMissing ? (
+              <div className="px-6 md:px-12">
+                <EmptyState
+                  label="NOT MEASURED"
+                  title={`${missingProvider ? modelLabel(missingProvider) : "This model"} has no measured run.`}
+                  caption="The menu lists every model the benchmark can run. This one has no artifact yet, so nothing is shown — never a placeholder metric."
+                />
+              </div>
+            ) : selected ? (
+              <RunBlock key={selected.run_id ?? "run"} run={selected} />
+            ) : null}
           </div>
         )}
       </div>

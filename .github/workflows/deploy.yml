@@ -33,52 +33,52 @@ jobs:
           python -m pip install huggingface_hub
           python - <<'PY'
           from pathlib import Path, PurePosixPath
-          from shutil import copy2
-          from huggingface_hub import HfApi, snapshot_download
+          from shutil import copy2, copyfileobj
+          from tarfile import open as open_tar
+          from huggingface_hub import hf_hub_download
 
-          repo = "CL251215/QuickBooks-Hackathon-2026"
           companies = {
-              "company-001", "company-045", "company-048",
-              "company-049", "company-073"
+              'company-001', 'company-045', 'company-048',
+              'company-049', 'company-073',
           }
-
-          files = HfApi().list_repo_files(repo, repo_type="dataset")
-          selected = [
-              f for f in files
-              if any(p in companies for p in PurePosixPath(f).parts)
-          ]
-
-          if not selected:
-              raise SystemExit("No company folders found in HF dataset")
-
-          snapshot = Path(snapshot_download(
-              repo_id=repo,
-              repo_type="dataset",
-              allow_patterns=selected,
-          ))
-
-          dest = Path("data/raw/hackathon-100")
+          archive_path = hf_hub_download(
+              repo_id='CL251215/QuickBooks-Hackathon-2026',
+              repo_type='dataset',
+              filename='hackathon-100-participant.tar.gz',
+          )
+          dest = Path('data/raw/hackathon-100')
           dest.mkdir(parents=True, exist_ok=True)
-          copy2("data/index.json", dest / "index.json")
+          copy2('data/index.json', dest / 'index.json')
 
-          for filename in selected:
-              parts = PurePosixPath(filename).parts
-              index = next(
-                  i for i, p in enumerate(parts) if p in companies
-              )
-              target = dest.joinpath(*parts[index:])
-              target.parent.mkdir(parents=True, exist_ok=True)
-              copy2(snapshot / filename, target)
+          extracted = 0
+          with open_tar(archive_path, 'r:gz') as archive:
+              for member in archive:
+                  if not member.isfile():
+                      continue
+                  parts = PurePosixPath(member.name).parts
+                  if '..' in parts:
+                      raise SystemExit('Unsafe archive path')
+                  company_at = next(
+                      (i for i, part in enumerate(parts) if part in companies),
+                      None,
+                  )
+                  if company_at is None:
+                      continue
+                  target = dest.joinpath(*parts[company_at:])
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  source = archive.extractfile(member)
+                  if source is None:
+                      raise SystemExit(f'Unable to read {member.name}')
+                  with source, target.open('wb') as output:
+                      copyfileobj(source, output)
+                  extracted += 1
 
+          print(f'Extracted {extracted} files from QuickBooks archive')
           for company in sorted(companies):
-              manifests = list(
-                  (dest / company / "rwm-v4")
-                  .glob("world-*/manifest.yaml")
-              )
+              manifests = list((dest / company / 'rwm-v4').glob('world-*/manifest.yaml'))
               if len(manifests) != 1:
-                  raise SystemExit(f"Missing dataset world: {company}")
-
-          print("QuickBooks test data ready")
+                  raise SystemExit(f'Missing or duplicate RWM world for {company}: {len(manifests)}')
+          print('QuickBooks test data ready')
           PY
 
       - name: Run backend tests (excluding live and slow tests)
@@ -142,7 +142,6 @@ jobs:
           set -euo pipefail
           cd /home/linuxuser/LedgerGuard
 
-          # Protect edits made directly on the server.
           if [[ -n "$(git status --porcelain --untracked-files=no)" ]]; then
             echo "Deployment blocked: uncommitted tracked edits exist on the server."
             git status --short
@@ -151,8 +150,6 @@ jobs:
 
           git fetch origin main
           git merge --ff-only "$1"
-
-          # Installs dependencies added to pyproject.toml; keeps .env and data intact.
           .venv/bin/python -m pip install -e .
 
           sudo -n /usr/bin/systemctl restart ledgerguard.service

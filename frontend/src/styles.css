@@ -9,7 +9,8 @@
   --color-surface: #ffffff;
   --color-ink: #191917;
   --color-ink-2: #55554e;
-  --color-ink-3: #8b8b82;
+  /* Darkened from #8b8b82 (3.1:1 on paper) so small mono captions meet WCAG AA (4.9:1). */
+  --color-ink-3: #6b6b62;
   --color-hairline: #e3e3dd;
   --color-allow: #1e7a4e;
   --color-approval: #96690b;
@@ -34,6 +35,29 @@
     font-family: var(--font-ui);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+  }
+
+  /* Tailwind v4 resets buttons to the default cursor; restore the pointer for actionable ones. */
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]) {
+    cursor: pointer;
+  }
+
+  /* Visible keyboard focus on every interactive element. */
+  :focus-visible {
+    outline: 2px solid var(--color-context);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      scroll-behavior: auto !important;
+      transition-duration: 0.01ms !important;
+    }
   }
 
   ::selection {

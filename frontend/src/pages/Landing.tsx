@@ -49,7 +49,7 @@ function LandingNav() {
           <span className="font-ui text-[17px] font-bold leading-5.5 tracking-[-0.01em] text-ink">LedgerGuard</span>
         </span>
         <span className="hidden h-4 w-px shrink-0 bg-hairline sm:block" aria-hidden />
-        <span className="hidden font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3 sm:block">
+        <span className="hidden font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3 sm:block">
           FINANCIAL SAFETY LAYER
         </span>
       </div>
@@ -129,7 +129,7 @@ function HeroSupport() {
       </div>
       <div className="flex w-full shrink-0 flex-col gap-4 self-start rounded-[4px] border border-hairline bg-surface px-6.5 py-6 lg:w-100">
         <div className="flex items-center justify-between">
-          <div className="font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">
+          <div className="font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">
             EVALUATION PREVIEW · ILLUSTRATIVE SCENARIO
           </div>
           <span className="size-1.75 shrink-0 rounded-full bg-allow" aria-hidden />
@@ -208,10 +208,10 @@ function PipelineRow() {
       {/* Station 1 */}
       <div className="flex grow basis-[0%] flex-col gap-3 rounded-[4px] border border-hairline bg-surface px-5 pb-4.5 pt-5">
         <div className="flex items-center justify-between">
-          <div className="font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">
+          <div className="font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">
             STATION 01 · INPUT
           </div>
-          <div className="font-mono text-[9px] leading-3 tracking-[0.1em] text-ink-3">14:02:11</div>
+          <div className="font-mono text-[10px] leading-3 tracking-[0.1em] text-ink-3">14:02:11</div>
         </div>
         <div className="font-ui text-[18px] font-bold leading-5.5 tracking-[-0.01em] text-ink">Agent proposes</div>
         <div className="bg-ink/3 px-3.5 py-3">
@@ -230,10 +230,10 @@ function PipelineRow() {
       {/* Station 2 */}
       <div className="flex grow basis-[0%] flex-col gap-3 rounded-[4px] border border-hairline bg-surface px-5 pb-4.5 pt-5">
         <div className="flex items-center justify-between">
-          <div className="font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">
+          <div className="font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">
             STATION 02 · DETERMINISTIC
           </div>
-          <div className="font-mono text-[9px] leading-3 tracking-[0.1em] text-ink-3">18 MS</div>
+          <div className="font-mono text-[10px] leading-3 tracking-[0.1em] text-ink-3">18 MS</div>
         </div>
         <div className="font-ui text-[18px] font-bold leading-5.5 tracking-[-0.01em] text-ink">Accounting checks</div>
         <div className="flex flex-col">
@@ -265,10 +265,10 @@ function PipelineRow() {
       {/* Station 3 */}
       <div className="flex grow basis-[0%] flex-col gap-3 rounded-[4px] border border-approval/24 bg-approval/5 px-5 pb-4.5 pt-5">
         <div className="flex items-center justify-between">
-          <div className="font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-approval">
+          <div className="font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-approval">
             STATION 03 · SEMANTIC
           </div>
-          <div className="font-mono text-[9px] leading-3 tracking-[0.1em] text-ink-3">214 MS</div>
+          <div className="font-mono text-[10px] leading-3 tracking-[0.1em] text-ink-3">214 MS</div>
         </div>
         <div className="font-ui text-[18px] font-bold leading-5.5 tracking-[-0.01em] text-ink">Narrow judgment</div>
         <div className="font-ui text-[12px] leading-4.25 text-ink-2">
@@ -287,7 +287,7 @@ function PipelineRow() {
         </div>
         <div className="mt-auto flex items-center gap-2">
           <div className="rounded-[2px] border border-approval/32 px-1.75 py-0.75">
-            <div className="font-mono text-[9px] font-medium leading-3 tracking-[0.12em] text-approval">
+            <div className="font-mono text-[10px] font-medium leading-3 tracking-[0.12em] text-approval">
               JEV · SYSTEM ONE
             </div>
           </div>
@@ -297,10 +297,10 @@ function PipelineRow() {
       {/* Station 4 */}
       <div className="flex grow basis-[0%] flex-col gap-3 rounded-[4px] border border-ink bg-surface px-5 pb-4.5 pt-5">
         <div className="flex items-center justify-between">
-          <div className="font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">
+          <div className="font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">
             STATION 04 · DETERMINISTIC
           </div>
-          <div className="font-mono text-[9px] leading-3 tracking-[0.1em] text-ink-3">44 MS</div>
+          <div className="font-mono text-[10px] leading-3 tracking-[0.1em] text-ink-3">44 MS</div>
         </div>
         <div className="font-ui text-[18px] font-bold leading-5.5 tracking-[-0.01em] text-ink">Policy holds it</div>
         <div className="flex w-fit items-center gap-2 rounded-[3px] border border-approval/30 bg-approval/8 px-2.5 py-1.25">
@@ -356,10 +356,10 @@ const HOW_IT_WORKS_STEPS = [
       "Trusted accounting facts are assembled first. Only where facts run out does Jev answer narrow, bounded questions — never open-ended speculation about the business.",
     right: (
       <div className="ml-auto flex items-center gap-2.5">
-        <span className="rounded-[2px] border border-hairline bg-surface px-2 py-0.75 font-mono text-[9px] font-medium leading-3 tracking-[0.1em] text-ink-2">
+        <span className="rounded-[2px] border border-hairline bg-surface px-2 py-0.75 font-mono text-[10px] font-medium leading-3 tracking-[0.1em] text-ink-2">
           FACTS · DETERMINISTIC
         </span>
-        <span className="rounded-[2px] border border-approval/30 bg-approval/6 px-2 py-0.75 font-mono text-[9px] font-medium leading-3 tracking-[0.1em] text-approval">
+        <span className="rounded-[2px] border border-approval/30 bg-approval/6 px-2 py-0.75 font-mono text-[10px] font-medium leading-3 tracking-[0.1em] text-approval">
           JUDGMENT · JEV
         </span>
       </div>
@@ -372,13 +372,13 @@ const HOW_IT_WORKS_STEPS = [
       "A deterministic policy engine weighs facts and signals into one of four outcomes. Same inputs, same verdict, every time — the reasoning is written down.",
     right: (
       <div className="ml-auto flex items-center gap-1.5">
-        <span className="font-mono text-[9px] font-semibold leading-3 tracking-[0.08em] text-allow">ALLOW</span>
+        <span className="font-mono text-[10px] font-semibold leading-3 tracking-[0.08em] text-allow">ALLOW</span>
         <span className="font-sans text-[10px] leading-3 text-ink-3">/</span>
-        <span className="font-mono text-[9px] font-semibold leading-3 tracking-[0.08em] text-approval">
+        <span className="font-mono text-[10px] font-semibold leading-3 tracking-[0.08em] text-approval">
           REQUIRE_APPROVAL
         </span>
         <span className="font-sans text-[10px] leading-3 text-ink-3">/</span>
-        <span className="font-mono text-[9px] font-semibold leading-3 tracking-[0.08em] text-context">
+        <span className="font-mono text-[10px] font-semibold leading-3 tracking-[0.08em] text-context">
           REQUEST_CONTEXT
         </span>
       </div>
@@ -395,11 +395,9 @@ function HowItWorks() {
           <h2 className="font-ui text-[34px] font-bold leading-10.5 tracking-[-0.02em] text-ink">
             Four stages between intent and money.
           </h2>
-          <div className="flex justify-end self-end text-right">
-            <div className="max-w-75 font-mono text-[9.5px] leading-3 tracking-[0.12em] text-ink-3">
-              FINANCIAL SAFEGUARDS ARE DETERMINISTIC · SEMANTIC JUDGMENTS STAY NARROW
-            </div>
-          </div>
+        </div>
+        <div className="max-w-75 self-end pb-1.5 text-right font-mono text-[9.5px] leading-3.5 tracking-[0.12em] text-ink-3">
+          FINANCIAL SAFEGUARDS ARE DETERMINISTIC · SEMANTIC JUDGMENTS STAY NARROW
         </div>
       </div>
 
@@ -429,25 +427,34 @@ function HowItWorks() {
             </svg>
           </div>
         ))}
-        {/* Step 04 — inverted */}
-        <div className="flex w-full flex-col gap-4 border-y border-ink bg-ink py-7.5 md:flex-row md:items-center md:gap-10">
-          <div className="w-16 shrink-0 font-mono text-[12px] font-semibold leading-4 tracking-[0.06em] text-paper/85">
+        {/* Step 04 — same row style as steps 01–03 */}
+        <div className="flex w-full flex-col gap-4 border-t border-hairline py-7 md:flex-row md:items-center md:gap-10">
+          <div className="w-16 shrink-0 font-mono text-[12px] font-semibold leading-4 tracking-[0.06em] text-ink-3">
             04
           </div>
-          <div className="w-full shrink-0 font-ui text-[21px] font-bold leading-6.5 tracking-[-0.015em] text-paper md:w-59">
+          <div className="w-full shrink-0 font-ui text-[21px] font-bold leading-6.5 tracking-[-0.015em] text-ink md:w-59">
             Action enforced
           </div>
-          <div className="grow basis-[0%] font-ui text-[14px] leading-5.25 text-paper/78">
+          <div className="grow basis-[0%] font-ui text-[14px] leading-5.25 text-ink-2">
             Approved actions execute through a guarded payment simulator. Everything else stops — and every decision,
             signal, and outcome is written to an audit ledger you can read.
           </div>
-          <div className="ml-auto flex items-center gap-2">
+          <div className="flex items-center gap-2">
             <span className="size-1.5 shrink-0 bg-allow" aria-hidden />
-            <span className="font-mono text-[9.5px] font-medium leading-3 tracking-[0.12em] text-paper">
+            <span className="font-mono text-[9.5px] font-medium leading-3 tracking-[0.12em] text-ink">
               SIMULATOR + PHOTON 2.0 ALERTS
             </span>
           </div>
-          <div className="w-3 shrink-0 max-md:hidden" aria-hidden />
+          <svg width="12" height="10" viewBox="0 0 12 10" className="inline-block shrink-0 opacity-55 max-md:hidden" aria-hidden>
+            <path
+              d="M1 5 H10 M6.5 1.5 L10 5 L6.5 8.5"
+              fill="none"
+              stroke="var(--color-ink-3)"
+              strokeWidth="1.3"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -484,7 +491,7 @@ function Capabilities() {
               reconciliations.
             </p>
             <div className="flex flex-wrap items-center gap-2.5">
-              <span className="font-mono text-[9px] font-medium leading-3 tracking-[0.12em] text-ink-3">DECISIONS</span>
+              <span className="font-mono text-[10px] font-medium leading-3 tracking-[0.12em] text-ink-3">DECISIONS</span>
               <span className="h-3.5 w-px shrink-0 bg-hairline" aria-hidden />
               <span className="font-mono text-[9.5px] font-semibold leading-3 tracking-[0.06em] text-allow">ALLOW</span>
               <span className="font-sans text-[11px] leading-3.5 text-ink-3">/</span>
@@ -498,7 +505,7 @@ function Capabilities() {
               <span className="font-sans text-[11px] leading-3.5 text-ink-3">/</span>
               <span className="font-mono text-[9.5px] font-semibold leading-3 tracking-[0.06em] text-block">BLOCK</span>
             </div>
-            <div className="w-fit font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">
+            <div className="w-fit font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">
               NO ACTION EXECUTES OUTSIDE THESE FOUR GATES
             </div>
           </div>
@@ -545,11 +552,11 @@ function Capabilities() {
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <span className="size-2 shrink-0 bg-approval" aria-hidden />
-                  <span className="font-mono text-[9px] font-semibold leading-3 tracking-[0.14em] text-paper">
+                  <span className="font-mono text-[10px] font-semibold leading-3 tracking-[0.14em] text-paper">
                     PHOTON 2.0 · ACTION ALERT — CONCEPT
                   </span>
                 </div>
-                <span className="font-mono text-[9px] leading-3 tracking-[0.08em] text-paper/55">14:02:45 UTC</span>
+                <span className="font-mono text-[10px] leading-3 tracking-[0.08em] text-paper/55">14:02:45 UTC</span>
               </div>
               <div className="font-ui text-[13.5px] font-semibold leading-4.75 text-paper">
                 Acme Supplies — $18,400.00 needs your approval
@@ -563,7 +570,7 @@ function Capabilities() {
                 <span className="border-b border-paper/40 pb-0.75 font-mono text-[9.5px] font-semibold leading-3 tracking-[0.1em] text-paper">
                   OPEN ACTION →
                 </span>
-                <span className="font-mono text-[9px] leading-3 tracking-[0.08em] text-paper/55">
+                <span className="font-mono text-[10px] leading-3 tracking-[0.08em] text-paper/55">
                   REPLY "APPROVE" · "REJECT"
                 </span>
               </div>
@@ -672,28 +679,28 @@ function PreviewSheet() {
               <span className="size-2.75 shrink-0 bg-ink" aria-hidden />
               <span className="font-ui text-[14px] font-bold leading-4.5 tracking-[-0.01em] text-ink">LedgerGuard</span>
               <span className="h-3.25 w-px shrink-0 bg-hairline" aria-hidden />
-              <span className="font-mono text-[8px] font-medium leading-2.5 tracking-[0.14em] text-ink-3">
+              <span className="font-mono text-[9px] font-medium leading-2.5 tracking-[0.14em] text-ink-3">
                 POLICY LEDGER · OCT 17
               </span>
             </div>
             <div className="flex items-center gap-2.25">
               <span className="size-1.5 shrink-0 rounded-full bg-allow" aria-hidden />
-              <span className="font-mono text-[8.5px] font-medium leading-3 tracking-[0.1em] text-ink-2">
+              <span className="font-mono text-[10px] font-medium leading-3 tracking-[0.1em] text-ink-2">
                 EVALUATOR LIVE
               </span>
             </div>
           </div>
-          <div className="flex w-fit gap-8.5 px-4 pb-4.5 pt-5.5 md:px-9">
+          <div className="flex flex-wrap gap-x-8.5 gap-y-4 px-4 pb-4.5 pt-5.5 md:flex-nowrap md:px-9">
             {[
               { label: "EVALUATED ACTIONS", value: "05", tone: "" },
               { label: "EXECUTED", value: "01", tone: "" },
               { label: "HELD FOR REVIEW", value: "03", tone: "" },
               { label: "BLOCKED", value: "01", tone: "text-block" },
             ].map((stat, index) => (
-              <div key={stat.label} className="flex items-stretch gap-8.5">
-                {index > 0 ? <span className="w-px shrink-0 bg-hairline" aria-hidden /> : null}
+              <div key={stat.label} className="flex items-stretch md:gap-8.5">
+                {index > 0 ? <span className="hidden w-px shrink-0 bg-hairline md:block" aria-hidden /> : null}
                 <div className="flex flex-col gap-1.75">
-                  <span className="font-mono text-[8px] font-medium leading-2.5 tracking-[0.14em] text-ink-3">
+                  <span className="font-mono text-[9px] font-medium leading-2.5 tracking-[0.14em] text-ink-3">
                     {stat.label}
                   </span>
                   <span
@@ -706,14 +713,14 @@ function PreviewSheet() {
                 </div>
               </div>
             ))}
-            <div className="grow basis-[0%]" aria-hidden />
-            <div className="flex flex-col items-end gap-1.75">
-              <span className="font-mono text-[8px] font-medium leading-2.5 tracking-[0.14em] text-ink-3">
+            <div className="hidden grow basis-[0%] md:block" aria-hidden />
+            <div className="flex flex-col gap-1.75 md:items-end">
+              <span className="font-mono text-[9px] font-medium leading-2.5 tracking-[0.14em] text-ink-3">
                 P50 PROVIDER LATENCY
               </span>
               <span className="flex items-baseline gap-1.25">
                 <span className="font-mono text-[30px] font-semibold leading-7.5 tracking-[-0.02em] text-ink">38</span>
-                <span className="font-mono text-[9px] leading-3 text-ink-3">ms</span>
+                <span className="font-mono text-[10px] leading-3 text-ink-3">ms</span>
               </span>
             </div>
           </div>
@@ -723,7 +730,7 @@ function PreviewSheet() {
                 (heading, index) => (
                   <div
                     key={heading}
-                    className={`font-mono text-[7.5px] font-medium leading-2.5 tracking-[0.14em] text-ink-3 ${
+                    className={`font-mono text-[9px] font-medium leading-2.5 tracking-[0.14em] text-ink-3 ${
                       index === 0
                         ? "w-37.5 shrink-0"
                         : index === 1
@@ -754,13 +761,13 @@ function PreviewSheet() {
                     className={`inline-flex items-center gap-1.75 rounded-[2px] border px-2 py-1 ${toneClass[row.badge.tone]}`}
                   >
                     <span className={`size-1.25 shrink-0 rounded-full ${dotClass[row.badge.tone]}`} aria-hidden />
-                    <span className="font-mono text-[8.5px] font-semibold leading-3 tracking-[0.06em]">
+                    <span className="font-mono text-[10px] font-semibold leading-3 tracking-[0.06em]">
                       {row.badge.label}
                     </span>
                   </span>
                 </div>
                 <div className="flex w-47.5 shrink-0 flex-col gap-0.5">
-                  <span className="font-mono text-[7px] leading-2.5 tracking-[0.1em] text-ink-3">{row.id}</span>
+                  <span className="font-mono text-[9px] leading-2.5 tracking-[0.1em] text-ink-3">{row.id}</span>
                   <span className="font-ui text-[12.5px] font-medium leading-4 text-ink">{row.vendor}</span>
                 </div>
                 <div className="w-27.5 shrink-0 text-right font-mono text-[12.5px] font-semibold leading-4 text-ink">
@@ -768,7 +775,7 @@ function PreviewSheet() {
                 </div>
                 <div className="grow basis-[0%] font-ui text-[11.5px] leading-3.5 text-ink-2">{row.reason}</div>
                 <div
-                  className={`w-27.5 shrink-0 font-mono text-[9px] font-medium leading-3 tracking-[0.06em] ${
+                  className={`w-27.5 shrink-0 font-mono text-[10px] font-medium leading-3 tracking-[0.06em] ${
                     row.execution === "EXECUTED" ? "text-ink-2" : "text-ink-3"
                   }`}
                 >
@@ -780,10 +787,10 @@ function PreviewSheet() {
               </div>
             ))}
             <div className="flex h-9.5 shrink-0 items-center justify-between px-4 md:px-9">
-              <span className="font-mono text-[7.5px] leading-2.5 tracking-[0.12em] text-ink-3">
+              <span className="font-mono text-[9px] leading-2.5 tracking-[0.12em] text-ink-3">
                 SOURCE FACTS · QUICKBOOKS SPONSOR DATASET + DISCLOSED OVERLAYS
               </span>
-              <Link to="/dashboard" className="font-mono text-[7.5px] font-medium leading-2.5 tracking-[0.12em] text-ink-2">
+              <Link to="/dashboard" className="font-mono text-[9px] font-medium leading-2.5 tracking-[0.12em] text-ink-2">
                 OPEN IN DEMO →
               </Link>
             </div>
@@ -831,7 +838,7 @@ function FinalCta() {
             />
           </svg>
         </Link>
-        <span className="font-mono text-[9px] leading-3 tracking-[0.12em] text-ink-3">
+        <span className="font-mono text-[10px] leading-3 tracking-[0.12em] text-ink-3">
           THE DEMO RUNS ON THE LIVE BACKEND ONCE IT IS STARTED
         </span>
       </div>
@@ -853,14 +860,14 @@ function LandingFooter() {
             trusted records, the user's own instructions, and narrow semantic judgments — then a deterministic policy
             decides what money may do.
           </p>
-          <div className="font-mono text-[9px] leading-3 tracking-[0.14em] text-ink-3">
+          <div className="font-mono text-[10px] leading-3 tracking-[0.14em] text-ink-3">
             EVALUATE FIRST · EXECUTE IN A SIMULATOR · LOG EVERYTHING
           </div>
         </div>
         <div className="grow basis-[0%]" aria-hidden />
         <div className="flex flex-col gap-10 sm:flex-row lg:gap-18">
           <div className="flex flex-col gap-3.5">
-            <div className="font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">PAGE</div>
+            <div className="font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">PAGE</div>
             <a href="#how-it-works" className="font-ui text-[13px] font-medium leading-4 text-ink-2 hover:text-ink">
               How it works
             </a>
@@ -872,24 +879,24 @@ function LandingFooter() {
             </Link>
           </div>
           <div className="flex flex-col gap-3.5">
-            <div className="font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">SYSTEM</div>
+            <div className="font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">SYSTEM</div>
             <span className="font-mono text-[10.5px] leading-3.5 text-ink-2">Policy engine v1</span>
             <span className="font-mono text-[10.5px] leading-3.5 text-ink-2">Jev semantic layer</span>
             <span className="font-mono text-[10.5px] leading-3.5 text-ink-2">Guarded payment simulator</span>
             <span className="font-mono text-[10.5px] leading-3.5 text-ink-2">Photon alerts — separate workstream</span>
           </div>
           <div className="flex flex-col gap-3.5">
-            <div className="font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">PROJECT</div>
+            <div className="font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">PROJECT</div>
             <span className="font-mono text-[10.5px] leading-3.5 text-ink-2">LA Hacks 2026</span>
             <span className="font-mono text-[10.5px] leading-3.5 text-ink-2">Built as a hack — no claims implied</span>
           </div>
         </div>
       </div>
       <div className="flex shrink-0 flex-col gap-2 border-t border-hairline px-6 py-3 md:h-13 md:flex-row md:items-center md:justify-between md:px-12 md:py-0">
-        <span className="font-mono text-[9px] leading-3 tracking-[0.12em] text-ink-3">
+        <span className="font-mono text-[10px] leading-3 tracking-[0.12em] text-ink-3">
           © 2026 LEDGERGUARD · A LA HACKS PROJECT · ILLUSTRATIVE FIXTURES THROUGHOUT
         </span>
-        <span className="font-mono text-[9px] leading-3 tracking-[0.1em] text-ink-3">
+        <span className="font-mono text-[10px] leading-3 tracking-[0.1em] text-ink-3">
           DECISIONS · ALLOW / REQUIRE_APPROVAL / REQUEST_CONTEXT / BLOCK
         </span>
       </div>

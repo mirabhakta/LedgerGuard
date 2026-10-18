@@ -2,7 +2,7 @@ import type { ButtonHTMLAttributes, ReactNode } from "react";
 
 export function MonoLabel({ children, className = "" }: { children: ReactNode; className?: string }) {
   return (
-    <span className={`font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3 ${className}`}>
+    <span className={`font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3 ${className}`}>
       {children}
     </span>
   );

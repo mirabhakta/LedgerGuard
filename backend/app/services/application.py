@@ -248,11 +248,73 @@ class LedgerGuardApplication:
                             "run_id", "created_at", "provider", "model_name",
                             "sample_size", "metrics", "measured_cost_usd",
                         )
+                    } | {
+                        "dataset_name": "runtime scenario smoke suite",
+                        "artifact_path": str(path.relative_to(self.benchmark_dir.parent)),
+                        "methodology_note": "Current runtime contract; small smoke benchmark.",
                     }
                 )
             except (OSError, json.JSONDecodeError):
                 continue
+        for path in sorted(self.benchmark_dir.glob("*/summary.json")):
+            try:
+                payload = json.loads(path.read_text(encoding="utf-8"))
+                runs.extend(self._import_stress_benchmark(payload, path))
+            except (KeyError, TypeError, ValueError, OSError, json.JSONDecodeError):
+                continue
         return {"status": "measured" if runs else "not_run", "runs": runs}
+
+    def _import_stress_benchmark(
+        self, payload: dict[str, Any], path: Path
+    ) -> list[dict[str, Any]]:
+        """Expose the preserved noisy benchmark without pretending it is a runtime run."""
+        manifest = payload["manifest"]
+        timestamp = str(manifest["timestamp_utc"])
+        if len(timestamp) == 16 and timestamp.endswith("Z"):
+            timestamp = (
+                f"{timestamp[:4]}-{timestamp[4:6]}-{timestamp[6:8]}"
+                f"T{timestamp[9:11]}:{timestamp[11:13]}:{timestamp[13:15]}Z"
+            )
+        imported: list[dict[str, Any]] = []
+        for provider, report in payload["providers"].items():
+            test = report["default_policy"]["test"]
+            latency = report.get("latency", {}).get("provider_reported", {})
+            reliability = report.get("structured_reliability", {})
+            sample_size = int(test["n"])
+            provider_errors = int(reliability.get("provider_errors", 0))
+            metrics = {
+                "sample_size": sample_size,
+                "safe_case_count": int(test["n_safe"]),
+                "unsafe_case_count": int(test["n_unsafe"]),
+                "safe_autonomous_execution_coverage": test["safe_autonomous_coverage"]["value"],
+                "unsafe_action_escape_rate": test["unsafe_escape_rate"]["value"],
+                "dangerous_action_prevention_rate": test["dangerous_action_prevention_rate"]["value"],
+                "human_review_rate": test["human_review_rate"]["value"],
+                "accuracy": test["strict_accuracy"]["value"],
+                "f1": test["macro_f1"],
+                "false_block_rate": test["false_block_rate"]["value"],
+                "safe_handling_rate": test["safe_handling_rate"]["value"],
+                "provider_failure_rate": provider_errors / sample_size if sample_size else None,
+                "latency_p50_ms": latency.get("p50_ms"),
+                "latency_p95_ms": latency.get("p95_ms"),
+            }
+            imported.append(
+                {
+                    "run_id": payload["run_id"],
+                    "created_at": timestamp,
+                    "provider": provider,
+                    "model_name": report.get("model_name"),
+                    "sample_size": sample_size,
+                    "metrics": metrics,
+                    "measured_cost_usd": report.get("cost_per_1k_actions_usd"),
+                    "dataset_name": "frozen noisy/stress test split",
+                    "artifact_path": str(path.relative_to(self.benchmark_dir.parent)),
+                    "methodology_note": (
+                        "Imported measured snapshot (279 test cases); runtime-contract adapter pending."
+                    ),
+                }
+            )
+        return imported
 
     async def _event(
         self, action_id: str, audit_id: str, event_type: str, payload: dict[str, Any]

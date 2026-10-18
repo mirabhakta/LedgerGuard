@@ -234,6 +234,9 @@ export interface BenchmarkRun {
   sample_size: number | null;
   metrics: Record<string, DecimalValue | null> | null;
   measured_cost_usd: number | null;
+  dataset_name?: string | null;
+  artifact_path?: string | null;
+  methodology_note?: string | null;
 }
 
 export interface BenchmarksResponse {

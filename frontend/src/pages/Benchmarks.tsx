@@ -86,8 +86,10 @@ function RunBlock({ run }: { run: BenchmarkRun }) {
         </div>
         <span className="hidden w-px shrink-0 self-stretch bg-hairline md:block" aria-hidden />
         <div className="flex flex-col gap-1.75">
-          <MonoLabel>ARTIFACT</MonoLabel>
-          <span className="font-mono text-[12px] font-medium leading-4 text-ink">evaluation/results/*.json</span>
+          <MonoLabel>DATASET · ARTIFACT</MonoLabel>
+          <span className="font-mono text-[12px] font-medium leading-4 text-ink">
+            {run.dataset_name ?? "dataset not recorded"} · {run.artifact_path ?? "evaluation/results/*.json"}
+          </span>
         </div>
       </div>
 
@@ -95,7 +97,7 @@ function RunBlock({ run }: { run: BenchmarkRun }) {
       <div className="flex shrink-0 flex-col gap-6 px-6 pb-6 pt-7 md:flex-row md:items-start md:justify-between md:px-12">
         <div className="flex flex-col gap-2">
           <MonoLabel>DANGEROUS ACTION PREVENTION RATE</MonoLabel>
-          <span className="font-mono text-[60px] font-semibold leading-16 tracking-[-0.03em] text-allow">
+          <span className="font-mono text-[60px] font-semibold leading-16 tracking-[-0.03em] text-ink">
             {hero !== undefined && hero !== null ? formatMetricValue(hero, HERO_KEY) : "—"}
           </span>
           <span className="font-mono text-[10px] leading-3.5 tracking-[0.08em] text-ink-3">
@@ -127,6 +129,12 @@ function RunBlock({ run }: { run: BenchmarkRun }) {
           </span>
         </div>
       </div>
+
+      {run.methodology_note ? (
+        <div className="mx-6 mt-5 border border-hairline bg-ink/3 px-4 py-3 font-mono text-[10px] leading-4 tracking-[0.06em] text-ink-2 md:mx-12">
+          {run.methodology_note.toUpperCase()}
+        </div>
+      ) : null}
 
       {/* Metric grid */}
       {gridCells.length > 0 ? (
@@ -182,7 +190,11 @@ function modelLabel(provider: string | null | undefined): string {
 
 function runLabel(run: BenchmarkRun): string {
   const sample = run.sample_size === null || run.sample_size === undefined ? "sample n/a" : `${run.sample_size} scenarios`;
-  return `${modelLabel(run.provider)} · ${run.model_name ?? "model n/a"} · ${sample}`;
+  return `${modelLabel(run.provider)} · ${run.model_name ?? "model n/a"} · ${sample} · ${run.dataset_name ?? "dataset n/a"}`;
+}
+
+function runKey(run: BenchmarkRun): string {
+  return [run.run_id ?? "run", run.provider ?? "provider", run.model_name ?? "model", run.dataset_name ?? "dataset"].join("::");
 }
 
 export function BenchmarksPage() {
@@ -206,7 +218,7 @@ export function BenchmarksPage() {
   }, [runs]);
 
   const selected =
-    options.measured.find((run) => run.run_id === selectedId) ?? options.measured[0] ?? null;
+    options.measured.find((run) => runKey(run) === selectedId) ?? options.measured[0] ?? null;
   const showingMissing = selectedId !== null && selectedId.startsWith("missing:");
   const missingProvider = showingMissing ? selectedId.slice("missing:".length) : null;
 
@@ -248,12 +260,12 @@ export function BenchmarksPage() {
                 <MonoLabel>MODEL</MonoLabel>
                 <select
                   id="benchmark-model"
-                  value={showingMissing ? selectedId ?? "" : (selected?.run_id ?? "")}
+                  value={showingMissing ? selectedId ?? "" : (selected ? runKey(selected) : "")}
                   onChange={(event) => setSelectedId(event.target.value)}
                   className="h-10 w-full max-w-[520px] rounded-[3px] border border-hairline bg-surface px-3 font-mono text-[12px] text-ink"
                 >
                   {options.measured.map((run) => (
-                    <option key={run.run_id ?? runLabel(run)} value={run.run_id ?? ""}>
+                    <option key={runKey(run)} value={runKey(run)}>
                       {runLabel(run)}
                     </option>
                   ))}
@@ -286,16 +298,16 @@ export function BenchmarksPage() {
                   </thead>
                   <tbody>
                     {options.measured.map((run) => {
-                      const active = run.run_id === selected?.run_id && !showingMissing;
+                      const active = runKey(run) === (selected ? runKey(selected) : null) && !showingMissing;
                       return (
                         <tr
-                          key={run.run_id ?? runLabel(run)}
+                          key={runKey(run)}
                           className={active ? "bg-ink/3" : "hover:bg-ink/3"}
                         >
                           <td className="px-4 py-3">
                             <button
                               type="button"
-                              onClick={() => setSelectedId(run.run_id)}
+                              onClick={() => setSelectedId(runKey(run))}
                               className="whitespace-nowrap text-left font-mono text-[12px] font-medium text-ink"
                             >
                               {modelLabel(run.provider)} · {run.model_name ?? "—"}
@@ -328,7 +340,7 @@ export function BenchmarksPage() {
                 />
               </div>
             ) : selected ? (
-              <RunBlock key={selected.run_id ?? "run"} run={selected} />
+              <RunBlock key={runKey(selected)} run={selected} />
             ) : null}
           </div>
         )}

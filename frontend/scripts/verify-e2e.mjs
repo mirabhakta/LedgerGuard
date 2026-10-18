@@ -46,6 +46,18 @@ const browser = await chromium.launch({ executablePath, headless: true });
 const context = await browser.newContext({ viewport: { width: 1440, height: 900 } });
 const page = await context.newPage();
 
+/* ---------- 0. Benchmarks: largest noisy run is the default ---------- */
+await page.goto(`${baseUrl}/benchmarks`, { waitUntil: "domcontentloaded" });
+await page.waitForSelector("text=IMPORTED MEASURED SNAPSHOT", { timeout: 15_000 });
+const benchmarkText = await page.locator("body").innerText();
+check(
+  "benchmarks · noisy Rules run replaces the 100% smoke result",
+  benchmarkText.includes("279 scenarios") &&
+    benchmarkText.includes("73.8%") &&
+    benchmarkText.includes("32.8%"),
+);
+await page.screenshot({ path: join(outputDir, "09-benchmarks-noisy-rules.png") });
+
 /* ---------- 1. Live demo: BLOCK path ---------- */
 await page.goto(`${baseUrl}/demo`, { waitUntil: "domcontentloaded" });
 await page.waitForSelector("text=CHOOSE A SCENARIO");
@@ -70,12 +82,13 @@ check("api · destination-change awaits review", runApproval.body.policy_decisio
 
 await page.goto(`${baseUrl}/review`, { waitUntil: "domcontentloaded" });
 await page.waitForSelector("text=Review queue");
-const row = page.locator("button", { hasText: approvalId }).first();
+const row = page.locator(`button:has([title="${approvalId}"])`).first();
 await row.click();
 await page.waitForSelector("text=ORIGINAL INSTRUCTION", { timeout: 15_000 });
 await page.screenshot({ path: join(outputDir, "11-drawer-approval.png") });
 await page.getByRole("button", { name: /Approve & execute/ }).click();
-await page.waitForSelector("text=SIMULATED EXECUTION", { timeout: 30_000 });
+await page.getByRole("button", { name: /Confirm approve/ }).click();
+await page.waitForSelector("text=SIMULATED EXECUTION COMPLETE", { timeout: 30_000 });
 check("ui · approve executes through the simulator", true);
 await page.screenshot({ path: join(outputDir, "12-drawer-approved.png") });
 const approvedDetail = await api(`/api/actions/${approvalId}`);
@@ -96,7 +109,7 @@ check("api · missing-context asks for context", runContext.body.policy_decision
 
 await page.goto(`${baseUrl}/review?tab=context`, { waitUntil: "domcontentloaded" });
 await page.waitForSelector("text=REQUEST CONTEXT");
-const contextRow = page.locator("button", { hasText: contextId }).first();
+const contextRow = page.locator(`button:has([title="${contextId}"])`).first();
 await contextRow.click();
 await page.waitForSelector("text=SUPPLY MISSING CONTEXT · SUPPORTED FIELDS ONLY", { timeout: 15_000 });
 await page.locator('input[placeholder="value"]').fill("vend-supplier");

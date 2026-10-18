@@ -116,6 +116,9 @@ class BenchmarkRunResponse(BaseModel):
     sample_size: int | None
     metrics: dict[str, Any] | None
     measured_cost_usd: float | None
+    dataset_name: str | None = None
+    artifact_path: str | None = None
+    methodology_note: str | None = None
 
 
 class BenchmarksResponse(BaseModel):

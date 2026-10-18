@@ -92,6 +92,13 @@ export function formatMetricValue(value: DecimalValue | null | undefined, key: s
   if (key.includes("latency")) {
     return numeric < 1 ? `${numeric.toFixed(2)} ms` : `${Math.round(numeric)} ms`;
   }
+  if (
+    key.endsWith("_rate") ||
+    key.endsWith("_coverage") ||
+    ["accuracy", "precision", "recall", "f1", "macro_f1"].includes(key)
+  ) {
+    return `${(numeric * 100).toFixed(1)}%`;
+  }
   if (Number.isInteger(numeric) && Math.abs(numeric) >= 1000) return String(numeric);
   if (Number.isInteger(numeric) && key.includes("count")) return String(numeric);
   return numeric.toFixed(2);

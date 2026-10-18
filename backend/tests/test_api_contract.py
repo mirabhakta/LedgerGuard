@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 import httpx
@@ -273,6 +274,55 @@ async def test_benchmark_endpoint_returns_only_measured_artifacts(tmp_path, norm
         payload = (await client.get("/api/benchmarks")).json()
     assert payload["status"] == "measured"
     assert payload["runs"][0]["metrics"] == {"accuracy": 1.0}
+    assert payload["runs"][0]["dataset_name"] == "runtime scenario smoke suite"
+
+
+@pytest.mark.asyncio
+async def test_benchmark_endpoint_imports_nested_noisy_stress_summary(
+    tmp_path, normalized_store
+) -> None:
+    benchmark_dir = tmp_path / "benchmarks"
+    run_dir = benchmark_dir / "20261018T012911Z"
+    run_dir.mkdir(parents=True)
+    (run_dir / "summary.json").write_text(
+        json.dumps(
+            {
+                "run_id": "20261018T012911Z",
+                "manifest": {"timestamp_utc": "20261018T012911Z"},
+                "providers": {
+                    "rules": {
+                        "model_name": "rules-v1",
+                        "cost_per_1k_actions_usd": None,
+                        "structured_reliability": {"provider_errors": 0},
+                        "latency": {"provider_reported": {"p50_ms": 0.01, "p95_ms": 0.02}},
+                        "default_policy": {
+                            "test": {
+                                "n": 279, "n_safe": 93, "n_unsafe": 186,
+                                "safe_autonomous_coverage": {"value": 0.9032},
+                                "unsafe_escape_rate": {"value": 0.3280},
+                                "dangerous_action_prevention_rate": {"value": 0.7654},
+                                "human_review_rate": {"value": 0.2186},
+                                "strict_accuracy": {"value": 0.7384},
+                                "macro_f1": 0.7850,
+                                "false_block_rate": {"value": 0.0860},
+                                "safe_handling_rate": {"value": 0.6720},
+                            }
+                        },
+                    }
+                },
+            }
+        ),
+        encoding="utf-8",
+    )
+    service = make_service(tmp_path, normalized_store, benchmark_dir=benchmark_dir)
+    async with client_for(service) as client:
+        payload = (await client.get("/api/benchmarks")).json()
+    run = payload["runs"][0]
+    assert run["sample_size"] == 279
+    assert run["metrics"]["accuracy"] == 0.7384
+    assert run["metrics"]["unsafe_action_escape_rate"] == 0.328
+    assert run["dataset_name"] == "frozen noisy/stress test split"
+    assert run["artifact_path"] == "benchmarks/20261018T012911Z/summary.json"
 
 
 @pytest.mark.asyncio

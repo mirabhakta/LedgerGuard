@@ -4,29 +4,34 @@ LedgerGuard iMessage bot (Photon 2.0 beta, shared iMessage line).
 What it does
 - Runs continuously and polls Photon for new iMessages.
 - Only listens to the configured owner number (PHOTON_TEST_SENDER).
-- Understands a few commands:
-    "pay today's bills"   -> runs the LedgerGuard check on today's bills
+- Commands (case-insensitive):
+    "pay today's bills"   -> runs the hero scenarios through LedgerGuard
+    "run <scenario_id>"   -> runs one named scenario
+    "scenarios"           -> lists available scenarios
     "approve" / "yes"     -> approves the payment waiting for review
     "reject" / "no"       -> rejects the payment waiting for review
     "status"              -> shows what is waiting for review
     anything else         -> shows help
 
 Backend
-- By default it uses MOCK results (the 3 hero cases) so we can test
-  the iMessage flow before the backend is ready.
-- When the backend is ready, set LEDGERGUARD_API_URL and fill in
-  run_bills_backend() and resolve_backend() below.
+- Default: real LedgerGuard backend at http://127.0.0.1:8000/api (see docs/API_HANDOFF.md).
+- Set LEDGERGUARD_MOCK=1 to use built-in mock results instead (for testing without the backend).
+- Set LEDGERGUARD_PROVIDER to rules | gemini | system_one (default: system_one).
 
-Lessons from the ping test
+Notes
+- The iMessage text only chooses which pre-built scenario to run. It does not change the
+  scenario's data or the owner's constraints. Decisions come from the backend pipeline.
 - Do NOT use parentMessageId (shared lines reject threaded replies).
-- iPhone capitalizes the first letter, so all matching is lowercase.
+- The bot never executes payments itself. On any error it tells the owner nothing was sent.
 """
 
 import os
 import sys
 import time
 from datetime import datetime, timedelta, timezone
+from decimal import Decimal, InvalidOperation
 
+import httpx
 from photon_api import ApiError, Photon
 from photon_api.generated.models import (
     SendMessageRequest,
@@ -42,6 +47,22 @@ from photon_api.rpc_generated import (
 )
 
 POLL_SECONDS = 2.0
+ACTOR = "owner_via_imessage"
+
+ALL_SCENARIOS = [
+    "safe-normal-payment-001",
+    "semantic-duplicate-001",
+    "destination-change-001",
+    "missing-context-001",
+    "goal-mismatch-001",
+    "high-amount-plausible-001",
+]
+# The three hero cases from the spec: Adobe (ALLOW), AWS (duplicate), Acme (destination change)
+HERO_SCENARIOS = [
+    "safe-normal-payment-001",
+    "semantic-duplicate-001",
+    "destination-change-001",
+]
 
 
 # ---------------------------------------------------------------------------
@@ -58,57 +79,103 @@ def configuration():
         "project": os.environ["PHOTON_PROJECT_ID"],
         "agent": os.environ["PHOTON_AGENT_HANDLE"],
         "owner": os.environ["PHOTON_TEST_SENDER"],
-        "backend": os.environ.get("LEDGERGUARD_API_URL"),  # optional
+        "api": os.environ.get("LEDGERGUARD_API_URL", "http://127.0.0.1:8000/api").rstrip("/"),
+        "provider": os.environ.get("LEDGERGUARD_PROVIDER", "system_one"),
+        "mock": os.environ.get("LEDGERGUARD_MOCK") == "1",
     }
 
 
 # ---------------------------------------------------------------------------
-# LedgerGuard side (mock for now)
+# Result shape used by the bot (same for mock and backend)
+#   {"id", "vendor", "amount", "decision", "reasons", "assessment_hash", "latency_ms"}
 # ---------------------------------------------------------------------------
 
-# Actions waiting for the owner's decision: action_id -> description
+# Actions waiting for the owner's decision: action_id -> result dict
 pending = {}
 
 
-def run_bills_mock():
-    """MOCK DATA. Mirrors the 3 hero cases from the spec. Not real results."""
-    results = [
-        {"id": "act_adobe", "vendor": "Adobe", "amount": 149, "decision": "ALLOW",
-         "reason": "routine payment"},
-        {"id": "act_aws", "vendor": "AWS", "amount": 4210, "decision": "BLOCK",
-         "reason": "looks like the $4,206 bill recorded 2 days ago"},
-        {"id": "act_acme", "vendor": "Acme Supplies", "amount": 18400, "decision": "REQUIRE_APPROVAL",
-         "reason": "bank account changed yesterday"},
-    ]
-    return results
+# ----- Mock (only when LEDGERGUARD_MOCK=1) ---------------------------------
+
+def run_scenario_mock(scenario_id, run_key):
+    """MOCK DATA. Not real LedgerGuard results."""
+    table = {
+        "safe-normal-payment-001": ("Adobe", "149", "ALLOW", ["POLICY_ALLOW"]),
+        "semantic-duplicate-001": ("AWS", "4210", "BLOCK", ["DUPLICATE_OBLIGATION"]),
+        "destination-change-001": ("Acme Supplies", "18400", "REQUIRE_APPROVAL", ["COUNTERPARTY_CHANGE"]),
+    }
+    vendor, amount, decision, reasons = table.get(
+        scenario_id, ("Unknown vendor", "0", "REQUIRE_APPROVAL", ["MOCK_UNKNOWN_SCENARIO"]))
+    return {"id": f"mock_{scenario_id}_{run_key}", "vendor": vendor, "amount": amount,
+            "decision": decision, "reasons": reasons, "assessment_hash": None, "latency_ms": None}
 
 
-def resolve_mock(action_id, approved):
-    """MOCK. Pretends the backend recorded the decision."""
-    return {"action_id": action_id, "status": "executed" if approved else "rejected"}
+# ----- Real backend ----------------------------------------------------------
+
+def find_key(obj, key):
+    """Return the first value for `key` anywhere inside a nested dict/list."""
+    if isinstance(obj, dict):
+        if key in obj and obj[key] is not None:
+            return obj[key]
+        for v in obj.values():
+            found = find_key(v, key)
+            if found is not None:
+                return found
+    elif isinstance(obj, list):
+        for v in obj:
+            found = find_key(v, key)
+            if found is not None:
+                return found
+    return None
 
 
-def run_bills_backend(base_url):
-    """TODO: call the real backend. Ask Yizhe for the exact request/response schema.
-    Expected to return a list like run_bills_mock()."""
-    raise NotImplementedError("Backend not connected yet")
+def to_result(data):
+    """Turn an ActionDetailResponse into the bot's result shape."""
+    action = data.get("action") or {}
+    policy = data.get("policy_decision") or {}
+    decision = policy.get("final_action") or data.get("final_action") or "REQUIRE_APPROVAL"
+    vendor = (action.get("vendor_name") or action.get("counterparty_name")
+              or action.get("vendor_id") or action.get("counterparty_id") or "Unknown vendor")
+    reasons = data.get("reason_codes") or policy.get("reason_codes") or []
+    return {
+        "id": data["action_id"],
+        "vendor": vendor,
+        "amount": action.get("amount", "0"),
+        "decision": decision,
+        "reasons": reasons,
+        "assessment_hash": find_key(data, "assessment_hash"),
+        "latency_ms": data.get("latency_ms"),
+    }
 
 
-def resolve_backend(base_url, action_id, approved):
-    """TODO: POST /api/actions/{action_id}/resolve on the real backend."""
-    raise NotImplementedError("Backend not connected yet")
+def run_scenario_backend(c, http, scenario_id, run_key):
+    body = {
+        "scenario_id": scenario_id,
+        "provider": c["provider"],
+        "idempotency_key": f"imsg-{run_key}-{scenario_id}"[:128],
+    }
+    r = http.post(f"{c['api']}/demo/run", json=body)
+    r.raise_for_status()
+    return to_result(r.json())
 
 
-def run_bills(c):
-    return run_bills_backend(c["backend"]) if c["backend"] else run_bills_mock()
+def resolve_backend(c, http, item, approved):
+    body = {"resolution": "approve" if approved else "reject", "actor": ACTOR}
+    if item.get("assessment_hash"):
+        body["assessment_hash"] = item["assessment_hash"]
+    r = http.post(f"{c['api']}/actions/{item['id']}/resolve", json=body)
+    r.raise_for_status()
+    return r.json()
 
 
-def resolve(c, action_id, approved):
-    return resolve_backend(c["backend"], action_id, approved) if c["backend"] else resolve_mock(action_id, approved)
+def backend_healthy(c, http):
+    try:
+        return http.get(f"{c['api']}/health").status_code == 200
+    except httpx.HTTPError:
+        return False
 
 
 # ---------------------------------------------------------------------------
-# Turning LedgerGuard results into iMessage text
+# Turning results into iMessage text
 # ---------------------------------------------------------------------------
 
 ICONS = {"ALLOW": "✅", "REQUIRE_APPROVAL": "⚠️", "REQUEST_CONTEXT": "❓", "BLOCK": "⛔"}
@@ -118,24 +185,46 @@ HELP_TEXT = (
     "Try:\n"
     "• \"Pay today's bills\"\n"
     "• \"Approve\" or \"Reject\"\n"
-    "• \"Status\""
+    "• \"Status\"\n"
+    "• \"Scenarios\" or \"Run goal-mismatch-001\""
 )
 
 
+def money(amount):
+    try:
+        return f"${Decimal(str(amount)):,.2f}".replace(".00", "")
+    except (InvalidOperation, ValueError):
+        return f"${amount}"
+
+
+def reason_text(codes):
+    codes = [c for c in codes if c != "POLICY_ALLOW"]
+    if not codes:
+        return ""
+    return ", ".join(c.replace("_", " ").lower() for c in codes[:2])
+
+
+def format_line(r):
+    icon = ICONS.get(r["decision"], "•")
+    why = reason_text(r["reasons"])
+    why = f" ({why})" if why else ""
+    label = {
+        "ALLOW": "approved by policy",
+        "BLOCK": "blocked",
+        "REQUIRE_APPROVAL": "on hold for you",
+        "REQUEST_CONTEXT": "needs more info",
+    }.get(r["decision"], r["decision"].lower())
+    return f"{icon} {r['vendor']} {money(r['amount'])} {label}{why}"
+
+
 def format_results(results):
-    lines = ["Here's what happened with today's bills:", ""]
-    for r in results:
-        icon = ICONS.get(r["decision"], "•")
-        if r["decision"] == "ALLOW":
-            lines.append(f"{icon} {r['vendor']} ${r['amount']:,} paid ({r['reason']})")
-        elif r["decision"] == "BLOCK":
-            lines.append(f"{icon} {r['vendor']} ${r['amount']:,} blocked. It {r['reason']}.")
-        elif r["decision"] == "REQUIRE_APPROVAL":
-            lines.append(f"{icon} {r['vendor']} ${r['amount']:,} is on hold. The {r['reason']}.")
-        else:
-            lines.append(f"{icon} {r['vendor']} ${r['amount']:,} needs more info. {r['reason']}.")
-    if pending:
+    lines = ["LedgerGuard checked today's bills:", ""]
+    lines += [format_line(r) for r in results]
+    if any(r["decision"] == "REQUIRE_APPROVAL" for r in results):
         lines += ["", "Please confirm with the vendor using a number you trust, then reply APPROVE or REJECT."]
+    if any(r["decision"] == "REQUEST_CONTEXT" for r in results):
+        lines += ["", "Some bills need more details. Please add them in the LedgerGuard dashboard."]
+    lines += ["", "No real money moves in this demo."]
     return "\n".join(lines)
 
 
@@ -143,42 +232,59 @@ def format_results(results):
 # Deciding what to reply
 # ---------------------------------------------------------------------------
 
-def handle(c, text):
-    t = text.strip().lower()
+def run_scenarios(c, http, scenario_ids, run_key):
+    results = []
+    for sid in scenario_ids:
+        r = run_scenario_mock(sid, run_key) if c["mock"] else run_scenario_backend(c, http, sid, run_key)
+        results.append(r)
+        if r["decision"] == "REQUIRE_APPROVAL":
+            pending[r["id"]] = r
+    return results
+
+
+def handle(c, http, text, run_key):
+    t = text.strip().lower().replace("’", "'")
 
     if "pay" in t and "bill" in t:
-        results = run_bills(c)
         pending.clear()
-        for r in results:
-            if r["decision"] in ("REQUIRE_APPROVAL", "REQUEST_CONTEXT"):
-                pending[r["id"]] = f"{r['vendor']} ${r['amount']:,}"
-        return format_results(results)
+        return format_results(run_scenarios(c, http, HERO_SCENARIOS, run_key))
+
+    if t.startswith("run "):
+        sid = t[4:].strip()
+        if sid not in ALL_SCENARIOS:
+            return "I don't know that scenario. Text \"Scenarios\" to see the list."
+        return format_results(run_scenarios(c, http, [sid], run_key))
+
+    if t == "scenarios":
+        return "Available scenarios:\n" + "\n".join(f"• {s}" for s in ALL_SCENARIOS)
 
     if t in ("approve", "approved", "yes", "y"):
-        return decide(c, approved=True)
+        return decide(c, http, approved=True)
 
     if t in ("reject", "rejected", "no", "n"):
-        return decide(c, approved=False)
+        return decide(c, http, approved=False)
 
     if t == "status":
         if not pending:
             return "Nothing is waiting for your review."
-        items = "\n".join(f"⚠️ {desc}" for desc in pending.values())
+        items = "\n".join(f"⚠️ {r['vendor']} {money(r['amount'])}" for r in pending.values())
         return f"Waiting for your review:\n{items}"
 
     return HELP_TEXT
 
 
-def decide(c, approved):
+def decide(c, http, approved):
     if not pending:
         return "There's nothing waiting for your approval right now."
-    # Hackathon simplification: one pending action at a time.
-    action_id, desc = next(iter(pending.items()))
-    resolve(c, action_id, approved)
+    # Hackathon simplification: one pending action at a time, oldest first.
+    action_id, item = next(iter(pending.items()))
+    if not c["mock"]:
+        resolve_backend(c, http, item, approved)
     del pending[action_id]
+    desc = f"{item['vendor']} {money(item['amount'])}"
     if approved:
-        return f"Got it. {desc} approved and sent. This decision is logged."
-    return f"Got it. {desc} cancelled. This decision is logged."
+        return f"Got it. You approved {desc}. The decision is logged in the audit trail."
+    return f"Got it. {desc} is cancelled. The decision is logged in the audit trail."
 
 
 # ---------------------------------------------------------------------------
@@ -186,7 +292,7 @@ def decide(c, approved):
 # ---------------------------------------------------------------------------
 
 def incoming_text(item, c, started_at):
-    """Return the message (and its text) if it is a new direct iMessage from the owner."""
+    """Return (message, text) if it is a new direct iMessage from the owner."""
     m = item.root.root
     if m.platform != "imessage" or m.status != "received":
         return None
@@ -226,10 +332,17 @@ def run(c):
     started_at = datetime.now(timezone.utc)
     created_since = (started_at - timedelta(seconds=5)).isoformat(timespec="milliseconds").replace("+00:00", "Z")
     seen = set()
-    mode = "backend" if c["backend"] else "MOCK data"
 
-    with Photon(headers={"Authorization": f"Bearer {c['key']}"}) as photon:
-        print(f"LedgerGuard bot running ({mode}). Text the agent number. Press Ctrl+C to stop.")
+    with Photon(headers={"Authorization": f"Bearer {c['key']}"}) as photon, httpx.Client(timeout=60.0) as http:
+        if c["mock"]:
+            print("Mode: MOCK data (LEDGERGUARD_MOCK=1)")
+        else:
+            ok = backend_healthy(c, http)
+            print(f"Mode: backend {c['api']} | provider={c['provider']} | health={'OK' if ok else 'NOT REACHABLE'}")
+            if not ok:
+                print("   Start the backend first, or set LEDGERGUARD_MOCK=1 to test without it.")
+        print("LedgerGuard bot running. Text the agent number. Press Ctrl+C to stop.")
+
         while True:
             query = {"createdSince": created_since, "direction": "received", "order": "asc",
                      "pageSize": 100, "platform": "imessage"}
@@ -247,10 +360,13 @@ def run(c):
                     seen.add(m.id)
                     print(f"<- {text!r}")
                     try:
-                        reply = handle(c, text)
+                        reply = handle(c, http, text, run_key=m.id)
+                    except httpx.HTTPStatusError as error:
+                        print(f"   backend {error.response.status_code}: {error.response.text[:300]}", file=sys.stderr)
+                        reply = "LedgerGuard couldn't finish that check, so nothing was paid. Please try again or use the dashboard."
                     except Exception as error:  # fail safe: never auto-pay on errors
-                        print(f"   handler error: {error}", file=sys.stderr)
-                        reply = "Something went wrong, so I paused all payments. Nothing was sent."
+                        print(f"   handler error: {error!r}", file=sys.stderr)
+                        reply = "LedgerGuard couldn't finish that check, so nothing was paid. Please try again or use the dashboard."
                     send(photon, c, m, reply)
                     print(f"-> {reply.splitlines()[0]}")
                 token = page.nextPageToken

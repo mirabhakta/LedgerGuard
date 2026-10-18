@@ -12,7 +12,7 @@ from backend.app.data.store import NormalizedAccountingStore
 from backend.app.models.accounting import RecordType
 from backend.app.policy import PolicyEngine, run_prechecks
 from backend.app.providers import (
-    GeminiBaselineProvider, RulesProvider, SystemOneProvider,
+    GeminiBaselineProvider, OpenJevProvider, RulesProvider, SystemOneProvider,
 )
 from backend.app.services.context_builder import ContextBuilder
 from backend.app.services.evaluation_runner import EvaluationCase, EvaluationRunner
@@ -22,7 +22,7 @@ from backend.app.services.scenario_loader import load_scenarios
 async def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--provider", choices=("rules", "gemini", "system_one"), default="rules"
+        "--provider", choices=("rules", "gemini", "system_one", "openjev"), default="rules"
     )
     parser.add_argument("--dataset", type=Path, default=Path("data/raw/hackathon-100"))
     parser.add_argument("--scenarios", type=Path, default=Path("data/scenarios/scenarios.jsonl"))
@@ -50,6 +50,7 @@ async def main() -> None:
         "rules": RulesProvider,
         "gemini": GeminiBaselineProvider,
         "system_one": SystemOneProvider,
+        "openjev": OpenJevProvider,
     }
     provider = providers[args.provider]()
     try:

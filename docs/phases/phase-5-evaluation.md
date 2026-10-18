@@ -153,7 +153,7 @@ Mock/fake latency 不进入最终结果。
 
 Runner 自动断言：
 
-- 三个 provider 的 case IDs 相同。
+- 所有 provider 的 case IDs 相同。
 - state hash 相同。
 - labels 相同。
 - policy config hash 相同。
@@ -200,7 +200,7 @@ Runner 自动断言：
 
 ## 12. Exit criteria
 
-- 三个 provider 可在同一 case set 上运行。
+- 所有 provider 可在同一 case set 上运行。
 - fairness guards 强制执行。
 - metrics 有手工 fixture unit tests。
 - results 可重现并输出 JSON/CSV。

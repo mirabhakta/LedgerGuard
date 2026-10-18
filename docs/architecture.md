@@ -38,6 +38,7 @@ ProposedAction
 唯一可以产生最终授权结果的组件是 `PolicyEngine`。
 
 - `SystemOneProvider` 可以输出风险概率和置信度，不能执行 action。
+- `OpenJevProvider` 是本地、独立的 masked-logit System One-style baseline；它不等同于官方 Jev，不能执行 action。
 - `GeminiBaselineProvider` 可以输出同构风险信号，不能执行 action。
 - `RulesProvider` 是比较基线，不应绕过统一 policy。
 - FastAPI route 不直接调用 Jev，也不直接授权付款。
@@ -201,7 +202,7 @@ data -> models (canonical models only)
 
 `BusinessContext`：industry、current account、vendor history、historical statistics、known accounting patterns、optional synthetic destination history、user constraints。
 
-`AccountingState`：三个 provider 共用的不可变输入快照：
+`AccountingState`：所有 provider 共用的不可变输入快照：
 
 - `proposed_action`
 - `candidate_matches`
@@ -270,7 +271,8 @@ class DecisionProvider(Protocol):
 公平性要求：
 
 - 同一 scenario 使用同一份 `AccountingState` 序列化结果或 hash。
-- Rules、LLM、System One 使用同一 label 与 action space。
+- Rules、LLM、official System One、OpenJev 使用同一 label 与 action space。
+- OpenJev 与 official System One 共享语义问题，但保持独立 provider/model provenance；其 raw masked-logit confidence 不宣称经过 RLCD calibration。
 - 尽可能使用同一 `PolicyEngine`。
 - 不为 System One 提供隐藏的额外上下文，也不刻意削弱 LLM context。
 - 分开报告 cold/warm latency、样本量、失败率和 retry policy。
@@ -373,7 +375,7 @@ Route 只做 transport validation、dependency invocation 和 response mapping�
 ### 13.2 Test conventions
 
 - 默认测试完全离线、可重复、无真实 API key。
-- `httpx.MockTransport` 或等价 fake transport 测 System One request/response。
+- `httpx.MockTransport` 或等价 fake transport 测 System One/OpenJev request/response。
 - frozen fixtures 必须来自真实 dataset row，并记录 source path/ID。
 - synthetic fixture 必须显式标明 modification 和 reason。
 - threshold 测试覆盖 `just below / exactly equal / just above`。
@@ -457,7 +459,7 @@ pytest -q --cov=backend/app --cov-report=term-missing
 Yizhe 的 backend/AI infrastructure 部分达到 demo-ready 的最低条件：
 
 - 实际 sponsor dataset 可重复加载和规范化。
-- 三个 provider 遵守同一接口和 RiskAssessment schema。
+- 四个 provider（rules、Gemini、official System One、OpenJev）遵守同一接口和 RiskAssessment schema。
 - Jev 至少在真实项目 scenarios 上成功调用并记录真实 latency。
 - PolicyEngine 是唯一 authority，且所有 threshold/reason code 可审计。
 - 至少三个 hero scenarios 能完成 action -> decision -> simulated outcome。

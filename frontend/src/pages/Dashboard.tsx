@@ -40,7 +40,7 @@ function Stat({
   alignEnd?: boolean;
 }) {
   return (
-    <div className={`flex flex-col gap-2.5 ${alignEnd ? "items-end" : ""}`}>
+    <div className={`flex flex-col gap-2.5 ${alignEnd ? "col-span-2 md:col-span-1 md:items-end" : ""}`}>
       <MonoLabel>{label}</MonoLabel>
       <div className="flex items-baseline gap-2">
         <span
@@ -81,7 +81,7 @@ export function DashboardPage() {
       />
 
       {/* Stats band */}
-      <div className="mt-6 flex shrink-0 flex-wrap items-stretch gap-9 border-b border-hairline px-6 pb-7 pt-8 md:flex-nowrap md:px-12">
+      <div className="mt-6 grid shrink-0 grid-cols-2 gap-x-6 gap-y-7 border-b border-hairline px-6 pb-7 pt-8 md:flex md:flex-nowrap md:items-stretch md:gap-9 md:px-12">
         <Stat
           label="EVALUATED ACTIONS"
           value={dashboard.isSuccess ? formatCount(dashboard.data.processed) : "——"}
@@ -106,7 +106,7 @@ export function DashboardPage() {
           caption="policy: block"
           tone="block"
         />
-        <span className="grow basis-[0%]" aria-hidden />
+        <span className="hidden grow basis-[0%] md:block" aria-hidden />
         <Stat
           label="P50 PROVIDER LATENCY"
           value={dashboard.isSuccess ? formatLatency(dashboard.data.median_provider_latency_ms).replace(" ms", "") : "——"}

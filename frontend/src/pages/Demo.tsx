@@ -299,7 +299,7 @@ export function DemoPage() {
                   }`}
                 >
                   <span className="flex min-w-0 flex-col gap-0.75">
-                    <span className="truncate font-mono text-[9px] leading-3 tracking-[0.1em] text-ink-3">
+                    <span className="truncate font-mono text-[10px] leading-3 tracking-[0.1em] text-ink-3">
                       {scenario.id}
                     </span>
                     <span
@@ -314,7 +314,7 @@ export function DemoPage() {
               );
             })}
           </div>
-          <p className="font-mono text-[9px] leading-3.5 tracking-[0.08em] text-ink-3">
+          <p className="font-mono text-[10px] leading-3.5 tracking-[0.08em] text-ink-3">
             {SCENARIOS.find((scenario) => scenario.id === scenarioId)?.description.toUpperCase()}
           </p>
 
@@ -367,22 +367,22 @@ export function DemoPage() {
             {stages.map((stage) => (
               <div
                 key={stage.key}
-                className={`flex h-16 items-center gap-3.5 border-b border-hairline px-4 last:border-b-0 ${
+                className={`flex min-h-16 items-center gap-3.5 border-b border-hairline px-4 py-2.5 last:border-b-0 ${
                   stage.status === "done" && (stage.key === "policy" || stage.key === "outcome") ? "bg-surface" : ""
                 }`}
               >
-                <span className="w-5 shrink-0 font-mono text-[9px] tracking-[0.1em] text-ink-3">{stage.index}</span>
+                <span className="w-5 shrink-0 font-mono text-[10px] tracking-[0.1em] text-ink-3">{stage.index}</span>
                 <StatusDot status={stage.status} tone={TONE_CLASS[stage.right.tone]} />
                 <span className="flex min-w-0 grow flex-col gap-0.75">
                   <span className="truncate font-ui text-[13px] font-medium leading-[18px] text-ink">
                     {stage.title}
                   </span>
-                  <span className="truncate font-mono text-[9px] leading-3 tracking-[0.08em] text-ink-3">
+                  <span className="font-mono text-[10px] leading-3.5 tracking-[0.08em] text-ink-3">
                     {stage.sub}
                   </span>
                 </span>
                 <span
-                  className={`shrink-0 font-mono text-[10px] leading-3 tracking-[0.06em] ${
+                  className={`max-w-[42%] shrink-0 [overflow-wrap:anywhere] text-right font-mono text-[10px] leading-3.5 tracking-[0.06em] ${
                     stage.right.tone === "muted"
                       ? "text-ink-3"
                       : stage.right.tone === "ink"
@@ -492,7 +492,7 @@ export function DemoPage() {
                       >
                         {event.type}
                       </span>
-                      <span className="shrink-0 font-mono text-[9px] leading-3.5 text-ink-3">
+                      <span className="shrink-0 font-mono text-[10px] leading-3.5 text-ink-3">
                         {formatUtcTime(event.timestamp)}
                       </span>
                     </span>

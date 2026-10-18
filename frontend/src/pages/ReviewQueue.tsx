@@ -34,6 +34,15 @@ function oldestFirst(items: ActionListItem[]): ActionListItem[] {
   return [...items].sort((a, b) => a.created_at.localeCompare(b.created_at));
 }
 
+/**
+ * `final_action` is the immutable policy decision, so resolved actions (approved and
+ * executed, rejected, ...) still match the server filter. Only `status === "decided"`
+ * is still waiting on a human; everything else has left the queue.
+ */
+function pendingOnly(items: ActionListItem[] | undefined): ActionListItem[] {
+  return oldestFirst((items ?? []).filter((item) => item.status === "decided"));
+}
+
 export function ReviewQueuePage() {
   const { actionId } = useParams<{ actionId?: string }>();
   const navigate = useNavigate();
@@ -44,7 +53,9 @@ export function ReviewQueuePage() {
   const contexts = useActions({ final_action: "REQUEST_CONTEXT", limit: 100 });
 
   const active = tab === "approval" ? approvals : contexts;
-  const items = useMemo(() => (active.data ? oldestFirst(active.data.items) : []), [active.data]);
+  const pendingApprovals = useMemo(() => pendingOnly(approvals.data?.items), [approvals.data]);
+  const pendingContexts = useMemo(() => pendingOnly(contexts.data?.items), [contexts.data]);
+  const items = tab === "approval" ? pendingApprovals : pendingContexts;
 
   return (
     <div className="flex min-h-0 grow flex-col">
@@ -73,7 +84,7 @@ export function ReviewQueuePage() {
             REQUIRE APPROVAL
           </span>
           <span className="font-mono text-[10px] font-medium leading-3 tracking-[0.08em] text-ink-3">
-            {approvals.isSuccess ? formatCount(approvals.data.total) : "——"}
+            {approvals.isSuccess ? formatCount(pendingApprovals.length) : "——"}
           </span>
         </button>
         <button
@@ -93,7 +104,7 @@ export function ReviewQueuePage() {
             REQUEST CONTEXT
           </span>
           <span className="font-mono text-[10px] font-medium leading-3 tracking-[0.08em] text-ink-3">
-            {contexts.isSuccess ? formatCount(contexts.data.total) : "——"}
+            {contexts.isSuccess ? formatCount(pendingContexts.length) : "——"}
           </span>
         </button>
       </div>
@@ -118,7 +129,12 @@ export function ReviewQueuePage() {
             />
           </div>
         ) : (
-          <ActionTable items={items} mode="queue" onOpen={(id) => navigate(`/review/actions/${id}`)} />
+          <ActionTable
+            items={items}
+            mode="queue"
+            // Keep ?tab= so the list behind the drawer stays on the tab the reviewer chose.
+            onOpen={(id) => navigate({ pathname: `/review/actions/${id}`, search: searchParams.toString() })}
+          />
         )}
       </div>
 
@@ -135,7 +151,7 @@ export function ReviewQueuePage() {
                 {row.action}
               </span>
               <span className="grow basis-[0%] font-ui text-[13px] leading-[18px] text-ink-2">{row.description}</span>
-              <span className="shrink-0 font-mono text-[9px] leading-3 tracking-[0.08em] text-ink-3">{row.code}</span>
+              <span className="shrink-0 font-mono text-[10px] leading-3 tracking-[0.08em] text-ink-3">{row.code}</span>
             </div>
           ))}
         </div>
@@ -146,7 +162,7 @@ export function ReviewQueuePage() {
         right="/api/actions · final_action=REQUIRE_APPROVAL | REQUEST_CONTEXT"
       />
 
-      {actionId ? <ActionDrawer actionId={actionId} onClose={() => navigate(`/review?tab=${tab}`)} /> : null}
+      {actionId ? <ActionDrawer actionId={actionId} onClose={() => navigate({ pathname: "/review", search: searchParams.toString() })} /> : null}
     </div>
   );
 }

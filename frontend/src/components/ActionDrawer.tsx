@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import { api } from "../api/client";
 import { useStream } from "../api/stream";
@@ -106,7 +106,7 @@ function SignalRow({
       </div>
       <div className="flex items-baseline justify-between gap-3">
         <span className="font-ui text-[11.5px] leading-4 text-ink-2">{question}</span>
-        <span className="font-mono text-[9px] leading-3 tracking-[0.08em] text-ink-3">
+        <span className="font-mono text-[10px] leading-3 tracking-[0.08em] text-ink-3">
           CONF {confidence.toFixed(2)}
         </span>
       </div>
@@ -200,6 +200,8 @@ export function ActionDrawer({ actionId, onClose }: { actionId: string; onClose:
     error: null,
   });
   const [reloadToken, setReloadToken] = useState(0);
+  // Approve and reject are irreversible; require an explicit second click.
+  const [confirming, setConfirming] = useState<"approve" | "reject" | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -230,6 +232,19 @@ export function ActionDrawer({ actionId, onClose }: { actionId: string; onClose:
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
   }, [onClose]);
+
+  // Modal behavior: lock page scroll, move focus into the drawer, restore it on close.
+  const panelRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const previouslyFocused = document.activeElement as HTMLElement | null;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    panelRef.current?.focus();
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      previouslyFocused?.focus?.();
+    };
+  }, []);
 
   const decision = detail?.policy_decision ?? null;
   const humanIsReview = detail ? isReviewResponse(detail.human_response) : false;
@@ -295,7 +310,7 @@ export function ActionDrawer({ actionId, onClose }: { actionId: string; onClose:
         onClick={onClose}
         className="absolute inset-0 bg-ink/30 backdrop-blur-[1px]"
       />
-      <section className="relative flex h-full w-full max-w-[480px] flex-col overflow-y-auto border-l border-hairline bg-paper shadow-[0_0_60px_rgba(25,25,23,0.18)]">
+      <section ref={panelRef} tabIndex={-1} className="relative flex h-full w-full max-w-[480px] outline-none flex-col overflow-y-auto border-l border-hairline bg-paper shadow-[0_0_60px_rgba(25,25,23,0.18)]">
         {loadError ? (
           <div className="p-6">
             <ErrorState error={loadError} onRetry={() => setReloadToken((n) => n + 1)} />
@@ -391,7 +406,7 @@ export function ActionDrawer({ actionId, onClose }: { actionId: string; onClose:
                       className="flex items-baseline justify-between gap-4 border-b border-hairline/70 py-2.5 last:border-b-0"
                     >
                       <div className="flex min-w-0 flex-col gap-1">
-                        <span className="font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">
+                        <span className="font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">
                           {match.record_type.toUpperCase()} · {match.source_id.toUpperCase()}
                         </span>
                         <span className="truncate font-ui text-[12.5px] leading-4 text-ink">
@@ -400,7 +415,7 @@ export function ActionDrawer({ actionId, onClose }: { actionId: string; onClose:
                           {match.vendor ? ` · ${match.vendor}` : ""}
                         </span>
                         {match.match_reasons.length > 0 ? (
-                          <span className="font-mono text-[9px] leading-3 text-ink-3">
+                          <span className="font-mono text-[10px] leading-3 text-ink-3">
                             {match.match_reasons.join(" · ").toUpperCase()}
                           </span>
                         ) : null}
@@ -538,7 +553,7 @@ export function ActionDrawer({ actionId, onClose }: { actionId: string; onClose:
                     key={event.event_id}
                     className="flex items-baseline gap-3 border-b border-hairline/70 py-2 last:border-b-0"
                   >
-                    <span className="w-9 shrink-0 font-mono text-[9px] leading-3 text-ink-3">#{event.event_id}</span>
+                    <span className="w-9 shrink-0 font-mono text-[10px] leading-3 text-ink-3">#{event.event_id}</span>
                     <span className="shrink-0 font-mono text-[10px] leading-3 text-ink-3">
                       {formatUtcTime(event.created_at)}
                     </span>
@@ -549,7 +564,7 @@ export function ActionDrawer({ actionId, onClose }: { actionId: string; onClose:
                     >
                       {event.type}
                     </span>
-                    <span className="grow basis-[0%] truncate text-right font-mono text-[9px] leading-3 text-ink-3">
+                    <span className="grow basis-[0%] truncate text-right font-mono text-[10px] leading-3 text-ink-3">
                       {summarizeEventPayload(event)}
                     </span>
                   </div>
@@ -582,14 +597,47 @@ export function ActionDrawer({ actionId, onClose }: { actionId: string; onClose:
               ) : null}
               {awaitingReview ? (
                 <>
-                  <div className="flex items-center gap-3">
-                    <PrimaryButton onClick={() => resolve("approve")} disabled={resolveState.pending} className="grow!">
-                      {resolveState.pending ? "Submitting…" : "Approve & execute"}
-                    </PrimaryButton>
-                    <GhostButton onClick={() => resolve("reject")} disabled={resolveState.pending} className="grow!">
-                      Reject
-                    </GhostButton>
-                  </div>
+                  {confirming ? (
+                    <div className="flex flex-col gap-3" role="alertdialog" aria-label="Confirm resolution">
+                      <p className="font-ui text-[13px] leading-[18px] text-ink">
+                        {confirming === "approve"
+                          ? "Approve this action? It executes in the payment simulator and cannot be undone."
+                          : "Reject this action? Rejection is terminal — nothing downstream can resume it."}
+                      </p>
+                      <div className="flex items-center gap-3">
+                        <PrimaryButton
+                          onClick={async () => {
+                            await resolve(confirming);
+                            setConfirming(null);
+                          }}
+                          disabled={resolveState.pending}
+                          className="grow!"
+                        >
+                          {resolveState.pending
+                            ? "Submitting…"
+                            : confirming === "approve"
+                              ? "Confirm approve"
+                              : "Confirm reject"}
+                        </PrimaryButton>
+                        <GhostButton
+                          onClick={() => setConfirming(null)}
+                          disabled={resolveState.pending}
+                          className="grow!"
+                        >
+                          Cancel
+                        </GhostButton>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="flex items-center gap-3">
+                      <PrimaryButton onClick={() => setConfirming("approve")} className="grow!">
+                        Approve & execute
+                      </PrimaryButton>
+                      <GhostButton onClick={() => setConfirming("reject")} className="grow!">
+                        Reject
+                      </GhostButton>
+                    </div>
+                  )}
                   <div className="flex items-center justify-between gap-3">
                     <MonoLabel>ADD CONTEXT — REQUEST_CONTEXT ACTIONS ONLY</MonoLabel>
                     <MonoLabel className="tracking-[0.08em]!">SIGNED AS {DEMO_ACTOR.toUpperCase()}</MonoLabel>

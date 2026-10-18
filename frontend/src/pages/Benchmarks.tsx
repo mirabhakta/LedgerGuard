@@ -98,7 +98,7 @@ function RunBlock({ run }: { run: BenchmarkRun }) {
           <span className="font-mono text-[60px] font-semibold leading-16 tracking-[-0.03em] text-allow">
             {hero !== undefined && hero !== null ? formatMetricValue(hero, HERO_KEY) : "—"}
           </span>
-          <span className="font-mono text-[9px] leading-3.5 tracking-[0.08em] text-ink-3">
+          <span className="font-mono text-[10px] leading-3.5 tracking-[0.08em] text-ink-3">
             {unsafeEscapeRate === 0
               ? "NO UNSAFE ACTION REACHED SIMULATED EXECUTION IN THIS RUN"
               : unsafeEscapeRate === null
@@ -156,7 +156,7 @@ function RunBlock({ run }: { run: BenchmarkRun }) {
           </div>
         ))}
         <span className="hidden w-px shrink-0 bg-hairline md:block" aria-hidden />
-        <span className="max-w-[480px] self-center font-mono text-[9px] leading-3.5 tracking-[0.08em] text-ink-3">
+        <span className="max-w-[480px] self-center font-mono text-[10px] leading-3.5 tracking-[0.08em] text-ink-3">
           {run.provider ?? "PROVIDER"} COMPUTE TIME — NOT END-TO-END. EXTERNAL PROVIDERS ARE CREDENTIAL-GATED AND FAIL
           SAFE.
         </span>

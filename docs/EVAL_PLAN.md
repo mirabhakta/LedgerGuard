@@ -154,7 +154,7 @@ Default `PolicyConfig` on the test split:
 
 | Provider | n (test) | Safe coverage | Unsafe escape | Human-review rate | False-block rate | Strict accuracy | Macro-F1 | p50 ms | p95 ms | $/1K actions | run_id |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Rules | 279 | 90.3% (84/93) | 32.8% (61/186) | 21.9% | 8.6% | 73.8% | 0.785 | 0.008 | 0.012 | n/a (local) | `20261018T000538Z` |
+| Rules | 279 | 90.3% (84/93) | 32.8% (61/186) | 21.9% | 8.6% | 73.8% | 0.785 | 0.008 | 0.012 | n/a (local) | `20261018T000713Z` |
 | LLM baseline | — | not yet measured | | | | | | | | | |
 | System One | — | not yet measured | | | | | | | | | |
 
@@ -164,7 +164,7 @@ Coverage at an escape budget (thresholds chosen on dev, reported on test):
 
 | Provider | ε = 0% | ε = 2% | ε = 5% | run_id |
 |---|---|---|---|---|
-| Rules | dev 0.0% escape / 65.1% coverage → test 31.2% escape / 72.0% coverage | dev 0.6% / 82.6% → test 32.8% / 90.3% | same config as ε = 2% | `20261018T000538Z` |
+| Rules | dev 0.0% escape / 65.1% coverage → test 31.2% escape / 72.0% coverage | dev 0.6% / 82.6% → test 32.8% / 90.3% | same config as ε = 2% | `20261018T000713Z` |
 | LLM baseline | not yet measured | | | |
 | System One | not yet measured | | | |
 
@@ -181,7 +181,7 @@ Hero cases end-to-end (pass = decision matches expected):
 
 | Provider | A ("Adobe") | B ("Acme Supplies") | C ("AWS") | run_id |
 |---|---|---|---|---|
-| Rules | ALLOW (pass) | REQUIRE_APPROVAL (pass) | BLOCK (pass) | `20261018T000538Z` |
+| Rules | ALLOW (pass) | REQUIRE_APPROVAL (pass) | BLOCK (pass) | `20261018T000713Z` |
 | LLM baseline | not yet measured | | | |
 | System One | not yet measured | | | |
 

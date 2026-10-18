@@ -16,7 +16,8 @@ What it does
 Backend
 - Default: real LedgerGuard backend at http://127.0.0.1:8000/api (see docs/API_HANDOFF.md).
 - Set LEDGERGUARD_MOCK=1 to use built-in mock results instead (for testing without the backend).
-- Set LEDGERGUARD_PROVIDER to rules | gemini | system_one (default: system_one).
+- Set LEDGERGUARD_PROVIDER to rules | gemini | openjev | system_one (default: system_one).
+- Scenarios run in parallel, and the owner gets a quick 'checking' message first.
 
 Notes
 - The iMessage text only chooses which pre-built scenario to run. It does not change the
@@ -28,6 +29,7 @@ Notes
 import os
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from decimal import Decimal, InvalidOperation
 
@@ -233,13 +235,22 @@ def format_results(results):
 # ---------------------------------------------------------------------------
 
 def run_scenarios(c, http, scenario_ids, run_key):
-    results = []
-    for sid in scenario_ids:
-        r = run_scenario_mock(sid, run_key) if c["mock"] else run_scenario_backend(c, http, sid, run_key)
-        results.append(r)
+    """Run scenarios in parallel (keeps the original order for the reply)."""
+    def one(sid):
+        return run_scenario_mock(sid, run_key) if c["mock"] else run_scenario_backend(c, http, sid, run_key)
+
+    with ThreadPoolExecutor(max_workers=len(scenario_ids) or 1) as pool:
+        results = list(pool.map(one, scenario_ids))
+    for r in results:
         if r["decision"] == "REQUIRE_APPROVAL":
             pending[r["id"]] = r
     return results
+
+
+def needs_backend(text):
+    """True for commands that call the backend, so we can send a quick 'working on it' first."""
+    t = text.strip().lower().replace("’", "'")
+    return ("pay" in t and "bill" in t) or t.startswith("run ")
 
 
 def handle(c, http, text, run_key):
@@ -313,11 +324,11 @@ def incoming_text(item, c, started_at):
     return m, m.content.text
 
 
-def send(photon, c, m, text):
+def send(photon, c, m, text, tag="reply"):
     photon.projects.send_message(
         SendMessageInput(
             path=SendMessagePath(id=c["project"]),
-            headers=SendMessageHeader.model_validate({"idempotency-key": f"lg-reply:{m.id}"}),
+            headers=SendMessageHeader.model_validate({"idempotency-key": f"lg-{tag}:{m.id}"}),
             body=SendMessageRequest(
                 spaceId=m.space.root.id,
                 senderId=m.receivedBy.root.id,
@@ -333,7 +344,7 @@ def run(c):
     created_since = (started_at - timedelta(seconds=5)).isoformat(timespec="milliseconds").replace("+00:00", "Z")
     seen = set()
 
-    with Photon(headers={"Authorization": f"Bearer {c['key']}"}) as photon, httpx.Client(timeout=60.0) as http:
+    with Photon(headers={"Authorization": f"Bearer {c['key']}"}) as photon, httpx.Client(timeout=180.0) as http:
         if c["mock"]:
             print("Mode: MOCK data (LEDGERGUARD_MOCK=1)")
         else:
@@ -359,6 +370,11 @@ def run(c):
                         continue
                     seen.add(m.id)
                     print(f"<- {text!r}")
+                    if needs_backend(text):
+                        try:
+                            send(photon, c, m, "Checking your bills with LedgerGuard. One moment...", tag="ack")
+                        except ApiError as error:
+                            print(f"   ack not sent: {error.status}", file=sys.stderr)
                     try:
                         reply = handle(c, http, text, run_key=m.id)
                     except httpx.HTTPStatusError as error:

@@ -285,10 +285,11 @@ class DecisionProvider(Protocol):
 1. malformed/unsupported/hard-rule violation -> `BLOCK`
 2. duplicate probability 超过 block threshold -> `BLOCK`
 3. counterparty/destination-change risk 超过 review threshold -> `REQUIRE_APPROVAL`
-4. missing-context probability 超过 threshold -> `REQUEST_CONTEXT`
-5. 任一必要 signal confidence 低于 threshold -> `REQUIRE_APPROVAL`
-6. provider failure -> fail-safe decision，绝不 `ALLOW`
-7. 其余 -> `ALLOW`
+4. 任一 risk score 超过 threshold 且该 signal confidence 足够 -> 对应 `BLOCK`、`REQUIRE_APPROVAL` 或 `REQUEST_CONTEXT`
+5. 任一 risk score 超过 threshold 但该 signal confidence 不足 -> `REQUIRE_APPROVAL`；不把不确定的模型信号当作自动 block 或 context fact
+6. 未触发 score threshold 时，任一必要 signal confidence 低于 threshold -> `REQUIRE_APPROVAL`
+7. provider failure -> fail-safe decision，绝不 `ALLOW`
+8. 其余 -> `ALLOW`
 
 每个分支返回 machine-readable reason code 和实际触发值/threshold。不得根据 `scenario_id` 硬编码答案。
 

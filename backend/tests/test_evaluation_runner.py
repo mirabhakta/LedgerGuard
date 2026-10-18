@@ -52,8 +52,11 @@ async def test_fairness_guard_rejects_label_or_policy_mismatch() -> None:
     )
     with pytest.raises(ValueError):
         assert_fair_comparison((baseline, changed_label))
+    baseline_config = PolicyEngine().config
     altered_policy = await EvaluationRunner(
-        PolicyEngine(config=PolicyEngine().config.model_copy(update={"version": "2"}))
+        PolicyEngine(
+            config=baseline_config.model_copy(update={"version": f"{baseline_config.version}-altered"})
+        )
     ).run((_case(),), RulesProvider())
     with pytest.raises(ValueError, match="policy config"):
         assert_fair_comparison((baseline, altered_policy))

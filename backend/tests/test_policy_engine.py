@@ -85,6 +85,45 @@ def test_duplicate_priority_beats_missing_context() -> None:
     assert decision.final_action is FinalAction.BLOCK
 
 
+@pytest.mark.parametrize(
+    ("changes", "signal"),
+    [
+        (
+            {"duplicate_obligation_probability": 0.85, "duplicate_obligation_confidence": 0.59},
+            "duplicate",
+        ),
+        (
+            {"missing_context_probability": 0.70, "missing_context_confidence": 0.19},
+            "missing_context",
+        ),
+    ],
+)
+def test_low_confidence_risk_trigger_requires_approval_not_automatic_action(changes, signal) -> None:
+    decision = PolicyEngine().decide(
+        action(), PrecheckResult(hard_violation=False), risk(**changes)
+    )
+    assert decision.final_action is FinalAction.REQUIRE_APPROVAL
+    assert decision.reason_codes == ("LOW_CONFIDENCE",)
+    assert decision.triggered_thresholds[0].name == f"{signal}_confidence"
+
+
+def test_safe_like_jev_response_with_low_missing_context_confidence_requires_review() -> None:
+    """Regression: a 0.735 missing-context score with 0.19 confidence is not a context fact."""
+    decision = PolicyEngine().decide(
+        action(),
+        PrecheckResult(hard_violation=False),
+        risk(
+            missing_context_probability=0.735,
+            missing_context_confidence=0.19,
+            duplicate_obligation_confidence=0.10,
+            counterparty_change_confidence=0.35,
+        ),
+    )
+    assert decision.final_action is FinalAction.REQUIRE_APPROVAL
+    assert decision.reason_codes == ("LOW_CONFIDENCE",)
+    assert decision.triggered_thresholds[0].name == "missing_context_confidence"
+
+
 def test_provider_failures_never_allow() -> None:
     failure = ProviderFailure(
         provider="system_one", code=ProviderFailureCode.TIMEOUT,

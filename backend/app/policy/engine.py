@@ -43,20 +43,28 @@ class PolicyEngine:
 
         checks = (
             ("duplicate", outcome.duplicate_obligation_probability,
+             outcome.duplicate_obligation_confidence,
              self.config.duplicate_block_threshold, FinalAction.BLOCK, reasons.DUPLICATE_RISK),
             ("counterparty", outcome.counterparty_change_score,
+             outcome.counterparty_change_confidence,
              self.config.counterparty_review_threshold, FinalAction.REQUIRE_APPROVAL,
              reasons.COUNTERPARTY_CHANGE_RISK),
             ("missing_context", outcome.missing_context_probability,
+             outcome.missing_context_confidence,
              self.config.missing_context_threshold, FinalAction.REQUEST_CONTEXT,
              reasons.MISSING_CONTEXT),
             ("anomaly", outcome.action_anomaly_score,
+             outcome.action_anomaly_confidence,
              self.config.anomaly_review_threshold, FinalAction.REQUIRE_APPROVAL,
              reasons.ACTION_ANOMALY),
         )
-        for name, actual, threshold, final_action, reason in checks:
+        for name, actual, confidence, threshold, final_action, reason in checks:
             evaluated.append(name)
             if actual >= threshold:
+                if confidence < self.config.minimum_confidence:
+                    return self._low_confidence_decision(
+                        action, outcome, evaluated, audit_id, {name: confidence}
+                    )
                 hit = TriggeredThreshold(
                     name=name, comparator=">=", threshold=threshold, actual=actual
                 )
@@ -67,6 +75,14 @@ class PolicyEngine:
             if name == "duplicate":
                 evaluated.append("goal_alignment")
                 if outcome.goal_alignment_probability < self.config.minimum_goal_alignment:
+                    if outcome.goal_alignment_confidence < self.config.minimum_confidence:
+                        return self._low_confidence_decision(
+                            action,
+                            outcome,
+                            evaluated,
+                            audit_id,
+                            {"goal_alignment": outcome.goal_alignment_confidence},
+                        )
                     hit = TriggeredThreshold(
                         name="goal_alignment", comparator="<",
                         threshold=self.config.minimum_goal_alignment,
@@ -86,17 +102,7 @@ class PolicyEngine:
         evaluated.append("minimum_confidence")
         low = {name: value for name, value in confidences.items() if value < self.config.minimum_confidence}
         if low:
-            hits = tuple(
-                TriggeredThreshold(
-                    name=f"{name}_confidence", comparator="<",
-                    threshold=self.config.minimum_confidence, actual=value,
-                )
-                for name, value in sorted(low.items())
-            )
-            return self._decision(
-                action, FinalAction.REQUIRE_APPROVAL, (reasons.LOW_CONFIDENCE,),
-                hits, outcome, evaluated, audit_id,
-            )
+            return self._low_confidence_decision(action, outcome, evaluated, audit_id, low)
         evaluated.append("allow")
         return self._decision(
             action, FinalAction.ALLOW, (reasons.POLICY_ALLOW,), (), outcome,
@@ -111,6 +117,33 @@ class PolicyEngine:
         return self._decision(
             action, self.config.provider_failure_fallback,
             (f"PROVIDER_{failure.code.value}",), (), failure, evaluated, audit_id,
+        )
+
+    def _low_confidence_decision(
+        self,
+        action: ProposedAction,
+        outcome: ProviderOutcome,
+        evaluated: list[str],
+        audit_id: str | None,
+        low: dict[str, float],
+    ) -> PolicyDecision:
+        """Low-confidence semantic evidence is reviewed, never acted on automatically."""
+        hits = tuple(
+            TriggeredThreshold(
+                name=f"{name}_confidence", comparator="<",
+                threshold=self.config.minimum_confidence,
+                actual=value,
+            )
+            for name, value in sorted(low.items())
+        )
+        return self._decision(
+            action,
+            FinalAction.REQUIRE_APPROVAL,
+            (reasons.LOW_CONFIDENCE,),
+            hits,
+            outcome,
+            evaluated,
+            audit_id,
         )
 
     def _decision(

@@ -15,7 +15,8 @@ from backend.app.models.policy import FinalAction
 class PolicyConfig(BaseModel):
     model_config = ConfigDict(frozen=True)
 
-    version: str = "1"
+    # Bumped when score/confidence precedence changed so audit records stay interpretable.
+    version: str = "2"
     absolute_amount_hard_limit: Decimal = Field(default=Decimal("100000.00"), gt=0)
     supported_currencies: frozenset[str] = frozenset({"USD"})
     supported_action_types: frozenset[ActionType] = frozenset(ActionType)

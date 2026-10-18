@@ -15,8 +15,8 @@ export function PageHeader({ title, caption, right }: { title: string; caption: 
 export function PageFooter({ left, right }: { left: string; right: string }) {
   return (
     <div className="mt-auto flex shrink-0 flex-col gap-2 border-t border-hairline px-6 py-3 md:flex-row md:items-center md:justify-between md:px-12">
-      <span className="font-mono text-[9px] font-medium leading-3.5 tracking-[0.1em] text-ink-3">{left}</span>
-      <span className="font-mono text-[9px] font-medium leading-3.5 tracking-[0.1em] text-ink-3">{right}</span>
+      <span className="font-mono text-[10px] font-medium leading-3.5 tracking-[0.1em] text-ink-3">{left}</span>
+      <span className="font-mono text-[10px] font-medium leading-3.5 tracking-[0.1em] text-ink-3">{right}</span>
     </div>
   );
 }

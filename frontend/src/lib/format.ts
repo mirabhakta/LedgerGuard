@@ -65,11 +65,12 @@ export function formatCount(value: number | null | undefined): string {
   return String(value).padStart(2, "0");
 }
 
-/** Age of an action: "22 m", "1 h 04 m", "2 d 06 h". */
+/** Age of an action: "just now", "22 m", "1 h 04 m", "2 d 06 h". */
 export function formatAge(fromIso: string, now: number = Date.now()): string {
   const from = new Date(fromIso).getTime();
   if (Number.isNaN(from)) return "—";
   const minutes = Math.max(0, Math.floor((now - from) / 60_000));
+  if (minutes < 1) return "just now";
   if (minutes < 60) return `${minutes} m`;
   const hours = Math.floor(minutes / 60);
   const restMinutes = minutes % 60;

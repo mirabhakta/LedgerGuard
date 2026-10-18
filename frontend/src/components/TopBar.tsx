@@ -50,7 +50,7 @@ export function TopBar() {
             </span>
           </span>
           <span className="hidden h-4 w-px shrink-0 bg-hairline sm:block" aria-hidden />
-          <span className="hidden font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3 sm:block">
+          <span className="hidden font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3 sm:block">
             FINANCIAL SAFETY LAYER
           </span>
         </Link>

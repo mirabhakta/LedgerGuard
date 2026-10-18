@@ -1,6 +1,6 @@
 import type { ActionListItem } from "../api/types";
 import { executionLabel, reasonCodeLabel } from "../lib/decisions";
-import { formatAmount, formatAge, formatLatency } from "../lib/format";
+import { formatAmount, formatAge, formatLatency, shortId } from "../lib/format";
 import { DecisionBadge } from "./DecisionBadge";
 
 export type TableMode = "ledger" | "queue";
@@ -30,6 +30,10 @@ function ExecutionCell({ item }: { item: ActionListItem }) {
   );
 }
 
+function vendorName(item: ActionListItem): string {
+  return item.action.vendor_name ?? item.action.counterparty_name ?? "Unnamed counterparty";
+}
+
 function reasonSummary(item: ActionListItem): string {
   if (item.reason_codes.length === 0) return item.final_action ? "—" : "Awaiting evaluation";
   const first = reasonCodeLabel(item.reason_codes[0]);
@@ -49,22 +53,22 @@ export function ActionTable({ items, mode, onOpen, now }: ActionTableProps) {
       {/* Desktop table */}
       <div className="hidden lg:block">
         <div className="flex h-9 items-center gap-6 border-y border-hairline px-12">
-          <span className="w-[170px] shrink-0 font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">
+          <span className="w-[170px] shrink-0 font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">
             DECISION
           </span>
-          <span className="w-[220px] shrink-0 font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">
+          <span className="w-[260px] shrink-0 font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">
             VENDOR · ACTION ID
           </span>
-          <span className="w-[130px] shrink-0 text-right font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">
+          <span className="w-[130px] shrink-0 text-right font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">
             AMOUNT
           </span>
-          <span className="grow basis-[0%] font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">
+          <span className="grow basis-[0%] font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">
             REASON · POLICY BASIS
           </span>
-          <span className="w-[130px] shrink-0 font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">
+          <span className="w-[130px] shrink-0 font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">
             {mode === "ledger" ? "EXECUTION" : "AWAITING"}
           </span>
-          <span className="w-20 shrink-0 text-right font-mono text-[9px] font-medium leading-3 tracking-[0.14em] text-ink-3">
+          <span className="w-20 shrink-0 text-right font-mono text-[10px] font-medium leading-3 tracking-[0.14em] text-ink-3">
             {mode === "ledger" ? "LATENCY" : ""}
           </span>
         </div>
@@ -78,18 +82,27 @@ export function ActionTable({ items, mode, onOpen, now }: ActionTableProps) {
             <span className="w-[170px] shrink-0">
               <DecisionBadge action={item.final_action} />
             </span>
-            <span className="flex w-[220px] shrink-0 flex-col gap-0.75">
-              <span className="truncate font-mono text-[9px] leading-3 tracking-[0.1em] text-ink-3">
-                {item.action_id}
+            <span className="flex w-[260px] shrink-0 flex-col gap-0.75">
+              <span
+                title={item.action_id}
+                className="truncate font-mono text-[10px] leading-3 tracking-[0.1em] text-ink-3"
+              >
+                {shortId(item.action_id, 15)}
               </span>
-              <span className="truncate font-ui text-[14px] font-medium leading-[18px] text-ink">
-                {item.action.vendor_name ?? item.action.counterparty_name ?? "Unnamed counterparty"}
+              <span
+                title={vendorName(item)}
+                className="line-clamp-2 font-ui text-[14px] font-medium leading-[18px] text-ink"
+              >
+                {vendorName(item)}
               </span>
             </span>
             <span className="w-[130px] shrink-0 text-right font-mono text-[14px] font-semibold leading-[18px] text-ink">
               {formatAmount(item.action.amount, item.action.currency)}
             </span>
-            <span className="grow basis-[0%] truncate font-ui text-[13px] leading-[18px] text-ink-2">
+            <span
+              title={reasonSummary(item)}
+              className="line-clamp-2 grow basis-[0%] font-ui text-[13px] leading-[18px] text-ink-2"
+            >
               {reasonSummary(item)}
             </span>
             <span className="w-[130px] shrink-0">
@@ -122,11 +135,11 @@ export function ActionTable({ items, mode, onOpen, now }: ActionTableProps) {
               </span>
             </div>
             <div className="flex flex-col gap-0.5">
-              <span className="truncate font-mono text-[9px] leading-3 tracking-[0.1em] text-ink-3">
-                {item.action_id}
+              <span title={item.action_id} className="truncate font-mono text-[10px] leading-3 tracking-[0.1em] text-ink-3">
+                {shortId(item.action_id, 15)}
               </span>
               <span className="truncate font-ui text-[14px] font-medium leading-[18px] text-ink">
-                {item.action.vendor_name ?? item.action.counterparty_name ?? "Unnamed counterparty"}
+                {vendorName(item)}
               </span>
             </div>
             <div className="flex items-center justify-between gap-3">

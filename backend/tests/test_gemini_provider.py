@@ -176,6 +176,6 @@ async def test_default_fastapi_service_registers_gemini_not_legacy_llm(
     monkeypatch.setenv("LEDGERGUARD_DB_PATH", str(tmp_path / "audit.sqlite3"))
     service = build_default_service()
     try:
-        assert service.providers.names == ("gemini", "rules", "system_one")
+        assert service.providers.names == ("gemini", "openjev", "rules", "system_one")
     finally:
         await service.aclose()

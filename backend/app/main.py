@@ -18,7 +18,8 @@ from backend.app.data.store import NormalizedAccountingStore
 from backend.app.db import AuditRepository
 from backend.app.policy import PolicyEngine
 from backend.app.providers import (
-    GeminiBaselineProvider, ProviderRegistry, RulesProvider, SystemOneProvider,
+    GeminiBaselineProvider, OpenJevProvider, ProviderRegistry, RulesProvider,
+    SystemOneProvider,
 )
 from backend.app.services.application import ApplicationError, LedgerGuardApplication
 from backend.app.services.context_builder import ContextBuilder
@@ -37,6 +38,7 @@ def build_default_service() -> LedgerGuardApplication:
     providers.register("rules", RulesProvider())
     providers.register("gemini", GeminiBaselineProvider())
     providers.register("system_one", SystemOneProvider())
+    providers.register("openjev", OpenJevProvider())
     return LedgerGuardApplication(
         AuditRepository(db_path), ContextBuilder(store), providers, PolicyEngine(),
         scenarios_path=PROJECT_ROOT / "data/scenarios/scenarios.jsonl",

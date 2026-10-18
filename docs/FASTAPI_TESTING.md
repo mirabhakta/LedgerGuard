@@ -102,7 +102,18 @@ curl -sS http://127.0.0.1:8000/api/health | jq
 curl -sS http://127.0.0.1:8000/openapi.json | jq '.paths | keys'
 ```
 
-预期 health 为 `status=ok`、三个 providers、六个 scenarios。`POST /api/demo/run` 的 200 schema 应引用 `ActionDetailResponse`，不是任意 object。
+预期 health 为 `status=ok`、四个 providers、六个 scenarios。`POST /api/demo/run` 的 200 schema 应引用 `ActionDetailResponse`，不是任意 object。
+
+本地 OpenJev 测试默认跳过。先按 [OPENJEV_SETUP.md](OPENJEV_SETUP.md) 启动独立
+OpenJev server，再运行：
+
+```bash
+RUN_OPENJEV_LIVE_TESTS=1 PYTHONPATH=. \
+  .venv/bin/pytest -q -m live backend/tests/test_openjev_live.py
+```
+
+FastAPI 请求使用 `"provider":"openjev"`。它是独立的开源 System One-style
+baseline，不应在结果或 UI 中标记为官方 Jev。
 
 ### Safe hero flow
 

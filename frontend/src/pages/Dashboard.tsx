@@ -89,9 +89,9 @@ export function DashboardPage() {
         />
         <span className="hidden w-px shrink-0 self-stretch bg-hairline md:block" aria-hidden />
         <Stat
-          label="EXECUTED"
+          label="POLICY ALLOWED"
           value={dashboard.isSuccess ? formatCount(counts.ALLOW ?? 0) : "——"}
-          caption="policy: allow"
+          caption="eligible for simulation"
         />
         <span className="hidden w-px shrink-0 self-stretch bg-hairline md:block" aria-hidden />
         <Stat

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 import { api } from "../api/client";
+import { useStream } from "../api/stream";
 import type {
   ActionDetail,
   AuditEvent,
@@ -191,6 +192,7 @@ function ContextForm({
 }
 
 export function ActionDrawer({ actionId, onClose }: { actionId: string; onClose: () => void }) {
+  const { lastEvent } = useStream();
   const [detail, setDetail] = useState<ActionDetail | null>(null);
   const [loadError, setLoadError] = useState<unknown>(null);
   const [resolveState, setResolveState] = useState<{ pending: boolean; error: unknown | null }>({
@@ -215,6 +217,11 @@ export function ActionDrawer({ actionId, onClose }: { actionId: string; onClose:
       cancelled = true;
     };
   }, [actionId, reloadToken]);
+
+  // The drawer owns local detail state, so refetch it explicitly after an SSE update.
+  useEffect(() => {
+    if (lastEvent?.action_id === actionId) setReloadToken((value) => value + 1);
+  }, [actionId, lastEvent?.event_id]);
 
   useEffect(() => {
     const handler = (event: KeyboardEvent) => {

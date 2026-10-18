@@ -240,8 +240,15 @@ export function DemoPage() {
     );
   };
 
-  const availableProviders = health.data?.providers ?? [...DEMO_PROVIDERS];
+  const demoProviders = health.data?.providers ?? [...DEMO_PROVIDERS];
+  const availableProviders = health.data?.providers ?? [];
   const decision = detail?.policy_decision ?? null;
+
+  useEffect(() => {
+    if (health.data?.providers.length && !health.data.providers.includes(provider)) {
+      setProvider(health.data.providers[0]);
+    }
+  }, [health.data?.providers, provider]);
 
   return (
     <div className="flex min-h-0 grow flex-col">
@@ -313,8 +320,8 @@ export function DemoPage() {
 
           <MonoLabel className="mt-2">PROVIDER</MonoLabel>
           <div className="flex overflow-hidden rounded-[3px] border border-hairline">
-            {DEMO_PROVIDERS.map((name) => {
-              const enabled = availableProviders.includes(name);
+            {demoProviders.map((name) => {
+              const enabled = health.isLoading || availableProviders.includes(name);
               const selected = provider === name;
               return (
                 <button
@@ -322,7 +329,7 @@ export function DemoPage() {
                   type="button"
                   disabled={!enabled}
                   onClick={() => setProvider(name)}
-                  title={enabled ? PROVIDER_LABELS[name] : "Provider is not registered on this server"}
+                  title={enabled ? (PROVIDER_LABELS[name] ?? name) : "Provider is not registered on this server"}
                   className={`h-8 flex-1 basis-0 border-r border-hairline font-mono text-[10px] leading-3 tracking-[0.08em] last:border-r-0 ${
                     selected
                       ? "bg-ink font-semibold text-surface"

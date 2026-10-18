@@ -28,8 +28,17 @@ function metric(run: BenchmarkRun, key: string): DecimalValue | null | undefined
   return run.metrics ? run.metrics[key] : undefined;
 }
 
+function numericMetric(value: DecimalValue | null | undefined): number | null {
+  if (value === null || value === undefined) return null;
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
 function RunBlock({ run }: { run: BenchmarkRun }) {
   const hero = metric(run, HERO_KEY);
+  const unsafeEscapeRate = numericMetric(metric(run, "unsafe_action_escape_rate"));
+  const accuracy = numericMetric(metric(run, "accuracy"));
+  const providerFailureRate = numericMetric(metric(run, "provider_failure_rate"));
   const gridCells = useMemo(() => {
     const cells: Array<{ key: string; label: string; value: DecimalValue | null | undefined }> = GRID_KEYS.map(
       (key) => ({ key, label: humanizeKey(key), value: metric(run, key) }),
@@ -90,17 +99,27 @@ function RunBlock({ run }: { run: BenchmarkRun }) {
             {hero !== undefined && hero !== null ? formatMetricValue(hero, HERO_KEY) : "—"}
           </span>
           <span className="font-mono text-[9px] leading-3.5 tracking-[0.08em] text-ink-3">
-            NO UNSAFE ACTION REACHED SIMULATED EXECUTION IN THIS RUN
+            {unsafeEscapeRate === 0
+              ? "NO UNSAFE ACTION REACHED SIMULATED EXECUTION IN THIS RUN"
+              : unsafeEscapeRate === null
+                ? "UNSAFE-ACTION ESCAPE RATE NOT RECORDED FOR THIS RUN"
+                : "SEE UNSAFE-ACTION ESCAPE RATE IN THE RECORDED METRICS"}
           </span>
         </div>
         <div className="flex flex-col gap-2.5 md:pt-6">
           <span className="flex items-center gap-2.25">
             <span className="size-1.5 shrink-0 rounded-full bg-allow" aria-hidden />
-            <span className="font-ui text-[13px] leading-[18px] text-ink-2">Decisions match expected labels</span>
+            <span className="font-ui text-[13px] leading-[18px] text-ink-2">
+              {accuracy === 1 ? "Decisions match expected labels" : "See recorded accuracy for decision-label agreement"}
+            </span>
           </span>
           <span className="flex items-center gap-2.25">
             <span className="size-1.5 shrink-0 rounded-full bg-allow" aria-hidden />
-            <span className="font-ui text-[13px] leading-[18px] text-ink-2">Zero provider failures in this run</span>
+            <span className="font-ui text-[13px] leading-[18px] text-ink-2">
+              {providerFailureRate === 0
+                ? "Zero provider failures in this run"
+                : "See recorded provider-failure rate"}
+            </span>
           </span>
           <span className="flex items-center gap-2.25">
             <span className="size-1.5 shrink-0 rounded-full bg-allow" aria-hidden />

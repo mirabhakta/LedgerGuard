@@ -146,5 +146,6 @@ export const PROVIDER_LABELS: Record<string, string> = {
   rules: "Rules baseline",
   gemini: "Gemini baseline",
   system_one: "System One (Jev)",
+  openjev: "OpenJev (local baseline)",
   "timeout-test": "Timeout test provider",
 };

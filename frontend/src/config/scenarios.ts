@@ -42,4 +42,5 @@ export const SCENARIOS: ScenarioInfo[] = [
   },
 ];
 
-export const DEMO_PROVIDERS = ["rules", "gemini", "system_one"] as const;
+/** Safe fallback while the health request is still loading. */
+export const DEMO_PROVIDERS = ["rules", "gemini", "system_one", "openjev"] as const;

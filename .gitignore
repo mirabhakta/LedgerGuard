@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.DS_Store
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Sponsor dataset is downloaded locally and must not be committed.
+data/raw/
+
+# Local runtime persistence and SQLite sidecars.
+data/*.sqlite3
+data/*.sqlite3-*

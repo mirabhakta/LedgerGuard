@@ -11,7 +11,10 @@ from backend.app.data.store import NormalizedAccountingStore
 
 @pytest.fixture(scope="session")
 def dataset_root() -> Path:
-    return Path(__file__).parents[2] / "data" / "raw" / "hackathon-100"
+    primary = Path(__file__).parents[2] / "data" / "raw" / "hackathon-100"
+    if (primary / "index.json").is_file():
+        return primary
+    return Path(__file__).parents[2] / "data"
 
 
 @pytest.fixture(scope="session")

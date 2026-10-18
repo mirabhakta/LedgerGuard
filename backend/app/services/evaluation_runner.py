@@ -171,8 +171,9 @@ def write_run_artifacts(run: EvaluationRun, output_dir: Path) -> None:
             fieldnames=(
                 "run_id", "scenario_id", "state_hash", "expected_action",
                 "predicted_action", "provider", "model_name", "provider_failed",
-                "provider_latency_ms", "end_to_end_latency_ms", "policy_config_hash",
+                "provider_latency_ms", "end_to_end_latency_ms",                 "policy_config_hash",
             ),
+            lineterminator="\n",
         )
         writer.writeheader()
         for result in run.results:

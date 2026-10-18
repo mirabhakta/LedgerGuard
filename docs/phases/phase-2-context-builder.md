@@ -150,7 +150,7 @@ backend/tests/
 - per-record selected fields
 - total serialized bytes/tokens 的软上限
 
-裁剪规则必须 provider-neutral。对三个 provider 使用同一 state snapshot。
+裁剪规则必须 provider-neutral。对所有 provider 使用同一 state snapshot。
 
 ## 5. Testing checklist
 
@@ -203,6 +203,6 @@ backend/tests/
 - 所有 deterministic features 有 unit test。
 - candidate retrieval 无 vector dependency。
 - no future leakage、no sim truth leakage、no cross-company leakage tests 全绿。
-- state size 有明确上限，三个 provider 可复用同一 snapshot。
+- state size 有明确上限，所有 provider 可复用同一 snapshot。
 - Phase 3 provider 可以只依赖 `AccountingState` contract 开始实现。
 

@@ -56,7 +56,7 @@ scenario/API input
 
 A real Uvicorn server was started against an isolated SQLite database and tested over HTTP:
 
-- health: `200`, three providers, six scenarios;
+- health: `200`, four providers, six scenarios;
 - CORS preflight: `200`, exact localhost origin;
 - safe flow: `ALLOW -> POLICY_ALLOW -> SIMULATED`;
 - destination change: `REQUIRE_APPROVAL`, stale guard tested, approval produced `HUMAN_APPROVAL -> SIMULATED`;

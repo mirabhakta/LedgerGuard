@@ -48,8 +48,9 @@ filtered total.
 Available scenarios are `safe-normal-payment-001`, `semantic-duplicate-001`,
 `destination-change-001`, `missing-context-001`, `goal-mismatch-001`, and
 `high-amount-plausible-001`. Providers registered by the default service are `rules`,
-`gemini`, and `system_one`; the external providers return typed fail-safe outcomes when
-credentials or upstream service are unavailable.
+`gemini`, `system_one`, and `openjev`; the external/local-model providers return typed
+fail-safe outcomes when credentials or upstream service are unavailable. Display
+`openjev` as “OpenJev (local baseline)”, never as official Jev.
 
 ## Decision and resolution contract
 

@@ -17,6 +17,17 @@ The default FastAPI service registers `rules`, `gemini`, and `system_one`.
 Local secrets belong in `.env`, which is ignored by Git; copy `.env.example` and
 never commit real API keys.
 
+## Frontend
+
+The React/Vite client for the dashboard, review queue, live demo, and benchmarks lives in
+[`frontend/`](./frontend/README.md) and consumes only the routes in `docs/API_HANDOFF.md`.
+
+```bash
+cd frontend
+npm install
+npm run dev   # http://localhost:5173, proxies /api to 127.0.0.1:8000
+```
+
 ## Documentation
 
 - `docs/architecture.md`: current backend architecture and authority boundaries.

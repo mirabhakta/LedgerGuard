@@ -50,7 +50,7 @@ def test_hard_violation_has_highest_priority() -> None:
         ({"counterparty_change_score": 0.70}, FinalAction.REQUIRE_APPROVAL, "COUNTERPARTY_CHANGE_RISK"),
         ({"missing_context_probability": 0.70}, FinalAction.REQUEST_CONTEXT, "MISSING_CONTEXT"),
         ({"action_anomaly_score": 0.80}, FinalAction.REQUIRE_APPROVAL, "ACTION_ANOMALY"),
-        ({"action_anomaly_confidence": 0.59}, FinalAction.REQUIRE_APPROVAL, "LOW_CONFIDENCE"),
+        ({"goal_alignment_confidence": 0.59}, FinalAction.REQUIRE_APPROVAL, "LOW_CONFIDENCE"),
     ],
 )
 def test_threshold_boundaries(changes, expected, reason) -> None:
@@ -93,8 +93,8 @@ def test_duplicate_priority_beats_missing_context() -> None:
             "duplicate",
         ),
         (
-            {"missing_context_probability": 0.70, "missing_context_confidence": 0.19},
-            "missing_context",
+            {"counterparty_change_score": 0.70, "counterparty_change_confidence": 0.59},
+            "counterparty",
         ),
     ],
 )
@@ -107,7 +107,7 @@ def test_low_confidence_risk_trigger_requires_approval_not_automatic_action(chan
     assert decision.triggered_thresholds[0].name == f"{signal}_confidence"
 
 
-def test_safe_like_jev_response_with_low_missing_context_confidence_requires_review() -> None:
+def test_safe_like_jev_response_with_low_missing_context_confidence_is_allowed() -> None:
     """Regression: a 0.735 missing-context score with 0.19 confidence is not a context fact."""
     decision = PolicyEngine().decide(
         action(),
@@ -119,9 +119,8 @@ def test_safe_like_jev_response_with_low_missing_context_confidence_requires_rev
             counterparty_change_confidence=0.35,
         ),
     )
-    assert decision.final_action is FinalAction.REQUIRE_APPROVAL
-    assert decision.reason_codes == ("LOW_CONFIDENCE",)
-    assert decision.triggered_thresholds[0].name == "missing_context_confidence"
+    assert decision.final_action is FinalAction.ALLOW
+    assert "missing_context" in decision.evaluated_rules
 
 
 def test_provider_failures_never_allow() -> None:

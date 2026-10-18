@@ -62,8 +62,6 @@ class PolicyEngine:
             evaluated.append(name)
             if actual >= threshold:
                 if confidence < self.config.minimum_confidence:
-                    if name == "missing_context":
-                        continue
                     return self._low_confidence_decision(
                         action, outcome, evaluated, audit_id, {name: confidence}
                     )
@@ -96,10 +94,10 @@ class PolicyEngine:
                     )
         confidences = {
             "goal_alignment": outcome.goal_alignment_confidence,
-            # "duplicate": outcome.duplicate_obligation_confidence,
-            # "counterparty": outcome.counterparty_change_confidence,
-            # "missing_context": outcome.missing_context_confidence,
-            # "anomaly": outcome.action_anomaly_confidence,
+            "duplicate": outcome.duplicate_obligation_confidence,
+            "counterparty": outcome.counterparty_change_confidence,
+            "missing_context": outcome.missing_context_confidence,
+            "anomaly": outcome.action_anomaly_confidence,
         }
         evaluated.append("minimum_confidence")
         low = {name: value for name, value in confidences.items() if value < self.config.minimum_confidence}

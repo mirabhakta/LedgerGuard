@@ -28,8 +28,62 @@ jobs:
       - name: Install backend dependencies
         run: python -m pip install -e '.[dev]'
 
+      - name: Download QuickBooks test data
+        run: |
+          python -m pip install huggingface_hub
+          python - <<'PY'
+          from pathlib import Path, PurePosixPath
+          from shutil import copy2
+          from huggingface_hub import HfApi, snapshot_download
+
+          repo = "CL251215/QuickBooks-Hackathon-2026"
+          companies = {
+              "company-001", "company-045", "company-048",
+              "company-049", "company-073"
+          }
+
+          files = HfApi().list_repo_files(repo, repo_type="dataset")
+          selected = [
+              f for f in files
+              if any(p in companies for p in PurePosixPath(f).parts)
+          ]
+
+          if not selected:
+              raise SystemExit("No company folders found in HF dataset")
+
+          snapshot = Path(snapshot_download(
+              repo_id=repo,
+              repo_type="dataset",
+              allow_patterns=selected,
+          ))
+
+          dest = Path("data/raw/hackathon-100")
+          dest.mkdir(parents=True, exist_ok=True)
+          copy2("data/index.json", dest / "index.json")
+
+          for filename in selected:
+              parts = PurePosixPath(filename).parts
+              index = next(
+                  i for i, p in enumerate(parts) if p in companies
+              )
+              target = dest.joinpath(*parts[index:])
+              target.parent.mkdir(parents=True, exist_ok=True)
+              copy2(snapshot / filename, target)
+
+          for company in sorted(companies):
+              manifests = list(
+                  (dest / company / "rwm-v4")
+                  .glob("world-*/manifest.yaml")
+              )
+              if len(manifests) != 1:
+                  raise SystemExit(f"Missing dataset world: {company}")
+
+          print("QuickBooks test data ready")
+          PY
+
       - name: Run backend tests (excluding live and slow tests)
-        run: LEDGERGUARD_DATASET=data PYTHONPATH=. python -m pytest -q -m 'not live and not slow'
+        run: |
+          LEDGERGUARD_DATASET=data/raw/hackathon-100 PYTHONPATH=. python -m pytest -q -m 'not live and not slow'
 
       - name: Set up Node
         uses: actions/setup-node@v4

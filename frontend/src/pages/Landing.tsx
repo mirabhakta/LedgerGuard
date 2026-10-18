@@ -427,25 +427,34 @@ function HowItWorks() {
             </svg>
           </div>
         ))}
-        {/* Step 04 — inverted */}
-        <div className="flex w-full flex-col gap-4 border-y border-ink bg-ink py-7.5 md:flex-row md:items-center md:gap-10">
-          <div className="w-16 shrink-0 font-mono text-[12px] font-semibold leading-4 tracking-[0.06em] text-paper/85">
+        {/* Step 04 — same row style as steps 01–03 */}
+        <div className="flex w-full flex-col gap-4 border-t border-hairline py-7 md:flex-row md:items-center md:gap-10">
+          <div className="w-16 shrink-0 font-mono text-[12px] font-semibold leading-4 tracking-[0.06em] text-ink-3">
             04
           </div>
-          <div className="w-full shrink-0 font-ui text-[21px] font-bold leading-6.5 tracking-[-0.015em] text-paper md:w-59">
+          <div className="w-full shrink-0 font-ui text-[21px] font-bold leading-6.5 tracking-[-0.015em] text-ink md:w-59">
             Action enforced
           </div>
-          <div className="grow basis-[0%] font-ui text-[14px] leading-5.25 text-paper/78">
+          <div className="grow basis-[0%] font-ui text-[14px] leading-5.25 text-ink-2">
             Approved actions execute through a guarded payment simulator. Everything else stops — and every decision,
             signal, and outcome is written to an audit ledger you can read.
           </div>
-          <div className="ml-auto flex items-center gap-2">
+          <div className="flex items-center gap-2">
             <span className="size-1.5 shrink-0 bg-allow" aria-hidden />
-            <span className="font-mono text-[9.5px] font-medium leading-3 tracking-[0.12em] text-paper">
+            <span className="font-mono text-[9.5px] font-medium leading-3 tracking-[0.12em] text-ink">
               SIMULATOR + PHOTON 2.0 ALERTS
             </span>
           </div>
-          <div className="w-3 shrink-0 max-md:hidden" aria-hidden />
+          <svg width="12" height="10" viewBox="0 0 12 10" className="inline-block shrink-0 opacity-55 max-md:hidden" aria-hidden>
+            <path
+              d="M1 5 H10 M6.5 1.5 L10 5 L6.5 8.5"
+              fill="none"
+              stroke="var(--color-ink-3)"
+              strokeWidth="1.3"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </div>
       </div>
     </div>

@@ -8,6 +8,12 @@ Instead of discovering a duplicate payment or suspicious vendor change after the
 
 > **Hackathon prototype:** All execution is simulated. LedgerGuard does not transfer funds or connect to a live QuickBooks payment account.
 
+### Live Demo
+
+🌐 **[Launch LedgerGuard](http://149.28.71.193/)**
+
+> Hosted on a cloud server. The demo uses HTTP rather than HTTPS.
+
 ## The problem
 
 As financial AI agents automate bill payments and bookkeeping, a plausible-looking action can still be wrong. A vendor invoice may already be paid, payment instructions may have changed unexpectedly, or the agent may be missing information it needs to act safely. Ordinary rules can catch known violations, but struggle with ambiguous financial context. LLM-only approvals introduce their own reliability and control problems.

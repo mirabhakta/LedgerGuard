@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/*
+ * LedgerGuard design tokens.
+ * Mirrors the Paper file "LedgerGuard — LA Hacks 2026" token set exactly.
+ */
+@theme {
+  --color-paper: #f4f4f1;
+  --color-surface: #ffffff;
+  --color-ink: #191917;
+  --color-ink-2: #55554e;
+  --color-ink-3: #8b8b82;
+  --color-hairline: #e3e3dd;
+  --color-allow: #1e7a4e;
+  --color-approval: #96690b;
+  --color-context: #2f5da8;
+  --color-block: #b23a2e;
+
+  --font-ui: "Archivo Variable", Archivo, ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-ui);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: color-mix(in srgb, var(--color-ink) 88%, transparent);
+    color: var(--color-paper);
+  }
+}

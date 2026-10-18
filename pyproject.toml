@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ledgerguard"
+version = "0.1.0"
+description = "A System One firewall for autonomous financial agents."
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.135,<1",
+  "httpx>=0.28,<1",
+  "langgraph>=1.2.12,<2",
+  "langgraph-checkpoint-sqlite>=3.0,<4",
+  "pydantic>=2.10,<3",
+  "python-dotenv>=1.0,<2",
+  "PyYAML>=6.0,<7",
+  "uvicorn>=0.35,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3,<10",
+  "pytest-asyncio>=0.25,<2",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["backend"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["backend/tests"]
+markers = [
+  "live: requires live external provider credentials and network access",
+  "slow: scans a large portion of the sponsor dataset",
+]
+asyncio_mode = "auto"
+

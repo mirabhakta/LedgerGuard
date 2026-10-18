@@ -16,18 +16,19 @@ measure, how, and under what fairness rules. **The results table at the bottom i
 - Source: sponsor Hackathon-100 dataset + disclosed injections (`docs/SCENARIOS.md`, `docs/MODIFICATIONS.md`).
 - 10 categories (9 stress + `safe_control`), target ~20 instances per stress category and ~100 safe controls.
 - Split by company; test companies frozen in `data/scenarios/splits.json` before any tuning.
-- Each scenario carries `expected_action`, `acceptable_actions`, `is_unsafe`, and optional `expected_signals`
-  (per-question booleans, e.g. `duplicate_obligation_risk: true`).
+- Each scenario carries `expected_action`, `acceptable_actions`, `is_unsafe`, and `expected_risk_flags`
+  (signals that should be high, e.g. `["duplicate_obligation_risk"]`; `acceptable_actions`/`is_unsafe` live in `metadata`).
 - Hero cases (3) are reported separately and excluded from aggregate metrics.
 - Deterministic pre-check cases are excluded from the provider benchmark (they never reach a provider).
 - Label quality: double review of a 20% sample + all hero cases; report agreement rate here.
 
 | Field | Value |
 |---|---|
-| Dev scenarios | _TBD after generation_ |
-| Test scenarios | _TBD after generation_ |
-| Test companies (by profile) | _TBD_ |
-| Label agreement (sampled) | _TBD_ |
+| Generator seed | 1337 (`python -m evaluation.generate_scenarios --seed 1337`) |
+| Dev scenarios | 256 (86 safe, 170 unsafe) from 21 companies |
+| Test scenarios | 279 (93 safe, 186 unsafe) from 21 companies, 3 per profile (`data/scenarios/splits.json`) |
+| Hero scenarios | 3 (company-073, excluded from both splits) |
+| Label agreement (sampled) | _not yet reviewed_ |
 
 ## 3. Systems compared
 
@@ -36,9 +37,12 @@ All three implement `DecisionProvider.evaluate(AccountingState) -> RiskAssessmen
 
 | Provider | What it represents | Notes |
 |---|---|---|
-| `RulesProvider` | Strong non-AI baseline a competent engineer would write | Hand-written heuristics over the same state; outputs all five signals with fixed confidences. See `docs/workstreams/ANISH.md` §3. |
-| `LLMBaselineProvider` | Conventional GenAI: a general-purpose LLM with JSON-schema structured output | Same five questions in one call, temperature 0, schema mirrors `RiskAssessment`. Confidence is self-reported (disclosed as such). Model name/version recorded in the run manifest. |
-| `SystemOneProvider` | TypeSafe Jev via `POST /v1/systemone` | Five named questions in one request; model discovered via `GET /v1/models` and recorded. |
+| `RulesProvider` (`backend/app/providers/rules.py`) | Strong non-AI baseline a competent engineer would write | Heuristics over the same state; all five signals with fixed confidences; constants in `RulesConfig`, tuned on dev only. |
+| `LLMBaselineProvider` (`backend/app/providers/llm.py`) | Conventional GenAI: a general-purpose LLM with JSON-schema structured output | Same five questions (`providers/questions.py`) in one call, temperature 0, schema mirrors `RiskAssessment`. Confidence is self-reported (disclosed as such). Model id recorded in results. |
+| `SystemOneProvider` (Yizhe, `backend/app/providers/system_one.py`) | TypeSafe Jev via `POST /v1/systemone` | Should ask the same five questions from `providers/questions.py`; model discovered via `GET /v1/models`. |
+
+Signals follow the contract's direction: 0 = low risk, 1 = high risk (`goal_misalignment_risk`,
+`duplicate_obligation_risk`, `counterparty_change_risk`, `missing_context_risk`, `action_anomaly_risk`).
 
 Optional ablation if time allows: `SystemOneProvider` with a single collapsed "is this safe?" question, to show
 the value of decomposed signals.
@@ -66,7 +70,7 @@ Notation: `S` = scenarios with `expected_action == ALLOW` (safe), `U` = scenario
 
 - Strict accuracy vs `expected_action`; per-class precision/recall/F1 and macro-F1 over the 4 actions; confusion matrix.
 - Per-category breakdown (which scenario types each provider fails).
-- Signal-level AUROC per question where `expected_signals` exist (separates "good signal" from "good policy").
+- Signal-level AUROC per question using `expected_risk_flags` (separates "good signal" from "good policy").
 
 ### Speed, cost, reliability
 
@@ -82,12 +86,21 @@ Notation: `S` = scenarios with `expected_action == ALLOW` (safe), `U` = scenario
 
 ### Coverage-vs-escape curve (hero chart)
 
-For each provider, sweep the policy thresholds (`T_DUPLICATE_BLOCK`, `T_COUNTERPARTY_REVIEW`, `T_CONTEXT`,
-`T_CONFIDENCE`) over a fixed grid on dev, keep the Pareto front of (escape, coverage), and plot test-set points
-for those configurations. Rules produce few distinct points because their confidences are coarse — that is part
-of the finding, not something to smooth over.
+For each provider, sweep the five `PolicyConfig` risk thresholds over {0.5, 0.7, 0.9} and
+`minimum_confidence_threshold` over {0.0, 0.5, 0.7} (729 configs), keep the Pareto front of (escape, coverage)
+on dev, and plot test-set points for those configurations (`curve.csv`, `pareto_on_tune` column). Provider calls
+are made once per scenario; the sweep re-runs only `PolicyEngine.decide`. Rules produce few distinct points
+because their confidences are coarse; that is part of the finding.
 
 ## 5. Methodology
+
+```bash
+python -m evaluation.run_eval --providers rules,llm,system_one \
+  --dev data/scenarios/dev.jsonl --test data/scenarios/test.jsonl --hero data/scenarios/hero.jsonl \
+  [--repeats 3] [--price-in-per-mtok X --price-out-per-mtok Y --price-date YYYY-MM-DD]
+```
+
+The provider benchmark uses `PrecheckResult()` defaults (hard-rule cases are out of scope for providers).
 
 1. Generate scenarios with a recorded seed; freeze test split and labels.
 2. Tune only on dev: Jev question wording, LLM prompt, rules, policy threshold grid.
@@ -137,17 +150,38 @@ If the data says otherwise, we report that.
 
 _Populated only from real runs. Each row cites its `run_id`._
 
-| Provider | n (test) | Coverage @ ε=2% | Unsafe escape | Human-review rate | Macro-F1 | p50 ms | p95 ms | $/1K actions | run_id |
-|---|---|---|---|---|---|---|---|---|---|
-| Rules | — | not yet measured | | | | | | | |
-| LLM baseline | — | not yet measured | | | | | | | |
-| System One | — | not yet measured | | | | | | | |
+Default `PolicyConfig` on the test split:
+
+| Provider | n (test) | Safe coverage | Unsafe escape | Human-review rate | False-block rate | Strict accuracy | Macro-F1 | p50 ms | p95 ms | $/1K actions | run_id |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Rules | 279 | 90.3% (84/93) | 32.8% (61/186) | 21.9% | 8.6% | 73.8% | 0.785 | 0.008 | 0.012 | n/a (local) | `20261018T000538Z` |
+| LLM baseline | — | not yet measured | | | | | | | | | |
+| System One | — | not yet measured | | | | | | | | | |
+
+Rules latency is in-process with no network call, so it is not comparable to hosted-model latency.
+
+Coverage at an escape budget (thresholds chosen on dev, reported on test):
+
+| Provider | ε = 0% | ε = 2% | ε = 5% | run_id |
+|---|---|---|---|---|
+| Rules | dev 0.0% escape / 65.1% coverage → test 31.2% escape / 72.0% coverage | dev 0.6% / 82.6% → test 32.8% / 90.3% | same config as ε = 2% | `20261018T000538Z` |
+| LLM baseline | not yet measured | | | |
+| System One | not yet measured | | | |
+
+The rules' dev-tuned thresholds hold on dev but not on test: escape jumps from under 1% to ~31–33%. Rules
+failures by category on test (default config): `personal_looking_expense` 21/21 allowed,
+`internal_transfer_as_expense` 21/21 allowed, `constraint_violation` 18/21 allowed — all categories whose test
+wording differs from dev (`docs/SCENARIOS.md` §4). `duplicate_similar_invoice` 1/21 allowed (a different,
+legitimate bill from the same vendor sits 1 day away within 2.3%, so the nearest candidate is not the original).
+Near-exact duplicates, duplicate deposits, payroll double counts, destination changes, large amounts and missing
+context are caught. False blocks (8/93 safe controls) come from vendors that bill every few days at near-identical
+amounts.
 
 Hero cases end-to-end (pass = decision matches expected):
 
 | Provider | A ("Adobe") | B ("Acme Supplies") | C ("AWS") | run_id |
 |---|---|---|---|---|
-| Rules | not yet measured | | | |
+| Rules | ALLOW (pass) | REQUIRE_APPROVAL (pass) | BLOCK (pass) | `20261018T000538Z` |
 | LLM baseline | not yet measured | | | |
 | System One | not yet measured | | | |
 

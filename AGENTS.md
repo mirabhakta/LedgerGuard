@@ -32,8 +32,17 @@ Proposed action
 ```
 
 System One (TypeSafe Jev, `POST /v1/systemone`, model name discovered via `GET /v1/models`) answers five
-separate semantic questions per action: `goal_alignment`, `duplicate_obligation_risk`,
-`counterparty_change_risk`, `missing_context`, `action_anomaly`. Never collapse them into one "is this safe?".
+separate semantic questions per action: `goal_misalignment_risk`, `duplicate_obligation_risk`,
+`counterparty_change_risk`, `missing_context_risk`, `action_anomaly_risk` — each a `RiskSignal(value, confidence)`
+with 0 = low risk, 1 = high risk. The question wording lives in `backend/app/providers/questions.py` and is shared
+by every semantic provider. Never collapse them into one "is this safe?".
+
+## Frozen contracts
+
+`docs/BACKEND_INTERFACE_CONTRACTS.md` is canonical. Do not create competing definitions of `AccountingState`,
+`RiskSignal`, `RiskAssessment`, `PrecheckResult`, `PolicyConfig`, `PolicyDecision`, `FinalAction`, `Scenario`,
+`DecisionProvider.evaluate(...)`, `PolicyEngine.decide(...)`, or `build_accounting_state(...)`. The live app and
+the evaluation both go through `build_accounting_state(scenario)`; no eval-only serialization.
 
 ## Hard rules (non-negotiable)
 
@@ -66,16 +75,16 @@ Full numbered list: `docs/CODING_ASSISTANT_RULES.md`. The ones most often violat
 backend/app/
   api/          HTTP surface only (FastAPI routes)
   models/       Pydantic contracts: action, state, risk, policy
-  providers/    base.py (DecisionProvider), system_one.py, llm.py, rules.py
+  providers/    base.py (DecisionProvider), helpers.py, questions.py, system_one.py, llm.py, rules.py
   policy/       engine.py, config.py  (deterministic authority)
-  services/     context_builder, scenario_loader, replay, audit, metrics
+  services/     context_builder, sponsor_data, accounting_context, metrics, replay, audit
   graph/        LangGraph orchestration only (state, graph, routing, nodes/)
   tools/        fact retrieval + simulated actions
   db/           SQLite models/session
 backend/tests/
 frontend/src/   React + TypeScript + Vite (pages, components, api, types)
 data/           sponsor dataset (company-001..100, gitignored) + scenarios/ + labeled/
-evaluation/     run_eval.py, results/ (machine-readable JSON/CSV, real runs only)
+evaluation/     generate_scenarios.py, run_eval.py, leakage.py, results/ (real runs only)
 docs/           specs, contracts, eval plan, demo script, workstreams
 ```
 
@@ -117,9 +126,22 @@ Evaluation: pandas, scikit-learn, custom safety/coverage/latency metrics.
 | Scenario generation, labeling, RulesProvider, LLM baseline, evaluation scripts, benchmark results | Anish — see `docs/workstreams/ANISH.md` |
 | UI polish, charts, deployment, integration testing, demo video, pitch deck | Kubra |
 
+## Commands
+
+```bash
+python3.12 -m venv .venv && .venv/bin/pip install -r backend/requirements.txt
+.venv/bin/python -m pytest                                      # run from repo root
+.venv/bin/python -m evaluation.generate_scenarios --seed 1337   # needs data/company-*/
+.venv/bin/python -m evaluation.run_eval --providers rules,llm,system_one \
+  --dev data/scenarios/dev.jsonl --test data/scenarios/test.jsonl --hero data/scenarios/hero.jsonl
+```
+
+Imports are absolute from the repo root (`from backend.app.models.risk import RiskAssessment`).
+
 ## Docs index
 
 - `docs/FINAL_SPEC.md` — frozen product + technical spec (source of truth)
+- `docs/BACKEND_INTERFACE_CONTRACTS.md` — canonical backend models and signatures
 - `docs/CODING_ASSISTANT_RULES.md` — full numbered implementation constraints (1–30)
 - `docs/EVAL_PLAN.md` — scenarios, labels, baselines, metrics, fairness, results table
 - `docs/SCENARIOS.md` — scenario file format and injection recipes against the sponsor data

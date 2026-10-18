@@ -1,0 +1,57 @@
+report: Accounts Receivable Aging
+company: Umber Room Interiors
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-1cfd7b733fad6c49
+buckets:
+  current: '283891.05'
+  1-30: '35390.76'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '319281.81'
+rows:
+- document_id: minv-00036
+  party: Odette Wexler
+  due_date: '2026-09-25'
+  days_past_due: 11
+  bucket: 1-30
+  balance: '6646.15'
+- document_id: minv-00037
+  party: Viktor Ferreira
+  due_date: '2026-09-26'
+  days_past_due: 10
+  bucket: 1-30
+  balance: '9803.07'
+- document_id: minv-00038
+  party: Yara Dagher
+  due_date: '2026-09-30'
+  days_past_due: 6
+  bucket: 1-30
+  balance: '18941.54'
+- document_id: minv-00040
+  party: Oskar Dagher
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '116740.81'
+- document_id: minv-00041
+  party: Kenji Uddin
+  due_date: '2026-10-17'
+  days_past_due: 0
+  bucket: current
+  balance: '29404.90'
+- document_id: minv-00042
+  party: Liesel Yildirim
+  due_date: '2026-10-25'
+  days_past_due: 0
+  bucket: current
+  balance: '111160.71'
+- document_id: minv-00043
+  party: Odette Wexler
+  due_date: '2026-11-05'
+  days_past_due: 0
+  bucket: current
+  balance: '26584.63'

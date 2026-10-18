@@ -1,0 +1,69 @@
+report: Accounts Payable Aging
+company: Pagewood Books & Prints
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-1611f09c8922296f
+buckets:
+  current: '151903.15'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '151903.15'
+rows:
+- document_id: bill-supplies-00460
+  party: Fresh City Provisions
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '28093.66'
+- document_id: bill-supplies-00469
+  party: Fresh City Provisions
+  due_date: '2026-10-14'
+  days_past_due: 0
+  bucket: current
+  balance: '20715.81'
+- document_id: bill-supplies-00478
+  party: Fresh City Provisions
+  due_date: '2026-10-21'
+  days_past_due: 0
+  bucket: current
+  balance: '23894.67'
+- document_id: bill-supplies-00487
+  party: Fresh City Provisions
+  due_date: '2026-10-28'
+  days_past_due: 0
+  bucket: current
+  balance: '25194.87'
+- document_id: bill-insurance-00498
+  party: Northfield Mutual Insurance
+  due_date: '2026-10-31'
+  days_past_due: 0
+  bucket: current
+  balance: '400.00'
+- document_id: bill-premises-00496
+  party: Balewa Holdings LLC
+  due_date: '2026-10-31'
+  days_past_due: 0
+  bucket: current
+  balance: '6000.00'
+- document_id: bill-utilities-00497
+  party: Jasper Mill Power & Light
+  due_date: '2026-10-31'
+  days_past_due: 0
+  bucket: current
+  balance: '350.00'
+- document_id: bill-income-tax-00499
+  party: Stonegate County Treasurer
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '27361.99'
+- document_id: bill-supplies-00500
+  party: Fresh City Provisions
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '19892.15'

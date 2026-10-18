@@ -1,0 +1,213 @@
+- id: proj-00001
+  name: Landscaping for Dubois Toyworks Inc.
+  customer_id: cust-client-1
+  customer_name: Dubois Toyworks Inc.
+  project_kind: landscaping
+  contract_amount: '22496.25'
+  original_contract_amount: '22496.25'
+  change_orders: []
+  started_sim_day: 0
+  started_date: '2025-10-06'
+  planned_finish_sim_day: 54
+  planned_finish_date: '2025-11-29'
+  reschedules: []
+  completed_sim_day: 66
+  completed_date: '2025-12-11'
+  status: completed
+  status_history:
+  - sim_day: 0
+    date: '2025-10-06'
+    status: booked
+  - sim_day: 7
+    date: '2025-10-13'
+    status: active
+  - sim_day: 66
+    date: '2025-12-11'
+    status: completed
+  provenance_note: sim:124e77eae9f4387c:proj-00001
+  sim_project_id: project-1
+  sim_event_ids:
+  - event-10
+- id: proj-00002
+  name: Renovation for Foxglove Pioneer Quilting Group
+  customer_id: cust-client-2
+  customer_name: Foxglove Pioneer Quilting Group
+  project_kind: renovation
+  contract_amount: '132000.00'
+  original_contract_amount: '132000.00'
+  change_orders: []
+  started_sim_day: 15
+  started_date: '2025-10-21'
+  planned_finish_sim_day: 156
+  planned_finish_date: '2026-03-11'
+  reschedules: []
+  completed_sim_day: 179
+  completed_date: '2026-04-03'
+  status: completed
+  status_history:
+  - sim_day: 15
+    date: '2025-10-21'
+    status: booked
+  - sim_day: 22
+    date: '2025-10-28'
+    status: active
+  - sim_day: 179
+    date: '2026-04-03'
+    status: completed
+  provenance_note: sim:124e77eae9f4387c:proj-00002
+  sim_project_id: project-2
+  sim_event_ids:
+  - event-105
+- id: proj-00003
+  name: New home for Bellrock Orchards
+  customer_id: cust-client-3
+  customer_name: Bellrock Orchards
+  project_kind: new home
+  contract_amount: '526923.90'
+  original_contract_amount: '526923.90'
+  change_orders: []
+  started_sim_day: 42
+  started_date: '2025-11-17'
+  planned_finish_sim_day: 273
+  planned_finish_date: '2026-07-06'
+  reschedules: []
+  completed_sim_day: 309
+  completed_date: '2026-08-11'
+  status: completed
+  status_history:
+  - sim_day: 42
+    date: '2025-11-17'
+    status: booked
+  - sim_day: 49
+    date: '2025-11-24'
+    status: active
+  - sim_day: 309
+    date: '2026-08-11'
+    status: completed
+  provenance_note: sim:124e77eae9f4387c:proj-00003
+  sim_project_id: project-3
+  sim_event_ids:
+  - event-364
+- id: proj-00004
+  name: Landscaping for Lanternwood Grocers
+  customer_id: cust-client-4
+  customer_name: Lanternwood Grocers
+  project_kind: landscaping
+  contract_amount: '24344.98'
+  original_contract_amount: '21287.47'
+  change_orders:
+  - sim_day: 130
+    date: '2026-02-13'
+    amount: '1415.90'
+  - sim_day: 150
+    date: '2026-03-05'
+    amount: '1641.61'
+  started_sim_day: 105
+  started_date: '2026-01-19'
+  planned_finish_sim_day: 158
+  planned_finish_date: '2026-03-13'
+  reschedules: []
+  completed_sim_day: 175
+  completed_date: '2026-03-30'
+  status: completed
+  status_history:
+  - sim_day: 105
+    date: '2026-01-19'
+    status: booked
+  - sim_day: 112
+    date: '2026-01-26'
+    status: active
+  - sim_day: 175
+    date: '2026-03-30'
+    status: completed
+  provenance_note: sim:124e77eae9f4387c:proj-00004
+  sim_project_id: project-4
+  sim_event_ids:
+  - event-1188
+- id: proj-00005
+  name: New home for Yarrow Field Confections Inc.
+  customer_id: cust-client-5
+  customer_name: Yarrow Field Confections Inc.
+  project_kind: new home
+  contract_amount: '710620.29'
+  original_contract_amount: '650472.67'
+  change_orders:
+  - sim_day: 222
+    date: '2026-05-16'
+    amount: '42967.22'
+  - sim_day: 326
+    date: '2026-08-28'
+    amount: '17180.40'
+  started_sim_day: 168
+  started_date: '2026-03-23'
+  planned_finish_sim_day: 431
+  planned_finish_date: '2026-12-11'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: active
+  status_history:
+  - sim_day: 168
+    date: '2026-03-23'
+    status: booked
+  - sim_day: 178
+    date: '2026-04-02'
+    status: active
+  provenance_note: sim:124e77eae9f4387c:proj-00005
+  sim_project_id: project-5
+  sim_event_ids:
+  - event-2145
+- id: proj-00006
+  name: New home for Keystone Supply Partners
+  customer_id: cust-client-6
+  customer_name: Keystone Supply Partners
+  project_kind: new home
+  contract_amount: '512668.60'
+  original_contract_amount: '512668.60'
+  change_orders: []
+  started_sim_day: 294
+  started_date: '2026-07-27'
+  planned_finish_sim_day: 506
+  planned_finish_date: '2027-02-24'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: active
+  status_history:
+  - sim_day: 294
+    date: '2026-07-27'
+    status: booked
+  - sim_day: 301
+    date: '2026-08-03'
+    status: active
+  provenance_note: sim:124e77eae9f4387c:proj-00006
+  sim_project_id: project-6
+  sim_event_ids:
+  - event-3947
+- id: proj-00007
+  name: Landscaping for Lindqvist & Daughters Roasters
+  customer_id: cust-client-7
+  customer_name: Lindqvist & Daughters Roasters
+  project_kind: landscaping
+  contract_amount: '28889.29'
+  original_contract_amount: '28889.29'
+  change_orders: []
+  started_sim_day: 357
+  started_date: '2026-09-28'
+  planned_finish_sim_day: 417
+  planned_finish_date: '2026-11-27'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: active
+  status_history:
+  - sim_day: 357
+    date: '2026-09-28'
+    status: booked
+  - sim_day: 364
+    date: '2026-10-05'
+    status: active
+  provenance_note: sim:124e77eae9f4387c:proj-00007
+  sim_project_id: project-7
+  sim_event_ids:
+  - event-4815

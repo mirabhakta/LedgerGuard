@@ -1,0 +1,45 @@
+report: Accounts Payable Aging
+company: Silverbirch Financial Planning
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-ffbd6143a6025ecc
+buckets:
+  current: '5557.14'
+  1-30: '3857.14'
+  31-60: '3857.14'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '13271.42'
+rows:
+- document_id: bill-premises-00178
+  party: Nakamura Property Management
+  due_date: '2026-08-09'
+  days_past_due: 58
+  bucket: 31-60
+  balance: '3857.14'
+- document_id: bill-premises-00192
+  party: Nakamura Property Management
+  due_date: '2026-09-08'
+  days_past_due: 28
+  bucket: 1-30
+  balance: '3857.14'
+- document_id: bill-insurance-00206
+  party: Kiln Hollow Insurance Group
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1000.00'
+- document_id: bill-premises-00204
+  party: Nakamura Property Management
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '3857.14'
+- document_id: bill-software-00205
+  party: Cloudledger Software Subscriptions
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '700.00'

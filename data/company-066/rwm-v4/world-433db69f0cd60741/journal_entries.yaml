@@ -1,0 +1,3348 @@
+- id: je-open-00001
+  doc_number: JE-9001
+  purpose: opening_equity
+  txn_sim_day: 0
+  txn_date: '2025-10-06'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Opening cash.
+    debit_amount: '49143.63'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-opening-equity
+    account_name: Opening Balance Equity
+    description: Owner contribution.
+    debit_amount: '0.00'
+    credit_amount: '49143.63'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Owner's opening cash contribution.
+  provenance_note: sim:433db69f0cd60741:je-open-00001
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00001
+- id: je-wageacc-00010
+  doc_number: JE-9002
+  purpose: wage_accrual
+  txn_sim_day: 7
+  txn_date: '2025-10-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00010
+  sim_obligation_id: obligation-00010
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00023
+- id: je-wagepay-00008
+  doc_number: JE-9003
+  purpose: wage_payment
+  txn_sim_day: 12
+  txn_date: '2025-10-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00008
+  sim_obligation_id: obligation-00010
+  sim_payment_id: payment-00008
+  sim_event_ids:
+  - event-00029
+- id: je-wageacc-00011
+  doc_number: JE-9004
+  purpose: wage_accrual
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00011
+  sim_obligation_id: obligation-00011
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00032
+- id: je-wagepay-00011
+  doc_number: JE-9005
+  purpose: wage_payment
+  txn_sim_day: 19
+  txn_date: '2025-10-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00011
+  sim_obligation_id: obligation-00011
+  sim_payment_id: payment-00011
+  sim_event_ids:
+  - event-00034
+- id: je-wageacc-00012
+  doc_number: JE-9006
+  purpose: wage_accrual
+  txn_sim_day: 21
+  txn_date: '2025-10-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00012
+  sim_obligation_id: obligation-00012
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00035
+- id: je-wagepay-00012
+  doc_number: JE-9007
+  purpose: wage_payment
+  txn_sim_day: 26
+  txn_date: '2025-11-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00012
+  sim_obligation_id: obligation-00012
+  sim_payment_id: payment-00012
+  sim_event_ids:
+  - event-00037
+- id: je-wageacc-00013
+  doc_number: JE-9008
+  purpose: wage_accrual
+  txn_sim_day: 28
+  txn_date: '2025-11-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00013
+  sim_obligation_id: obligation-00013
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00038
+- id: je-wagepay-00016
+  doc_number: JE-9009
+  purpose: wage_payment
+  txn_sim_day: 33
+  txn_date: '2025-11-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00016
+  sim_obligation_id: obligation-00013
+  sim_payment_id: payment-00016
+  sim_event_ids:
+  - event-00060
+- id: je-wageacc-00026
+  doc_number: JE-9010
+  purpose: wage_accrual
+  txn_sim_day: 35
+  txn_date: '2025-11-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00026
+  sim_obligation_id: obligation-00026
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00064
+- id: je-wagepay-00024
+  doc_number: JE-9011
+  purpose: wage_payment
+  txn_sim_day: 40
+  txn_date: '2025-11-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00024
+  sim_obligation_id: obligation-00026
+  sim_payment_id: payment-00024
+  sim_event_ids:
+  - event-00076
+- id: je-wageacc-00027
+  doc_number: JE-9012
+  purpose: wage_accrual
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00027
+  sim_obligation_id: obligation-00027
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00079
+- id: je-wagepay-00027
+  doc_number: JE-9013
+  purpose: wage_payment
+  txn_sim_day: 47
+  txn_date: '2025-11-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00027
+  sim_obligation_id: obligation-00027
+  sim_payment_id: payment-00027
+  sim_event_ids:
+  - event-00083
+- id: je-wageacc-00028
+  doc_number: JE-9014
+  purpose: wage_accrual
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00028
+  sim_obligation_id: obligation-00028
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00084
+- id: je-wagepay-00028
+  doc_number: JE-9015
+  purpose: wage_payment
+  txn_sim_day: 54
+  txn_date: '2025-11-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00028
+  sim_obligation_id: obligation-00028
+  sim_payment_id: payment-00028
+  sim_event_ids:
+  - event-00086
+- id: je-wageacc-00029
+  doc_number: JE-9016
+  purpose: wage_accrual
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00029
+  sim_obligation_id: obligation-00029
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00087
+- id: je-wagepay-00029
+  doc_number: JE-9017
+  purpose: wage_payment
+  txn_sim_day: 61
+  txn_date: '2025-12-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00029
+  sim_obligation_id: obligation-00029
+  sim_payment_id: payment-00029
+  sim_event_ids:
+  - event-00105
+- id: je-wageacc-00043
+  doc_number: JE-9018
+  purpose: wage_accrual
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00043
+  sim_obligation_id: obligation-00043
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00110
+- id: je-wagepay-00037
+  doc_number: JE-9019
+  purpose: wage_payment
+  txn_sim_day: 68
+  txn_date: '2025-12-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00037
+  sim_obligation_id: obligation-00043
+  sim_payment_id: payment-00037
+  sim_event_ids:
+  - event-00123
+- id: je-wageacc-00044
+  doc_number: JE-9020
+  purpose: wage_accrual
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00044
+  sim_obligation_id: obligation-00044
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00128
+- id: je-wagepay-00044
+  doc_number: JE-9021
+  purpose: wage_payment
+  txn_sim_day: 75
+  txn_date: '2025-12-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00044
+  sim_obligation_id: obligation-00044
+  sim_payment_id: payment-00044
+  sim_event_ids:
+  - event-00134
+- id: je-wageacc-00045
+  doc_number: JE-9022
+  purpose: wage_accrual
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00045
+  sim_obligation_id: obligation-00045
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00135
+- id: je-wagepay-00045
+  doc_number: JE-9023
+  purpose: wage_payment
+  txn_sim_day: 82
+  txn_date: '2025-12-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00045
+  sim_obligation_id: obligation-00045
+  sim_payment_id: payment-00045
+  sim_event_ids:
+  - event-00137
+- id: je-wageacc-00046
+  doc_number: JE-9024
+  purpose: wage_accrual
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00046
+  sim_obligation_id: obligation-00046
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00138
+- id: je-wagepay-00046
+  doc_number: JE-9025
+  purpose: wage_payment
+  txn_sim_day: 89
+  txn_date: '2026-01-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00046
+  sim_obligation_id: obligation-00046
+  sim_payment_id: payment-00046
+  sim_event_ids:
+  - event-00140
+- id: je-distribution-00159
+  doc_number: JE-9026
+  purpose: owner_distribution
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '81906.05'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '81906.05'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:433db69f0cd60741:je-distribution-00159
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00159
+- id: je-wageacc-00061
+  doc_number: JE-9027
+  purpose: wage_accrual
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00061
+  sim_obligation_id: obligation-00061
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00160
+- id: je-wagepay-00053
+  doc_number: JE-9028
+  purpose: wage_payment
+  txn_sim_day: 96
+  txn_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00053
+  sim_obligation_id: obligation-00061
+  sim_payment_id: payment-00053
+  sim_event_ids:
+  - event-00172
+- id: je-wageacc-00062
+  doc_number: JE-9029
+  purpose: wage_accrual
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00062
+  sim_obligation_id: obligation-00062
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00179
+- id: je-wagepay-00062
+  doc_number: JE-9030
+  purpose: wage_payment
+  txn_sim_day: 103
+  txn_date: '2026-01-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00062
+  sim_obligation_id: obligation-00062
+  sim_payment_id: payment-00062
+  sim_event_ids:
+  - event-00190
+- id: je-wageacc-00063
+  doc_number: JE-9031
+  purpose: wage_accrual
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00063
+  sim_obligation_id: obligation-00063
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00191
+- id: je-wagepay-00063
+  doc_number: JE-9032
+  purpose: wage_payment
+  txn_sim_day: 110
+  txn_date: '2026-01-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00063
+  sim_obligation_id: obligation-00063
+  sim_payment_id: payment-00063
+  sim_event_ids:
+  - event-00193
+- id: je-wageacc-00064
+  doc_number: JE-9033
+  purpose: wage_accrual
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00064
+  sim_obligation_id: obligation-00064
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00194
+- id: je-wagepay-00064
+  doc_number: JE-9034
+  purpose: wage_payment
+  txn_sim_day: 117
+  txn_date: '2026-01-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00064
+  sim_obligation_id: obligation-00064
+  sim_payment_id: payment-00064
+  sim_event_ids:
+  - event-00196
+- id: je-wageacc-00065
+  doc_number: JE-9035
+  purpose: wage_accrual
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00065
+  sim_obligation_id: obligation-00065
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00197
+- id: je-wagepay-00069
+  doc_number: JE-9036
+  purpose: wage_payment
+  txn_sim_day: 124
+  txn_date: '2026-02-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00069
+  sim_obligation_id: obligation-00065
+  sim_payment_id: payment-00069
+  sim_event_ids:
+  - event-00222
+- id: je-wageacc-00079
+  doc_number: JE-9037
+  purpose: wage_accrual
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00079
+  sim_obligation_id: obligation-00079
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00224
+- id: je-wagepay-00077
+  doc_number: JE-9038
+  purpose: wage_payment
+  txn_sim_day: 131
+  txn_date: '2026-02-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00077
+  sim_obligation_id: obligation-00079
+  sim_payment_id: payment-00077
+  sim_event_ids:
+  - event-00239
+- id: je-wageacc-00080
+  doc_number: JE-9039
+  purpose: wage_accrual
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00080
+  sim_obligation_id: obligation-00080
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00240
+- id: je-wagepay-00080
+  doc_number: JE-9040
+  purpose: wage_payment
+  txn_sim_day: 138
+  txn_date: '2026-02-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00080
+  sim_obligation_id: obligation-00080
+  sim_payment_id: payment-00080
+  sim_event_ids:
+  - event-00244
+- id: je-wageacc-00081
+  doc_number: JE-9041
+  purpose: wage_accrual
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00081
+  sim_obligation_id: obligation-00081
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00245
+- id: je-wagepay-00081
+  doc_number: JE-9042
+  purpose: wage_payment
+  txn_sim_day: 145
+  txn_date: '2026-02-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00081
+  sim_obligation_id: obligation-00081
+  sim_payment_id: payment-00081
+  sim_event_ids:
+  - event-00247
+- id: je-wageacc-00082
+  doc_number: JE-9043
+  purpose: wage_accrual
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00082
+  sim_obligation_id: obligation-00082
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00248
+- id: je-wagepay-00082
+  doc_number: JE-9044
+  purpose: wage_payment
+  txn_sim_day: 152
+  txn_date: '2026-03-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00082
+  sim_obligation_id: obligation-00082
+  sim_payment_id: payment-00082
+  sim_event_ids:
+  - event-00267
+- id: je-wageacc-00096
+  doc_number: JE-9045
+  purpose: wage_accrual
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00096
+  sim_obligation_id: obligation-00096
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00272
+- id: je-wagepay-00094
+  doc_number: JE-9046
+  purpose: wage_payment
+  txn_sim_day: 159
+  txn_date: '2026-03-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00094
+  sim_obligation_id: obligation-00096
+  sim_payment_id: payment-00094
+  sim_event_ids:
+  - event-00288
+- id: je-wageacc-00097
+  doc_number: JE-9047
+  purpose: wage_accrual
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00097
+  sim_obligation_id: obligation-00097
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00291
+- id: je-wagepay-00097
+  doc_number: JE-9048
+  purpose: wage_payment
+  txn_sim_day: 166
+  txn_date: '2026-03-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00097
+  sim_obligation_id: obligation-00097
+  sim_payment_id: payment-00097
+  sim_event_ids:
+  - event-00295
+- id: je-wageacc-00098
+  doc_number: JE-9049
+  purpose: wage_accrual
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00098
+  sim_obligation_id: obligation-00098
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00296
+- id: je-wagepay-00098
+  doc_number: JE-9050
+  purpose: wage_payment
+  txn_sim_day: 173
+  txn_date: '2026-03-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00098
+  sim_obligation_id: obligation-00098
+  sim_payment_id: payment-00098
+  sim_event_ids:
+  - event-00298
+- id: je-wageacc-00099
+  doc_number: JE-9051
+  purpose: wage_accrual
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00099
+  sim_obligation_id: obligation-00099
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00299
+- id: je-wagepay-00099
+  doc_number: JE-9052
+  purpose: wage_payment
+  txn_sim_day: 180
+  txn_date: '2026-04-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00099
+  sim_obligation_id: obligation-00099
+  sim_payment_id: payment-00099
+  sim_event_ids:
+  - event-00312
+- id: je-distribution-00322
+  doc_number: JE-9053
+  purpose: owner_distribution
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '63634.32'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '63634.32'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:433db69f0cd60741:je-distribution-00322
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00322
+- id: je-wageacc-00113
+  doc_number: JE-9054
+  purpose: wage_accrual
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00113
+  sim_obligation_id: obligation-00113
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00323
+- id: je-wagepay-00107
+  doc_number: JE-9055
+  purpose: wage_payment
+  txn_sim_day: 187
+  txn_date: '2026-04-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00107
+  sim_obligation_id: obligation-00113
+  sim_payment_id: payment-00107
+  sim_event_ids:
+  - event-00339
+- id: je-wageacc-00114
+  doc_number: JE-9056
+  purpose: wage_accrual
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00114
+  sim_obligation_id: obligation-00114
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00341
+- id: je-wagepay-00114
+  doc_number: JE-9057
+  purpose: wage_payment
+  txn_sim_day: 194
+  txn_date: '2026-04-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00114
+  sim_obligation_id: obligation-00114
+  sim_payment_id: payment-00114
+  sim_event_ids:
+  - event-00350
+- id: je-wageacc-00115
+  doc_number: JE-9058
+  purpose: wage_accrual
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00115
+  sim_obligation_id: obligation-00115
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00351
+- id: je-wagepay-00115
+  doc_number: JE-9059
+  purpose: wage_payment
+  txn_sim_day: 201
+  txn_date: '2026-04-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00115
+  sim_obligation_id: obligation-00115
+  sim_payment_id: payment-00115
+  sim_event_ids:
+  - event-00353
+- id: je-wageacc-00116
+  doc_number: JE-9060
+  purpose: wage_accrual
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00116
+  sim_obligation_id: obligation-00116
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00354
+- id: je-wagepay-00116
+  doc_number: JE-9061
+  purpose: wage_payment
+  txn_sim_day: 208
+  txn_date: '2026-05-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00116
+  sim_obligation_id: obligation-00116
+  sim_payment_id: payment-00116
+  sim_event_ids:
+  - event-00356
+- id: je-wageacc-00127
+  doc_number: JE-9062
+  purpose: wage_accrual
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00127
+  sim_obligation_id: obligation-00127
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00367
+- id: je-wagepay-00122
+  doc_number: JE-9063
+  purpose: wage_payment
+  txn_sim_day: 215
+  txn_date: '2026-05-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00122
+  sim_obligation_id: obligation-00127
+  sim_payment_id: payment-00122
+  sim_event_ids:
+  - event-00385
+- id: je-wageacc-00131
+  doc_number: JE-9064
+  purpose: wage_accrual
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00131
+  sim_obligation_id: obligation-00131
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00389
+- id: je-wagepay-00130
+  doc_number: JE-9065
+  purpose: wage_payment
+  txn_sim_day: 222
+  txn_date: '2026-05-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00130
+  sim_obligation_id: obligation-00131
+  sim_payment_id: payment-00130
+  sim_event_ids:
+  - event-00400
+- id: je-wageacc-00132
+  doc_number: JE-9066
+  purpose: wage_accrual
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00132
+  sim_obligation_id: obligation-00132
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00402
+- id: je-wagepay-00132
+  doc_number: JE-9067
+  purpose: wage_payment
+  txn_sim_day: 229
+  txn_date: '2026-05-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00132
+  sim_obligation_id: obligation-00132
+  sim_payment_id: payment-00132
+  sim_event_ids:
+  - event-00404
+- id: je-wageacc-00133
+  doc_number: JE-9068
+  purpose: wage_accrual
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00133
+  sim_obligation_id: obligation-00133
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00405
+- id: je-wagepay-00133
+  doc_number: JE-9069
+  purpose: wage_payment
+  txn_sim_day: 236
+  txn_date: '2026-05-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00133
+  sim_obligation_id: obligation-00133
+  sim_payment_id: payment-00133
+  sim_event_ids:
+  - event-00407
+- id: je-wageacc-00134
+  doc_number: JE-9070
+  purpose: wage_accrual
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00134
+  sim_obligation_id: obligation-00134
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00408
+- id: je-wagepay-00138
+  doc_number: JE-9071
+  purpose: wage_payment
+  txn_sim_day: 243
+  txn_date: '2026-06-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00138
+  sim_obligation_id: obligation-00134
+  sim_payment_id: payment-00138
+  sim_event_ids:
+  - event-00432
+- id: je-wageacc-00148
+  doc_number: JE-9072
+  purpose: wage_accrual
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00148
+  sim_obligation_id: obligation-00148
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00436
+- id: je-wagepay-00147
+  doc_number: JE-9073
+  purpose: wage_payment
+  txn_sim_day: 250
+  txn_date: '2026-06-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00147
+  sim_obligation_id: obligation-00148
+  sim_payment_id: payment-00147
+  sim_event_ids:
+  - event-00450
+- id: je-wageacc-00149
+  doc_number: JE-9074
+  purpose: wage_accrual
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00149
+  sim_obligation_id: obligation-00149
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00452
+- id: je-wagepay-00149
+  doc_number: JE-9075
+  purpose: wage_payment
+  txn_sim_day: 257
+  txn_date: '2026-06-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00149
+  sim_obligation_id: obligation-00149
+  sim_payment_id: payment-00149
+  sim_event_ids:
+  - event-00455
+- id: je-wageacc-00150
+  doc_number: JE-9076
+  purpose: wage_accrual
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00150
+  sim_obligation_id: obligation-00150
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00456
+- id: je-wagepay-00150
+  doc_number: JE-9077
+  purpose: wage_payment
+  txn_sim_day: 264
+  txn_date: '2026-06-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00150
+  sim_obligation_id: obligation-00150
+  sim_payment_id: payment-00150
+  sim_event_ids:
+  - event-00458
+- id: je-wageacc-00151
+  doc_number: JE-9078
+  purpose: wage_accrual
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00151
+  sim_obligation_id: obligation-00151
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00459
+- id: je-wagepay-00151
+  doc_number: JE-9079
+  purpose: wage_payment
+  txn_sim_day: 271
+  txn_date: '2026-07-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00151
+  sim_obligation_id: obligation-00151
+  sim_payment_id: payment-00151
+  sim_event_ids:
+  - event-00478
+- id: je-distribution-00485
+  doc_number: JE-9080
+  purpose: owner_distribution
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '69987.45'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '69987.45'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:433db69f0cd60741:je-distribution-00485
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00485
+- id: je-wageacc-00165
+  doc_number: JE-9081
+  purpose: wage_accrual
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00165
+  sim_obligation_id: obligation-00165
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00486
+- id: je-wagepay-00159
+  doc_number: JE-9082
+  purpose: wage_payment
+  txn_sim_day: 278
+  txn_date: '2026-07-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00159
+  sim_obligation_id: obligation-00165
+  sim_payment_id: payment-00159
+  sim_event_ids:
+  - event-00499
+- id: je-wageacc-00166
+  doc_number: JE-9083
+  purpose: wage_accrual
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00166
+  sim_obligation_id: obligation-00166
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00505
+- id: je-wagepay-00166
+  doc_number: JE-9084
+  purpose: wage_payment
+  txn_sim_day: 285
+  txn_date: '2026-07-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00166
+  sim_obligation_id: obligation-00166
+  sim_payment_id: payment-00166
+  sim_event_ids:
+  - event-00510
+- id: je-wageacc-00167
+  doc_number: JE-9085
+  purpose: wage_accrual
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00167
+  sim_obligation_id: obligation-00167
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00511
+- id: je-wagepay-00167
+  doc_number: JE-9086
+  purpose: wage_payment
+  txn_sim_day: 292
+  txn_date: '2026-07-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00167
+  sim_obligation_id: obligation-00167
+  sim_payment_id: payment-00167
+  sim_event_ids:
+  - event-00513
+- id: je-wageacc-00168
+  doc_number: JE-9087
+  purpose: wage_accrual
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00168
+  sim_obligation_id: obligation-00168
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00514
+- id: je-wagepay-00168
+  doc_number: JE-9088
+  purpose: wage_payment
+  txn_sim_day: 299
+  txn_date: '2026-08-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00168
+  sim_obligation_id: obligation-00168
+  sim_payment_id: payment-00168
+  sim_event_ids:
+  - event-00516
+- id: je-wageacc-00182
+  doc_number: JE-9089
+  purpose: wage_accrual
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00182
+  sim_obligation_id: obligation-00182
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00534
+- id: je-wagepay-00176
+  doc_number: JE-9090
+  purpose: wage_payment
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00176
+  sim_obligation_id: obligation-00182
+  sim_payment_id: payment-00176
+  sim_event_ids:
+  - event-00547
+- id: je-wageacc-00183
+  doc_number: JE-9091
+  purpose: wage_accrual
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00183
+  sim_obligation_id: obligation-00183
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00553
+- id: je-wagepay-00183
+  doc_number: JE-9092
+  purpose: wage_payment
+  txn_sim_day: 313
+  txn_date: '2026-08-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00183
+  sim_obligation_id: obligation-00183
+  sim_payment_id: payment-00183
+  sim_event_ids:
+  - event-00561
+- id: je-wageacc-00184
+  doc_number: JE-9093
+  purpose: wage_accrual
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00184
+  sim_obligation_id: obligation-00184
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00562
+- id: je-wagepay-00184
+  doc_number: JE-9094
+  purpose: wage_payment
+  txn_sim_day: 320
+  txn_date: '2026-08-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00184
+  sim_obligation_id: obligation-00184
+  sim_payment_id: payment-00184
+  sim_event_ids:
+  - event-00564
+- id: je-wageacc-00185
+  doc_number: JE-9095
+  purpose: wage_accrual
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00185
+  sim_obligation_id: obligation-00185
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00565
+- id: je-wagepay-00185
+  doc_number: JE-9096
+  purpose: wage_payment
+  txn_sim_day: 327
+  txn_date: '2026-08-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00185
+  sim_obligation_id: obligation-00185
+  sim_payment_id: payment-00185
+  sim_event_ids:
+  - event-00567
+- id: je-wageacc-00186
+  doc_number: JE-9097
+  purpose: wage_accrual
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00186
+  sim_obligation_id: obligation-00186
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00568
+- id: je-wagepay-00191
+  doc_number: JE-9098
+  purpose: wage_payment
+  txn_sim_day: 334
+  txn_date: '2026-09-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00191
+  sim_obligation_id: obligation-00186
+  sim_payment_id: payment-00191
+  sim_event_ids:
+  - event-00595
+- id: je-wageacc-00200
+  doc_number: JE-9099
+  purpose: wage_accrual
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00200
+  sim_obligation_id: obligation-00200
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00597
+- id: je-wagepay-00199
+  doc_number: JE-9100
+  purpose: wage_payment
+  txn_sim_day: 341
+  txn_date: '2026-09-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00199
+  sim_obligation_id: obligation-00200
+  sim_payment_id: payment-00199
+  sim_event_ids:
+  - event-00611
+- id: je-wageacc-00201
+  doc_number: JE-9101
+  purpose: wage_accrual
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00201
+  sim_obligation_id: obligation-00201
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00612
+- id: je-wagepay-00201
+  doc_number: JE-9102
+  purpose: wage_payment
+  txn_sim_day: 348
+  txn_date: '2026-09-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00201
+  sim_obligation_id: obligation-00201
+  sim_payment_id: payment-00201
+  sim_event_ids:
+  - event-00615
+- id: je-wageacc-00202
+  doc_number: JE-9103
+  purpose: wage_accrual
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00202
+  sim_obligation_id: obligation-00202
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00616
+- id: je-wagepay-00202
+  doc_number: JE-9104
+  purpose: wage_payment
+  txn_sim_day: 355
+  txn_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00202
+  sim_obligation_id: obligation-00202
+  sim_payment_id: payment-00202
+  sim_event_ids:
+  - event-00618
+- id: je-wageacc-00203
+  doc_number: JE-9105
+  purpose: wage_accrual
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00203
+  sim_obligation_id: obligation-00203
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00619
+- id: je-wagepay-00203
+  doc_number: JE-9106
+  purpose: wage_payment
+  txn_sim_day: 362
+  txn_date: '2026-10-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wagepay-00203
+  sim_obligation_id: obligation-00203
+  sim_payment_id: payment-00203
+  sim_event_ids:
+  - event-00639
+- id: je-distribution-00647
+  doc_number: JE-9107
+  purpose: owner_distribution
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '67571.86'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '67571.86'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:433db69f0cd60741:je-distribution-00647
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00647
+- id: je-wageacc-00218
+  doc_number: JE-9108
+  purpose: wage_accrual
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '950.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '950.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Hideo Moreau.
+  provenance_note: sim:433db69f0cd60741:je-wageacc-00218
+  sim_obligation_id: obligation-00218
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00648

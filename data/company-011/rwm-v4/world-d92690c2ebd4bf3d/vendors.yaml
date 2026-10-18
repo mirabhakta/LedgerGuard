@@ -1,0 +1,210 @@
+- id: vend-bank
+  display_name: Novotny Trust Company
+  company_name: Novotny Trust Company
+  contact_given_name: Wren
+  contact_family_name: Oyelaran
+  email: wren.oyelaran@novotnytrustcompany.example
+  phone: (555) 109-0278
+  address:
+    line1: 3402 Mandrel Street
+    city: Kalamazoo
+    state: MI
+    postal_code: '49033'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: lender
+  joined_sim_day: 30
+  joined_date: '2025-11-05'
+  sim_actor_id: bank
+  sim_event_ids: []
+- id: vend-electricity
+  display_name: Jasper Mill Municipal Utilities
+  company_name: Jasper Mill Municipal Utilities
+  contact_given_name: Joaquin
+  contact_family_name: Nakagawa
+  email: joaquin.nakagawa@jaspermillmunicipalutili.example
+  phone: (555) 385-2533
+  address:
+    line1: 8502 Gantry Lane
+    city: Lincoln
+    state: NE
+    postal_code: '68568'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: utility
+  joined_sim_day: 42
+  joined_date: '2025-11-17'
+  sim_actor_id: electricity
+  sim_event_ids: []
+- id: vend-freight-vendor
+  display_name: Quintero & Daughters Confections
+  company_name: Quintero & Daughters Confections
+  contact_given_name: Rosalind
+  contact_family_name: Goddard
+  email: rosalind.goddard@quinterodaughtersconfect.example
+  phone: (555) 369-5260
+  address:
+    line1: 4020 Millrace Drive
+    city: Manchester
+    state: NH
+    postal_code: '03124'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 36
+  joined_date: '2025-11-11'
+  sim_actor_id: freight-vendor
+  sim_event_ids: []
+- id: vend-government
+  display_name: Driftwood County Treasurer
+  company_name: Driftwood County Treasurer
+  contact_given_name: Rafiq
+  contact_family_name: Lindholm
+  email: rafiq.lindholm@driftwoodcountytreasurer.example
+  phone: (555) 431-4172
+  address:
+    line1: 5369 Millrace Drive
+    city: Peoria
+    state: IL
+    postal_code: '61668'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: government
+  joined_sim_day: 91
+  joined_date: '2026-01-05'
+  sim_actor_id: government
+  sim_event_ids: []
+- id: vend-landlord
+  display_name: Whitlock Holdings LLC
+  company_name: Whitlock Holdings LLC
+  contact_given_name: Delphine
+  contact_family_name: Grabowski
+  email: delphine.grabowski@whitlockholdingsllc.example
+  phone: (555) 799-3291
+  address:
+    line1: 6796 Nailhouse Lane
+    city: Mobile
+    state: AL
+    postal_code: '36683'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: premises
+  joined_sim_day: 7
+  joined_date: '2025-10-13'
+  sim_actor_id: landlord
+  sim_event_ids: []
+- id: vend-logistics-vendor
+  display_name: Kestrel Ridge Sterling Grocers Partners
+  company_name: Kestrel Ridge Sterling Grocers Partners
+  contact_given_name: Bertram
+  contact_family_name: Vandenberg
+  email: bertram.vandenberg@kestrelridgesterlinggroc.example
+  phone: (555) 554-3718
+  address:
+    line1: 1527 Drayman Court
+    city: Greensboro
+    state: NC
+    postal_code: '27450'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 42
+  joined_date: '2025-11-17'
+  sim_actor_id: logistics-vendor
+  sim_event_ids: []
+- id: vend-operating-vendor
+  display_name: Meridian Brewing Company
+  company_name: Meridian Brewing Company
+  contact_given_name: Darius
+  contact_family_name: Ironside
+  email: darius.ironside@meridianbrewingcompany.example
+  phone: (555) 710-1813
+  address:
+    line1: 3691 Interlock Drive
+    city: Fresno
+    state: CA
+    postal_code: '93793'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 84
+  joined_date: '2025-12-29'
+  sim_actor_id: operating-vendor
+  sim_event_ids: []
+- id: vend-professional-vendor
+  display_name: Driftwood Pottery LLC
+  company_name: Driftwood Pottery LLC
+  contact_given_name: Tamsin
+  contact_family_name: Zabala
+  email: tamsin.zabala@driftwoodpotteryllc.example
+  phone: (555) 662-5577
+  address:
+    line1: 5807 Jobbing Road
+    city: Fresno
+    state: CA
+    postal_code: '93712'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 30
+  joined_date: '2025-11-05'
+  sim_actor_id: professional-vendor
+  sim_event_ids: []
+- id: vend-supplier
+  display_name: Cedar Park Meridian Creamery Inc.
+  company_name: Cedar Park Meridian Creamery Inc.
+  contact_given_name: Pascal
+  contact_family_name: Zabala
+  email: pascal.zabala@cedarparkmeridiancreamer.example
+  phone: (555) 091-0545
+  address:
+    line1: 2362 Bailer Street
+    city: Pueblo
+    state: CO
+    postal_code: '81015'
+    country: United States
+    line2: null
+  payment_terms: Net 30
+  payment_terms_days: 30
+  supply_role: product
+  joined_sim_day: 34
+  joined_date: '2025-11-09'
+  sim_actor_id: supplier
+  sim_event_ids: []
+- id: vend-water
+  display_name: Bellrock Gas & Electric
+  company_name: Bellrock Gas & Electric
+  contact_given_name: Bertram
+  contact_family_name: Nakagawa
+  email: bertram.nakagawa@bellrockgaselectric.example
+  phone: (555) 515-4155
+  address:
+    line1: 9832 Interlock Drive
+    city: Kalamazoo
+    state: MI
+    postal_code: '49029'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: utility
+  joined_sim_day: 42
+  joined_date: '2025-11-17'
+  sim_actor_id: water
+  sim_event_ids: []

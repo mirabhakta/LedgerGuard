@@ -1,0 +1,111 @@
+- id: proj-00001
+  name: Landscaping for Verdant Mercantile Company
+  customer_id: cust-client-1
+  customer_name: Verdant Mercantile Company
+  project_kind: landscaping
+  contract_amount: '25941.35'
+  original_contract_amount: '24500.00'
+  change_orders:
+  - sim_day: 46
+    date: '2025-11-21'
+    amount: '1441.35'
+  started_sim_day: 28
+  started_date: '2025-11-03'
+  planned_finish_sim_day: 77
+  planned_finish_date: '2025-12-22'
+  reschedules: []
+  completed_sim_day: 88
+  completed_date: '2026-01-02'
+  status: completed
+  status_history:
+  - sim_day: 28
+    date: '2025-11-03'
+    status: active
+  - sim_day: 88
+    date: '2026-01-02'
+    status: completed
+  provenance_note: sim:5faeef77c46160ab:proj-00001
+  sim_project_id: project-1
+  sim_event_ids:
+  - event-858
+- id: proj-00002
+  name: Landscaping for Inlet Cove Nursery
+  customer_id: cust-client-2
+  customer_name: Inlet Cove Nursery
+  project_kind: landscaping
+  contract_amount: '28268.36'
+  original_contract_amount: '28268.36'
+  change_orders: []
+  started_sim_day: 56
+  started_date: '2025-12-01'
+  planned_finish_sim_day: 112
+  planned_finish_date: '2026-01-26'
+  reschedules: []
+  completed_sim_day: 128
+  completed_date: '2026-02-11'
+  status: completed
+  status_history:
+  - sim_day: 56
+    date: '2025-12-01'
+    status: active
+  - sim_day: 128
+    date: '2026-02-11'
+    status: completed
+  provenance_note: sim:5faeef77c46160ab:proj-00002
+  sim_project_id: project-2
+  sim_event_ids:
+  - event-2099
+- id: proj-00003
+  name: New home for Glenmoor Apothecary Inc.
+  customer_id: cust-client-3
+  customer_name: Glenmoor Apothecary Inc.
+  project_kind: new home
+  contract_amount: '441236.30'
+  original_contract_amount: '409054.86'
+  change_orders:
+  - sim_day: 233
+    date: '2026-05-27'
+    amount: '21899.36'
+  - sim_day: 316
+    date: '2026-08-18'
+    amount: '10282.08'
+  started_sim_day: 196
+  started_date: '2026-04-20'
+  planned_finish_sim_day: 387
+  planned_finish_date: '2026-10-28'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: active
+  status_history:
+  - sim_day: 196
+    date: '2026-04-20'
+    status: active
+  provenance_note: sim:5faeef77c46160ab:proj-00003
+  sim_project_id: project-3
+  sim_event_ids:
+  - event-8668
+- id: proj-00004
+  name: New home for Zephyr Oakhurst Brewing
+  customer_id: cust-client-4
+  customer_name: Zephyr Oakhurst Brewing
+  project_kind: new home
+  contract_amount: '429908.32'
+  original_contract_amount: '429908.32'
+  change_orders: []
+  started_sim_day: 224
+  started_date: '2026-05-18'
+  planned_finish_sim_day: 424
+  planned_finish_date: '2026-12-04'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: active
+  status_history:
+  - sim_day: 224
+    date: '2026-05-18'
+    status: active
+  provenance_note: sim:5faeef77c46160ab:proj-00004
+  sim_project_id: project-4
+  sim_event_ids:
+  - event-9840

@@ -1,0 +1,1044 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Pinecrest Pottery
+  txn_sim_day: 21
+  txn_date: '2025-10-27'
+  due_sim_day: 51
+  due_date: '2025-11-26'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '6467.39'
+    amount: '6467.39'
+  total_amount: '6467.39'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '4462.50'
+  retainage_amount: '646.73'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Pinecrest Pottery.
+  provenance_note: sim:b9322fb400e4acbc:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-48
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-1
+  customer_name: Pinecrest Pottery
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  due_sim_day: 72
+  due_date: '2025-12-17'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '10347.82'
+    amount: '10347.82'
+  total_amount: '10347.82'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1034.78'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Pinecrest Pottery.
+  provenance_note: sim:b9322fb400e4acbc:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-111
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-2
+  customer_name: Fairhaven Provisions
+  txn_sim_day: 46
+  txn_date: '2025-11-21'
+  due_sim_day: 76
+  due_date: '2025-12-21'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5760.86'
+    amount: '5760.86'
+  total_amount: '5760.86'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '3975.00'
+  retainage_amount: '576.08'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Fairhaven Provisions.
+  provenance_note: sim:b9322fb400e4acbc:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-136
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-2
+  customer_name: Fairhaven Provisions
+  txn_sim_day: 65
+  txn_date: '2025-12-10'
+  due_sim_day: 95
+  due_date: '2026-01-09'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '9217.39'
+    amount: '9217.39'
+  total_amount: '9217.39'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '921.73'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Fairhaven Provisions.
+  provenance_note: sim:b9322fb400e4acbc:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-228
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-1
+  customer_name: Pinecrest Pottery
+  txn_sim_day: 67
+  txn_date: '2025-12-12'
+  due_sim_day: 97
+  due_date: '2026-01-11'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '12934.79'
+    amount: '12934.79'
+  total_amount: '12934.79'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1293.47'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Pinecrest Pottery.
+  provenance_note: sim:b9322fb400e4acbc:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-240
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-2
+  customer_name: Fairhaven Provisions
+  txn_sim_day: 88
+  txn_date: '2026-01-02'
+  due_sim_day: 118
+  due_date: '2026-02-01'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '11521.75'
+    amount: '11521.75'
+  total_amount: '11521.75'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1152.17'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Fairhaven Provisions.
+  provenance_note: sim:b9322fb400e4acbc:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-356
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-3
+  customer_name: Fairhaven Florals
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  due_sim_day: 128
+  due_date: '2026-02-11'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '74285.71'
+    amount: '74285.71'
+  total_amount: '74285.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '66857.14'
+  retainage_amount: '7428.57'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Fairhaven Florals.
+  provenance_note: sim:b9322fb400e4acbc:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-409
+- id: minv-00008
+  doc_number: INV-1008
+  customer_id: cust-client-4
+  customer_name: Opal Nursery Company
+  txn_sim_day: 127
+  txn_date: '2026-02-10'
+  due_sim_day: 157
+  due_date: '2026-03-12'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '64285.71'
+    amount: '64285.71'
+  total_amount: '64285.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '57857.14'
+  retainage_amount: '6428.57'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Opal Nursery Company.
+  provenance_note: sim:b9322fb400e4acbc:minv-00008
+  sim_order_id: null
+  sim_obligation_id: invoice-8
+  sim_event_ids:
+  - event-579
+- id: minv-00009
+  doc_number: INV-1009
+  customer_id: cust-client-5
+  customer_name: Brightwater Provisions
+  txn_sim_day: 128
+  txn_date: '2026-02-11'
+  due_sim_day: 158
+  due_date: '2026-03-13'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5434.78'
+    amount: '5434.78'
+  total_amount: '5434.78'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '3750.00'
+  retainage_amount: '543.47'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Brightwater Provisions.
+  provenance_note: sim:b9322fb400e4acbc:minv-00009
+  sim_order_id: null
+  sim_obligation_id: invoice-9
+  sim_event_ids:
+  - event-592
+- id: minv-00010
+  doc_number: INV-1010
+  customer_id: cust-client-6
+  customer_name: Zielinski Mercantile & Co.
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 191
+  due_date: '2026-04-15'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '6467.39'
+    amount: '6467.39'
+  total_amount: '6467.39'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '4462.50'
+  retainage_amount: '646.73'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Zielinski Mercantile & Co..
+  provenance_note: sim:b9322fb400e4acbc:minv-00010
+  sim_order_id: null
+  sim_obligation_id: invoice-10
+  sim_event_ids:
+  - event-807
+- id: minv-00011
+  doc_number: INV-1011
+  customer_id: cust-client-7
+  customer_name: Sterling Creamery Partners
+  txn_sim_day: 185
+  txn_date: '2026-04-09'
+  due_sim_day: 215
+  due_date: '2026-05-09'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4728.26'
+    amount: '4728.26'
+  total_amount: '4728.26'
+  income_account_id: acct-construction-income
+  project_id: proj-00007
+  deposit_applied_amount: '3262.50'
+  retainage_amount: '472.82'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Sterling Creamery Partners.
+  provenance_note: sim:b9322fb400e4acbc:minv-00011
+  sim_order_id: null
+  sim_obligation_id: invoice-11
+  sim_event_ids:
+  - event-981
+- id: minv-00012
+  doc_number: INV-1012
+  customer_id: cust-client-3
+  customer_name: Fairhaven Florals
+  txn_sim_day: 193
+  txn_date: '2026-04-17'
+  due_sim_day: 223
+  due_date: '2026-05-17'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '198323.35'
+    amount: '198323.35'
+  total_amount: '198323.35'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '11142.86'
+  retainage_amount: '19832.33'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New home for Fairhaven Florals.
+  provenance_note: sim:b9322fb400e4acbc:minv-00012
+  sim_order_id: null
+  sim_obligation_id: invoice-12
+  sim_event_ids:
+  - event-1035
+- id: minv-00013
+  doc_number: INV-1013
+  customer_id: cust-client-4
+  customer_name: Opal Nursery Company
+  txn_sim_day: 193
+  txn_date: '2026-04-17'
+  due_sim_day: 223
+  due_date: '2026-05-17'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '144642.85'
+    amount: '144642.85'
+  total_amount: '144642.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '9642.86'
+  retainage_amount: '14464.28'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New home for Opal Nursery Company.
+  provenance_note: sim:b9322fb400e4acbc:minv-00013
+  sim_order_id: null
+  sim_obligation_id: invoice-13
+  sim_event_ids:
+  - event-1038
+- id: minv-00014
+  doc_number: INV-1014
+  customer_id: cust-client-5
+  customer_name: Brightwater Provisions
+  txn_sim_day: 200
+  txn_date: '2026-04-24'
+  due_sim_day: 230
+  due_date: '2026-05-24'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '8695.65'
+    amount: '8695.65'
+  total_amount: '8695.65'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '869.56'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Brightwater Provisions.
+  provenance_note: sim:b9322fb400e4acbc:minv-00014
+  sim_order_id: null
+  sim_obligation_id: invoice-14
+  sim_event_ids:
+  - event-1088
+- id: minv-00015
+  doc_number: INV-1015
+  customer_id: cust-client-6
+  customer_name: Zielinski Mercantile & Co.
+  txn_sim_day: 207
+  txn_date: '2026-05-01'
+  due_sim_day: 237
+  due_date: '2026-05-31'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '10347.82'
+    amount: '10347.82'
+  total_amount: '10347.82'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1034.78'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Zielinski Mercantile & Co..
+  provenance_note: sim:b9322fb400e4acbc:minv-00015
+  sim_order_id: null
+  sim_obligation_id: invoice-15
+  sim_event_ids:
+  - event-1155
+- id: minv-00016
+  doc_number: INV-1016
+  customer_id: cust-client-7
+  customer_name: Sterling Creamery Partners
+  txn_sim_day: 211
+  txn_date: '2026-05-05'
+  due_sim_day: 241
+  due_date: '2026-06-04'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '8976.49'
+    amount: '8976.49'
+  total_amount: '8976.49'
+  income_account_id: acct-construction-income
+  project_id: proj-00007
+  deposit_applied_amount: '0.00'
+  retainage_amount: '897.64'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Sterling Creamery Partners.
+  provenance_note: sim:b9322fb400e4acbc:minv-00016
+  sim_order_id: null
+  sim_obligation_id: invoice-16
+  sim_event_ids:
+  - event-1187
+- id: minv-00017
+  doc_number: INV-1017
+  customer_id: cust-client-5
+  customer_name: Brightwater Provisions
+  txn_sim_day: 228
+  txn_date: '2026-05-22'
+  due_sim_day: 258
+  due_date: '2026-06-21'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '12771.74'
+    amount: '12771.74'
+  total_amount: '12771.74'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1277.17'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Brightwater Provisions.
+  provenance_note: sim:b9322fb400e4acbc:minv-00017
+  sim_order_id: null
+  sim_obligation_id: invoice-17
+  sim_event_ids:
+  - event-1354
+- id: minv-00018
+  doc_number: INV-1018
+  customer_id: cust-client-3
+  customer_name: Fairhaven Florals
+  txn_sim_day: 232
+  txn_date: '2026-05-26'
+  due_sim_day: 262
+  due_date: '2026-06-25'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '74285.71'
+    amount: '74285.71'
+  total_amount: '74285.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '7428.57'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on New home for Fairhaven Florals.
+  provenance_note: sim:b9322fb400e4acbc:minv-00018
+  sim_order_id: null
+  sim_obligation_id: invoice-18
+  sim_event_ids:
+  - event-1380
+- id: minv-00019
+  doc_number: INV-1019
+  customer_id: cust-client-6
+  customer_name: Zielinski Mercantile & Co.
+  txn_sim_day: 232
+  txn_date: '2026-05-26'
+  due_sim_day: 262
+  due_date: '2026-06-25'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '12934.79'
+    amount: '12934.79'
+  total_amount: '12934.79'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1293.47'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Zielinski Mercantile & Co..
+  provenance_note: sim:b9322fb400e4acbc:minv-00019
+  sim_order_id: null
+  sim_obligation_id: invoice-19
+  sim_event_ids:
+  - event-1385
+- id: minv-00020
+  doc_number: INV-1020
+  customer_id: cust-client-4
+  customer_name: Opal Nursery Company
+  txn_sim_day: 233
+  txn_date: '2026-05-27'
+  due_sim_day: 263
+  due_date: '2026-06-26'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '75333.21'
+    amount: '75333.21'
+  total_amount: '75333.21'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '7533.32'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on New home for Opal Nursery Company.
+  provenance_note: sim:b9322fb400e4acbc:minv-00020
+  sim_order_id: null
+  sim_obligation_id: invoice-20
+  sim_event_ids:
+  - event-1400
+- id: minv-00021
+  doc_number: INV-1021
+  customer_id: cust-client-8
+  customer_name: Union Mercantile Group
+  txn_sim_day: 239
+  txn_date: '2026-06-02'
+  due_sim_day: 269
+  due_date: '2026-07-02'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4347.82'
+    amount: '4347.82'
+  total_amount: '4347.82'
+  income_account_id: acct-construction-income
+  project_id: proj-00008
+  deposit_applied_amount: '3000.00'
+  retainage_amount: '434.78'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Union Mercantile Group.
+  provenance_note: sim:b9322fb400e4acbc:minv-00021
+  sim_order_id: null
+  sim_obligation_id: invoice-21
+  sim_event_ids:
+  - event-1451
+- id: minv-00022
+  doc_number: INV-1022
+  customer_id: cust-client-7
+  customer_name: Sterling Creamery Partners
+  txn_sim_day: 241
+  txn_date: '2026-06-04'
+  due_sim_day: 271
+  due_date: '2026-07-04'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '9456.53'
+    amount: '9456.53'
+  total_amount: '9456.53'
+  income_account_id: acct-construction-income
+  project_id: proj-00007
+  deposit_applied_amount: '0.00'
+  retainage_amount: '945.65'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Sterling Creamery Partners.
+  provenance_note: sim:b9322fb400e4acbc:minv-00022
+  sim_order_id: null
+  sim_obligation_id: invoice-22
+  sim_event_ids:
+  - event-1469
+- id: minv-00023
+  doc_number: INV-1023
+  customer_id: cust-client-8
+  customer_name: Union Mercantile Group
+  txn_sim_day: 255
+  txn_date: '2026-06-18'
+  due_sim_day: 285
+  due_date: '2026-07-18'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '6956.52'
+    amount: '6956.52'
+  total_amount: '6956.52'
+  income_account_id: acct-construction-income
+  project_id: proj-00008
+  deposit_applied_amount: '0.00'
+  retainage_amount: '695.65'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Union Mercantile Group.
+  provenance_note: sim:b9322fb400e4acbc:minv-00023
+  sim_order_id: null
+  sim_obligation_id: invoice-23
+  sim_event_ids:
+  - event-1595
+- id: minv-00024
+  doc_number: INV-1024
+  customer_id: cust-client-4
+  customer_name: Opal Nursery Company
+  txn_sim_day: 269
+  txn_date: '2026-07-02'
+  due_sim_day: 299
+  due_date: '2026-08-01'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '64285.71'
+    amount: '64285.71'
+  total_amount: '64285.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '6428.57'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on New home for Opal Nursery Company.
+  provenance_note: sim:b9322fb400e4acbc:minv-00024
+  sim_order_id: null
+  sim_obligation_id: invoice-24
+  sim_event_ids:
+  - event-1716
+- id: minv-00025
+  doc_number: INV-1025
+  customer_id: cust-client-9
+  customer_name: Grimaldi & Daughters Supply
+  txn_sim_day: 269
+  txn_date: '2026-07-02'
+  due_sim_day: 299
+  due_date: '2026-08-01'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4347.82'
+    amount: '4347.82'
+  total_amount: '4347.82'
+  income_account_id: acct-construction-income
+  project_id: proj-00009
+  deposit_applied_amount: '3000.00'
+  retainage_amount: '434.78'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Grimaldi & Daughters Supply.
+  provenance_note: sim:b9322fb400e4acbc:minv-00025
+  sim_order_id: null
+  sim_obligation_id: invoice-25
+  sim_event_ids:
+  - event-1721
+- id: minv-00026
+  doc_number: INV-1026
+  customer_id: cust-client-3
+  customer_name: Fairhaven Florals
+  txn_sim_day: 275
+  txn_date: '2026-07-08'
+  due_sim_day: 305
+  due_date: '2026-08-07'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '74285.71'
+    amount: '74285.71'
+  total_amount: '74285.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '7428.57'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on New home for Fairhaven Florals.
+  provenance_note: sim:b9322fb400e4acbc:minv-00026
+  sim_order_id: null
+  sim_obligation_id: invoice-26
+  sim_event_ids:
+  - event-1758
+- id: minv-00027
+  doc_number: INV-1027
+  customer_id: cust-client-8
+  customer_name: Union Mercantile Group
+  txn_sim_day: 275
+  txn_date: '2026-07-08'
+  due_sim_day: 305
+  due_date: '2026-08-07'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '10171.74'
+    amount: '10171.74'
+  total_amount: '10171.74'
+  income_account_id: acct-construction-income
+  project_id: proj-00008
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1017.17'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Union Mercantile Group.
+  provenance_note: sim:b9322fb400e4acbc:minv-00027
+  sim_order_id: null
+  sim_obligation_id: invoice-27
+  sim_event_ids:
+  - event-1761
+- id: minv-00028
+  doc_number: INV-1028
+  customer_id: cust-client-9
+  customer_name: Grimaldi & Daughters Supply
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  due_sim_day: 317
+  due_date: '2026-08-19'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '6956.52'
+    amount: '6956.52'
+  total_amount: '6956.52'
+  income_account_id: acct-construction-income
+  project_id: proj-00009
+  deposit_applied_amount: '0.00'
+  retainage_amount: '695.65'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Grimaldi & Daughters Supply.
+  provenance_note: sim:b9322fb400e4acbc:minv-00028
+  sim_order_id: null
+  sim_obligation_id: invoice-28
+  sim_event_ids:
+  - event-1845
+- id: minv-00029
+  doc_number: INV-1029
+  customer_id: cust-client-10
+  customer_name: Dovetail Clearwater Brewing
+  txn_sim_day: 297
+  txn_date: '2026-07-30'
+  due_sim_day: 327
+  due_date: '2026-08-29'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5054.34'
+    amount: '5054.34'
+  total_amount: '5054.34'
+  income_account_id: acct-construction-income
+  project_id: proj-00010
+  deposit_applied_amount: '3487.50'
+  retainage_amount: '505.43'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Dovetail Clearwater Brewing.
+  provenance_note: sim:b9322fb400e4acbc:minv-00029
+  sim_order_id: null
+  sim_obligation_id: invoice-29
+  sim_event_ids:
+  - event-1931
+- id: minv-00030
+  doc_number: INV-1030
+  customer_id: cust-client-9
+  customer_name: Grimaldi & Daughters Supply
+  txn_sim_day: 310
+  txn_date: '2026-08-12'
+  due_sim_day: 340
+  due_date: '2026-09-11'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '8695.66'
+    amount: '8695.66'
+  total_amount: '8695.66'
+  income_account_id: acct-construction-income
+  project_id: proj-00009
+  deposit_applied_amount: '0.00'
+  retainage_amount: '869.56'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Grimaldi & Daughters Supply.
+  provenance_note: sim:b9322fb400e4acbc:minv-00030
+  sim_order_id: null
+  sim_obligation_id: invoice-30
+  sim_event_ids:
+  - event-2048
+- id: minv-00031
+  doc_number: INV-1031
+  customer_id: cust-client-10
+  customer_name: Dovetail Clearwater Brewing
+  txn_sim_day: 318
+  txn_date: '2026-08-20'
+  due_sim_day: 348
+  due_date: '2026-09-19'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '8086.95'
+    amount: '8086.95'
+  total_amount: '8086.95'
+  income_account_id: acct-construction-income
+  project_id: proj-00010
+  deposit_applied_amount: '0.00'
+  retainage_amount: '808.69'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Dovetail Clearwater Brewing.
+  provenance_note: sim:b9322fb400e4acbc:minv-00031
+  sim_order_id: null
+  sim_obligation_id: invoice-31
+  sim_event_ids:
+  - event-2123
+- id: minv-00032
+  doc_number: INV-1032
+  customer_id: cust-client-4
+  customer_name: Opal Nursery Company
+  txn_sim_day: 326
+  txn_date: '2026-08-28'
+  due_sim_day: 356
+  due_date: '2026-09-27'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '112500.02'
+    amount: '112500.02'
+  total_amount: '112500.02'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '11250.00'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on New home for Opal Nursery Company.
+  provenance_note: sim:b9322fb400e4acbc:minv-00032
+  sim_order_id: null
+  sim_obligation_id: invoice-32
+  sim_event_ids:
+  - event-2188
+- id: minv-00033
+  doc_number: INV-1033
+  customer_id: cust-client-11
+  customer_name: Thornbury Bindery Partners
+  txn_sim_day: 331
+  txn_date: '2026-09-02'
+  due_sim_day: 361
+  due_date: '2026-10-02'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '15323.07'
+    amount: '15323.07'
+  total_amount: '15323.07'
+  income_account_id: acct-construction-income
+  project_id: proj-00011
+  deposit_applied_amount: '13790.77'
+  retainage_amount: '1532.30'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Thornbury Bindery Partners.
+  provenance_note: sim:b9322fb400e4acbc:minv-00033
+  sim_order_id: null
+  sim_obligation_id: invoice-33
+  sim_event_ids:
+  - event-2236
+- id: minv-00034
+  doc_number: INV-1034
+  customer_id: cust-client-10
+  customer_name: Dovetail Clearwater Brewing
+  txn_sim_day: 338
+  txn_date: '2026-09-09'
+  due_sim_day: 368
+  due_date: '2026-10-09'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '10108.71'
+    amount: '10108.71'
+  total_amount: '10108.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00010
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1010.87'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Dovetail Clearwater Brewing.
+  provenance_note: sim:b9322fb400e4acbc:minv-00034
+  sim_order_id: null
+  sim_obligation_id: invoice-34
+  sim_event_ids:
+  - event-2293
+- id: minv-00035
+  doc_number: INV-1035
+  customer_id: cust-client-3
+  customer_name: Fairhaven Florals
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  due_sim_day: 373
+  due_date: '2026-10-14'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '130000.02'
+    amount: '130000.02'
+  total_amount: '130000.02'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '13000.00'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on New home for Fairhaven Florals.
+  provenance_note: sim:b9322fb400e4acbc:minv-00035
+  sim_order_id: null
+  sim_obligation_id: invoice-35
+  sim_event_ids:
+  - event-2328
+- id: minv-00036
+  doc_number: INV-1036
+  customer_id: cust-client-11
+  customer_name: Thornbury Bindery Partners
+  txn_sim_day: 361
+  txn_date: '2026-10-02'
+  due_sim_day: 391
+  due_date: '2026-11-01'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '22984.61'
+    amount: '22984.61'
+  total_amount: '22984.61'
+  income_account_id: acct-construction-income
+  project_id: proj-00011
+  deposit_applied_amount: '1149.23'
+  retainage_amount: '2298.46'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation for Thornbury Bindery Partners.
+  provenance_note: sim:b9322fb400e4acbc:minv-00036
+  sim_order_id: null
+  sim_obligation_id: invoice-36
+  sim_event_ids:
+  - event-2451

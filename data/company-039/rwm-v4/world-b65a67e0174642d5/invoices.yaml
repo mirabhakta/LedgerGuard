@@ -1,0 +1,493 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Granite Bay Apothecary LLC
+  txn_sim_day: 67
+  txn_date: '2025-12-12'
+  due_sim_day: 97
+  due_date: '2026-01-11'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '17538.46'
+    amount: '17538.46'
+  total_amount: '17538.46'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '15784.62'
+  retainage_amount: '1753.84'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Granite Bay Apothecary LLC.
+  provenance_note: sim:b65a67e0174642d5:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-559
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-1
+  customer_name: Granite Bay Apothecary LLC
+  txn_sim_day: 101
+  txn_date: '2026-01-15'
+  due_sim_day: 131
+  due_date: '2026-02-14'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '26307.69'
+    amount: '26307.69'
+  total_amount: '26307.69'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '1315.38'
+  retainage_amount: '2630.76'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation for Granite Bay Apothecary LLC.
+  provenance_note: sim:b65a67e0174642d5:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-902
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-1
+  customer_name: Granite Bay Apothecary LLC
+  txn_sim_day: 122
+  txn_date: '2026-02-05'
+  due_sim_day: 152
+  due_date: '2026-03-07'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '17538.46'
+    amount: '17538.46'
+  total_amount: '17538.46'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1753.84'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation for Granite Bay Apothecary LLC.
+  provenance_note: sim:b65a67e0174642d5:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-1104
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-1
+  customer_name: Granite Bay Apothecary LLC
+  txn_sim_day: 151
+  txn_date: '2026-03-06'
+  due_sim_day: 181
+  due_date: '2026-04-05'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '21030.01'
+    amount: '21030.01'
+  total_amount: '21030.01'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2103.00'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation for Granite Bay Apothecary LLC.
+  provenance_note: sim:b65a67e0174642d5:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-1374
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-2
+  customer_name: Balewa Grocers Inc.
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  due_sim_day: 205
+  due_date: '2026-04-29'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '19039.30'
+    amount: '19039.30'
+  total_amount: '19039.30'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '17135.37'
+  retainage_amount: '1903.93'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Balewa Grocers Inc..
+  provenance_note: sim:b65a67e0174642d5:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-1626
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-1
+  customer_name: Granite Bay Apothecary LLC
+  txn_sim_day: 190
+  txn_date: '2026-04-14'
+  due_sim_day: 220
+  due_date: '2026-05-14'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '35076.93'
+    amount: '35076.93'
+  total_amount: '35076.93'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3507.69'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation for Granite Bay Apothecary LLC.
+  provenance_note: sim:b65a67e0174642d5:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-1783
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-2
+  customer_name: Balewa Grocers Inc.
+  txn_sim_day: 213
+  txn_date: '2026-05-07'
+  due_sim_day: 243
+  due_date: '2026-06-06'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '28558.96'
+    amount: '28558.96'
+  total_amount: '28558.96'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '1427.95'
+  retainage_amount: '2855.89'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation for Balewa Grocers Inc..
+  provenance_note: sim:b65a67e0174642d5:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-2087
+- id: minv-00008
+  doc_number: INV-1008
+  customer_id: cust-client-3
+  customer_name: Wayfarer Florals Company
+  txn_sim_day: 218
+  txn_date: '2026-05-12'
+  due_sim_day: 248
+  due_date: '2026-06-11'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '17448.44'
+    amount: '17448.44'
+  total_amount: '17448.44'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '15703.60'
+  retainage_amount: '1744.84'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Wayfarer Florals Company.
+  provenance_note: sim:b65a67e0174642d5:minv-00008
+  sim_order_id: null
+  sim_obligation_id: invoice-8
+  sim_event_ids:
+  - event-2137
+- id: minv-00009
+  doc_number: INV-1009
+  customer_id: cust-client-2
+  customer_name: Balewa Grocers Inc.
+  txn_sim_day: 239
+  txn_date: '2026-06-02'
+  due_sim_day: 269
+  due_date: '2026-07-02'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '19039.30'
+    amount: '19039.30'
+  total_amount: '19039.30'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1903.93'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation for Balewa Grocers Inc..
+  provenance_note: sim:b65a67e0174642d5:minv-00009
+  sim_order_id: null
+  sim_obligation_id: invoice-9
+  sim_event_ids:
+  - event-2382
+- id: minv-00010
+  doc_number: INV-1010
+  customer_id: cust-client-3
+  customer_name: Wayfarer Florals Company
+  txn_sim_day: 253
+  txn_date: '2026-06-16'
+  due_sim_day: 283
+  due_date: '2026-07-16'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '26172.67'
+    amount: '26172.67'
+  total_amount: '26172.67'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '1308.63'
+  retainage_amount: '2617.26'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation for Wayfarer Florals Company.
+  provenance_note: sim:b65a67e0174642d5:minv-00010
+  sim_order_id: null
+  sim_obligation_id: invoice-10
+  sim_event_ids:
+  - event-2550
+- id: minv-00011
+  doc_number: INV-1011
+  customer_id: cust-client-2
+  customer_name: Balewa Grocers Inc.
+  txn_sim_day: 263
+  txn_date: '2026-06-26'
+  due_sim_day: 293
+  due_date: '2026-07-26'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '19039.30'
+    amount: '19039.30'
+  total_amount: '19039.30'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1903.93'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation for Balewa Grocers Inc..
+  provenance_note: sim:b65a67e0174642d5:minv-00011
+  sim_order_id: null
+  sim_obligation_id: invoice-11
+  sim_event_ids:
+  - event-2675
+- id: minv-00012
+  doc_number: INV-1012
+  customer_id: cust-client-3
+  customer_name: Wayfarer Florals Company
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  due_sim_day: 310
+  due_date: '2026-08-12'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '17448.44'
+    amount: '17448.44'
+  total_amount: '17448.44'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1744.84'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation for Wayfarer Florals Company.
+  provenance_note: sim:b65a67e0174642d5:minv-00012
+  sim_order_id: null
+  sim_obligation_id: invoice-12
+  sim_event_ids:
+  - event-2879
+- id: minv-00013
+  doc_number: INV-1013
+  customer_id: cust-client-2
+  customer_name: Balewa Grocers Inc.
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  due_sim_day: 331
+  due_date: '2026-09-02'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '38078.64'
+    amount: '38078.64'
+  total_amount: '38078.64'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3807.86'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation for Balewa Grocers Inc..
+  provenance_note: sim:b65a67e0174642d5:minv-00013
+  sim_order_id: null
+  sim_obligation_id: invoice-13
+  sim_event_ids:
+  - event-3130
+- id: minv-00014
+  doc_number: INV-1014
+  customer_id: cust-client-3
+  customer_name: Wayfarer Florals Company
+  txn_sim_day: 302
+  txn_date: '2026-08-04'
+  due_sim_day: 332
+  due_date: '2026-09-03'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '17448.44'
+    amount: '17448.44'
+  total_amount: '17448.44'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1744.84'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation for Wayfarer Florals Company.
+  provenance_note: sim:b65a67e0174642d5:minv-00014
+  sim_order_id: null
+  sim_obligation_id: invoice-14
+  sim_event_ids:
+  - event-3146
+- id: minv-00015
+  doc_number: INV-1015
+  customer_id: cust-client-4
+  customer_name: Wayfarer Joinery & Co.
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  due_sim_day: 352
+  due_date: '2026-09-23'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5860.29'
+    amount: '5860.29'
+  total_amount: '5860.29'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '4043.60'
+  retainage_amount: '586.02'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Wayfarer Joinery & Co..
+  provenance_note: sim:b65a67e0174642d5:minv-00015
+  sim_order_id: null
+  sim_obligation_id: invoice-15
+  sim_event_ids:
+  - event-3375
+- id: minv-00016
+  doc_number: INV-1016
+  customer_id: cust-client-3
+  customer_name: Wayfarer Florals Company
+  txn_sim_day: 340
+  txn_date: '2026-09-11'
+  due_sim_day: 370
+  due_date: '2026-10-11'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '40707.40'
+    amount: '40707.40'
+  total_amount: '40707.40'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '4070.74'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation for Wayfarer Florals Company.
+  provenance_note: sim:b65a67e0174642d5:minv-00016
+  sim_order_id: null
+  sim_obligation_id: invoice-16
+  sim_event_ids:
+  - event-3597
+- id: minv-00017
+  doc_number: INV-1017
+  customer_id: cust-client-4
+  customer_name: Wayfarer Joinery & Co.
+  txn_sim_day: 346
+  txn_date: '2026-09-17'
+  due_sim_day: 376
+  due_date: '2026-10-17'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '9376.47'
+    amount: '9376.47'
+  total_amount: '9376.47'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '937.64'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Wayfarer Joinery & Co..
+  provenance_note: sim:b65a67e0174642d5:minv-00017
+  sim_order_id: null
+  sim_obligation_id: invoice-17
+  sim_event_ids:
+  - event-3670

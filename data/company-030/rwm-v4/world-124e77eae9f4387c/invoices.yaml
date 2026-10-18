@@ -1,0 +1,551 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Dubois Toyworks Inc.
+  txn_sim_day: 25
+  txn_date: '2025-10-31'
+  due_sim_day: 55
+  due_date: '2025-11-30'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4890.48'
+    amount: '4890.48'
+  total_amount: '4890.48'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '3374.43'
+  retainage_amount: '489.04'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Dubois Toyworks Inc..
+  provenance_note: sim:124e77eae9f4387c:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-193
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-1
+  customer_name: Dubois Toyworks Inc.
+  txn_sim_day: 44
+  txn_date: '2025-11-19'
+  due_sim_day: 74
+  due_date: '2025-12-19'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '7824.78'
+    amount: '7824.78'
+  total_amount: '7824.78'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '782.47'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Dubois Toyworks Inc..
+  provenance_note: sim:124e77eae9f4387c:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-404
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-2
+  customer_name: Foxglove Pioneer Quilting Group
+  txn_sim_day: 51
+  txn_date: '2025-11-26'
+  due_sim_day: 81
+  due_date: '2025-12-26'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '20307.69'
+    amount: '20307.69'
+  total_amount: '20307.69'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '18276.93'
+  retainage_amount: '2030.76'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Foxglove Pioneer Quilting Group.
+  provenance_note: sim:124e77eae9f4387c:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-478
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-1
+  customer_name: Dubois Toyworks Inc.
+  txn_sim_day: 66
+  txn_date: '2025-12-11'
+  due_sim_day: 96
+  due_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '9780.99'
+    amount: '9780.99'
+  total_amount: '9780.99'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '978.09'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Dubois Toyworks Inc..
+  provenance_note: sim:124e77eae9f4387c:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-678
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-2
+  customer_name: Foxglove Pioneer Quilting Group
+  txn_sim_day: 86
+  txn_date: '2025-12-31'
+  due_sim_day: 116
+  due_date: '2026-01-30'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '30461.53'
+    amount: '30461.53'
+  total_amount: '30461.53'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '1523.07'
+  retainage_amount: '3046.15'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation for Foxglove Pioneer Quilting Group.
+  provenance_note: sim:124e77eae9f4387c:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-955
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-3
+  customer_name: Bellrock Orchards
+  txn_sim_day: 93
+  txn_date: '2026-01-07'
+  due_sim_day: 123
+  due_date: '2026-02-06'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '75274.84'
+    amount: '75274.84'
+  total_amount: '75274.84'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '67747.36'
+  retainage_amount: '7527.48'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Bellrock Orchards.
+  provenance_note: sim:124e77eae9f4387c:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-1046
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-2
+  customer_name: Foxglove Pioneer Quilting Group
+  txn_sim_day: 108
+  txn_date: '2026-01-22'
+  due_sim_day: 138
+  due_date: '2026-02-21'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '20307.69'
+    amount: '20307.69'
+  total_amount: '20307.69'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2030.76'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation for Foxglove Pioneer Quilting Group.
+  provenance_note: sim:124e77eae9f4387c:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-1247
+- id: minv-00008
+  doc_number: INV-1008
+  customer_id: cust-client-4
+  customer_name: Lanternwood Grocers
+  txn_sim_day: 129
+  txn_date: '2026-02-12'
+  due_sim_day: 159
+  due_date: '2026-03-14'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4627.71'
+    amount: '4627.71'
+  total_amount: '4627.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '3193.12'
+  retainage_amount: '462.77'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Lanternwood Grocers.
+  provenance_note: sim:124e77eae9f4387c:minv-00008
+  sim_order_id: null
+  sim_obligation_id: invoice-8
+  sim_event_ids:
+  - event-1560
+- id: minv-00009
+  doc_number: INV-1009
+  customer_id: cust-client-2
+  customer_name: Foxglove Pioneer Quilting Group
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  due_sim_day: 163
+  due_date: '2026-03-18'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '20307.69'
+    amount: '20307.69'
+  total_amount: '20307.69'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2030.76'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation for Foxglove Pioneer Quilting Group.
+  provenance_note: sim:124e77eae9f4387c:minv-00009
+  sim_order_id: null
+  sim_obligation_id: invoice-9
+  sim_event_ids:
+  - event-1601
+- id: minv-00010
+  doc_number: INV-1010
+  customer_id: cust-client-4
+  customer_name: Lanternwood Grocers
+  txn_sim_day: 149
+  txn_date: '2026-03-04'
+  due_sim_day: 179
+  due_date: '2026-04-03'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '8820.23'
+    amount: '8820.23'
+  total_amount: '8820.23'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '882.02'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Lanternwood Grocers.
+  provenance_note: sim:124e77eae9f4387c:minv-00010
+  sim_order_id: null
+  sim_obligation_id: invoice-10
+  sim_event_ids:
+  - event-1856
+- id: minv-00011
+  doc_number: INV-1011
+  customer_id: cust-client-3
+  customer_name: Bellrock Orchards
+  txn_sim_day: 170
+  txn_date: '2026-03-25'
+  due_sim_day: 200
+  due_date: '2026-04-24'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '169368.39'
+    amount: '169368.39'
+  total_amount: '169368.39'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '11291.22'
+  retainage_amount: '16936.83'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New home for Bellrock Orchards.
+  provenance_note: sim:124e77eae9f4387c:minv-00011
+  sim_order_id: null
+  sim_obligation_id: invoice-11
+  sim_event_ids:
+  - event-2196
+- id: minv-00012
+  doc_number: INV-1012
+  customer_id: cust-client-4
+  customer_name: Lanternwood Grocers
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  due_sim_day: 205
+  due_date: '2026-04-29'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '10897.04'
+    amount: '10897.04'
+  total_amount: '10897.04'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1089.70'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Lanternwood Grocers.
+  provenance_note: sim:124e77eae9f4387c:minv-00012
+  sim_order_id: null
+  sim_obligation_id: invoice-12
+  sim_event_ids:
+  - event-2266
+- id: minv-00013
+  doc_number: INV-1013
+  customer_id: cust-client-2
+  customer_name: Foxglove Pioneer Quilting Group
+  txn_sim_day: 179
+  txn_date: '2026-04-03'
+  due_sim_day: 209
+  due_date: '2026-05-03'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '40615.40'
+    amount: '40615.40'
+  total_amount: '40615.40'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '4061.54'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation for Foxglove Pioneer Quilting Group.
+  provenance_note: sim:124e77eae9f4387c:minv-00013
+  sim_order_id: null
+  sim_obligation_id: invoice-13
+  sim_event_ids:
+  - event-2333
+- id: minv-00014
+  doc_number: INV-1014
+  customer_id: cust-client-3
+  customer_name: Bellrock Orchards
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 240
+  due_date: '2026-06-03'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '75274.84'
+    amount: '75274.84'
+  total_amount: '75274.84'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '7527.48'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on New home for Bellrock Orchards.
+  provenance_note: sim:124e77eae9f4387c:minv-00014
+  sim_order_id: null
+  sim_obligation_id: invoice-14
+  sim_event_ids:
+  - event-2789
+- id: minv-00015
+  doc_number: INV-1015
+  customer_id: cust-client-5
+  customer_name: Yarrow Field Confections Inc.
+  txn_sim_day: 221
+  txn_date: '2026-05-15'
+  due_sim_day: 251
+  due_date: '2026-06-14'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '92924.66'
+    amount: '92924.66'
+  total_amount: '92924.66'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '83632.20'
+  retainage_amount: '9292.46'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Yarrow Field Confections Inc..
+  provenance_note: sim:124e77eae9f4387c:minv-00015
+  sim_order_id: null
+  sim_obligation_id: invoice-15
+  sim_event_ids:
+  - event-2935
+- id: minv-00016
+  doc_number: INV-1016
+  customer_id: cust-client-3
+  customer_name: Bellrock Orchards
+  txn_sim_day: 247
+  txn_date: '2026-06-10'
+  due_sim_day: 277
+  due_date: '2026-07-10'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '75274.84'
+    amount: '75274.84'
+  total_amount: '75274.84'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '7527.48'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on New home for Bellrock Orchards.
+  provenance_note: sim:124e77eae9f4387c:minv-00016
+  sim_order_id: null
+  sim_obligation_id: invoice-16
+  sim_event_ids:
+  - event-3305
+- id: minv-00017
+  doc_number: INV-1017
+  customer_id: cust-client-3
+  customer_name: Bellrock Orchards
+  txn_sim_day: 309
+  txn_date: '2026-08-11'
+  due_sim_day: 339
+  due_date: '2026-09-10'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '131730.99'
+    amount: '131730.99'
+  total_amount: '131730.99'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '13173.09'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on New home for Bellrock Orchards.
+  provenance_note: sim:124e77eae9f4387c:minv-00017
+  sim_order_id: null
+  sim_obligation_id: invoice-17
+  sim_event_ids:
+  - event-4178
+- id: minv-00018
+  doc_number: INV-1018
+  customer_id: cust-client-5
+  customer_name: Yarrow Field Confections Inc.
+  txn_sim_day: 325
+  txn_date: '2026-08-27'
+  due_sim_day: 355
+  due_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '252047.72'
+    amount: '252047.72'
+  total_amount: '252047.72'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '13938.70'
+  retainage_amount: '25204.77'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New home for Yarrow Field Confections Inc..
+  provenance_note: sim:124e77eae9f4387c:minv-00018
+  sim_order_id: null
+  sim_obligation_id: invoice-18
+  sim_event_ids:
+  - event-4409
+- id: minv-00019
+  doc_number: INV-1019
+  customer_id: cust-client-6
+  customer_name: Keystone Supply Partners
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  due_sim_day: 373
+  due_date: '2026-10-14'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '73238.37'
+    amount: '73238.37'
+  total_amount: '73238.37'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '65914.54'
+  retainage_amount: '7323.83'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Keystone Supply Partners.
+  provenance_note: sim:124e77eae9f4387c:minv-00019
+  sim_order_id: null
+  sim_obligation_id: invoice-19
+  sim_event_ids:
+  - event-4646

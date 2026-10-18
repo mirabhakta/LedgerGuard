@@ -1,0 +1,33 @@
+report: Accounts Receivable Aging
+company: Datum Point Architects
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-70d883e8c81101f4
+buckets:
+  current: '223389.25'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '223389.25'
+rows:
+- document_id: minv-00024
+  party: Meridian Dunmore Goods
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '64285.72'
+- document_id: minv-00025
+  party: Granite Bay Cyclery Inc.
+  due_date: '2026-10-17'
+  days_past_due: 0
+  bucket: current
+  balance: '35889.24'
+- document_id: minv-00027
+  party: Westmarch Evergreen Removals Group
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '123214.29'

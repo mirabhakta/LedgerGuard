@@ -1,0 +1,51 @@
+report: Accounts Payable Aging
+company: Juniper & Rye Coffeehouse
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-6bd52e8236629fc9
+buckets:
+  current: '8230.84'
+  1-30: '1237.82'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '9468.66'
+rows:
+- document_id: bill-supplies-00183
+  party: Fresh City Provisions
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '1237.82'
+- document_id: bill-supplies-00186
+  party: Fresh City Provisions
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '1156.02'
+- document_id: bill-insurance-00191
+  party: Alder Creek Insurance Group
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '350.00'
+- document_id: bill-premises-00189
+  party: Brennan Property Management
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '4714.28'
+- document_id: bill-utilities-00190
+  party: Brightwater Gas & Electric
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '450.00'
+- document_id: bill-supplies-00192
+  party: Fresh City Provisions
+  due_date: '2026-10-19'
+  days_past_due: 0
+  bucket: current
+  balance: '1560.54'

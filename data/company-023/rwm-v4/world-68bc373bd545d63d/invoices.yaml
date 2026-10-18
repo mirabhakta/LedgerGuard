@@ -1,0 +1,522 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Yarrow Field Orchards Inc.
+  txn_sim_day: 28
+  txn_date: '2025-11-03'
+  due_sim_day: 58
+  due_date: '2025-12-03'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Location services
+    description: Location services, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '19938.46'
+    amount: '19938.46'
+  total_amount: '19938.46'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '17944.62'
+  retainage_amount: '1993.84'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Documentary project for Yarrow Field Orchards Inc..
+  provenance_note: sim:68bc373bd545d63d:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-68
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-2
+  customer_name: Glenmoor Grocers
+  txn_sim_day: 46
+  txn_date: '2025-11-21'
+  due_sim_day: 76
+  due_date: '2025-12-21'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Pre-production
+    description: Pre-production, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '6086.95'
+    amount: '6086.95'
+  total_amount: '6086.95'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '4200.00'
+  retainage_amount: '608.69'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Promotional video for Glenmoor Grocers.
+  provenance_note: sim:68bc373bd545d63d:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-136
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-1
+  customer_name: Yarrow Field Orchards Inc.
+  txn_sim_day: 64
+  txn_date: '2025-12-09'
+  due_sim_day: 94
+  due_date: '2026-01-08'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Set construction
+    description: Set construction, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '29907.69'
+    amount: '29907.69'
+  total_amount: '29907.69'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '1495.38'
+  retainage_amount: '2990.76'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Documentary project for Yarrow Field Orchards Inc..
+  provenance_note: sim:68bc373bd545d63d:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-215
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-2
+  customer_name: Glenmoor Grocers
+  txn_sim_day: 67
+  txn_date: '2025-12-12'
+  due_sim_day: 97
+  due_date: '2026-01-11'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Set construction
+    description: Set construction, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '11494.60'
+    amount: '11494.60'
+  total_amount: '11494.60'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1149.46'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Promotional video for Glenmoor Grocers.
+  provenance_note: sim:68bc373bd545d63d:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-234
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-1
+  customer_name: Yarrow Field Orchards Inc.
+  txn_sim_day: 94
+  txn_date: '2026-01-08'
+  due_sim_day: 124
+  due_date: '2026-02-07'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Sound recording
+    description: Sound recording, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '23616.09'
+    amount: '23616.09'
+  total_amount: '23616.09'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2361.60'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Documentary project for Yarrow Field Orchards Inc..
+  provenance_note: sim:68bc373bd545d63d:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-366
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-2
+  customer_name: Glenmoor Grocers
+  txn_sim_day: 94
+  txn_date: '2026-01-08'
+  due_sim_day: 124
+  due_date: '2026-02-07'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Visual effects
+    description: Visual effects, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '12173.92'
+    amount: '12173.92'
+  total_amount: '12173.92'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1217.39'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Promotional video for Glenmoor Grocers.
+  provenance_note: sim:68bc373bd545d63d:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-369
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-1
+  customer_name: Yarrow Field Orchards Inc.
+  txn_sim_day: 122
+  txn_date: '2026-02-05'
+  due_sim_day: 152
+  due_date: '2026-03-07'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Lighting and grip
+    description: Lighting and grip, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '19938.46'
+    amount: '19938.46'
+  total_amount: '19938.46'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1993.84'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Documentary project for Yarrow Field Orchards Inc..
+  provenance_note: sim:68bc373bd545d63d:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-480
+- id: minv-00008
+  doc_number: INV-1008
+  customer_id: cust-client-3
+  customer_name: Lanternwood Lantern Stationers Holdings
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  due_sim_day: 163
+  due_date: '2026-03-18'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Pre-production
+    description: Pre-production, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5869.56'
+    amount: '5869.56'
+  total_amount: '5869.56'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '4050.00'
+  retainage_amount: '586.95'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Promotional video for Lanternwood Lantern Stationers Holdings.
+  provenance_note: sim:68bc373bd545d63d:minv-00008
+  sim_order_id: null
+  sim_obligation_id: invoice-8
+  sim_event_ids:
+  - event-523
+- id: minv-00009
+  doc_number: INV-1009
+  customer_id: cust-client-3
+  customer_name: Lanternwood Lantern Stationers Holdings
+  txn_sim_day: 157
+  txn_date: '2026-03-12'
+  due_sim_day: 187
+  due_date: '2026-04-11'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Set construction
+    description: Set construction, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '9391.30'
+    amount: '9391.30'
+  total_amount: '9391.30'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '939.13'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Promotional video for Lanternwood Lantern Stationers Holdings.
+  provenance_note: sim:68bc373bd545d63d:minv-00009
+  sim_order_id: null
+  sim_obligation_id: invoice-9
+  sim_event_ids:
+  - event-644
+- id: minv-00010
+  doc_number: INV-1010
+  customer_id: cust-client-1
+  customer_name: Yarrow Field Orchards Inc.
+  txn_sim_day: 162
+  txn_date: '2026-03-17'
+  due_sim_day: 192
+  due_date: '2026-04-16'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Editing and color
+    description: Editing and color, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '39876.93'
+    amount: '39876.93'
+  total_amount: '39876.93'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3987.69'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Documentary project for Yarrow Field Orchards Inc..
+  provenance_note: sim:68bc373bd545d63d:minv-00010
+  sim_order_id: null
+  sim_obligation_id: invoice-10
+  sim_event_ids:
+  - event-665
+- id: minv-00011
+  doc_number: INV-1011
+  customer_id: cust-client-3
+  customer_name: Lanternwood Lantern Stationers Holdings
+  txn_sim_day: 183
+  txn_date: '2026-04-07'
+  due_sim_day: 213
+  due_date: '2026-05-07'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Visual effects
+    description: Visual effects, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '11739.14'
+    amount: '11739.14'
+  total_amount: '11739.14'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1173.91'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Promotional video for Lanternwood Lantern Stationers Holdings.
+  provenance_note: sim:68bc373bd545d63d:minv-00011
+  sim_order_id: null
+  sim_obligation_id: invoice-11
+  sim_event_ids:
+  - event-762
+- id: minv-00012
+  doc_number: INV-1012
+  customer_id: cust-client-4
+  customer_name: Vasquez & Sons Orchards
+  txn_sim_day: 185
+  txn_date: '2026-04-09'
+  due_sim_day: 215
+  due_date: '2026-05-09'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Pre-production
+    description: Pre-production, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4891.30'
+    amount: '4891.30'
+  total_amount: '4891.30'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '3375.00'
+  retainage_amount: '489.13'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Promotional video for Vasquez & Sons Orchards.
+  provenance_note: sim:68bc373bd545d63d:minv-00012
+  sim_order_id: null
+  sim_obligation_id: invoice-12
+  sim_event_ids:
+  - event-778
+- id: minv-00013
+  doc_number: INV-1013
+  customer_id: cust-client-4
+  customer_name: Vasquez & Sons Orchards
+  txn_sim_day: 204
+  txn_date: '2026-04-28'
+  due_sim_day: 234
+  due_date: '2026-05-28'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Set construction
+    description: Set construction, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '9220.29'
+    amount: '9220.29'
+  total_amount: '9220.29'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '922.02'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Promotional video for Vasquez & Sons Orchards.
+  provenance_note: sim:68bc373bd545d63d:minv-00013
+  sim_order_id: null
+  sim_obligation_id: invoice-13
+  sim_event_ids:
+  - event-849
+- id: minv-00014
+  doc_number: INV-1014
+  customer_id: cust-client-4
+  customer_name: Vasquez & Sons Orchards
+  txn_sim_day: 227
+  txn_date: '2026-05-21'
+  due_sim_day: 257
+  due_date: '2026-06-20'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Visual effects
+    description: Visual effects, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '9782.62'
+    amount: '9782.62'
+  total_amount: '9782.62'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '978.26'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Promotional video for Vasquez & Sons Orchards.
+  provenance_note: sim:68bc373bd545d63d:minv-00014
+  sim_order_id: null
+  sim_obligation_id: invoice-14
+  sim_event_ids:
+  - event-961
+- id: minv-00015
+  doc_number: INV-1015
+  customer_id: cust-client-5
+  customer_name: Vasquez Fulfillment Group
+  txn_sim_day: 240
+  txn_date: '2026-06-03'
+  due_sim_day: 270
+  due_date: '2026-07-03'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Pre-production
+    description: Pre-production, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '70714.28'
+    amount: '70714.28'
+  total_amount: '70714.28'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '63642.86'
+  retainage_amount: '7071.42'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Commercial production for Vasquez Fulfillment Group.
+  provenance_note: sim:68bc373bd545d63d:minv-00015
+  sim_order_id: null
+  sim_obligation_id: invoice-15
+  sim_event_ids:
+  - event-1021
+- id: minv-00016
+  doc_number: INV-1016
+  customer_id: cust-client-6
+  customer_name: Jarvis Confections Group
+  txn_sim_day: 302
+  txn_date: '2026-08-04'
+  due_sim_day: 332
+  due_date: '2026-09-03'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Pre-production
+    description: Pre-production, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '82142.85'
+    amount: '82142.85'
+  total_amount: '82142.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '73928.57'
+  retainage_amount: '8214.28'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Commercial production for Jarvis Confections Group.
+  provenance_note: sim:68bc373bd545d63d:minv-00016
+  sim_order_id: null
+  sim_obligation_id: invoice-16
+  sim_event_ids:
+  - event-1328
+- id: minv-00017
+  doc_number: INV-1017
+  customer_id: cust-client-5
+  customer_name: Vasquez Fulfillment Group
+  txn_sim_day: 317
+  txn_date: '2026-08-19'
+  due_sim_day: 347
+  due_date: '2026-09-18'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Set construction
+    description: Set construction, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '159107.14'
+    amount: '159107.14'
+  total_amount: '159107.14'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '10607.14'
+  retainage_amount: '15910.71'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Commercial production for Vasquez Fulfillment Group.
+  provenance_note: sim:68bc373bd545d63d:minv-00017
+  sim_order_id: null
+  sim_obligation_id: invoice-17
+  sim_event_ids:
+  - event-1408
+- id: minv-00018
+  doc_number: INV-1018
+  customer_id: cust-client-5
+  customer_name: Vasquez Fulfillment Group
+  txn_sim_day: 359
+  txn_date: '2026-09-30'
+  due_sim_day: 389
+  due_date: '2026-10-30'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Sound recording
+    description: Sound recording, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '70714.28'
+    amount: '70714.28'
+  total_amount: '70714.28'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '7071.42'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Commercial production for Vasquez Fulfillment Group.
+  provenance_note: sim:68bc373bd545d63d:minv-00018
+  sim_order_id: null
+  sim_obligation_id: invoice-18
+  sim_event_ids:
+  - event-1627

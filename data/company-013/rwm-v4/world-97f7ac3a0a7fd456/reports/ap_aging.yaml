@@ -1,0 +1,45 @@
+report: Accounts Payable Aging
+company: Ledgermark Office Supply
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-97f7ac3a0a7fd456
+buckets:
+  current: '1221.23'
+  1-30: '924.80'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '2146.03'
+rows:
+- document_id: bill-utilities-01992
+  party: Eastgate Water District
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '54.80'
+- document_id: bill-utilities-01993
+  party: Lanternwood Gas & Electric
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '10.96'
+- document_id: bill-variable-services-01994
+  party: Sterling Fulfillment Co.
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '859.04'
+- document_id: bill-permit-02003
+  party: City of Kiln Hollow
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '500.00'
+- document_id: bill-interest-01975
+  party: First Riverbend Bank
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '721.23'

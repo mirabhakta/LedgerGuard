@@ -1,0 +1,69 @@
+report: Accounts Payable Aging
+company: Rolling Spoke Bicycle Shop
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-cf764742db78ef18
+buckets:
+  current: '54420.69'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '54420.69'
+rows:
+- document_id: bill-supplies-00272
+  party: Fresh City Provisions
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '8382.28'
+- document_id: bill-supplies-00277
+  party: Fresh City Provisions
+  due_date: '2026-10-14'
+  days_past_due: 0
+  bucket: current
+  balance: '6587.03'
+- document_id: bill-supplies-00282
+  party: Fresh City Provisions
+  due_date: '2026-10-21'
+  days_past_due: 0
+  bucket: current
+  balance: '11030.78'
+- document_id: bill-supplies-00287
+  party: Fresh City Provisions
+  due_date: '2026-10-28'
+  days_past_due: 0
+  bucket: current
+  balance: '9670.53'
+- document_id: bill-insurance-00294
+  party: Driftwood Mutual Insurance
+  due_date: '2026-10-31'
+  days_past_due: 0
+  bucket: current
+  balance: '400.00'
+- document_id: bill-premises-00292
+  party: Stonegate Commercial Properties
+  due_date: '2026-10-31'
+  days_past_due: 0
+  bucket: current
+  balance: '6000.00'
+- document_id: bill-utilities-00293
+  party: Lanternwood Gas & Electric
+  due_date: '2026-10-31'
+  days_past_due: 0
+  bucket: current
+  balance: '350.00'
+- document_id: bill-income-tax-00295
+  party: Thornbury County Treasurer
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '5076.65'
+- document_id: bill-supplies-00296
+  party: Fresh City Provisions
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '6923.42'

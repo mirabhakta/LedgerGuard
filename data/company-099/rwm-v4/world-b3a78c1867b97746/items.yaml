@@ -1,0 +1,33 @@
+- id: item-donation
+  name: Donation
+  sku: GIFT
+  description: A charitable gift to the organization.
+  item_type: service
+  unit_price_amount: '0.00'
+  unit_cost_amount: '0.00'
+  income_account_id: acct-product-income
+  purchase_account_id: acct-operating-expense
+  sim_product_id: null
+  sim_event_ids: []
+- id: item-benefit-event
+  name: Benefit event income
+  sku: EVENT
+  description: Ticket and sponsorship income from the annual benefit.
+  item_type: service
+  unit_price_amount: '0.00'
+  unit_cost_amount: '0.00'
+  income_account_id: acct-product-income
+  purchase_account_id: acct-operating-expense
+  sim_product_id: null
+  sim_event_ids: []
+- id: item-grant
+  name: Grant award
+  sku: GRANT
+  description: A foundation grant supporting the organization's programs.
+  item_type: service
+  unit_price_amount: '0.00'
+  unit_cost_amount: '0.00'
+  income_account_id: acct-product-income
+  purchase_account_id: acct-operating-expense
+  sim_product_id: null
+  sim_event_ids: []

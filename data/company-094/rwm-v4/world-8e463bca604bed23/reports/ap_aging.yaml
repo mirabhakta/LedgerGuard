@@ -1,0 +1,39 @@
+report: Accounts Payable Aging
+company: Velvet Finch Salon
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-8e463bca604bed23
+buckets:
+  current: '10328.56'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '10328.56'
+rows:
+- document_id: bill-insurance-00458
+  party: Union Casualty & Surety
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '350.00'
+- document_id: bill-practice-supplies-00457
+  party: Meridian Practice Supply
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '600.00'
+- document_id: bill-premises-00456
+  party: Thornbury Commercial Properties
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '4071.42'
+- document_id: bill-income-tax-00459
+  party: Lanternwood Department of Revenue
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '5307.14'

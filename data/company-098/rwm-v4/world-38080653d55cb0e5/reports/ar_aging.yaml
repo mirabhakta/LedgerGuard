@@ -1,0 +1,21 @@
+report: Accounts Receivable Aging
+company: Open Table Food Pantry
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-38080653d55cb0e5
+buckets:
+  current: '0.00'
+  1-30: '0.00'
+  31-60: '17600.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '17600.00'
+rows:
+- document_id: inv-00168
+  party: Vale Crossing Charitable Trust
+  due_date: '2026-08-09'
+  days_past_due: 58
+  bucket: 31-60
+  balance: '17600.00'

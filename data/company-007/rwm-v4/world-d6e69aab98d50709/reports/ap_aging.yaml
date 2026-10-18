@@ -1,0 +1,63 @@
+report: Accounts Payable Aging
+company: Scrubline Medical Supply
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-d6e69aab98d50709
+buckets:
+  current: '9444.39'
+  1-30: '6455.02'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '15899.41'
+rows:
+- document_id: bill-operating-01792
+  party: Vasquez Holdings LLC
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '500.00'
+- document_id: bill-product-development-01784
+  party: Northstar Larkspur Movers
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '3738.27'
+- document_id: bill-utilities-01788
+  party: Brightwater Gas & Electric
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '44.55'
+- document_id: bill-utilities-01789
+  party: Kingsmere Municipal Utilities
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '8.91'
+- document_id: bill-variable-services-01790
+  party: Pinecrest Brewing & Co.
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '2163.29'
+- document_id: bill-permit-01801
+  party: Cedar Park County Treasurer
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '500.00'
+- document_id: bill-interest-01775
+  party: Hollyhock Credit Union
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '721.24'
+- document_id: bill-income-tax-01783
+  party: Cedar Park County Treasurer
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '8223.15'

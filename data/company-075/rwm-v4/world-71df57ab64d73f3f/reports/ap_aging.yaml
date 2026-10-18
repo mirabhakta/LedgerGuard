@@ -1,0 +1,57 @@
+report: Accounts Payable Aging
+company: Morning Lark Bakeshop
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-71df57ab64d73f3f
+buckets:
+  current: '17957.52'
+  1-30: '4128.61'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '22086.13'
+rows:
+- document_id: bill-supplies-00625
+  party: Fresh City Provisions
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '4128.61'
+- document_id: bill-supplies-00637
+  party: Fresh City Provisions
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '4996.16'
+- document_id: bill-insurance-00651
+  party: Nakamura Insurance Agency
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '350.00'
+- document_id: bill-premises-00649
+  party: Juniper Flats Realty Partners
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '4714.28'
+- document_id: bill-utilities-00650
+  party: Cedar Park Gas & Electric
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '450.00'
+- document_id: bill-supplies-00653
+  party: Fresh City Provisions
+  due_date: '2026-10-19'
+  days_past_due: 0
+  bucket: current
+  balance: '4299.03'
+- document_id: bill-income-tax-00652
+  party: Glenmoor Department of Revenue
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '3148.05'

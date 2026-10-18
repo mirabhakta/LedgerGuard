@@ -1,0 +1,114 @@
+- id: proj-00001
+  name: New home for Ridgeline Stationers
+  customer_id: cust-client-1
+  customer_name: Ridgeline Stationers
+  project_kind: new home
+  contract_amount: '469749.96'
+  original_contract_amount: '469749.96'
+  change_orders: []
+  started_sim_day: 84
+  started_date: '2025-12-29'
+  planned_finish_sim_day: 305
+  planned_finish_date: '2026-08-07'
+  reschedules: []
+  completed_sim_day: 352
+  completed_date: '2026-09-23'
+  status: completed
+  status_history:
+  - sim_day: 84
+    date: '2025-12-29'
+    status: booked
+  - sim_day: 91
+    date: '2026-01-05'
+    status: active
+  - sim_day: 352
+    date: '2026-09-23'
+    status: completed
+  provenance_note: sim:186180cd6ff94de4:proj-00001
+  sim_project_id: project-1
+  sim_event_ids:
+  - event-440
+- id: proj-00002
+  name: Landscaping for Opal Works LLC
+  customer_id: cust-client-2
+  customer_name: Opal Works LLC
+  project_kind: landscaping
+  contract_amount: '29530.53'
+  original_contract_amount: '27814.25'
+  change_orders:
+  - sim_day: 136
+    date: '2026-02-19'
+    amount: '1716.28'
+  started_sim_day: 112
+  started_date: '2026-01-26'
+  planned_finish_sim_day: 173
+  planned_finish_date: '2026-03-28'
+  reschedules: []
+  completed_sim_day: 186
+  completed_date: '2026-04-10'
+  status: completed
+  status_history:
+  - sim_day: 112
+    date: '2026-01-26'
+    status: booked
+  - sim_day: 119
+    date: '2026-02-02'
+    status: active
+  - sim_day: 186
+    date: '2026-04-10'
+    status: completed
+  provenance_note: sim:186180cd6ff94de4:proj-00002
+  sim_project_id: project-2
+  sim_event_ids:
+  - event-630
+- id: proj-00003
+  name: Renovation for Hollyhock Supply & Co.
+  customer_id: cust-client-3
+  customer_name: Hollyhock Supply & Co.
+  project_kind: renovation
+  contract_amount: '138331.98'
+  original_contract_amount: '138331.98'
+  change_orders: []
+  started_sim_day: 336
+  started_date: '2026-09-07'
+  planned_finish_sim_day: 471
+  planned_finish_date: '2027-01-20'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: active
+  status_history:
+  - sim_day: 336
+    date: '2026-09-07'
+    status: booked
+  - sim_day: 343
+    date: '2026-09-14'
+    status: active
+  provenance_note: sim:186180cd6ff94de4:proj-00003
+  sim_project_id: project-3
+  sim_event_ids:
+  - event-2756
+- id: proj-00004
+  name: New home for Clearwater Quicksilver Supply Company
+  customer_id: cust-client-4
+  customer_name: Clearwater Quicksilver Supply Company
+  project_kind: new home
+  contract_amount: '614026.40'
+  original_contract_amount: '614026.40'
+  change_orders: []
+  started_sim_day: 364
+  started_date: '2026-10-05'
+  planned_finish_sim_day: 630
+  planned_finish_date: '2027-06-28'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: booked
+  status_history:
+  - sim_day: 364
+    date: '2026-10-05'
+    status: booked
+  provenance_note: sim:186180cd6ff94de4:proj-00004
+  sim_project_id: project-4
+  sim_event_ids:
+  - event-3012

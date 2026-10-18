@@ -1,0 +1,464 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Northstar Brightwater Orchards
+  txn_sim_day: 74
+  txn_date: '2025-12-19'
+  due_sim_day: 104
+  due_date: '2026-01-18'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Pre-production
+    description: Pre-production, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4510.86'
+    amount: '4510.86'
+  total_amount: '4510.86'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '3112.50'
+  retainage_amount: '451.08'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Promotional video for Northstar Brightwater Orchards.
+  provenance_note: sim:dc17d15a37226d97:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-135
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-1
+  customer_name: Northstar Brightwater Orchards
+  txn_sim_day: 94
+  txn_date: '2026-01-08'
+  due_sim_day: 124
+  due_date: '2026-02-07'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Set construction
+    description: Set construction, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '7217.39'
+    amount: '7217.39'
+  total_amount: '7217.39'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '721.73'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Promotional video for Northstar Brightwater Orchards.
+  provenance_note: sim:dc17d15a37226d97:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-196
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-2
+  customer_name: Haddad & Sons Mercantile
+  txn_sim_day: 101
+  txn_date: '2026-01-15'
+  due_sim_day: 131
+  due_date: '2026-02-14'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Pre-production
+    description: Pre-production, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4619.56'
+    amount: '4619.56'
+  total_amount: '4619.56'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '3187.50'
+  retainage_amount: '461.95'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Promotional video for Haddad & Sons Mercantile.
+  provenance_note: sim:dc17d15a37226d97:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-222
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-1
+  customer_name: Northstar Brightwater Orchards
+  txn_sim_day: 114
+  txn_date: '2026-01-28'
+  due_sim_day: 144
+  due_date: '2026-02-27'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Visual effects
+    description: Visual effects, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '9021.75'
+    amount: '9021.75'
+  total_amount: '9021.75'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '902.17'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Promotional video for Northstar Brightwater Orchards.
+  provenance_note: sim:dc17d15a37226d97:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-280
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-2
+  customer_name: Haddad & Sons Mercantile
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  due_sim_day: 149
+  due_date: '2026-03-04'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Set construction
+    description: Set construction, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '8708.05'
+    amount: '8708.05'
+  total_amount: '8708.05'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '870.80'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Promotional video for Haddad & Sons Mercantile.
+  provenance_note: sim:dc17d15a37226d97:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-303
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-2
+  customer_name: Haddad & Sons Mercantile
+  txn_sim_day: 142
+  txn_date: '2026-02-25'
+  due_sim_day: 172
+  due_date: '2026-03-27'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Visual effects
+    description: Visual effects, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '9239.14'
+    amount: '9239.14'
+  total_amount: '9239.14'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '923.91'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Promotional video for Haddad & Sons Mercantile.
+  provenance_note: sim:dc17d15a37226d97:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-392
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-3
+  customer_name: Kowalski & Sons Warehousing
+  txn_sim_day: 155
+  txn_date: '2026-03-10'
+  due_sim_day: 185
+  due_date: '2026-04-09'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Pre-production
+    description: Pre-production, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5923.91'
+    amount: '5923.91'
+  total_amount: '5923.91'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '4087.50'
+  retainage_amount: '592.39'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Promotional video for Kowalski & Sons Warehousing.
+  provenance_note: sim:dc17d15a37226d97:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-440
+- id: minv-00008
+  doc_number: INV-1008
+  customer_id: cust-client-3
+  customer_name: Kowalski & Sons Warehousing
+  txn_sim_day: 179
+  txn_date: '2026-04-03'
+  due_sim_day: 209
+  due_date: '2026-05-03'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Set construction
+    description: Set construction, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '9478.26'
+    amount: '9478.26'
+  total_amount: '9478.26'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '947.82'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Promotional video for Kowalski & Sons Warehousing.
+  provenance_note: sim:dc17d15a37226d97:minv-00008
+  sim_order_id: null
+  sim_obligation_id: invoice-8
+  sim_event_ids:
+  - event-526
+- id: minv-00009
+  doc_number: INV-1009
+  customer_id: cust-client-3
+  customer_name: Kowalski & Sons Warehousing
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  due_sim_day: 233
+  due_date: '2026-05-27'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Visual effects
+    description: Visual effects, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '11847.83'
+    amount: '11847.83'
+  total_amount: '11847.83'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1184.78'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Promotional video for Kowalski & Sons Warehousing.
+  provenance_note: sim:dc17d15a37226d97:minv-00009
+  sim_order_id: null
+  sim_obligation_id: invoice-9
+  sim_event_ids:
+  - event-643
+- id: minv-00010
+  doc_number: INV-1010
+  customer_id: cust-client-4
+  customer_name: Hearth Cedar Park Trading
+  txn_sim_day: 205
+  txn_date: '2026-04-29'
+  due_sim_day: 235
+  due_date: '2026-05-29'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Pre-production
+    description: Pre-production, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '62142.85'
+    amount: '62142.85'
+  total_amount: '62142.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '55928.57'
+  retainage_amount: '6214.28'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Commercial production for Hearth Cedar Park Trading.
+  provenance_note: sim:dc17d15a37226d97:minv-00010
+  sim_order_id: null
+  sim_obligation_id: invoice-10
+  sim_event_ids:
+  - event-657
+- id: minv-00011
+  doc_number: INV-1011
+  customer_id: cust-client-5
+  customer_name: Yarrow Field Timberline Apothecary Partners
+  txn_sim_day: 240
+  txn_date: '2026-06-03'
+  due_sim_day: 270
+  due_date: '2026-07-03'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Pre-production
+    description: Pre-production, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4782.60'
+    amount: '4782.60'
+  total_amount: '4782.60'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '3300.00'
+  retainage_amount: '478.26'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Promotional video for Yarrow Field Timberline Apothecary Partners.
+  provenance_note: sim:dc17d15a37226d97:minv-00011
+  sim_order_id: null
+  sim_obligation_id: invoice-11
+  sim_event_ids:
+  - event-816
+- id: minv-00012
+  doc_number: INV-1012
+  customer_id: cust-client-5
+  customer_name: Yarrow Field Timberline Apothecary Partners
+  txn_sim_day: 260
+  txn_date: '2026-06-23'
+  due_sim_day: 290
+  due_date: '2026-07-23'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Set construction
+    description: Set construction, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '7652.17'
+    amount: '7652.17'
+  total_amount: '7652.17'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '765.21'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Promotional video for Yarrow Field Timberline Apothecary Partners.
+  provenance_note: sim:dc17d15a37226d97:minv-00012
+  sim_order_id: null
+  sim_obligation_id: invoice-12
+  sim_event_ids:
+  - event-908
+- id: minv-00013
+  doc_number: INV-1013
+  customer_id: cust-client-4
+  customer_name: Hearth Cedar Park Trading
+  txn_sim_day: 270
+  txn_date: '2026-07-03'
+  due_sim_day: 300
+  due_date: '2026-08-02'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Set construction
+    description: Set construction, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '139821.42'
+    amount: '139821.42'
+  total_amount: '139821.42'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '9321.43'
+  retainage_amount: '13982.14'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Commercial production for Hearth Cedar Park Trading.
+  provenance_note: sim:dc17d15a37226d97:minv-00013
+  sim_order_id: null
+  sim_obligation_id: invoice-13
+  sim_event_ids:
+  - event-963
+- id: minv-00014
+  doc_number: INV-1014
+  customer_id: cust-client-5
+  customer_name: Yarrow Field Timberline Apothecary Partners
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  due_sim_day: 317
+  due_date: '2026-08-19'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Visual effects
+    description: Visual effects, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '9565.23'
+    amount: '9565.23'
+  total_amount: '9565.23'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '956.52'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Promotional video for Yarrow Field Timberline Apothecary Partners.
+  provenance_note: sim:dc17d15a37226d97:minv-00014
+  sim_order_id: null
+  sim_obligation_id: invoice-14
+  sim_event_ids:
+  - event-1050
+- id: minv-00015
+  doc_number: INV-1015
+  customer_id: cust-client-4
+  customer_name: Hearth Cedar Park Trading
+  txn_sim_day: 305
+  txn_date: '2026-08-07'
+  due_sim_day: 335
+  due_date: '2026-09-06'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Sound recording
+    description: Sound recording, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '62142.85'
+    amount: '62142.85'
+  total_amount: '62142.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '6214.28'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Commercial production for Hearth Cedar Park Trading.
+  provenance_note: sim:dc17d15a37226d97:minv-00015
+  sim_order_id: null
+  sim_obligation_id: invoice-15
+  sim_event_ids:
+  - event-1127
+- id: minv-00016
+  doc_number: INV-1016
+  customer_id: cust-client-4
+  customer_name: Hearth Cedar Park Trading
+  txn_sim_day: 339
+  txn_date: '2026-09-10'
+  due_sim_day: 369
+  due_date: '2026-10-10'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Lighting and grip
+    description: Lighting and grip, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '62142.85'
+    amount: '62142.85'
+  total_amount: '62142.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '6214.28'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Commercial production for Hearth Cedar Park Trading.
+  provenance_note: sim:dc17d15a37226d97:minv-00016
+  sim_order_id: null
+  sim_obligation_id: invoice-16
+  sim_event_ids:
+  - event-1258

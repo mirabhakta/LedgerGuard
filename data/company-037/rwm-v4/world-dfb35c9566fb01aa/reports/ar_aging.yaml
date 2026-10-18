@@ -1,0 +1,27 @@
+report: Accounts Receivable Aging
+company: Copper Ladle Catering
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-dfb35c9566fb01aa
+buckets:
+  current: '106349.73'
+  1-30: '33475.66'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '139825.39'
+rows:
+- document_id: minv-00010
+  party: Bertram Tarkington
+  due_date: '2026-10-04'
+  days_past_due: 2
+  bucket: 1-30
+  balance: '33475.66'
+- document_id: minv-00011
+  party: Bertram Lefebvre
+  due_date: '2026-10-31'
+  days_past_due: 0
+  bucket: current
+  balance: '106349.73'

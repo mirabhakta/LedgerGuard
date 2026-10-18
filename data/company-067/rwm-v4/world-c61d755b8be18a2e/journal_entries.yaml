@@ -1,0 +1,6541 @@
+- id: je-open-00001
+  doc_number: JE-9001
+  purpose: opening_equity
+  txn_sim_day: 0
+  txn_date: '2025-10-06'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Opening cash.
+    debit_amount: '119347.59'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-opening-equity
+    account_name: Opening Balance Equity
+    description: Owner contribution.
+    debit_amount: '0.00'
+    credit_amount: '119347.59'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Owner's opening cash contribution.
+  provenance_note: sim:c61d755b8be18a2e:je-open-00001
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00001
+- id: je-wageacc-00019
+  doc_number: JE-9002
+  purpose: wage_accrual
+  txn_sim_day: 7
+  txn_date: '2025-10-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00019
+  sim_obligation_id: obligation-00019
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00046
+- id: je-wageacc-00020
+  doc_number: JE-9003
+  purpose: wage_accrual
+  txn_sim_day: 7
+  txn_date: '2025-10-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00020
+  sim_obligation_id: obligation-00020
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00047
+- id: je-wagepay-00019
+  doc_number: JE-9004
+  purpose: wage_payment
+  txn_sim_day: 12
+  txn_date: '2025-10-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00019
+  sim_obligation_id: obligation-00019
+  sim_payment_id: payment-00019
+  sim_event_ids:
+  - event-00060
+- id: je-wagepay-00020
+  doc_number: JE-9005
+  purpose: wage_payment
+  txn_sim_day: 12
+  txn_date: '2025-10-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00020
+  sim_obligation_id: obligation-00020
+  sim_payment_id: payment-00020
+  sim_event_ids:
+  - event-00061
+- id: je-wageacc-00021
+  doc_number: JE-9006
+  purpose: wage_accrual
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00021
+  sim_obligation_id: obligation-00021
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00062
+- id: je-wageacc-00022
+  doc_number: JE-9007
+  purpose: wage_accrual
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00022
+  sim_obligation_id: obligation-00022
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00063
+- id: je-wagepay-00021
+  doc_number: JE-9008
+  purpose: wage_payment
+  txn_sim_day: 19
+  txn_date: '2025-10-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00021
+  sim_obligation_id: obligation-00021
+  sim_payment_id: payment-00021
+  sim_event_ids:
+  - event-00066
+- id: je-wagepay-00022
+  doc_number: JE-9009
+  purpose: wage_payment
+  txn_sim_day: 19
+  txn_date: '2025-10-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00022
+  sim_obligation_id: obligation-00022
+  sim_payment_id: payment-00022
+  sim_event_ids:
+  - event-00067
+- id: je-wageacc-00023
+  doc_number: JE-9010
+  purpose: wage_accrual
+  txn_sim_day: 21
+  txn_date: '2025-10-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00023
+  sim_obligation_id: obligation-00023
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00068
+- id: je-wageacc-00024
+  doc_number: JE-9011
+  purpose: wage_accrual
+  txn_sim_day: 21
+  txn_date: '2025-10-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00024
+  sim_obligation_id: obligation-00024
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00069
+- id: je-wagepay-00023
+  doc_number: JE-9012
+  purpose: wage_payment
+  txn_sim_day: 26
+  txn_date: '2025-11-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00023
+  sim_obligation_id: obligation-00023
+  sim_payment_id: payment-00023
+  sim_event_ids:
+  - event-00072
+- id: je-wagepay-00024
+  doc_number: JE-9013
+  purpose: wage_payment
+  txn_sim_day: 26
+  txn_date: '2025-11-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00024
+  sim_obligation_id: obligation-00024
+  sim_payment_id: payment-00024
+  sim_event_ids:
+  - event-00073
+- id: je-wageacc-00025
+  doc_number: JE-9014
+  purpose: wage_accrual
+  txn_sim_day: 28
+  txn_date: '2025-11-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00025
+  sim_obligation_id: obligation-00025
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00074
+- id: je-wageacc-00026
+  doc_number: JE-9015
+  purpose: wage_accrual
+  txn_sim_day: 28
+  txn_date: '2025-11-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00026
+  sim_obligation_id: obligation-00026
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00075
+- id: je-wagepay-00030
+  doc_number: JE-9016
+  purpose: wage_payment
+  txn_sim_day: 33
+  txn_date: '2025-11-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00030
+  sim_obligation_id: obligation-00025
+  sim_payment_id: payment-00030
+  sim_event_ids:
+  - event-00116
+- id: je-wagepay-00031
+  doc_number: JE-9017
+  purpose: wage_payment
+  txn_sim_day: 33
+  txn_date: '2025-11-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00031
+  sim_obligation_id: obligation-00026
+  sim_payment_id: payment-00031
+  sim_event_ids:
+  - event-00117
+- id: je-wageacc-00048
+  doc_number: JE-9018
+  purpose: wage_accrual
+  txn_sim_day: 35
+  txn_date: '2025-11-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00048
+  sim_obligation_id: obligation-00048
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00123
+- id: je-wageacc-00049
+  doc_number: JE-9019
+  purpose: wage_accrual
+  txn_sim_day: 35
+  txn_date: '2025-11-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00049
+  sim_obligation_id: obligation-00049
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00124
+- id: je-wagepay-00048
+  doc_number: JE-9020
+  purpose: wage_payment
+  txn_sim_day: 40
+  txn_date: '2025-11-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00048
+  sim_obligation_id: obligation-00048
+  sim_payment_id: payment-00048
+  sim_event_ids:
+  - event-00149
+- id: je-wagepay-00049
+  doc_number: JE-9021
+  purpose: wage_payment
+  txn_sim_day: 40
+  txn_date: '2025-11-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00049
+  sim_obligation_id: obligation-00049
+  sim_payment_id: payment-00049
+  sim_event_ids:
+  - event-00150
+- id: je-wageacc-00050
+  doc_number: JE-9022
+  purpose: wage_accrual
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00050
+  sim_obligation_id: obligation-00050
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00151
+- id: je-wageacc-00051
+  doc_number: JE-9023
+  purpose: wage_accrual
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00051
+  sim_obligation_id: obligation-00051
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00152
+- id: je-wagepay-00050
+  doc_number: JE-9024
+  purpose: wage_payment
+  txn_sim_day: 47
+  txn_date: '2025-11-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00050
+  sim_obligation_id: obligation-00050
+  sim_payment_id: payment-00050
+  sim_event_ids:
+  - event-00155
+- id: je-wagepay-00051
+  doc_number: JE-9025
+  purpose: wage_payment
+  txn_sim_day: 47
+  txn_date: '2025-11-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00051
+  sim_obligation_id: obligation-00051
+  sim_payment_id: payment-00051
+  sim_event_ids:
+  - event-00156
+- id: je-wageacc-00052
+  doc_number: JE-9026
+  purpose: wage_accrual
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00052
+  sim_obligation_id: obligation-00052
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00157
+- id: je-wageacc-00053
+  doc_number: JE-9027
+  purpose: wage_accrual
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00053
+  sim_obligation_id: obligation-00053
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00158
+- id: je-wagepay-00052
+  doc_number: JE-9028
+  purpose: wage_payment
+  txn_sim_day: 54
+  txn_date: '2025-11-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00052
+  sim_obligation_id: obligation-00052
+  sim_payment_id: payment-00052
+  sim_event_ids:
+  - event-00161
+- id: je-wagepay-00053
+  doc_number: JE-9029
+  purpose: wage_payment
+  txn_sim_day: 54
+  txn_date: '2025-11-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00053
+  sim_obligation_id: obligation-00053
+  sim_payment_id: payment-00053
+  sim_event_ids:
+  - event-00162
+- id: je-wageacc-00054
+  doc_number: JE-9030
+  purpose: wage_accrual
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00054
+  sim_obligation_id: obligation-00054
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00163
+- id: je-wageacc-00055
+  doc_number: JE-9031
+  purpose: wage_accrual
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00055
+  sim_obligation_id: obligation-00055
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00164
+- id: je-wagepay-00054
+  doc_number: JE-9032
+  purpose: wage_payment
+  txn_sim_day: 61
+  txn_date: '2025-12-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00054
+  sim_obligation_id: obligation-00054
+  sim_payment_id: payment-00054
+  sim_event_ids:
+  - event-00196
+- id: je-wagepay-00055
+  doc_number: JE-9033
+  purpose: wage_payment
+  txn_sim_day: 61
+  txn_date: '2025-12-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00055
+  sim_obligation_id: obligation-00055
+  sim_payment_id: payment-00055
+  sim_event_ids:
+  - event-00197
+- id: je-wageacc-00079
+  doc_number: JE-9034
+  purpose: wage_accrual
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00079
+  sim_obligation_id: obligation-00079
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00207
+- id: je-wageacc-00080
+  doc_number: JE-9035
+  purpose: wage_accrual
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00080
+  sim_obligation_id: obligation-00080
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00208
+- id: je-wagepay-00071
+  doc_number: JE-9036
+  purpose: wage_payment
+  txn_sim_day: 68
+  txn_date: '2025-12-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00071
+  sim_obligation_id: obligation-00079
+  sim_payment_id: payment-00071
+  sim_event_ids:
+  - event-00234
+- id: je-wagepay-00072
+  doc_number: JE-9037
+  purpose: wage_payment
+  txn_sim_day: 68
+  txn_date: '2025-12-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00072
+  sim_obligation_id: obligation-00080
+  sim_payment_id: payment-00072
+  sim_event_ids:
+  - event-00235
+- id: je-wageacc-00081
+  doc_number: JE-9038
+  purpose: wage_accrual
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00081
+  sim_obligation_id: obligation-00081
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00242
+- id: je-wageacc-00082
+  doc_number: JE-9039
+  purpose: wage_accrual
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00082
+  sim_obligation_id: obligation-00082
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00243
+- id: je-wagepay-00081
+  doc_number: JE-9040
+  purpose: wage_payment
+  txn_sim_day: 75
+  txn_date: '2025-12-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00081
+  sim_obligation_id: obligation-00081
+  sim_payment_id: payment-00081
+  sim_event_ids:
+  - event-00248
+- id: je-wagepay-00082
+  doc_number: JE-9041
+  purpose: wage_payment
+  txn_sim_day: 75
+  txn_date: '2025-12-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00082
+  sim_obligation_id: obligation-00082
+  sim_payment_id: payment-00082
+  sim_event_ids:
+  - event-00249
+- id: je-wageacc-00083
+  doc_number: JE-9042
+  purpose: wage_accrual
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00083
+  sim_obligation_id: obligation-00083
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00250
+- id: je-wageacc-00084
+  doc_number: JE-9043
+  purpose: wage_accrual
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00084
+  sim_obligation_id: obligation-00084
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00251
+- id: je-wagepay-00083
+  doc_number: JE-9044
+  purpose: wage_payment
+  txn_sim_day: 82
+  txn_date: '2025-12-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00083
+  sim_obligation_id: obligation-00083
+  sim_payment_id: payment-00083
+  sim_event_ids:
+  - event-00254
+- id: je-wagepay-00084
+  doc_number: JE-9045
+  purpose: wage_payment
+  txn_sim_day: 82
+  txn_date: '2025-12-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00084
+  sim_obligation_id: obligation-00084
+  sim_payment_id: payment-00084
+  sim_event_ids:
+  - event-00255
+- id: je-wageacc-00085
+  doc_number: JE-9046
+  purpose: wage_accrual
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00085
+  sim_obligation_id: obligation-00085
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00256
+- id: je-wageacc-00086
+  doc_number: JE-9047
+  purpose: wage_accrual
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00086
+  sim_obligation_id: obligation-00086
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00257
+- id: je-wagepay-00085
+  doc_number: JE-9048
+  purpose: wage_payment
+  txn_sim_day: 89
+  txn_date: '2026-01-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00085
+  sim_obligation_id: obligation-00085
+  sim_payment_id: payment-00085
+  sim_event_ids:
+  - event-00260
+- id: je-wagepay-00086
+  doc_number: JE-9049
+  purpose: wage_payment
+  txn_sim_day: 89
+  txn_date: '2026-01-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00086
+  sim_obligation_id: obligation-00086
+  sim_payment_id: payment-00086
+  sim_event_ids:
+  - event-00261
+- id: je-distribution-00293
+  doc_number: JE-9050
+  purpose: owner_distribution
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '99456.32'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '99456.32'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:c61d755b8be18a2e:je-distribution-00293
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00293
+- id: je-wageacc-00111
+  doc_number: JE-9051
+  purpose: wage_accrual
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00111
+  sim_obligation_id: obligation-00111
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00294
+- id: je-wageacc-00112
+  doc_number: JE-9052
+  purpose: wage_accrual
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00112
+  sim_obligation_id: obligation-00112
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00295
+- id: je-wagepay-00100
+  doc_number: JE-9053
+  purpose: wage_payment
+  txn_sim_day: 96
+  txn_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00100
+  sim_obligation_id: obligation-00111
+  sim_payment_id: payment-00100
+  sim_event_ids:
+  - event-00320
+- id: je-wagepay-00101
+  doc_number: JE-9054
+  purpose: wage_payment
+  txn_sim_day: 96
+  txn_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00101
+  sim_obligation_id: obligation-00112
+  sim_payment_id: payment-00101
+  sim_event_ids:
+  - event-00321
+- id: je-wageacc-00113
+  doc_number: JE-9055
+  purpose: wage_accrual
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00113
+  sim_obligation_id: obligation-00113
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00333
+- id: je-wageacc-00114
+  doc_number: JE-9056
+  purpose: wage_accrual
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00114
+  sim_obligation_id: obligation-00114
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00334
+- id: je-wagepay-00113
+  doc_number: JE-9057
+  purpose: wage_payment
+  txn_sim_day: 103
+  txn_date: '2026-01-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00113
+  sim_obligation_id: obligation-00113
+  sim_payment_id: payment-00113
+  sim_event_ids:
+  - event-00346
+- id: je-wagepay-00114
+  doc_number: JE-9058
+  purpose: wage_payment
+  txn_sim_day: 103
+  txn_date: '2026-01-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00114
+  sim_obligation_id: obligation-00114
+  sim_payment_id: payment-00114
+  sim_event_ids:
+  - event-00347
+- id: je-wageacc-00115
+  doc_number: JE-9059
+  purpose: wage_accrual
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00115
+  sim_obligation_id: obligation-00115
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00348
+- id: je-wageacc-00116
+  doc_number: JE-9060
+  purpose: wage_accrual
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00116
+  sim_obligation_id: obligation-00116
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00349
+- id: je-wagepay-00115
+  doc_number: JE-9061
+  purpose: wage_payment
+  txn_sim_day: 110
+  txn_date: '2026-01-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00115
+  sim_obligation_id: obligation-00115
+  sim_payment_id: payment-00115
+  sim_event_ids:
+  - event-00352
+- id: je-wagepay-00116
+  doc_number: JE-9062
+  purpose: wage_payment
+  txn_sim_day: 110
+  txn_date: '2026-01-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00116
+  sim_obligation_id: obligation-00116
+  sim_payment_id: payment-00116
+  sim_event_ids:
+  - event-00353
+- id: je-wageacc-00117
+  doc_number: JE-9063
+  purpose: wage_accrual
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00117
+  sim_obligation_id: obligation-00117
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00354
+- id: je-wageacc-00118
+  doc_number: JE-9064
+  purpose: wage_accrual
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00118
+  sim_obligation_id: obligation-00118
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00355
+- id: je-wagepay-00117
+  doc_number: JE-9065
+  purpose: wage_payment
+  txn_sim_day: 117
+  txn_date: '2026-01-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00117
+  sim_obligation_id: obligation-00117
+  sim_payment_id: payment-00117
+  sim_event_ids:
+  - event-00358
+- id: je-wagepay-00118
+  doc_number: JE-9066
+  purpose: wage_payment
+  txn_sim_day: 117
+  txn_date: '2026-01-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00118
+  sim_obligation_id: obligation-00118
+  sim_payment_id: payment-00118
+  sim_event_ids:
+  - event-00359
+- id: je-wageacc-00119
+  doc_number: JE-9067
+  purpose: wage_accrual
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00119
+  sim_obligation_id: obligation-00119
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00360
+- id: je-wageacc-00120
+  doc_number: JE-9068
+  purpose: wage_accrual
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00120
+  sim_obligation_id: obligation-00120
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00361
+- id: je-wagepay-00127
+  doc_number: JE-9069
+  purpose: wage_payment
+  txn_sim_day: 124
+  txn_date: '2026-02-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00127
+  sim_obligation_id: obligation-00119
+  sim_payment_id: payment-00127
+  sim_event_ids:
+  - event-00408
+- id: je-wagepay-00128
+  doc_number: JE-9070
+  purpose: wage_payment
+  txn_sim_day: 124
+  txn_date: '2026-02-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00128
+  sim_obligation_id: obligation-00120
+  sim_payment_id: payment-00128
+  sim_event_ids:
+  - event-00409
+- id: je-wageacc-00144
+  doc_number: JE-9071
+  purpose: wage_accrual
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00144
+  sim_obligation_id: obligation-00144
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00415
+- id: je-wageacc-00145
+  doc_number: JE-9072
+  purpose: wage_accrual
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00145
+  sim_obligation_id: obligation-00145
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00416
+- id: je-wagepay-00144
+  doc_number: JE-9073
+  purpose: wage_payment
+  txn_sim_day: 131
+  txn_date: '2026-02-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00144
+  sim_obligation_id: obligation-00144
+  sim_payment_id: payment-00144
+  sim_event_ids:
+  - event-00439
+- id: je-wagepay-00145
+  doc_number: JE-9074
+  purpose: wage_payment
+  txn_sim_day: 131
+  txn_date: '2026-02-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00145
+  sim_obligation_id: obligation-00145
+  sim_payment_id: payment-00145
+  sim_event_ids:
+  - event-00440
+- id: je-wageacc-00146
+  doc_number: JE-9075
+  purpose: wage_accrual
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00146
+  sim_obligation_id: obligation-00146
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00441
+- id: je-wageacc-00147
+  doc_number: JE-9076
+  purpose: wage_accrual
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00147
+  sim_obligation_id: obligation-00147
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00442
+- id: je-wagepay-00146
+  doc_number: JE-9077
+  purpose: wage_payment
+  txn_sim_day: 138
+  txn_date: '2026-02-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00146
+  sim_obligation_id: obligation-00146
+  sim_payment_id: payment-00146
+  sim_event_ids:
+  - event-00445
+- id: je-wagepay-00147
+  doc_number: JE-9078
+  purpose: wage_payment
+  txn_sim_day: 138
+  txn_date: '2026-02-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00147
+  sim_obligation_id: obligation-00147
+  sim_payment_id: payment-00147
+  sim_event_ids:
+  - event-00446
+- id: je-wageacc-00148
+  doc_number: JE-9079
+  purpose: wage_accrual
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00148
+  sim_obligation_id: obligation-00148
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00447
+- id: je-wageacc-00149
+  doc_number: JE-9080
+  purpose: wage_accrual
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00149
+  sim_obligation_id: obligation-00149
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00448
+- id: je-wagepay-00148
+  doc_number: JE-9081
+  purpose: wage_payment
+  txn_sim_day: 145
+  txn_date: '2026-02-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00148
+  sim_obligation_id: obligation-00148
+  sim_payment_id: payment-00148
+  sim_event_ids:
+  - event-00451
+- id: je-wagepay-00149
+  doc_number: JE-9082
+  purpose: wage_payment
+  txn_sim_day: 145
+  txn_date: '2026-02-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00149
+  sim_obligation_id: obligation-00149
+  sim_payment_id: payment-00149
+  sim_event_ids:
+  - event-00452
+- id: je-wageacc-00150
+  doc_number: JE-9083
+  purpose: wage_accrual
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00150
+  sim_obligation_id: obligation-00150
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00453
+- id: je-wageacc-00151
+  doc_number: JE-9084
+  purpose: wage_accrual
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00151
+  sim_obligation_id: obligation-00151
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00454
+- id: je-wagepay-00150
+  doc_number: JE-9085
+  purpose: wage_payment
+  txn_sim_day: 152
+  txn_date: '2026-03-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00150
+  sim_obligation_id: obligation-00150
+  sim_payment_id: payment-00150
+  sim_event_ids:
+  - event-00489
+- id: je-wagepay-00151
+  doc_number: JE-9086
+  purpose: wage_payment
+  txn_sim_day: 152
+  txn_date: '2026-03-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00151
+  sim_obligation_id: obligation-00151
+  sim_payment_id: payment-00151
+  sim_event_ids:
+  - event-00490
+- id: je-wageacc-00175
+  doc_number: JE-9087
+  purpose: wage_accrual
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00175
+  sim_obligation_id: obligation-00175
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00501
+- id: je-wageacc-00176
+  doc_number: JE-9088
+  purpose: wage_accrual
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00176
+  sim_obligation_id: obligation-00176
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00502
+- id: je-wagepay-00173
+  doc_number: JE-9089
+  purpose: wage_payment
+  txn_sim_day: 159
+  txn_date: '2026-03-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00173
+  sim_obligation_id: obligation-00175
+  sim_payment_id: payment-00173
+  sim_event_ids:
+  - event-00530
+- id: je-wagepay-00174
+  doc_number: JE-9090
+  purpose: wage_payment
+  txn_sim_day: 159
+  txn_date: '2026-03-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00174
+  sim_obligation_id: obligation-00176
+  sim_payment_id: payment-00174
+  sim_event_ids:
+  - event-00531
+- id: je-wageacc-00177
+  doc_number: JE-9091
+  purpose: wage_accrual
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00177
+  sim_obligation_id: obligation-00177
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00534
+- id: je-wageacc-00178
+  doc_number: JE-9092
+  purpose: wage_accrual
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00178
+  sim_obligation_id: obligation-00178
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00535
+- id: je-wagepay-00177
+  doc_number: JE-9093
+  purpose: wage_payment
+  txn_sim_day: 166
+  txn_date: '2026-03-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00177
+  sim_obligation_id: obligation-00177
+  sim_payment_id: payment-00177
+  sim_event_ids:
+  - event-00538
+- id: je-wagepay-00178
+  doc_number: JE-9094
+  purpose: wage_payment
+  txn_sim_day: 166
+  txn_date: '2026-03-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00178
+  sim_obligation_id: obligation-00178
+  sim_payment_id: payment-00178
+  sim_event_ids:
+  - event-00539
+- id: je-wageacc-00179
+  doc_number: JE-9095
+  purpose: wage_accrual
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00179
+  sim_obligation_id: obligation-00179
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00540
+- id: je-wageacc-00180
+  doc_number: JE-9096
+  purpose: wage_accrual
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00180
+  sim_obligation_id: obligation-00180
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00541
+- id: je-wagepay-00179
+  doc_number: JE-9097
+  purpose: wage_payment
+  txn_sim_day: 173
+  txn_date: '2026-03-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00179
+  sim_obligation_id: obligation-00179
+  sim_payment_id: payment-00179
+  sim_event_ids:
+  - event-00544
+- id: je-wagepay-00180
+  doc_number: JE-9098
+  purpose: wage_payment
+  txn_sim_day: 173
+  txn_date: '2026-03-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00180
+  sim_obligation_id: obligation-00180
+  sim_payment_id: payment-00180
+  sim_event_ids:
+  - event-00545
+- id: je-wageacc-00181
+  doc_number: JE-9099
+  purpose: wage_accrual
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00181
+  sim_obligation_id: obligation-00181
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00546
+- id: je-wageacc-00182
+  doc_number: JE-9100
+  purpose: wage_accrual
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00182
+  sim_obligation_id: obligation-00182
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00547
+- id: je-wagepay-00181
+  doc_number: JE-9101
+  purpose: wage_payment
+  txn_sim_day: 180
+  txn_date: '2026-04-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00181
+  sim_obligation_id: obligation-00181
+  sim_payment_id: payment-00181
+  sim_event_ids:
+  - event-00570
+- id: je-wagepay-00182
+  doc_number: JE-9102
+  purpose: wage_payment
+  txn_sim_day: 180
+  txn_date: '2026-04-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00182
+  sim_obligation_id: obligation-00182
+  sim_payment_id: payment-00182
+  sim_event_ids:
+  - event-00571
+- id: je-distribution-00585
+  doc_number: JE-9103
+  purpose: owner_distribution
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '99456.32'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '99456.32'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:c61d755b8be18a2e:je-distribution-00585
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00585
+- id: je-wageacc-00207
+  doc_number: JE-9104
+  purpose: wage_accrual
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00207
+  sim_obligation_id: obligation-00207
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00586
+- id: je-wageacc-00208
+  doc_number: JE-9105
+  purpose: wage_accrual
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00208
+  sim_obligation_id: obligation-00208
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00587
+- id: je-wagepay-00198
+  doc_number: JE-9106
+  purpose: wage_payment
+  txn_sim_day: 187
+  txn_date: '2026-04-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00198
+  sim_obligation_id: obligation-00207
+  sim_payment_id: payment-00198
+  sim_event_ids:
+  - event-00618
+- id: je-wagepay-00199
+  doc_number: JE-9107
+  purpose: wage_payment
+  txn_sim_day: 187
+  txn_date: '2026-04-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00199
+  sim_obligation_id: obligation-00208
+  sim_payment_id: payment-00199
+  sim_event_ids:
+  - event-00619
+- id: je-wageacc-00209
+  doc_number: JE-9108
+  purpose: wage_accrual
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00209
+  sim_obligation_id: obligation-00209
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00623
+- id: je-wageacc-00210
+  doc_number: JE-9109
+  purpose: wage_accrual
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00210
+  sim_obligation_id: obligation-00210
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00624
+- id: je-wagepay-00209
+  doc_number: JE-9110
+  purpose: wage_payment
+  txn_sim_day: 194
+  txn_date: '2026-04-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00209
+  sim_obligation_id: obligation-00209
+  sim_payment_id: payment-00209
+  sim_event_ids:
+  - event-00636
+- id: je-wagepay-00210
+  doc_number: JE-9111
+  purpose: wage_payment
+  txn_sim_day: 194
+  txn_date: '2026-04-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00210
+  sim_obligation_id: obligation-00210
+  sim_payment_id: payment-00210
+  sim_event_ids:
+  - event-00637
+- id: je-wageacc-00211
+  doc_number: JE-9112
+  purpose: wage_accrual
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00211
+  sim_obligation_id: obligation-00211
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00638
+- id: je-wageacc-00212
+  doc_number: JE-9113
+  purpose: wage_accrual
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00212
+  sim_obligation_id: obligation-00212
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00639
+- id: je-wagepay-00211
+  doc_number: JE-9114
+  purpose: wage_payment
+  txn_sim_day: 201
+  txn_date: '2026-04-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00211
+  sim_obligation_id: obligation-00211
+  sim_payment_id: payment-00211
+  sim_event_ids:
+  - event-00642
+- id: je-wagepay-00212
+  doc_number: JE-9115
+  purpose: wage_payment
+  txn_sim_day: 201
+  txn_date: '2026-04-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00212
+  sim_obligation_id: obligation-00212
+  sim_payment_id: payment-00212
+  sim_event_ids:
+  - event-00643
+- id: je-wageacc-00213
+  doc_number: JE-9116
+  purpose: wage_accrual
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00213
+  sim_obligation_id: obligation-00213
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00644
+- id: je-wageacc-00214
+  doc_number: JE-9117
+  purpose: wage_accrual
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00214
+  sim_obligation_id: obligation-00214
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00645
+- id: je-wagepay-00213
+  doc_number: JE-9118
+  purpose: wage_payment
+  txn_sim_day: 208
+  txn_date: '2026-05-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00213
+  sim_obligation_id: obligation-00213
+  sim_payment_id: payment-00213
+  sim_event_ids:
+  - event-00648
+- id: je-wagepay-00214
+  doc_number: JE-9119
+  purpose: wage_payment
+  txn_sim_day: 208
+  txn_date: '2026-05-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00214
+  sim_obligation_id: obligation-00214
+  sim_payment_id: payment-00214
+  sim_event_ids:
+  - event-00649
+- id: je-wageacc-00235
+  doc_number: JE-9120
+  purpose: wage_accrual
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00235
+  sim_obligation_id: obligation-00235
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00670
+- id: je-wageacc-00236
+  doc_number: JE-9121
+  purpose: wage_accrual
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00236
+  sim_obligation_id: obligation-00236
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00671
+- id: je-wagepay-00226
+  doc_number: JE-9122
+  purpose: wage_payment
+  txn_sim_day: 215
+  txn_date: '2026-05-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00226
+  sim_obligation_id: obligation-00235
+  sim_payment_id: payment-00226
+  sim_event_ids:
+  - event-00703
+- id: je-wagepay-00227
+  doc_number: JE-9123
+  purpose: wage_payment
+  txn_sim_day: 215
+  txn_date: '2026-05-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00227
+  sim_obligation_id: obligation-00236
+  sim_payment_id: payment-00227
+  sim_event_ids:
+  - event-00704
+- id: je-wageacc-00240
+  doc_number: JE-9124
+  purpose: wage_accrual
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00240
+  sim_obligation_id: obligation-00240
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00710
+- id: je-wageacc-00241
+  doc_number: JE-9125
+  purpose: wage_accrual
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00241
+  sim_obligation_id: obligation-00241
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00711
+- id: je-wagepay-00240
+  doc_number: JE-9126
+  purpose: wage_payment
+  txn_sim_day: 222
+  txn_date: '2026-05-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00240
+  sim_obligation_id: obligation-00240
+  sim_payment_id: payment-00240
+  sim_event_ids:
+  - event-00729
+- id: je-wagepay-00241
+  doc_number: JE-9127
+  purpose: wage_payment
+  txn_sim_day: 222
+  txn_date: '2026-05-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00241
+  sim_obligation_id: obligation-00241
+  sim_payment_id: payment-00241
+  sim_event_ids:
+  - event-00730
+- id: je-wageacc-00242
+  doc_number: JE-9128
+  purpose: wage_accrual
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00242
+  sim_obligation_id: obligation-00242
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00731
+- id: je-wageacc-00243
+  doc_number: JE-9129
+  purpose: wage_accrual
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00243
+  sim_obligation_id: obligation-00243
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00732
+- id: je-wagepay-00242
+  doc_number: JE-9130
+  purpose: wage_payment
+  txn_sim_day: 229
+  txn_date: '2026-05-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00242
+  sim_obligation_id: obligation-00242
+  sim_payment_id: payment-00242
+  sim_event_ids:
+  - event-00735
+- id: je-wagepay-00243
+  doc_number: JE-9131
+  purpose: wage_payment
+  txn_sim_day: 229
+  txn_date: '2026-05-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00243
+  sim_obligation_id: obligation-00243
+  sim_payment_id: payment-00243
+  sim_event_ids:
+  - event-00736
+- id: je-wageacc-00244
+  doc_number: JE-9132
+  purpose: wage_accrual
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00244
+  sim_obligation_id: obligation-00244
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00737
+- id: je-wageacc-00245
+  doc_number: JE-9133
+  purpose: wage_accrual
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00245
+  sim_obligation_id: obligation-00245
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00738
+- id: je-wagepay-00244
+  doc_number: JE-9134
+  purpose: wage_payment
+  txn_sim_day: 236
+  txn_date: '2026-05-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00244
+  sim_obligation_id: obligation-00244
+  sim_payment_id: payment-00244
+  sim_event_ids:
+  - event-00741
+- id: je-wagepay-00245
+  doc_number: JE-9135
+  purpose: wage_payment
+  txn_sim_day: 236
+  txn_date: '2026-05-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00245
+  sim_obligation_id: obligation-00245
+  sim_payment_id: payment-00245
+  sim_event_ids:
+  - event-00742
+- id: je-wageacc-00246
+  doc_number: JE-9136
+  purpose: wage_accrual
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00246
+  sim_obligation_id: obligation-00246
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00743
+- id: je-wageacc-00247
+  doc_number: JE-9137
+  purpose: wage_accrual
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00247
+  sim_obligation_id: obligation-00247
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00744
+- id: je-wagepay-00252
+  doc_number: JE-9138
+  purpose: wage_payment
+  txn_sim_day: 243
+  txn_date: '2026-06-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00252
+  sim_obligation_id: obligation-00246
+  sim_payment_id: payment-00252
+  sim_event_ids:
+  - event-00787
+- id: je-wagepay-00253
+  doc_number: JE-9139
+  purpose: wage_payment
+  txn_sim_day: 243
+  txn_date: '2026-06-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00253
+  sim_obligation_id: obligation-00247
+  sim_payment_id: payment-00253
+  sim_event_ids:
+  - event-00788
+- id: je-wageacc-00271
+  doc_number: JE-9140
+  purpose: wage_accrual
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00271
+  sim_obligation_id: obligation-00271
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00794
+- id: je-wageacc-00272
+  doc_number: JE-9141
+  purpose: wage_accrual
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00272
+  sim_obligation_id: obligation-00272
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00795
+- id: je-wagepay-00271
+  doc_number: JE-9142
+  purpose: wage_payment
+  txn_sim_day: 250
+  txn_date: '2026-06-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00271
+  sim_obligation_id: obligation-00271
+  sim_payment_id: payment-00271
+  sim_event_ids:
+  - event-00822
+- id: je-wagepay-00272
+  doc_number: JE-9143
+  purpose: wage_payment
+  txn_sim_day: 250
+  txn_date: '2026-06-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00272
+  sim_obligation_id: obligation-00272
+  sim_payment_id: payment-00272
+  sim_event_ids:
+  - event-00823
+- id: je-wageacc-00273
+  doc_number: JE-9144
+  purpose: wage_accrual
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00273
+  sim_obligation_id: obligation-00273
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00824
+- id: je-wageacc-00274
+  doc_number: JE-9145
+  purpose: wage_accrual
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00274
+  sim_obligation_id: obligation-00274
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00825
+- id: je-wagepay-00273
+  doc_number: JE-9146
+  purpose: wage_payment
+  txn_sim_day: 257
+  txn_date: '2026-06-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00273
+  sim_obligation_id: obligation-00273
+  sim_payment_id: payment-00273
+  sim_event_ids:
+  - event-00828
+- id: je-wagepay-00274
+  doc_number: JE-9147
+  purpose: wage_payment
+  txn_sim_day: 257
+  txn_date: '2026-06-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00274
+  sim_obligation_id: obligation-00274
+  sim_payment_id: payment-00274
+  sim_event_ids:
+  - event-00829
+- id: je-wageacc-00275
+  doc_number: JE-9148
+  purpose: wage_accrual
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00275
+  sim_obligation_id: obligation-00275
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00830
+- id: je-wageacc-00276
+  doc_number: JE-9149
+  purpose: wage_accrual
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00276
+  sim_obligation_id: obligation-00276
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00831
+- id: je-wagepay-00275
+  doc_number: JE-9150
+  purpose: wage_payment
+  txn_sim_day: 264
+  txn_date: '2026-06-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00275
+  sim_obligation_id: obligation-00275
+  sim_payment_id: payment-00275
+  sim_event_ids:
+  - event-00834
+- id: je-wagepay-00276
+  doc_number: JE-9151
+  purpose: wage_payment
+  txn_sim_day: 264
+  txn_date: '2026-06-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00276
+  sim_obligation_id: obligation-00276
+  sim_payment_id: payment-00276
+  sim_event_ids:
+  - event-00835
+- id: je-wageacc-00277
+  doc_number: JE-9152
+  purpose: wage_accrual
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00277
+  sim_obligation_id: obligation-00277
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00836
+- id: je-wageacc-00278
+  doc_number: JE-9153
+  purpose: wage_accrual
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00278
+  sim_obligation_id: obligation-00278
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00837
+- id: je-wagepay-00277
+  doc_number: JE-9154
+  purpose: wage_payment
+  txn_sim_day: 271
+  txn_date: '2026-07-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00277
+  sim_obligation_id: obligation-00277
+  sim_payment_id: payment-00277
+  sim_event_ids:
+  - event-00869
+- id: je-wagepay-00278
+  doc_number: JE-9155
+  purpose: wage_payment
+  txn_sim_day: 271
+  txn_date: '2026-07-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00278
+  sim_obligation_id: obligation-00278
+  sim_payment_id: payment-00278
+  sim_event_ids:
+  - event-00870
+- id: je-distribution-00882
+  doc_number: JE-9156
+  purpose: owner_distribution
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '99456.32'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '99456.32'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:c61d755b8be18a2e:je-distribution-00882
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00882
+- id: je-wageacc-00303
+  doc_number: JE-9157
+  purpose: wage_accrual
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00303
+  sim_obligation_id: obligation-00303
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00883
+- id: je-wageacc-00304
+  doc_number: JE-9158
+  purpose: wage_accrual
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00304
+  sim_obligation_id: obligation-00304
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00884
+- id: je-wagepay-00294
+  doc_number: JE-9159
+  purpose: wage_payment
+  txn_sim_day: 278
+  txn_date: '2026-07-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00294
+  sim_obligation_id: obligation-00303
+  sim_payment_id: payment-00294
+  sim_event_ids:
+  - event-00910
+- id: je-wagepay-00295
+  doc_number: JE-9160
+  purpose: wage_payment
+  txn_sim_day: 278
+  txn_date: '2026-07-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00295
+  sim_obligation_id: obligation-00304
+  sim_payment_id: payment-00295
+  sim_event_ids:
+  - event-00911
+- id: je-wageacc-00305
+  doc_number: JE-9161
+  purpose: wage_accrual
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00305
+  sim_obligation_id: obligation-00305
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00919
+- id: je-wageacc-00306
+  doc_number: JE-9162
+  purpose: wage_accrual
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00306
+  sim_obligation_id: obligation-00306
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00920
+- id: je-wagepay-00305
+  doc_number: JE-9163
+  purpose: wage_payment
+  txn_sim_day: 285
+  txn_date: '2026-07-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00305
+  sim_obligation_id: obligation-00305
+  sim_payment_id: payment-00305
+  sim_event_ids:
+  - event-00926
+- id: je-wagepay-00306
+  doc_number: JE-9164
+  purpose: wage_payment
+  txn_sim_day: 285
+  txn_date: '2026-07-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00306
+  sim_obligation_id: obligation-00306
+  sim_payment_id: payment-00306
+  sim_event_ids:
+  - event-00927
+- id: je-wageacc-00307
+  doc_number: JE-9165
+  purpose: wage_accrual
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00307
+  sim_obligation_id: obligation-00307
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00928
+- id: je-wageacc-00308
+  doc_number: JE-9166
+  purpose: wage_accrual
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00308
+  sim_obligation_id: obligation-00308
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00929
+- id: je-wagepay-00307
+  doc_number: JE-9167
+  purpose: wage_payment
+  txn_sim_day: 292
+  txn_date: '2026-07-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00307
+  sim_obligation_id: obligation-00307
+  sim_payment_id: payment-00307
+  sim_event_ids:
+  - event-00932
+- id: je-wagepay-00308
+  doc_number: JE-9168
+  purpose: wage_payment
+  txn_sim_day: 292
+  txn_date: '2026-07-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00308
+  sim_obligation_id: obligation-00308
+  sim_payment_id: payment-00308
+  sim_event_ids:
+  - event-00933
+- id: je-wageacc-00309
+  doc_number: JE-9169
+  purpose: wage_accrual
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00309
+  sim_obligation_id: obligation-00309
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00934
+- id: je-wageacc-00310
+  doc_number: JE-9170
+  purpose: wage_accrual
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00310
+  sim_obligation_id: obligation-00310
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00935
+- id: je-wagepay-00309
+  doc_number: JE-9171
+  purpose: wage_payment
+  txn_sim_day: 299
+  txn_date: '2026-08-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00309
+  sim_obligation_id: obligation-00309
+  sim_payment_id: payment-00309
+  sim_event_ids:
+  - event-00938
+- id: je-wagepay-00310
+  doc_number: JE-9172
+  purpose: wage_payment
+  txn_sim_day: 299
+  txn_date: '2026-08-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00310
+  sim_obligation_id: obligation-00310
+  sim_payment_id: payment-00310
+  sim_event_ids:
+  - event-00939
+- id: je-wageacc-00334
+  doc_number: JE-9173
+  purpose: wage_accrual
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00334
+  sim_obligation_id: obligation-00334
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00969
+- id: je-wageacc-00335
+  doc_number: JE-9174
+  purpose: wage_accrual
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00335
+  sim_obligation_id: obligation-00335
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00970
+- id: je-wagepay-00324
+  doc_number: JE-9175
+  purpose: wage_payment
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00324
+  sim_obligation_id: obligation-00334
+  sim_payment_id: payment-00324
+  sim_event_ids:
+  - event-00995
+- id: je-wagepay-00325
+  doc_number: JE-9176
+  purpose: wage_payment
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00325
+  sim_obligation_id: obligation-00335
+  sim_payment_id: payment-00325
+  sim_event_ids:
+  - event-00996
+- id: je-wageacc-00336
+  doc_number: JE-9177
+  purpose: wage_accrual
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00336
+  sim_obligation_id: obligation-00336
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01007
+- id: je-wageacc-00337
+  doc_number: JE-9178
+  purpose: wage_accrual
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00337
+  sim_obligation_id: obligation-00337
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01008
+- id: je-wagepay-00336
+  doc_number: JE-9179
+  purpose: wage_payment
+  txn_sim_day: 313
+  txn_date: '2026-08-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00336
+  sim_obligation_id: obligation-00336
+  sim_payment_id: payment-00336
+  sim_event_ids:
+  - event-01019
+- id: je-wagepay-00337
+  doc_number: JE-9180
+  purpose: wage_payment
+  txn_sim_day: 313
+  txn_date: '2026-08-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00337
+  sim_obligation_id: obligation-00337
+  sim_payment_id: payment-00337
+  sim_event_ids:
+  - event-01020
+- id: je-wageacc-00338
+  doc_number: JE-9181
+  purpose: wage_accrual
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00338
+  sim_obligation_id: obligation-00338
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01021
+- id: je-wageacc-00339
+  doc_number: JE-9182
+  purpose: wage_accrual
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00339
+  sim_obligation_id: obligation-00339
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01022
+- id: je-wagepay-00338
+  doc_number: JE-9183
+  purpose: wage_payment
+  txn_sim_day: 320
+  txn_date: '2026-08-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00338
+  sim_obligation_id: obligation-00338
+  sim_payment_id: payment-00338
+  sim_event_ids:
+  - event-01025
+- id: je-wagepay-00339
+  doc_number: JE-9184
+  purpose: wage_payment
+  txn_sim_day: 320
+  txn_date: '2026-08-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00339
+  sim_obligation_id: obligation-00339
+  sim_payment_id: payment-00339
+  sim_event_ids:
+  - event-01026
+- id: je-wageacc-00340
+  doc_number: JE-9185
+  purpose: wage_accrual
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00340
+  sim_obligation_id: obligation-00340
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01027
+- id: je-wageacc-00341
+  doc_number: JE-9186
+  purpose: wage_accrual
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00341
+  sim_obligation_id: obligation-00341
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01028
+- id: je-wagepay-00340
+  doc_number: JE-9187
+  purpose: wage_payment
+  txn_sim_day: 327
+  txn_date: '2026-08-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00340
+  sim_obligation_id: obligation-00340
+  sim_payment_id: payment-00340
+  sim_event_ids:
+  - event-01031
+- id: je-wagepay-00341
+  doc_number: JE-9188
+  purpose: wage_payment
+  txn_sim_day: 327
+  txn_date: '2026-08-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00341
+  sim_obligation_id: obligation-00341
+  sim_payment_id: payment-00341
+  sim_event_ids:
+  - event-01032
+- id: je-wageacc-00342
+  doc_number: JE-9189
+  purpose: wage_accrual
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00342
+  sim_obligation_id: obligation-00342
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01033
+- id: je-wageacc-00343
+  doc_number: JE-9190
+  purpose: wage_accrual
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00343
+  sim_obligation_id: obligation-00343
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01034
+- id: je-wagepay-00350
+  doc_number: JE-9191
+  purpose: wage_payment
+  txn_sim_day: 334
+  txn_date: '2026-09-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00350
+  sim_obligation_id: obligation-00342
+  sim_payment_id: payment-00350
+  sim_event_ids:
+  - event-01081
+- id: je-wagepay-00351
+  doc_number: JE-9192
+  purpose: wage_payment
+  txn_sim_day: 334
+  txn_date: '2026-09-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00351
+  sim_obligation_id: obligation-00343
+  sim_payment_id: payment-00351
+  sim_event_ids:
+  - event-01082
+- id: je-wageacc-00367
+  doc_number: JE-9193
+  purpose: wage_accrual
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00367
+  sim_obligation_id: obligation-00367
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01088
+- id: je-wageacc-00368
+  doc_number: JE-9194
+  purpose: wage_accrual
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00368
+  sim_obligation_id: obligation-00368
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01089
+- id: je-wagepay-00367
+  doc_number: JE-9195
+  purpose: wage_payment
+  txn_sim_day: 341
+  txn_date: '2026-09-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00367
+  sim_obligation_id: obligation-00367
+  sim_payment_id: payment-00367
+  sim_event_ids:
+  - event-01112
+- id: je-wagepay-00368
+  doc_number: JE-9196
+  purpose: wage_payment
+  txn_sim_day: 341
+  txn_date: '2026-09-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00368
+  sim_obligation_id: obligation-00368
+  sim_payment_id: payment-00368
+  sim_event_ids:
+  - event-01113
+- id: je-wageacc-00369
+  doc_number: JE-9197
+  purpose: wage_accrual
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00369
+  sim_obligation_id: obligation-00369
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01114
+- id: je-wageacc-00370
+  doc_number: JE-9198
+  purpose: wage_accrual
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00370
+  sim_obligation_id: obligation-00370
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01115
+- id: je-wagepay-00369
+  doc_number: JE-9199
+  purpose: wage_payment
+  txn_sim_day: 348
+  txn_date: '2026-09-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00369
+  sim_obligation_id: obligation-00369
+  sim_payment_id: payment-00369
+  sim_event_ids:
+  - event-01118
+- id: je-wagepay-00370
+  doc_number: JE-9200
+  purpose: wage_payment
+  txn_sim_day: 348
+  txn_date: '2026-09-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00370
+  sim_obligation_id: obligation-00370
+  sim_payment_id: payment-00370
+  sim_event_ids:
+  - event-01119
+- id: je-wageacc-00371
+  doc_number: JE-9201
+  purpose: wage_accrual
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00371
+  sim_obligation_id: obligation-00371
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01120
+- id: je-wageacc-00372
+  doc_number: JE-9202
+  purpose: wage_accrual
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00372
+  sim_obligation_id: obligation-00372
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01121
+- id: je-wagepay-00371
+  doc_number: JE-9203
+  purpose: wage_payment
+  txn_sim_day: 355
+  txn_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00371
+  sim_obligation_id: obligation-00371
+  sim_payment_id: payment-00371
+  sim_event_ids:
+  - event-01124
+- id: je-wagepay-00372
+  doc_number: JE-9204
+  purpose: wage_payment
+  txn_sim_day: 355
+  txn_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00372
+  sim_obligation_id: obligation-00372
+  sim_payment_id: payment-00372
+  sim_event_ids:
+  - event-01125
+- id: je-wageacc-00373
+  doc_number: JE-9205
+  purpose: wage_accrual
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00373
+  sim_obligation_id: obligation-00373
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01126
+- id: je-wageacc-00374
+  doc_number: JE-9206
+  purpose: wage_accrual
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00374
+  sim_obligation_id: obligation-00374
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01127
+- id: je-wagepay-00373
+  doc_number: JE-9207
+  purpose: wage_payment
+  txn_sim_day: 362
+  txn_date: '2026-10-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00373
+  sim_obligation_id: obligation-00373
+  sim_payment_id: payment-00373
+  sim_event_ids:
+  - event-01162
+- id: je-wagepay-00374
+  doc_number: JE-9208
+  purpose: wage_payment
+  txn_sim_day: 362
+  txn_date: '2026-10-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wagepay-00374
+  sim_obligation_id: obligation-00374
+  sim_payment_id: payment-00374
+  sim_event_ids:
+  - event-01163
+- id: je-distribution-01176
+  doc_number: JE-9209
+  purpose: owner_distribution
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '99456.32'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '99456.32'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:c61d755b8be18a2e:je-distribution-01176
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01176
+- id: je-wageacc-00399
+  doc_number: JE-9210
+  purpose: wage_accrual
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1491.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1491.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Eleni Cortland.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00399
+  sim_obligation_id: obligation-00399
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01177
+- id: je-wageacc-00400
+  doc_number: JE-9211
+  purpose: wage_accrual
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1035.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1035.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Beatriz Pettigrew.
+  provenance_note: sim:c61d755b8be18a2e:je-wageacc-00400
+  sim_obligation_id: obligation-00400
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01178

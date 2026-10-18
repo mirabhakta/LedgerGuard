@@ -1,0 +1,123 @@
+- id: proj-00001
+  name: Renovation for Granite Bay Apothecary LLC
+  customer_id: cust-client-1
+  customer_name: Granite Bay Apothecary LLC
+  project_kind: renovation
+  contract_amount: '117491.55'
+  original_contract_amount: '114000.00'
+  change_orders:
+  - sim_day: 123
+    date: '2026-02-06'
+    amount: '3491.55'
+  started_sim_day: 28
+  started_date: '2025-11-03'
+  planned_finish_sim_day: 154
+  planned_finish_date: '2026-03-09'
+  reschedules: []
+  completed_sim_day: 190
+  completed_date: '2026-04-14'
+  status: completed
+  status_history:
+  - sim_day: 28
+    date: '2025-11-03'
+    status: booked
+  - sim_day: 35
+    date: '2025-11-10'
+    status: active
+  - sim_day: 190
+    date: '2026-04-14'
+    status: completed
+  provenance_note: sim:b65a67e0174642d5:proj-00001
+  sim_project_id: project-1
+  sim_event_ids:
+  - event-178
+- id: proj-00002
+  name: Renovation for Balewa Grocers Inc.
+  customer_id: cust-client-2
+  customer_name: Balewa Grocers Inc.
+  project_kind: renovation
+  contract_amount: '123755.50'
+  original_contract_amount: '123755.50'
+  change_orders: []
+  started_sim_day: 140
+  started_date: '2026-02-23'
+  planned_finish_sim_day: 273
+  planned_finish_date: '2026-07-06'
+  reschedules: []
+  completed_sim_day: 301
+  completed_date: '2026-08-03'
+  status: completed
+  status_history:
+  - sim_day: 140
+    date: '2026-02-23'
+    status: booked
+  - sim_day: 147
+    date: '2026-03-02'
+    status: active
+  - sim_day: 301
+    date: '2026-08-03'
+    status: completed
+  provenance_note: sim:b65a67e0174642d5:proj-00002
+  sim_project_id: project-2
+  sim_event_ids:
+  - event-1245
+- id: proj-00003
+  name: Renovation for Wayfarer Florals Company
+  customer_id: cust-client-3
+  customer_name: Wayfarer Florals Company
+  project_kind: renovation
+  contract_amount: '119225.39'
+  original_contract_amount: '113414.91'
+  change_orders:
+  - sim_day: 303
+    date: '2026-08-05'
+    amount: '5810.48'
+  started_sim_day: 168
+  started_date: '2026-03-23'
+  planned_finish_sim_day: 310
+  planned_finish_date: '2026-08-12'
+  reschedules: []
+  completed_sim_day: 340
+  completed_date: '2026-09-11'
+  status: completed
+  status_history:
+  - sim_day: 168
+    date: '2026-03-23'
+    status: booked
+  - sim_day: 194
+    date: '2026-04-18'
+    status: active
+  - sim_day: 340
+    date: '2026-09-11'
+    status: completed
+  provenance_note: sim:b65a67e0174642d5:proj-00003
+  sim_project_id: project-3
+  sim_event_ids:
+  - event-1529
+- id: proj-00004
+  name: Landscaping for Wayfarer Joinery & Co.
+  customer_id: cust-client-4
+  customer_name: Wayfarer Joinery & Co.
+  project_kind: landscaping
+  contract_amount: '26957.37'
+  original_contract_amount: '26957.37'
+  change_orders: []
+  started_sim_day: 280
+  started_date: '2026-07-13'
+  planned_finish_sim_day: 358
+  planned_finish_date: '2026-09-29'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: active
+  status_history:
+  - sim_day: 280
+    date: '2026-07-13'
+    status: booked
+  - sim_day: 305
+    date: '2026-08-07'
+    status: active
+  provenance_note: sim:b65a67e0174642d5:proj-00004
+  sim_project_id: project-4
+  sim_event_ids:
+  - event-2872

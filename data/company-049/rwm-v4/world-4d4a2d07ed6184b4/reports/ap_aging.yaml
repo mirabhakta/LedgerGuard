@@ -1,0 +1,105 @@
+report: Accounts Payable Aging
+company: Jointer Finish Carpentry
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-4d4a2d07ed6184b4
+buckets:
+  current: '10432.07'
+  1-30: '513.56'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '10945.63'
+rows:
+- document_id: bill-operating-00814
+  party: Westmarch Commercial Properties
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '500.00'
+- document_id: bill-utilities-00810
+  party: Pinecrest Gas & Electric
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '11.30'
+- document_id: bill-utilities-00811
+  party: Harbor Point Municipal Utilities
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '2.26'
+- document_id: bill-permit-00818
+  party: City of Bellrock
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '500.00'
+- document_id: pbill-00313
+  party: City of Bellrock
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '1000.00'
+- document_id: bill-interest-00805
+  party: Thackeray Trust Company
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '128.09'
+- document_id: bill-00573
+  party: Hearth Pinecrest Bindery
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '2072.42'
+- document_id: pbill-00324
+  party: Glenmoor Redwood Demolition
+  due_date: '2026-10-21'
+  days_past_due: 0
+  bucket: current
+  balance: '841.44'
+- document_id: pbill-00326
+  party: Glenmoor Redwood Demolition
+  due_date: '2026-10-22'
+  days_past_due: 0
+  bucket: current
+  balance: '841.45'
+- document_id: pbill-00330
+  party: Glenmoor Redwood Demolition
+  due_date: '2026-10-25'
+  days_past_due: 0
+  bucket: current
+  balance: '841.44'
+- document_id: pbill-00332
+  party: Glenmoor Redwood Demolition
+  due_date: '2026-10-28'
+  days_past_due: 0
+  bucket: current
+  balance: '841.45'
+- document_id: pbill-00334
+  party: Glenmoor Redwood Demolition
+  due_date: '2026-10-29'
+  days_past_due: 0
+  bucket: current
+  balance: '841.44'
+- document_id: pbill-00337
+  party: Glenmoor Redwood Demolition
+  due_date: '2026-10-31'
+  days_past_due: 0
+  bucket: current
+  balance: '841.45'
+- document_id: pbill-00339
+  party: Glenmoor Redwood Demolition
+  due_date: '2026-11-01'
+  days_past_due: 0
+  bucket: current
+  balance: '841.44'
+- document_id: pbill-00341
+  party: Glenmoor Redwood Demolition
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '841.45'

@@ -1,0 +1,45 @@
+report: Accounts Payable Aging
+company: Knotwood Lumber Supply
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-909cb3c25751daab
+buckets:
+  current: '43729.23'
+  1-30: '2160.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '45889.23'
+rows:
+- document_id: bill-growth-06053
+  party: Zephyr Ashford Brewing
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '2160.00'
+- document_id: bill-permit-06100
+  party: Quarry Hill Department of Revenue
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '500.00'
+- document_id: bill-interest-06008
+  party: Marchetti Trust Company
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '721.23'
+- document_id: bill-05027
+  party: Mbeki & Daughters Roasters
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '20648.88'
+- document_id: bill-income-tax-06052
+  party: Quarry Hill Department of Revenue
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '21859.12'

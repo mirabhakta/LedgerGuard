@@ -1,0 +1,33 @@
+report: Accounts Payable Aging
+company: Ashgrove Family Law
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-ad9a31cbb1931360
+buckets:
+  current: '9992.85'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '9992.85'
+rows:
+- document_id: bill-insurance-01422
+  party: Thornbury Mutual Insurance
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1500.00'
+- document_id: bill-practice-supplies-01421
+  party: Meridian Practice Supply
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '350.00'
+- document_id: bill-premises-01420
+  party: Dunmore Commercial Properties
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '8142.85'

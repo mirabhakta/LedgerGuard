@@ -1,0 +1,2222 @@
+- id: bank-000001
+  sim_day: 0
+  date: '2025-10-06'
+  amount: '47179.98'
+  direction: debit
+  running_balance_amount: '47179.98'
+  source_document_id: je-open-00001
+  memo: Owner's opening contribution
+  kind: opening_equity
+  sim_event_ids:
+  - event-00001
+- id: bank-000002
+  sim_day: 11
+  date: '2025-10-17'
+  amount: '4868.96'
+  direction: debit
+  running_balance_amount: '52048.94'
+  source_document_id: rcpt-00001
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00022
+- id: bank-000003
+  sim_day: 12
+  date: '2025-10-18'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '49584.94'
+  source_document_id: je-wagepay-00002
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00025
+- id: bank-000004
+  sim_day: 12
+  date: '2025-10-18'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '47872.94'
+  source_document_id: je-wagepay-00003
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00026
+- id: bank-000005
+  sim_day: 14
+  date: '2025-10-20'
+  amount: '4472.65'
+  direction: debit
+  running_balance_amount: '52345.59'
+  source_document_id: rcpt-00004
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00031
+- id: bank-000006
+  sim_day: 14
+  date: '2025-10-20'
+  amount: '4076.34'
+  direction: debit
+  running_balance_amount: '56421.93'
+  source_document_id: rcpt-00005
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00032
+- id: bank-000007
+  sim_day: 16
+  date: '2025-10-22'
+  amount: '5718.20'
+  direction: debit
+  running_balance_amount: '62140.13'
+  source_document_id: rcpt-00006
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00033
+- id: bank-000008
+  sim_day: 16
+  date: '2025-10-22'
+  amount: '6171.13'
+  direction: debit
+  running_balance_amount: '68311.26'
+  source_document_id: rcpt-00007
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00034
+- id: bank-000009
+  sim_day: 19
+  date: '2025-10-25'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '65847.26'
+  source_document_id: je-wagepay-00008
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00039
+- id: bank-000010
+  sim_day: 19
+  date: '2025-10-25'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '64135.26'
+  source_document_id: je-wagepay-00009
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00040
+- id: bank-000011
+  sim_day: 21
+  date: '2025-10-27'
+  amount: '6171.13'
+  direction: debit
+  running_balance_amount: '70306.39'
+  source_document_id: rcpt-00010
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00043
+- id: bank-000012
+  sim_day: 21
+  date: '2025-10-27'
+  amount: '7303.45'
+  direction: debit
+  running_balance_amount: '77609.84'
+  source_document_id: rcpt-00011
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00044
+- id: bank-000013
+  sim_day: 24
+  date: '2025-10-30'
+  amount: '4868.96'
+  direction: debit
+  running_balance_amount: '82478.80'
+  source_document_id: rcpt-00012
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00052
+- id: bank-000014
+  sim_day: 25
+  date: '2025-10-31'
+  amount: '5888.05'
+  direction: debit
+  running_balance_amount: '88366.85'
+  source_document_id: rcpt-00013
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00055
+- id: bank-000015
+  sim_day: 25
+  date: '2025-10-31'
+  amount: '6963.75'
+  direction: debit
+  running_balance_amount: '95330.60'
+  source_document_id: rcpt-00014
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00056
+- id: bank-000016
+  sim_day: 25
+  date: '2025-10-31'
+  amount: '7190.21'
+  direction: debit
+  running_balance_amount: '102520.81'
+  source_document_id: rcpt-00015
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00057
+- id: bank-000017
+  sim_day: 25
+  date: '2025-10-31'
+  amount: '6850.52'
+  direction: debit
+  running_balance_amount: '109371.33'
+  source_document_id: rcpt-00016
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00058
+- id: bank-000018
+  sim_day: 26
+  date: '2025-11-01'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '106907.33'
+  source_document_id: je-wagepay-00017
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00059
+- id: bank-000019
+  sim_day: 26
+  date: '2025-11-01'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '105195.33'
+  source_document_id: je-wagepay-00018
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00060
+- id: bank-000020
+  sim_day: 27
+  date: '2025-11-02'
+  amount: '4529.27'
+  direction: debit
+  running_balance_amount: '109724.60'
+  source_document_id: rcpt-00019
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00061
+- id: bank-000021
+  sim_day: 27
+  date: '2025-11-02'
+  amount: '6001.28'
+  direction: debit
+  running_balance_amount: '115725.88'
+  source_document_id: rcpt-00020
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00062
+- id: bank-000022
+  sim_day: 30
+  date: '2025-11-05'
+  amount: '5095.43'
+  direction: debit
+  running_balance_amount: '120821.31'
+  source_document_id: rcpt-00021
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00067
+- id: bank-000023
+  sim_day: 33
+  date: '2025-11-08'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '118357.31'
+  source_document_id: je-wagepay-00022
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00073
+- id: bank-000024
+  sim_day: 33
+  date: '2025-11-08'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '116645.31'
+  source_document_id: je-wagepay-00023
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00074
+- id: bank-000025
+  sim_day: 39
+  date: '2025-11-14'
+  amount: '-3857.14'
+  direction: credit
+  running_balance_amount: '112788.17'
+  source_document_id: bpay-00024
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00082
+- id: bank-000026
+  sim_day: 39
+  date: '2025-11-14'
+  amount: '-700.00'
+  direction: credit
+  running_balance_amount: '112088.17'
+  source_document_id: bpay-00025
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00083
+- id: bank-000027
+  sim_day: 39
+  date: '2025-11-14'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '111088.17'
+  source_document_id: bpay-00026
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00084
+- id: bank-000028
+  sim_day: 40
+  date: '2025-11-15'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '108624.17'
+  source_document_id: je-wagepay-00027
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00085
+- id: bank-000029
+  sim_day: 40
+  date: '2025-11-15'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '106912.17'
+  source_document_id: je-wagepay-00028
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00086
+- id: bank-000030
+  sim_day: 47
+  date: '2025-11-22'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '104448.17'
+  source_document_id: je-wagepay-00029
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00091
+- id: bank-000031
+  sim_day: 47
+  date: '2025-11-22'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '102736.17'
+  source_document_id: je-wagepay-00030
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00092
+- id: bank-000032
+  sim_day: 54
+  date: '2025-11-29'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '100272.17'
+  source_document_id: je-wagepay-00031
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00097
+- id: bank-000033
+  sim_day: 54
+  date: '2025-11-29'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '98560.17'
+  source_document_id: je-wagepay-00032
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00098
+- id: bank-000034
+  sim_day: 61
+  date: '2025-12-06'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '96096.17'
+  source_document_id: je-wagepay-00033
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00107
+- id: bank-000035
+  sim_day: 61
+  date: '2025-12-06'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '94384.17'
+  source_document_id: je-wagepay-00034
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00108
+- id: bank-000036
+  sim_day: 68
+  date: '2025-12-13'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '91920.17'
+  source_document_id: je-wagepay-00035
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00116
+- id: bank-000037
+  sim_day: 68
+  date: '2025-12-13'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '90208.17'
+  source_document_id: je-wagepay-00036
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00117
+- id: bank-000038
+  sim_day: 69
+  date: '2025-12-14'
+  amount: '-3857.14'
+  direction: credit
+  running_balance_amount: '86351.03'
+  source_document_id: bpay-00037
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00118
+- id: bank-000039
+  sim_day: 69
+  date: '2025-12-14'
+  amount: '-700.00'
+  direction: credit
+  running_balance_amount: '85651.03'
+  source_document_id: bpay-00038
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00119
+- id: bank-000040
+  sim_day: 69
+  date: '2025-12-14'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '84651.03'
+  source_document_id: bpay-00039
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00120
+- id: bank-000041
+  sim_day: 75
+  date: '2025-12-20'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '82187.03'
+  source_document_id: je-wagepay-00040
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00125
+- id: bank-000042
+  sim_day: 75
+  date: '2025-12-20'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '80475.03'
+  source_document_id: je-wagepay-00041
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00126
+- id: bank-000043
+  sim_day: 82
+  date: '2025-12-27'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '78011.03'
+  source_document_id: je-wagepay-00042
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00131
+- id: bank-000044
+  sim_day: 82
+  date: '2025-12-27'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '76299.03'
+  source_document_id: je-wagepay-00043
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00132
+- id: bank-000045
+  sim_day: 89
+  date: '2026-01-03'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '73835.03'
+  source_document_id: je-wagepay-00044
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00137
+- id: bank-000046
+  sim_day: 89
+  date: '2026-01-03'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '72123.03'
+  source_document_id: je-wagepay-00045
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00138
+- id: bank-000047
+  sim_day: 96
+  date: '2026-01-10'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '69659.03'
+  source_document_id: je-wagepay-00046
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00164
+- id: bank-000048
+  sim_day: 96
+  date: '2026-01-10'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '67947.03'
+  source_document_id: je-wagepay-00047
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00165
+- id: bank-000049
+  sim_day: 99
+  date: '2026-01-13'
+  amount: '-3857.14'
+  direction: credit
+  running_balance_amount: '64089.89'
+  source_document_id: bpay-00048
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00172
+- id: bank-000050
+  sim_day: 99
+  date: '2026-01-13'
+  amount: '-700.00'
+  direction: credit
+  running_balance_amount: '63389.89'
+  source_document_id: bpay-00049
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00173
+- id: bank-000051
+  sim_day: 99
+  date: '2026-01-13'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '62389.89'
+  source_document_id: bpay-00050
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00174
+- id: bank-000052
+  sim_day: 100
+  date: '2026-01-14'
+  amount: '-4071.04'
+  direction: credit
+  running_balance_amount: '58318.85'
+  source_document_id: bpay-00051
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00176
+- id: bank-000053
+  sim_day: 102
+  date: '2026-01-16'
+  amount: '5161.09'
+  direction: debit
+  running_balance_amount: '63479.94'
+  source_document_id: rcpt-00052
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00179
+- id: bank-000054
+  sim_day: 103
+  date: '2026-01-17'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '61015.94'
+  source_document_id: je-wagepay-00053
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00182
+- id: bank-000055
+  sim_day: 103
+  date: '2026-01-17'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '59303.94'
+  source_document_id: je-wagepay-00054
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00183
+- id: bank-000056
+  sim_day: 105
+  date: '2026-01-19'
+  amount: '4741.00'
+  direction: debit
+  running_balance_amount: '64044.94'
+  source_document_id: rcpt-00055
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00188
+- id: bank-000057
+  sim_day: 105
+  date: '2026-01-19'
+  amount: '4320.92'
+  direction: debit
+  running_balance_amount: '68365.86'
+  source_document_id: rcpt-00056
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00189
+- id: bank-000058
+  sim_day: 107
+  date: '2026-01-21'
+  amount: '6061.29'
+  direction: debit
+  running_balance_amount: '74427.15'
+  source_document_id: rcpt-00057
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00190
+- id: bank-000059
+  sim_day: 107
+  date: '2026-01-21'
+  amount: '6541.39'
+  direction: debit
+  running_balance_amount: '80968.54'
+  source_document_id: rcpt-00058
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00191
+- id: bank-000060
+  sim_day: 110
+  date: '2026-01-24'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '78504.54'
+  source_document_id: je-wagepay-00059
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00196
+- id: bank-000061
+  sim_day: 110
+  date: '2026-01-24'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '76792.54'
+  source_document_id: je-wagepay-00060
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00197
+- id: bank-000062
+  sim_day: 112
+  date: '2026-01-26'
+  amount: '6541.39'
+  direction: debit
+  running_balance_amount: '83333.93'
+  source_document_id: rcpt-00061
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00200
+- id: bank-000063
+  sim_day: 112
+  date: '2026-01-26'
+  amount: '7741.65'
+  direction: debit
+  running_balance_amount: '91075.58'
+  source_document_id: rcpt-00062
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00201
+- id: bank-000064
+  sim_day: 115
+  date: '2026-01-29'
+  amount: '5161.09'
+  direction: debit
+  running_balance_amount: '96236.67'
+  source_document_id: rcpt-00063
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00209
+- id: bank-000065
+  sim_day: 116
+  date: '2026-01-30'
+  amount: '6241.33'
+  direction: debit
+  running_balance_amount: '102478.00'
+  source_document_id: rcpt-00064
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00212
+- id: bank-000066
+  sim_day: 116
+  date: '2026-01-30'
+  amount: '7381.57'
+  direction: debit
+  running_balance_amount: '109859.57'
+  source_document_id: rcpt-00065
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00213
+- id: bank-000067
+  sim_day: 116
+  date: '2026-01-30'
+  amount: '7621.62'
+  direction: debit
+  running_balance_amount: '117481.19'
+  source_document_id: rcpt-00066
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00214
+- id: bank-000068
+  sim_day: 116
+  date: '2026-01-30'
+  amount: '7261.55'
+  direction: debit
+  running_balance_amount: '124742.74'
+  source_document_id: rcpt-00067
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00215
+- id: bank-000069
+  sim_day: 117
+  date: '2026-01-31'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '122278.74'
+  source_document_id: je-wagepay-00068
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00216
+- id: bank-000070
+  sim_day: 117
+  date: '2026-01-31'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '120566.74'
+  source_document_id: je-wagepay-00069
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00217
+- id: bank-000071
+  sim_day: 118
+  date: '2026-02-01'
+  amount: '4801.02'
+  direction: debit
+  running_balance_amount: '125367.76'
+  source_document_id: rcpt-00070
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00218
+- id: bank-000072
+  sim_day: 118
+  date: '2026-02-01'
+  amount: '6361.35'
+  direction: debit
+  running_balance_amount: '131729.11'
+  source_document_id: rcpt-00071
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00219
+- id: bank-000073
+  sim_day: 121
+  date: '2026-02-04'
+  amount: '5401.15'
+  direction: debit
+  running_balance_amount: '137130.26'
+  source_document_id: rcpt-00072
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00227
+- id: bank-000074
+  sim_day: 124
+  date: '2026-02-07'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '134666.26'
+  source_document_id: je-wagepay-00073
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00230
+- id: bank-000075
+  sim_day: 124
+  date: '2026-02-07'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '132954.26'
+  source_document_id: je-wagepay-00074
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00231
+- id: bank-000076
+  sim_day: 129
+  date: '2026-02-12'
+  amount: '-3857.14'
+  direction: credit
+  running_balance_amount: '129097.12'
+  source_document_id: bpay-00075
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00239
+- id: bank-000077
+  sim_day: 129
+  date: '2026-02-12'
+  amount: '-700.00'
+  direction: credit
+  running_balance_amount: '128397.12'
+  source_document_id: bpay-00076
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00240
+- id: bank-000078
+  sim_day: 129
+  date: '2026-02-12'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '127397.12'
+  source_document_id: bpay-00077
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00241
+- id: bank-000079
+  sim_day: 131
+  date: '2026-02-14'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '124933.12'
+  source_document_id: je-wagepay-00078
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00242
+- id: bank-000080
+  sim_day: 131
+  date: '2026-02-14'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '123221.12'
+  source_document_id: je-wagepay-00079
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00243
+- id: bank-000081
+  sim_day: 138
+  date: '2026-02-21'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '120757.12'
+  source_document_id: je-wagepay-00080
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00248
+- id: bank-000082
+  sim_day: 138
+  date: '2026-02-21'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '119045.12'
+  source_document_id: je-wagepay-00081
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00249
+- id: bank-000083
+  sim_day: 145
+  date: '2026-02-28'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '116581.12'
+  source_document_id: je-wagepay-00082
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00254
+- id: bank-000084
+  sim_day: 145
+  date: '2026-02-28'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '114869.12'
+  source_document_id: je-wagepay-00083
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00255
+- id: bank-000085
+  sim_day: 152
+  date: '2026-03-07'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '112405.12'
+  source_document_id: je-wagepay-00084
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00264
+- id: bank-000086
+  sim_day: 152
+  date: '2026-03-07'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '110693.12'
+  source_document_id: je-wagepay-00085
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00265
+- id: bank-000087
+  sim_day: 159
+  date: '2026-03-14'
+  amount: '-3857.14'
+  direction: credit
+  running_balance_amount: '106835.98'
+  source_document_id: bpay-00086
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00273
+- id: bank-000088
+  sim_day: 159
+  date: '2026-03-14'
+  amount: '-700.00'
+  direction: credit
+  running_balance_amount: '106135.98'
+  source_document_id: bpay-00087
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00274
+- id: bank-000089
+  sim_day: 159
+  date: '2026-03-14'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '105135.98'
+  source_document_id: bpay-00088
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00275
+- id: bank-000090
+  sim_day: 159
+  date: '2026-03-14'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '102671.98'
+  source_document_id: je-wagepay-00089
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00276
+- id: bank-000091
+  sim_day: 159
+  date: '2026-03-14'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '100959.98'
+  source_document_id: je-wagepay-00090
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00277
+- id: bank-000092
+  sim_day: 166
+  date: '2026-03-21'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '98495.98'
+  source_document_id: je-wagepay-00091
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00282
+- id: bank-000093
+  sim_day: 166
+  date: '2026-03-21'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '96783.98'
+  source_document_id: je-wagepay-00092
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00283
+- id: bank-000094
+  sim_day: 173
+  date: '2026-03-28'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '94319.98'
+  source_document_id: je-wagepay-00093
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00288
+- id: bank-000095
+  sim_day: 173
+  date: '2026-03-28'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '92607.98'
+  source_document_id: je-wagepay-00094
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00289
+- id: bank-000096
+  sim_day: 180
+  date: '2026-04-04'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '90143.98'
+  source_document_id: je-wagepay-00095
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00295
+- id: bank-000097
+  sim_day: 180
+  date: '2026-04-04'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '88431.98'
+  source_document_id: je-wagepay-00096
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00296
+- id: bank-000098
+  sim_day: 182
+  date: '2026-04-06'
+  amount: '-7531.05'
+  direction: credit
+  running_balance_amount: '80900.93'
+  source_document_id: je-distribution-00302
+  memo: Owner draw paid out
+  kind: owner_distribution
+  sim_event_ids:
+  - event-00302
+- id: bank-000099
+  sim_day: 187
+  date: '2026-04-11'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '78436.93'
+  source_document_id: je-wagepay-00097
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00325
+- id: bank-000100
+  sim_day: 187
+  date: '2026-04-11'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '76724.93'
+  source_document_id: je-wagepay-00098
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00326
+- id: bank-000101
+  sim_day: 189
+  date: '2026-04-13'
+  amount: '-3857.14'
+  direction: credit
+  running_balance_amount: '72867.79'
+  source_document_id: bpay-00099
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00330
+- id: bank-000102
+  sim_day: 189
+  date: '2026-04-13'
+  amount: '-700.00'
+  direction: credit
+  running_balance_amount: '72167.79'
+  source_document_id: bpay-00100
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00331
+- id: bank-000103
+  sim_day: 189
+  date: '2026-04-13'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '71167.79'
+  source_document_id: bpay-00101
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00332
+- id: bank-000104
+  sim_day: 191
+  date: '2026-04-15'
+  amount: '-4279.79'
+  direction: credit
+  running_balance_amount: '66888.00'
+  source_document_id: bpay-00102
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00334
+- id: bank-000105
+  sim_day: 193
+  date: '2026-04-17'
+  amount: '5161.09'
+  direction: debit
+  running_balance_amount: '72049.09'
+  source_document_id: rcpt-00103
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00337
+- id: bank-000106
+  sim_day: 194
+  date: '2026-04-18'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '69585.09'
+  source_document_id: je-wagepay-00104
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00340
+- id: bank-000107
+  sim_day: 194
+  date: '2026-04-18'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '67873.09'
+  source_document_id: je-wagepay-00105
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00341
+- id: bank-000108
+  sim_day: 196
+  date: '2026-04-20'
+  amount: '4741.00'
+  direction: debit
+  running_balance_amount: '72614.09'
+  source_document_id: rcpt-00106
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00346
+- id: bank-000109
+  sim_day: 196
+  date: '2026-04-20'
+  amount: '4320.92'
+  direction: debit
+  running_balance_amount: '76935.01'
+  source_document_id: rcpt-00107
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00347
+- id: bank-000110
+  sim_day: 198
+  date: '2026-04-22'
+  amount: '6061.29'
+  direction: debit
+  running_balance_amount: '82996.30'
+  source_document_id: rcpt-00108
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00348
+- id: bank-000111
+  sim_day: 198
+  date: '2026-04-22'
+  amount: '6541.39'
+  direction: debit
+  running_balance_amount: '89537.69'
+  source_document_id: rcpt-00109
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00349
+- id: bank-000112
+  sim_day: 201
+  date: '2026-04-25'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '87073.69'
+  source_document_id: je-wagepay-00110
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00354
+- id: bank-000113
+  sim_day: 201
+  date: '2026-04-25'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '85361.69'
+  source_document_id: je-wagepay-00111
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00355
+- id: bank-000114
+  sim_day: 203
+  date: '2026-04-27'
+  amount: '6541.39'
+  direction: debit
+  running_balance_amount: '91903.08'
+  source_document_id: rcpt-00112
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00358
+- id: bank-000115
+  sim_day: 203
+  date: '2026-04-27'
+  amount: '7741.65'
+  direction: debit
+  running_balance_amount: '99644.73'
+  source_document_id: rcpt-00113
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00359
+- id: bank-000116
+  sim_day: 206
+  date: '2026-04-30'
+  amount: '5161.09'
+  direction: debit
+  running_balance_amount: '104805.82'
+  source_document_id: rcpt-00114
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00367
+- id: bank-000117
+  sim_day: 207
+  date: '2026-05-01'
+  amount: '6241.33'
+  direction: debit
+  running_balance_amount: '111047.15'
+  source_document_id: rcpt-00115
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00370
+- id: bank-000118
+  sim_day: 207
+  date: '2026-05-01'
+  amount: '7381.57'
+  direction: debit
+  running_balance_amount: '118428.72'
+  source_document_id: rcpt-00116
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00371
+- id: bank-000119
+  sim_day: 207
+  date: '2026-05-01'
+  amount: '7621.62'
+  direction: debit
+  running_balance_amount: '126050.34'
+  source_document_id: rcpt-00117
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00372
+- id: bank-000120
+  sim_day: 207
+  date: '2026-05-01'
+  amount: '7261.55'
+  direction: debit
+  running_balance_amount: '133311.89'
+  source_document_id: rcpt-00118
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00373
+- id: bank-000121
+  sim_day: 208
+  date: '2026-05-02'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '130847.89'
+  source_document_id: je-wagepay-00119
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00374
+- id: bank-000122
+  sim_day: 208
+  date: '2026-05-02'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '129135.89'
+  source_document_id: je-wagepay-00120
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00375
+- id: bank-000123
+  sim_day: 209
+  date: '2026-05-03'
+  amount: '4801.02'
+  direction: debit
+  running_balance_amount: '133936.91'
+  source_document_id: rcpt-00121
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00376
+- id: bank-000124
+  sim_day: 209
+  date: '2026-05-03'
+  amount: '6361.35'
+  direction: debit
+  running_balance_amount: '140298.26'
+  source_document_id: rcpt-00122
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00377
+- id: bank-000125
+  sim_day: 212
+  date: '2026-05-06'
+  amount: '5401.15'
+  direction: debit
+  running_balance_amount: '145699.41'
+  source_document_id: rcpt-00123
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00385
+- id: bank-000126
+  sim_day: 215
+  date: '2026-05-09'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '143235.41'
+  source_document_id: je-wagepay-00124
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00388
+- id: bank-000127
+  sim_day: 215
+  date: '2026-05-09'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '141523.41'
+  source_document_id: je-wagepay-00125
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00389
+- id: bank-000128
+  sim_day: 219
+  date: '2026-05-13'
+  amount: '-3857.14'
+  direction: credit
+  running_balance_amount: '137666.27'
+  source_document_id: bpay-00126
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00395
+- id: bank-000129
+  sim_day: 219
+  date: '2026-05-13'
+  amount: '-700.00'
+  direction: credit
+  running_balance_amount: '136966.27'
+  source_document_id: bpay-00127
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00396
+- id: bank-000130
+  sim_day: 219
+  date: '2026-05-13'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '135966.27'
+  source_document_id: bpay-00128
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00397
+- id: bank-000131
+  sim_day: 222
+  date: '2026-05-16'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '133502.27'
+  source_document_id: je-wagepay-00129
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00400
+- id: bank-000132
+  sim_day: 222
+  date: '2026-05-16'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '131790.27'
+  source_document_id: je-wagepay-00130
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00401
+- id: bank-000133
+  sim_day: 229
+  date: '2026-05-23'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '129326.27'
+  source_document_id: je-wagepay-00131
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00406
+- id: bank-000134
+  sim_day: 229
+  date: '2026-05-23'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '127614.27'
+  source_document_id: je-wagepay-00132
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00407
+- id: bank-000135
+  sim_day: 236
+  date: '2026-05-30'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '125150.27'
+  source_document_id: je-wagepay-00133
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00412
+- id: bank-000136
+  sim_day: 236
+  date: '2026-05-30'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '123438.27'
+  source_document_id: je-wagepay-00134
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00413
+- id: bank-000137
+  sim_day: 243
+  date: '2026-06-06'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '120974.27'
+  source_document_id: je-wagepay-00135
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00422
+- id: bank-000138
+  sim_day: 243
+  date: '2026-06-06'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '119262.27'
+  source_document_id: je-wagepay-00136
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00423
+- id: bank-000139
+  sim_day: 249
+  date: '2026-06-12'
+  amount: '-3857.14'
+  direction: credit
+  running_balance_amount: '115405.13'
+  source_document_id: bpay-00137
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00431
+- id: bank-000140
+  sim_day: 249
+  date: '2026-06-12'
+  amount: '-700.00'
+  direction: credit
+  running_balance_amount: '114705.13'
+  source_document_id: bpay-00138
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00432
+- id: bank-000141
+  sim_day: 249
+  date: '2026-06-12'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '113705.13'
+  source_document_id: bpay-00139
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00433
+- id: bank-000142
+  sim_day: 250
+  date: '2026-06-13'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '111241.13'
+  source_document_id: je-wagepay-00140
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00434
+- id: bank-000143
+  sim_day: 250
+  date: '2026-06-13'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '109529.13'
+  source_document_id: je-wagepay-00141
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00435
+- id: bank-000144
+  sim_day: 257
+  date: '2026-06-20'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '107065.13'
+  source_document_id: je-wagepay-00142
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00440
+- id: bank-000145
+  sim_day: 257
+  date: '2026-06-20'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '105353.13'
+  source_document_id: je-wagepay-00143
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00441
+- id: bank-000146
+  sim_day: 264
+  date: '2026-06-27'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '102889.13'
+  source_document_id: je-wagepay-00144
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00446
+- id: bank-000147
+  sim_day: 264
+  date: '2026-06-27'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '101177.13'
+  source_document_id: je-wagepay-00145
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00447
+- id: bank-000148
+  sim_day: 271
+  date: '2026-07-04'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '98713.13'
+  source_document_id: je-wagepay-00146
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00456
+- id: bank-000149
+  sim_day: 271
+  date: '2026-07-04'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '97001.13'
+  source_document_id: je-wagepay-00147
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00457
+- id: bank-000150
+  sim_day: 273
+  date: '2026-07-06'
+  amount: '-16100.20'
+  direction: credit
+  running_balance_amount: '80900.93'
+  source_document_id: je-distribution-00460
+  memo: Owner draw paid out
+  kind: owner_distribution
+  sim_event_ids:
+  - event-00460
+- id: bank-000151
+  sim_day: 278
+  date: '2026-07-11'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '78436.93'
+  source_document_id: je-wagepay-00148
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00483
+- id: bank-000152
+  sim_day: 278
+  date: '2026-07-11'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '76724.93'
+  source_document_id: je-wagepay-00149
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00484
+- id: bank-000153
+  sim_day: 279
+  date: '2026-07-12'
+  amount: '-3857.14'
+  direction: credit
+  running_balance_amount: '72867.79'
+  source_document_id: bpay-00150
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00485
+- id: bank-000154
+  sim_day: 279
+  date: '2026-07-12'
+  amount: '-700.00'
+  direction: credit
+  running_balance_amount: '72167.79'
+  source_document_id: bpay-00151
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00486
+- id: bank-000155
+  sim_day: 279
+  date: '2026-07-12'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '71167.79'
+  source_document_id: bpay-00152
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00487
+- id: bank-000156
+  sim_day: 282
+  date: '2026-07-15'
+  amount: '-4279.79'
+  direction: credit
+  running_balance_amount: '66888.00'
+  source_document_id: bpay-00153
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00492
+- id: bank-000157
+  sim_day: 284
+  date: '2026-07-17'
+  amount: '5501.92'
+  direction: debit
+  running_balance_amount: '72389.92'
+  source_document_id: rcpt-00154
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00495
+- id: bank-000158
+  sim_day: 285
+  date: '2026-07-18'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '69925.92'
+  source_document_id: je-wagepay-00155
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00498
+- id: bank-000159
+  sim_day: 285
+  date: '2026-07-18'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '68213.92'
+  source_document_id: je-wagepay-00156
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00499
+- id: bank-000160
+  sim_day: 287
+  date: '2026-07-20'
+  amount: '5054.09'
+  direction: debit
+  running_balance_amount: '73268.01'
+  source_document_id: rcpt-00157
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00504
+- id: bank-000161
+  sim_day: 287
+  date: '2026-07-20'
+  amount: '4606.26'
+  direction: debit
+  running_balance_amount: '77874.27'
+  source_document_id: rcpt-00158
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00505
+- id: bank-000162
+  sim_day: 289
+  date: '2026-07-22'
+  amount: '6461.56'
+  direction: debit
+  running_balance_amount: '84335.83'
+  source_document_id: rcpt-00159
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00506
+- id: bank-000163
+  sim_day: 289
+  date: '2026-07-22'
+  amount: '6973.37'
+  direction: debit
+  running_balance_amount: '91309.20'
+  source_document_id: rcpt-00160
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00507
+- id: bank-000164
+  sim_day: 292
+  date: '2026-07-25'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '88845.20'
+  source_document_id: je-wagepay-00161
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00512
+- id: bank-000165
+  sim_day: 292
+  date: '2026-07-25'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '87133.20'
+  source_document_id: je-wagepay-00162
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00513
+- id: bank-000166
+  sim_day: 294
+  date: '2026-07-27'
+  amount: '6973.37'
+  direction: debit
+  running_balance_amount: '94106.57'
+  source_document_id: rcpt-00163
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00516
+- id: bank-000167
+  sim_day: 294
+  date: '2026-07-27'
+  amount: '8252.89'
+  direction: debit
+  running_balance_amount: '102359.46'
+  source_document_id: rcpt-00164
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00517
+- id: bank-000168
+  sim_day: 297
+  date: '2026-07-30'
+  amount: '5501.92'
+  direction: debit
+  running_balance_amount: '107861.38'
+  source_document_id: rcpt-00165
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00525
+- id: bank-000169
+  sim_day: 298
+  date: '2026-07-31'
+  amount: '6653.49'
+  direction: debit
+  running_balance_amount: '114514.87'
+  source_document_id: rcpt-00166
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00528
+- id: bank-000170
+  sim_day: 298
+  date: '2026-07-31'
+  amount: '7869.03'
+  direction: debit
+  running_balance_amount: '122383.90'
+  source_document_id: rcpt-00167
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00529
+- id: bank-000171
+  sim_day: 298
+  date: '2026-07-31'
+  amount: '8124.93'
+  direction: debit
+  running_balance_amount: '130508.83'
+  source_document_id: rcpt-00168
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00530
+- id: bank-000172
+  sim_day: 298
+  date: '2026-07-31'
+  amount: '7741.08'
+  direction: debit
+  running_balance_amount: '138249.91'
+  source_document_id: rcpt-00169
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00531
+- id: bank-000173
+  sim_day: 299
+  date: '2026-08-01'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '135785.91'
+  source_document_id: je-wagepay-00170
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00532
+- id: bank-000174
+  sim_day: 299
+  date: '2026-08-01'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '134073.91'
+  source_document_id: je-wagepay-00171
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00533
+- id: bank-000175
+  sim_day: 300
+  date: '2026-08-02'
+  amount: '5118.07'
+  direction: debit
+  running_balance_amount: '139191.98'
+  source_document_id: rcpt-00172
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00535
+- id: bank-000176
+  sim_day: 300
+  date: '2026-08-02'
+  amount: '6781.44'
+  direction: debit
+  running_balance_amount: '145973.42'
+  source_document_id: rcpt-00173
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00536
+- id: bank-000177
+  sim_day: 303
+  date: '2026-08-05'
+  amount: '5757.83'
+  direction: debit
+  running_balance_amount: '151731.25'
+  source_document_id: rcpt-00174
+  memo: Customer payment received
+  kind: customer_payment
+  sim_event_ids:
+  - event-00543
+- id: bank-000178
+  sim_day: 306
+  date: '2026-08-08'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '149267.25'
+  source_document_id: je-wagepay-00175
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00546
+- id: bank-000179
+  sim_day: 306
+  date: '2026-08-08'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '147555.25'
+  source_document_id: je-wagepay-00176
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00547
+- id: bank-000180
+  sim_day: 309
+  date: '2026-08-11'
+  amount: '-3857.14'
+  direction: credit
+  running_balance_amount: '143698.11'
+  source_document_id: bpay-00177
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00553
+- id: bank-000181
+  sim_day: 309
+  date: '2026-08-11'
+  amount: '-700.00'
+  direction: credit
+  running_balance_amount: '142998.11'
+  source_document_id: bpay-00178
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00554
+- id: bank-000182
+  sim_day: 309
+  date: '2026-08-11'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '141998.11'
+  source_document_id: bpay-00179
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00555
+- id: bank-000183
+  sim_day: 313
+  date: '2026-08-15'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '139534.11'
+  source_document_id: je-wagepay-00180
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00558
+- id: bank-000184
+  sim_day: 313
+  date: '2026-08-15'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '137822.11'
+  source_document_id: je-wagepay-00181
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00559
+- id: bank-000185
+  sim_day: 320
+  date: '2026-08-22'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '135358.11'
+  source_document_id: je-wagepay-00182
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00564
+- id: bank-000186
+  sim_day: 320
+  date: '2026-08-22'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '133646.11'
+  source_document_id: je-wagepay-00183
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00565
+- id: bank-000187
+  sim_day: 327
+  date: '2026-08-29'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '131182.11'
+  source_document_id: je-wagepay-00184
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00570
+- id: bank-000188
+  sim_day: 327
+  date: '2026-08-29'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '129470.11'
+  source_document_id: je-wagepay-00185
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00571
+- id: bank-000189
+  sim_day: 334
+  date: '2026-09-05'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '127006.11'
+  source_document_id: je-wagepay-00186
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00580
+- id: bank-000190
+  sim_day: 334
+  date: '2026-09-05'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '125294.11'
+  source_document_id: je-wagepay-00187
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00581
+- id: bank-000191
+  sim_day: 339
+  date: '2026-09-10'
+  amount: '-3857.14'
+  direction: credit
+  running_balance_amount: '121436.97'
+  source_document_id: bpay-00188
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00589
+- id: bank-000192
+  sim_day: 339
+  date: '2026-09-10'
+  amount: '-700.00'
+  direction: credit
+  running_balance_amount: '120736.97'
+  source_document_id: bpay-00189
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00590
+- id: bank-000193
+  sim_day: 339
+  date: '2026-09-10'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '119736.97'
+  source_document_id: bpay-00190
+  memo: Vendor bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-00591
+- id: bank-000194
+  sim_day: 341
+  date: '2026-09-12'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '117272.97'
+  source_document_id: je-wagepay-00191
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00592
+- id: bank-000195
+  sim_day: 341
+  date: '2026-09-12'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '115560.97'
+  source_document_id: je-wagepay-00192
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00593
+- id: bank-000196
+  sim_day: 348
+  date: '2026-09-19'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '113096.97'
+  source_document_id: je-wagepay-00193
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00598
+- id: bank-000197
+  sim_day: 348
+  date: '2026-09-19'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '111384.97'
+  source_document_id: je-wagepay-00194
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00599
+- id: bank-000198
+  sim_day: 355
+  date: '2026-09-26'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '108920.97'
+  source_document_id: je-wagepay-00195
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00604
+- id: bank-000199
+  sim_day: 355
+  date: '2026-09-26'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '107208.97'
+  source_document_id: je-wagepay-00196
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00605
+- id: bank-000200
+  sim_day: 362
+  date: '2026-10-03'
+  amount: '-2464.00'
+  direction: credit
+  running_balance_amount: '104744.97'
+  source_document_id: je-wagepay-00197
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00614
+- id: bank-000201
+  sim_day: 362
+  date: '2026-10-03'
+  amount: '-1712.00'
+  direction: credit
+  running_balance_amount: '103032.97'
+  source_document_id: je-wagepay-00198
+  memo: Wages paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-00615
+- id: bank-000202
+  sim_day: 364
+  date: '2026-10-05'
+  amount: '-20865.35'
+  direction: credit
+  running_balance_amount: '82167.62'
+  source_document_id: je-distribution-00618
+  memo: Owner draw paid out
+  kind: owner_distribution
+  sim_event_ids:
+  - event-00618

@@ -1,0 +1,63 @@
+report: Accounts Payable Aging
+company: Harvest Line Food Distributors
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-a478999e679e26e5
+buckets:
+  current: '670076.44'
+  1-30: '9716.53'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '679792.97'
+rows:
+- document_id: bill-utilities-05711
+  party: Oakhurst Power & Light
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '145.85'
+- document_id: bill-utilities-05712
+  party: Clearwater Municipal Utilities
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '29.17'
+- document_id: bill-variable-services-05713
+  party: Westmarch Opal Creamery Partners
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '9541.51'
+- document_id: bill-permit-05747
+  party: Havenwood Department of Revenue
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '500.00'
+- document_id: bill-interest-05650
+  party: Driftwood Community Bank
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '721.24'
+- document_id: bill-05287
+  party: Pinecrest Pioneer Quilting Partners
+  due_date: '2026-10-14'
+  days_past_due: 0
+  bucket: current
+  balance: '625213.40'
+- document_id: bill-05268
+  party: Pinecrest Pioneer Quilting Partners
+  due_date: '2026-10-18'
+  days_past_due: 0
+  bucket: current
+  balance: '21350.00'
+- document_id: bill-income-tax-05704
+  party: Havenwood Department of Revenue
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '22291.80'

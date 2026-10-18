@@ -1,0 +1,435 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Hassan Fairbairn
+  txn_sim_day: 67
+  txn_date: '2025-12-12'
+  due_sim_day: 97
+  due_date: '2026-01-11'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Event planning
+    description: Event planning, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '86407.67'
+    amount: '86407.67'
+  total_amount: '86407.67'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '77766.91'
+  retainage_amount: '8640.76'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Wedding catering contract for Hassan Fairbairn.
+  provenance_note: sim:b72ca18b3b159741:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-562
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-2
+  customer_name: Halle Fairbairn
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  due_sim_day: 170
+  due_date: '2026-03-25'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Venue coordination
+    description: Venue coordination, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '17489.32'
+    amount: '17489.32'
+  total_amount: '17489.32'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '15740.39'
+  retainage_amount: '1748.93'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Corporate catering program for Halle Fairbairn.
+  provenance_note: sim:b72ca18b3b159741:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-1355
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-1
+  customer_name: Hassan Fairbairn
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  due_sim_day: 184
+  due_date: '2026-04-08'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Menu development
+    description: Menu development, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '194417.25'
+    amount: '194417.25'
+  total_amount: '194417.25'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '12961.14'
+  retainage_amount: '19441.72'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Wedding catering contract for Hassan Fairbairn.
+  provenance_note: sim:b72ca18b3b159741:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-1547
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-2
+  customer_name: Halle Fairbairn
+  txn_sim_day: 172
+  txn_date: '2026-03-27'
+  due_sim_day: 202
+  due_date: '2026-04-26'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Menu development
+    description: Menu development, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '30696.59'
+    amount: '30696.59'
+  total_amount: '30696.59'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '1311.70'
+  retainage_amount: '3069.65'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Corporate catering program for Halle Fairbairn.
+  provenance_note: sim:b72ca18b3b159741:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-1820
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-1
+  customer_name: Hassan Fairbairn
+  txn_sim_day: 198
+  txn_date: '2026-04-22'
+  due_sim_day: 228
+  due_date: '2026-05-22'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Food production
+    description: Food production, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '86407.67'
+    amount: '86407.67'
+  total_amount: '86407.67'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '8640.76'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Wedding catering contract for Hassan Fairbairn.
+  provenance_note: sim:b72ca18b3b159741:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-2252
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-2
+  customer_name: Halle Fairbairn
+  txn_sim_day: 198
+  txn_date: '2026-04-22'
+  due_sim_day: 228
+  due_date: '2026-05-22'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Food production
+    description: Food production, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '17489.32'
+    amount: '17489.32'
+  total_amount: '17489.32'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1748.93'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Corporate catering program for Halle Fairbairn.
+  provenance_note: sim:b72ca18b3b159741:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-2256
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-3
+  customer_name: Dmitri Shaughnessy
+  txn_sim_day: 199
+  txn_date: '2026-04-23'
+  due_sim_day: 229
+  due_date: '2026-05-23'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Event planning
+    description: Event planning, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '90489.90'
+    amount: '90489.90'
+  total_amount: '90489.90'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '81440.91'
+  retainage_amount: '9048.99'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Wedding catering contract for Dmitri Shaughnessy.
+  provenance_note: sim:b72ca18b3b159741:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-2280
+- id: minv-00008
+  doc_number: INV-1008
+  customer_id: cust-client-2
+  customer_name: Halle Fairbairn
+  txn_sim_day: 221
+  txn_date: '2026-05-15'
+  due_sim_day: 251
+  due_date: '2026-06-14'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Equipment and service
+    description: Equipment and service, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '20502.28'
+    amount: '20502.28'
+  total_amount: '20502.28'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2050.22'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Corporate catering program for Halle Fairbairn.
+  provenance_note: sim:b72ca18b3b159741:minv-00008
+  sim_order_id: null
+  sim_obligation_id: invoice-8
+  sim_event_ids:
+  - event-2624
+- id: minv-00009
+  doc_number: INV-1009
+  customer_id: cust-client-1
+  customer_name: Hassan Fairbairn
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  due_sim_day: 275
+  due_date: '2026-07-08'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Equipment and service
+    description: Equipment and service, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '86407.67'
+    amount: '86407.67'
+  total_amount: '86407.67'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '8640.76'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Wedding catering contract for Hassan Fairbairn.
+  provenance_note: sim:b72ca18b3b159741:minv-00009
+  sim_order_id: null
+  sim_obligation_id: invoice-9
+  sim_event_ids:
+  - event-2991
+- id: minv-00010
+  doc_number: INV-1010
+  customer_id: cust-client-2
+  customer_name: Halle Fairbairn
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  due_sim_day: 289
+  due_date: '2026-07-22'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Plating and presentation
+    description: Plating and presentation, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '34978.68'
+    amount: '34978.68'
+  total_amount: '34978.68'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3497.86'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Corporate catering program for Halle Fairbairn.
+  provenance_note: sim:b72ca18b3b159741:minv-00010
+  sim_order_id: null
+  sim_obligation_id: invoice-10
+  sim_event_ids:
+  - event-3224
+- id: minv-00011
+  doc_number: INV-1011
+  customer_id: cust-client-3
+  customer_name: Dmitri Shaughnessy
+  txn_sim_day: 291
+  txn_date: '2026-07-24'
+  due_sim_day: 321
+  due_date: '2026-08-23'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Menu development
+    description: Menu development, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '203602.29'
+    amount: '203602.29'
+  total_amount: '203602.29'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '13573.49'
+  retainage_amount: '20360.22'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Wedding catering contract for Dmitri Shaughnessy.
+  provenance_note: sim:b72ca18b3b159741:minv-00011
+  sim_order_id: null
+  sim_obligation_id: invoice-11
+  sim_event_ids:
+  - event-3775
+- id: minv-00012
+  doc_number: INV-1012
+  customer_id: cust-client-4
+  customer_name: Emeka Lindholm
+  txn_sim_day: 295
+  txn_date: '2026-07-28'
+  due_sim_day: 325
+  due_date: '2026-08-27'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Event planning
+    description: Event planning, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '66864.80'
+    amount: '66864.80'
+  total_amount: '66864.80'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '60178.32'
+  retainage_amount: '6686.48'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Wedding catering contract for Emeka Lindholm.
+  provenance_note: sim:b72ca18b3b159741:minv-00012
+  sim_order_id: null
+  sim_obligation_id: invoice-12
+  sim_event_ids:
+  - event-3829
+- id: minv-00013
+  doc_number: INV-1013
+  customer_id: cust-client-1
+  customer_name: Hassan Fairbairn
+  txn_sim_day: 316
+  txn_date: '2026-08-18'
+  due_sim_day: 346
+  due_date: '2026-09-17'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Plating and presentation
+    description: Plating and presentation, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '151213.43'
+    amount: '151213.43'
+  total_amount: '151213.43'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '15121.34'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Wedding catering contract for Hassan Fairbairn.
+  provenance_note: sim:b72ca18b3b159741:minv-00013
+  sim_order_id: null
+  sim_obligation_id: invoice-13
+  sim_event_ids:
+  - event-4153
+- id: minv-00014
+  doc_number: INV-1014
+  customer_id: cust-client-3
+  customer_name: Dmitri Shaughnessy
+  txn_sim_day: 339
+  txn_date: '2026-09-10'
+  due_sim_day: 369
+  due_date: '2026-10-10'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Food production
+    description: Food production, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '90489.90'
+    amount: '90489.90'
+  total_amount: '90489.90'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '9048.99'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Wedding catering contract for Dmitri Shaughnessy.
+  provenance_note: sim:b72ca18b3b159741:minv-00014
+  sim_order_id: null
+  sim_obligation_id: invoice-14
+  sim_event_ids:
+  - event-4540
+- id: minv-00015
+  doc_number: INV-1015
+  customer_id: cust-client-5
+  customer_name: Eleni Duvall
+  txn_sim_day: 345
+  txn_date: '2026-09-16'
+  due_sim_day: 375
+  due_date: '2026-10-16'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Venue coordination
+    description: Venue coordination, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '16650.73'
+    amount: '16650.73'
+  total_amount: '16650.73'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '14985.66'
+  retainage_amount: '1665.07'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Corporate catering program for Eleni Duvall.
+  provenance_note: sim:b72ca18b3b159741:minv-00015
+  sim_order_id: null
+  sim_obligation_id: invoice-15
+  sim_event_ids:
+  - event-4638

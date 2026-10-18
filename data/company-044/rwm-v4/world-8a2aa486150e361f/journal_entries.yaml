@@ -1,0 +1,6356 @@
+- id: je-open-00001
+  doc_number: JE-9001
+  purpose: opening_equity
+  txn_sim_day: 0
+  txn_date: '2025-10-06'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Opening cash.
+    debit_amount: '250000.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-opening-equity
+    account_name: Opening Balance Equity
+    description: Owner contribution.
+    debit_amount: '0.00'
+    credit_amount: '250000.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Owner's opening cash contribution.
+  provenance_note: sim:8a2aa486150e361f:je-open-00001
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1
+- id: je-deposit-00006
+  doc_number: JE-9002
+  purpose: deposit_receipt
+  txn_sim_day: 2
+  txn_date: '2025-10-08'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Deposit banked
+    debit_amount: '16200.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-customer-deposits
+    account_name: Customer Deposits
+    description: Held until the work is earned
+    debit_amount: '0.00'
+    credit_amount: '16200.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00001
+  memo: Client deposit received before the work it pays for is earned.
+  provenance_note: sim:8a2aa486150e361f:je-deposit-00006
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-6
+- id: je-payroll-00002
+  doc_number: JE-9003
+  purpose: wage_accrual
+  txn_sim_day: 7
+  txn_date: '2025-10-13'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00002
+  sim_obligation_id: bill-2
+  sim_payment_id: null
+  sim_event_ids:
+  - event-14
+- id: je-materials-00026
+  doc_number: JE-9004
+  purpose: wip_capitalization
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: Gathered against the job
+    debit_amount: '4652.30'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Taken out of stock
+    debit_amount: '0.00'
+    credit_amount: '4652.30'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00001
+  memo: Materials consumed on the job.
+  provenance_note: sim:8a2aa486150e361f:je-materials-00026
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-26
+- id: je-payroll-00005
+  doc_number: JE-9005
+  purpose: wage_accrual
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00005
+  sim_obligation_id: bill-5
+  sim_payment_id: null
+  sim_event_ids:
+  - event-24
+- id: je-payroll-00012
+  doc_number: JE-9006
+  purpose: wage_accrual
+  txn_sim_day: 21
+  txn_date: '2025-10-27'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00012
+  sim_obligation_id: bill-12
+  sim_payment_id: null
+  sim_event_ids:
+  - event-44
+- id: je-release-00057
+  doc_number: JE-9007
+  purpose: wip_release
+  txn_sim_day: 24
+  txn_date: '2025-10-30'
+  lines:
+  - line_num: 1
+    account_id: acct-cogs
+    account_name: Cost of Goods Sold
+    description: Cost of the work accepted
+    debit_amount: '11909.89'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: No longer work in progress
+    debit_amount: '0.00'
+    credit_amount: '11909.89'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00001
+  memo: Cost of the accepted milestone, released against its revenue.
+  provenance_note: sim:8a2aa486150e361f:je-release-00057
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-57
+- id: je-payroll-00018
+  doc_number: JE-9008
+  purpose: wage_accrual
+  txn_sim_day: 28
+  txn_date: '2025-11-03'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00018
+  sim_obligation_id: bill-18
+  sim_payment_id: null
+  sim_event_ids:
+  - event-64
+- id: je-deposit-00073
+  doc_number: JE-9009
+  purpose: deposit_receipt
+  txn_sim_day: 30
+  txn_date: '2025-11-05'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Deposit banked
+    debit_amount: '78000.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-customer-deposits
+    account_name: Customer Deposits
+    description: Held until the work is earned
+    debit_amount: '0.00'
+    credit_amount: '78000.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00002
+  memo: Client deposit received before the work it pays for is earned.
+  provenance_note: sim:8a2aa486150e361f:je-deposit-00073
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-73
+- id: je-payroll-00023
+  doc_number: JE-9010
+  purpose: wage_accrual
+  txn_sim_day: 35
+  txn_date: '2025-11-10'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00023
+  sim_obligation_id: bill-23
+  sim_payment_id: null
+  sim_event_ids:
+  - event-82
+- id: je-materials-00089
+  doc_number: JE-9011
+  purpose: wip_capitalization
+  txn_sim_day: 37
+  txn_date: '2025-11-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: Gathered against the job
+    debit_amount: '6978.46'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Taken out of stock
+    debit_amount: '0.00'
+    credit_amount: '6978.46'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00001
+  memo: Materials consumed on the job.
+  provenance_note: sim:8a2aa486150e361f:je-materials-00089
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-89
+- id: je-payroll-paid-00086
+  doc_number: JE-9012
+  purpose: wage_payment
+  txn_sim_day: 37
+  txn_date: '2025-11-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00086
+  sim_obligation_id: bill-2
+  sim_payment_id: null
+  sim_event_ids:
+  - event-86
+- id: je-materials-00096
+  doc_number: JE-9013
+  purpose: wip_capitalization
+  txn_sim_day: 38
+  txn_date: '2025-11-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: Gathered against the job
+    debit_amount: '20800.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Taken out of stock
+    debit_amount: '0.00'
+    credit_amount: '20800.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00002
+  memo: Materials consumed on the job.
+  provenance_note: sim:8a2aa486150e361f:je-materials-00096
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-96
+- id: je-payroll-00032
+  doc_number: JE-9014
+  purpose: wage_accrual
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00032
+  sim_obligation_id: bill-32
+  sim_payment_id: null
+  sim_event_ids:
+  - event-108
+- id: je-payroll-paid-00120
+  doc_number: JE-9015
+  purpose: wage_payment
+  txn_sim_day: 44
+  txn_date: '2025-11-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00120
+  sim_obligation_id: bill-5
+  sim_payment_id: null
+  sim_event_ids:
+  - event-120
+- id: je-payroll-00044
+  doc_number: JE-9016
+  purpose: wage_accrual
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00044
+  sim_obligation_id: bill-44
+  sim_payment_id: null
+  sim_event_ids:
+  - event-144
+- id: je-payroll-paid-00156
+  doc_number: JE-9017
+  purpose: wage_payment
+  txn_sim_day: 51
+  txn_date: '2025-11-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00156
+  sim_obligation_id: bill-12
+  sim_payment_id: null
+  sim_event_ids:
+  - event-156
+- id: je-payroll-00055
+  doc_number: JE-9018
+  purpose: wage_accrual
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00055
+  sim_obligation_id: bill-55
+  sim_payment_id: null
+  sim_event_ids:
+  - event-178
+- id: je-release-00184
+  doc_number: JE-9019
+  purpose: wip_release
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  lines:
+  - line_num: 1
+    account_id: acct-cogs
+    account_name: Cost of Goods Sold
+    description: Cost of the work accepted
+    debit_amount: '18492.91'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: No longer work in progress
+    debit_amount: '0.00'
+    credit_amount: '18492.91'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00001
+  memo: Cost of the accepted milestone, released against its revenue.
+  provenance_note: sim:8a2aa486150e361f:je-release-00184
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-184
+- id: je-payroll-paid-00192
+  doc_number: JE-9020
+  purpose: wage_payment
+  txn_sim_day: 58
+  txn_date: '2025-12-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00192
+  sim_obligation_id: bill-18
+  sim_payment_id: null
+  sim_event_ids:
+  - event-192
+- id: je-payroll-00063
+  doc_number: JE-9021
+  purpose: wage_accrual
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00063
+  sim_obligation_id: bill-63
+  sim_payment_id: null
+  sim_event_ids:
+  - event-209
+- id: je-payroll-paid-00217
+  doc_number: JE-9022
+  purpose: wage_payment
+  txn_sim_day: 65
+  txn_date: '2025-12-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00217
+  sim_obligation_id: bill-23
+  sim_payment_id: null
+  sim_event_ids:
+  - event-217
+- id: je-materials-00239
+  doc_number: JE-9023
+  purpose: wip_capitalization
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: Gathered against the job
+    debit_amount: '4652.30'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Taken out of stock
+    debit_amount: '0.00'
+    credit_amount: '4652.30'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00001
+  memo: Materials consumed on the job.
+  provenance_note: sim:8a2aa486150e361f:je-materials-00239
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-239
+- id: je-payroll-00070
+  doc_number: JE-9024
+  purpose: wage_accrual
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00070
+  sim_obligation_id: bill-70
+  sim_payment_id: null
+  sim_event_ids:
+  - event-237
+- id: je-release-00244
+  doc_number: JE-9025
+  purpose: wip_release
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  lines:
+  - line_num: 1
+    account_id: acct-cogs
+    account_name: Cost of Goods Sold
+    description: Cost of the work accepted
+    debit_amount: '54808.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: No longer work in progress
+    debit_amount: '0.00'
+    credit_amount: '54808.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00002
+  memo: Cost of the accepted milestone, released against its revenue.
+  provenance_note: sim:8a2aa486150e361f:je-release-00244
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-244
+- id: je-payroll-paid-00251
+  doc_number: JE-9026
+  purpose: wage_payment
+  txn_sim_day: 72
+  txn_date: '2025-12-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00251
+  sim_obligation_id: bill-32
+  sim_payment_id: null
+  sim_event_ids:
+  - event-251
+- id: je-payroll-00078
+  doc_number: JE-9027
+  purpose: wage_accrual
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00078
+  sim_obligation_id: bill-78
+  sim_payment_id: null
+  sim_event_ids:
+  - event-274
+- id: je-materials-00282
+  doc_number: JE-9028
+  purpose: wip_capitalization
+  txn_sim_day: 78
+  txn_date: '2025-12-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: Gathered against the job
+    debit_amount: '46800.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Taken out of stock
+    debit_amount: '0.00'
+    credit_amount: '46800.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00002
+  memo: Materials consumed on the job.
+  provenance_note: sim:8a2aa486150e361f:je-materials-00282
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-282
+- id: je-payroll-paid-00286
+  doc_number: JE-9029
+  purpose: wage_payment
+  txn_sim_day: 79
+  txn_date: '2025-12-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00286
+  sim_obligation_id: bill-44
+  sim_payment_id: null
+  sim_event_ids:
+  - event-286
+- id: je-release-00299
+  doc_number: JE-9030
+  purpose: wip_release
+  txn_sim_day: 80
+  txn_date: '2025-12-25'
+  lines:
+  - line_num: 1
+    account_id: acct-cogs
+    account_name: Cost of Goods Sold
+    description: Cost of the work accepted
+    debit_amount: '11700.54'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: No longer work in progress
+    debit_amount: '0.00'
+    credit_amount: '11700.54'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00001
+  memo: Cost of the accepted milestone, released against its revenue.
+  provenance_note: sim:8a2aa486150e361f:je-release-00299
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-299
+- id: je-payroll-00088
+  doc_number: JE-9031
+  purpose: wage_accrual
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00088
+  sim_obligation_id: bill-88
+  sim_payment_id: null
+  sim_event_ids:
+  - event-314
+- id: je-payroll-paid-00323
+  doc_number: JE-9032
+  purpose: wage_payment
+  txn_sim_day: 86
+  txn_date: '2025-12-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00323
+  sim_obligation_id: bill-55
+  sim_payment_id: null
+  sim_event_ids:
+  - event-323
+- id: je-materials-00347
+  doc_number: JE-9033
+  purpose: wip_capitalization
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: Gathered against the job
+    debit_amount: '4652.30'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Taken out of stock
+    debit_amount: '0.00'
+    credit_amount: '4652.30'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00001
+  memo: Materials consumed on the job.
+  provenance_note: sim:8a2aa486150e361f:je-materials-00347
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-347
+- id: je-payroll-00097
+  doc_number: JE-9034
+  purpose: wage_accrual
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00097
+  sim_obligation_id: bill-97
+  sim_payment_id: null
+  sim_event_ids:
+  - event-345
+- id: je-payroll-paid-00358
+  doc_number: JE-9035
+  purpose: wage_payment
+  txn_sim_day: 93
+  txn_date: '2026-01-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00358
+  sim_obligation_id: bill-63
+  sim_payment_id: null
+  sim_event_ids:
+  - event-358
+- id: je-payroll-00108
+  doc_number: JE-9036
+  purpose: wage_accrual
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00108
+  sim_obligation_id: bill-108
+  sim_payment_id: null
+  sim_event_ids:
+  - event-380
+- id: je-payroll-paid-00393
+  doc_number: JE-9037
+  purpose: wage_payment
+  txn_sim_day: 100
+  txn_date: '2026-01-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00393
+  sim_obligation_id: bill-70
+  sim_payment_id: null
+  sim_event_ids:
+  - event-393
+- id: je-release-00405
+  doc_number: JE-9038
+  purpose: wip_release
+  txn_sim_day: 101
+  txn_date: '2026-01-15'
+  lines:
+  - line_num: 1
+    account_id: acct-cogs
+    account_name: Cost of Goods Sold
+    description: Cost of the work accepted
+    debit_amount: '12258.82'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: No longer work in progress
+    debit_amount: '0.00'
+    credit_amount: '12258.82'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00001
+  memo: Cost of the accepted milestone, released against its revenue.
+  provenance_note: sim:8a2aa486150e361f:je-release-00405
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-405
+- id: je-payroll-00119
+  doc_number: JE-9039
+  purpose: wage_accrual
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00119
+  sim_obligation_id: bill-119
+  sim_payment_id: null
+  sim_event_ids:
+  - event-419
+- id: je-payroll-paid-00427
+  doc_number: JE-9040
+  purpose: wage_payment
+  txn_sim_day: 107
+  txn_date: '2026-01-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00427
+  sim_obligation_id: bill-78
+  sim_payment_id: null
+  sim_event_ids:
+  - event-427
+- id: je-materials-00454
+  doc_number: JE-9041
+  purpose: wip_capitalization
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: Gathered against the job
+    debit_amount: '9304.62'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Taken out of stock
+    debit_amount: '0.00'
+    credit_amount: '9304.62'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00001
+  memo: Materials consumed on the job.
+  provenance_note: sim:8a2aa486150e361f:je-materials-00454
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-454
+- id: je-payroll-00127
+  doc_number: JE-9042
+  purpose: wage_accrual
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00127
+  sim_obligation_id: bill-127
+  sim_payment_id: null
+  sim_event_ids:
+  - event-450
+- id: je-payroll-paid-00465
+  doc_number: JE-9043
+  purpose: wage_payment
+  txn_sim_day: 114
+  txn_date: '2026-01-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00465
+  sim_obligation_id: bill-88
+  sim_payment_id: null
+  sim_event_ids:
+  - event-465
+- id: je-payroll-00139
+  doc_number: JE-9044
+  purpose: wage_accrual
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00139
+  sim_obligation_id: bill-139
+  sim_payment_id: null
+  sim_event_ids:
+  - event-491
+- id: je-payroll-paid-00502
+  doc_number: JE-9045
+  purpose: wage_payment
+  txn_sim_day: 121
+  txn_date: '2026-02-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00502
+  sim_obligation_id: bill-97
+  sim_payment_id: null
+  sim_event_ids:
+  - event-502
+- id: je-payroll-00147
+  doc_number: JE-9046
+  purpose: wage_accrual
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00147
+  sim_obligation_id: bill-147
+  sim_payment_id: null
+  sim_event_ids:
+  - event-523
+- id: je-payroll-paid-00531
+  doc_number: JE-9047
+  purpose: wage_payment
+  txn_sim_day: 128
+  txn_date: '2026-02-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00531
+  sim_obligation_id: bill-108
+  sim_payment_id: null
+  sim_event_ids:
+  - event-531
+- id: je-payroll-00154
+  doc_number: JE-9048
+  purpose: wage_accrual
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00154
+  sim_obligation_id: bill-154
+  sim_payment_id: null
+  sim_event_ids:
+  - event-553
+- id: je-payroll-paid-00561
+  doc_number: JE-9049
+  purpose: wage_payment
+  txn_sim_day: 135
+  txn_date: '2026-02-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00561
+  sim_obligation_id: bill-119
+  sim_payment_id: null
+  sim_event_ids:
+  - event-561
+- id: je-payroll-00160
+  doc_number: JE-9050
+  purpose: wage_accrual
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00160
+  sim_obligation_id: bill-160
+  sim_payment_id: null
+  sim_event_ids:
+  - event-579
+- id: je-payroll-paid-00589
+  doc_number: JE-9051
+  purpose: wage_payment
+  txn_sim_day: 142
+  txn_date: '2026-02-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00589
+  sim_obligation_id: bill-127
+  sim_payment_id: null
+  sim_event_ids:
+  - event-589
+- id: je-payroll-00167
+  doc_number: JE-9052
+  purpose: wage_accrual
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00167
+  sim_obligation_id: bill-167
+  sim_payment_id: null
+  sim_event_ids:
+  - event-612
+- id: je-payroll-paid-00619
+  doc_number: JE-9053
+  purpose: wage_payment
+  txn_sim_day: 149
+  txn_date: '2026-03-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00619
+  sim_obligation_id: bill-139
+  sim_payment_id: null
+  sim_event_ids:
+  - event-619
+- id: je-release-00631
+  doc_number: JE-9054
+  purpose: wip_release
+  txn_sim_day: 150
+  txn_date: '2026-03-05'
+  lines:
+  - line_num: 1
+    account_id: acct-cogs
+    account_name: Cost of Goods Sold
+    description: Cost of the work accepted
+    debit_amount: '119106.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: No longer work in progress
+    debit_amount: '0.00'
+    credit_amount: '119106.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00002
+  memo: Cost of the accepted milestone, released against its revenue.
+  provenance_note: sim:8a2aa486150e361f:je-release-00631
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-631
+- id: je-payroll-00173
+  doc_number: JE-9055
+  purpose: wage_accrual
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00173
+  sim_obligation_id: bill-173
+  sim_payment_id: null
+  sim_event_ids:
+  - event-641
+- id: je-payroll-paid-00645
+  doc_number: JE-9056
+  purpose: wage_payment
+  txn_sim_day: 156
+  txn_date: '2026-03-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00645
+  sim_obligation_id: bill-147
+  sim_payment_id: null
+  sim_event_ids:
+  - event-645
+- id: je-materials-00660
+  doc_number: JE-9057
+  purpose: wip_capitalization
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: Gathered against the job
+    debit_amount: '20800.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Taken out of stock
+    debit_amount: '0.00'
+    credit_amount: '20800.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00002
+  memo: Materials consumed on the job.
+  provenance_note: sim:8a2aa486150e361f:je-materials-00660
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-660
+- id: je-payroll-00176
+  doc_number: JE-9058
+  purpose: wage_accrual
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00176
+  sim_obligation_id: bill-176
+  sim_payment_id: null
+  sim_event_ids:
+  - event-658
+- id: je-payroll-paid-00667
+  doc_number: JE-9059
+  purpose: wage_payment
+  txn_sim_day: 163
+  txn_date: '2026-03-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00667
+  sim_obligation_id: bill-154
+  sim_payment_id: null
+  sim_event_ids:
+  - event-667
+- id: je-payroll-00183
+  doc_number: JE-9060
+  purpose: wage_accrual
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00183
+  sim_obligation_id: bill-183
+  sim_payment_id: null
+  sim_event_ids:
+  - event-684
+- id: je-payroll-paid-00694
+  doc_number: JE-9061
+  purpose: wage_payment
+  txn_sim_day: 170
+  txn_date: '2026-03-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00694
+  sim_obligation_id: bill-160
+  sim_payment_id: null
+  sim_event_ids:
+  - event-694
+- id: je-payroll-00190
+  doc_number: JE-9062
+  purpose: wage_accrual
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00190
+  sim_obligation_id: bill-190
+  sim_payment_id: null
+  sim_event_ids:
+  - event-712
+- id: je-payroll-paid-00720
+  doc_number: JE-9063
+  purpose: wage_payment
+  txn_sim_day: 177
+  txn_date: '2026-04-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00720
+  sim_obligation_id: bill-167
+  sim_payment_id: null
+  sim_event_ids:
+  - event-720
+- id: je-payroll-00199
+  doc_number: JE-9064
+  purpose: wage_accrual
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00199
+  sim_obligation_id: bill-199
+  sim_payment_id: null
+  sim_event_ids:
+  - event-739
+- id: je-payroll-paid-00747
+  doc_number: JE-9065
+  purpose: wage_payment
+  txn_sim_day: 184
+  txn_date: '2026-04-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00747
+  sim_obligation_id: bill-173
+  sim_payment_id: null
+  sim_event_ids:
+  - event-747
+- id: je-payroll-00206
+  doc_number: JE-9066
+  purpose: wage_accrual
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00206
+  sim_obligation_id: bill-206
+  sim_payment_id: null
+  sim_event_ids:
+  - event-760
+- id: je-payroll-paid-00769
+  doc_number: JE-9067
+  purpose: wage_payment
+  txn_sim_day: 191
+  txn_date: '2026-04-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00769
+  sim_obligation_id: bill-176
+  sim_payment_id: null
+  sim_event_ids:
+  - event-769
+- id: je-release-00781
+  doc_number: JE-9068
+  purpose: wip_release
+  txn_sim_day: 193
+  txn_date: '2026-04-17'
+  lines:
+  - line_num: 1
+    account_id: acct-cogs
+    account_name: Cost of Goods Sold
+    description: Cost of the work accepted
+    debit_amount: '62774.40'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: No longer work in progress
+    debit_amount: '0.00'
+    credit_amount: '62774.40'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00002
+  memo: Cost of the accepted milestone, released against its revenue.
+  provenance_note: sim:8a2aa486150e361f:je-release-00781
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-781
+- id: je-payroll-00212
+  doc_number: JE-9069
+  purpose: wage_accrual
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00212
+  sim_obligation_id: bill-212
+  sim_payment_id: null
+  sim_event_ids:
+  - event-789
+- id: je-payroll-paid-00795
+  doc_number: JE-9070
+  purpose: wage_payment
+  txn_sim_day: 198
+  txn_date: '2026-04-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00795
+  sim_obligation_id: bill-183
+  sim_payment_id: null
+  sim_event_ids:
+  - event-795
+- id: je-materials-00810
+  doc_number: JE-9071
+  purpose: wip_capitalization
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: Gathered against the job
+    debit_amount: '20800.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Taken out of stock
+    debit_amount: '0.00'
+    credit_amount: '20800.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00002
+  memo: Materials consumed on the job.
+  provenance_note: sim:8a2aa486150e361f:je-materials-00810
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-810
+- id: je-payroll-00215
+  doc_number: JE-9072
+  purpose: wage_accrual
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00215
+  sim_obligation_id: bill-215
+  sim_payment_id: null
+  sim_event_ids:
+  - event-808
+- id: je-payroll-paid-00817
+  doc_number: JE-9073
+  purpose: wage_payment
+  txn_sim_day: 205
+  txn_date: '2026-04-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00817
+  sim_obligation_id: bill-190
+  sim_payment_id: null
+  sim_event_ids:
+  - event-817
+- id: je-credit-00827
+  doc_number: JE-9074
+  purpose: financing_draw
+  txn_sim_day: 207
+  txn_date: '2026-05-01'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1519.73'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1519.73'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00827
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-827
+- id: je-default-00830
+  doc_number: JE-9075
+  purpose: client_default
+  txn_sim_day: 207
+  txn_date: '2026-05-01'
+  lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Lost when the client defaulted
+    debit_amount: '20852.28'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-retainage
+    account_name: Retainage Receivable
+    description: Retention no longer collectable
+    debit_amount: '0.00'
+    credit_amount: '1661.53'
+    customer_id: null
+    vendor_id: null
+    document_id: minv-00001
+  - line_num: 3
+    account_id: acct-retainage
+    account_name: Retainage Receivable
+    description: Retention no longer collectable
+    debit_amount: '0.00'
+    credit_amount: '2492.30'
+    customer_id: null
+    vendor_id: null
+    document_id: minv-00002
+  - line_num: 4
+    account_id: acct-retainage
+    account_name: Retainage Receivable
+    description: Retention no longer collectable
+    debit_amount: '0.00'
+    credit_amount: '1661.53'
+    customer_id: null
+    vendor_id: null
+    document_id: minv-00004
+  - line_num: 5
+    account_id: acct-retainage
+    account_name: Retainage Receivable
+    description: Retention no longer collectable
+    debit_amount: '0.00'
+    credit_amount: '1661.53'
+    customer_id: null
+    vendor_id: null
+    document_id: minv-00005
+  - line_num: 6
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: Work done and not paid for
+    debit_amount: '0.00'
+    credit_amount: '13375.39'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00001
+  memo: Client defaulted; retention held and what was bought for the job is lost.
+  provenance_note: sim:8a2aa486150e361f:je-default-00830
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-830
+- id: je-default-00830-00002
+  doc_number: JE-9076
+  purpose: client_default
+  txn_sim_day: 207
+  txn_date: '2026-05-01'
+  lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Lost when the client defaulted
+    debit_amount: '21184.62'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-receivable
+    account_name: Accounts Receivable
+    description: No longer collectable
+    debit_amount: '0.00'
+    credit_amount: '21184.62'
+    customer_id: cust-client-1
+    vendor_id: null
+    document_id: minv-00002
+  project_id: proj-00001
+  memo: Client defaulted; what this invoice left owing will not be paid.
+  provenance_note: sim:8a2aa486150e361f:je-default-00830-00002
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-830
+- id: je-default-00830-00004
+  doc_number: JE-9077
+  purpose: client_default
+  txn_sim_day: 207
+  txn_date: '2026-05-01'
+  lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Lost when the client defaulted
+    debit_amount: '14953.85'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-receivable
+    account_name: Accounts Receivable
+    description: No longer collectable
+    debit_amount: '0.00'
+    credit_amount: '14953.85'
+    customer_id: cust-client-1
+    vendor_id: null
+    document_id: minv-00004
+  project_id: proj-00001
+  memo: Client defaulted; what this invoice left owing will not be paid.
+  provenance_note: sim:8a2aa486150e361f:je-default-00830-00004
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-830
+- id: je-default-00830-00005
+  doc_number: JE-9078
+  purpose: client_default
+  txn_sim_day: 207
+  txn_date: '2026-05-01'
+  lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Lost when the client defaulted
+    debit_amount: '14953.85'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-receivable
+    account_name: Accounts Receivable
+    description: No longer collectable
+    debit_amount: '0.00'
+    credit_amount: '14953.85'
+    customer_id: cust-client-1
+    vendor_id: null
+    document_id: minv-00005
+  project_id: proj-00001
+  memo: Client defaulted; what this invoice left owing will not be paid.
+  provenance_note: sim:8a2aa486150e361f:je-default-00830-00005
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-830
+- id: je-credit-00834
+  doc_number: JE-9079
+  purpose: financing_draw
+  txn_sim_day: 208
+  txn_date: '2026-05-02'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1748.93'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1748.93'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00834
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-834
+- id: je-credit-00838
+  doc_number: JE-9080
+  purpose: financing_draw
+  txn_sim_day: 209
+  txn_date: '2026-05-03'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1748.94'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1748.94'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00838
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-838
+- id: je-credit-00840
+  doc_number: JE-9081
+  purpose: financing_draw
+  txn_sim_day: 209
+  txn_date: '2026-05-03'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '690.41'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '690.41'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00840
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-840
+- id: je-credit-00842
+  doc_number: JE-9082
+  purpose: financing_draw
+  txn_sim_day: 209
+  txn_date: '2026-05-03'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00842
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-842
+- id: je-payroll-00227
+  doc_number: JE-9083
+  purpose: wage_accrual
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00227
+  sim_obligation_id: bill-227
+  sim_payment_id: null
+  sim_event_ids:
+  - event-848
+- id: je-credit-00856
+  doc_number: JE-9084
+  purpose: financing_draw
+  txn_sim_day: 212
+  txn_date: '2026-05-06'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00856
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-856
+- id: je-credit-00858
+  doc_number: JE-9085
+  purpose: financing_draw
+  txn_sim_day: 212
+  txn_date: '2026-05-06'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00858
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-858
+- id: je-credit-00860
+  doc_number: JE-9086
+  purpose: financing_draw
+  txn_sim_day: 212
+  txn_date: '2026-05-06'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1748.93'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1748.93'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00860
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-860
+- id: je-payroll-paid-00857
+  doc_number: JE-9087
+  purpose: wage_payment
+  txn_sim_day: 212
+  txn_date: '2026-05-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00857
+  sim_obligation_id: bill-199
+  sim_payment_id: null
+  sim_event_ids:
+  - event-857
+- id: je-credit-00864
+  doc_number: JE-9088
+  purpose: financing_draw
+  txn_sim_day: 213
+  txn_date: '2026-05-07'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1748.93'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1748.93'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00864
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-864
+- id: je-credit-00868
+  doc_number: JE-9089
+  purpose: financing_draw
+  txn_sim_day: 214
+  txn_date: '2026-05-08'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1748.94'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1748.94'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00868
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-868
+- id: je-credit-00872
+  doc_number: JE-9090
+  purpose: financing_draw
+  txn_sim_day: 215
+  txn_date: '2026-05-09'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1748.93'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1748.93'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00872
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-872
+- id: je-credit-00876
+  doc_number: JE-9091
+  purpose: financing_draw
+  txn_sim_day: 216
+  txn_date: '2026-05-10'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1748.93'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1748.93'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00876
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-876
+- id: je-payroll-00236
+  doc_number: JE-9092
+  purpose: wage_accrual
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00236
+  sim_obligation_id: bill-236
+  sim_payment_id: null
+  sim_event_ids:
+  - event-880
+- id: je-credit-00886
+  doc_number: JE-9093
+  purpose: financing_draw
+  txn_sim_day: 219
+  txn_date: '2026-05-13'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00886
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-886
+- id: je-credit-00888
+  doc_number: JE-9094
+  purpose: financing_draw
+  txn_sim_day: 219
+  txn_date: '2026-05-13'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00888
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-888
+- id: je-credit-00890
+  doc_number: JE-9095
+  purpose: financing_draw
+  txn_sim_day: 219
+  txn_date: '2026-05-13'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1748.94'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1748.94'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00890
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-890
+- id: je-payroll-paid-00887
+  doc_number: JE-9096
+  purpose: wage_payment
+  txn_sim_day: 219
+  txn_date: '2026-05-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00887
+  sim_obligation_id: bill-206
+  sim_payment_id: null
+  sim_event_ids:
+  - event-887
+- id: je-credit-00894
+  doc_number: JE-9097
+  purpose: financing_draw
+  txn_sim_day: 220
+  txn_date: '2026-05-14'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1748.93'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1748.93'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00894
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-894
+- id: je-credit-00898
+  doc_number: JE-9098
+  purpose: financing_draw
+  txn_sim_day: 221
+  txn_date: '2026-05-15'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1748.93'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1748.93'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00898
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-898
+- id: je-credit-00904
+  doc_number: JE-9099
+  purpose: financing_draw
+  txn_sim_day: 223
+  txn_date: '2026-05-17'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1748.94'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1748.94'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00904
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-904
+- id: je-payroll-00245
+  doc_number: JE-9100
+  purpose: wage_accrual
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00245
+  sim_obligation_id: bill-245
+  sim_payment_id: null
+  sim_event_ids:
+  - event-908
+- id: je-credit-00916
+  doc_number: JE-9101
+  purpose: financing_draw
+  txn_sim_day: 226
+  txn_date: '2026-05-20'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00916
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-916
+- id: je-credit-00918
+  doc_number: JE-9102
+  purpose: financing_draw
+  txn_sim_day: 226
+  txn_date: '2026-05-20'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00918
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-918
+- id: je-payroll-paid-00917
+  doc_number: JE-9103
+  purpose: wage_payment
+  txn_sim_day: 226
+  txn_date: '2026-05-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00917
+  sim_obligation_id: bill-212
+  sim_payment_id: null
+  sim_event_ids:
+  - event-917
+- id: je-credit-00930
+  doc_number: JE-9104
+  purpose: financing_draw
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '20800.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '20800.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00930
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-930
+- id: je-payroll-00254
+  doc_number: JE-9105
+  purpose: wage_accrual
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00254
+  sim_obligation_id: bill-254
+  sim_payment_id: null
+  sim_event_ids:
+  - event-932
+- id: je-credit-00938
+  doc_number: JE-9106
+  purpose: financing_draw
+  txn_sim_day: 233
+  txn_date: '2026-05-27'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00938
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-938
+- id: je-credit-00940
+  doc_number: JE-9107
+  purpose: financing_draw
+  txn_sim_day: 233
+  txn_date: '2026-05-27'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00940
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-940
+- id: je-credit-00942
+  doc_number: JE-9108
+  purpose: financing_draw
+  txn_sim_day: 233
+  txn_date: '2026-05-27'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1482.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1482.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00942
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-942
+- id: je-payroll-paid-00939
+  doc_number: JE-9109
+  purpose: wage_payment
+  txn_sim_day: 233
+  txn_date: '2026-05-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00939
+  sim_obligation_id: bill-215
+  sim_payment_id: null
+  sim_event_ids:
+  - event-939
+- id: je-credit-00946
+  doc_number: JE-9110
+  purpose: financing_draw
+  txn_sim_day: 234
+  txn_date: '2026-05-28'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1482.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1482.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00946
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-946
+- id: je-credit-00950
+  doc_number: JE-9111
+  purpose: financing_draw
+  txn_sim_day: 235
+  txn_date: '2026-05-29'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1482.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1482.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00950
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-950
+- id: je-credit-00954
+  doc_number: JE-9112
+  purpose: financing_draw
+  txn_sim_day: 236
+  txn_date: '2026-05-30'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1482.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1482.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00954
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-954
+- id: je-credit-00958
+  doc_number: JE-9113
+  purpose: financing_draw
+  txn_sim_day: 237
+  txn_date: '2026-05-31'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '0.35'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '0.35'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00958
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-958
+- id: je-credit-00960
+  doc_number: JE-9114
+  purpose: financing_draw
+  txn_sim_day: 237
+  txn_date: '2026-05-31'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1482.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1482.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00960
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-960
+- id: je-credit-00964
+  doc_number: JE-9115
+  purpose: financing_draw
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '0.76'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '0.76'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00964
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-964
+- id: je-payroll-00263
+  doc_number: JE-9116
+  purpose: wage_accrual
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00263
+  sim_obligation_id: bill-263
+  sim_payment_id: null
+  sim_event_ids:
+  - event-966
+- id: je-credit-00970
+  doc_number: JE-9117
+  purpose: financing_draw
+  txn_sim_day: 239
+  txn_date: '2026-06-02'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1.59'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1.59'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00970
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-970
+- id: je-credit-00972
+  doc_number: JE-9118
+  purpose: financing_draw
+  txn_sim_day: 239
+  txn_date: '2026-06-02'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '690.41'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '690.41'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00972
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-972
+- id: je-credit-00974
+  doc_number: JE-9119
+  purpose: financing_draw
+  txn_sim_day: 239
+  txn_date: '2026-06-02'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1055.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1055.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00974
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-974
+- id: je-credit-00980
+  doc_number: JE-9120
+  purpose: financing_draw
+  txn_sim_day: 240
+  txn_date: '2026-06-03'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00980
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-980
+- id: je-credit-00982
+  doc_number: JE-9121
+  purpose: financing_draw
+  txn_sim_day: 240
+  txn_date: '2026-06-03'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00982
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-982
+- id: je-credit-00984
+  doc_number: JE-9122
+  purpose: financing_draw
+  txn_sim_day: 240
+  txn_date: '2026-06-03'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1.58'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1.58'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00984
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-984
+- id: je-payroll-paid-00981
+  doc_number: JE-9123
+  purpose: wage_payment
+  txn_sim_day: 240
+  txn_date: '2026-06-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-00981
+  sim_obligation_id: bill-227
+  sim_payment_id: null
+  sim_event_ids:
+  - event-981
+- id: je-credit-00988
+  doc_number: JE-9124
+  purpose: financing_draw
+  txn_sim_day: 241
+  txn_date: '2026-06-04'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1.59'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1.59'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00988
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-988
+- id: je-credit-00992
+  doc_number: JE-9125
+  purpose: financing_draw
+  txn_sim_day: 242
+  txn_date: '2026-06-05'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '2.45'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '2.45'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00992
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-992
+- id: je-credit-00996
+  doc_number: JE-9126
+  purpose: financing_draw
+  txn_sim_day: 243
+  txn_date: '2026-06-06'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '2.87'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '2.87'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-00996
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-996
+- id: je-credit-01000
+  doc_number: JE-9127
+  purpose: financing_draw
+  txn_sim_day: 244
+  txn_date: '2026-06-07'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '3.27'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '3.27'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01000
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1000
+- id: je-credit-01004
+  doc_number: JE-9128
+  purpose: financing_draw
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '3.68'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '3.68'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01004
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1004
+- id: je-payroll-00274
+  doc_number: JE-9129
+  purpose: wage_accrual
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00274
+  sim_obligation_id: bill-274
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1006
+- id: je-credit-01010
+  doc_number: JE-9130
+  purpose: financing_draw
+  txn_sim_day: 246
+  txn_date: '2026-06-09'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '4.09'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '4.09'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01010
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1010
+- id: je-credit-01014
+  doc_number: JE-9131
+  purpose: financing_draw
+  txn_sim_day: 247
+  txn_date: '2026-06-10'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01014
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1014
+- id: je-credit-01016
+  doc_number: JE-9132
+  purpose: financing_draw
+  txn_sim_day: 247
+  txn_date: '2026-06-10'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01016
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1016
+- id: je-credit-01018
+  doc_number: JE-9133
+  purpose: financing_draw
+  txn_sim_day: 247
+  txn_date: '2026-06-10'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '4.09'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '4.09'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01018
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1018
+- id: je-payroll-paid-01015
+  doc_number: JE-9134
+  purpose: wage_payment
+  txn_sim_day: 247
+  txn_date: '2026-06-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-01015
+  sim_obligation_id: bill-236
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1015
+- id: je-credit-01022
+  doc_number: JE-9135
+  purpose: financing_draw
+  txn_sim_day: 248
+  txn_date: '2026-06-11'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '4.09'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '4.09'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01022
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1022
+- id: je-credit-01026
+  doc_number: JE-9136
+  purpose: financing_draw
+  txn_sim_day: 249
+  txn_date: '2026-06-12'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '4.96'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '4.96'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01026
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1026
+- id: je-credit-01030
+  doc_number: JE-9137
+  purpose: financing_draw
+  txn_sim_day: 250
+  txn_date: '2026-06-13'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '5.37'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '5.37'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01030
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1030
+- id: je-credit-01034
+  doc_number: JE-9138
+  purpose: financing_draw
+  txn_sim_day: 251
+  txn_date: '2026-06-14'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '5.77'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '5.77'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01034
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1034
+- id: je-credit-01038
+  doc_number: JE-9139
+  purpose: financing_draw
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '5.78'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '5.78'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01038
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1038
+- id: je-payroll-00283
+  doc_number: JE-9140
+  purpose: wage_accrual
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00283
+  sim_obligation_id: bill-283
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1040
+- id: je-credit-01046
+  doc_number: JE-9141
+  purpose: financing_draw
+  txn_sim_day: 253
+  txn_date: '2026-06-16'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '6.18'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '6.18'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01046
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1046
+- id: je-credit-01050
+  doc_number: JE-9142
+  purpose: financing_draw
+  txn_sim_day: 254
+  txn_date: '2026-06-17'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01050
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1050
+- id: je-credit-01052
+  doc_number: JE-9143
+  purpose: financing_draw
+  txn_sim_day: 254
+  txn_date: '2026-06-17'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01052
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1052
+- id: je-credit-01054
+  doc_number: JE-9144
+  purpose: financing_draw
+  txn_sim_day: 254
+  txn_date: '2026-06-17'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '6.18'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '6.18'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01054
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1054
+- id: je-payroll-paid-01051
+  doc_number: JE-9145
+  purpose: wage_payment
+  txn_sim_day: 254
+  txn_date: '2026-06-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-01051
+  sim_obligation_id: bill-245
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1051
+- id: je-credit-01058
+  doc_number: JE-9146
+  purpose: financing_draw
+  txn_sim_day: 255
+  txn_date: '2026-06-18'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '6.18'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '6.18'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01058
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1058
+- id: je-credit-01062
+  doc_number: JE-9147
+  purpose: financing_draw
+  txn_sim_day: 256
+  txn_date: '2026-06-19'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '6.65'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '6.65'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01062
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1062
+- id: je-credit-01066
+  doc_number: JE-9148
+  purpose: financing_draw
+  txn_sim_day: 257
+  txn_date: '2026-06-20'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '6.65'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '6.65'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01066
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1066
+- id: je-credit-01070
+  doc_number: JE-9149
+  purpose: financing_draw
+  txn_sim_day: 258
+  txn_date: '2026-06-21'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '6.65'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '6.65'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01070
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1070
+- id: je-credit-01074
+  doc_number: JE-9150
+  purpose: financing_draw
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '6.65'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '6.65'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01074
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1074
+- id: je-payroll-00292
+  doc_number: JE-9151
+  purpose: wage_accrual
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00292
+  sim_obligation_id: bill-292
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1076
+- id: je-credit-01080
+  doc_number: JE-9152
+  purpose: financing_draw
+  txn_sim_day: 260
+  txn_date: '2026-06-23'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '6.64'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '6.64'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01080
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1080
+- id: je-credit-01084
+  doc_number: JE-9153
+  purpose: financing_draw
+  txn_sim_day: 261
+  txn_date: '2026-06-24'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01084
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1084
+- id: je-credit-01086
+  doc_number: JE-9154
+  purpose: financing_draw
+  txn_sim_day: 261
+  txn_date: '2026-06-24'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01086
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1086
+- id: je-credit-01088
+  doc_number: JE-9155
+  purpose: financing_draw
+  txn_sim_day: 261
+  txn_date: '2026-06-24'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '11.50'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '11.50'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01088
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1088
+- id: je-payroll-paid-01085
+  doc_number: JE-9156
+  purpose: wage_payment
+  txn_sim_day: 261
+  txn_date: '2026-06-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-01085
+  sim_obligation_id: bill-254
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1085
+- id: je-credit-01092
+  doc_number: JE-9157
+  purpose: financing_draw
+  txn_sim_day: 262
+  txn_date: '2026-06-25'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '11.49'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '11.49'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01092
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1092
+- id: je-credit-01096
+  doc_number: JE-9158
+  purpose: financing_draw
+  txn_sim_day: 263
+  txn_date: '2026-06-26'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '12.30'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '12.30'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01096
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1096
+- id: je-credit-01100
+  doc_number: JE-9159
+  purpose: financing_draw
+  txn_sim_day: 264
+  txn_date: '2026-06-27'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '12.65'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '12.65'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01100
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1100
+- id: je-credit-01104
+  doc_number: JE-9160
+  purpose: financing_draw
+  txn_sim_day: 265
+  txn_date: '2026-06-28'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '12.99'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '12.99'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01104
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1104
+- id: je-credit-01108
+  doc_number: JE-9161
+  purpose: financing_draw
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '13.34'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '13.34'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01108
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1108
+- id: je-payroll-00301
+  doc_number: JE-9162
+  purpose: wage_accrual
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00301
+  sim_obligation_id: bill-301
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1110
+- id: je-credit-01114
+  doc_number: JE-9163
+  purpose: financing_draw
+  txn_sim_day: 267
+  txn_date: '2026-06-30'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '13.68'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '13.68'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01114
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1114
+- id: je-credit-01118
+  doc_number: JE-9164
+  purpose: financing_draw
+  txn_sim_day: 268
+  txn_date: '2026-07-01'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01118
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1118
+- id: je-credit-01120
+  doc_number: JE-9165
+  purpose: financing_draw
+  txn_sim_day: 268
+  txn_date: '2026-07-01'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01120
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1120
+- id: je-credit-01122
+  doc_number: JE-9166
+  purpose: financing_draw
+  txn_sim_day: 268
+  txn_date: '2026-07-01'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '13.69'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '13.69'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01122
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1122
+- id: je-payroll-paid-01119
+  doc_number: JE-9167
+  purpose: wage_payment
+  txn_sim_day: 268
+  txn_date: '2026-07-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-01119
+  sim_obligation_id: bill-263
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1119
+- id: je-credit-01126
+  doc_number: JE-9168
+  purpose: financing_draw
+  txn_sim_day: 269
+  txn_date: '2026-07-02'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '14.09'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '14.09'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01126
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1126
+- id: je-credit-01128
+  doc_number: JE-9169
+  purpose: financing_draw
+  txn_sim_day: 269
+  txn_date: '2026-07-02'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '690.41'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '690.41'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01128
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1128
+- id: je-credit-01130
+  doc_number: JE-9170
+  purpose: financing_draw
+  txn_sim_day: 269
+  txn_date: '2026-07-02'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '650.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '650.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01130
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1130
+- id: je-credit-01136
+  doc_number: JE-9171
+  purpose: financing_draw
+  txn_sim_day: 270
+  txn_date: '2026-07-03'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '14.56'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '14.56'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01136
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1136
+- id: je-credit-01140
+  doc_number: JE-9172
+  purpose: financing_draw
+  txn_sim_day: 271
+  txn_date: '2026-07-04'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '14.55'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '14.55'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01140
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1140
+- id: je-credit-01144
+  doc_number: JE-9173
+  purpose: financing_draw
+  txn_sim_day: 272
+  txn_date: '2026-07-05'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '14.56'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '14.56'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01144
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1144
+- id: je-credit-01148
+  doc_number: JE-9174
+  purpose: financing_draw
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '14.56'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '14.56'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01148
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1148
+- id: je-payroll-00312
+  doc_number: JE-9175
+  purpose: wage_accrual
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00312
+  sim_obligation_id: bill-312
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1150
+- id: je-credit-01154
+  doc_number: JE-9176
+  purpose: financing_draw
+  txn_sim_day: 274
+  txn_date: '2026-07-07'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '14.56'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '14.56'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01154
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1154
+- id: je-credit-01158
+  doc_number: JE-9177
+  purpose: financing_draw
+  txn_sim_day: 275
+  txn_date: '2026-07-08'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01158
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1158
+- id: je-credit-01160
+  doc_number: JE-9178
+  purpose: financing_draw
+  txn_sim_day: 275
+  txn_date: '2026-07-08'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01160
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1160
+- id: je-credit-01162
+  doc_number: JE-9179
+  purpose: financing_draw
+  txn_sim_day: 275
+  txn_date: '2026-07-08'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '14.56'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '14.56'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01162
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1162
+- id: je-payroll-paid-01159
+  doc_number: JE-9180
+  purpose: wage_payment
+  txn_sim_day: 275
+  txn_date: '2026-07-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Settled
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Paid from the bank account
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll paid.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-paid-01159
+  sim_obligation_id: bill-274
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1159
+- id: je-credit-01166
+  doc_number: JE-9181
+  purpose: financing_draw
+  txn_sim_day: 276
+  txn_date: '2026-07-09'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '14.56'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '14.56'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01166
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1166
+- id: je-credit-01170
+  doc_number: JE-9182
+  purpose: financing_draw
+  txn_sim_day: 277
+  txn_date: '2026-07-10'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '15.03'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '15.03'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01170
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1170
+- id: je-credit-01174
+  doc_number: JE-9183
+  purpose: financing_draw
+  txn_sim_day: 278
+  txn_date: '2026-07-11'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '15.02'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '15.02'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01174
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1174
+- id: je-credit-01178
+  doc_number: JE-9184
+  purpose: financing_draw
+  txn_sim_day: 279
+  txn_date: '2026-07-12'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '15.03'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '15.03'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01178
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1178
+- id: je-credit-01182
+  doc_number: JE-9185
+  purpose: financing_draw
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '15.04'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '15.04'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01182
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1182
+- id: je-payroll-00321
+  doc_number: JE-9186
+  purpose: wage_accrual
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00321
+  sim_obligation_id: bill-321
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1184
+- id: je-credit-01189
+  doc_number: JE-9187
+  purpose: financing_draw
+  txn_sim_day: 281
+  txn_date: '2026-07-14'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '15.03'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '15.03'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01189
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1189
+- id: je-credit-01193
+  doc_number: JE-9188
+  purpose: financing_draw
+  txn_sim_day: 282
+  txn_date: '2026-07-15'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Drawn into the bank account
+    debit_amount: '758.91'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-credit-line
+    account_name: Line of Credit
+    description: Principal owed on the facility
+    debit_amount: '0.00'
+    credit_amount: '758.91'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Draw on the credit line.
+  provenance_note: sim:8a2aa486150e361f:je-credit-01193
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1193
+- id: je-payroll-00330
+  doc_number: JE-9189
+  purpose: wage_accrual
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00330
+  sim_obligation_id: bill-330
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1211
+- id: je-payroll-00339
+  doc_number: JE-9190
+  purpose: wage_accrual
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00339
+  sim_obligation_id: bill-339
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1234
+- id: je-default-01258
+  doc_number: JE-9191
+  purpose: client_default
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Lost when the client defaulted
+    debit_amount: '61089.22'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-retainage
+    account_name: Retainage Receivable
+    description: Retention no longer collectable
+    debit_amount: '0.00'
+    credit_amount: '7428.57'
+    customer_id: null
+    vendor_id: null
+    document_id: minv-00003
+  - line_num: 3
+    account_id: acct-retainage
+    account_name: Retainage Receivable
+    description: Retention no longer collectable
+    debit_amount: '0.00'
+    credit_amount: '16714.28'
+    customer_id: null
+    vendor_id: null
+    document_id: minv-00006
+  - line_num: 4
+    account_id: acct-retainage
+    account_name: Retainage Receivable
+    description: Retention no longer collectable
+    debit_amount: '0.00'
+    credit_amount: '8736.37'
+    customer_id: null
+    vendor_id: null
+    document_id: minv-00007
+  - line_num: 5
+    account_id: acct-wip
+    account_name: Work in Progress
+    description: Work done and not paid for
+    debit_amount: '0.00'
+    credit_amount: '28210.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: proj-00002
+  memo: Client defaulted; retention held and what was bought for the job is lost.
+  provenance_note: sim:8a2aa486150e361f:je-default-01258
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1258
+- id: je-default-01258-00006
+  doc_number: JE-9192
+  purpose: client_default
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Lost when the client defaulted
+    debit_amount: '139285.71'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-receivable
+    account_name: Accounts Receivable
+    description: No longer collectable
+    debit_amount: '0.00'
+    credit_amount: '139285.71'
+    customer_id: cust-client-2
+    vendor_id: null
+    document_id: minv-00006
+  project_id: proj-00002
+  memo: Client defaulted; what this invoice left owing will not be paid.
+  provenance_note: sim:8a2aa486150e361f:je-default-01258-00006
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1258
+- id: je-default-01258-00007
+  doc_number: JE-9193
+  purpose: client_default
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Lost when the client defaulted
+    debit_amount: '78627.34'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-receivable
+    account_name: Accounts Receivable
+    description: No longer collectable
+    debit_amount: '0.00'
+    credit_amount: '78627.34'
+    customer_id: cust-client-2
+    vendor_id: null
+    document_id: minv-00007
+  project_id: proj-00002
+  memo: Client defaulted; what this invoice left owing will not be paid.
+  provenance_note: sim:8a2aa486150e361f:je-default-01258-00007
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1258
+- id: je-payroll-00350
+  doc_number: JE-9194
+  purpose: wage_accrual
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00350
+  sim_obligation_id: bill-350
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1255
+- id: je-payroll-00359
+  doc_number: JE-9195
+  purpose: wage_accrual
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00359
+  sim_obligation_id: bill-359
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1272
+- id: je-payroll-00368
+  doc_number: JE-9196
+  purpose: wage_accrual
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00368
+  sim_obligation_id: bill-368
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1289
+- id: je-payroll-00377
+  doc_number: JE-9197
+  purpose: wage_accrual
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00377
+  sim_obligation_id: bill-377
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1305
+- id: je-payroll-00386
+  doc_number: JE-9198
+  purpose: wage_accrual
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00386
+  sim_obligation_id: bill-386
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1321
+- id: je-payroll-00397
+  doc_number: JE-9199
+  purpose: wage_accrual
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00397
+  sim_obligation_id: bill-397
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1339
+- id: je-payroll-00406
+  doc_number: JE-9200
+  purpose: wage_accrual
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00406
+  sim_obligation_id: bill-406
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1356
+- id: je-payroll-00415
+  doc_number: JE-9201
+  purpose: wage_accrual
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00415
+  sim_obligation_id: bill-415
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1372
+- id: je-payroll-00424
+  doc_number: JE-9202
+  purpose: wage_accrual
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00424
+  sim_obligation_id: bill-424
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1388
+- id: je-payroll-00435
+  doc_number: JE-9203
+  purpose: wage_accrual
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  lines:
+  - line_num: 1
+    account_id: acct-manager-wages
+    account_name: Project Manager Wages
+    description: Project manager payroll
+    debit_amount: '1500.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Owed to staff
+    debit_amount: '0.00'
+    credit_amount: '1500.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Own payroll earned.
+  provenance_note: sim:8a2aa486150e361f:je-payroll-00435
+  sim_obligation_id: bill-435
+  sim_payment_id: null
+  sim_event_ids:
+  - event-1406

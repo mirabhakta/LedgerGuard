@@ -1,0 +1,27 @@
+report: Accounts Receivable Aging
+company: Soft Palette Interiors
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-988ae580a8073f05
+buckets:
+  current: '89647.92'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '89647.92'
+rows:
+- document_id: minv-00020
+  party: Yusuf Tokarz
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '13790.78'
+- document_id: minv-00021
+  party: Cormac Hjelm
+  due_date: '2026-10-21'
+  days_past_due: 0
+  bucket: current
+  balance: '75857.14'

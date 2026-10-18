@@ -1,0 +1,51 @@
+report: Accounts Payable Aging
+company: Sugarpine Donut Co.
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-2a8137f03e5e7047
+buckets:
+  current: '9880.19'
+  1-30: '2191.85'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '12072.04'
+rows:
+- document_id: bill-supplies-00330
+  party: Fresh City Provisions
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '2191.85'
+- document_id: bill-supplies-00336
+  party: Fresh City Provisions
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '1949.42'
+- document_id: bill-insurance-00344
+  party: Alder Creek Insurance Group
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '350.00'
+- document_id: bill-premises-00342
+  party: Kowalski Property Management
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '4714.28'
+- document_id: bill-utilities-00343
+  party: Riverbend Gas & Electric
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '450.00'
+- document_id: bill-supplies-00345
+  party: Fresh City Provisions
+  due_date: '2026-10-19'
+  days_past_due: 0
+  bucket: current
+  balance: '2416.49'

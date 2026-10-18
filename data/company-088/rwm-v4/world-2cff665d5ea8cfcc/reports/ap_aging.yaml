@@ -1,0 +1,39 @@
+report: Accounts Payable Aging
+company: Birchwood Orthodontics
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-2cff665d5ea8cfcc
+buckets:
+  current: '12237.95'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '12237.95'
+rows:
+- document_id: bill-insurance-00869
+  party: Elmsworth Insurance Group
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1166.66'
+- document_id: bill-practice-supplies-00868
+  party: Meridian Practice Supply
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1400.00'
+- document_id: bill-premises-00867
+  party: Glenmoor Commercial Properties
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '6857.14'
+- document_id: bill-income-tax-00878
+  party: Yarrow Field Department of Revenue
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '2814.15'

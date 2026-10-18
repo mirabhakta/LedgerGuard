@@ -1,0 +1,609 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Zielinski & Daughters Stationers
+  txn_sim_day: 46
+  txn_date: '2025-11-21'
+  due_sim_day: 76
+  due_date: '2025-12-21'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '68055.59'
+    amount: '68055.59'
+  total_amount: '68055.59'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '61250.04'
+  retainage_amount: '6805.55'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Zielinski & Daughters Stationers.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-559
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-2
+  customer_name: Ubeda Roasters Company
+  txn_sim_day: 53
+  txn_date: '2025-11-28'
+  due_sim_day: 83
+  due_date: '2025-12-28'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '6239.94'
+    amount: '6239.94'
+  total_amount: '6239.94'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '4305.56'
+  retainage_amount: '623.99'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Ubeda Roasters Company.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-674
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-2
+  customer_name: Ubeda Roasters Company
+  txn_sim_day: 78
+  txn_date: '2025-12-23'
+  due_sim_day: 108
+  due_date: '2026-01-22'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '9983.91'
+    amount: '9983.91'
+  total_amount: '9983.91'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '998.39'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Ubeda Roasters Company.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-1122
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-3
+  customer_name: Granite Bay Cyclery
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  due_sim_day: 121
+  due_date: '2026-02-04'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '18132.11'
+    amount: '18132.11'
+  total_amount: '18132.11'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '16318.90'
+  retainage_amount: '1813.21'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Granite Bay Cyclery.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-1381
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-2
+  customer_name: Ubeda Roasters Company
+  txn_sim_day: 107
+  txn_date: '2026-01-21'
+  due_sim_day: 137
+  due_date: '2026-02-20'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '12479.90'
+    amount: '12479.90'
+  total_amount: '12479.90'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1247.99'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Ubeda Roasters Company.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-1707
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-1
+  customer_name: Zielinski & Daughters Stationers
+  txn_sim_day: 120
+  txn_date: '2026-02-03'
+  due_sim_day: 150
+  due_date: '2026-03-05'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '153125.09'
+    amount: '153125.09'
+  total_amount: '153125.09'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '10208.33'
+  retainage_amount: '15312.50'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New home for Zielinski & Daughters Stationers.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-1955
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-3
+  customer_name: Granite Bay Cyclery
+  txn_sim_day: 120
+  txn_date: '2026-02-03'
+  due_sim_day: 150
+  due_date: '2026-03-05'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '27198.16'
+    amount: '27198.16'
+  total_amount: '27198.16'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '1359.90'
+  retainage_amount: '2719.81'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation for Granite Bay Cyclery.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-1960
+- id: minv-00008
+  doc_number: INV-1008
+  customer_id: cust-client-3
+  customer_name: Granite Bay Cyclery
+  txn_sim_day: 143
+  txn_date: '2026-02-26'
+  due_sim_day: 173
+  due_date: '2026-03-28'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '18132.11'
+    amount: '18132.11'
+  total_amount: '18132.11'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1813.21'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation for Granite Bay Cyclery.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00008
+  sim_order_id: null
+  sim_obligation_id: invoice-8
+  sim_event_ids:
+  - event-2339
+- id: minv-00009
+  doc_number: INV-1009
+  customer_id: cust-client-1
+  customer_name: Zielinski & Daughters Stationers
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 191
+  due_date: '2026-04-15'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '81756.50'
+    amount: '81756.50'
+  total_amount: '81756.50'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '8175.65'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on New home for Zielinski & Daughters Stationers.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00009
+  sim_order_id: null
+  sim_obligation_id: invoice-9
+  sim_event_ids:
+  - event-2602
+- id: minv-00010
+  doc_number: INV-1010
+  customer_id: cust-client-3
+  customer_name: Granite Bay Cyclery
+  txn_sim_day: 176
+  txn_date: '2026-03-31'
+  due_sim_day: 206
+  due_date: '2026-04-30'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '21561.46'
+    amount: '21561.46'
+  total_amount: '21561.46'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2156.14'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation for Granite Bay Cyclery.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00010
+  sim_order_id: null
+  sim_obligation_id: invoice-10
+  sim_event_ids:
+  - event-2842
+- id: minv-00011
+  doc_number: INV-1011
+  customer_id: cust-client-1
+  customer_name: Zielinski & Daughters Stationers
+  txn_sim_day: 193
+  txn_date: '2026-04-17'
+  due_sim_day: 223
+  due_date: '2026-05-17'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '68055.59'
+    amount: '68055.59'
+  total_amount: '68055.59'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '6805.55'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on New home for Zielinski & Daughters Stationers.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00011
+  sim_order_id: null
+  sim_obligation_id: invoice-11
+  sim_event_ids:
+  - event-3124
+- id: minv-00012
+  doc_number: INV-1012
+  customer_id: cust-client-3
+  customer_name: Granite Bay Cyclery
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  due_sim_day: 247
+  due_date: '2026-06-10'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '36264.23'
+    amount: '36264.23'
+  total_amount: '36264.23'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3626.42'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation for Granite Bay Cyclery.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00012
+  sim_order_id: null
+  sim_obligation_id: invoice-12
+  sim_event_ids:
+  - event-3482
+- id: minv-00013
+  doc_number: INV-1013
+  customer_id: cust-client-4
+  customer_name: Union Millbrook Roasters
+  txn_sim_day: 246
+  txn_date: '2026-06-09'
+  due_sim_day: 276
+  due_date: '2026-07-09'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '85003.38'
+    amount: '85003.38'
+  total_amount: '85003.38'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '76503.05'
+  retainage_amount: '8500.33'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Union Millbrook Roasters.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00013
+  sim_order_id: null
+  sim_obligation_id: invoice-13
+  sim_event_ids:
+  - event-3960
+- id: minv-00014
+  doc_number: INV-1014
+  customer_id: cust-client-5
+  customer_name: Glenmoor Creamery
+  txn_sim_day: 249
+  txn_date: '2026-06-12'
+  due_sim_day: 279
+  due_date: '2026-07-12'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5385.92'
+    amount: '5385.92'
+  total_amount: '5385.92'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '3716.28'
+  retainage_amount: '538.59'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Glenmoor Creamery.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00014
+  sim_order_id: null
+  sim_obligation_id: invoice-14
+  sim_event_ids:
+  - event-4036
+- id: minv-00015
+  doc_number: INV-1015
+  customer_id: cust-client-1
+  customer_name: Zielinski & Daughters Stationers
+  txn_sim_day: 256
+  txn_date: '2026-06-19'
+  due_sim_day: 286
+  due_date: '2026-07-19'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '119097.33'
+    amount: '119097.33'
+  total_amount: '119097.33'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '11909.73'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on New home for Zielinski & Daughters Stationers.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00015
+  sim_order_id: null
+  sim_obligation_id: invoice-15
+  sim_event_ids:
+  - event-4138
+- id: minv-00016
+  doc_number: INV-1016
+  customer_id: cust-client-5
+  customer_name: Glenmoor Creamery
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  due_sim_day: 303
+  due_date: '2026-08-05'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '8617.47'
+    amount: '8617.47'
+  total_amount: '8617.47'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '861.74'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Glenmoor Creamery.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00016
+  sim_order_id: null
+  sim_obligation_id: invoice-16
+  sim_event_ids:
+  - event-4414
+- id: minv-00017
+  doc_number: INV-1017
+  customer_id: cust-client-6
+  customer_name: Bright Florals Group
+  txn_sim_day: 277
+  txn_date: '2026-07-10'
+  due_sim_day: 307
+  due_date: '2026-08-09'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '6617.54'
+    amount: '6617.54'
+  total_amount: '6617.54'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '4566.10'
+  retainage_amount: '661.75'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Bright Florals Group.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00017
+  sim_order_id: null
+  sim_obligation_id: invoice-17
+  sim_event_ids:
+  - event-4512
+- id: minv-00018
+  doc_number: INV-1018
+  customer_id: cust-client-5
+  customer_name: Glenmoor Creamery
+  txn_sim_day: 297
+  txn_date: '2026-07-30'
+  due_sim_day: 327
+  due_date: '2026-08-29'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '10771.86'
+    amount: '10771.86'
+  total_amount: '10771.86'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1077.18'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Glenmoor Creamery.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00018
+  sim_order_id: null
+  sim_obligation_id: invoice-18
+  sim_event_ids:
+  - event-4847
+- id: minv-00019
+  doc_number: INV-1019
+  customer_id: cust-client-6
+  customer_name: Bright Florals Group
+  txn_sim_day: 305
+  txn_date: '2026-08-07'
+  due_sim_day: 335
+  due_date: '2026-09-06'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '10588.06'
+    amount: '10588.06'
+  total_amount: '10588.06'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1058.80'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Bright Florals Group.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00019
+  sim_order_id: null
+  sim_obligation_id: invoice-19
+  sim_event_ids:
+  - event-5009
+- id: minv-00020
+  doc_number: INV-1020
+  customer_id: cust-client-6
+  customer_name: Bright Florals Group
+  txn_sim_day: 332
+  txn_date: '2026-09-03'
+  due_sim_day: 362
+  due_date: '2026-10-03'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '13235.10'
+    amount: '13235.10'
+  total_amount: '13235.10'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1323.51'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Bright Florals Group.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00020
+  sim_order_id: null
+  sim_obligation_id: invoice-20
+  sim_event_ids:
+  - event-5446
+- id: minv-00021
+  doc_number: INV-1021
+  customer_id: cust-client-4
+  customer_name: Union Millbrook Roasters
+  txn_sim_day: 345
+  txn_date: '2026-09-16'
+  due_sim_day: 375
+  due_date: '2026-10-16'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '227189.30'
+    amount: '227189.30'
+  total_amount: '227189.30'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '12750.50'
+  retainage_amount: '22718.93'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New home for Union Millbrook Roasters.
+  provenance_note: sim:f8cd528e1d6724c9:minv-00021
+  sim_order_id: null
+  sim_obligation_id: invoice-21
+  sim_event_ids:
+  - event-5626

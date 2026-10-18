@@ -1,0 +1,45 @@
+report: Accounts Payable Aging
+company: Brightwater Community Fund
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-1c03d9f2014feb2e
+buckets:
+  current: '4877.06'
+  1-30: '3214.28'
+  31-60: '3214.28'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '11305.62'
+rows:
+- document_id: bill-premises-00115
+  party: Golden Property Group
+  due_date: '2026-08-09'
+  days_past_due: 58
+  bucket: 31-60
+  balance: '3214.28'
+- document_id: bill-premises-00128
+  party: Golden Property Group
+  due_date: '2026-09-08'
+  days_past_due: 28
+  bucket: 1-30
+  balance: '3214.28'
+- document_id: bill-insurance-00141
+  party: Pinecrest Insurance Group
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '450.00'
+- document_id: bill-premises-00139
+  party: Golden Property Group
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '3214.28'
+- document_id: bill-program-services-00140
+  party: Community Program Services
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1212.78'

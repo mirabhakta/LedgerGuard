@@ -1,0 +1,39 @@
+report: Accounts Receivable Aging
+company: Granary Commercial Builders
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-79ab80b1f3926f31
+buckets:
+  current: '75281.38'
+  1-30: '9778.25'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '85059.63'
+rows:
+- document_id: minv-00038
+  party: Vasquez & Sons Goods
+  due_date: '2026-09-26'
+  days_past_due: 10
+  bucket: 1-30
+  balance: '473.64'
+- document_id: minv-00039
+  party: Juniper Brewing Partners
+  due_date: '2026-09-30'
+  days_past_due: 6
+  bucket: 1-30
+  balance: '9304.61'
+- document_id: minv-00040
+  party: Vasquez & Sons Goods
+  due_date: '2026-10-16'
+  days_past_due: 0
+  bucket: current
+  balance: '6495.66'
+- document_id: minv-00041
+  party: Hearth Inlet Cove Toyworks
+  due_date: '2026-10-25'
+  days_past_due: 0
+  bucket: current
+  balance: '68785.72'

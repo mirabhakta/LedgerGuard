@@ -1,0 +1,5104 @@
+- id: bank-000001
+  sim_day: 0
+  date: '2025-10-06'
+  amount: '250000.00'
+  direction: debit
+  running_balance_amount: '250000.00'
+  source_document_id: je-open-00001
+  memo: Owner's opening contribution
+  kind: opening_equity
+  sim_event_ids:
+  - event-1
+- id: bank-000002
+  sim_day: 2
+  date: '2025-10-08'
+  amount: '85500.00'
+  direction: debit
+  running_balance_amount: '335500.00'
+  source_document_id: je-deposit-00006
+  memo: Client deposit banked
+  kind: deposit_receipt
+  sim_event_ids:
+  - event-6
+- id: bank-000003
+  sim_day: 30
+  date: '2025-11-05'
+  amount: '4012.50'
+  direction: debit
+  running_balance_amount: '339512.50'
+  source_document_id: je-deposit-00077
+  memo: Client deposit banked
+  kind: deposit_receipt
+  sim_event_ids:
+  - event-77
+- id: bank-000004
+  sim_day: 30
+  date: '2025-11-05'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '338512.50'
+  source_document_id: ppmt-00078
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-78
+- id: bank-000005
+  sim_day: 37
+  date: '2025-11-12'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '337012.50'
+  source_document_id: je-payroll-paid-00099
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-99
+- id: bank-000006
+  sim_day: 37
+  date: '2025-11-12'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '336512.50'
+  source_document_id: ppmt-00100
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-100
+- id: bank-000007
+  sim_day: 40
+  date: '2025-11-15'
+  amount: '-22800.00'
+  direction: credit
+  running_balance_amount: '313712.50'
+  source_document_id: ppmt-00110
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-110
+- id: bank-000008
+  sim_day: 41
+  date: '2025-11-16'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '312251.23'
+  source_document_id: ppmt-00112
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-112
+- id: bank-000009
+  sim_day: 44
+  date: '2025-11-19'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '310751.23'
+  source_document_id: je-payroll-paid-00128
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-128
+- id: bank-000010
+  sim_day: 44
+  date: '2025-11-19'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '310251.23'
+  source_document_id: ppmt-00129
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-129
+- id: bank-000011
+  sim_day: 44
+  date: '2025-11-19'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '308789.96'
+  source_document_id: ppmt-00130
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-130
+- id: bank-000012
+  sim_day: 45
+  date: '2025-11-20'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '307328.69'
+  source_document_id: ppmt-00137
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-137
+- id: bank-000013
+  sim_day: 46
+  date: '2025-11-21'
+  amount: '-1461.28'
+  direction: credit
+  running_balance_amount: '305867.41'
+  source_document_id: ppmt-00144
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-144
+- id: bank-000014
+  sim_day: 48
+  date: '2025-11-23'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '304406.14'
+  source_document_id: ppmt-00152
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-152
+- id: bank-000015
+  sim_day: 51
+  date: '2025-11-26'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '302906.14'
+  source_document_id: je-payroll-paid-00158
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-158
+- id: bank-000016
+  sim_day: 51
+  date: '2025-11-26'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '302406.14'
+  source_document_id: ppmt-00159
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-159
+- id: bank-000017
+  sim_day: 51
+  date: '2025-11-26'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '300944.87'
+  source_document_id: ppmt-00160
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-160
+- id: bank-000018
+  sim_day: 52
+  date: '2025-11-27'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '299483.60'
+  source_document_id: ppmt-00162
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-162
+- id: bank-000019
+  sim_day: 53
+  date: '2025-11-28'
+  amount: '-1461.28'
+  direction: credit
+  running_balance_amount: '298022.32'
+  source_document_id: ppmt-00164
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-164
+- id: bank-000020
+  sim_day: 54
+  date: '2025-11-29'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '296561.05'
+  source_document_id: ppmt-00166
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-166
+- id: bank-000021
+  sim_day: 55
+  date: '2025-11-30'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '295099.78'
+  source_document_id: ppmt-00168
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-168
+- id: bank-000022
+  sim_day: 58
+  date: '2025-12-03'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '293599.78'
+  source_document_id: je-payroll-paid-00181
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-181
+- id: bank-000023
+  sim_day: 58
+  date: '2025-12-03'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '293099.78'
+  source_document_id: ppmt-00182
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-182
+- id: bank-000024
+  sim_day: 58
+  date: '2025-12-03'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '292099.78'
+  source_document_id: ppmt-00183
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-183
+- id: bank-000025
+  sim_day: 58
+  date: '2025-12-03'
+  amount: '-1461.28'
+  direction: credit
+  running_balance_amount: '290638.50'
+  source_document_id: ppmt-00184
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-184
+- id: bank-000026
+  sim_day: 59
+  date: '2025-12-04'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '289177.23'
+  source_document_id: ppmt-00192
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-192
+- id: bank-000027
+  sim_day: 59
+  date: '2025-12-04'
+  amount: '-690.41'
+  direction: credit
+  running_balance_amount: '288486.82'
+  source_document_id: ppmt-00193
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-193
+- id: bank-000028
+  sim_day: 59
+  date: '2025-12-04'
+  amount: '-680.00'
+  direction: credit
+  running_balance_amount: '287806.82'
+  source_document_id: ppmt-00194
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-194
+- id: bank-000029
+  sim_day: 61
+  date: '2025-12-06'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '286345.55'
+  source_document_id: ppmt-00206
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-206
+- id: bank-000030
+  sim_day: 62
+  date: '2025-12-07'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '284884.28'
+  source_document_id: ppmt-00208
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-208
+- id: bank-000031
+  sim_day: 65
+  date: '2025-12-10'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '283384.28'
+  source_document_id: je-payroll-paid-00221
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-221
+- id: bank-000032
+  sim_day: 65
+  date: '2025-12-10'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '282884.28'
+  source_document_id: ppmt-00222
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-222
+- id: bank-000033
+  sim_day: 65
+  date: '2025-12-10'
+  amount: '-1461.28'
+  direction: credit
+  running_balance_amount: '281423.00'
+  source_document_id: ppmt-00223
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-223
+- id: bank-000034
+  sim_day: 65
+  date: '2025-12-10'
+  amount: '610.60'
+  direction: debit
+  running_balance_amount: '282033.60'
+  source_document_id: prcpt-00220
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-220
+- id: bank-000035
+  sim_day: 66
+  date: '2025-12-11'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '280572.33'
+  source_document_id: ppmt-00229
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-229
+- id: bank-000036
+  sim_day: 67
+  date: '2025-12-12'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '279111.06'
+  source_document_id: ppmt-00234
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-234
+- id: bank-000037
+  sim_day: 68
+  date: '2025-12-13'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '277649.79'
+  source_document_id: ppmt-00240
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-240
+- id: bank-000038
+  sim_day: 69
+  date: '2025-12-14'
+  amount: '-1461.28'
+  direction: credit
+  running_balance_amount: '276188.51'
+  source_document_id: ppmt-00242
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-242
+- id: bank-000039
+  sim_day: 71
+  date: '2025-12-16'
+  amount: '-1628.26'
+  direction: credit
+  running_balance_amount: '274560.25'
+  source_document_id: ppmt-00252
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-252
+- id: bank-000040
+  sim_day: 72
+  date: '2025-12-17'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '273060.25'
+  source_document_id: je-payroll-paid-00258
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-258
+- id: bank-000041
+  sim_day: 72
+  date: '2025-12-17'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '272560.25'
+  source_document_id: ppmt-00259
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-259
+- id: bank-000042
+  sim_day: 72
+  date: '2025-12-17'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '271098.98'
+  source_document_id: ppmt-00260
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-260
+- id: bank-000043
+  sim_day: 72
+  date: '2025-12-17'
+  amount: '-517.78'
+  direction: credit
+  running_balance_amount: '270581.20'
+  source_document_id: ppmt-00261
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-261
+- id: bank-000044
+  sim_day: 73
+  date: '2025-12-18'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '269119.93'
+  source_document_id: ppmt-00265
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-265
+- id: bank-000045
+  sim_day: 73
+  date: '2025-12-18'
+  amount: '-517.79'
+  direction: credit
+  running_balance_amount: '268602.14'
+  source_document_id: ppmt-00266
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-266
+- id: bank-000046
+  sim_day: 74
+  date: '2025-12-19'
+  amount: '-1461.28'
+  direction: credit
+  running_balance_amount: '267140.86'
+  source_document_id: ppmt-00270
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-270
+- id: bank-000047
+  sim_day: 74
+  date: '2025-12-19'
+  amount: '-517.78'
+  direction: credit
+  running_balance_amount: '266623.08'
+  source_document_id: ppmt-00271
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-271
+- id: bank-000048
+  sim_day: 75
+  date: '2025-12-20'
+  amount: '-517.79'
+  direction: credit
+  running_balance_amount: '266105.29'
+  source_document_id: ppmt-00275
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-275
+- id: bank-000049
+  sim_day: 76
+  date: '2025-12-21'
+  amount: '-517.79'
+  direction: credit
+  running_balance_amount: '265587.50'
+  source_document_id: ppmt-00277
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-277
+- id: bank-000050
+  sim_day: 79
+  date: '2025-12-24'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '264087.50'
+  source_document_id: je-payroll-paid-00288
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-288
+- id: bank-000051
+  sim_day: 79
+  date: '2025-12-24'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '263587.50'
+  source_document_id: ppmt-00289
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-289
+- id: bank-000052
+  sim_day: 79
+  date: '2025-12-24'
+  amount: '610.59'
+  direction: debit
+  running_balance_amount: '264198.09'
+  source_document_id: prcpt-00287
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-287
+- id: bank-000053
+  sim_day: 85
+  date: '2025-12-30'
+  amount: '-51300.00'
+  direction: credit
+  running_balance_amount: '212898.09'
+  source_document_id: ppmt-00315
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-315
+- id: bank-000054
+  sim_day: 86
+  date: '2025-12-31'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '211398.09'
+  source_document_id: je-payroll-paid-00321
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-321
+- id: bank-000055
+  sim_day: 86
+  date: '2025-12-31'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '210898.09'
+  source_document_id: ppmt-00322
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-322
+- id: bank-000056
+  sim_day: 86
+  date: '2025-12-31'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '208989.06'
+  source_document_id: ppmt-00323
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-323
+- id: bank-000057
+  sim_day: 87
+  date: '2026-01-01'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '207080.03'
+  source_document_id: ppmt-00329
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-329
+- id: bank-000058
+  sim_day: 88
+  date: '2026-01-02'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '205171.00'
+  source_document_id: ppmt-00335
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-335
+- id: bank-000059
+  sim_day: 88
+  date: '2026-01-02'
+  amount: '-2605.21'
+  direction: credit
+  running_balance_amount: '202565.79'
+  source_document_id: ppmt-00336
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-336
+- id: bank-000060
+  sim_day: 88
+  date: '2026-01-02'
+  amount: '-542.21'
+  direction: credit
+  running_balance_amount: '202023.58'
+  source_document_id: ppmt-00337
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-337
+- id: bank-000061
+  sim_day: 89
+  date: '2026-01-03'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '200114.54'
+  source_document_id: ppmt-00343
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-343
+- id: bank-000062
+  sim_day: 89
+  date: '2026-01-03'
+  amount: '-542.21'
+  direction: credit
+  running_balance_amount: '199572.33'
+  source_document_id: ppmt-00344
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-344
+- id: bank-000063
+  sim_day: 89
+  date: '2026-01-03'
+  amount: '-690.41'
+  direction: credit
+  running_balance_amount: '198881.92'
+  source_document_id: ppmt-00345
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-345
+- id: bank-000064
+  sim_day: 89
+  date: '2026-01-03'
+  amount: '-1100.00'
+  direction: credit
+  running_balance_amount: '197781.92'
+  source_document_id: ppmt-00346
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-346
+- id: bank-000065
+  sim_day: 90
+  date: '2026-01-04'
+  amount: '-542.21'
+  direction: credit
+  running_balance_amount: '197239.71'
+  source_document_id: ppmt-00350
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-350
+- id: bank-000066
+  sim_day: 93
+  date: '2026-01-07'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '195739.71'
+  source_document_id: je-payroll-paid-00364
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-364
+- id: bank-000067
+  sim_day: 93
+  date: '2026-01-07'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '195239.71'
+  source_document_id: ppmt-00365
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-365
+- id: bank-000068
+  sim_day: 93
+  date: '2026-01-07'
+  amount: '-542.21'
+  direction: credit
+  running_balance_amount: '194697.50'
+  source_document_id: ppmt-00366
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-366
+- id: bank-000069
+  sim_day: 94
+  date: '2026-01-08'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '192788.47'
+  source_document_id: ppmt-00374
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-374
+- id: bank-000070
+  sim_day: 95
+  date: '2026-01-09'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '190879.44'
+  source_document_id: ppmt-00377
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-377
+- id: bank-000071
+  sim_day: 95
+  date: '2026-01-09'
+  amount: '-542.21'
+  direction: credit
+  running_balance_amount: '190337.23'
+  source_document_id: ppmt-00378
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-378
+- id: bank-000072
+  sim_day: 96
+  date: '2026-01-10'
+  amount: '-542.21'
+  direction: credit
+  running_balance_amount: '189795.02'
+  source_document_id: ppmt-00382
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-382
+- id: bank-000073
+  sim_day: 97
+  date: '2026-01-11'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '187885.99'
+  source_document_id: ppmt-00384
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-384
+- id: bank-000074
+  sim_day: 97
+  date: '2026-01-11'
+  amount: '-542.21'
+  direction: credit
+  running_balance_amount: '187343.78'
+  source_document_id: ppmt-00385
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-385
+- id: bank-000075
+  sim_day: 100
+  date: '2026-01-14'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '185843.78'
+  source_document_id: je-payroll-paid-00395
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-395
+- id: bank-000076
+  sim_day: 100
+  date: '2026-01-14'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '185343.78'
+  source_document_id: ppmt-00396
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-396
+- id: bank-000077
+  sim_day: 100
+  date: '2026-01-14'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '183434.74'
+  source_document_id: ppmt-00397
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-397
+- id: bank-000078
+  sim_day: 100
+  date: '2026-01-14'
+  amount: '-542.22'
+  direction: credit
+  running_balance_amount: '182892.52'
+  source_document_id: ppmt-00398
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-398
+- id: bank-000079
+  sim_day: 101
+  date: '2026-01-15'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '180983.49'
+  source_document_id: ppmt-00402
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-402
+- id: bank-000080
+  sim_day: 101
+  date: '2026-01-15'
+  amount: '4186.96'
+  direction: debit
+  running_balance_amount: '185170.45'
+  source_document_id: prcpt-00401
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-401
+- id: bank-000081
+  sim_day: 102
+  date: '2026-01-16'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '183261.42'
+  source_document_id: ppmt-00406
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-406
+- id: bank-000082
+  sim_day: 103
+  date: '2026-01-17'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '181352.38'
+  source_document_id: ppmt-00410
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-410
+- id: bank-000083
+  sim_day: 104
+  date: '2026-01-18'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '179443.35'
+  source_document_id: ppmt-00412
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-412
+- id: bank-000084
+  sim_day: 107
+  date: '2026-01-21'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '177943.35'
+  source_document_id: je-payroll-paid-00422
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-422
+- id: bank-000085
+  sim_day: 107
+  date: '2026-01-21'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '177443.35'
+  source_document_id: ppmt-00423
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-423
+- id: bank-000086
+  sim_day: 107
+  date: '2026-01-21'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '175534.32'
+  source_document_id: ppmt-00424
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-424
+- id: bank-000087
+  sim_day: 108
+  date: '2026-01-22'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '173625.29'
+  source_document_id: ppmt-00428
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-428
+- id: bank-000088
+  sim_day: 109
+  date: '2026-01-23'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '171716.25'
+  source_document_id: ppmt-00432
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-432
+- id: bank-000089
+  sim_day: 110
+  date: '2026-01-24'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '169807.22'
+  source_document_id: ppmt-00436
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-436
+- id: bank-000090
+  sim_day: 110
+  date: '2026-01-24'
+  amount: '-3256.52'
+  direction: credit
+  running_balance_amount: '166550.70'
+  source_document_id: ppmt-00437
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-437
+- id: bank-000091
+  sim_day: 110
+  date: '2026-01-24'
+  amount: '-503.13'
+  direction: credit
+  running_balance_amount: '166047.57'
+  source_document_id: ppmt-00438
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-438
+- id: bank-000092
+  sim_day: 111
+  date: '2026-01-25'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '164138.54'
+  source_document_id: ppmt-00440
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-440
+- id: bank-000093
+  sim_day: 111
+  date: '2026-01-25'
+  amount: '-503.13'
+  direction: credit
+  running_balance_amount: '163635.41'
+  source_document_id: ppmt-00441
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-441
+- id: bank-000094
+  sim_day: 114
+  date: '2026-01-28'
+  amount: '75750.00'
+  direction: debit
+  running_balance_amount: '239385.41'
+  source_document_id: je-deposit-00453
+  memo: Client deposit banked
+  kind: deposit_receipt
+  sim_event_ids:
+  - event-453
+- id: bank-000095
+  sim_day: 114
+  date: '2026-01-28'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '237885.41'
+  source_document_id: je-payroll-paid-00454
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-454
+- id: bank-000096
+  sim_day: 114
+  date: '2026-01-28'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '237385.41'
+  source_document_id: ppmt-00455
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-455
+- id: bank-000097
+  sim_day: 114
+  date: '2026-01-28'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '235476.37'
+  source_document_id: ppmt-00456
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-456
+- id: bank-000098
+  sim_day: 114
+  date: '2026-01-28'
+  amount: '-503.13'
+  direction: credit
+  running_balance_amount: '234973.24'
+  source_document_id: ppmt-00457
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-457
+- id: bank-000099
+  sim_day: 115
+  date: '2026-01-29'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '233064.21'
+  source_document_id: ppmt-00464
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-464
+- id: bank-000100
+  sim_day: 115
+  date: '2026-01-29'
+  amount: '-503.14'
+  direction: credit
+  running_balance_amount: '232561.07'
+  source_document_id: ppmt-00465
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-465
+- id: bank-000101
+  sim_day: 115
+  date: '2026-01-29'
+  amount: '4186.95'
+  direction: debit
+  running_balance_amount: '236748.02'
+  source_document_id: prcpt-00463
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-463
+- id: bank-000102
+  sim_day: 116
+  date: '2026-01-30'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '234838.99'
+  source_document_id: ppmt-00469
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-469
+- id: bank-000103
+  sim_day: 116
+  date: '2026-01-30'
+  amount: '-503.13'
+  direction: credit
+  running_balance_amount: '234335.86'
+  source_document_id: ppmt-00470
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-470
+- id: bank-000104
+  sim_day: 117
+  date: '2026-01-31'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '232426.83'
+  source_document_id: ppmt-00474
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-474
+- id: bank-000105
+  sim_day: 117
+  date: '2026-01-31'
+  amount: '-503.13'
+  direction: credit
+  running_balance_amount: '231923.70'
+  source_document_id: ppmt-00475
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-475
+- id: bank-000106
+  sim_day: 118
+  date: '2026-02-01'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '230014.66'
+  source_document_id: ppmt-00477
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-477
+- id: bank-000107
+  sim_day: 118
+  date: '2026-02-01'
+  amount: '-503.14'
+  direction: credit
+  running_balance_amount: '229511.52'
+  source_document_id: ppmt-00478
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-478
+- id: bank-000108
+  sim_day: 119
+  date: '2026-02-02'
+  amount: '-690.41'
+  direction: credit
+  running_balance_amount: '228821.11'
+  source_document_id: ppmt-00480
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-480
+- id: bank-000109
+  sim_day: 119
+  date: '2026-02-02'
+  amount: '-1100.00'
+  direction: credit
+  running_balance_amount: '227721.11'
+  source_document_id: ppmt-00481
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-481
+- id: bank-000110
+  sim_day: 121
+  date: '2026-02-04'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '226221.11'
+  source_document_id: je-payroll-paid-00492
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-492
+- id: bank-000111
+  sim_day: 121
+  date: '2026-02-04'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '225721.11'
+  source_document_id: ppmt-00493
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-493
+- id: bank-000112
+  sim_day: 121
+  date: '2026-02-04'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '223812.08'
+  source_document_id: ppmt-00494
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-494
+- id: bank-000113
+  sim_day: 121
+  date: '2026-02-04'
+  amount: '-503.13'
+  direction: credit
+  running_balance_amount: '223308.95'
+  source_document_id: ppmt-00495
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-495
+- id: bank-000114
+  sim_day: 122
+  date: '2026-02-05'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '221399.92'
+  source_document_id: ppmt-00499
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-499
+- id: bank-000115
+  sim_day: 122
+  date: '2026-02-05'
+  amount: '-503.13'
+  direction: credit
+  running_balance_amount: '220896.79'
+  source_document_id: ppmt-00500
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-500
+- id: bank-000116
+  sim_day: 123
+  date: '2026-02-06'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '218987.76'
+  source_document_id: ppmt-00504
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-504
+- id: bank-000117
+  sim_day: 123
+  date: '2026-02-06'
+  amount: '-503.14'
+  direction: credit
+  running_balance_amount: '218484.62'
+  source_document_id: ppmt-00505
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-505
+- id: bank-000118
+  sim_day: 125
+  date: '2026-02-08'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '216575.58'
+  source_document_id: ppmt-00511
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-511
+- id: bank-000119
+  sim_day: 128
+  date: '2026-02-11'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '215075.58'
+  source_document_id: je-payroll-paid-00526
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-526
+- id: bank-000120
+  sim_day: 128
+  date: '2026-02-11'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '214575.58'
+  source_document_id: ppmt-00527
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-527
+- id: bank-000121
+  sim_day: 128
+  date: '2026-02-11'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '212666.55'
+  source_document_id: ppmt-00528
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-528
+- id: bank-000122
+  sim_day: 129
+  date: '2026-02-12'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '210757.52'
+  source_document_id: ppmt-00534
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-534
+- id: bank-000123
+  sim_day: 131
+  date: '2026-02-14'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '208848.48'
+  source_document_id: ppmt-00544
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-544
+- id: bank-000124
+  sim_day: 132
+  date: '2026-02-15'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '206939.45'
+  source_document_id: ppmt-00546
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-546
+- id: bank-000125
+  sim_day: 135
+  date: '2026-02-18'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '205439.45'
+  source_document_id: je-payroll-paid-00560
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-560
+- id: bank-000126
+  sim_day: 135
+  date: '2026-02-18'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '204939.45'
+  source_document_id: ppmt-00561
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-561
+- id: bank-000127
+  sim_day: 135
+  date: '2026-02-18'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '203030.42'
+  source_document_id: ppmt-00562
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-562
+- id: bank-000128
+  sim_day: 136
+  date: '2026-02-19'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '201121.39'
+  source_document_id: ppmt-00568
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-568
+- id: bank-000129
+  sim_day: 137
+  date: '2026-02-20'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '199212.35'
+  source_document_id: ppmt-00575
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-575
+- id: bank-000130
+  sim_day: 137
+  date: '2026-02-20'
+  amount: '5233.71'
+  direction: debit
+  running_balance_amount: '204446.06'
+  source_document_id: prcpt-00574
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-574
+- id: bank-000131
+  sim_day: 138
+  date: '2026-02-21'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '202537.03'
+  source_document_id: ppmt-00580
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-580
+- id: bank-000132
+  sim_day: 139
+  date: '2026-02-22'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '200628.00'
+  source_document_id: ppmt-00582
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-582
+- id: bank-000133
+  sim_day: 142
+  date: '2026-02-25'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '199128.00'
+  source_document_id: je-payroll-paid-00598
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-598
+- id: bank-000134
+  sim_day: 142
+  date: '2026-02-25'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '198628.00'
+  source_document_id: ppmt-00599
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-599
+- id: bank-000135
+  sim_day: 142
+  date: '2026-02-25'
+  amount: '-1000.00'
+  direction: credit
+  running_balance_amount: '197628.00'
+  source_document_id: ppmt-00600
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-600
+- id: bank-000136
+  sim_day: 142
+  date: '2026-02-25'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '195718.96'
+  source_document_id: ppmt-00601
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-601
+- id: bank-000137
+  sim_day: 142
+  date: '2026-02-25'
+  amount: '290.76'
+  direction: debit
+  running_balance_amount: '196009.72'
+  source_document_id: prcpt-00597
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-597
+- id: bank-000138
+  sim_day: 143
+  date: '2026-02-26'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '194100.69'
+  source_document_id: ppmt-00607
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-607
+- id: bank-000139
+  sim_day: 144
+  date: '2026-02-27'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '192191.66'
+  source_document_id: ppmt-00613
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-613
+- id: bank-000140
+  sim_day: 145
+  date: '2026-02-28'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '190282.63'
+  source_document_id: ppmt-00619
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-619
+- id: bank-000141
+  sim_day: 146
+  date: '2026-03-01'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '188373.59'
+  source_document_id: ppmt-00621
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-621
+- id: bank-000142
+  sim_day: 149
+  date: '2026-03-04'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '186873.59'
+  source_document_id: je-payroll-paid-00634
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-634
+- id: bank-000143
+  sim_day: 149
+  date: '2026-03-04'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '186373.59'
+  source_document_id: ppmt-00635
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-635
+- id: bank-000144
+  sim_day: 149
+  date: '2026-03-04'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '184464.56'
+  source_document_id: ppmt-00636
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-636
+- id: bank-000145
+  sim_day: 149
+  date: '2026-03-04'
+  amount: '-690.41'
+  direction: credit
+  running_balance_amount: '183774.15'
+  source_document_id: ppmt-00637
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-637
+- id: bank-000146
+  sim_day: 149
+  date: '2026-03-04'
+  amount: '-815.00'
+  direction: credit
+  running_balance_amount: '182959.15'
+  source_document_id: ppmt-00638
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-638
+- id: bank-000147
+  sim_day: 150
+  date: '2026-03-05'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '181050.12'
+  source_document_id: ppmt-00646
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-646
+- id: bank-000148
+  sim_day: 151
+  date: '2026-03-06'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '179141.09'
+  source_document_id: ppmt-00654
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-654
+- id: bank-000149
+  sim_day: 151
+  date: '2026-03-06'
+  amount: '5233.70'
+  direction: debit
+  running_balance_amount: '184374.79'
+  source_document_id: prcpt-00653
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-653
+- id: bank-000150
+  sim_day: 152
+  date: '2026-03-07'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '182465.75'
+  source_document_id: ppmt-00662
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-662
+- id: bank-000151
+  sim_day: 153
+  date: '2026-03-08'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '180556.72'
+  source_document_id: ppmt-00666
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-666
+- id: bank-000152
+  sim_day: 154
+  date: '2026-03-09'
+  amount: '-20200.00'
+  direction: credit
+  running_balance_amount: '160356.72'
+  source_document_id: ppmt-00669
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-669
+- id: bank-000153
+  sim_day: 154
+  date: '2026-03-09'
+  amount: '465.22'
+  direction: debit
+  running_balance_amount: '160821.94'
+  source_document_id: prcpt-00668
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-668
+- id: bank-000154
+  sim_day: 156
+  date: '2026-03-11'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '159321.94'
+  source_document_id: je-payroll-paid-00675
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-675
+- id: bank-000155
+  sim_day: 156
+  date: '2026-03-11'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '158821.94'
+  source_document_id: ppmt-00676
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-676
+- id: bank-000156
+  sim_day: 156
+  date: '2026-03-11'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '156912.91'
+  source_document_id: ppmt-00677
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-677
+- id: bank-000157
+  sim_day: 156
+  date: '2026-03-11'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '155382.76'
+  source_document_id: ppmt-00678
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-678
+- id: bank-000158
+  sim_day: 156
+  date: '2026-03-11'
+  amount: '290.76'
+  direction: debit
+  running_balance_amount: '155673.52'
+  source_document_id: prcpt-00674
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-674
+- id: bank-000159
+  sim_day: 157
+  date: '2026-03-12'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '153764.48'
+  source_document_id: ppmt-00680
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-680
+- id: bank-000160
+  sim_day: 157
+  date: '2026-03-12'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '152234.33'
+  source_document_id: ppmt-00681
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-681
+- id: bank-000161
+  sim_day: 158
+  date: '2026-03-13'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '150325.30'
+  source_document_id: ppmt-00683
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-683
+- id: bank-000162
+  sim_day: 158
+  date: '2026-03-13'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '148795.15'
+  source_document_id: ppmt-00684
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-684
+- id: bank-000163
+  sim_day: 159
+  date: '2026-03-14'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '147265.00'
+  source_document_id: ppmt-00686
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-686
+- id: bank-000164
+  sim_day: 160
+  date: '2026-03-15'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '145355.97'
+  source_document_id: ppmt-00688
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-688
+- id: bank-000165
+  sim_day: 160
+  date: '2026-03-15'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '143825.82'
+  source_document_id: ppmt-00689
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-689
+- id: bank-000166
+  sim_day: 163
+  date: '2026-03-18'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '142325.82'
+  source_document_id: je-payroll-paid-00702
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-702
+- id: bank-000167
+  sim_day: 163
+  date: '2026-03-18'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '141825.82'
+  source_document_id: ppmt-00703
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-703
+- id: bank-000168
+  sim_day: 163
+  date: '2026-03-18'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '139916.79'
+  source_document_id: ppmt-00704
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-704
+- id: bank-000169
+  sim_day: 163
+  date: '2026-03-18'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '138386.64'
+  source_document_id: ppmt-00705
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-705
+- id: bank-000170
+  sim_day: 164
+  date: '2026-03-19'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '136477.60'
+  source_document_id: ppmt-00710
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-710
+- id: bank-000171
+  sim_day: 164
+  date: '2026-03-19'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '134947.45'
+  source_document_id: ppmt-00711
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-711
+- id: bank-000172
+  sim_day: 165
+  date: '2026-03-20'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '133038.42'
+  source_document_id: ppmt-00718
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-718
+- id: bank-000173
+  sim_day: 165
+  date: '2026-03-20'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '131508.27'
+  source_document_id: ppmt-00719
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-719
+- id: bank-000174
+  sim_day: 166
+  date: '2026-03-21'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '129599.24'
+  source_document_id: ppmt-00724
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-724
+- id: bank-000175
+  sim_day: 166
+  date: '2026-03-21'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '128069.09'
+  source_document_id: ppmt-00725
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-725
+- id: bank-000176
+  sim_day: 167
+  date: '2026-03-22'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '126538.94'
+  source_document_id: ppmt-00728
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-728
+- id: bank-000177
+  sim_day: 167
+  date: '2026-03-22'
+  amount: '581.52'
+  direction: debit
+  running_balance_amount: '127120.46'
+  source_document_id: prcpt-00727
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-727
+- id: bank-000178
+  sim_day: 168
+  date: '2026-03-23'
+  amount: '465.21'
+  direction: debit
+  running_balance_amount: '127585.67'
+  source_document_id: prcpt-00730
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-730
+- id: bank-000179
+  sim_day: 170
+  date: '2026-03-25'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '126085.67'
+  source_document_id: je-payroll-paid-00744
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-744
+- id: bank-000180
+  sim_day: 170
+  date: '2026-03-25'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '125585.67'
+  source_document_id: ppmt-00745
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-745
+- id: bank-000181
+  sim_day: 170
+  date: '2026-03-25'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '123676.63'
+  source_document_id: ppmt-00746
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-746
+- id: bank-000182
+  sim_day: 170
+  date: '2026-03-25'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '122146.48'
+  source_document_id: ppmt-00747
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-747
+- id: bank-000183
+  sim_day: 171
+  date: '2026-03-26'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '120237.45'
+  source_document_id: ppmt-00753
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-753
+- id: bank-000184
+  sim_day: 171
+  date: '2026-03-26'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '118707.30'
+  source_document_id: ppmt-00754
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-754
+- id: bank-000185
+  sim_day: 172
+  date: '2026-03-27'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '116798.27'
+  source_document_id: ppmt-00760
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-760
+- id: bank-000186
+  sim_day: 172
+  date: '2026-03-27'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '115268.12'
+  source_document_id: ppmt-00761
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-761
+- id: bank-000187
+  sim_day: 173
+  date: '2026-03-28'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '113359.09'
+  source_document_id: ppmt-00767
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-767
+- id: bank-000188
+  sim_day: 173
+  date: '2026-03-28'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '111828.94'
+  source_document_id: ppmt-00768
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-768
+- id: bank-000189
+  sim_day: 174
+  date: '2026-03-29'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '109919.90'
+  source_document_id: ppmt-00770
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-770
+- id: bank-000190
+  sim_day: 174
+  date: '2026-03-29'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '108389.75'
+  source_document_id: ppmt-00771
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-771
+- id: bank-000191
+  sim_day: 177
+  date: '2026-04-01'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '106889.75'
+  source_document_id: je-payroll-paid-00784
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-784
+- id: bank-000192
+  sim_day: 177
+  date: '2026-04-01'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '106389.75'
+  source_document_id: ppmt-00785
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-785
+- id: bank-000193
+  sim_day: 177
+  date: '2026-04-01'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '104480.72'
+  source_document_id: ppmt-00786
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-786
+- id: bank-000194
+  sim_day: 177
+  date: '2026-04-01'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '102950.57'
+  source_document_id: ppmt-00787
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-787
+- id: bank-000195
+  sim_day: 178
+  date: '2026-04-02'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '101420.42'
+  source_document_id: ppmt-00793
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-793
+- id: bank-000196
+  sim_day: 179
+  date: '2026-04-03'
+  amount: '-1909.03'
+  direction: credit
+  running_balance_amount: '99511.39'
+  source_document_id: ppmt-00798
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-798
+- id: bank-000197
+  sim_day: 179
+  date: '2026-04-03'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '97981.24'
+  source_document_id: ppmt-00799
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-799
+- id: bank-000198
+  sim_day: 179
+  date: '2026-04-03'
+  amount: '-690.41'
+  direction: credit
+  running_balance_amount: '97290.83'
+  source_document_id: ppmt-00800
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-800
+- id: bank-000199
+  sim_day: 179
+  date: '2026-04-03'
+  amount: '-1100.00'
+  direction: credit
+  running_balance_amount: '96190.83'
+  source_document_id: ppmt-00801
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-801
+- id: bank-000200
+  sim_day: 180
+  date: '2026-04-04'
+  amount: '-1909.04'
+  direction: credit
+  running_balance_amount: '94281.79'
+  source_document_id: ppmt-00809
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-809
+- id: bank-000201
+  sim_day: 180
+  date: '2026-04-04'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '92751.64'
+  source_document_id: ppmt-00810
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-810
+- id: bank-000202
+  sim_day: 181
+  date: '2026-04-05'
+  amount: '-1530.15'
+  direction: credit
+  running_balance_amount: '91221.49'
+  source_document_id: ppmt-00813
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-813
+- id: bank-000203
+  sim_day: 181
+  date: '2026-04-05'
+  amount: '581.52'
+  direction: debit
+  running_balance_amount: '91803.01'
+  source_document_id: prcpt-00812
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-812
+- id: bank-000204
+  sim_day: 184
+  date: '2026-04-08'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '90303.01'
+  source_document_id: je-payroll-paid-00827
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-827
+- id: bank-000205
+  sim_day: 184
+  date: '2026-04-08'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '89803.01'
+  source_document_id: ppmt-00828
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-828
+- id: bank-000206
+  sim_day: 190
+  date: '2026-04-14'
+  amount: '-22800.00'
+  direction: credit
+  running_balance_amount: '67003.01'
+  source_document_id: ppmt-00853
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-853
+- id: bank-000207
+  sim_day: 191
+  date: '2026-04-15'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '65503.01'
+  source_document_id: je-payroll-paid-00859
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-859
+- id: bank-000208
+  sim_day: 191
+  date: '2026-04-15'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '65003.01'
+  source_document_id: ppmt-00860
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-860
+- id: bank-000209
+  sim_day: 191
+  date: '2026-04-15'
+  amount: '-1895.90'
+  direction: credit
+  running_balance_amount: '63107.11'
+  source_document_id: ppmt-00861
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-861
+- id: bank-000210
+  sim_day: 191
+  date: '2026-04-15'
+  amount: '92065.94'
+  direction: debit
+  running_balance_amount: '155173.05'
+  source_document_id: prcpt-00858
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-858
+- id: bank-000211
+  sim_day: 192
+  date: '2026-04-16'
+  amount: '-45450.00'
+  direction: credit
+  running_balance_amount: '109723.05'
+  source_document_id: ppmt-00867
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-867
+- id: bank-000212
+  sim_day: 193
+  date: '2026-04-17'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '107827.14'
+  source_document_id: ppmt-00872
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-872
+- id: bank-000213
+  sim_day: 194
+  date: '2026-04-18'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '105931.23'
+  source_document_id: ppmt-00878
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-878
+- id: bank-000214
+  sim_day: 194
+  date: '2026-04-18'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '104552.58'
+  source_document_id: ppmt-00879
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-879
+- id: bank-000215
+  sim_day: 195
+  date: '2026-04-19'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '103173.93'
+  source_document_id: ppmt-00881
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-881
+- id: bank-000216
+  sim_day: 198
+  date: '2026-04-22'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '101673.93'
+  source_document_id: je-payroll-paid-00896
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-896
+- id: bank-000217
+  sim_day: 198
+  date: '2026-04-22'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '101173.93'
+  source_document_id: ppmt-00897
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-897
+- id: bank-000218
+  sim_day: 198
+  date: '2026-04-22'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '99278.02'
+  source_document_id: ppmt-00898
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-898
+- id: bank-000219
+  sim_day: 198
+  date: '2026-04-22'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '97899.37'
+  source_document_id: ppmt-00899
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-899
+- id: bank-000220
+  sim_day: 199
+  date: '2026-04-23'
+  amount: '-1895.90'
+  direction: credit
+  running_balance_amount: '96003.47'
+  source_document_id: ppmt-00905
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-905
+- id: bank-000221
+  sim_day: 199
+  date: '2026-04-23'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '94624.82'
+  source_document_id: ppmt-00906
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-906
+- id: bank-000222
+  sim_day: 200
+  date: '2026-04-24'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '92728.91'
+  source_document_id: ppmt-00911
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-911
+- id: bank-000223
+  sim_day: 200
+  date: '2026-04-24'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '91350.26'
+  source_document_id: ppmt-00912
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-912
+- id: bank-000224
+  sim_day: 201
+  date: '2026-04-25'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '89454.35'
+  source_document_id: ppmt-00919
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-919
+- id: bank-000225
+  sim_day: 201
+  date: '2026-04-25'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '88075.70'
+  source_document_id: ppmt-00920
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-920
+- id: bank-000226
+  sim_day: 202
+  date: '2026-04-26'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '86179.79'
+  source_document_id: ppmt-00924
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-924
+- id: bank-000227
+  sim_day: 202
+  date: '2026-04-26'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '84801.14'
+  source_document_id: ppmt-00925
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-925
+- id: bank-000228
+  sim_day: 205
+  date: '2026-04-29'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '83301.14'
+  source_document_id: je-payroll-paid-00936
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-936
+- id: bank-000229
+  sim_day: 205
+  date: '2026-04-29'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '82801.14'
+  source_document_id: ppmt-00937
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-937
+- id: bank-000230
+  sim_day: 205
+  date: '2026-04-29'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '81422.49'
+  source_document_id: ppmt-00938
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-938
+- id: bank-000231
+  sim_day: 205
+  date: '2026-04-29'
+  amount: '92065.94'
+  direction: debit
+  running_balance_amount: '173488.43'
+  source_document_id: prcpt-00935
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-935
+- id: bank-000232
+  sim_day: 206
+  date: '2026-04-30'
+  amount: '-1895.90'
+  direction: credit
+  running_balance_amount: '171592.53'
+  source_document_id: ppmt-00941
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-941
+- id: bank-000233
+  sim_day: 206
+  date: '2026-04-30'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '170213.88'
+  source_document_id: ppmt-00942
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-942
+- id: bank-000234
+  sim_day: 207
+  date: '2026-05-01'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '168317.97'
+  source_document_id: ppmt-00946
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-946
+- id: bank-000235
+  sim_day: 207
+  date: '2026-05-01'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '166939.32'
+  source_document_id: ppmt-00947
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-947
+- id: bank-000236
+  sim_day: 208
+  date: '2026-05-02'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '165560.67'
+  source_document_id: ppmt-00951
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-951
+- id: bank-000237
+  sim_day: 209
+  date: '2026-05-03'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '163664.76'
+  source_document_id: ppmt-00953
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-953
+- id: bank-000238
+  sim_day: 209
+  date: '2026-05-03'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '162286.11'
+  source_document_id: ppmt-00954
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-954
+- id: bank-000239
+  sim_day: 209
+  date: '2026-05-03'
+  amount: '-690.41'
+  direction: credit
+  running_balance_amount: '161595.70'
+  source_document_id: ppmt-00955
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-955
+- id: bank-000240
+  sim_day: 209
+  date: '2026-05-03'
+  amount: '-1100.00'
+  direction: credit
+  running_balance_amount: '160495.70'
+  source_document_id: ppmt-00956
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-956
+- id: bank-000241
+  sim_day: 212
+  date: '2026-05-06'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '158995.70'
+  source_document_id: je-payroll-paid-00974
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-974
+- id: bank-000242
+  sim_day: 212
+  date: '2026-05-06'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '158495.70'
+  source_document_id: ppmt-00975
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-975
+- id: bank-000243
+  sim_day: 212
+  date: '2026-05-06'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '156599.79'
+  source_document_id: ppmt-00976
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-976
+- id: bank-000244
+  sim_day: 212
+  date: '2026-05-06'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '155221.14'
+  source_document_id: ppmt-00977
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-977
+- id: bank-000245
+  sim_day: 213
+  date: '2026-05-07'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '153325.23'
+  source_document_id: ppmt-00983
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-983
+- id: bank-000246
+  sim_day: 213
+  date: '2026-05-07'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '151946.58'
+  source_document_id: ppmt-00984
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-984
+- id: bank-000247
+  sim_day: 214
+  date: '2026-05-08'
+  amount: '-1895.90'
+  direction: credit
+  running_balance_amount: '150050.68'
+  source_document_id: ppmt-00990
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-990
+- id: bank-000248
+  sim_day: 214
+  date: '2026-05-08'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '148672.03'
+  source_document_id: ppmt-00991
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-991
+- id: bank-000249
+  sim_day: 215
+  date: '2026-05-09'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '146776.12'
+  source_document_id: ppmt-00997
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-997
+- id: bank-000250
+  sim_day: 215
+  date: '2026-05-09'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '145397.47'
+  source_document_id: ppmt-00998
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-998
+- id: bank-000251
+  sim_day: 216
+  date: '2026-05-10'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '143501.56'
+  source_document_id: ppmt-01000
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1000
+- id: bank-000252
+  sim_day: 216
+  date: '2026-05-10'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '142122.91'
+  source_document_id: ppmt-01001
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1001
+- id: bank-000253
+  sim_day: 219
+  date: '2026-05-13'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '140622.91'
+  source_document_id: je-payroll-paid-01015
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1015
+- id: bank-000254
+  sim_day: 219
+  date: '2026-05-13'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '140122.91'
+  source_document_id: ppmt-01016
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1016
+- id: bank-000255
+  sim_day: 219
+  date: '2026-05-13'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '138227.00'
+  source_document_id: ppmt-01017
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1017
+- id: bank-000256
+  sim_day: 219
+  date: '2026-05-13'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '136848.35'
+  source_document_id: ppmt-01018
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1018
+- id: bank-000257
+  sim_day: 220
+  date: '2026-05-14'
+  amount: '-1895.90'
+  direction: credit
+  running_balance_amount: '134952.45'
+  source_document_id: ppmt-01023
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1023
+- id: bank-000258
+  sim_day: 221
+  date: '2026-05-15'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '133056.54'
+  source_document_id: ppmt-01029
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1029
+- id: bank-000259
+  sim_day: 221
+  date: '2026-05-15'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '131677.89'
+  source_document_id: ppmt-01030
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1030
+- id: bank-000260
+  sim_day: 222
+  date: '2026-05-16'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '129781.98'
+  source_document_id: ppmt-01036
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1036
+- id: bank-000261
+  sim_day: 223
+  date: '2026-05-17'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '127886.07'
+  source_document_id: ppmt-01038
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1038
+- id: bank-000262
+  sim_day: 223
+  date: '2026-05-17'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '126507.42'
+  source_document_id: ppmt-01039
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1039
+- id: bank-000263
+  sim_day: 226
+  date: '2026-05-20'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '125007.42'
+  source_document_id: je-payroll-paid-01054
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1054
+- id: bank-000264
+  sim_day: 226
+  date: '2026-05-20'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '124507.42'
+  source_document_id: ppmt-01055
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1055
+- id: bank-000265
+  sim_day: 226
+  date: '2026-05-20'
+  amount: '-1895.90'
+  direction: credit
+  running_balance_amount: '122611.52'
+  source_document_id: ppmt-01056
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1056
+- id: bank-000266
+  sim_day: 226
+  date: '2026-05-20'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '121232.87'
+  source_document_id: ppmt-01057
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1057
+- id: bank-000267
+  sim_day: 227
+  date: '2026-05-21'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '119336.96'
+  source_document_id: ppmt-01063
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1063
+- id: bank-000268
+  sim_day: 227
+  date: '2026-05-21'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '117958.31'
+  source_document_id: ppmt-01064
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1064
+- id: bank-000269
+  sim_day: 228
+  date: '2026-05-22'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '116062.40'
+  source_document_id: ppmt-01070
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1070
+- id: bank-000270
+  sim_day: 228
+  date: '2026-05-22'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '114683.75'
+  source_document_id: ppmt-01071
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1071
+- id: bank-000271
+  sim_day: 229
+  date: '2026-05-23'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '112787.84'
+  source_document_id: ppmt-01077
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1077
+- id: bank-000272
+  sim_day: 230
+  date: '2026-05-24'
+  amount: '-1895.91'
+  direction: credit
+  running_balance_amount: '110891.93'
+  source_document_id: ppmt-01079
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1079
+- id: bank-000273
+  sim_day: 230
+  date: '2026-05-24'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '109513.28'
+  source_document_id: ppmt-01080
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1080
+- id: bank-000274
+  sim_day: 233
+  date: '2026-05-27'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '108013.28'
+  source_document_id: je-payroll-paid-01093
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1093
+- id: bank-000275
+  sim_day: 233
+  date: '2026-05-27'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '107513.28'
+  source_document_id: ppmt-01094
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1094
+- id: bank-000276
+  sim_day: 233
+  date: '2026-05-27'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '106134.63'
+  source_document_id: ppmt-01095
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1095
+- id: bank-000277
+  sim_day: 234
+  date: '2026-05-28'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '104755.98'
+  source_document_id: ppmt-01101
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1101
+- id: bank-000278
+  sim_day: 236
+  date: '2026-05-30'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '103377.33'
+  source_document_id: ppmt-01113
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1113
+- id: bank-000279
+  sim_day: 237
+  date: '2026-05-31'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '101998.68'
+  source_document_id: ppmt-01116
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1116
+- id: bank-000280
+  sim_day: 237
+  date: '2026-05-31'
+  amount: '43401.64'
+  direction: debit
+  running_balance_amount: '145400.32'
+  source_document_id: prcpt-01115
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-1115
+- id: bank-000281
+  sim_day: 239
+  date: '2026-06-02'
+  amount: '-22800.00'
+  direction: credit
+  running_balance_amount: '122600.32'
+  source_document_id: ppmt-01123
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1123
+- id: bank-000282
+  sim_day: 239
+  date: '2026-06-02'
+  amount: '-690.41'
+  direction: credit
+  running_balance_amount: '121909.91'
+  source_document_id: ppmt-01124
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1124
+- id: bank-000283
+  sim_day: 239
+  date: '2026-06-02'
+  amount: '-1100.00'
+  direction: credit
+  running_balance_amount: '120809.91'
+  source_document_id: ppmt-01125
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1125
+- id: bank-000284
+  sim_day: 240
+  date: '2026-06-03'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '119309.91'
+  source_document_id: je-payroll-paid-01132
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1132
+- id: bank-000285
+  sim_day: 240
+  date: '2026-06-03'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '118809.91'
+  source_document_id: ppmt-01133
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1133
+- id: bank-000286
+  sim_day: 240
+  date: '2026-06-03'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '117348.64'
+  source_document_id: ppmt-01134
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1134
+- id: bank-000287
+  sim_day: 240
+  date: '2026-06-03'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '115969.99'
+  source_document_id: ppmt-01135
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1135
+- id: bank-000288
+  sim_day: 241
+  date: '2026-06-04'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '114508.72'
+  source_document_id: ppmt-01139
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1139
+- id: bank-000289
+  sim_day: 241
+  date: '2026-06-04'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '113130.07'
+  source_document_id: ppmt-01140
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1140
+- id: bank-000290
+  sim_day: 242
+  date: '2026-06-05'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '111668.80'
+  source_document_id: ppmt-01142
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1142
+- id: bank-000291
+  sim_day: 242
+  date: '2026-06-05'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '110290.15'
+  source_document_id: ppmt-01143
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1143
+- id: bank-000292
+  sim_day: 243
+  date: '2026-06-06'
+  amount: '-1461.28'
+  direction: credit
+  running_balance_amount: '108828.87'
+  source_document_id: ppmt-01145
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1145
+- id: bank-000293
+  sim_day: 243
+  date: '2026-06-06'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '107450.22'
+  source_document_id: ppmt-01146
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1146
+- id: bank-000294
+  sim_day: 244
+  date: '2026-06-07'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '105988.95'
+  source_document_id: ppmt-01148
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1148
+- id: bank-000295
+  sim_day: 244
+  date: '2026-06-07'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '104610.30'
+  source_document_id: ppmt-01149
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1149
+- id: bank-000296
+  sim_day: 247
+  date: '2026-06-10'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '103110.30'
+  source_document_id: je-payroll-paid-01159
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1159
+- id: bank-000297
+  sim_day: 247
+  date: '2026-06-10'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '102610.30'
+  source_document_id: ppmt-01160
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1160
+- id: bank-000298
+  sim_day: 247
+  date: '2026-06-10'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '101149.03'
+  source_document_id: ppmt-01161
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1161
+- id: bank-000299
+  sim_day: 247
+  date: '2026-06-10'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '99770.38'
+  source_document_id: ppmt-01162
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1162
+- id: bank-000300
+  sim_day: 248
+  date: '2026-06-11'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '98309.11'
+  source_document_id: ppmt-01166
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1166
+- id: bank-000301
+  sim_day: 248
+  date: '2026-06-11'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '96930.46'
+  source_document_id: ppmt-01167
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1167
+- id: bank-000302
+  sim_day: 249
+  date: '2026-06-12'
+  amount: '-1461.28'
+  direction: credit
+  running_balance_amount: '95469.18'
+  source_document_id: ppmt-01171
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1171
+- id: bank-000303
+  sim_day: 250
+  date: '2026-06-13'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '94007.91'
+  source_document_id: ppmt-01175
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1175
+- id: bank-000304
+  sim_day: 250
+  date: '2026-06-13'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '92629.26'
+  source_document_id: ppmt-01176
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1176
+- id: bank-000305
+  sim_day: 251
+  date: '2026-06-14'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '91167.99'
+  source_document_id: ppmt-01179
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1179
+- id: bank-000306
+  sim_day: 251
+  date: '2026-06-14'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '89789.34'
+  source_document_id: ppmt-01180
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1180
+- id: bank-000307
+  sim_day: 251
+  date: '2026-06-14'
+  amount: '43401.63'
+  direction: debit
+  running_balance_amount: '133190.97'
+  source_document_id: prcpt-01178
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-1178
+- id: bank-000308
+  sim_day: 254
+  date: '2026-06-17'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '131690.97'
+  source_document_id: je-payroll-paid-01197
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1197
+- id: bank-000309
+  sim_day: 254
+  date: '2026-06-17'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '131190.97'
+  source_document_id: ppmt-01198
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1198
+- id: bank-000310
+  sim_day: 254
+  date: '2026-06-17'
+  amount: '-1461.28'
+  direction: credit
+  running_balance_amount: '129729.69'
+  source_document_id: ppmt-01199
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1199
+- id: bank-000311
+  sim_day: 254
+  date: '2026-06-17'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '128351.04'
+  source_document_id: ppmt-01200
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1200
+- id: bank-000312
+  sim_day: 255
+  date: '2026-06-18'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '126889.77'
+  source_document_id: ppmt-01207
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1207
+- id: bank-000313
+  sim_day: 255
+  date: '2026-06-18'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '125511.12'
+  source_document_id: ppmt-01208
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1208
+- id: bank-000314
+  sim_day: 255
+  date: '2026-06-18'
+  amount: '67633.93'
+  direction: debit
+  running_balance_amount: '193145.05'
+  source_document_id: prcpt-01206
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-1206
+- id: bank-000315
+  sim_day: 256
+  date: '2026-06-19'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '191683.78'
+  source_document_id: ppmt-01213
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1213
+- id: bank-000316
+  sim_day: 256
+  date: '2026-06-19'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '190305.13'
+  source_document_id: ppmt-01214
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1214
+- id: bank-000317
+  sim_day: 257
+  date: '2026-06-20'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '188843.86'
+  source_document_id: ppmt-01220
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1220
+- id: bank-000318
+  sim_day: 257
+  date: '2026-06-20'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '187465.21'
+  source_document_id: ppmt-01221
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1221
+- id: bank-000319
+  sim_day: 258
+  date: '2026-06-21'
+  amount: '-1461.28'
+  direction: credit
+  running_balance_amount: '186003.93'
+  source_document_id: ppmt-01223
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1223
+- id: bank-000320
+  sim_day: 258
+  date: '2026-06-21'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '184625.28'
+  source_document_id: ppmt-01224
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1224
+- id: bank-000321
+  sim_day: 259
+  date: '2026-06-22'
+  amount: '36642.86'
+  direction: debit
+  running_balance_amount: '221268.14'
+  source_document_id: prcpt-01226
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-1226
+- id: bank-000322
+  sim_day: 261
+  date: '2026-06-24'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '219768.14'
+  source_document_id: je-payroll-paid-01237
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1237
+- id: bank-000323
+  sim_day: 261
+  date: '2026-06-24'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '219268.14'
+  source_document_id: ppmt-01238
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1238
+- id: bank-000324
+  sim_day: 261
+  date: '2026-06-24'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '217806.87'
+  source_document_id: ppmt-01239
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1239
+- id: bank-000325
+  sim_day: 261
+  date: '2026-06-24'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '216428.22'
+  source_document_id: ppmt-01240
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1240
+- id: bank-000326
+  sim_day: 262
+  date: '2026-06-25'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '214966.95'
+  source_document_id: ppmt-01245
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1245
+- id: bank-000327
+  sim_day: 263
+  date: '2026-06-26'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '213505.68'
+  source_document_id: ppmt-01251
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1251
+- id: bank-000328
+  sim_day: 263
+  date: '2026-06-26'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '212127.03'
+  source_document_id: ppmt-01252
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1252
+- id: bank-000329
+  sim_day: 264
+  date: '2026-06-27'
+  amount: '-1461.28'
+  direction: credit
+  running_balance_amount: '210665.75'
+  source_document_id: ppmt-01258
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1258
+- id: bank-000330
+  sim_day: 264
+  date: '2026-06-27'
+  amount: '-1378.65'
+  direction: credit
+  running_balance_amount: '209287.10'
+  source_document_id: ppmt-01259
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1259
+- id: bank-000331
+  sim_day: 265
+  date: '2026-06-28'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '207825.83'
+  source_document_id: ppmt-01261
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1261
+- id: bank-000332
+  sim_day: 268
+  date: '2026-07-01'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '206325.83'
+  source_document_id: je-payroll-paid-01274
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1274
+- id: bank-000333
+  sim_day: 268
+  date: '2026-07-01'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '205825.83'
+  source_document_id: ppmt-01275
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1275
+- id: bank-000334
+  sim_day: 268
+  date: '2026-07-01'
+  amount: '-1461.27'
+  direction: credit
+  running_balance_amount: '204364.56'
+  source_document_id: ppmt-01276
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1276
+- id: bank-000335
+  sim_day: 269
+  date: '2026-07-02'
+  amount: '-1461.28'
+  direction: credit
+  running_balance_amount: '202903.28'
+  source_document_id: ppmt-01283
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1283
+- id: bank-000336
+  sim_day: 269
+  date: '2026-07-02'
+  amount: '-690.41'
+  direction: credit
+  running_balance_amount: '202212.87'
+  source_document_id: ppmt-01284
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1284
+- id: bank-000337
+  sim_day: 269
+  date: '2026-07-02'
+  amount: '-1100.00'
+  direction: credit
+  running_balance_amount: '201112.87'
+  source_document_id: ppmt-01285
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1285
+- id: bank-000338
+  sim_day: 269
+  date: '2026-07-02'
+  amount: '67633.92'
+  direction: debit
+  running_balance_amount: '268746.79'
+  source_document_id: prcpt-01282
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-1282
+- id: bank-000339
+  sim_day: 273
+  date: '2026-07-06'
+  amount: '36642.86'
+  direction: debit
+  running_balance_amount: '305389.65'
+  source_document_id: prcpt-01299
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-1299
+- id: bank-000340
+  sim_day: 275
+  date: '2026-07-08'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '303889.65'
+  source_document_id: je-payroll-paid-01312
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1312
+- id: bank-000341
+  sim_day: 275
+  date: '2026-07-08'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '303389.65'
+  source_document_id: ppmt-01313
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1313
+- id: bank-000342
+  sim_day: 276
+  date: '2026-07-09'
+  amount: '-20200.00'
+  direction: credit
+  running_balance_amount: '283189.65'
+  source_document_id: ppmt-01319
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1319
+- id: bank-000343
+  sim_day: 276
+  date: '2026-07-09'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '281538.30'
+  source_document_id: ppmt-01320
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1320
+- id: bank-000344
+  sim_day: 277
+  date: '2026-07-10'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '279886.95'
+  source_document_id: ppmt-01327
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1327
+- id: bank-000345
+  sim_day: 278
+  date: '2026-07-11'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '278235.60'
+  source_document_id: ppmt-01333
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1333
+- id: bank-000346
+  sim_day: 279
+  date: '2026-07-12'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '276584.25'
+  source_document_id: ppmt-01335
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1335
+- id: bank-000347
+  sim_day: 281
+  date: '2026-07-14'
+  amount: '-39900.00'
+  direction: credit
+  running_balance_amount: '236684.25'
+  source_document_id: ppmt-01343
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1343
+- id: bank-000348
+  sim_day: 282
+  date: '2026-07-15'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '235184.25'
+  source_document_id: je-payroll-paid-01347
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1347
+- id: bank-000349
+  sim_day: 282
+  date: '2026-07-15'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '234684.25'
+  source_document_id: ppmt-01348
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1348
+- id: bank-000350
+  sim_day: 282
+  date: '2026-07-15'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '233180.33'
+  source_document_id: ppmt-01349
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1349
+- id: bank-000351
+  sim_day: 282
+  date: '2026-07-15'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '231528.98'
+  source_document_id: ppmt-01350
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1350
+- id: bank-000352
+  sim_day: 283
+  date: '2026-07-16'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '230025.06'
+  source_document_id: ppmt-01353
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1353
+- id: bank-000353
+  sim_day: 283
+  date: '2026-07-16'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '228373.71'
+  source_document_id: ppmt-01354
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1354
+- id: bank-000354
+  sim_day: 284
+  date: '2026-07-17'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '226869.79'
+  source_document_id: ppmt-01358
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1358
+- id: bank-000355
+  sim_day: 284
+  date: '2026-07-17'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '225218.44'
+  source_document_id: ppmt-01359
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1359
+- id: bank-000356
+  sim_day: 285
+  date: '2026-07-18'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '223567.09'
+  source_document_id: ppmt-01363
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1363
+- id: bank-000357
+  sim_day: 286
+  date: '2026-07-19'
+  amount: '-1503.93'
+  direction: credit
+  running_balance_amount: '222063.16'
+  source_document_id: ppmt-01365
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1365
+- id: bank-000358
+  sim_day: 286
+  date: '2026-07-19'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '220411.81'
+  source_document_id: ppmt-01366
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1366
+- id: bank-000359
+  sim_day: 289
+  date: '2026-07-22'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '218911.81'
+  source_document_id: je-payroll-paid-01376
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1376
+- id: bank-000360
+  sim_day: 289
+  date: '2026-07-22'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '218411.81'
+  source_document_id: ppmt-01377
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1377
+- id: bank-000361
+  sim_day: 289
+  date: '2026-07-22'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '216907.89'
+  source_document_id: ppmt-01378
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1378
+- id: bank-000362
+  sim_day: 289
+  date: '2026-07-22'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '215256.54'
+  source_document_id: ppmt-01379
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1379
+- id: bank-000363
+  sim_day: 291
+  date: '2026-07-24'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '213752.62'
+  source_document_id: ppmt-01392
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1392
+- id: bank-000364
+  sim_day: 292
+  date: '2026-07-25'
+  amount: '-1503.93'
+  direction: credit
+  running_balance_amount: '212248.69'
+  source_document_id: ppmt-01398
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1398
+- id: bank-000365
+  sim_day: 292
+  date: '2026-07-25'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '210597.34'
+  source_document_id: ppmt-01399
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1399
+- id: bank-000366
+  sim_day: 293
+  date: '2026-07-26'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '209093.42'
+  source_document_id: ppmt-01401
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1401
+- id: bank-000367
+  sim_day: 293
+  date: '2026-07-26'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '207442.07'
+  source_document_id: ppmt-01402
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1402
+- id: bank-000368
+  sim_day: 296
+  date: '2026-07-29'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '205942.07'
+  source_document_id: je-payroll-paid-01416
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1416
+- id: bank-000369
+  sim_day: 296
+  date: '2026-07-29'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '205442.07'
+  source_document_id: ppmt-01417
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1417
+- id: bank-000370
+  sim_day: 296
+  date: '2026-07-29'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '203938.15'
+  source_document_id: ppmt-01418
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1418
+- id: bank-000371
+  sim_day: 297
+  date: '2026-07-30'
+  amount: '-1503.93'
+  direction: credit
+  running_balance_amount: '202434.22'
+  source_document_id: ppmt-01424
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1424
+- id: bank-000372
+  sim_day: 297
+  date: '2026-07-30'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '200782.87'
+  source_document_id: ppmt-01425
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1425
+- id: bank-000373
+  sim_day: 298
+  date: '2026-07-31'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '199278.95'
+  source_document_id: ppmt-01431
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1431
+- id: bank-000374
+  sim_day: 298
+  date: '2026-07-31'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '197627.60'
+  source_document_id: ppmt-01432
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1432
+- id: bank-000375
+  sim_day: 299
+  date: '2026-08-01'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '196123.68'
+  source_document_id: ppmt-01437
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1437
+- id: bank-000376
+  sim_day: 299
+  date: '2026-08-01'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '194472.33'
+  source_document_id: ppmt-01438
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1438
+- id: bank-000377
+  sim_day: 299
+  date: '2026-08-01'
+  amount: '-690.41'
+  direction: credit
+  running_balance_amount: '193781.92'
+  source_document_id: ppmt-01439
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1439
+- id: bank-000378
+  sim_day: 299
+  date: '2026-08-01'
+  amount: '-1100.00'
+  direction: credit
+  running_balance_amount: '192681.92'
+  source_document_id: ppmt-01440
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1440
+- id: bank-000379
+  sim_day: 300
+  date: '2026-08-02'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '191030.57'
+  source_document_id: ppmt-01444
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1444
+- id: bank-000380
+  sim_day: 303
+  date: '2026-08-05'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '189530.57'
+  source_document_id: je-payroll-paid-01458
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1458
+- id: bank-000381
+  sim_day: 303
+  date: '2026-08-05'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '189030.57'
+  source_document_id: ppmt-01459
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1459
+- id: bank-000382
+  sim_day: 303
+  date: '2026-08-05'
+  amount: '-1503.93'
+  direction: credit
+  running_balance_amount: '187526.64'
+  source_document_id: ppmt-01460
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1460
+- id: bank-000383
+  sim_day: 303
+  date: '2026-08-05'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '185875.29'
+  source_document_id: ppmt-01461
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1461
+- id: bank-000384
+  sim_day: 304
+  date: '2026-08-06'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '184371.37'
+  source_document_id: ppmt-01467
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1467
+- id: bank-000385
+  sim_day: 304
+  date: '2026-08-06'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '182720.02'
+  source_document_id: ppmt-01468
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1468
+- id: bank-000386
+  sim_day: 305
+  date: '2026-08-07'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '181216.10'
+  source_document_id: ppmt-01474
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1474
+- id: bank-000387
+  sim_day: 305
+  date: '2026-08-07'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '179564.75'
+  source_document_id: ppmt-01475
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1475
+- id: bank-000388
+  sim_day: 306
+  date: '2026-08-08'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '178060.83'
+  source_document_id: ppmt-01481
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1481
+- id: bank-000389
+  sim_day: 306
+  date: '2026-08-08'
+  amount: '-1651.35'
+  direction: credit
+  running_balance_amount: '176409.48'
+  source_document_id: ppmt-01482
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1482
+- id: bank-000390
+  sim_day: 307
+  date: '2026-08-09'
+  amount: '-1503.93'
+  direction: credit
+  running_balance_amount: '174905.55'
+  source_document_id: ppmt-01484
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1484
+- id: bank-000391
+  sim_day: 310
+  date: '2026-08-12'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '173405.55'
+  source_document_id: je-payroll-paid-01498
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1498
+- id: bank-000392
+  sim_day: 310
+  date: '2026-08-12'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '172905.55'
+  source_document_id: ppmt-01499
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1499
+- id: bank-000393
+  sim_day: 310
+  date: '2026-08-12'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '171401.63'
+  source_document_id: ppmt-01500
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1500
+- id: bank-000394
+  sim_day: 311
+  date: '2026-08-13'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '169897.71'
+  source_document_id: ppmt-01507
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1507
+- id: bank-000395
+  sim_day: 313
+  date: '2026-08-15'
+  amount: '-1503.93'
+  direction: credit
+  running_balance_amount: '168393.78'
+  source_document_id: ppmt-01514
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1514
+- id: bank-000396
+  sim_day: 314
+  date: '2026-08-16'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '166889.86'
+  source_document_id: ppmt-01516
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1516
+- id: bank-000397
+  sim_day: 317
+  date: '2026-08-19'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '165389.86'
+  source_document_id: je-payroll-paid-01527
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1527
+- id: bank-000398
+  sim_day: 317
+  date: '2026-08-19'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '164889.86'
+  source_document_id: ppmt-01528
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1528
+- id: bank-000399
+  sim_day: 317
+  date: '2026-08-19'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '163385.94'
+  source_document_id: ppmt-01529
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1529
+- id: bank-000400
+  sim_day: 317
+  date: '2026-08-19'
+  amount: '32464.29'
+  direction: debit
+  running_balance_amount: '195850.23'
+  source_document_id: prcpt-01526
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-1526
+- id: bank-000401
+  sim_day: 318
+  date: '2026-08-20'
+  amount: '-1503.93'
+  direction: credit
+  running_balance_amount: '194346.30'
+  source_document_id: ppmt-01533
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1533
+- id: bank-000402
+  sim_day: 319
+  date: '2026-08-21'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '192842.38'
+  source_document_id: ppmt-01537
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1537
+- id: bank-000403
+  sim_day: 319
+  date: '2026-08-21'
+  amount: '-20200.00'
+  direction: credit
+  running_balance_amount: '172642.38'
+  source_document_id: ppmt-01538
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1538
+- id: bank-000404
+  sim_day: 319
+  date: '2026-08-21'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '171157.68'
+  source_document_id: ppmt-01539
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1539
+- id: bank-000405
+  sim_day: 320
+  date: '2026-08-22'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '169653.76'
+  source_document_id: ppmt-01544
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1544
+- id: bank-000406
+  sim_day: 320
+  date: '2026-08-22'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '168169.06'
+  source_document_id: ppmt-01545
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1545
+- id: bank-000407
+  sim_day: 321
+  date: '2026-08-23'
+  amount: '-1503.93'
+  direction: credit
+  running_balance_amount: '166665.13'
+  source_document_id: ppmt-01549
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1549
+- id: bank-000408
+  sim_day: 321
+  date: '2026-08-23'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '165180.43'
+  source_document_id: ppmt-01550
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1550
+- id: bank-000409
+  sim_day: 324
+  date: '2026-08-26'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '163680.43'
+  source_document_id: je-payroll-paid-01556
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1556
+- id: bank-000410
+  sim_day: 324
+  date: '2026-08-26'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '163180.43'
+  source_document_id: ppmt-01557
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1557
+- id: bank-000411
+  sim_day: 324
+  date: '2026-08-26'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '161676.51'
+  source_document_id: ppmt-01558
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1558
+- id: bank-000412
+  sim_day: 324
+  date: '2026-08-26'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '160191.81'
+  source_document_id: ppmt-01559
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1559
+- id: bank-000413
+  sim_day: 325
+  date: '2026-08-27'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '158687.89'
+  source_document_id: ppmt-01561
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1561
+- id: bank-000414
+  sim_day: 325
+  date: '2026-08-27'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '157203.19'
+  source_document_id: ppmt-01562
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1562
+- id: bank-000415
+  sim_day: 326
+  date: '2026-08-28'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '155699.27'
+  source_document_id: ppmt-01564
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1564
+- id: bank-000416
+  sim_day: 326
+  date: '2026-08-28'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '154214.57'
+  source_document_id: ppmt-01565
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1565
+- id: bank-000417
+  sim_day: 327
+  date: '2026-08-29'
+  amount: '-1503.93'
+  direction: credit
+  running_balance_amount: '152710.64'
+  source_document_id: ppmt-01567
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1567
+- id: bank-000418
+  sim_day: 327
+  date: '2026-08-29'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '151225.94'
+  source_document_id: ppmt-01568
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1568
+- id: bank-000419
+  sim_day: 328
+  date: '2026-08-30'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '149722.02'
+  source_document_id: ppmt-01570
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1570
+- id: bank-000420
+  sim_day: 329
+  date: '2026-08-31'
+  amount: '-690.41'
+  direction: credit
+  running_balance_amount: '149031.61'
+  source_document_id: ppmt-01572
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1572
+- id: bank-000421
+  sim_day: 329
+  date: '2026-08-31'
+  amount: '-1100.00'
+  direction: credit
+  running_balance_amount: '147931.61'
+  source_document_id: ppmt-01573
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1573
+- id: bank-000422
+  sim_day: 331
+  date: '2026-09-02'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '146431.61'
+  source_document_id: je-payroll-paid-01585
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1585
+- id: bank-000423
+  sim_day: 331
+  date: '2026-09-02'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '145931.61'
+  source_document_id: ppmt-01586
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1586
+- id: bank-000424
+  sim_day: 331
+  date: '2026-09-02'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '144427.69'
+  source_document_id: ppmt-01587
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1587
+- id: bank-000425
+  sim_day: 331
+  date: '2026-09-02'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '142942.99'
+  source_document_id: ppmt-01588
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1588
+- id: bank-000426
+  sim_day: 331
+  date: '2026-09-02'
+  amount: '32464.28'
+  direction: debit
+  running_balance_amount: '175407.27'
+  source_document_id: prcpt-01584
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-1584
+- id: bank-000427
+  sim_day: 332
+  date: '2026-09-03'
+  amount: '-1503.93'
+  direction: credit
+  running_balance_amount: '173903.34'
+  source_document_id: ppmt-01592
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1592
+- id: bank-000428
+  sim_day: 332
+  date: '2026-09-03'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '172418.64'
+  source_document_id: ppmt-01593
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1593
+- id: bank-000429
+  sim_day: 333
+  date: '2026-09-04'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '170914.72'
+  source_document_id: ppmt-01596
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1596
+- id: bank-000430
+  sim_day: 333
+  date: '2026-09-04'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '169430.02'
+  source_document_id: ppmt-01597
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1597
+- id: bank-000431
+  sim_day: 334
+  date: '2026-09-05'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '167926.10'
+  source_document_id: ppmt-01601
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1601
+- id: bank-000432
+  sim_day: 334
+  date: '2026-09-05'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '166441.40'
+  source_document_id: ppmt-01602
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1602
+- id: bank-000433
+  sim_day: 335
+  date: '2026-09-06'
+  amount: '-1503.93'
+  direction: credit
+  running_balance_amount: '164937.47'
+  source_document_id: ppmt-01604
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1604
+- id: bank-000434
+  sim_day: 335
+  date: '2026-09-06'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '163452.77'
+  source_document_id: ppmt-01605
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1605
+- id: bank-000435
+  sim_day: 338
+  date: '2026-09-09'
+  amount: '3900.00'
+  direction: debit
+  running_balance_amount: '167352.77'
+  source_document_id: je-deposit-01617
+  memo: Client deposit banked
+  kind: deposit_receipt
+  sim_event_ids:
+  - event-1617
+- id: bank-000436
+  sim_day: 338
+  date: '2026-09-09'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '165852.77'
+  source_document_id: je-payroll-paid-01618
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1618
+- id: bank-000437
+  sim_day: 338
+  date: '2026-09-09'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '165352.77'
+  source_document_id: ppmt-01619
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1619
+- id: bank-000438
+  sim_day: 338
+  date: '2026-09-09'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '163848.85'
+  source_document_id: ppmt-01620
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1620
+- id: bank-000439
+  sim_day: 338
+  date: '2026-09-09'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '162364.15'
+  source_document_id: ppmt-01621
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1621
+- id: bank-000440
+  sim_day: 339
+  date: '2026-09-10'
+  amount: '-1503.92'
+  direction: credit
+  running_balance_amount: '160860.23'
+  source_document_id: ppmt-01627
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1627
+- id: bank-000441
+  sim_day: 340
+  date: '2026-09-11'
+  amount: '-1503.93'
+  direction: credit
+  running_balance_amount: '159356.30'
+  source_document_id: ppmt-01631
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1631
+- id: bank-000442
+  sim_day: 341
+  date: '2026-09-12'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '157871.60'
+  source_document_id: ppmt-01635
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1635
+- id: bank-000443
+  sim_day: 342
+  date: '2026-09-13'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '156386.90'
+  source_document_id: ppmt-01637
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1637
+- id: bank-000444
+  sim_day: 345
+  date: '2026-09-16'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '154886.90'
+  source_document_id: je-payroll-paid-01647
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1647
+- id: bank-000445
+  sim_day: 345
+  date: '2026-09-16'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '154386.90'
+  source_document_id: ppmt-01648
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1648
+- id: bank-000446
+  sim_day: 345
+  date: '2026-09-16'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '152902.20'
+  source_document_id: ppmt-01649
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1649
+- id: bank-000447
+  sim_day: 346
+  date: '2026-09-17'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '151417.50'
+  source_document_id: ppmt-01652
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1652
+- id: bank-000448
+  sim_day: 347
+  date: '2026-09-18'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '149932.80'
+  source_document_id: ppmt-01657
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1657
+- id: bank-000449
+  sim_day: 347
+  date: '2026-09-18'
+  amount: '64125.01'
+  direction: debit
+  running_balance_amount: '214057.81'
+  source_document_id: prcpt-01656
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-1656
+- id: bank-000450
+  sim_day: 348
+  date: '2026-09-19'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '212573.11'
+  source_document_id: ppmt-01661
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1661
+- id: bank-000451
+  sim_day: 349
+  date: '2026-09-20'
+  amount: '-1484.70'
+  direction: credit
+  running_balance_amount: '211088.41'
+  source_document_id: ppmt-01663
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1663
+- id: bank-000452
+  sim_day: 352
+  date: '2026-09-23'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '209588.41'
+  source_document_id: je-payroll-paid-01678
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1678
+- id: bank-000453
+  sim_day: 352
+  date: '2026-09-23'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '209088.41'
+  source_document_id: ppmt-01679
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1679
+- id: bank-000454
+  sim_day: 356
+  date: '2026-09-27'
+  amount: '32464.29'
+  direction: debit
+  running_balance_amount: '241552.70'
+  source_document_id: prcpt-01692
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-1692
+- id: bank-000455
+  sim_day: 359
+  date: '2026-09-30'
+  amount: '-1500.00'
+  direction: credit
+  running_balance_amount: '240052.70'
+  source_document_id: je-payroll-paid-01707
+  memo: Payroll paid
+  kind: wage_payment
+  sim_event_ids:
+  - event-1707
+- id: bank-000456
+  sim_day: 359
+  date: '2026-09-30'
+  amount: '-500.00'
+  direction: credit
+  running_balance_amount: '239552.70'
+  source_document_id: ppmt-01708
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1708
+- id: bank-000457
+  sim_day: 359
+  date: '2026-09-30'
+  amount: '-690.42'
+  direction: credit
+  running_balance_amount: '238862.28'
+  source_document_id: ppmt-01709
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1709
+- id: bank-000458
+  sim_day: 359
+  date: '2026-09-30'
+  amount: '-800.00'
+  direction: credit
+  running_balance_amount: '238062.28'
+  source_document_id: ppmt-01710
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1710
+- id: bank-000459
+  sim_day: 360
+  date: '2026-10-01'
+  amount: '-35350.00'
+  direction: credit
+  running_balance_amount: '202712.28'
+  source_document_id: ppmt-01717
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1717
+- id: bank-000460
+  sim_day: 360
+  date: '2026-10-01'
+  amount: '-1454.40'
+  direction: credit
+  running_balance_amount: '201257.88'
+  source_document_id: ppmt-01718
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1718
+- id: bank-000461
+  sim_day: 360
+  date: '2026-10-01'
+  amount: '4071.43'
+  direction: debit
+  running_balance_amount: '205329.31'
+  source_document_id: prcpt-01716
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-1716
+- id: bank-000462
+  sim_day: 361
+  date: '2026-10-02'
+  amount: '-1454.40'
+  direction: credit
+  running_balance_amount: '203874.91'
+  source_document_id: ppmt-01723
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1723
+- id: bank-000463
+  sim_day: 361
+  date: '2026-10-02'
+  amount: '64125.00'
+  direction: debit
+  running_balance_amount: '267999.91'
+  source_document_id: prcpt-01722
+  memo: Client collection received
+  kind: customer_payment
+  sim_event_ids:
+  - event-1722
+- id: bank-000464
+  sim_day: 363
+  date: '2026-10-04'
+  amount: '-1454.40'
+  direction: credit
+  running_balance_amount: '266545.51'
+  source_document_id: ppmt-01727
+  memo: Provider bill paid
+  kind: bill_payment
+  sim_event_ids:
+  - event-1727

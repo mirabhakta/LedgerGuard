@@ -1,0 +1,27 @@
+report: Accounts Receivable Aging
+company: Courtyard Commons Apartments Construction
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-f8cd528e1d6724c9
+buckets:
+  current: '191719.87'
+  1-30: '5955.79'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '197675.66'
+rows:
+- document_id: minv-00020
+  party: Bright Florals Group
+  due_date: '2026-10-03'
+  days_past_due: 3
+  bucket: 1-30
+  balance: '5955.79'
+- document_id: minv-00021
+  party: Union Millbrook Roasters
+  due_date: '2026-10-16'
+  days_past_due: 0
+  bucket: current
+  balance: '191719.87'

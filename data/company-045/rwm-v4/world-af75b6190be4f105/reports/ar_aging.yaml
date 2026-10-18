@@ -1,0 +1,87 @@
+report: Accounts Receivable Aging
+company: Sunward Roof & Solar
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-af75b6190be4f105
+buckets:
+  current: '2570.85'
+  1-30: '388.61'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '2959.46'
+rows:
+- document_id: inv-00316
+  party: Jasper Mill Yeoman Supply LLC
+  due_date: '2026-09-28'
+  days_past_due: 8
+  bucket: 1-30
+  balance: '62.00'
+- document_id: inv-00321
+  party: Castellano & Sons Orchards
+  due_date: '2026-10-01'
+  days_past_due: 5
+  bucket: 1-30
+  balance: '68.88'
+- document_id: inv-00323
+  party: Juniper Grocers Company
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '56.83'
+- document_id: inv-00324
+  party: Jasper Mill Yeoman Supply LLC
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '200.90'
+- document_id: inv-00325
+  party: Larkspur Quilting
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '154.98'
+- document_id: inv-00326
+  party: Jarvis & Sons Creamery
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '9.76'
+- document_id: inv-00327
+  party: Castellano & Sons Orchards
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '91.84'
+- document_id: inv-00329
+  party: Juniper Grocers Company
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '104.19'
+- document_id: inv-00330
+  party: Larkspur Quilting
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '358.75'
+- document_id: inv-00331
+  party: Castellano & Sons Orchards
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '602.70'
+- document_id: inv-00332
+  party: Jasper Mill Yeoman Supply LLC
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '301.35'
+- document_id: minv-00017
+  party: Sandoval Mercantile Group
+  due_date: '2026-10-23'
+  days_past_due: 0
+  bucket: current
+  balance: '947.28'

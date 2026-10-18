@@ -1,0 +1,39 @@
+report: Accounts Payable Aging
+company: Helm & Harbor PR Retainers
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-380505095c871f48
+buckets:
+  current: '8600.19'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '8600.19'
+rows:
+- document_id: bill-insurance-00268
+  party: Gallagher Insurance Agency
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '300.00'
+- document_id: bill-premises-00266
+  party: Kestrel Ridge Commercial Properties
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '2571.42'
+- document_id: bill-software-00267
+  party: Cloudledger Software Subscriptions
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '450.00'
+- document_id: bill-income-tax-00269
+  party: City of Glenmoor
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '5278.77'

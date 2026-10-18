@@ -1,0 +1,29 @@
+- id: inv-00186
+  doc_number: INV-1001
+  customer_id: cust-grantor-1
+  customer_name: Brennan Charitable Trust
+  txn_sim_day: 113
+  txn_date: '2026-01-27'
+  due_sim_day: 168
+  due_date: '2026-03-23'
+  lines:
+  - line_num: 1
+    item_id: item-grant
+    item_name: Grant award
+    description: A foundation grant supporting the organization's programs.
+    quantity: 1
+    unit_price_amount: '64350.00'
+    amount: '64350.00'
+  total_amount: '64350.00'
+  income_account_id: acct-product-income
+  project_id: null
+  deposit_applied_amount: '0.00'
+  retainage_amount: '0.00'
+  deposit_account_id: null
+  retainage_account_id: null
+  memo: Grant award, payable in installments.
+  provenance_note: sim:b3a78c1867b97746:inv-00186
+  sim_order_id: null
+  sim_obligation_id: obligation-00186
+  sim_event_ids:
+  - event-00716

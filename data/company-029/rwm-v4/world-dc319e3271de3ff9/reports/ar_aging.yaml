@@ -1,0 +1,27 @@
+report: Accounts Receivable Aging
+company: Birchfield Custom Homes
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-dc319e3271de3ff9
+buckets:
+  current: '0.00'
+  1-30: '85681.64'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '85681.64'
+rows:
+- document_id: minv-00018
+  party: Novotny Removals Inc.
+  due_date: '2026-09-13'
+  days_past_due: 23
+  bucket: 1-30
+  balance: '66433.94'
+- document_id: minv-00019
+  party: Delacroix Quilting Inc.
+  due_date: '2026-09-23'
+  days_past_due: 13
+  bucket: 1-30
+  balance: '19247.70'

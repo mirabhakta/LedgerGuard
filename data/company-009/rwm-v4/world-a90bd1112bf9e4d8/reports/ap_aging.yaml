@@ -1,0 +1,63 @@
+report: Accounts Payable Aging
+company: Soldertown Plumbing Supply
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-a90bd1112bf9e4d8
+buckets:
+  current: '16996.95'
+  1-30: '16707.36'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '33704.31'
+rows:
+- document_id: bill-04883
+  party: Brightwater Fulfillment Inc.
+  due_date: '2026-10-04'
+  days_past_due: 2
+  bucket: 1-30
+  balance: '13962.24'
+- document_id: bill-operating-05643
+  party: Espinoza Property Management
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '500.00'
+- document_id: bill-product-development-05628
+  party: Whitlock & Daughters Grocers
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '2008.30'
+- document_id: bill-utilities-05636
+  party: Pinecrest Power & Light
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '197.35'
+- document_id: bill-utilities-05637
+  party: Harbor Point Water District
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '39.47'
+- document_id: bill-permit-05669
+  party: Glenmoor County Treasurer
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '500.00'
+- document_id: bill-interest-05580
+  party: Bellrock Community Bank
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '721.23'
+- document_id: bill-income-tax-05627
+  party: Glenmoor County Treasurer
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '15775.72'

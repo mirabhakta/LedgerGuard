@@ -1,0 +1,6355 @@
+- id: je-open-00001
+  doc_number: JE-9001
+  purpose: opening_equity
+  txn_sim_day: 0
+  txn_date: '2025-10-06'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Opening cash.
+    debit_amount: '21344.81'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-opening-equity
+    account_name: Opening Balance Equity
+    description: Owner contribution.
+    debit_amount: '0.00'
+    credit_amount: '21344.81'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Owner's opening cash contribution.
+  provenance_note: sim:c1fb14e94188c73f:je-open-00001
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00001
+- id: je-wageacc-00001
+  doc_number: JE-9002
+  purpose: wage_accrual
+  txn_sim_day: 7
+  txn_date: '2025-10-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00001
+  sim_obligation_id: obligation-00001
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00003
+- id: je-wageacc-00002
+  doc_number: JE-9003
+  purpose: wage_accrual
+  txn_sim_day: 7
+  txn_date: '2025-10-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00002
+  sim_obligation_id: obligation-00002
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00004
+- id: je-wagepay-00001
+  doc_number: JE-9004
+  purpose: wage_payment
+  txn_sim_day: 12
+  txn_date: '2025-10-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00001
+  sim_obligation_id: obligation-00001
+  sim_payment_id: payment-00001
+  sim_event_ids:
+  - event-00011
+- id: je-wagepay-00002
+  doc_number: JE-9005
+  purpose: wage_payment
+  txn_sim_day: 12
+  txn_date: '2025-10-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00002
+  sim_obligation_id: obligation-00002
+  sim_payment_id: payment-00002
+  sim_event_ids:
+  - event-00012
+- id: je-wageacc-00006
+  doc_number: JE-9006
+  purpose: wage_accrual
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00006
+  sim_obligation_id: obligation-00006
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00013
+- id: je-wageacc-00007
+  doc_number: JE-9007
+  purpose: wage_accrual
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00007
+  sim_obligation_id: obligation-00007
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00014
+- id: je-wagepay-00003
+  doc_number: JE-9008
+  purpose: wage_payment
+  txn_sim_day: 19
+  txn_date: '2025-10-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00003
+  sim_obligation_id: obligation-00006
+  sim_payment_id: payment-00003
+  sim_event_ids:
+  - event-00018
+- id: je-wagepay-00004
+  doc_number: JE-9009
+  purpose: wage_payment
+  txn_sim_day: 19
+  txn_date: '2025-10-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00004
+  sim_obligation_id: obligation-00007
+  sim_payment_id: payment-00004
+  sim_event_ids:
+  - event-00019
+- id: je-wageacc-00011
+  doc_number: JE-9010
+  purpose: wage_accrual
+  txn_sim_day: 21
+  txn_date: '2025-10-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00011
+  sim_obligation_id: obligation-00011
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00023
+- id: je-wageacc-00012
+  doc_number: JE-9011
+  purpose: wage_accrual
+  txn_sim_day: 21
+  txn_date: '2025-10-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00012
+  sim_obligation_id: obligation-00012
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00024
+- id: je-wagepay-00005
+  doc_number: JE-9012
+  purpose: wage_payment
+  txn_sim_day: 26
+  txn_date: '2025-11-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00005
+  sim_obligation_id: obligation-00011
+  sim_payment_id: payment-00005
+  sim_event_ids:
+  - event-00029
+- id: je-wagepay-00006
+  doc_number: JE-9013
+  purpose: wage_payment
+  txn_sim_day: 26
+  txn_date: '2025-11-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00006
+  sim_obligation_id: obligation-00012
+  sim_payment_id: payment-00006
+  sim_event_ids:
+  - event-00030
+- id: je-wageacc-00016
+  doc_number: JE-9014
+  purpose: wage_accrual
+  txn_sim_day: 28
+  txn_date: '2025-11-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00016
+  sim_obligation_id: obligation-00016
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00032
+- id: je-wageacc-00017
+  doc_number: JE-9015
+  purpose: wage_accrual
+  txn_sim_day: 28
+  txn_date: '2025-11-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00017
+  sim_obligation_id: obligation-00017
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00033
+- id: je-wagepay-00008
+  doc_number: JE-9016
+  purpose: wage_payment
+  txn_sim_day: 33
+  txn_date: '2025-11-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00008
+  sim_obligation_id: obligation-00016
+  sim_payment_id: payment-00008
+  sim_event_ids:
+  - event-00050
+- id: je-wagepay-00009
+  doc_number: JE-9017
+  purpose: wage_payment
+  txn_sim_day: 33
+  txn_date: '2025-11-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00009
+  sim_obligation_id: obligation-00017
+  sim_payment_id: payment-00009
+  sim_event_ids:
+  - event-00051
+- id: je-wageacc-00028
+  doc_number: JE-9018
+  purpose: wage_accrual
+  txn_sim_day: 35
+  txn_date: '2025-11-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00028
+  sim_obligation_id: obligation-00028
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00054
+- id: je-wageacc-00029
+  doc_number: JE-9019
+  purpose: wage_accrual
+  txn_sim_day: 35
+  txn_date: '2025-11-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00029
+  sim_obligation_id: obligation-00029
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00055
+- id: je-wageacc-00033
+  doc_number: JE-9020
+  purpose: wage_accrual
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00033
+  sim_obligation_id: obligation-00033
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00072
+- id: je-wageacc-00034
+  doc_number: JE-9021
+  purpose: wage_accrual
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00034
+  sim_obligation_id: obligation-00034
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00073
+- id: je-wageacc-00037
+  doc_number: JE-9022
+  purpose: wage_accrual
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00037
+  sim_obligation_id: obligation-00037
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00077
+- id: je-wageacc-00038
+  doc_number: JE-9023
+  purpose: wage_accrual
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00038
+  sim_obligation_id: obligation-00038
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00078
+- id: je-wagepay-00015
+  doc_number: JE-9024
+  purpose: wage_payment
+  txn_sim_day: 54
+  txn_date: '2025-11-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00015
+  sim_obligation_id: obligation-00029
+  sim_payment_id: payment-00015
+  sim_event_ids:
+  - event-00086
+- id: je-wageacc-00044
+  doc_number: JE-9025
+  purpose: wage_accrual
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00044
+  sim_obligation_id: obligation-00044
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00092
+- id: je-wageacc-00045
+  doc_number: JE-9026
+  purpose: wage_accrual
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00045
+  sim_obligation_id: obligation-00045
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00093
+- id: je-wagepay-00023
+  doc_number: JE-9027
+  purpose: wage_payment
+  txn_sim_day: 61
+  txn_date: '2025-12-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00023
+  sim_obligation_id: obligation-00034
+  sim_payment_id: payment-00023
+  sim_event_ids:
+  - event-00117
+- id: je-wageacc-00053
+  doc_number: JE-9028
+  purpose: wage_accrual
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00053
+  sim_obligation_id: obligation-00053
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00123
+- id: je-wageacc-00054
+  doc_number: JE-9029
+  purpose: wage_accrual
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00054
+  sim_obligation_id: obligation-00054
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00124
+- id: je-wagepay-00029
+  doc_number: JE-9030
+  purpose: wage_payment
+  txn_sim_day: 68
+  txn_date: '2025-12-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00029
+  sim_obligation_id: obligation-00038
+  sim_payment_id: payment-00029
+  sim_event_ids:
+  - event-00135
+- id: je-wageacc-00056
+  doc_number: JE-9031
+  purpose: wage_accrual
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00056
+  sim_obligation_id: obligation-00056
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00139
+- id: je-wageacc-00057
+  doc_number: JE-9032
+  purpose: wage_accrual
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00057
+  sim_obligation_id: obligation-00057
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00140
+- id: je-wageacc-00062
+  doc_number: JE-9033
+  purpose: wage_accrual
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00062
+  sim_obligation_id: obligation-00062
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00162
+- id: je-wageacc-00063
+  doc_number: JE-9034
+  purpose: wage_accrual
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00063
+  sim_obligation_id: obligation-00063
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00163
+- id: je-wagepay-00041
+  doc_number: JE-9035
+  purpose: wage_payment
+  txn_sim_day: 82
+  txn_date: '2025-12-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00041
+  sim_obligation_id: obligation-00028
+  sim_payment_id: payment-00041
+  sim_event_ids:
+  - event-00178
+- id: je-wagepay-00042
+  doc_number: JE-9036
+  purpose: wage_payment
+  txn_sim_day: 82
+  txn_date: '2025-12-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00042
+  sim_obligation_id: obligation-00033
+  sim_payment_id: payment-00042
+  sim_event_ids:
+  - event-00179
+- id: je-wagepay-00043
+  doc_number: JE-9037
+  purpose: wage_payment
+  txn_sim_day: 82
+  txn_date: '2025-12-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00043
+  sim_obligation_id: obligation-00037
+  sim_payment_id: payment-00043
+  sim_event_ids:
+  - event-00180
+- id: je-wagepay-00044
+  doc_number: JE-9038
+  purpose: wage_payment
+  txn_sim_day: 82
+  txn_date: '2025-12-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00044
+  sim_obligation_id: obligation-00044
+  sim_payment_id: payment-00044
+  sim_event_ids:
+  - event-00181
+- id: je-wagepay-00045
+  doc_number: JE-9039
+  purpose: wage_payment
+  txn_sim_day: 82
+  txn_date: '2025-12-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00045
+  sim_obligation_id: obligation-00045
+  sim_payment_id: payment-00045
+  sim_event_ids:
+  - event-00182
+- id: je-wagepay-00046
+  doc_number: JE-9040
+  purpose: wage_payment
+  txn_sim_day: 82
+  txn_date: '2025-12-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00046
+  sim_obligation_id: obligation-00053
+  sim_payment_id: payment-00046
+  sim_event_ids:
+  - event-00183
+- id: je-wageacc-00065
+  doc_number: JE-9041
+  purpose: wage_accrual
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00065
+  sim_obligation_id: obligation-00065
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00185
+- id: je-wageacc-00066
+  doc_number: JE-9042
+  purpose: wage_accrual
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00066
+  sim_obligation_id: obligation-00066
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00186
+- id: je-wagepay-00049
+  doc_number: JE-9043
+  purpose: wage_payment
+  txn_sim_day: 89
+  txn_date: '2026-01-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00049
+  sim_obligation_id: obligation-00054
+  sim_payment_id: payment-00049
+  sim_event_ids:
+  - event-00193
+- id: je-wageacc-00072
+  doc_number: JE-9044
+  purpose: wage_accrual
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00072
+  sim_obligation_id: obligation-00072
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00206
+- id: je-wageacc-00073
+  doc_number: JE-9045
+  purpose: wage_accrual
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00073
+  sim_obligation_id: obligation-00073
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00207
+- id: je-wagepay-00054
+  doc_number: JE-9046
+  purpose: wage_payment
+  txn_sim_day: 96
+  txn_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00054
+  sim_obligation_id: obligation-00056
+  sim_payment_id: payment-00054
+  sim_event_ids:
+  - event-00228
+- id: je-wagepay-00055
+  doc_number: JE-9047
+  purpose: wage_payment
+  txn_sim_day: 96
+  txn_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00055
+  sim_obligation_id: obligation-00057
+  sim_payment_id: payment-00055
+  sim_event_ids:
+  - event-00229
+- id: je-wagepay-00056
+  doc_number: JE-9048
+  purpose: wage_payment
+  txn_sim_day: 96
+  txn_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00056
+  sim_obligation_id: obligation-00062
+  sim_payment_id: payment-00056
+  sim_event_ids:
+  - event-00230
+- id: je-wagepay-00057
+  doc_number: JE-9049
+  purpose: wage_payment
+  txn_sim_day: 96
+  txn_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00057
+  sim_obligation_id: obligation-00063
+  sim_payment_id: payment-00057
+  sim_event_ids:
+  - event-00231
+- id: je-wagepay-00058
+  doc_number: JE-9050
+  purpose: wage_payment
+  txn_sim_day: 96
+  txn_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00058
+  sim_obligation_id: obligation-00065
+  sim_payment_id: payment-00058
+  sim_event_ids:
+  - event-00232
+- id: je-wagepay-00059
+  doc_number: JE-9051
+  purpose: wage_payment
+  txn_sim_day: 96
+  txn_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00059
+  sim_obligation_id: obligation-00066
+  sim_payment_id: payment-00059
+  sim_event_ids:
+  - event-00233
+- id: je-wageacc-00082
+  doc_number: JE-9052
+  purpose: wage_accrual
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00082
+  sim_obligation_id: obligation-00082
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00239
+- id: je-wageacc-00083
+  doc_number: JE-9053
+  purpose: wage_accrual
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00083
+  sim_obligation_id: obligation-00083
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00240
+- id: je-wagepay-00065
+  doc_number: JE-9054
+  purpose: wage_payment
+  txn_sim_day: 103
+  txn_date: '2026-01-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00065
+  sim_obligation_id: obligation-00072
+  sim_payment_id: payment-00065
+  sim_event_ids:
+  - event-00249
+- id: je-wageacc-00090
+  doc_number: JE-9055
+  purpose: wage_accrual
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00090
+  sim_obligation_id: obligation-00090
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00253
+- id: je-wageacc-00091
+  doc_number: JE-9056
+  purpose: wage_accrual
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00091
+  sim_obligation_id: obligation-00091
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00254
+- id: je-wageacc-00094
+  doc_number: JE-9057
+  purpose: wage_accrual
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00094
+  sim_obligation_id: obligation-00094
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00265
+- id: je-wageacc-00095
+  doc_number: JE-9058
+  purpose: wage_accrual
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00095
+  sim_obligation_id: obligation-00095
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00266
+- id: je-wagepay-00070
+  doc_number: JE-9059
+  purpose: wage_payment
+  txn_sim_day: 117
+  txn_date: '2026-01-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00070
+  sim_obligation_id: obligation-00073
+  sim_payment_id: payment-00070
+  sim_event_ids:
+  - event-00278
+- id: je-wagepay-00071
+  doc_number: JE-9060
+  purpose: wage_payment
+  txn_sim_day: 117
+  txn_date: '2026-01-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00071
+  sim_obligation_id: obligation-00082
+  sim_payment_id: payment-00071
+  sim_event_ids:
+  - event-00279
+- id: je-wagepay-00072
+  doc_number: JE-9061
+  purpose: wage_payment
+  txn_sim_day: 117
+  txn_date: '2026-01-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00072
+  sim_obligation_id: obligation-00083
+  sim_payment_id: payment-00072
+  sim_event_ids:
+  - event-00280
+- id: je-wagepay-00073
+  doc_number: JE-9062
+  purpose: wage_payment
+  txn_sim_day: 117
+  txn_date: '2026-01-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00073
+  sim_obligation_id: obligation-00090
+  sim_payment_id: payment-00073
+  sim_event_ids:
+  - event-00281
+- id: je-wagepay-00074
+  doc_number: JE-9063
+  purpose: wage_payment
+  txn_sim_day: 117
+  txn_date: '2026-01-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00074
+  sim_obligation_id: obligation-00091
+  sim_payment_id: payment-00074
+  sim_event_ids:
+  - event-00282
+- id: je-wagepay-00075
+  doc_number: JE-9064
+  purpose: wage_payment
+  txn_sim_day: 117
+  txn_date: '2026-01-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00075
+  sim_obligation_id: obligation-00094
+  sim_payment_id: payment-00075
+  sim_event_ids:
+  - event-00283
+- id: je-wageacc-00099
+  doc_number: JE-9065
+  purpose: wage_accrual
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00099
+  sim_obligation_id: obligation-00099
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00286
+- id: je-wageacc-00100
+  doc_number: JE-9066
+  purpose: wage_accrual
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00100
+  sim_obligation_id: obligation-00100
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00287
+- id: je-wageacc-00107
+  doc_number: JE-9067
+  purpose: wage_accrual
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00107
+  sim_obligation_id: obligation-00107
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00306
+- id: je-wageacc-00108
+  doc_number: JE-9068
+  purpose: wage_accrual
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00108
+  sim_obligation_id: obligation-00108
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00307
+- id: je-wageacc-00114
+  doc_number: JE-9069
+  purpose: wage_accrual
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00114
+  sim_obligation_id: obligation-00114
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00329
+- id: je-wageacc-00115
+  doc_number: JE-9070
+  purpose: wage_accrual
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00115
+  sim_obligation_id: obligation-00115
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00330
+- id: je-wageacc-00117
+  doc_number: JE-9071
+  purpose: wage_accrual
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00117
+  sim_obligation_id: obligation-00117
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00350
+- id: je-wageacc-00118
+  doc_number: JE-9072
+  purpose: wage_accrual
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00118
+  sim_obligation_id: obligation-00118
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00351
+- id: je-wagepay-00097
+  doc_number: JE-9073
+  purpose: wage_payment
+  txn_sim_day: 145
+  txn_date: '2026-02-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00097
+  sim_obligation_id: obligation-00095
+  sim_payment_id: payment-00097
+  sim_event_ids:
+  - event-00363
+- id: je-wagepay-00098
+  doc_number: JE-9074
+  purpose: wage_payment
+  txn_sim_day: 145
+  txn_date: '2026-02-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00098
+  sim_obligation_id: obligation-00099
+  sim_payment_id: payment-00098
+  sim_event_ids:
+  - event-00364
+- id: je-wagepay-00099
+  doc_number: JE-9075
+  purpose: wage_payment
+  txn_sim_day: 145
+  txn_date: '2026-02-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00099
+  sim_obligation_id: obligation-00100
+  sim_payment_id: payment-00099
+  sim_event_ids:
+  - event-00365
+- id: je-wagepay-00100
+  doc_number: JE-9076
+  purpose: wage_payment
+  txn_sim_day: 145
+  txn_date: '2026-02-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00100
+  sim_obligation_id: obligation-00107
+  sim_payment_id: payment-00100
+  sim_event_ids:
+  - event-00366
+- id: je-wagepay-00101
+  doc_number: JE-9077
+  purpose: wage_payment
+  txn_sim_day: 145
+  txn_date: '2026-02-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00101
+  sim_obligation_id: obligation-00108
+  sim_payment_id: payment-00101
+  sim_event_ids:
+  - event-00367
+- id: je-wagepay-00102
+  doc_number: JE-9078
+  purpose: wage_payment
+  txn_sim_day: 145
+  txn_date: '2026-02-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00102
+  sim_obligation_id: obligation-00115
+  sim_payment_id: payment-00102
+  sim_event_ids:
+  - event-00368
+- id: je-wageacc-00122
+  doc_number: JE-9079
+  purpose: wage_accrual
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00122
+  sim_obligation_id: obligation-00122
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00373
+- id: je-wageacc-00123
+  doc_number: JE-9080
+  purpose: wage_accrual
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00123
+  sim_obligation_id: obligation-00123
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00374
+- id: je-wageacc-00133
+  doc_number: JE-9081
+  purpose: wage_accrual
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00133
+  sim_obligation_id: obligation-00133
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00395
+- id: je-wageacc-00134
+  doc_number: JE-9082
+  purpose: wage_accrual
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00134
+  sim_obligation_id: obligation-00134
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00396
+- id: je-wagepay-00108
+  doc_number: JE-9083
+  purpose: wage_payment
+  txn_sim_day: 159
+  txn_date: '2026-03-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00108
+  sim_obligation_id: obligation-00114
+  sim_payment_id: payment-00108
+  sim_event_ids:
+  - event-00413
+- id: je-wagepay-00109
+  doc_number: JE-9084
+  purpose: wage_payment
+  txn_sim_day: 159
+  txn_date: '2026-03-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00109
+  sim_obligation_id: obligation-00117
+  sim_payment_id: payment-00109
+  sim_event_ids:
+  - event-00414
+- id: je-wagepay-00110
+  doc_number: JE-9085
+  purpose: wage_payment
+  txn_sim_day: 159
+  txn_date: '2026-03-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00110
+  sim_obligation_id: obligation-00118
+  sim_payment_id: payment-00110
+  sim_event_ids:
+  - event-00415
+- id: je-wagepay-00111
+  doc_number: JE-9086
+  purpose: wage_payment
+  txn_sim_day: 159
+  txn_date: '2026-03-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00111
+  sim_obligation_id: obligation-00122
+  sim_payment_id: payment-00111
+  sim_event_ids:
+  - event-00416
+- id: je-wagepay-00112
+  doc_number: JE-9087
+  purpose: wage_payment
+  txn_sim_day: 159
+  txn_date: '2026-03-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00112
+  sim_obligation_id: obligation-00123
+  sim_payment_id: payment-00112
+  sim_event_ids:
+  - event-00417
+- id: je-wageacc-00141
+  doc_number: JE-9088
+  purpose: wage_accrual
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00141
+  sim_obligation_id: obligation-00141
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00423
+- id: je-wageacc-00142
+  doc_number: JE-9089
+  purpose: wage_accrual
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00142
+  sim_obligation_id: obligation-00142
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00424
+- id: je-wagepay-00120
+  doc_number: JE-9090
+  purpose: wage_payment
+  txn_sim_day: 166
+  txn_date: '2026-03-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00120
+  sim_obligation_id: obligation-00134
+  sim_payment_id: payment-00120
+  sim_event_ids:
+  - event-00436
+- id: je-wageacc-00147
+  doc_number: JE-9091
+  purpose: wage_accrual
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00147
+  sim_obligation_id: obligation-00147
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00440
+- id: je-wageacc-00148
+  doc_number: JE-9092
+  purpose: wage_accrual
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00148
+  sim_obligation_id: obligation-00148
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00441
+- id: je-wagepay-00125
+  doc_number: JE-9093
+  purpose: wage_payment
+  txn_sim_day: 173
+  txn_date: '2026-03-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00125
+  sim_obligation_id: obligation-00133
+  sim_payment_id: payment-00125
+  sim_event_ids:
+  - event-00463
+- id: je-wagepay-00126
+  doc_number: JE-9094
+  purpose: wage_payment
+  txn_sim_day: 173
+  txn_date: '2026-03-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00126
+  sim_obligation_id: obligation-00141
+  sim_payment_id: payment-00126
+  sim_event_ids:
+  - event-00464
+- id: je-wagepay-00127
+  doc_number: JE-9095
+  purpose: wage_payment
+  txn_sim_day: 173
+  txn_date: '2026-03-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00127
+  sim_obligation_id: obligation-00142
+  sim_payment_id: payment-00127
+  sim_event_ids:
+  - event-00465
+- id: je-wagepay-00128
+  doc_number: JE-9096
+  purpose: wage_payment
+  txn_sim_day: 173
+  txn_date: '2026-03-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00128
+  sim_obligation_id: obligation-00147
+  sim_payment_id: payment-00128
+  sim_event_ids:
+  - event-00466
+- id: je-wagepay-00129
+  doc_number: JE-9097
+  purpose: wage_payment
+  txn_sim_day: 173
+  txn_date: '2026-03-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00129
+  sim_obligation_id: obligation-00148
+  sim_payment_id: payment-00129
+  sim_event_ids:
+  - event-00467
+- id: je-wageacc-00157
+  doc_number: JE-9098
+  purpose: wage_accrual
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00157
+  sim_obligation_id: obligation-00157
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00471
+- id: je-wageacc-00158
+  doc_number: JE-9099
+  purpose: wage_accrual
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00158
+  sim_obligation_id: obligation-00158
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00472
+- id: je-wagepay-00135
+  doc_number: JE-9100
+  purpose: wage_payment
+  txn_sim_day: 180
+  txn_date: '2026-04-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00135
+  sim_obligation_id: obligation-00157
+  sim_payment_id: payment-00135
+  sim_event_ids:
+  - event-00491
+- id: je-wageacc-00165
+  doc_number: JE-9101
+  purpose: wage_accrual
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00165
+  sim_obligation_id: obligation-00165
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00500
+- id: je-wageacc-00166
+  doc_number: JE-9102
+  purpose: wage_accrual
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00166
+  sim_obligation_id: obligation-00166
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00501
+- id: je-wagepay-00139
+  doc_number: JE-9103
+  purpose: wage_payment
+  txn_sim_day: 187
+  txn_date: '2026-04-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00139
+  sim_obligation_id: obligation-00158
+  sim_payment_id: payment-00139
+  sim_event_ids:
+  - event-00512
+- id: je-wageacc-00171
+  doc_number: JE-9104
+  purpose: wage_accrual
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00171
+  sim_obligation_id: obligation-00171
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00518
+- id: je-wageacc-00172
+  doc_number: JE-9105
+  purpose: wage_accrual
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00172
+  sim_obligation_id: obligation-00172
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00519
+- id: je-wagepay-00148
+  doc_number: JE-9106
+  purpose: wage_payment
+  txn_sim_day: 194
+  txn_date: '2026-04-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00148
+  sim_obligation_id: obligation-00165
+  sim_payment_id: payment-00148
+  sim_event_ids:
+  - event-00533
+- id: je-wageacc-00175
+  doc_number: JE-9107
+  purpose: wage_accrual
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00175
+  sim_obligation_id: obligation-00175
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00540
+- id: je-wageacc-00176
+  doc_number: JE-9108
+  purpose: wage_accrual
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00176
+  sim_obligation_id: obligation-00176
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00541
+- id: je-wagepay-00156
+  doc_number: JE-9109
+  purpose: wage_payment
+  txn_sim_day: 201
+  txn_date: '2026-04-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00156
+  sim_obligation_id: obligation-00166
+  sim_payment_id: payment-00156
+  sim_event_ids:
+  - event-00557
+- id: je-wagepay-00157
+  doc_number: JE-9110
+  purpose: wage_payment
+  txn_sim_day: 201
+  txn_date: '2026-04-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00157
+  sim_obligation_id: obligation-00171
+  sim_payment_id: payment-00157
+  sim_event_ids:
+  - event-00558
+- id: je-wagepay-00158
+  doc_number: JE-9111
+  purpose: wage_payment
+  txn_sim_day: 201
+  txn_date: '2026-04-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00158
+  sim_obligation_id: obligation-00172
+  sim_payment_id: payment-00158
+  sim_event_ids:
+  - event-00559
+- id: je-wageacc-00182
+  doc_number: JE-9112
+  purpose: wage_accrual
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00182
+  sim_obligation_id: obligation-00182
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00565
+- id: je-wageacc-00183
+  doc_number: JE-9113
+  purpose: wage_accrual
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00183
+  sim_obligation_id: obligation-00183
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00566
+- id: je-wagepay-00162
+  doc_number: JE-9114
+  purpose: wage_payment
+  txn_sim_day: 208
+  txn_date: '2026-05-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00162
+  sim_obligation_id: obligation-00175
+  sim_payment_id: payment-00162
+  sim_event_ids:
+  - event-00577
+- id: je-wagepay-00163
+  doc_number: JE-9115
+  purpose: wage_payment
+  txn_sim_day: 208
+  txn_date: '2026-05-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00163
+  sim_obligation_id: obligation-00176
+  sim_payment_id: payment-00163
+  sim_event_ids:
+  - event-00578
+- id: je-wagepay-00164
+  doc_number: JE-9116
+  purpose: wage_payment
+  txn_sim_day: 208
+  txn_date: '2026-05-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00164
+  sim_obligation_id: obligation-00182
+  sim_payment_id: payment-00164
+  sim_event_ids:
+  - event-00579
+- id: je-wagepay-00165
+  doc_number: JE-9117
+  purpose: wage_payment
+  txn_sim_day: 208
+  txn_date: '2026-05-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00165
+  sim_obligation_id: obligation-00183
+  sim_payment_id: payment-00165
+  sim_event_ids:
+  - event-00580
+- id: je-wageacc-00185
+  doc_number: JE-9118
+  purpose: wage_accrual
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00185
+  sim_obligation_id: obligation-00185
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00589
+- id: je-wageacc-00186
+  doc_number: JE-9119
+  purpose: wage_accrual
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00186
+  sim_obligation_id: obligation-00186
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00590
+- id: je-wagepay-00172
+  doc_number: JE-9120
+  purpose: wage_payment
+  txn_sim_day: 215
+  txn_date: '2026-05-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00172
+  sim_obligation_id: obligation-00185
+  sim_payment_id: payment-00172
+  sim_event_ids:
+  - event-00607
+- id: je-wagepay-00173
+  doc_number: JE-9121
+  purpose: wage_payment
+  txn_sim_day: 215
+  txn_date: '2026-05-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00173
+  sim_obligation_id: obligation-00186
+  sim_payment_id: payment-00173
+  sim_event_ids:
+  - event-00608
+- id: je-wageacc-00193
+  doc_number: JE-9122
+  purpose: wage_accrual
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00193
+  sim_obligation_id: obligation-00193
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00613
+- id: je-wageacc-00194
+  doc_number: JE-9123
+  purpose: wage_accrual
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00194
+  sim_obligation_id: obligation-00194
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00614
+- id: je-wagepay-00181
+  doc_number: JE-9124
+  purpose: wage_payment
+  txn_sim_day: 222
+  txn_date: '2026-05-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00181
+  sim_obligation_id: obligation-00193
+  sim_payment_id: payment-00181
+  sim_event_ids:
+  - event-00629
+- id: je-wagepay-00182
+  doc_number: JE-9125
+  purpose: wage_payment
+  txn_sim_day: 222
+  txn_date: '2026-05-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00182
+  sim_obligation_id: obligation-00194
+  sim_payment_id: payment-00182
+  sim_event_ids:
+  - event-00630
+- id: je-wageacc-00200
+  doc_number: JE-9126
+  purpose: wage_accrual
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00200
+  sim_obligation_id: obligation-00200
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00639
+- id: je-wageacc-00201
+  doc_number: JE-9127
+  purpose: wage_accrual
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00201
+  sim_obligation_id: obligation-00201
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00640
+- id: je-wagepay-00187
+  doc_number: JE-9128
+  purpose: wage_payment
+  txn_sim_day: 229
+  txn_date: '2026-05-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00187
+  sim_obligation_id: obligation-00200
+  sim_payment_id: payment-00187
+  sim_event_ids:
+  - event-00655
+- id: je-wagepay-00188
+  doc_number: JE-9129
+  purpose: wage_payment
+  txn_sim_day: 229
+  txn_date: '2026-05-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00188
+  sim_obligation_id: obligation-00201
+  sim_payment_id: payment-00188
+  sim_event_ids:
+  - event-00656
+- id: je-wageacc-00205
+  doc_number: JE-9130
+  purpose: wage_accrual
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00205
+  sim_obligation_id: obligation-00205
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00658
+- id: je-wageacc-00206
+  doc_number: JE-9131
+  purpose: wage_accrual
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00206
+  sim_obligation_id: obligation-00206
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00659
+- id: je-wagepay-00193
+  doc_number: JE-9132
+  purpose: wage_payment
+  txn_sim_day: 236
+  txn_date: '2026-05-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00193
+  sim_obligation_id: obligation-00205
+  sim_payment_id: payment-00193
+  sim_event_ids:
+  - event-00673
+- id: je-wagepay-00194
+  doc_number: JE-9133
+  purpose: wage_payment
+  txn_sim_day: 236
+  txn_date: '2026-05-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00194
+  sim_obligation_id: obligation-00206
+  sim_payment_id: payment-00194
+  sim_event_ids:
+  - event-00674
+- id: je-wageacc-00211
+  doc_number: JE-9134
+  purpose: wage_accrual
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00211
+  sim_obligation_id: obligation-00211
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00675
+- id: je-wageacc-00212
+  doc_number: JE-9135
+  purpose: wage_accrual
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00212
+  sim_obligation_id: obligation-00212
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00676
+- id: je-wagepay-00196
+  doc_number: JE-9136
+  purpose: wage_payment
+  txn_sim_day: 243
+  txn_date: '2026-06-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00196
+  sim_obligation_id: obligation-00211
+  sim_payment_id: payment-00196
+  sim_event_ids:
+  - event-00689
+- id: je-wagepay-00197
+  doc_number: JE-9137
+  purpose: wage_payment
+  txn_sim_day: 243
+  txn_date: '2026-06-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00197
+  sim_obligation_id: obligation-00212
+  sim_payment_id: payment-00197
+  sim_event_ids:
+  - event-00690
+- id: je-wageacc-00219
+  doc_number: JE-9138
+  purpose: wage_accrual
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00219
+  sim_obligation_id: obligation-00219
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00693
+- id: je-wageacc-00220
+  doc_number: JE-9139
+  purpose: wage_accrual
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00220
+  sim_obligation_id: obligation-00220
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00694
+- id: je-wagepay-00204
+  doc_number: JE-9140
+  purpose: wage_payment
+  txn_sim_day: 250
+  txn_date: '2026-06-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00204
+  sim_obligation_id: obligation-00219
+  sim_payment_id: payment-00204
+  sim_event_ids:
+  - event-00713
+- id: je-wageacc-00224
+  doc_number: JE-9141
+  purpose: wage_accrual
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00224
+  sim_obligation_id: obligation-00224
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00715
+- id: je-wageacc-00225
+  doc_number: JE-9142
+  purpose: wage_accrual
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00225
+  sim_obligation_id: obligation-00225
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00716
+- id: je-wagepay-00210
+  doc_number: JE-9143
+  purpose: wage_payment
+  txn_sim_day: 257
+  txn_date: '2026-06-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00210
+  sim_obligation_id: obligation-00220
+  sim_payment_id: payment-00210
+  sim_event_ids:
+  - event-00734
+- id: je-wagepay-00211
+  doc_number: JE-9144
+  purpose: wage_payment
+  txn_sim_day: 257
+  txn_date: '2026-06-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00211
+  sim_obligation_id: obligation-00224
+  sim_payment_id: payment-00211
+  sim_event_ids:
+  - event-00735
+- id: je-wageacc-00233
+  doc_number: JE-9145
+  purpose: wage_accrual
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00233
+  sim_obligation_id: obligation-00233
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00740
+- id: je-wageacc-00234
+  doc_number: JE-9146
+  purpose: wage_accrual
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00234
+  sim_obligation_id: obligation-00234
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00741
+- id: je-wagepay-00218
+  doc_number: JE-9147
+  purpose: wage_payment
+  txn_sim_day: 264
+  txn_date: '2026-06-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00218
+  sim_obligation_id: obligation-00225
+  sim_payment_id: payment-00218
+  sim_event_ids:
+  - event-00758
+- id: je-wagepay-00219
+  doc_number: JE-9148
+  purpose: wage_payment
+  txn_sim_day: 264
+  txn_date: '2026-06-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00219
+  sim_obligation_id: obligation-00234
+  sim_payment_id: payment-00219
+  sim_event_ids:
+  - event-00759
+- id: je-wageacc-00236
+  doc_number: JE-9149
+  purpose: wage_accrual
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00236
+  sim_obligation_id: obligation-00236
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00762
+- id: je-wageacc-00237
+  doc_number: JE-9150
+  purpose: wage_accrual
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00237
+  sim_obligation_id: obligation-00237
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00763
+- id: je-wagepay-00223
+  doc_number: JE-9151
+  purpose: wage_payment
+  txn_sim_day: 271
+  txn_date: '2026-07-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00223
+  sim_obligation_id: obligation-00237
+  sim_payment_id: payment-00223
+  sim_event_ids:
+  - event-00777
+- id: je-wageacc-00245
+  doc_number: JE-9152
+  purpose: wage_accrual
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00245
+  sim_obligation_id: obligation-00245
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00782
+- id: je-wageacc-00246
+  doc_number: JE-9153
+  purpose: wage_accrual
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00246
+  sim_obligation_id: obligation-00246
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00783
+- id: je-wagepay-00226
+  doc_number: JE-9154
+  purpose: wage_payment
+  txn_sim_day: 278
+  txn_date: '2026-07-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00226
+  sim_obligation_id: obligation-00246
+  sim_payment_id: payment-00226
+  sim_event_ids:
+  - event-00790
+- id: je-wageacc-00249
+  doc_number: JE-9155
+  purpose: wage_accrual
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00249
+  sim_obligation_id: obligation-00249
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00793
+- id: je-wageacc-00250
+  doc_number: JE-9156
+  purpose: wage_accrual
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00250
+  sim_obligation_id: obligation-00250
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00794
+- id: je-wageacc-00254
+  doc_number: JE-9157
+  purpose: wage_accrual
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00254
+  sim_obligation_id: obligation-00254
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00812
+- id: je-wageacc-00255
+  doc_number: JE-9158
+  purpose: wage_accrual
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00255
+  sim_obligation_id: obligation-00255
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00813
+- id: je-wagepay-00238
+  doc_number: JE-9159
+  purpose: wage_payment
+  txn_sim_day: 292
+  txn_date: '2026-07-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00238
+  sim_obligation_id: obligation-00233
+  sim_payment_id: payment-00238
+  sim_event_ids:
+  - event-00830
+- id: je-wagepay-00239
+  doc_number: JE-9160
+  purpose: wage_payment
+  txn_sim_day: 292
+  txn_date: '2026-07-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00239
+  sim_obligation_id: obligation-00236
+  sim_payment_id: payment-00239
+  sim_event_ids:
+  - event-00831
+- id: je-wagepay-00240
+  doc_number: JE-9161
+  purpose: wage_payment
+  txn_sim_day: 292
+  txn_date: '2026-07-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00240
+  sim_obligation_id: obligation-00245
+  sim_payment_id: payment-00240
+  sim_event_ids:
+  - event-00832
+- id: je-wagepay-00241
+  doc_number: JE-9162
+  purpose: wage_payment
+  txn_sim_day: 292
+  txn_date: '2026-07-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00241
+  sim_obligation_id: obligation-00249
+  sim_payment_id: payment-00241
+  sim_event_ids:
+  - event-00833
+- id: je-wagepay-00242
+  doc_number: JE-9163
+  purpose: wage_payment
+  txn_sim_day: 292
+  txn_date: '2026-07-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00242
+  sim_obligation_id: obligation-00250
+  sim_payment_id: payment-00242
+  sim_event_ids:
+  - event-00834
+- id: je-wageacc-00260
+  doc_number: JE-9164
+  purpose: wage_accrual
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00260
+  sim_obligation_id: obligation-00260
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00840
+- id: je-wageacc-00261
+  doc_number: JE-9165
+  purpose: wage_accrual
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00261
+  sim_obligation_id: obligation-00261
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00841
+- id: je-wageacc-00267
+  doc_number: JE-9166
+  purpose: wage_accrual
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00267
+  sim_obligation_id: obligation-00267
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00853
+- id: je-wageacc-00268
+  doc_number: JE-9167
+  purpose: wage_accrual
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00268
+  sim_obligation_id: obligation-00268
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00854
+- id: je-wagepay-00247
+  doc_number: JE-9168
+  purpose: wage_payment
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00247
+  sim_obligation_id: obligation-00254
+  sim_payment_id: payment-00247
+  sim_event_ids:
+  - event-00871
+- id: je-wagepay-00248
+  doc_number: JE-9169
+  purpose: wage_payment
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00248
+  sim_obligation_id: obligation-00255
+  sim_payment_id: payment-00248
+  sim_event_ids:
+  - event-00872
+- id: je-wagepay-00249
+  doc_number: JE-9170
+  purpose: wage_payment
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00249
+  sim_obligation_id: obligation-00260
+  sim_payment_id: payment-00249
+  sim_event_ids:
+  - event-00873
+- id: je-wagepay-00250
+  doc_number: JE-9171
+  purpose: wage_payment
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00250
+  sim_obligation_id: obligation-00261
+  sim_payment_id: payment-00250
+  sim_event_ids:
+  - event-00874
+- id: je-wagepay-00251
+  doc_number: JE-9172
+  purpose: wage_payment
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00251
+  sim_obligation_id: obligation-00267
+  sim_payment_id: payment-00251
+  sim_event_ids:
+  - event-00875
+- id: je-wagepay-00252
+  doc_number: JE-9173
+  purpose: wage_payment
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00252
+  sim_obligation_id: obligation-00268
+  sim_payment_id: payment-00252
+  sim_event_ids:
+  - event-00876
+- id: je-wageacc-00275
+  doc_number: JE-9174
+  purpose: wage_accrual
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00275
+  sim_obligation_id: obligation-00275
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00881
+- id: je-wageacc-00276
+  doc_number: JE-9175
+  purpose: wage_accrual
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00276
+  sim_obligation_id: obligation-00276
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00882
+- id: je-wagepay-00259
+  doc_number: JE-9176
+  purpose: wage_payment
+  txn_sim_day: 313
+  txn_date: '2026-08-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00259
+  sim_obligation_id: obligation-00275
+  sim_payment_id: payment-00259
+  sim_event_ids:
+  - event-00897
+- id: je-wageacc-00284
+  doc_number: JE-9177
+  purpose: wage_accrual
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00284
+  sim_obligation_id: obligation-00284
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00902
+- id: je-wageacc-00285
+  doc_number: JE-9178
+  purpose: wage_accrual
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00285
+  sim_obligation_id: obligation-00285
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00903
+- id: je-wagepay-00263
+  doc_number: JE-9179
+  purpose: wage_payment
+  txn_sim_day: 320
+  txn_date: '2026-08-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00263
+  sim_obligation_id: obligation-00276
+  sim_payment_id: payment-00263
+  sim_event_ids:
+  - event-00916
+- id: je-wageacc-00291
+  doc_number: JE-9180
+  purpose: wage_accrual
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00291
+  sim_obligation_id: obligation-00291
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00922
+- id: je-wageacc-00292
+  doc_number: JE-9181
+  purpose: wage_accrual
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00292
+  sim_obligation_id: obligation-00292
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00923
+- id: je-wagepay-00268
+  doc_number: JE-9182
+  purpose: wage_payment
+  txn_sim_day: 327
+  txn_date: '2026-08-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00268
+  sim_obligation_id: obligation-00284
+  sim_payment_id: payment-00268
+  sim_event_ids:
+  - event-00939
+- id: je-wagepay-00269
+  doc_number: JE-9183
+  purpose: wage_payment
+  txn_sim_day: 327
+  txn_date: '2026-08-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00269
+  sim_obligation_id: obligation-00285
+  sim_payment_id: payment-00269
+  sim_event_ids:
+  - event-00940
+- id: je-wagepay-00270
+  doc_number: JE-9184
+  purpose: wage_payment
+  txn_sim_day: 327
+  txn_date: '2026-08-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00270
+  sim_obligation_id: obligation-00291
+  sim_payment_id: payment-00270
+  sim_event_ids:
+  - event-00941
+- id: je-wagepay-00271
+  doc_number: JE-9185
+  purpose: wage_payment
+  txn_sim_day: 327
+  txn_date: '2026-08-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00271
+  sim_obligation_id: obligation-00292
+  sim_payment_id: payment-00271
+  sim_event_ids:
+  - event-00942
+- id: je-wageacc-00297
+  doc_number: JE-9186
+  purpose: wage_accrual
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00297
+  sim_obligation_id: obligation-00297
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00945
+- id: je-wageacc-00298
+  doc_number: JE-9187
+  purpose: wage_accrual
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00298
+  sim_obligation_id: obligation-00298
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00946
+- id: je-wagepay-00275
+  doc_number: JE-9188
+  purpose: wage_payment
+  txn_sim_day: 334
+  txn_date: '2026-09-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00275
+  sim_obligation_id: obligation-00297
+  sim_payment_id: payment-00275
+  sim_event_ids:
+  - event-00966
+- id: je-wageacc-00309
+  doc_number: JE-9189
+  purpose: wage_accrual
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00309
+  sim_obligation_id: obligation-00309
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00971
+- id: je-wageacc-00310
+  doc_number: JE-9190
+  purpose: wage_accrual
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00310
+  sim_obligation_id: obligation-00310
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00972
+- id: je-wageacc-00314
+  doc_number: JE-9191
+  purpose: wage_accrual
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00314
+  sim_obligation_id: obligation-00314
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00993
+- id: je-wageacc-00315
+  doc_number: JE-9192
+  purpose: wage_accrual
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00315
+  sim_obligation_id: obligation-00315
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00994
+- id: je-wagepay-00293
+  doc_number: JE-9193
+  purpose: wage_payment
+  txn_sim_day: 348
+  txn_date: '2026-09-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00293
+  sim_obligation_id: obligation-00298
+  sim_payment_id: payment-00293
+  sim_event_ids:
+  - event-01012
+- id: je-wageacc-00321
+  doc_number: JE-9194
+  purpose: wage_accrual
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00321
+  sim_obligation_id: obligation-00321
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01018
+- id: je-wageacc-00322
+  doc_number: JE-9195
+  purpose: wage_accrual
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00322
+  sim_obligation_id: obligation-00322
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01019
+- id: je-wagepay-00297
+  doc_number: JE-9196
+  purpose: wage_payment
+  txn_sim_day: 355
+  txn_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00297
+  sim_obligation_id: obligation-00309
+  sim_payment_id: payment-00297
+  sim_event_ids:
+  - event-01035
+- id: je-wagepay-00298
+  doc_number: JE-9197
+  purpose: wage_payment
+  txn_sim_day: 355
+  txn_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00298
+  sim_obligation_id: obligation-00310
+  sim_payment_id: payment-00298
+  sim_event_ids:
+  - event-01036
+- id: je-wagepay-00299
+  doc_number: JE-9198
+  purpose: wage_payment
+  txn_sim_day: 355
+  txn_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00299
+  sim_obligation_id: obligation-00314
+  sim_payment_id: payment-00299
+  sim_event_ids:
+  - event-01037
+- id: je-wagepay-00300
+  doc_number: JE-9199
+  purpose: wage_payment
+  txn_sim_day: 355
+  txn_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00300
+  sim_obligation_id: obligation-00315
+  sim_payment_id: payment-00300
+  sim_event_ids:
+  - event-01038
+- id: je-wagepay-00301
+  doc_number: JE-9200
+  purpose: wage_payment
+  txn_sim_day: 355
+  txn_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00301
+  sim_obligation_id: obligation-00321
+  sim_payment_id: payment-00301
+  sim_event_ids:
+  - event-01039
+- id: je-wageacc-00328
+  doc_number: JE-9201
+  purpose: wage_accrual
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00328
+  sim_obligation_id: obligation-00328
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01044
+- id: je-wageacc-00329
+  doc_number: JE-9202
+  purpose: wage_accrual
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00329
+  sim_obligation_id: obligation-00329
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01045
+- id: je-wagepay-00308
+  doc_number: JE-9203
+  purpose: wage_payment
+  txn_sim_day: 362
+  txn_date: '2026-10-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wagepay-00308
+  sim_obligation_id: obligation-00322
+  sim_payment_id: payment-00308
+  sim_event_ids:
+  - event-01071
+- id: je-wageacc-00338
+  doc_number: JE-9204
+  purpose: wage_accrual
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '2145.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '2145.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Darius Ikeda.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00338
+  sim_obligation_id: obligation-00338
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01078
+- id: je-wageacc-00339
+  doc_number: JE-9205
+  purpose: wage_accrual
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1365.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1365.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Tamsin Pettigrew.
+  provenance_note: sim:c1fb14e94188c73f:je-wageacc-00339
+  sim_obligation_id: obligation-00339
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01079

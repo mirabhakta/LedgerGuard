@@ -1,0 +1,105 @@
+- id: proj-00001
+  name: Renovation for Vasquez Roasters Group
+  customer_id: cust-client-1
+  customer_name: Vasquez Roasters Group
+  project_kind: renovation
+  contract_amount: '146660.07'
+  original_contract_amount: '142800.00'
+  change_orders:
+  - sim_day: 93
+    date: '2026-01-07'
+    amount: '3860.07'
+  started_sim_day: 0
+  started_date: '2025-10-06'
+  planned_finish_sim_day: 137
+  planned_finish_date: '2026-02-20'
+  reschedules: []
+  completed_sim_day: 165
+  completed_date: '2026-03-20'
+  status: completed
+  status_history:
+  - sim_day: 0
+    date: '2025-10-06'
+    status: active
+  - sim_day: 165
+    date: '2026-03-20'
+    status: completed
+  provenance_note: sim:7baa2337f4a394e0:proj-00001
+  sim_project_id: project-1
+  sim_event_ids:
+  - event-18
+- id: proj-00002
+  name: Renovation for Wayfarer Joinery LLC
+  customer_id: cust-client-2
+  customer_name: Wayfarer Joinery LLC
+  project_kind: renovation
+  contract_amount: '135684.20'
+  original_contract_amount: '135684.20'
+  change_orders: []
+  started_sim_day: 84
+  started_date: '2025-12-29'
+  planned_finish_sim_day: 218
+  planned_finish_date: '2026-05-12'
+  reschedules: []
+  completed_sim_day: 296
+  completed_date: '2026-07-29'
+  status: completed
+  status_history:
+  - sim_day: 84
+    date: '2025-12-29'
+    status: active
+  - sim_day: 296
+    date: '2026-07-29'
+    status: completed
+  provenance_note: sim:7baa2337f4a394e0:proj-00002
+  sim_project_id: project-2
+  sim_event_ids:
+  - event-1744
+- id: proj-00003
+  name: Renovation for Sterling Printworks Inc.
+  customer_id: cust-client-3
+  customer_name: Sterling Printworks Inc.
+  project_kind: renovation
+  contract_amount: '103718.49'
+  original_contract_amount: '103718.49'
+  change_orders: []
+  started_sim_day: 168
+  started_date: '2026-03-23'
+  planned_finish_sim_day: 277
+  planned_finish_date: '2026-07-10'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: active
+  status_history:
+  - sim_day: 168
+    date: '2026-03-23'
+    status: active
+  provenance_note: sim:7baa2337f4a394e0:proj-00003
+  sim_project_id: project-3
+  sim_event_ids:
+  - event-3883
+- id: proj-00004
+  name: Landscaping for Lantern Millbrook Apothecary
+  customer_id: cust-client-4
+  customer_name: Lantern Millbrook Apothecary
+  project_kind: landscaping
+  contract_amount: '21846.95'
+  original_contract_amount: '21846.95'
+  change_orders: []
+  started_sim_day: 336
+  started_date: '2026-09-07'
+  planned_finish_sim_day: 382
+  planned_finish_date: '2026-10-23'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: active
+  status_history:
+  - sim_day: 336
+    date: '2026-09-07'
+    status: active
+  provenance_note: sim:7baa2337f4a394e0:proj-00004
+  sim_project_id: project-4
+  sim_event_ids:
+  - event-7934

@@ -1,0 +1,551 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Kowalski & Sons Bindery
+  txn_sim_day: 45
+  txn_date: '2025-11-20'
+  due_sim_day: 75
+  due_date: '2025-12-20'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '15507.69'
+    amount: '15507.69'
+  total_amount: '15507.69'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '13956.93'
+  retainage_amount: '1550.76'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Kowalski & Sons Bindery.
+  provenance_note: sim:dc319e3271de3ff9:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-339
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-1
+  customer_name: Kowalski & Sons Bindery
+  txn_sim_day: 79
+  txn_date: '2025-12-24'
+  due_sim_day: 109
+  due_date: '2026-01-23'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '27619.39'
+    amount: '27619.39'
+  total_amount: '27619.39'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '1163.07'
+  retainage_amount: '2761.93'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation for Kowalski & Sons Bindery.
+  provenance_note: sim:dc319e3271de3ff9:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-726
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-2
+  customer_name: Novotny Removals Inc.
+  txn_sim_day: 92
+  txn_date: '2026-01-06'
+  due_sim_day: 122
+  due_date: '2026-02-05'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '69927.51'
+    amount: '69927.51'
+  total_amount: '69927.51'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '62934.76'
+  retainage_amount: '6992.75'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Novotny Removals Inc..
+  provenance_note: sim:dc319e3271de3ff9:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-875
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-1
+  customer_name: Kowalski & Sons Bindery
+  txn_sim_day: 99
+  txn_date: '2026-01-13'
+  due_sim_day: 129
+  due_date: '2026-02-12'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '15507.69'
+    amount: '15507.69'
+  total_amount: '15507.69'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1550.76'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation for Kowalski & Sons Bindery.
+  provenance_note: sim:dc319e3271de3ff9:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-963
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-1
+  customer_name: Kowalski & Sons Bindery
+  txn_sim_day: 121
+  txn_date: '2026-02-04'
+  due_sim_day: 151
+  due_date: '2026-03-06'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '15507.69'
+    amount: '15507.69'
+  total_amount: '15507.69'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1550.76'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation for Kowalski & Sons Bindery.
+  provenance_note: sim:dc319e3271de3ff9:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-1253
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-1
+  customer_name: Kowalski & Sons Bindery
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 191
+  due_date: '2026-04-15'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '36725.98'
+    amount: '36725.98'
+  total_amount: '36725.98'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3672.59'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation for Kowalski & Sons Bindery.
+  provenance_note: sim:dc319e3271de3ff9:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-1832
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-3
+  customer_name: Delacroix Quilting Inc.
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 191
+  due_date: '2026-04-15'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '21386.33'
+    amount: '21386.33'
+  total_amount: '21386.33'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '19247.70'
+  retainage_amount: '2138.63'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Delacroix Quilting Inc..
+  provenance_note: sim:dc319e3271de3ff9:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-1840
+- id: minv-00008
+  doc_number: INV-1008
+  customer_id: cust-client-2
+  customer_name: Novotny Removals Inc.
+  txn_sim_day: 164
+  txn_date: '2026-03-19'
+  due_sim_day: 194
+  due_date: '2026-04-18'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '157336.89'
+    amount: '157336.89'
+  total_amount: '157336.89'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '10489.12'
+  retainage_amount: '15733.68'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New home for Novotny Removals Inc..
+  provenance_note: sim:dc319e3271de3ff9:minv-00008
+  sim_order_id: null
+  sim_obligation_id: invoice-8
+  sim_event_ids:
+  - event-1892
+- id: minv-00009
+  doc_number: INV-1009
+  customer_id: cust-client-2
+  customer_name: Novotny Removals Inc.
+  txn_sim_day: 199
+  txn_date: '2026-04-23'
+  due_sim_day: 229
+  due_date: '2026-05-23'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '69927.51'
+    amount: '69927.51'
+  total_amount: '69927.51'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '6992.75'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on New home for Novotny Removals Inc..
+  provenance_note: sim:dc319e3271de3ff9:minv-00009
+  sim_order_id: null
+  sim_obligation_id: invoice-9
+  sim_event_ids:
+  - event-2352
+- id: minv-00010
+  doc_number: INV-1010
+  customer_id: cust-client-4
+  customer_name: Juniper Flats Provisions
+  txn_sim_day: 200
+  txn_date: '2026-04-24'
+  due_sim_day: 230
+  due_date: '2026-05-24'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '6407.68'
+    amount: '6407.68'
+  total_amount: '6407.68'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '4421.30'
+  retainage_amount: '640.76'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Juniper Flats Provisions.
+  provenance_note: sim:dc319e3271de3ff9:minv-00010
+  sim_order_id: null
+  sim_obligation_id: invoice-10
+  sim_event_ids:
+  - event-2378
+- id: minv-00011
+  doc_number: INV-1011
+  customer_id: cust-client-3
+  customer_name: Delacroix Quilting Inc.
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  due_sim_day: 247
+  due_date: '2026-06-10'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '32079.49'
+    amount: '32079.49'
+  total_amount: '32079.49'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '1603.97'
+  retainage_amount: '3207.94'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation for Delacroix Quilting Inc..
+  provenance_note: sim:dc319e3271de3ff9:minv-00011
+  sim_order_id: null
+  sim_obligation_id: invoice-11
+  sim_event_ids:
+  - event-2596
+- id: minv-00012
+  doc_number: INV-1012
+  customer_id: cust-client-4
+  customer_name: Juniper Flats Provisions
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  due_sim_day: 254
+  due_date: '2026-06-17'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '12058.22'
+    amount: '12058.22'
+  total_amount: '12058.22'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1205.82'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Juniper Flats Provisions.
+  provenance_note: sim:dc319e3271de3ff9:minv-00012
+  sim_order_id: null
+  sim_obligation_id: invoice-12
+  sim_event_ids:
+  - event-2700
+- id: minv-00013
+  doc_number: INV-1013
+  customer_id: cust-client-2
+  customer_name: Novotny Removals Inc.
+  txn_sim_day: 240
+  txn_date: '2026-06-03'
+  due_sim_day: 270
+  due_date: '2026-07-03'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '69927.51'
+    amount: '69927.51'
+  total_amount: '69927.51'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '6992.75'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on New home for Novotny Removals Inc..
+  provenance_note: sim:dc319e3271de3ff9:minv-00013
+  sim_order_id: null
+  sim_obligation_id: invoice-13
+  sim_event_ids:
+  - event-2955
+- id: minv-00014
+  doc_number: INV-1014
+  customer_id: cust-client-3
+  customer_name: Delacroix Quilting Inc.
+  txn_sim_day: 247
+  txn_date: '2026-06-10'
+  due_sim_day: 277
+  due_date: '2026-07-10'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '21386.33'
+    amount: '21386.33'
+  total_amount: '21386.33'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2138.63'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation for Delacroix Quilting Inc..
+  provenance_note: sim:dc319e3271de3ff9:minv-00014
+  sim_order_id: null
+  sim_obligation_id: invoice-14
+  sim_event_ids:
+  - event-3061
+- id: minv-00015
+  doc_number: INV-1015
+  customer_id: cust-client-4
+  customer_name: Juniper Flats Provisions
+  txn_sim_day: 248
+  txn_date: '2026-06-11'
+  due_sim_day: 278
+  due_date: '2026-07-11'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '12815.39'
+    amount: '12815.39'
+  total_amount: '12815.39'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1281.53'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Juniper Flats Provisions.
+  provenance_note: sim:dc319e3271de3ff9:minv-00015
+  sim_order_id: null
+  sim_obligation_id: invoice-15
+  sim_event_ids:
+  - event-3081
+- id: minv-00016
+  doc_number: INV-1016
+  customer_id: cust-client-3
+  customer_name: Delacroix Quilting Inc.
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  due_sim_day: 310
+  due_date: '2026-08-12'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '25565.31'
+    amount: '25565.31'
+  total_amount: '25565.31'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2556.53'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation for Delacroix Quilting Inc..
+  provenance_note: sim:dc319e3271de3ff9:minv-00016
+  sim_order_id: null
+  sim_obligation_id: invoice-16
+  sim_event_ids:
+  - event-3507
+- id: minv-00017
+  doc_number: INV-1017
+  customer_id: cust-client-5
+  customer_name: Bellrock Quilting
+  txn_sim_day: 303
+  txn_date: '2026-08-05'
+  due_sim_day: 333
+  due_date: '2026-09-04'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '86400.57'
+    amount: '86400.57'
+  total_amount: '86400.57'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '77760.52'
+  retainage_amount: '8640.05'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Bellrock Quilting.
+  provenance_note: sim:dc319e3271de3ff9:minv-00017
+  sim_order_id: null
+  sim_obligation_id: invoice-17
+  sim_event_ids:
+  - event-3876
+- id: minv-00018
+  doc_number: INV-1018
+  customer_id: cust-client-2
+  customer_name: Novotny Removals Inc.
+  txn_sim_day: 312
+  txn_date: '2026-08-14'
+  due_sim_day: 342
+  due_date: '2026-09-13'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '147630.98'
+    amount: '147630.98'
+  total_amount: '147630.98'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '14763.09'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on New home for Novotny Removals Inc..
+  provenance_note: sim:dc319e3271de3ff9:minv-00018
+  sim_order_id: null
+  sim_obligation_id: invoice-18
+  sim_event_ids:
+  - event-4016
+- id: minv-00019
+  doc_number: INV-1019
+  customer_id: cust-client-3
+  customer_name: Delacroix Quilting Inc.
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  due_sim_day: 352
+  due_date: '2026-09-23'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '42772.67'
+    amount: '42772.67'
+  total_amount: '42772.67'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '4277.26'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation for Delacroix Quilting Inc..
+  provenance_note: sim:dc319e3271de3ff9:minv-00019
+  sim_order_id: null
+  sim_obligation_id: invoice-19
+  sim_event_ids:
+  - event-4131

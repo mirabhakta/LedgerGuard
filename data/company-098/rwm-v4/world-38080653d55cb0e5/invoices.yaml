@@ -1,0 +1,87 @@
+- id: inv-00070
+  doc_number: INV-1001
+  customer_id: cust-grantor-2
+  customer_name: The Yarrow Field Foundation
+  txn_sim_day: 106
+  txn_date: '2026-01-20'
+  due_sim_day: 166
+  due_date: '2026-03-21'
+  lines:
+  - line_num: 1
+    item_id: item-grant
+    item_name: Grant award
+    description: A foundation grant supporting the organization's programs.
+    quantity: 1
+    unit_price_amount: '18000.00'
+    amount: '18000.00'
+  total_amount: '18000.00'
+  income_account_id: acct-product-income
+  project_id: null
+  deposit_applied_amount: '0.00'
+  retainage_amount: '0.00'
+  deposit_account_id: null
+  retainage_account_id: null
+  memo: Grant award, payable in installments.
+  provenance_note: sim:38080653d55cb0e5:inv-00070
+  sim_order_id: null
+  sim_obligation_id: obligation-00070
+  sim_event_ids:
+  - event-00336
+- id: inv-00109
+  doc_number: INV-1002
+  customer_id: cust-grantor-1
+  customer_name: Cedar Park Charitable Trust
+  txn_sim_day: 166
+  txn_date: '2026-03-21'
+  due_sim_day: 226
+  due_date: '2026-05-20'
+  lines:
+  - line_num: 1
+    item_id: item-grant
+    item_name: Grant award
+    description: A foundation grant supporting the organization's programs.
+    quantity: 1
+    unit_price_amount: '39600.00'
+    amount: '39600.00'
+  total_amount: '39600.00'
+  income_account_id: acct-product-income
+  project_id: null
+  deposit_applied_amount: '0.00'
+  retainage_amount: '0.00'
+  deposit_account_id: null
+  retainage_account_id: null
+  memo: Grant award, payable in installments.
+  provenance_note: sim:38080653d55cb0e5:inv-00109
+  sim_order_id: null
+  sim_obligation_id: obligation-00109
+  sim_event_ids:
+  - event-00543
+- id: inv-00168
+  doc_number: INV-1003
+  customer_id: cust-grantor-3
+  customer_name: Vale Crossing Charitable Trust
+  txn_sim_day: 247
+  txn_date: '2026-06-10'
+  due_sim_day: 307
+  due_date: '2026-08-09'
+  lines:
+  - line_num: 1
+    item_id: item-grant
+    item_name: Grant award
+    description: A foundation grant supporting the organization's programs.
+    quantity: 1
+    unit_price_amount: '26400.00'
+    amount: '26400.00'
+  total_amount: '26400.00'
+  income_account_id: acct-product-income
+  project_id: null
+  deposit_applied_amount: '0.00'
+  retainage_amount: '0.00'
+  deposit_account_id: null
+  retainage_account_id: null
+  memo: Grant award, payable in installments.
+  provenance_note: sim:38080653d55cb0e5:inv-00168
+  sim_order_id: null
+  sim_obligation_id: obligation-00168
+  sim_event_ids:
+  - event-00845

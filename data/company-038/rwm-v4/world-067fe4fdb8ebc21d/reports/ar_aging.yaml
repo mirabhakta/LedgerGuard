@@ -1,0 +1,39 @@
+report: Accounts Receivable Aging
+company: Confetti Row Events
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-067fe4fdb8ebc21d
+buckets:
+  current: '51987.12'
+  1-30: '1139.49'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '53126.61'
+rows:
+- document_id: minv-00015
+  party: Zeke Gustafsson
+  due_date: '2026-09-23'
+  days_past_due: 13
+  bucket: 1-30
+  balance: '1139.49'
+- document_id: minv-00016
+  party: Zeke Gustafsson
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '7813.58'
+- document_id: minv-00017
+  party: Hideo Eriksdottir
+  due_date: '2026-10-29'
+  days_past_due: 0
+  bucket: current
+  balance: '34406.55'
+- document_id: minv-00018
+  party: Zeke Gustafsson
+  due_date: '2026-11-01'
+  days_past_due: 0
+  bucket: current
+  balance: '9766.99'

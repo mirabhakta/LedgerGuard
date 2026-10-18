@@ -1,0 +1,5670 @@
+- id: bill-operating-00002
+  doc_number: BILL-5001
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 7
+  txn_date: '2025-10-13'
+  due_sim_day: 7
+  due_date: '2025-10-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00002
+  sim_obligation_id: obligation-00002
+  sim_order_id: null
+  sim_event_ids:
+  - event-00090
+- id: bill-operating-00004
+  doc_number: BILL-5002
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  due_sim_day: 14
+  due_date: '2025-10-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00004
+  sim_obligation_id: obligation-00004
+  sim_order_id: null
+  sim_event_ids:
+  - event-00184
+- id: bill-operating-00006
+  doc_number: BILL-5003
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 21
+  txn_date: '2025-10-27'
+  due_sim_day: 21
+  due_date: '2025-10-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00006
+  sim_obligation_id: obligation-00006
+  sim_order_id: null
+  sim_event_ids:
+  - event-00286
+- id: bill-operating-00008
+  doc_number: BILL-5004
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 28
+  txn_date: '2025-11-03'
+  due_sim_day: 28
+  due_date: '2025-11-03'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00008
+  sim_obligation_id: obligation-00008
+  sim_order_id: null
+  sim_event_ids:
+  - event-00400
+- id: bill-interest-00009
+  doc_number: BILL-5005
+  vendor_id: vend-bank
+  vendor_name: Hollyhock Credit Union
+  expense_kind: operating
+  txn_sim_day: 30
+  txn_date: '2025-11-05'
+  due_sim_day: 37
+  due_date: '2025-11-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '47.09'
+  total_amount: '47.09'
+  project_id: null
+  cost_category: interest
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-interest-00009
+  sim_obligation_id: obligation-00009
+  sim_order_id: null
+  sim_event_ids:
+  - event-00448
+- id: bill-00005
+  doc_number: BILL-5006
+  vendor_id: vend-supplier
+  vendor_name: Elmsworth Apothecary
+  expense_kind: product
+  txn_sim_day: 32
+  txn_date: '2025-11-07'
+  due_sim_day: 62
+  due_date: '2025-12-07'
+  item_lines:
+  - line_num: 1
+    item_id: item-00001
+    item_name: Syringe Box, 3 mL
+    description: Three-milliliter Luer-lock syringes, hundred per box.
+    quantity: 3000
+    unit_price_amount: '18.63'
+    amount: '55890.00'
+  account_lines: []
+  total_amount: '55890.00'
+  project_id: null
+  cost_category: purchase
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-00005
+  sim_obligation_id: obligation-00010
+  sim_order_id: order-00005
+  sim_event_ids:
+  - event-00466
+- id: bill-operating-00014
+  doc_number: BILL-5007
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 35
+  txn_date: '2025-11-10'
+  due_sim_day: 35
+  due_date: '2025-11-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00014
+  sim_obligation_id: obligation-00014
+  sim_order_id: null
+  sim_event_ids:
+  - event-00498
+- id: bill-operating-00040
+  doc_number: BILL-5008
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  due_sim_day: 42
+  due_date: '2025-11-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00040
+  sim_obligation_id: obligation-00040
+  sim_order_id: null
+  sim_event_ids:
+  - event-00661
+- id: bill-utilities-00036
+  doc_number: BILL-5009
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  due_sim_day: 42
+  due_date: '2025-11-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '45.00'
+  total_amount: '45.00'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00036
+  sim_obligation_id: obligation-00036
+  sim_order_id: null
+  sim_event_ids:
+  - event-00657
+- id: bill-utilities-00037
+  doc_number: BILL-5010
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  due_sim_day: 42
+  due_date: '2025-11-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.00'
+  total_amount: '9.00'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00037
+  sim_obligation_id: obligation-00037
+  sim_order_id: null
+  sim_event_ids:
+  - event-00658
+- id: bill-variable-services-00038
+  doc_number: BILL-5011
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  due_sim_day: 42
+  due_date: '2025-11-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '1921.75'
+  total_amount: '1921.75'
+  project_id: null
+  cost_category: variable_services
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00038
+  sim_obligation_id: obligation-00038
+  sim_order_id: null
+  sim_event_ids:
+  - event-00659
+- id: bill-00031
+  doc_number: BILL-5012
+  vendor_id: vend-supplier
+  vendor_name: Elmsworth Apothecary
+  expense_kind: product
+  txn_sim_day: 44
+  txn_date: '2025-11-19'
+  due_sim_day: 74
+  due_date: '2025-12-19'
+  item_lines:
+  - line_num: 1
+    item_id: item-00001
+    item_name: Syringe Box, 3 mL
+    description: Three-milliliter Luer-lock syringes, hundred per box.
+    quantity: 13608
+    unit_price_amount: '18.63'
+    amount: '253517.04'
+  account_lines: []
+  total_amount: '253517.04'
+  project_id: null
+  cost_category: purchase
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-00031
+  sim_obligation_id: obligation-00051
+  sim_order_id: order-00031
+  sim_event_ids:
+  - event-00746
+- id: bill-operating-00072
+  doc_number: BILL-5013
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  due_sim_day: 49
+  due_date: '2025-11-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00072
+  sim_obligation_id: obligation-00072
+  sim_order_id: null
+  sim_event_ids:
+  - event-00840
+- id: bill-utilities-00068
+  doc_number: BILL-5014
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  due_sim_day: 49
+  due_date: '2025-11-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '44.35'
+  total_amount: '44.35'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00068
+  sim_obligation_id: obligation-00068
+  sim_order_id: null
+  sim_event_ids:
+  - event-00836
+- id: bill-utilities-00069
+  doc_number: BILL-5015
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  due_sim_day: 49
+  due_date: '2025-11-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.87'
+  total_amount: '8.87'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00069
+  sim_obligation_id: obligation-00069
+  sim_order_id: null
+  sim_event_ids:
+  - event-00837
+- id: bill-variable-services-00070
+  doc_number: BILL-5016
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  due_sim_day: 49
+  due_date: '2025-11-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2181.20'
+  total_amount: '2181.20'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00070
+  sim_obligation_id: obligation-00070
+  sim_order_id: null
+  sim_event_ids:
+  - event-00838
+- id: bill-operating-00104
+  doc_number: BILL-5017
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  due_sim_day: 56
+  due_date: '2025-12-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00104
+  sim_obligation_id: obligation-00104
+  sim_order_id: null
+  sim_event_ids:
+  - event-01032
+- id: bill-product-development-00097
+  doc_number: BILL-5018
+  vendor_id: vend-operating-vendor
+  vendor_name: Northstar Larkspur Movers
+  expense_kind: operating
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  due_sim_day: 56
+  due_date: '2025-12-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Bringing a new product to market (product_development).
+    amount: '3738.27'
+  total_amount: '3738.27'
+  project_id: null
+  cost_category: product_development
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-product-development-00097
+  sim_obligation_id: obligation-00097
+  sim_order_id: null
+  sim_event_ids:
+  - event-01022
+- id: bill-utilities-00100
+  doc_number: BILL-5019
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  due_sim_day: 56
+  due_date: '2025-12-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '38.90'
+  total_amount: '38.90'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00100
+  sim_obligation_id: obligation-00100
+  sim_order_id: null
+  sim_event_ids:
+  - event-01028
+- id: bill-utilities-00101
+  doc_number: BILL-5020
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  due_sim_day: 56
+  due_date: '2025-12-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '7.78'
+  total_amount: '7.78'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00101
+  sim_obligation_id: obligation-00101
+  sim_order_id: null
+  sim_event_ids:
+  - event-01029
+- id: bill-variable-services-00102
+  doc_number: BILL-5021
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  due_sim_day: 56
+  due_date: '2025-12-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '1786.28'
+  total_amount: '1786.28'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00102
+  sim_obligation_id: obligation-00102
+  sim_order_id: null
+  sim_event_ids:
+  - event-01030
+- id: bill-interest-00128
+  doc_number: BILL-5022
+  vendor_id: vend-bank
+  vendor_name: Hollyhock Credit Union
+  expense_kind: operating
+  txn_sim_day: 60
+  txn_date: '2025-12-05'
+  due_sim_day: 67
+  due_date: '2025-12-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '393.72'
+  total_amount: '393.72'
+  project_id: null
+  cost_category: interest
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-interest-00128
+  sim_obligation_id: obligation-00128
+  sim_order_id: null
+  sim_event_ids:
+  - event-01188
+- id: bill-operating-00141
+  doc_number: BILL-5023
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  due_sim_day: 63
+  due_date: '2025-12-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00141
+  sim_obligation_id: obligation-00141
+  sim_order_id: null
+  sim_event_ids:
+  - event-01245
+- id: bill-utilities-00137
+  doc_number: BILL-5024
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  due_sim_day: 63
+  due_date: '2025-12-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '60.00'
+  total_amount: '60.00'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00137
+  sim_obligation_id: obligation-00137
+  sim_order_id: null
+  sim_event_ids:
+  - event-01241
+- id: bill-utilities-00138
+  doc_number: BILL-5025
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  due_sim_day: 63
+  due_date: '2025-12-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '12.00'
+  total_amount: '12.00'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00138
+  sim_obligation_id: obligation-00138
+  sim_order_id: null
+  sim_event_ids:
+  - event-01242
+- id: bill-variable-services-00139
+  doc_number: BILL-5026
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  due_sim_day: 63
+  due_date: '2025-12-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2706.98'
+  total_amount: '2706.98'
+  project_id: null
+  cost_category: variable_services
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00139
+  sim_obligation_id: obligation-00139
+  sim_order_id: null
+  sim_event_ids:
+  - event-01243
+- id: bill-operating-00174
+  doc_number: BILL-5027
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  due_sim_day: 70
+  due_date: '2025-12-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00174
+  sim_obligation_id: obligation-00174
+  sim_order_id: null
+  sim_event_ids:
+  - event-01446
+- id: bill-utilities-00170
+  doc_number: BILL-5028
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  due_sim_day: 70
+  due_date: '2025-12-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '52.90'
+  total_amount: '52.90'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00170
+  sim_obligation_id: obligation-00170
+  sim_order_id: null
+  sim_event_ids:
+  - event-01442
+- id: bill-utilities-00171
+  doc_number: BILL-5029
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  due_sim_day: 70
+  due_date: '2025-12-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.58'
+  total_amount: '10.58'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00171
+  sim_obligation_id: obligation-00171
+  sim_order_id: null
+  sim_event_ids:
+  - event-01443
+- id: bill-variable-services-00172
+  doc_number: BILL-5030
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  due_sim_day: 70
+  due_date: '2025-12-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2477.38'
+  total_amount: '2477.38'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00172
+  sim_obligation_id: obligation-00172
+  sim_order_id: null
+  sim_event_ids:
+  - event-01444
+- id: bill-operating-00207
+  doc_number: BILL-5031
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  due_sim_day: 77
+  due_date: '2025-12-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00207
+  sim_obligation_id: obligation-00207
+  sim_order_id: null
+  sim_event_ids:
+  - event-01647
+- id: bill-utilities-00203
+  doc_number: BILL-5032
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  due_sim_day: 77
+  due_date: '2025-12-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '60.00'
+  total_amount: '60.00'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00203
+  sim_obligation_id: obligation-00203
+  sim_order_id: null
+  sim_event_ids:
+  - event-01643
+- id: bill-utilities-00204
+  doc_number: BILL-5033
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  due_sim_day: 77
+  due_date: '2025-12-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '12.00'
+  total_amount: '12.00'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00204
+  sim_obligation_id: obligation-00204
+  sim_order_id: null
+  sim_event_ids:
+  - event-01644
+- id: bill-variable-services-00205
+  doc_number: BILL-5034
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  due_sim_day: 77
+  due_date: '2025-12-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2750.60'
+  total_amount: '2750.60'
+  project_id: null
+  cost_category: variable_services
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00205
+  sim_obligation_id: obligation-00205
+  sim_order_id: null
+  sim_event_ids:
+  - event-01645
+- id: bill-operating-00244
+  doc_number: BILL-5035
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  due_sim_day: 84
+  due_date: '2025-12-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00244
+  sim_obligation_id: obligation-00244
+  sim_order_id: null
+  sim_event_ids:
+  - event-01881
+- id: bill-utilities-00240
+  doc_number: BILL-5036
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  due_sim_day: 84
+  due_date: '2025-12-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '60.00'
+  total_amount: '60.00'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00240
+  sim_obligation_id: obligation-00240
+  sim_order_id: null
+  sim_event_ids:
+  - event-01877
+- id: bill-utilities-00241
+  doc_number: BILL-5037
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  due_sim_day: 84
+  due_date: '2025-12-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '12.00'
+  total_amount: '12.00'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00241
+  sim_obligation_id: obligation-00241
+  sim_order_id: null
+  sim_event_ids:
+  - event-01878
+- id: bill-variable-services-00242
+  doc_number: BILL-5038
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  due_sim_day: 84
+  due_date: '2025-12-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2642.69'
+  total_amount: '2642.69'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00242
+  sim_obligation_id: obligation-00242
+  sim_order_id: null
+  sim_event_ids:
+  - event-01879
+- id: bill-interest-00272
+  doc_number: BILL-5039
+  vendor_id: vend-bank
+  vendor_name: Hollyhock Credit Union
+  expense_kind: operating
+  txn_sim_day: 90
+  txn_date: '2026-01-04'
+  due_sim_day: 97
+  due_date: '2026-01-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '690.31'
+  total_amount: '690.31'
+  project_id: null
+  cost_category: interest
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-interest-00272
+  sim_obligation_id: obligation-00272
+  sim_order_id: null
+  sim_event_ids:
+  - event-02099
+- id: bill-income-tax-00273
+  doc_number: BILL-5040
+  vendor_id: vend-government
+  vendor_name: Cedar Park County Treasurer
+  expense_kind: operating
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  due_sim_day: 121
+  due_date: '2026-02-04'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-income-tax
+    account_name: Income Tax Expense
+    description: Income tax assessed on the period (income_tax).
+    amount: '7275.90'
+  total_amount: '7275.90'
+  project_id: null
+  cost_category: income_tax
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-income-tax-00273
+  sim_obligation_id: obligation-00273
+  sim_order_id: null
+  sim_event_ids:
+  - event-02120
+- id: bill-operating-00282
+  doc_number: BILL-5041
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  due_sim_day: 91
+  due_date: '2026-01-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00282
+  sim_obligation_id: obligation-00282
+  sim_order_id: null
+  sim_event_ids:
+  - event-02133
+- id: bill-utilities-00278
+  doc_number: BILL-5042
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  due_sim_day: 91
+  due_date: '2026-01-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '68.05'
+  total_amount: '68.05'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00278
+  sim_obligation_id: obligation-00278
+  sim_order_id: null
+  sim_event_ids:
+  - event-02129
+- id: bill-utilities-00279
+  doc_number: BILL-5043
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  due_sim_day: 91
+  due_date: '2026-01-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '13.61'
+  total_amount: '13.61'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00279
+  sim_obligation_id: obligation-00279
+  sim_order_id: null
+  sim_event_ids:
+  - event-02130
+- id: bill-variable-services-00280
+  doc_number: BILL-5044
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  due_sim_day: 91
+  due_date: '2026-01-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '3241.95'
+  total_amount: '3241.95'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00280
+  sim_obligation_id: obligation-00280
+  sim_order_id: null
+  sim_event_ids:
+  - event-02131
+- id: bill-operating-00320
+  doc_number: BILL-5045
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  due_sim_day: 98
+  due_date: '2026-01-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00320
+  sim_obligation_id: obligation-00320
+  sim_order_id: null
+  sim_event_ids:
+  - event-02426
+- id: bill-utilities-00316
+  doc_number: BILL-5046
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  due_sim_day: 98
+  due_date: '2026-01-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '54.10'
+  total_amount: '54.10'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00316
+  sim_obligation_id: obligation-00316
+  sim_order_id: null
+  sim_event_ids:
+  - event-02422
+- id: bill-utilities-00317
+  doc_number: BILL-5047
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  due_sim_day: 98
+  due_date: '2026-01-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.82'
+  total_amount: '10.82'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00317
+  sim_obligation_id: obligation-00317
+  sim_order_id: null
+  sim_event_ids:
+  - event-02423
+- id: bill-variable-services-00318
+  doc_number: BILL-5048
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  due_sim_day: 98
+  due_date: '2026-01-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2501.22'
+  total_amount: '2501.22'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00318
+  sim_obligation_id: obligation-00318
+  sim_order_id: null
+  sim_event_ids:
+  - event-02424
+- id: bill-operating-00353
+  doc_number: BILL-5049
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  due_sim_day: 105
+  due_date: '2026-01-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00353
+  sim_obligation_id: obligation-00353
+  sim_order_id: null
+  sim_event_ids:
+  - event-02725
+- id: bill-utilities-00349
+  doc_number: BILL-5050
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  due_sim_day: 105
+  due_date: '2026-01-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '54.40'
+  total_amount: '54.40'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00349
+  sim_obligation_id: obligation-00349
+  sim_order_id: null
+  sim_event_ids:
+  - event-02721
+- id: bill-utilities-00350
+  doc_number: BILL-5051
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  due_sim_day: 105
+  due_date: '2026-01-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.88'
+  total_amount: '10.88'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00350
+  sim_obligation_id: obligation-00350
+  sim_order_id: null
+  sim_event_ids:
+  - event-02722
+- id: bill-variable-services-00351
+  doc_number: BILL-5052
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  due_sim_day: 105
+  due_date: '2026-01-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2522.41'
+  total_amount: '2522.41'
+  project_id: null
+  cost_category: variable_services
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00351
+  sim_obligation_id: obligation-00351
+  sim_order_id: null
+  sim_event_ids:
+  - event-02723
+- id: bill-00330
+  doc_number: BILL-5053
+  vendor_id: vend-supplier
+  vendor_name: Elmsworth Apothecary
+  expense_kind: product
+  txn_sim_day: 110
+  txn_date: '2026-01-24'
+  due_sim_day: 140
+  due_date: '2026-02-23'
+  item_lines:
+  - line_num: 1
+    item_id: item-00002
+    item_name: Digital Thermometer Case
+    description: Oral digital thermometers, twenty-four per case.
+    quantity: 1512
+    unit_price_amount: '23.28'
+    amount: '35199.36'
+  account_lines: []
+  total_amount: '35199.36'
+  project_id: null
+  cost_category: purchase
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-00330
+  sim_obligation_id: obligation-00377
+  sim_order_id: order-00330
+  sim_event_ids:
+  - event-02962
+- id: bill-operating-00386
+  doc_number: BILL-5054
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  due_sim_day: 112
+  due_date: '2026-01-26'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00386
+  sim_obligation_id: obligation-00386
+  sim_order_id: null
+  sim_event_ids:
+  - event-03033
+- id: bill-utilities-00382
+  doc_number: BILL-5055
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  due_sim_day: 112
+  due_date: '2026-01-26'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '44.45'
+  total_amount: '44.45'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00382
+  sim_obligation_id: obligation-00382
+  sim_order_id: null
+  sim_event_ids:
+  - event-03029
+- id: bill-utilities-00383
+  doc_number: BILL-5056
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  due_sim_day: 112
+  due_date: '2026-01-26'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.89'
+  total_amount: '8.89'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00383
+  sim_obligation_id: obligation-00383
+  sim_order_id: null
+  sim_event_ids:
+  - event-03030
+- id: bill-variable-services-00384
+  doc_number: BILL-5057
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  due_sim_day: 112
+  due_date: '2026-01-26'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2061.05'
+  total_amount: '2061.05'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00384
+  sim_obligation_id: obligation-00384
+  sim_order_id: null
+  sim_event_ids:
+  - event-03031
+- id: bill-00307
+  doc_number: BILL-5058
+  vendor_id: vend-supplier
+  vendor_name: Elmsworth Apothecary
+  expense_kind: product
+  txn_sim_day: 118
+  txn_date: '2026-02-01'
+  due_sim_day: 148
+  due_date: '2026-03-03'
+  item_lines:
+  - line_num: 1
+    item_id: item-00001
+    item_name: Syringe Box, 3 mL
+    description: Three-milliliter Luer-lock syringes, hundred per box.
+    quantity: 14976
+    unit_price_amount: '18.44'
+    amount: '276157.44'
+  account_lines: []
+  total_amount: '276157.44'
+  project_id: null
+  cost_category: purchase
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-00307
+  sim_obligation_id: obligation-00412
+  sim_order_id: order-00307
+  sim_event_ids:
+  - event-03305
+- id: bill-operating-00421
+  doc_number: BILL-5059
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  due_sim_day: 119
+  due_date: '2026-02-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00421
+  sim_obligation_id: obligation-00421
+  sim_order_id: null
+  sim_event_ids:
+  - event-03346
+- id: bill-utilities-00417
+  doc_number: BILL-5060
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  due_sim_day: 119
+  due_date: '2026-02-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '61.10'
+  total_amount: '61.10'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00417
+  sim_obligation_id: obligation-00417
+  sim_order_id: null
+  sim_event_ids:
+  - event-03342
+- id: bill-utilities-00418
+  doc_number: BILL-5061
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  due_sim_day: 119
+  due_date: '2026-02-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '12.22'
+  total_amount: '12.22'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00418
+  sim_obligation_id: obligation-00418
+  sim_order_id: null
+  sim_event_ids:
+  - event-03343
+- id: bill-variable-services-00419
+  doc_number: BILL-5062
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  due_sim_day: 119
+  due_date: '2026-02-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2849.84'
+  total_amount: '2849.84'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00419
+  sim_obligation_id: obligation-00419
+  sim_order_id: null
+  sim_event_ids:
+  - event-03344
+- id: bill-interest-00427
+  doc_number: BILL-5063
+  vendor_id: vend-bank
+  vendor_name: Hollyhock Credit Union
+  expense_kind: operating
+  txn_sim_day: 120
+  txn_date: '2026-02-03'
+  due_sim_day: 127
+  due_date: '2026-02-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.23'
+  total_amount: '721.23'
+  project_id: null
+  cost_category: interest
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-interest-00427
+  sim_obligation_id: obligation-00427
+  sim_order_id: null
+  sim_event_ids:
+  - event-03424
+- id: bill-operating-00455
+  doc_number: BILL-5064
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  due_sim_day: 126
+  due_date: '2026-02-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00455
+  sim_obligation_id: obligation-00455
+  sim_order_id: null
+  sim_event_ids:
+  - event-03657
+- id: bill-utilities-00451
+  doc_number: BILL-5065
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  due_sim_day: 126
+  due_date: '2026-02-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '52.45'
+  total_amount: '52.45'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00451
+  sim_obligation_id: obligation-00451
+  sim_order_id: null
+  sim_event_ids:
+  - event-03653
+- id: bill-utilities-00452
+  doc_number: BILL-5066
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  due_sim_day: 126
+  due_date: '2026-02-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.49'
+  total_amount: '10.49'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00452
+  sim_obligation_id: obligation-00452
+  sim_order_id: null
+  sim_event_ids:
+  - event-03654
+- id: bill-variable-services-00453
+  doc_number: BILL-5067
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  due_sim_day: 126
+  due_date: '2026-02-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2494.58'
+  total_amount: '2494.58'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00453
+  sim_obligation_id: obligation-00453
+  sim_order_id: null
+  sim_event_ids:
+  - event-03655
+- id: bill-operating-00489
+  doc_number: BILL-5068
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  due_sim_day: 133
+  due_date: '2026-02-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00489
+  sim_obligation_id: obligation-00489
+  sim_order_id: null
+  sim_event_ids:
+  - event-03967
+- id: bill-utilities-00485
+  doc_number: BILL-5069
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  due_sim_day: 133
+  due_date: '2026-02-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '58.50'
+  total_amount: '58.50'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00485
+  sim_obligation_id: obligation-00485
+  sim_order_id: null
+  sim_event_ids:
+  - event-03963
+- id: bill-utilities-00486
+  doc_number: BILL-5070
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  due_sim_day: 133
+  due_date: '2026-02-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '11.70'
+  total_amount: '11.70'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00486
+  sim_obligation_id: obligation-00486
+  sim_order_id: null
+  sim_event_ids:
+  - event-03964
+- id: bill-variable-services-00487
+  doc_number: BILL-5071
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  due_sim_day: 133
+  due_date: '2026-02-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2817.00'
+  total_amount: '2817.00'
+  project_id: null
+  cost_category: variable_services
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00487
+  sim_obligation_id: obligation-00487
+  sim_order_id: null
+  sim_event_ids:
+  - event-03965
+- id: bill-operating-00523
+  doc_number: BILL-5072
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  due_sim_day: 140
+  due_date: '2026-02-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00523
+  sim_obligation_id: obligation-00523
+  sim_order_id: null
+  sim_event_ids:
+  - event-04282
+- id: bill-product-development-00514
+  doc_number: BILL-5073
+  vendor_id: vend-operating-vendor
+  vendor_name: Northstar Larkspur Movers
+  expense_kind: operating
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  due_sim_day: 140
+  due_date: '2026-02-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Bringing a new product to market (product_development).
+    amount: '3738.27'
+  total_amount: '3738.27'
+  project_id: null
+  cost_category: product_development
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-product-development-00514
+  sim_obligation_id: obligation-00514
+  sim_order_id: null
+  sim_event_ids:
+  - event-04269
+- id: bill-utilities-00519
+  doc_number: BILL-5074
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  due_sim_day: 140
+  due_date: '2026-02-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '50.45'
+  total_amount: '50.45'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00519
+  sim_obligation_id: obligation-00519
+  sim_order_id: null
+  sim_event_ids:
+  - event-04278
+- id: bill-utilities-00520
+  doc_number: BILL-5075
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  due_sim_day: 140
+  due_date: '2026-02-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.09'
+  total_amount: '10.09'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00520
+  sim_obligation_id: obligation-00520
+  sim_order_id: null
+  sim_event_ids:
+  - event-04279
+- id: bill-variable-services-00521
+  doc_number: BILL-5076
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  due_sim_day: 140
+  due_date: '2026-02-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2452.60'
+  total_amount: '2452.60'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00521
+  sim_obligation_id: obligation-00521
+  sim_order_id: null
+  sim_event_ids:
+  - event-04280
+- id: bill-operating-00554
+  doc_number: BILL-5077
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  due_sim_day: 147
+  due_date: '2026-03-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00554
+  sim_obligation_id: obligation-00554
+  sim_order_id: null
+  sim_event_ids:
+  - event-04585
+- id: bill-utilities-00550
+  doc_number: BILL-5078
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  due_sim_day: 147
+  due_date: '2026-03-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '47.85'
+  total_amount: '47.85'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00550
+  sim_obligation_id: obligation-00550
+  sim_order_id: null
+  sim_event_ids:
+  - event-04581
+- id: bill-utilities-00551
+  doc_number: BILL-5079
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  due_sim_day: 147
+  due_date: '2026-03-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.57'
+  total_amount: '9.57'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00551
+  sim_obligation_id: obligation-00551
+  sim_order_id: null
+  sim_event_ids:
+  - event-04582
+- id: bill-variable-services-00552
+  doc_number: BILL-5080
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  due_sim_day: 147
+  due_date: '2026-03-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2290.65'
+  total_amount: '2290.65'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00552
+  sim_obligation_id: obligation-00552
+  sim_order_id: null
+  sim_event_ids:
+  - event-04583
+- id: bill-interest-00571
+  doc_number: BILL-5081
+  vendor_id: vend-bank
+  vendor_name: Hollyhock Credit Union
+  expense_kind: operating
+  txn_sim_day: 150
+  txn_date: '2026-03-05'
+  due_sim_day: 157
+  due_date: '2026-03-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.24'
+  total_amount: '721.24'
+  project_id: null
+  cost_category: interest
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-interest-00571
+  sim_obligation_id: obligation-00571
+  sim_order_id: null
+  sim_event_ids:
+  - event-04749
+- id: bill-operating-00585
+  doc_number: BILL-5082
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  due_sim_day: 154
+  due_date: '2026-03-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00585
+  sim_obligation_id: obligation-00585
+  sim_order_id: null
+  sim_event_ids:
+  - event-04882
+- id: bill-utilities-00581
+  doc_number: BILL-5083
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  due_sim_day: 154
+  due_date: '2026-03-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '37.50'
+  total_amount: '37.50'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00581
+  sim_obligation_id: obligation-00581
+  sim_order_id: null
+  sim_event_ids:
+  - event-04878
+- id: bill-utilities-00582
+  doc_number: BILL-5084
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  due_sim_day: 154
+  due_date: '2026-03-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '7.50'
+  total_amount: '7.50'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00582
+  sim_obligation_id: obligation-00582
+  sim_order_id: null
+  sim_event_ids:
+  - event-04879
+- id: bill-variable-services-00583
+  doc_number: BILL-5085
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  due_sim_day: 154
+  due_date: '2026-03-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '1766.55'
+  total_amount: '1766.55'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00583
+  sim_obligation_id: obligation-00583
+  sim_order_id: null
+  sim_event_ids:
+  - event-04880
+- id: bill-operating-00626
+  doc_number: BILL-5086
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 161
+  due_date: '2026-03-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00626
+  sim_obligation_id: obligation-00626
+  sim_order_id: null
+  sim_event_ids:
+  - event-05208
+- id: bill-utilities-00622
+  doc_number: BILL-5087
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 161
+  due_date: '2026-03-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '59.70'
+  total_amount: '59.70'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00622
+  sim_obligation_id: obligation-00622
+  sim_order_id: null
+  sim_event_ids:
+  - event-05204
+- id: bill-utilities-00623
+  doc_number: BILL-5088
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 161
+  due_date: '2026-03-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '11.94'
+  total_amount: '11.94'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00623
+  sim_obligation_id: obligation-00623
+  sim_order_id: null
+  sim_event_ids:
+  - event-05205
+- id: bill-variable-services-00624
+  doc_number: BILL-5089
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 161
+  due_date: '2026-03-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2819.48'
+  total_amount: '2819.48'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00624
+  sim_obligation_id: obligation-00624
+  sim_order_id: null
+  sim_event_ids:
+  - event-05206
+- id: bill-00504
+  doc_number: BILL-5090
+  vendor_id: vend-supplier
+  vendor_name: Elmsworth Apothecary
+  expense_kind: product
+  txn_sim_day: 166
+  txn_date: '2026-03-21'
+  due_sim_day: 196
+  due_date: '2026-04-20'
+  item_lines:
+  - line_num: 1
+    item_id: item-00002
+    item_name: Digital Thermometer Case
+    description: Oral digital thermometers, twenty-four per case.
+    quantity: 1992
+    unit_price_amount: '23.51'
+    amount: '46831.92'
+  account_lines: []
+  total_amount: '46831.92'
+  project_id: null
+  cost_category: purchase
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-00504
+  sim_obligation_id: obligation-00652
+  sim_order_id: order-00504
+  sim_event_ids:
+  - event-05439
+- id: bill-operating-00661
+  doc_number: BILL-5091
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  due_sim_day: 168
+  due_date: '2026-03-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00661
+  sim_obligation_id: obligation-00661
+  sim_order_id: null
+  sim_event_ids:
+  - event-05507
+- id: bill-utilities-00657
+  doc_number: BILL-5092
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  due_sim_day: 168
+  due_date: '2026-03-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '36.85'
+  total_amount: '36.85'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00657
+  sim_obligation_id: obligation-00657
+  sim_order_id: null
+  sim_event_ids:
+  - event-05503
+- id: bill-utilities-00658
+  doc_number: BILL-5093
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  due_sim_day: 168
+  due_date: '2026-03-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '7.37'
+  total_amount: '7.37'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00658
+  sim_obligation_id: obligation-00658
+  sim_order_id: null
+  sim_event_ids:
+  - event-05504
+- id: bill-variable-services-00659
+  doc_number: BILL-5094
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  due_sim_day: 168
+  due_date: '2026-03-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '1725.14'
+  total_amount: '1725.14'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00659
+  sim_obligation_id: obligation-00659
+  sim_order_id: null
+  sim_event_ids:
+  - event-05505
+- id: bill-operating-00689
+  doc_number: BILL-5095
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  due_sim_day: 175
+  due_date: '2026-03-30'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00689
+  sim_obligation_id: obligation-00689
+  sim_order_id: null
+  sim_event_ids:
+  - event-05798
+- id: bill-utilities-00685
+  doc_number: BILL-5096
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  due_sim_day: 175
+  due_date: '2026-03-30'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '31.60'
+  total_amount: '31.60'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00685
+  sim_obligation_id: obligation-00685
+  sim_order_id: null
+  sim_event_ids:
+  - event-05794
+- id: bill-utilities-00686
+  doc_number: BILL-5097
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  due_sim_day: 175
+  due_date: '2026-03-30'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '6.32'
+  total_amount: '6.32'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00686
+  sim_obligation_id: obligation-00686
+  sim_order_id: null
+  sim_event_ids:
+  - event-05795
+- id: bill-variable-services-00687
+  doc_number: BILL-5098
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  due_sim_day: 175
+  due_date: '2026-03-30'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '1490.50'
+  total_amount: '1490.50'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00687
+  sim_obligation_id: obligation-00687
+  sim_order_id: null
+  sim_event_ids:
+  - event-05796
+- id: bill-interest-00719
+  doc_number: BILL-5099
+  vendor_id: vend-bank
+  vendor_name: Hollyhock Credit Union
+  expense_kind: operating
+  txn_sim_day: 180
+  txn_date: '2026-04-04'
+  due_sim_day: 187
+  due_date: '2026-04-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.23'
+  total_amount: '721.23'
+  project_id: null
+  cost_category: interest
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-interest-00719
+  sim_obligation_id: obligation-00719
+  sim_order_id: null
+  sim_event_ids:
+  - event-06053
+- id: bill-income-tax-00720
+  doc_number: BILL-5100
+  vendor_id: vend-government
+  vendor_name: Cedar Park County Treasurer
+  expense_kind: operating
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  due_sim_day: 212
+  due_date: '2026-05-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-income-tax
+    account_name: Income Tax Expense
+    description: Income tax assessed on the period (income_tax).
+    amount: '8487.34'
+  total_amount: '8487.34'
+  project_id: null
+  cost_category: income_tax
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-income-tax-00720
+  sim_obligation_id: obligation-00720
+  sim_order_id: null
+  sim_event_ids:
+  - event-06111
+- id: bill-operating-00728
+  doc_number: BILL-5101
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  due_sim_day: 182
+  due_date: '2026-04-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00728
+  sim_obligation_id: obligation-00728
+  sim_order_id: null
+  sim_event_ids:
+  - event-06126
+- id: bill-utilities-00724
+  doc_number: BILL-5102
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  due_sim_day: 182
+  due_date: '2026-04-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '47.30'
+  total_amount: '47.30'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00724
+  sim_obligation_id: obligation-00724
+  sim_order_id: null
+  sim_event_ids:
+  - event-06122
+- id: bill-utilities-00725
+  doc_number: BILL-5103
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  due_sim_day: 182
+  due_date: '2026-04-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.46'
+  total_amount: '9.46'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00725
+  sim_obligation_id: obligation-00725
+  sim_order_id: null
+  sim_event_ids:
+  - event-06123
+- id: bill-variable-services-00726
+  doc_number: BILL-5104
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  due_sim_day: 182
+  due_date: '2026-04-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2211.85'
+  total_amount: '2211.85'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00726
+  sim_obligation_id: obligation-00726
+  sim_order_id: null
+  sim_event_ids:
+  - event-06124
+- id: bill-operating-00766
+  doc_number: BILL-5105
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  due_sim_day: 189
+  due_date: '2026-04-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00766
+  sim_obligation_id: obligation-00766
+  sim_order_id: null
+  sim_event_ids:
+  - event-06452
+- id: bill-utilities-00762
+  doc_number: BILL-5106
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  due_sim_day: 189
+  due_date: '2026-04-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '47.55'
+  total_amount: '47.55'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00762
+  sim_obligation_id: obligation-00762
+  sim_order_id: null
+  sim_event_ids:
+  - event-06448
+- id: bill-utilities-00763
+  doc_number: BILL-5107
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  due_sim_day: 189
+  due_date: '2026-04-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.51'
+  total_amount: '9.51'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00763
+  sim_obligation_id: obligation-00763
+  sim_order_id: null
+  sim_event_ids:
+  - event-06449
+- id: bill-variable-services-00764
+  doc_number: BILL-5108
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  due_sim_day: 189
+  due_date: '2026-04-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2307.66'
+  total_amount: '2307.66'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00764
+  sim_obligation_id: obligation-00764
+  sim_order_id: null
+  sim_event_ids:
+  - event-06450
+- id: bill-operating-00807
+  doc_number: BILL-5109
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  due_sim_day: 196
+  due_date: '2026-04-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00807
+  sim_obligation_id: obligation-00807
+  sim_order_id: null
+  sim_event_ids:
+  - event-06785
+- id: bill-product-development-00799
+  doc_number: BILL-5110
+  vendor_id: vend-operating-vendor
+  vendor_name: Northstar Larkspur Movers
+  expense_kind: operating
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  due_sim_day: 196
+  due_date: '2026-04-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Bringing a new product to market (product_development).
+    amount: '3738.27'
+  total_amount: '3738.27'
+  project_id: null
+  cost_category: product_development
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-product-development-00799
+  sim_obligation_id: obligation-00799
+  sim_order_id: null
+  sim_event_ids:
+  - event-06767
+- id: bill-utilities-00803
+  doc_number: BILL-5111
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  due_sim_day: 196
+  due_date: '2026-04-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '51.30'
+  total_amount: '51.30'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00803
+  sim_obligation_id: obligation-00803
+  sim_order_id: null
+  sim_event_ids:
+  - event-06781
+- id: bill-utilities-00804
+  doc_number: BILL-5112
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  due_sim_day: 196
+  due_date: '2026-04-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.26'
+  total_amount: '10.26'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00804
+  sim_obligation_id: obligation-00804
+  sim_order_id: null
+  sim_event_ids:
+  - event-06782
+- id: bill-variable-services-00805
+  doc_number: BILL-5113
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  due_sim_day: 196
+  due_date: '2026-04-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2416.55'
+  total_amount: '2416.55'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00805
+  sim_obligation_id: obligation-00805
+  sim_order_id: null
+  sim_event_ids:
+  - event-06783
+- id: bill-operating-00840
+  doc_number: BILL-5114
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  due_sim_day: 203
+  due_date: '2026-04-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00840
+  sim_obligation_id: obligation-00840
+  sim_order_id: null
+  sim_event_ids:
+  - event-07106
+- id: bill-utilities-00836
+  doc_number: BILL-5115
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  due_sim_day: 203
+  due_date: '2026-04-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '42.45'
+  total_amount: '42.45'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00836
+  sim_obligation_id: obligation-00836
+  sim_order_id: null
+  sim_event_ids:
+  - event-07102
+- id: bill-utilities-00837
+  doc_number: BILL-5116
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  due_sim_day: 203
+  due_date: '2026-04-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.49'
+  total_amount: '8.49'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00837
+  sim_obligation_id: obligation-00837
+  sim_order_id: null
+  sim_event_ids:
+  - event-07103
+- id: bill-variable-services-00838
+  doc_number: BILL-5117
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  due_sim_day: 203
+  due_date: '2026-04-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '1997.06'
+  total_amount: '1997.06'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00838
+  sim_obligation_id: obligation-00838
+  sim_order_id: null
+  sim_event_ids:
+  - event-07104
+- id: bill-00638
+  doc_number: BILL-5118
+  vendor_id: vend-supplier
+  vendor_name: Elmsworth Apothecary
+  expense_kind: product
+  txn_sim_day: 208
+  txn_date: '2026-05-02'
+  due_sim_day: 238
+  due_date: '2026-06-01'
+  item_lines:
+  - line_num: 1
+    item_id: item-00003
+    item_name: Instrument Tray, Stainless
+    description: Stainless mayo instrument tray with lid.
+    quantity: 1008
+    unit_price_amount: '27.94'
+    amount: '28163.52'
+  account_lines: []
+  total_amount: '28163.52'
+  project_id: null
+  cost_category: purchase
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-00638
+  sim_obligation_id: obligation-00875
+  sim_order_id: order-00638
+  sim_event_ids:
+  - event-07378
+- id: bill-interest-00876
+  doc_number: BILL-5119
+  vendor_id: vend-bank
+  vendor_name: Hollyhock Credit Union
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 217
+  due_date: '2026-05-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.23'
+  total_amount: '721.23'
+  project_id: null
+  cost_category: interest
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-interest-00876
+  sim_obligation_id: obligation-00876
+  sim_order_id: null
+  sim_event_ids:
+  - event-07427
+- id: bill-operating-00884
+  doc_number: BILL-5120
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 210
+  due_date: '2026-05-04'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00884
+  sim_obligation_id: obligation-00884
+  sim_order_id: null
+  sim_event_ids:
+  - event-07447
+- id: bill-utilities-00880
+  doc_number: BILL-5121
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 210
+  due_date: '2026-05-04'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '55.40'
+  total_amount: '55.40'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00880
+  sim_obligation_id: obligation-00880
+  sim_order_id: null
+  sim_event_ids:
+  - event-07443
+- id: bill-utilities-00881
+  doc_number: BILL-5122
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 210
+  due_date: '2026-05-04'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '11.08'
+  total_amount: '11.08'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00881
+  sim_obligation_id: obligation-00881
+  sim_order_id: null
+  sim_event_ids:
+  - event-07444
+- id: bill-variable-services-00882
+  doc_number: BILL-5123
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 210
+  due_date: '2026-05-04'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2631.60'
+  total_amount: '2631.60'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00882
+  sim_obligation_id: obligation-00882
+  sim_order_id: null
+  sim_event_ids:
+  - event-07445
+- id: bill-operating-00923
+  doc_number: BILL-5124
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  due_sim_day: 217
+  due_date: '2026-05-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00923
+  sim_obligation_id: obligation-00923
+  sim_order_id: null
+  sim_event_ids:
+  - event-07788
+- id: bill-utilities-00919
+  doc_number: BILL-5125
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  due_sim_day: 217
+  due_date: '2026-05-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '49.30'
+  total_amount: '49.30'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00919
+  sim_obligation_id: obligation-00919
+  sim_order_id: null
+  sim_event_ids:
+  - event-07784
+- id: bill-utilities-00920
+  doc_number: BILL-5126
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  due_sim_day: 217
+  due_date: '2026-05-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.86'
+  total_amount: '9.86'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00920
+  sim_obligation_id: obligation-00920
+  sim_order_id: null
+  sim_event_ids:
+  - event-07785
+- id: bill-variable-services-00921
+  doc_number: BILL-5127
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  due_sim_day: 217
+  due_date: '2026-05-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2232.34'
+  total_amount: '2232.34'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00921
+  sim_obligation_id: obligation-00921
+  sim_order_id: null
+  sim_event_ids:
+  - event-07786
+- id: bill-operating-00964
+  doc_number: BILL-5128
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  due_sim_day: 224
+  due_date: '2026-05-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-00964
+  sim_obligation_id: obligation-00964
+  sim_order_id: null
+  sim_event_ids:
+  - event-08141
+- id: bill-utilities-00960
+  doc_number: BILL-5129
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  due_sim_day: 224
+  due_date: '2026-05-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '60.00'
+  total_amount: '60.00'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00960
+  sim_obligation_id: obligation-00960
+  sim_order_id: null
+  sim_event_ids:
+  - event-08137
+- id: bill-utilities-00961
+  doc_number: BILL-5130
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  due_sim_day: 224
+  due_date: '2026-05-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '12.00'
+  total_amount: '12.00'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-00961
+  sim_obligation_id: obligation-00961
+  sim_order_id: null
+  sim_event_ids:
+  - event-08138
+- id: bill-variable-services-00962
+  doc_number: BILL-5131
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  due_sim_day: 224
+  due_date: '2026-05-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2637.39'
+  total_amount: '2637.39'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-00962
+  sim_obligation_id: obligation-00962
+  sim_order_id: null
+  sim_event_ids:
+  - event-08139
+- id: bill-operating-01004
+  doc_number: BILL-5132
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  due_sim_day: 231
+  due_date: '2026-05-25'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01004
+  sim_obligation_id: obligation-01004
+  sim_order_id: null
+  sim_event_ids:
+  - event-08489
+- id: bill-utilities-01000
+  doc_number: BILL-5133
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  due_sim_day: 231
+  due_date: '2026-05-25'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '60.00'
+  total_amount: '60.00'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01000
+  sim_obligation_id: obligation-01000
+  sim_order_id: null
+  sim_event_ids:
+  - event-08485
+- id: bill-utilities-01001
+  doc_number: BILL-5134
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  due_sim_day: 231
+  due_date: '2026-05-25'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '12.00'
+  total_amount: '12.00'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01001
+  sim_obligation_id: obligation-01001
+  sim_order_id: null
+  sim_event_ids:
+  - event-08486
+- id: bill-variable-services-01002
+  doc_number: BILL-5135
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  due_sim_day: 231
+  due_date: '2026-05-25'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2644.97'
+  total_amount: '2644.97'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01002
+  sim_obligation_id: obligation-01002
+  sim_order_id: null
+  sim_event_ids:
+  - event-08487
+- id: bill-operating-01040
+  doc_number: BILL-5136
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  due_sim_day: 238
+  due_date: '2026-06-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01040
+  sim_obligation_id: obligation-01040
+  sim_order_id: null
+  sim_event_ids:
+  - event-08843
+- id: bill-utilities-01036
+  doc_number: BILL-5137
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  due_sim_day: 238
+  due_date: '2026-06-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '46.85'
+  total_amount: '46.85'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01036
+  sim_obligation_id: obligation-01036
+  sim_order_id: null
+  sim_event_ids:
+  - event-08839
+- id: bill-utilities-01037
+  doc_number: BILL-5138
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  due_sim_day: 238
+  due_date: '2026-06-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.37'
+  total_amount: '9.37'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01037
+  sim_obligation_id: obligation-01037
+  sim_order_id: null
+  sim_event_ids:
+  - event-08840
+- id: bill-variable-services-01038
+  doc_number: BILL-5139
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  due_sim_day: 238
+  due_date: '2026-06-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2115.14'
+  total_amount: '2115.14'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01038
+  sim_obligation_id: obligation-01038
+  sim_order_id: null
+  sim_event_ids:
+  - event-08841
+- id: bill-interest-01057
+  doc_number: BILL-5140
+  vendor_id: vend-bank
+  vendor_name: Hollyhock Credit Union
+  expense_kind: operating
+  txn_sim_day: 240
+  txn_date: '2026-06-03'
+  due_sim_day: 247
+  due_date: '2026-06-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.23'
+  total_amount: '721.23'
+  project_id: null
+  cost_category: interest
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-interest-01057
+  sim_obligation_id: obligation-01057
+  sim_order_id: null
+  sim_event_ids:
+  - event-08996
+- id: bill-operating-01079
+  doc_number: BILL-5141
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  due_sim_day: 245
+  due_date: '2026-06-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01079
+  sim_obligation_id: obligation-01079
+  sim_order_id: null
+  sim_event_ids:
+  - event-09229
+- id: bill-utilities-01075
+  doc_number: BILL-5142
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  due_sim_day: 245
+  due_date: '2026-06-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '43.80'
+  total_amount: '43.80'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01075
+  sim_obligation_id: obligation-01075
+  sim_order_id: null
+  sim_event_ids:
+  - event-09225
+- id: bill-utilities-01076
+  doc_number: BILL-5143
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  due_sim_day: 245
+  due_date: '2026-06-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.76'
+  total_amount: '8.76'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01076
+  sim_obligation_id: obligation-01076
+  sim_order_id: null
+  sim_event_ids:
+  - event-09226
+- id: bill-variable-services-01077
+  doc_number: BILL-5144
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  due_sim_day: 245
+  due_date: '2026-06-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '1921.59'
+  total_amount: '1921.59'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01077
+  sim_obligation_id: obligation-01077
+  sim_order_id: null
+  sim_event_ids:
+  - event-09227
+- id: bill-operating-01120
+  doc_number: BILL-5145
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  due_sim_day: 252
+  due_date: '2026-06-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01120
+  sim_obligation_id: obligation-01120
+  sim_order_id: null
+  sim_event_ids:
+  - event-09604
+- id: bill-product-development-01112
+  doc_number: BILL-5146
+  vendor_id: vend-operating-vendor
+  vendor_name: Northstar Larkspur Movers
+  expense_kind: operating
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  due_sim_day: 252
+  due_date: '2026-06-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Bringing a new product to market (product_development).
+    amount: '3738.27'
+  total_amount: '3738.27'
+  project_id: null
+  cost_category: product_development
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-product-development-01112
+  sim_obligation_id: obligation-01112
+  sim_order_id: null
+  sim_event_ids:
+  - event-09591
+- id: bill-utilities-01116
+  doc_number: BILL-5147
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  due_sim_day: 252
+  due_date: '2026-06-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '59.65'
+  total_amount: '59.65'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01116
+  sim_obligation_id: obligation-01116
+  sim_order_id: null
+  sim_event_ids:
+  - event-09600
+- id: bill-utilities-01117
+  doc_number: BILL-5148
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  due_sim_day: 252
+  due_date: '2026-06-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '11.93'
+  total_amount: '11.93'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01117
+  sim_obligation_id: obligation-01117
+  sim_order_id: null
+  sim_event_ids:
+  - event-09601
+- id: bill-variable-services-01118
+  doc_number: BILL-5149
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  due_sim_day: 252
+  due_date: '2026-06-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2556.93'
+  total_amount: '2556.93'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01118
+  sim_obligation_id: obligation-01118
+  sim_order_id: null
+  sim_event_ids:
+  - event-09602
+- id: bill-00900
+  doc_number: BILL-5150
+  vendor_id: vend-supplier
+  vendor_name: Elmsworth Apothecary
+  expense_kind: product
+  txn_sim_day: 258
+  txn_date: '2026-06-21'
+  due_sim_day: 288
+  due_date: '2026-07-21'
+  item_lines:
+  - line_num: 1
+    item_id: item-00004
+    item_name: Adhesive Bandage Assortment
+    description: Fabric adhesive bandages in assorted sizes, bulk box.
+    quantity: 768
+    unit_price_amount: '32.60'
+    amount: '25036.80'
+  account_lines: []
+  total_amount: '25036.80'
+  project_id: null
+  cost_category: purchase
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-00900
+  sim_obligation_id: obligation-01156
+  sim_order_id: order-00900
+  sim_event_ids:
+  - event-09936
+- id: bill-operating-01165
+  doc_number: BILL-5151
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  due_sim_day: 259
+  due_date: '2026-06-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01165
+  sim_obligation_id: obligation-01165
+  sim_order_id: null
+  sim_event_ids:
+  - event-09989
+- id: bill-utilities-01161
+  doc_number: BILL-5152
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  due_sim_day: 259
+  due_date: '2026-06-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '61.20'
+  total_amount: '61.20'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01161
+  sim_obligation_id: obligation-01161
+  sim_order_id: null
+  sim_event_ids:
+  - event-09985
+- id: bill-utilities-01162
+  doc_number: BILL-5153
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  due_sim_day: 259
+  due_date: '2026-06-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '12.24'
+  total_amount: '12.24'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01162
+  sim_obligation_id: obligation-01162
+  sim_order_id: null
+  sim_event_ids:
+  - event-09986
+- id: bill-variable-services-01163
+  doc_number: BILL-5154
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  due_sim_day: 259
+  due_date: '2026-06-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2616.68'
+  total_amount: '2616.68'
+  project_id: null
+  cost_category: variable_services
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01163
+  sim_obligation_id: obligation-01163
+  sim_order_id: null
+  sim_event_ids:
+  - event-09987
+- id: bill-00890
+  doc_number: BILL-5155
+  vendor_id: vend-supplier
+  vendor_name: Elmsworth Apothecary
+  expense_kind: product
+  txn_sim_day: 262
+  txn_date: '2026-06-25'
+  due_sim_day: 292
+  due_date: '2026-07-25'
+  item_lines:
+  - line_num: 1
+    item_id: item-00001
+    item_name: Syringe Box, 3 mL
+    description: Three-milliliter Luer-lock syringes, hundred per box.
+    quantity: 11712
+    unit_price_amount: '19.18'
+    amount: '224636.16'
+  account_lines: []
+  total_amount: '224636.16'
+  project_id: null
+  cost_category: purchase
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-00890
+  sim_obligation_id: obligation-01192
+  sim_order_id: order-00890
+  sim_event_ids:
+  - event-10186
+- id: bill-00899
+  doc_number: BILL-5156
+  vendor_id: vend-supplier
+  vendor_name: Elmsworth Apothecary
+  expense_kind: product
+  txn_sim_day: 263
+  txn_date: '2026-06-26'
+  due_sim_day: 293
+  due_date: '2026-07-26'
+  item_lines:
+  - line_num: 1
+    item_id: item-00002
+    item_name: Digital Thermometer Case
+    description: Oral digital thermometers, twenty-four per case.
+    quantity: 2400
+    unit_price_amount: '21.01'
+    amount: '50424.00'
+  account_lines: []
+  total_amount: '50424.00'
+  project_id: null
+  cost_category: purchase
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-00899
+  sim_obligation_id: obligation-01197
+  sim_order_id: order-00899
+  sim_event_ids:
+  - event-10237
+- id: bill-operating-01212
+  doc_number: BILL-5157
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  due_sim_day: 266
+  due_date: '2026-06-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01212
+  sim_obligation_id: obligation-01212
+  sim_order_id: null
+  sim_event_ids:
+  - event-10370
+- id: bill-utilities-01208
+  doc_number: BILL-5158
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  due_sim_day: 266
+  due_date: '2026-06-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '53.90'
+  total_amount: '53.90'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01208
+  sim_obligation_id: obligation-01208
+  sim_order_id: null
+  sim_event_ids:
+  - event-10366
+- id: bill-utilities-01209
+  doc_number: BILL-5159
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  due_sim_day: 266
+  due_date: '2026-06-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.78'
+  total_amount: '10.78'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01209
+  sim_obligation_id: obligation-01209
+  sim_order_id: null
+  sim_event_ids:
+  - event-10367
+- id: bill-variable-services-01210
+  doc_number: BILL-5160
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  due_sim_day: 266
+  due_date: '2026-06-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2349.16'
+  total_amount: '2349.16'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01210
+  sim_obligation_id: obligation-01210
+  sim_order_id: null
+  sim_event_ids:
+  - event-10368
+- id: bill-interest-01237
+  doc_number: BILL-5161
+  vendor_id: vend-bank
+  vendor_name: Hollyhock Credit Union
+  expense_kind: operating
+  txn_sim_day: 270
+  txn_date: '2026-07-03'
+  due_sim_day: 277
+  due_date: '2026-07-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.24'
+  total_amount: '721.24'
+  project_id: null
+  cost_category: interest
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-interest-01237
+  sim_obligation_id: obligation-01237
+  sim_order_id: null
+  sim_event_ids:
+  - event-10596
+- id: bill-income-tax-01243
+  doc_number: BILL-5162
+  vendor_id: vend-government
+  vendor_name: Cedar Park County Treasurer
+  expense_kind: operating
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  due_sim_day: 303
+  due_date: '2026-08-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-income-tax
+    account_name: Income Tax Expense
+    description: Income tax assessed on the period (income_tax).
+    amount: '6340.49'
+  total_amount: '6340.49'
+  project_id: null
+  cost_category: income_tax
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-income-tax-01243
+  sim_obligation_id: obligation-01243
+  sim_order_id: null
+  sim_event_ids:
+  - event-10710
+- id: bill-operating-01252
+  doc_number: BILL-5163
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  due_sim_day: 273
+  due_date: '2026-07-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01252
+  sim_obligation_id: obligation-01252
+  sim_order_id: null
+  sim_event_ids:
+  - event-10732
+- id: bill-utilities-01248
+  doc_number: BILL-5164
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  due_sim_day: 273
+  due_date: '2026-07-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '44.90'
+  total_amount: '44.90'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01248
+  sim_obligation_id: obligation-01248
+  sim_order_id: null
+  sim_event_ids:
+  - event-10728
+- id: bill-utilities-01249
+  doc_number: BILL-5165
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  due_sim_day: 273
+  due_date: '2026-07-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.98'
+  total_amount: '8.98'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01249
+  sim_obligation_id: obligation-01249
+  sim_order_id: null
+  sim_event_ids:
+  - event-10729
+- id: bill-variable-services-01250
+  doc_number: BILL-5166
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  due_sim_day: 273
+  due_date: '2026-07-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '1876.10'
+  total_amount: '1876.10'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01250
+  sim_obligation_id: obligation-01250
+  sim_order_id: null
+  sim_event_ids:
+  - event-10730
+- id: bill-operating-01297
+  doc_number: BILL-5167
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  due_sim_day: 280
+  due_date: '2026-07-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01297
+  sim_obligation_id: obligation-01297
+  sim_order_id: null
+  sim_event_ids:
+  - event-11126
+- id: bill-utilities-01293
+  doc_number: BILL-5168
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  due_sim_day: 280
+  due_date: '2026-07-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '54.85'
+  total_amount: '54.85'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01293
+  sim_obligation_id: obligation-01293
+  sim_order_id: null
+  sim_event_ids:
+  - event-11122
+- id: bill-utilities-01294
+  doc_number: BILL-5169
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  due_sim_day: 280
+  due_date: '2026-07-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.97'
+  total_amount: '10.97'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01294
+  sim_obligation_id: obligation-01294
+  sim_order_id: null
+  sim_event_ids:
+  - event-11123
+- id: bill-variable-services-01295
+  doc_number: BILL-5170
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  due_sim_day: 280
+  due_date: '2026-07-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2569.71'
+  total_amount: '2569.71'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01295
+  sim_obligation_id: obligation-01295
+  sim_order_id: null
+  sim_event_ids:
+  - event-11124
+- id: bill-operating-01333
+  doc_number: BILL-5171
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  due_sim_day: 287
+  due_date: '2026-07-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01333
+  sim_obligation_id: obligation-01333
+  sim_order_id: null
+  sim_event_ids:
+  - event-11485
+- id: bill-utilities-01329
+  doc_number: BILL-5172
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  due_sim_day: 287
+  due_date: '2026-07-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '36.55'
+  total_amount: '36.55'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01329
+  sim_obligation_id: obligation-01329
+  sim_order_id: null
+  sim_event_ids:
+  - event-11481
+- id: bill-utilities-01330
+  doc_number: BILL-5173
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  due_sim_day: 287
+  due_date: '2026-07-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '7.31'
+  total_amount: '7.31'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01330
+  sim_obligation_id: obligation-01330
+  sim_order_id: null
+  sim_event_ids:
+  - event-11482
+- id: bill-variable-services-01331
+  doc_number: BILL-5174
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  due_sim_day: 287
+  due_date: '2026-07-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '1698.98'
+  total_amount: '1698.98'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01331
+  sim_obligation_id: obligation-01331
+  sim_order_id: null
+  sim_event_ids:
+  - event-11483
+- id: bill-operating-01368
+  doc_number: BILL-5175
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  due_sim_day: 294
+  due_date: '2026-07-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01368
+  sim_obligation_id: obligation-01368
+  sim_order_id: null
+  sim_event_ids:
+  - event-11840
+- id: bill-utilities-01364
+  doc_number: BILL-5176
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  due_sim_day: 294
+  due_date: '2026-07-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '37.80'
+  total_amount: '37.80'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01364
+  sim_obligation_id: obligation-01364
+  sim_order_id: null
+  sim_event_ids:
+  - event-11836
+- id: bill-utilities-01365
+  doc_number: BILL-5177
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  due_sim_day: 294
+  due_date: '2026-07-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '7.56'
+  total_amount: '7.56'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01365
+  sim_obligation_id: obligation-01365
+  sim_order_id: null
+  sim_event_ids:
+  - event-11837
+- id: bill-variable-services-01366
+  doc_number: BILL-5178
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  due_sim_day: 294
+  due_date: '2026-07-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '1720.65'
+  total_amount: '1720.65'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01366
+  sim_obligation_id: obligation-01366
+  sim_order_id: null
+  sim_event_ids:
+  - event-11838
+- id: bill-interest-01404
+  doc_number: BILL-5179
+  vendor_id: vend-bank
+  vendor_name: Hollyhock Credit Union
+  expense_kind: operating
+  txn_sim_day: 300
+  txn_date: '2026-08-02'
+  due_sim_day: 307
+  due_date: '2026-08-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.23'
+  total_amount: '721.23'
+  project_id: null
+  cost_category: interest
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-interest-01404
+  sim_obligation_id: obligation-01404
+  sim_order_id: null
+  sim_event_ids:
+  - event-12164
+- id: bill-operating-01412
+  doc_number: BILL-5180
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  due_sim_day: 301
+  due_date: '2026-08-03'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01412
+  sim_obligation_id: obligation-01412
+  sim_order_id: null
+  sim_event_ids:
+  - event-12226
+- id: bill-utilities-01408
+  doc_number: BILL-5181
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  due_sim_day: 301
+  due_date: '2026-08-03'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '44.20'
+  total_amount: '44.20'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01408
+  sim_obligation_id: obligation-01408
+  sim_order_id: null
+  sim_event_ids:
+  - event-12222
+- id: bill-utilities-01409
+  doc_number: BILL-5182
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  due_sim_day: 301
+  due_date: '2026-08-03'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.84'
+  total_amount: '8.84'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01409
+  sim_obligation_id: obligation-01409
+  sim_order_id: null
+  sim_event_ids:
+  - event-12223
+- id: bill-variable-services-01410
+  doc_number: BILL-5183
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  due_sim_day: 301
+  due_date: '2026-08-03'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2080.75'
+  total_amount: '2080.75'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01410
+  sim_obligation_id: obligation-01410
+  sim_order_id: null
+  sim_event_ids:
+  - event-12224
+- id: bill-operating-01454
+  doc_number: BILL-5184
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  due_sim_day: 308
+  due_date: '2026-08-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01454
+  sim_obligation_id: obligation-01454
+  sim_order_id: null
+  sim_event_ids:
+  - event-12623
+- id: bill-product-development-01446
+  doc_number: BILL-5185
+  vendor_id: vend-operating-vendor
+  vendor_name: Northstar Larkspur Movers
+  expense_kind: operating
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  due_sim_day: 308
+  due_date: '2026-08-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Bringing a new product to market (product_development).
+    amount: '3738.27'
+  total_amount: '3738.27'
+  project_id: null
+  cost_category: product_development
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-product-development-01446
+  sim_obligation_id: obligation-01446
+  sim_order_id: null
+  sim_event_ids:
+  - event-12609
+- id: bill-utilities-01450
+  doc_number: BILL-5186
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  due_sim_day: 308
+  due_date: '2026-08-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '38.10'
+  total_amount: '38.10'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01450
+  sim_obligation_id: obligation-01450
+  sim_order_id: null
+  sim_event_ids:
+  - event-12619
+- id: bill-utilities-01451
+  doc_number: BILL-5187
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  due_sim_day: 308
+  due_date: '2026-08-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '7.62'
+  total_amount: '7.62'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01451
+  sim_obligation_id: obligation-01451
+  sim_order_id: null
+  sim_event_ids:
+  - event-12620
+- id: bill-variable-services-01452
+  doc_number: BILL-5188
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  due_sim_day: 308
+  due_date: '2026-08-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '1841.32'
+  total_amount: '1841.32'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01452
+  sim_obligation_id: obligation-01452
+  sim_order_id: null
+  sim_event_ids:
+  - event-12621
+- id: bill-operating-01498
+  doc_number: BILL-5189
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  due_sim_day: 315
+  due_date: '2026-08-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01498
+  sim_obligation_id: obligation-01498
+  sim_order_id: null
+  sim_event_ids:
+  - event-13030
+- id: bill-utilities-01494
+  doc_number: BILL-5190
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  due_sim_day: 315
+  due_date: '2026-08-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '46.55'
+  total_amount: '46.55'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01494
+  sim_obligation_id: obligation-01494
+  sim_order_id: null
+  sim_event_ids:
+  - event-13026
+- id: bill-utilities-01495
+  doc_number: BILL-5191
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  due_sim_day: 315
+  due_date: '2026-08-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.31'
+  total_amount: '9.31'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01495
+  sim_obligation_id: obligation-01495
+  sim_order_id: null
+  sim_event_ids:
+  - event-13027
+- id: bill-variable-services-01496
+  doc_number: BILL-5192
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  due_sim_day: 315
+  due_date: '2026-08-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2298.39'
+  total_amount: '2298.39'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01496
+  sim_obligation_id: obligation-01496
+  sim_order_id: null
+  sim_event_ids:
+  - event-13028
+- id: bill-01170
+  doc_number: BILL-5193
+  vendor_id: vend-supplier
+  vendor_name: Elmsworth Apothecary
+  expense_kind: product
+  txn_sim_day: 319
+  txn_date: '2026-08-21'
+  due_sim_day: 349
+  due_date: '2026-09-20'
+  item_lines:
+  - line_num: 1
+    item_id: item-00005
+    item_name: Surface Disinfectant Case
+    description: Hospital-grade disinfectant wipes, twelve canisters.
+    quantity: 600
+    unit_price_amount: '37.26'
+    amount: '22356.00'
+  account_lines: []
+  total_amount: '22356.00'
+  project_id: null
+  cost_category: purchase
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-01170
+  sim_obligation_id: obligation-01526
+  sim_order_id: order-01170
+  sim_event_ids:
+  - event-13295
+- id: bill-operating-01542
+  doc_number: BILL-5194
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  due_sim_day: 322
+  due_date: '2026-08-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01542
+  sim_obligation_id: obligation-01542
+  sim_order_id: null
+  sim_event_ids:
+  - event-13426
+- id: bill-utilities-01538
+  doc_number: BILL-5195
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  due_sim_day: 322
+  due_date: '2026-08-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '46.55'
+  total_amount: '46.55'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01538
+  sim_obligation_id: obligation-01538
+  sim_order_id: null
+  sim_event_ids:
+  - event-13422
+- id: bill-utilities-01539
+  doc_number: BILL-5196
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  due_sim_day: 322
+  due_date: '2026-08-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.31'
+  total_amount: '9.31'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01539
+  sim_obligation_id: obligation-01539
+  sim_order_id: null
+  sim_event_ids:
+  - event-13423
+- id: bill-variable-services-01540
+  doc_number: BILL-5197
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  due_sim_day: 322
+  due_date: '2026-08-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2296.44'
+  total_amount: '2296.44'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01540
+  sim_obligation_id: obligation-01540
+  sim_order_id: null
+  sim_event_ids:
+  - event-13424
+- id: bill-operating-01582
+  doc_number: BILL-5198
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  due_sim_day: 329
+  due_date: '2026-08-31'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01582
+  sim_obligation_id: obligation-01582
+  sim_order_id: null
+  sim_event_ids:
+  - event-13806
+- id: bill-utilities-01578
+  doc_number: BILL-5199
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  due_sim_day: 329
+  due_date: '2026-08-31'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '42.30'
+  total_amount: '42.30'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01578
+  sim_obligation_id: obligation-01578
+  sim_order_id: null
+  sim_event_ids:
+  - event-13802
+- id: bill-utilities-01579
+  doc_number: BILL-5200
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  due_sim_day: 329
+  due_date: '2026-08-31'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.46'
+  total_amount: '8.46'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01579
+  sim_obligation_id: obligation-01579
+  sim_order_id: null
+  sim_event_ids:
+  - event-13803
+- id: bill-variable-services-01580
+  doc_number: BILL-5201
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  due_sim_day: 329
+  due_date: '2026-08-31'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2066.58'
+  total_amount: '2066.58'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01580
+  sim_obligation_id: obligation-01580
+  sim_order_id: null
+  sim_event_ids:
+  - event-13804
+- id: bill-interest-01593
+  doc_number: BILL-5202
+  vendor_id: vend-bank
+  vendor_name: Hollyhock Credit Union
+  expense_kind: operating
+  txn_sim_day: 330
+  txn_date: '2026-09-01'
+  due_sim_day: 337
+  due_date: '2026-09-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.23'
+  total_amount: '721.23'
+  project_id: null
+  cost_category: interest
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-interest-01593
+  sim_obligation_id: obligation-01593
+  sim_order_id: null
+  sim_event_ids:
+  - event-13903
+- id: bill-operating-01624
+  doc_number: BILL-5203
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  due_sim_day: 336
+  due_date: '2026-09-07'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01624
+  sim_obligation_id: obligation-01624
+  sim_order_id: null
+  sim_event_ids:
+  - event-14190
+- id: bill-utilities-01620
+  doc_number: BILL-5204
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  due_sim_day: 336
+  due_date: '2026-09-07'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '42.30'
+  total_amount: '42.30'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01620
+  sim_obligation_id: obligation-01620
+  sim_order_id: null
+  sim_event_ids:
+  - event-14186
+- id: bill-utilities-01621
+  doc_number: BILL-5205
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  due_sim_day: 336
+  due_date: '2026-09-07'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.46'
+  total_amount: '8.46'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01621
+  sim_obligation_id: obligation-01621
+  sim_order_id: null
+  sim_event_ids:
+  - event-14187
+- id: bill-variable-services-01622
+  doc_number: BILL-5206
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  due_sim_day: 336
+  due_date: '2026-09-07'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2105.36'
+  total_amount: '2105.36'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01622
+  sim_obligation_id: obligation-01622
+  sim_order_id: null
+  sim_event_ids:
+  - event-14188
+- id: bill-operating-01667
+  doc_number: BILL-5207
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  due_sim_day: 343
+  due_date: '2026-09-14'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01667
+  sim_obligation_id: obligation-01667
+  sim_order_id: null
+  sim_event_ids:
+  - event-14588
+- id: bill-utilities-01663
+  doc_number: BILL-5208
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  due_sim_day: 343
+  due_date: '2026-09-14'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '52.90'
+  total_amount: '52.90'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01663
+  sim_obligation_id: obligation-01663
+  sim_order_id: null
+  sim_event_ids:
+  - event-14584
+- id: bill-utilities-01664
+  doc_number: BILL-5209
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  due_sim_day: 343
+  due_date: '2026-09-14'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.58'
+  total_amount: '10.58'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01664
+  sim_obligation_id: obligation-01664
+  sim_order_id: null
+  sim_event_ids:
+  - event-14585
+- id: bill-variable-services-01665
+  doc_number: BILL-5210
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  due_sim_day: 343
+  due_date: '2026-09-14'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2657.60'
+  total_amount: '2657.60'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01665
+  sim_obligation_id: obligation-01665
+  sim_order_id: null
+  sim_event_ids:
+  - event-14586
+- id: bill-operating-01706
+  doc_number: BILL-5211
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  due_sim_day: 350
+  due_date: '2026-09-21'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01706
+  sim_obligation_id: obligation-01706
+  sim_order_id: null
+  sim_event_ids:
+  - event-14967
+- id: bill-utilities-01702
+  doc_number: BILL-5212
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  due_sim_day: 350
+  due_date: '2026-09-21'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '40.45'
+  total_amount: '40.45'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01702
+  sim_obligation_id: obligation-01702
+  sim_order_id: null
+  sim_event_ids:
+  - event-14963
+- id: bill-utilities-01703
+  doc_number: BILL-5213
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  due_sim_day: 350
+  due_date: '2026-09-21'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.09'
+  total_amount: '8.09'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01703
+  sim_obligation_id: obligation-01703
+  sim_order_id: null
+  sim_event_ids:
+  - event-14964
+- id: bill-variable-services-01704
+  doc_number: BILL-5214
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  due_sim_day: 350
+  due_date: '2026-09-21'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2010.41'
+  total_amount: '2010.41'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01704
+  sim_obligation_id: obligation-01704
+  sim_order_id: null
+  sim_event_ids:
+  - event-14965
+- id: bill-operating-01748
+  doc_number: BILL-5215
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  due_sim_day: 357
+  due_date: '2026-09-28'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01748
+  sim_obligation_id: obligation-01748
+  sim_order_id: null
+  sim_event_ids:
+  - event-15365
+- id: bill-utilities-01744
+  doc_number: BILL-5216
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  due_sim_day: 357
+  due_date: '2026-09-28'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '42.25'
+  total_amount: '42.25'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01744
+  sim_obligation_id: obligation-01744
+  sim_order_id: null
+  sim_event_ids:
+  - event-15361
+- id: bill-utilities-01745
+  doc_number: BILL-5217
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  due_sim_day: 357
+  due_date: '2026-09-28'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.45'
+  total_amount: '8.45'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01745
+  sim_obligation_id: obligation-01745
+  sim_order_id: null
+  sim_event_ids:
+  - event-15362
+- id: bill-variable-services-01746
+  doc_number: BILL-5218
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  due_sim_day: 357
+  due_date: '2026-09-28'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2076.84'
+  total_amount: '2076.84'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01746
+  sim_obligation_id: obligation-01746
+  sim_order_id: null
+  sim_event_ids:
+  - event-15363
+- id: bill-interest-01775
+  doc_number: BILL-5219
+  vendor_id: vend-bank
+  vendor_name: Hollyhock Credit Union
+  expense_kind: operating
+  txn_sim_day: 360
+  txn_date: '2026-10-01'
+  due_sim_day: 367
+  due_date: '2026-10-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.24'
+  total_amount: '721.24'
+  project_id: null
+  cost_category: interest
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-interest-01775
+  sim_obligation_id: obligation-01775
+  sim_order_id: null
+  sim_event_ids:
+  - event-15583
+- id: bill-income-tax-01783
+  doc_number: BILL-5220
+  vendor_id: vend-government
+  vendor_name: Cedar Park County Treasurer
+  expense_kind: operating
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 394
+  due_date: '2026-11-04'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-income-tax
+    account_name: Income Tax Expense
+    description: Income tax assessed on the period (income_tax).
+    amount: '8223.15'
+  total_amount: '8223.15'
+  project_id: null
+  cost_category: income_tax
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-income-tax-01783
+  sim_obligation_id: obligation-01783
+  sim_order_id: null
+  sim_event_ids:
+  - event-15743
+- id: bill-operating-01792
+  doc_number: BILL-5221
+  vendor_id: vend-landlord
+  vendor_name: Vasquez Holdings LLC
+  expense_kind: operating
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 364
+  due_date: '2026-10-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-operating-01792
+  sim_obligation_id: obligation-01792
+  sim_order_id: null
+  sim_event_ids:
+  - event-15768
+- id: bill-product-development-01784
+  doc_number: BILL-5222
+  vendor_id: vend-operating-vendor
+  vendor_name: Northstar Larkspur Movers
+  expense_kind: operating
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 364
+  due_date: '2026-10-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Bringing a new product to market (product_development).
+    amount: '3738.27'
+  total_amount: '3738.27'
+  project_id: null
+  cost_category: product_development
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-product-development-01784
+  sim_obligation_id: obligation-01784
+  sim_order_id: null
+  sim_event_ids:
+  - event-15749
+- id: bill-utilities-01788
+  doc_number: BILL-5223
+  vendor_id: vend-electricity
+  vendor_name: Brightwater Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 364
+  due_date: '2026-10-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '44.55'
+  total_amount: '44.55'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01788
+  sim_obligation_id: obligation-01788
+  sim_order_id: null
+  sim_event_ids:
+  - event-15764
+- id: bill-utilities-01789
+  doc_number: BILL-5224
+  vendor_id: vend-water
+  vendor_name: Kingsmere Municipal Utilities
+  expense_kind: operating
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 364
+  due_date: '2026-10-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.91'
+  total_amount: '8.91'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:d6e69aab98d50709:bill-utilities-01789
+  sim_obligation_id: obligation-01789
+  sim_order_id: null
+  sim_event_ids:
+  - event-15765
+- id: bill-variable-services-01790
+  doc_number: BILL-5225
+  vendor_id: vend-logistics-vendor
+  vendor_name: Pinecrest Brewing & Co.
+  expense_kind: operating
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 364
+  due_date: '2026-10-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '2163.29'
+  total_amount: '2163.29'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:d6e69aab98d50709:bill-variable-services-01790
+  sim_obligation_id: obligation-01790
+  sim_order_id: null
+  sim_event_ids:
+  - event-15766
+- id: bill-permit-01801
+  doc_number: BILL-5226
+  vendor_id: vend-government
+  vendor_name: Cedar Park County Treasurer
+  expense_kind: operating
+  txn_sim_day: 365
+  txn_date: '2026-10-06'
+  due_sim_day: 365
+  due_date: '2026-10-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-permits
+    account_name: Taxes and Licenses
+    description: Statutory permit and licence fees (permit).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: permit
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:d6e69aab98d50709:bill-permit-01801
+  sim_obligation_id: obligation-01801
+  sim_order_id: null
+  sim_event_ids:
+  - event-15861

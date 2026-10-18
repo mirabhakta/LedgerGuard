@@ -1,0 +1,6541 @@
+- id: je-open-00001
+  doc_number: JE-9001
+  purpose: opening_equity
+  txn_sim_day: 0
+  txn_date: '2025-10-06'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Opening cash.
+    debit_amount: '67837.26'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-opening-equity
+    account_name: Opening Balance Equity
+    description: Owner contribution.
+    debit_amount: '0.00'
+    credit_amount: '67837.26'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Owner's opening cash contribution.
+  provenance_note: sim:0a013a419798a4d2:je-open-00001
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00001
+- id: je-wageacc-00019
+  doc_number: JE-9002
+  purpose: wage_accrual
+  txn_sim_day: 7
+  txn_date: '2025-10-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00019
+  sim_obligation_id: obligation-00019
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00040
+- id: je-wageacc-00020
+  doc_number: JE-9003
+  purpose: wage_accrual
+  txn_sim_day: 7
+  txn_date: '2025-10-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00020
+  sim_obligation_id: obligation-00020
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00041
+- id: je-wagepay-00016
+  doc_number: JE-9004
+  purpose: wage_payment
+  txn_sim_day: 12
+  txn_date: '2025-10-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00016
+  sim_obligation_id: obligation-00019
+  sim_payment_id: payment-00016
+  sim_event_ids:
+  - event-00057
+- id: je-wagepay-00017
+  doc_number: JE-9005
+  purpose: wage_payment
+  txn_sim_day: 12
+  txn_date: '2025-10-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00017
+  sim_obligation_id: obligation-00020
+  sim_payment_id: payment-00017
+  sim_event_ids:
+  - event-00058
+- id: je-wageacc-00021
+  doc_number: JE-9006
+  purpose: wage_accrual
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00021
+  sim_obligation_id: obligation-00021
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00060
+- id: je-wageacc-00022
+  doc_number: JE-9007
+  purpose: wage_accrual
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00022
+  sim_obligation_id: obligation-00022
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00061
+- id: je-wagepay-00021
+  doc_number: JE-9008
+  purpose: wage_payment
+  txn_sim_day: 19
+  txn_date: '2025-10-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00021
+  sim_obligation_id: obligation-00021
+  sim_payment_id: payment-00021
+  sim_event_ids:
+  - event-00066
+- id: je-wagepay-00022
+  doc_number: JE-9009
+  purpose: wage_payment
+  txn_sim_day: 19
+  txn_date: '2025-10-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00022
+  sim_obligation_id: obligation-00022
+  sim_payment_id: payment-00022
+  sim_event_ids:
+  - event-00067
+- id: je-wageacc-00023
+  doc_number: JE-9010
+  purpose: wage_accrual
+  txn_sim_day: 21
+  txn_date: '2025-10-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00023
+  sim_obligation_id: obligation-00023
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00068
+- id: je-wageacc-00024
+  doc_number: JE-9011
+  purpose: wage_accrual
+  txn_sim_day: 21
+  txn_date: '2025-10-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00024
+  sim_obligation_id: obligation-00024
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00069
+- id: je-wagepay-00023
+  doc_number: JE-9012
+  purpose: wage_payment
+  txn_sim_day: 26
+  txn_date: '2025-11-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00023
+  sim_obligation_id: obligation-00023
+  sim_payment_id: payment-00023
+  sim_event_ids:
+  - event-00072
+- id: je-wagepay-00024
+  doc_number: JE-9013
+  purpose: wage_payment
+  txn_sim_day: 26
+  txn_date: '2025-11-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00024
+  sim_obligation_id: obligation-00024
+  sim_payment_id: payment-00024
+  sim_event_ids:
+  - event-00073
+- id: je-wageacc-00025
+  doc_number: JE-9014
+  purpose: wage_accrual
+  txn_sim_day: 28
+  txn_date: '2025-11-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00025
+  sim_obligation_id: obligation-00025
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00074
+- id: je-wageacc-00026
+  doc_number: JE-9015
+  purpose: wage_accrual
+  txn_sim_day: 28
+  txn_date: '2025-11-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00026
+  sim_obligation_id: obligation-00026
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00075
+- id: je-wagepay-00029
+  doc_number: JE-9016
+  purpose: wage_payment
+  txn_sim_day: 33
+  txn_date: '2025-11-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00029
+  sim_obligation_id: obligation-00025
+  sim_payment_id: payment-00029
+  sim_event_ids:
+  - event-00110
+- id: je-wagepay-00030
+  doc_number: JE-9017
+  purpose: wage_payment
+  txn_sim_day: 33
+  txn_date: '2025-11-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00030
+  sim_obligation_id: obligation-00026
+  sim_payment_id: payment-00030
+  sim_event_ids:
+  - event-00111
+- id: je-wageacc-00048
+  doc_number: JE-9018
+  purpose: wage_accrual
+  txn_sim_day: 35
+  txn_date: '2025-11-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00048
+  sim_obligation_id: obligation-00048
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00115
+- id: je-wageacc-00049
+  doc_number: JE-9019
+  purpose: wage_accrual
+  txn_sim_day: 35
+  txn_date: '2025-11-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00049
+  sim_obligation_id: obligation-00049
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00116
+- id: je-wagepay-00045
+  doc_number: JE-9020
+  purpose: wage_payment
+  txn_sim_day: 40
+  txn_date: '2025-11-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00045
+  sim_obligation_id: obligation-00048
+  sim_payment_id: payment-00045
+  sim_event_ids:
+  - event-00141
+- id: je-wagepay-00046
+  doc_number: JE-9021
+  purpose: wage_payment
+  txn_sim_day: 40
+  txn_date: '2025-11-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00046
+  sim_obligation_id: obligation-00049
+  sim_payment_id: payment-00046
+  sim_event_ids:
+  - event-00142
+- id: je-wageacc-00050
+  doc_number: JE-9022
+  purpose: wage_accrual
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00050
+  sim_obligation_id: obligation-00050
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00146
+- id: je-wageacc-00051
+  doc_number: JE-9023
+  purpose: wage_accrual
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00051
+  sim_obligation_id: obligation-00051
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00147
+- id: je-wagepay-00050
+  doc_number: JE-9024
+  purpose: wage_payment
+  txn_sim_day: 47
+  txn_date: '2025-11-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00050
+  sim_obligation_id: obligation-00050
+  sim_payment_id: payment-00050
+  sim_event_ids:
+  - event-00153
+- id: je-wagepay-00051
+  doc_number: JE-9025
+  purpose: wage_payment
+  txn_sim_day: 47
+  txn_date: '2025-11-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00051
+  sim_obligation_id: obligation-00051
+  sim_payment_id: payment-00051
+  sim_event_ids:
+  - event-00154
+- id: je-wageacc-00052
+  doc_number: JE-9026
+  purpose: wage_accrual
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00052
+  sim_obligation_id: obligation-00052
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00155
+- id: je-wageacc-00053
+  doc_number: JE-9027
+  purpose: wage_accrual
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00053
+  sim_obligation_id: obligation-00053
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00156
+- id: je-wagepay-00052
+  doc_number: JE-9028
+  purpose: wage_payment
+  txn_sim_day: 54
+  txn_date: '2025-11-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00052
+  sim_obligation_id: obligation-00052
+  sim_payment_id: payment-00052
+  sim_event_ids:
+  - event-00159
+- id: je-wagepay-00053
+  doc_number: JE-9029
+  purpose: wage_payment
+  txn_sim_day: 54
+  txn_date: '2025-11-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00053
+  sim_obligation_id: obligation-00053
+  sim_payment_id: payment-00053
+  sim_event_ids:
+  - event-00160
+- id: je-wageacc-00054
+  doc_number: JE-9030
+  purpose: wage_accrual
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00054
+  sim_obligation_id: obligation-00054
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00161
+- id: je-wageacc-00055
+  doc_number: JE-9031
+  purpose: wage_accrual
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00055
+  sim_obligation_id: obligation-00055
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00162
+- id: je-wagepay-00054
+  doc_number: JE-9032
+  purpose: wage_payment
+  txn_sim_day: 61
+  txn_date: '2025-12-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00054
+  sim_obligation_id: obligation-00054
+  sim_payment_id: payment-00054
+  sim_event_ids:
+  - event-00190
+- id: je-wagepay-00055
+  doc_number: JE-9033
+  purpose: wage_payment
+  txn_sim_day: 61
+  txn_date: '2025-12-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00055
+  sim_obligation_id: obligation-00055
+  sim_payment_id: payment-00055
+  sim_event_ids:
+  - event-00191
+- id: je-wageacc-00076
+  doc_number: JE-9034
+  purpose: wage_accrual
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00076
+  sim_obligation_id: obligation-00076
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00197
+- id: je-wageacc-00077
+  doc_number: JE-9035
+  purpose: wage_accrual
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00077
+  sim_obligation_id: obligation-00077
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00198
+- id: je-wagepay-00067
+  doc_number: JE-9036
+  purpose: wage_payment
+  txn_sim_day: 68
+  txn_date: '2025-12-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00067
+  sim_obligation_id: obligation-00076
+  sim_payment_id: payment-00067
+  sim_event_ids:
+  - event-00220
+- id: je-wagepay-00068
+  doc_number: JE-9037
+  purpose: wage_payment
+  txn_sim_day: 68
+  txn_date: '2025-12-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00068
+  sim_obligation_id: obligation-00077
+  sim_payment_id: payment-00068
+  sim_event_ids:
+  - event-00221
+- id: je-wageacc-00078
+  doc_number: JE-9038
+  purpose: wage_accrual
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00078
+  sim_obligation_id: obligation-00078
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00227
+- id: je-wageacc-00079
+  doc_number: JE-9039
+  purpose: wage_accrual
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00079
+  sim_obligation_id: obligation-00079
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00228
+- id: je-wagepay-00078
+  doc_number: JE-9040
+  purpose: wage_payment
+  txn_sim_day: 75
+  txn_date: '2025-12-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00078
+  sim_obligation_id: obligation-00078
+  sim_payment_id: payment-00078
+  sim_event_ids:
+  - event-00238
+- id: je-wagepay-00079
+  doc_number: JE-9041
+  purpose: wage_payment
+  txn_sim_day: 75
+  txn_date: '2025-12-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00079
+  sim_obligation_id: obligation-00079
+  sim_payment_id: payment-00079
+  sim_event_ids:
+  - event-00239
+- id: je-wageacc-00080
+  doc_number: JE-9042
+  purpose: wage_accrual
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00080
+  sim_obligation_id: obligation-00080
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00240
+- id: je-wageacc-00081
+  doc_number: JE-9043
+  purpose: wage_accrual
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00081
+  sim_obligation_id: obligation-00081
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00241
+- id: je-wagepay-00080
+  doc_number: JE-9044
+  purpose: wage_payment
+  txn_sim_day: 82
+  txn_date: '2025-12-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00080
+  sim_obligation_id: obligation-00080
+  sim_payment_id: payment-00080
+  sim_event_ids:
+  - event-00244
+- id: je-wagepay-00081
+  doc_number: JE-9045
+  purpose: wage_payment
+  txn_sim_day: 82
+  txn_date: '2025-12-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00081
+  sim_obligation_id: obligation-00081
+  sim_payment_id: payment-00081
+  sim_event_ids:
+  - event-00245
+- id: je-wageacc-00082
+  doc_number: JE-9046
+  purpose: wage_accrual
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00082
+  sim_obligation_id: obligation-00082
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00246
+- id: je-wageacc-00083
+  doc_number: JE-9047
+  purpose: wage_accrual
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00083
+  sim_obligation_id: obligation-00083
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00247
+- id: je-wagepay-00082
+  doc_number: JE-9048
+  purpose: wage_payment
+  txn_sim_day: 89
+  txn_date: '2026-01-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00082
+  sim_obligation_id: obligation-00082
+  sim_payment_id: payment-00082
+  sim_event_ids:
+  - event-00250
+- id: je-wagepay-00083
+  doc_number: JE-9049
+  purpose: wage_payment
+  txn_sim_day: 89
+  txn_date: '2026-01-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00083
+  sim_obligation_id: obligation-00083
+  sim_payment_id: payment-00083
+  sim_event_ids:
+  - event-00251
+- id: je-distribution-00278
+  doc_number: JE-9050
+  purpose: owner_distribution
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '56531.05'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '56531.05'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:0a013a419798a4d2:je-distribution-00278
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00278
+- id: je-wageacc-00104
+  doc_number: JE-9051
+  purpose: wage_accrual
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00104
+  sim_obligation_id: obligation-00104
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00279
+- id: je-wageacc-00105
+  doc_number: JE-9052
+  purpose: wage_accrual
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00105
+  sim_obligation_id: obligation-00105
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00280
+- id: je-wagepay-00090
+  doc_number: JE-9053
+  purpose: wage_payment
+  txn_sim_day: 96
+  txn_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00090
+  sim_obligation_id: obligation-00104
+  sim_payment_id: payment-00090
+  sim_event_ids:
+  - event-00295
+- id: je-wagepay-00091
+  doc_number: JE-9054
+  purpose: wage_payment
+  txn_sim_day: 96
+  txn_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00091
+  sim_obligation_id: obligation-00105
+  sim_payment_id: payment-00091
+  sim_event_ids:
+  - event-00296
+- id: je-wageacc-00106
+  doc_number: JE-9055
+  purpose: wage_accrual
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00106
+  sim_obligation_id: obligation-00106
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00306
+- id: je-wageacc-00107
+  doc_number: JE-9056
+  purpose: wage_accrual
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00107
+  sim_obligation_id: obligation-00107
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00307
+- id: je-wagepay-00104
+  doc_number: JE-9057
+  purpose: wage_payment
+  txn_sim_day: 103
+  txn_date: '2026-01-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00104
+  sim_obligation_id: obligation-00106
+  sim_payment_id: payment-00104
+  sim_event_ids:
+  - event-00323
+- id: je-wagepay-00105
+  doc_number: JE-9058
+  purpose: wage_payment
+  txn_sim_day: 103
+  txn_date: '2026-01-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00105
+  sim_obligation_id: obligation-00107
+  sim_payment_id: payment-00105
+  sim_event_ids:
+  - event-00324
+- id: je-wageacc-00108
+  doc_number: JE-9059
+  purpose: wage_accrual
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00108
+  sim_obligation_id: obligation-00108
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00327
+- id: je-wageacc-00109
+  doc_number: JE-9060
+  purpose: wage_accrual
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00109
+  sim_obligation_id: obligation-00109
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00328
+- id: je-wagepay-00108
+  doc_number: JE-9061
+  purpose: wage_payment
+  txn_sim_day: 110
+  txn_date: '2026-01-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00108
+  sim_obligation_id: obligation-00108
+  sim_payment_id: payment-00108
+  sim_event_ids:
+  - event-00331
+- id: je-wagepay-00109
+  doc_number: JE-9062
+  purpose: wage_payment
+  txn_sim_day: 110
+  txn_date: '2026-01-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00109
+  sim_obligation_id: obligation-00109
+  sim_payment_id: payment-00109
+  sim_event_ids:
+  - event-00332
+- id: je-wageacc-00110
+  doc_number: JE-9063
+  purpose: wage_accrual
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00110
+  sim_obligation_id: obligation-00110
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00333
+- id: je-wageacc-00111
+  doc_number: JE-9064
+  purpose: wage_accrual
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00111
+  sim_obligation_id: obligation-00111
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00334
+- id: je-wagepay-00110
+  doc_number: JE-9065
+  purpose: wage_payment
+  txn_sim_day: 117
+  txn_date: '2026-01-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00110
+  sim_obligation_id: obligation-00110
+  sim_payment_id: payment-00110
+  sim_event_ids:
+  - event-00337
+- id: je-wagepay-00111
+  doc_number: JE-9066
+  purpose: wage_payment
+  txn_sim_day: 117
+  txn_date: '2026-01-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00111
+  sim_obligation_id: obligation-00111
+  sim_payment_id: payment-00111
+  sim_event_ids:
+  - event-00338
+- id: je-wageacc-00112
+  doc_number: JE-9067
+  purpose: wage_accrual
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00112
+  sim_obligation_id: obligation-00112
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00339
+- id: je-wageacc-00113
+  doc_number: JE-9068
+  purpose: wage_accrual
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00113
+  sim_obligation_id: obligation-00113
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00340
+- id: je-wagepay-00116
+  doc_number: JE-9069
+  purpose: wage_payment
+  txn_sim_day: 124
+  txn_date: '2026-02-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00116
+  sim_obligation_id: obligation-00112
+  sim_payment_id: payment-00116
+  sim_event_ids:
+  - event-00372
+- id: je-wagepay-00117
+  doc_number: JE-9070
+  purpose: wage_payment
+  txn_sim_day: 124
+  txn_date: '2026-02-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00117
+  sim_obligation_id: obligation-00113
+  sim_payment_id: payment-00117
+  sim_event_ids:
+  - event-00373
+- id: je-wageacc-00133
+  doc_number: JE-9071
+  purpose: wage_accrual
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00133
+  sim_obligation_id: obligation-00133
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00377
+- id: je-wageacc-00134
+  doc_number: JE-9072
+  purpose: wage_accrual
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00134
+  sim_obligation_id: obligation-00134
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00378
+- id: je-wagepay-00130
+  doc_number: JE-9073
+  purpose: wage_payment
+  txn_sim_day: 131
+  txn_date: '2026-02-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00130
+  sim_obligation_id: obligation-00133
+  sim_payment_id: payment-00130
+  sim_event_ids:
+  - event-00401
+- id: je-wagepay-00131
+  doc_number: JE-9074
+  purpose: wage_payment
+  txn_sim_day: 131
+  txn_date: '2026-02-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00131
+  sim_obligation_id: obligation-00134
+  sim_payment_id: payment-00131
+  sim_event_ids:
+  - event-00402
+- id: je-wageacc-00135
+  doc_number: JE-9075
+  purpose: wage_accrual
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00135
+  sim_obligation_id: obligation-00135
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00405
+- id: je-wageacc-00136
+  doc_number: JE-9076
+  purpose: wage_accrual
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00136
+  sim_obligation_id: obligation-00136
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00406
+- id: je-wagepay-00135
+  doc_number: JE-9077
+  purpose: wage_payment
+  txn_sim_day: 138
+  txn_date: '2026-02-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00135
+  sim_obligation_id: obligation-00135
+  sim_payment_id: payment-00135
+  sim_event_ids:
+  - event-00412
+- id: je-wagepay-00136
+  doc_number: JE-9078
+  purpose: wage_payment
+  txn_sim_day: 138
+  txn_date: '2026-02-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00136
+  sim_obligation_id: obligation-00136
+  sim_payment_id: payment-00136
+  sim_event_ids:
+  - event-00413
+- id: je-wageacc-00137
+  doc_number: JE-9079
+  purpose: wage_accrual
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00137
+  sim_obligation_id: obligation-00137
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00414
+- id: je-wageacc-00138
+  doc_number: JE-9080
+  purpose: wage_accrual
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00138
+  sim_obligation_id: obligation-00138
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00415
+- id: je-wagepay-00137
+  doc_number: JE-9081
+  purpose: wage_payment
+  txn_sim_day: 145
+  txn_date: '2026-02-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00137
+  sim_obligation_id: obligation-00137
+  sim_payment_id: payment-00137
+  sim_event_ids:
+  - event-00418
+- id: je-wagepay-00138
+  doc_number: JE-9082
+  purpose: wage_payment
+  txn_sim_day: 145
+  txn_date: '2026-02-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00138
+  sim_obligation_id: obligation-00138
+  sim_payment_id: payment-00138
+  sim_event_ids:
+  - event-00419
+- id: je-wageacc-00139
+  doc_number: JE-9083
+  purpose: wage_accrual
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00139
+  sim_obligation_id: obligation-00139
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00420
+- id: je-wageacc-00140
+  doc_number: JE-9084
+  purpose: wage_accrual
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00140
+  sim_obligation_id: obligation-00140
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00421
+- id: je-wagepay-00139
+  doc_number: JE-9085
+  purpose: wage_payment
+  txn_sim_day: 152
+  txn_date: '2026-03-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00139
+  sim_obligation_id: obligation-00139
+  sim_payment_id: payment-00139
+  sim_event_ids:
+  - event-00447
+- id: je-wagepay-00140
+  doc_number: JE-9086
+  purpose: wage_payment
+  txn_sim_day: 152
+  txn_date: '2026-03-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00140
+  sim_obligation_id: obligation-00140
+  sim_payment_id: payment-00140
+  sim_event_ids:
+  - event-00448
+- id: je-wageacc-00160
+  doc_number: JE-9087
+  purpose: wage_accrual
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00160
+  sim_obligation_id: obligation-00160
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00454
+- id: je-wageacc-00161
+  doc_number: JE-9088
+  purpose: wage_accrual
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00161
+  sim_obligation_id: obligation-00161
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00455
+- id: je-wagepay-00156
+  doc_number: JE-9089
+  purpose: wage_payment
+  txn_sim_day: 159
+  txn_date: '2026-03-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00156
+  sim_obligation_id: obligation-00160
+  sim_payment_id: payment-00156
+  sim_event_ids:
+  - event-00480
+- id: je-wagepay-00157
+  doc_number: JE-9090
+  purpose: wage_payment
+  txn_sim_day: 159
+  txn_date: '2026-03-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00157
+  sim_obligation_id: obligation-00161
+  sim_payment_id: payment-00157
+  sim_event_ids:
+  - event-00481
+- id: je-wageacc-00162
+  doc_number: JE-9091
+  purpose: wage_accrual
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00162
+  sim_obligation_id: obligation-00162
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00484
+- id: je-wageacc-00163
+  doc_number: JE-9092
+  purpose: wage_accrual
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00163
+  sim_obligation_id: obligation-00163
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00485
+- id: je-wagepay-00162
+  doc_number: JE-9093
+  purpose: wage_payment
+  txn_sim_day: 166
+  txn_date: '2026-03-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00162
+  sim_obligation_id: obligation-00162
+  sim_payment_id: payment-00162
+  sim_event_ids:
+  - event-00493
+- id: je-wagepay-00163
+  doc_number: JE-9094
+  purpose: wage_payment
+  txn_sim_day: 166
+  txn_date: '2026-03-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00163
+  sim_obligation_id: obligation-00163
+  sim_payment_id: payment-00163
+  sim_event_ids:
+  - event-00494
+- id: je-wageacc-00164
+  doc_number: JE-9095
+  purpose: wage_accrual
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00164
+  sim_obligation_id: obligation-00164
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00495
+- id: je-wageacc-00165
+  doc_number: JE-9096
+  purpose: wage_accrual
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00165
+  sim_obligation_id: obligation-00165
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00496
+- id: je-wagepay-00164
+  doc_number: JE-9097
+  purpose: wage_payment
+  txn_sim_day: 173
+  txn_date: '2026-03-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00164
+  sim_obligation_id: obligation-00164
+  sim_payment_id: payment-00164
+  sim_event_ids:
+  - event-00499
+- id: je-wagepay-00165
+  doc_number: JE-9098
+  purpose: wage_payment
+  txn_sim_day: 173
+  txn_date: '2026-03-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00165
+  sim_obligation_id: obligation-00165
+  sim_payment_id: payment-00165
+  sim_event_ids:
+  - event-00500
+- id: je-wageacc-00166
+  doc_number: JE-9099
+  purpose: wage_accrual
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00166
+  sim_obligation_id: obligation-00166
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00501
+- id: je-wageacc-00167
+  doc_number: JE-9100
+  purpose: wage_accrual
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00167
+  sim_obligation_id: obligation-00167
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00502
+- id: je-wagepay-00166
+  doc_number: JE-9101
+  purpose: wage_payment
+  txn_sim_day: 180
+  txn_date: '2026-04-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00166
+  sim_obligation_id: obligation-00166
+  sim_payment_id: payment-00166
+  sim_event_ids:
+  - event-00521
+- id: je-wagepay-00167
+  doc_number: JE-9102
+  purpose: wage_payment
+  txn_sim_day: 180
+  txn_date: '2026-04-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00167
+  sim_obligation_id: obligation-00167
+  sim_payment_id: payment-00167
+  sim_event_ids:
+  - event-00522
+- id: je-distribution-00532
+  doc_number: JE-9103
+  purpose: owner_distribution
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '56531.05'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '56531.05'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:0a013a419798a4d2:je-distribution-00532
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00532
+- id: je-wageacc-00187
+  doc_number: JE-9104
+  purpose: wage_accrual
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00187
+  sim_obligation_id: obligation-00187
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00533
+- id: je-wageacc-00188
+  doc_number: JE-9105
+  purpose: wage_accrual
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00188
+  sim_obligation_id: obligation-00188
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00534
+- id: je-wagepay-00175
+  doc_number: JE-9106
+  purpose: wage_payment
+  txn_sim_day: 187
+  txn_date: '2026-04-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00175
+  sim_obligation_id: obligation-00187
+  sim_payment_id: payment-00175
+  sim_event_ids:
+  - event-00554
+- id: je-wagepay-00176
+  doc_number: JE-9107
+  purpose: wage_payment
+  txn_sim_day: 187
+  txn_date: '2026-04-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00176
+  sim_obligation_id: obligation-00188
+  sim_payment_id: payment-00176
+  sim_event_ids:
+  - event-00555
+- id: je-wageacc-00189
+  doc_number: JE-9108
+  purpose: wage_accrual
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00189
+  sim_obligation_id: obligation-00189
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00560
+- id: je-wageacc-00190
+  doc_number: JE-9109
+  purpose: wage_accrual
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00190
+  sim_obligation_id: obligation-00190
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00561
+- id: je-wagepay-00189
+  doc_number: JE-9110
+  purpose: wage_payment
+  txn_sim_day: 194
+  txn_date: '2026-04-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00189
+  sim_obligation_id: obligation-00189
+  sim_payment_id: payment-00189
+  sim_event_ids:
+  - event-00577
+- id: je-wagepay-00190
+  doc_number: JE-9111
+  purpose: wage_payment
+  txn_sim_day: 194
+  txn_date: '2026-04-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00190
+  sim_obligation_id: obligation-00190
+  sim_payment_id: payment-00190
+  sim_event_ids:
+  - event-00578
+- id: je-wageacc-00191
+  doc_number: JE-9112
+  purpose: wage_accrual
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00191
+  sim_obligation_id: obligation-00191
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00579
+- id: je-wageacc-00192
+  doc_number: JE-9113
+  purpose: wage_accrual
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00192
+  sim_obligation_id: obligation-00192
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00580
+- id: je-wagepay-00191
+  doc_number: JE-9114
+  purpose: wage_payment
+  txn_sim_day: 201
+  txn_date: '2026-04-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00191
+  sim_obligation_id: obligation-00191
+  sim_payment_id: payment-00191
+  sim_event_ids:
+  - event-00583
+- id: je-wagepay-00192
+  doc_number: JE-9115
+  purpose: wage_payment
+  txn_sim_day: 201
+  txn_date: '2026-04-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00192
+  sim_obligation_id: obligation-00192
+  sim_payment_id: payment-00192
+  sim_event_ids:
+  - event-00584
+- id: je-wageacc-00193
+  doc_number: JE-9116
+  purpose: wage_accrual
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00193
+  sim_obligation_id: obligation-00193
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00585
+- id: je-wageacc-00194
+  doc_number: JE-9117
+  purpose: wage_accrual
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00194
+  sim_obligation_id: obligation-00194
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00586
+- id: je-wagepay-00193
+  doc_number: JE-9118
+  purpose: wage_payment
+  txn_sim_day: 208
+  txn_date: '2026-05-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00193
+  sim_obligation_id: obligation-00193
+  sim_payment_id: payment-00193
+  sim_event_ids:
+  - event-00589
+- id: je-wagepay-00194
+  doc_number: JE-9119
+  purpose: wage_payment
+  txn_sim_day: 208
+  txn_date: '2026-05-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00194
+  sim_obligation_id: obligation-00194
+  sim_payment_id: payment-00194
+  sim_event_ids:
+  - event-00590
+- id: je-wageacc-00209
+  doc_number: JE-9120
+  purpose: wage_accrual
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00209
+  sim_obligation_id: obligation-00209
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00606
+- id: je-wageacc-00210
+  doc_number: JE-9121
+  purpose: wage_accrual
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00210
+  sim_obligation_id: obligation-00210
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00607
+- id: je-wagepay-00199
+  doc_number: JE-9122
+  purpose: wage_payment
+  txn_sim_day: 215
+  txn_date: '2026-05-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00199
+  sim_obligation_id: obligation-00209
+  sim_payment_id: payment-00199
+  sim_event_ids:
+  - event-00623
+- id: je-wagepay-00200
+  doc_number: JE-9123
+  purpose: wage_payment
+  txn_sim_day: 215
+  txn_date: '2026-05-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00200
+  sim_obligation_id: obligation-00210
+  sim_payment_id: payment-00200
+  sim_event_ids:
+  - event-00624
+- id: je-wageacc-00214
+  doc_number: JE-9124
+  purpose: wage_accrual
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00214
+  sim_obligation_id: obligation-00214
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00630
+- id: je-wageacc-00215
+  doc_number: JE-9125
+  purpose: wage_accrual
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00215
+  sim_obligation_id: obligation-00215
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00631
+- id: je-wagepay-00211
+  doc_number: JE-9126
+  purpose: wage_payment
+  txn_sim_day: 222
+  txn_date: '2026-05-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00211
+  sim_obligation_id: obligation-00214
+  sim_payment_id: payment-00211
+  sim_event_ids:
+  - event-00650
+- id: je-wagepay-00212
+  doc_number: JE-9127
+  purpose: wage_payment
+  txn_sim_day: 222
+  txn_date: '2026-05-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00212
+  sim_obligation_id: obligation-00215
+  sim_payment_id: payment-00212
+  sim_event_ids:
+  - event-00651
+- id: je-wageacc-00216
+  doc_number: JE-9128
+  purpose: wage_accrual
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00216
+  sim_obligation_id: obligation-00216
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00653
+- id: je-wageacc-00217
+  doc_number: JE-9129
+  purpose: wage_accrual
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00217
+  sim_obligation_id: obligation-00217
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00654
+- id: je-wagepay-00216
+  doc_number: JE-9130
+  purpose: wage_payment
+  txn_sim_day: 229
+  txn_date: '2026-05-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00216
+  sim_obligation_id: obligation-00216
+  sim_payment_id: payment-00216
+  sim_event_ids:
+  - event-00659
+- id: je-wagepay-00217
+  doc_number: JE-9131
+  purpose: wage_payment
+  txn_sim_day: 229
+  txn_date: '2026-05-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00217
+  sim_obligation_id: obligation-00217
+  sim_payment_id: payment-00217
+  sim_event_ids:
+  - event-00660
+- id: je-wageacc-00218
+  doc_number: JE-9132
+  purpose: wage_accrual
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00218
+  sim_obligation_id: obligation-00218
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00661
+- id: je-wageacc-00219
+  doc_number: JE-9133
+  purpose: wage_accrual
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00219
+  sim_obligation_id: obligation-00219
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00662
+- id: je-wagepay-00218
+  doc_number: JE-9134
+  purpose: wage_payment
+  txn_sim_day: 236
+  txn_date: '2026-05-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00218
+  sim_obligation_id: obligation-00218
+  sim_payment_id: payment-00218
+  sim_event_ids:
+  - event-00665
+- id: je-wagepay-00219
+  doc_number: JE-9135
+  purpose: wage_payment
+  txn_sim_day: 236
+  txn_date: '2026-05-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00219
+  sim_obligation_id: obligation-00219
+  sim_payment_id: payment-00219
+  sim_event_ids:
+  - event-00666
+- id: je-wageacc-00220
+  doc_number: JE-9136
+  purpose: wage_accrual
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00220
+  sim_obligation_id: obligation-00220
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00667
+- id: je-wageacc-00221
+  doc_number: JE-9137
+  purpose: wage_accrual
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00221
+  sim_obligation_id: obligation-00221
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00668
+- id: je-wagepay-00223
+  doc_number: JE-9138
+  purpose: wage_payment
+  txn_sim_day: 243
+  txn_date: '2026-06-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00223
+  sim_obligation_id: obligation-00220
+  sim_payment_id: payment-00223
+  sim_event_ids:
+  - event-00695
+- id: je-wagepay-00224
+  doc_number: JE-9139
+  purpose: wage_payment
+  txn_sim_day: 243
+  txn_date: '2026-06-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00224
+  sim_obligation_id: obligation-00221
+  sim_payment_id: payment-00224
+  sim_event_ids:
+  - event-00696
+- id: je-wageacc-00239
+  doc_number: JE-9140
+  purpose: wage_accrual
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00239
+  sim_obligation_id: obligation-00239
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00698
+- id: je-wageacc-00240
+  doc_number: JE-9141
+  purpose: wage_accrual
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00240
+  sim_obligation_id: obligation-00240
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00699
+- id: je-wagepay-00236
+  doc_number: JE-9142
+  purpose: wage_payment
+  txn_sim_day: 250
+  txn_date: '2026-06-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00236
+  sim_obligation_id: obligation-00239
+  sim_payment_id: payment-00236
+  sim_event_ids:
+  - event-00722
+- id: je-wagepay-00237
+  doc_number: JE-9143
+  purpose: wage_payment
+  txn_sim_day: 250
+  txn_date: '2026-06-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00237
+  sim_obligation_id: obligation-00240
+  sim_payment_id: payment-00237
+  sim_event_ids:
+  - event-00723
+- id: je-wageacc-00241
+  doc_number: JE-9144
+  purpose: wage_accrual
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00241
+  sim_obligation_id: obligation-00241
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00727
+- id: je-wageacc-00242
+  doc_number: JE-9145
+  purpose: wage_accrual
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00242
+  sim_obligation_id: obligation-00242
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00728
+- id: je-wagepay-00241
+  doc_number: JE-9146
+  purpose: wage_payment
+  txn_sim_day: 257
+  txn_date: '2026-06-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00241
+  sim_obligation_id: obligation-00241
+  sim_payment_id: payment-00241
+  sim_event_ids:
+  - event-00734
+- id: je-wagepay-00242
+  doc_number: JE-9147
+  purpose: wage_payment
+  txn_sim_day: 257
+  txn_date: '2026-06-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00242
+  sim_obligation_id: obligation-00242
+  sim_payment_id: payment-00242
+  sim_event_ids:
+  - event-00735
+- id: je-wageacc-00243
+  doc_number: JE-9148
+  purpose: wage_accrual
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00243
+  sim_obligation_id: obligation-00243
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00736
+- id: je-wageacc-00244
+  doc_number: JE-9149
+  purpose: wage_accrual
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00244
+  sim_obligation_id: obligation-00244
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00737
+- id: je-wagepay-00243
+  doc_number: JE-9150
+  purpose: wage_payment
+  txn_sim_day: 264
+  txn_date: '2026-06-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00243
+  sim_obligation_id: obligation-00243
+  sim_payment_id: payment-00243
+  sim_event_ids:
+  - event-00740
+- id: je-wagepay-00244
+  doc_number: JE-9151
+  purpose: wage_payment
+  txn_sim_day: 264
+  txn_date: '2026-06-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00244
+  sim_obligation_id: obligation-00244
+  sim_payment_id: payment-00244
+  sim_event_ids:
+  - event-00741
+- id: je-wageacc-00245
+  doc_number: JE-9152
+  purpose: wage_accrual
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00245
+  sim_obligation_id: obligation-00245
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00742
+- id: je-wageacc-00246
+  doc_number: JE-9153
+  purpose: wage_accrual
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00246
+  sim_obligation_id: obligation-00246
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00743
+- id: je-wagepay-00245
+  doc_number: JE-9154
+  purpose: wage_payment
+  txn_sim_day: 271
+  txn_date: '2026-07-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00245
+  sim_obligation_id: obligation-00245
+  sim_payment_id: payment-00245
+  sim_event_ids:
+  - event-00766
+- id: je-wagepay-00246
+  doc_number: JE-9155
+  purpose: wage_payment
+  txn_sim_day: 271
+  txn_date: '2026-07-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00246
+  sim_obligation_id: obligation-00246
+  sim_payment_id: payment-00246
+  sim_event_ids:
+  - event-00767
+- id: je-distribution-00773
+  doc_number: JE-9156
+  purpose: owner_distribution
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '56531.05'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '56531.05'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:0a013a419798a4d2:je-distribution-00773
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00773
+- id: je-wageacc-00265
+  doc_number: JE-9157
+  purpose: wage_accrual
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00265
+  sim_obligation_id: obligation-00265
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00774
+- id: je-wageacc-00266
+  doc_number: JE-9158
+  purpose: wage_accrual
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00266
+  sim_obligation_id: obligation-00266
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00775
+- id: je-wagepay-00255
+  doc_number: JE-9159
+  purpose: wage_payment
+  txn_sim_day: 278
+  txn_date: '2026-07-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00255
+  sim_obligation_id: obligation-00265
+  sim_payment_id: payment-00255
+  sim_event_ids:
+  - event-00794
+- id: je-wagepay-00256
+  doc_number: JE-9160
+  purpose: wage_payment
+  txn_sim_day: 278
+  txn_date: '2026-07-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00256
+  sim_obligation_id: obligation-00266
+  sim_payment_id: payment-00256
+  sim_event_ids:
+  - event-00795
+- id: je-wageacc-00267
+  doc_number: JE-9161
+  purpose: wage_accrual
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00267
+  sim_obligation_id: obligation-00267
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00802
+- id: je-wageacc-00268
+  doc_number: JE-9162
+  purpose: wage_accrual
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00268
+  sim_obligation_id: obligation-00268
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00803
+- id: je-wagepay-00267
+  doc_number: JE-9163
+  purpose: wage_payment
+  txn_sim_day: 285
+  txn_date: '2026-07-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00267
+  sim_obligation_id: obligation-00267
+  sim_payment_id: payment-00267
+  sim_event_ids:
+  - event-00814
+- id: je-wagepay-00268
+  doc_number: JE-9164
+  purpose: wage_payment
+  txn_sim_day: 285
+  txn_date: '2026-07-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00268
+  sim_obligation_id: obligation-00268
+  sim_payment_id: payment-00268
+  sim_event_ids:
+  - event-00815
+- id: je-wageacc-00269
+  doc_number: JE-9165
+  purpose: wage_accrual
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00269
+  sim_obligation_id: obligation-00269
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00816
+- id: je-wageacc-00270
+  doc_number: JE-9166
+  purpose: wage_accrual
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00270
+  sim_obligation_id: obligation-00270
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00817
+- id: je-wagepay-00269
+  doc_number: JE-9167
+  purpose: wage_payment
+  txn_sim_day: 292
+  txn_date: '2026-07-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00269
+  sim_obligation_id: obligation-00269
+  sim_payment_id: payment-00269
+  sim_event_ids:
+  - event-00820
+- id: je-wagepay-00270
+  doc_number: JE-9168
+  purpose: wage_payment
+  txn_sim_day: 292
+  txn_date: '2026-07-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00270
+  sim_obligation_id: obligation-00270
+  sim_payment_id: payment-00270
+  sim_event_ids:
+  - event-00821
+- id: je-wageacc-00271
+  doc_number: JE-9169
+  purpose: wage_accrual
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00271
+  sim_obligation_id: obligation-00271
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00822
+- id: je-wageacc-00272
+  doc_number: JE-9170
+  purpose: wage_accrual
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00272
+  sim_obligation_id: obligation-00272
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00823
+- id: je-wagepay-00271
+  doc_number: JE-9171
+  purpose: wage_payment
+  txn_sim_day: 299
+  txn_date: '2026-08-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00271
+  sim_obligation_id: obligation-00271
+  sim_payment_id: payment-00271
+  sim_event_ids:
+  - event-00826
+- id: je-wagepay-00272
+  doc_number: JE-9172
+  purpose: wage_payment
+  txn_sim_day: 299
+  txn_date: '2026-08-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00272
+  sim_obligation_id: obligation-00272
+  sim_payment_id: payment-00272
+  sim_event_ids:
+  - event-00827
+- id: je-wageacc-00290
+  doc_number: JE-9173
+  purpose: wage_accrual
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00290
+  sim_obligation_id: obligation-00290
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00848
+- id: je-wageacc-00291
+  doc_number: JE-9174
+  purpose: wage_accrual
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00291
+  sim_obligation_id: obligation-00291
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00849
+- id: je-wagepay-00278
+  doc_number: JE-9175
+  purpose: wage_payment
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00278
+  sim_obligation_id: obligation-00290
+  sim_payment_id: payment-00278
+  sim_event_ids:
+  - event-00862
+- id: je-wagepay-00279
+  doc_number: JE-9176
+  purpose: wage_payment
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00279
+  sim_obligation_id: obligation-00291
+  sim_payment_id: payment-00279
+  sim_event_ids:
+  - event-00863
+- id: je-wageacc-00292
+  doc_number: JE-9177
+  purpose: wage_accrual
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00292
+  sim_obligation_id: obligation-00292
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00871
+- id: je-wageacc-00293
+  doc_number: JE-9178
+  purpose: wage_accrual
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00293
+  sim_obligation_id: obligation-00293
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00872
+- id: je-wagepay-00290
+  doc_number: JE-9179
+  purpose: wage_payment
+  txn_sim_day: 313
+  txn_date: '2026-08-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00290
+  sim_obligation_id: obligation-00292
+  sim_payment_id: payment-00290
+  sim_event_ids:
+  - event-00887
+- id: je-wagepay-00291
+  doc_number: JE-9180
+  purpose: wage_payment
+  txn_sim_day: 313
+  txn_date: '2026-08-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00291
+  sim_obligation_id: obligation-00293
+  sim_payment_id: payment-00291
+  sim_event_ids:
+  - event-00888
+- id: je-wageacc-00294
+  doc_number: JE-9181
+  purpose: wage_accrual
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00294
+  sim_obligation_id: obligation-00294
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00891
+- id: je-wageacc-00295
+  doc_number: JE-9182
+  purpose: wage_accrual
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00295
+  sim_obligation_id: obligation-00295
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00892
+- id: je-wagepay-00294
+  doc_number: JE-9183
+  purpose: wage_payment
+  txn_sim_day: 320
+  txn_date: '2026-08-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00294
+  sim_obligation_id: obligation-00294
+  sim_payment_id: payment-00294
+  sim_event_ids:
+  - event-00895
+- id: je-wagepay-00295
+  doc_number: JE-9184
+  purpose: wage_payment
+  txn_sim_day: 320
+  txn_date: '2026-08-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00295
+  sim_obligation_id: obligation-00295
+  sim_payment_id: payment-00295
+  sim_event_ids:
+  - event-00896
+- id: je-wageacc-00296
+  doc_number: JE-9185
+  purpose: wage_accrual
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00296
+  sim_obligation_id: obligation-00296
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00897
+- id: je-wageacc-00297
+  doc_number: JE-9186
+  purpose: wage_accrual
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00297
+  sim_obligation_id: obligation-00297
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00898
+- id: je-wagepay-00296
+  doc_number: JE-9187
+  purpose: wage_payment
+  txn_sim_day: 327
+  txn_date: '2026-08-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00296
+  sim_obligation_id: obligation-00296
+  sim_payment_id: payment-00296
+  sim_event_ids:
+  - event-00901
+- id: je-wagepay-00297
+  doc_number: JE-9188
+  purpose: wage_payment
+  txn_sim_day: 327
+  txn_date: '2026-08-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00297
+  sim_obligation_id: obligation-00297
+  sim_payment_id: payment-00297
+  sim_event_ids:
+  - event-00902
+- id: je-wageacc-00298
+  doc_number: JE-9189
+  purpose: wage_accrual
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00298
+  sim_obligation_id: obligation-00298
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00903
+- id: je-wageacc-00299
+  doc_number: JE-9190
+  purpose: wage_accrual
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00299
+  sim_obligation_id: obligation-00299
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00904
+- id: je-wagepay-00301
+  doc_number: JE-9191
+  purpose: wage_payment
+  txn_sim_day: 334
+  txn_date: '2026-09-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00301
+  sim_obligation_id: obligation-00298
+  sim_payment_id: payment-00301
+  sim_event_ids:
+  - event-00932
+- id: je-wagepay-00302
+  doc_number: JE-9192
+  purpose: wage_payment
+  txn_sim_day: 334
+  txn_date: '2026-09-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00302
+  sim_obligation_id: obligation-00299
+  sim_payment_id: payment-00302
+  sim_event_ids:
+  - event-00933
+- id: je-wageacc-00316
+  doc_number: JE-9193
+  purpose: wage_accrual
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00316
+  sim_obligation_id: obligation-00316
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00936
+- id: je-wageacc-00317
+  doc_number: JE-9194
+  purpose: wage_accrual
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00317
+  sim_obligation_id: obligation-00317
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00937
+- id: je-wagepay-00314
+  doc_number: JE-9195
+  purpose: wage_payment
+  txn_sim_day: 341
+  txn_date: '2026-09-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00314
+  sim_obligation_id: obligation-00316
+  sim_payment_id: payment-00314
+  sim_event_ids:
+  - event-00958
+- id: je-wagepay-00315
+  doc_number: JE-9196
+  purpose: wage_payment
+  txn_sim_day: 341
+  txn_date: '2026-09-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00315
+  sim_obligation_id: obligation-00317
+  sim_payment_id: payment-00315
+  sim_event_ids:
+  - event-00959
+- id: je-wageacc-00318
+  doc_number: JE-9197
+  purpose: wage_accrual
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00318
+  sim_obligation_id: obligation-00318
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00962
+- id: je-wageacc-00319
+  doc_number: JE-9198
+  purpose: wage_accrual
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00319
+  sim_obligation_id: obligation-00319
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00963
+- id: je-wagepay-00318
+  doc_number: JE-9199
+  purpose: wage_payment
+  txn_sim_day: 348
+  txn_date: '2026-09-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00318
+  sim_obligation_id: obligation-00318
+  sim_payment_id: payment-00318
+  sim_event_ids:
+  - event-00968
+- id: je-wagepay-00319
+  doc_number: JE-9200
+  purpose: wage_payment
+  txn_sim_day: 348
+  txn_date: '2026-09-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00319
+  sim_obligation_id: obligation-00319
+  sim_payment_id: payment-00319
+  sim_event_ids:
+  - event-00969
+- id: je-wageacc-00320
+  doc_number: JE-9201
+  purpose: wage_accrual
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00320
+  sim_obligation_id: obligation-00320
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00970
+- id: je-wageacc-00321
+  doc_number: JE-9202
+  purpose: wage_accrual
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00321
+  sim_obligation_id: obligation-00321
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00971
+- id: je-wagepay-00320
+  doc_number: JE-9203
+  purpose: wage_payment
+  txn_sim_day: 355
+  txn_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00320
+  sim_obligation_id: obligation-00320
+  sim_payment_id: payment-00320
+  sim_event_ids:
+  - event-00974
+- id: je-wagepay-00321
+  doc_number: JE-9204
+  purpose: wage_payment
+  txn_sim_day: 355
+  txn_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00321
+  sim_obligation_id: obligation-00321
+  sim_payment_id: payment-00321
+  sim_event_ids:
+  - event-00975
+- id: je-wageacc-00322
+  doc_number: JE-9205
+  purpose: wage_accrual
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00322
+  sim_obligation_id: obligation-00322
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00976
+- id: je-wageacc-00323
+  doc_number: JE-9206
+  purpose: wage_accrual
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00323
+  sim_obligation_id: obligation-00323
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00977
+- id: je-wagepay-00322
+  doc_number: JE-9207
+  purpose: wage_payment
+  txn_sim_day: 362
+  txn_date: '2026-10-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00322
+  sim_obligation_id: obligation-00322
+  sim_payment_id: payment-00322
+  sim_event_ids:
+  - event-00999
+- id: je-wagepay-00323
+  doc_number: JE-9208
+  purpose: wage_payment
+  txn_sim_day: 362
+  txn_date: '2026-10-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wagepay-00323
+  sim_obligation_id: obligation-00323
+  sim_payment_id: payment-00323
+  sim_event_ids:
+  - event-01000
+- id: je-distribution-01007
+  doc_number: JE-9209
+  purpose: owner_distribution
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '56531.05'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '56531.05'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:0a013a419798a4d2:je-distribution-01007
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01007
+- id: je-wageacc-00341
+  doc_number: JE-9210
+  purpose: wage_accrual
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1406.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1406.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Sigrid Kirkland.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00341
+  sim_obligation_id: obligation-00341
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01008
+- id: je-wageacc-00342
+  doc_number: JE-9211
+  purpose: wage_accrual
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1102.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1102.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Kaveh Moreau.
+  provenance_note: sim:0a013a419798a4d2:je-wageacc-00342
+  sim_obligation_id: obligation-00342
+  sim_payment_id: null
+  sim_event_ids:
+  - event-01009

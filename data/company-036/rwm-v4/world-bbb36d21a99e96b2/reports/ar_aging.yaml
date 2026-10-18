@@ -1,0 +1,21 @@
+report: Accounts Receivable Aging
+company: Greenverge Landscaping
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-bbb36d21a99e96b2
+buckets:
+  current: '136883.16'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '136883.16'
+rows:
+- document_id: minv-00011
+  party: Juniper Flats Keystone Apothecary & Co.
+  due_date: '2026-11-01'
+  days_past_due: 0
+  bucket: current
+  balance: '136883.16'

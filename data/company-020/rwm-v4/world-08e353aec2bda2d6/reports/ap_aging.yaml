@@ -1,0 +1,57 @@
+report: Accounts Payable Aging
+company: Palletbay Storage & Warehousing
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-08e353aec2bda2d6
+buckets:
+  current: '9268.31'
+  1-30: '1598.55'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '10866.86'
+rows:
+- document_id: bill-operating-03705
+  party: Rasmussen Holdings LLC
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '500.00'
+- document_id: bill-utilities-03700
+  party: Foxglove Power & Light
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '67.90'
+- document_id: bill-utilities-03701
+  party: Elmsworth Municipal Utilities
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '13.58'
+- document_id: bill-variable-services-03702
+  party: Havenwood Evergreen Supply Group
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '1017.07'
+- document_id: bill-permit-03719
+  party: Hollyhock Department of Revenue
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '500.00'
+- document_id: bill-interest-03672
+  party: Lanternwood Community Bank
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '601.53'
+- document_id: bill-03407
+  party: Havenwood Supply Holdings
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '8166.78'

@@ -1,0 +1,783 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Yeoman Larkspur Confections
+  txn_sim_day: 51
+  txn_date: '2025-11-26'
+  due_sim_day: 81
+  due_date: '2025-12-26'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Site analysis
+    description: Site analysis, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '18461.53'
+    amount: '18461.53'
+  total_amount: '18461.53'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '16615.38'
+  retainage_amount: '1846.15'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation commission for Yeoman Larkspur Confections.
+  provenance_note: sim:70d883e8c81101f4:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-105
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-2
+  customer_name: Mbeki Joinery LLC
+  txn_sim_day: 80
+  txn_date: '2025-12-25'
+  due_sim_day: 110
+  due_date: '2026-01-24'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Site analysis
+    description: Site analysis, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '22153.84'
+    amount: '22153.84'
+  total_amount: '22153.84'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '19938.46'
+  retainage_amount: '2215.38'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation commission for Mbeki Joinery LLC.
+  provenance_note: sim:70d883e8c81101f4:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-231
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-1
+  customer_name: Yeoman Larkspur Confections
+  txn_sim_day: 81
+  txn_date: '2025-12-26'
+  due_sim_day: 111
+  due_date: '2026-01-25'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '27692.30'
+    amount: '27692.30'
+  total_amount: '27692.30'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '1384.62'
+  retainage_amount: '2769.23'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation commission for Yeoman Larkspur Confections.
+  provenance_note: sim:70d883e8c81101f4:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-236
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-1
+  customer_name: Yeoman Larkspur Confections
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  due_sim_day: 135
+  due_date: '2026-02-18'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Mechanical coordination
+    description: Mechanical coordination, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '18461.53'
+    amount: '18461.53'
+  total_amount: '18461.53'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1846.15'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation commission for Yeoman Larkspur Confections.
+  provenance_note: sim:70d883e8c81101f4:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-367
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-3
+  customer_name: Juniper Flats Sterling Pottery Partners
+  txn_sim_day: 108
+  txn_date: '2026-01-22'
+  due_sim_day: 138
+  due_date: '2026-02-21'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Site analysis
+    description: Site analysis, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '15323.07'
+    amount: '15323.07'
+  total_amount: '15323.07'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '13790.77'
+  retainage_amount: '1532.30'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation commission for Juniper Flats Sterling Pottery Partners.
+  provenance_note: sim:70d883e8c81101f4:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-394
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-2
+  customer_name: Mbeki Joinery LLC
+  txn_sim_day: 116
+  txn_date: '2026-01-30'
+  due_sim_day: 146
+  due_date: '2026-03-01'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '33230.76'
+    amount: '33230.76'
+  total_amount: '33230.76'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '1661.54'
+  retainage_amount: '3323.07'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation commission for Mbeki Joinery LLC.
+  provenance_note: sim:70d883e8c81101f4:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-429
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-1
+  customer_name: Yeoman Larkspur Confections
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  due_sim_day: 163
+  due_date: '2026-03-18'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical coordination
+    description: Electrical coordination, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '18461.53'
+    amount: '18461.53'
+  total_amount: '18461.53'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1846.15'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation commission for Yeoman Larkspur Confections.
+  provenance_note: sim:70d883e8c81101f4:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-543
+- id: minv-00008
+  doc_number: INV-1008
+  customer_id: cust-client-3
+  customer_name: Juniper Flats Sterling Pottery Partners
+  txn_sim_day: 135
+  txn_date: '2026-02-18'
+  due_sim_day: 165
+  due_date: '2026-03-20'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '22984.61'
+    amount: '22984.61'
+  total_amount: '22984.61'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '1149.23'
+  retainage_amount: '2298.46'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation commission for Juniper Flats Sterling Pottery Partners.
+  provenance_note: sim:70d883e8c81101f4:minv-00008
+  sim_order_id: null
+  sim_obligation_id: invoice-8
+  sim_event_ids:
+  - event-564
+- id: minv-00009
+  doc_number: INV-1009
+  customer_id: cust-client-2
+  customer_name: Mbeki Joinery LLC
+  txn_sim_day: 144
+  txn_date: '2026-02-27'
+  due_sim_day: 174
+  due_date: '2026-03-29'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Mechanical coordination
+    description: Mechanical coordination, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '22153.84'
+    amount: '22153.84'
+  total_amount: '22153.84'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2215.38'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation commission for Mbeki Joinery LLC.
+  provenance_note: sim:70d883e8c81101f4:minv-00009
+  sim_order_id: null
+  sim_obligation_id: invoice-9
+  sim_event_ids:
+  - event-618
+- id: minv-00010
+  doc_number: INV-1010
+  customer_id: cust-client-3
+  customer_name: Juniper Flats Sterling Pottery Partners
+  txn_sim_day: 157
+  txn_date: '2026-03-12'
+  due_sim_day: 187
+  due_date: '2026-04-11'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Mechanical coordination
+    description: Mechanical coordination, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '15323.07'
+    amount: '15323.07'
+  total_amount: '15323.07'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1532.30'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation commission for Juniper Flats Sterling Pottery Partners.
+  provenance_note: sim:70d883e8c81101f4:minv-00010
+  sim_order_id: null
+  sim_obligation_id: invoice-10
+  sim_event_ids:
+  - event-727
+- id: minv-00011
+  doc_number: INV-1011
+  customer_id: cust-client-2
+  customer_name: Mbeki Joinery LLC
+  txn_sim_day: 170
+  txn_date: '2026-03-25'
+  due_sim_day: 200
+  due_date: '2026-04-24'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical coordination
+    description: Electrical coordination, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '22153.84'
+    amount: '22153.84'
+  total_amount: '22153.84'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2215.38'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation commission for Mbeki Joinery LLC.
+  provenance_note: sim:70d883e8c81101f4:minv-00011
+  sim_order_id: null
+  sim_obligation_id: invoice-11
+  sim_event_ids:
+  - event-830
+- id: minv-00012
+  doc_number: INV-1012
+  customer_id: cust-client-1
+  customer_name: Yeoman Larkspur Confections
+  txn_sim_day: 172
+  txn_date: '2026-03-27'
+  due_sim_day: 202
+  due_date: '2026-04-26'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Interior detailing
+    description: Interior detailing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '36923.11'
+    amount: '36923.11'
+  total_amount: '36923.11'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3692.31'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation commission for Yeoman Larkspur Confections.
+  provenance_note: sim:70d883e8c81101f4:minv-00012
+  sim_order_id: null
+  sim_obligation_id: invoice-12
+  sim_event_ids:
+  - event-850
+- id: minv-00013
+  doc_number: INV-1013
+  customer_id: cust-client-4
+  customer_name: Meridian Dunmore Goods
+  txn_sim_day: 178
+  txn_date: '2026-04-02'
+  due_sim_day: 208
+  due_date: '2026-05-02'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Schematic design
+    description: Schematic design, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '71428.57'
+    amount: '71428.57'
+  total_amount: '71428.57'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '64285.72'
+  retainage_amount: '7142.85'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New building commission for Meridian Dunmore Goods.
+  provenance_note: sim:70d883e8c81101f4:minv-00013
+  sim_order_id: null
+  sim_obligation_id: invoice-13
+  sim_event_ids:
+  - event-891
+- id: minv-00014
+  doc_number: INV-1014
+  customer_id: cust-client-3
+  customer_name: Juniper Flats Sterling Pottery Partners
+  txn_sim_day: 179
+  txn_date: '2026-04-03'
+  due_sim_day: 209
+  due_date: '2026-05-03'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical coordination
+    description: Electrical coordination, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '15323.07'
+    amount: '15323.07'
+  total_amount: '15323.07'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1532.30'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation commission for Juniper Flats Sterling Pottery Partners.
+  provenance_note: sim:70d883e8c81101f4:minv-00014
+  sim_order_id: null
+  sim_obligation_id: invoice-14
+  sim_event_ids:
+  - event-901
+- id: minv-00015
+  doc_number: INV-1015
+  customer_id: cust-client-3
+  customer_name: Juniper Flats Sterling Pottery Partners
+  txn_sim_day: 213
+  txn_date: '2026-05-07'
+  due_sim_day: 243
+  due_date: '2026-06-06'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Interior detailing
+    description: Interior detailing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '30646.18'
+    amount: '30646.18'
+  total_amount: '30646.18'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3064.61'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation commission for Juniper Flats Sterling Pottery Partners.
+  provenance_note: sim:70d883e8c81101f4:minv-00015
+  sim_order_id: null
+  sim_obligation_id: invoice-15
+  sim_event_ids:
+  - event-1177
+- id: minv-00016
+  doc_number: INV-1016
+  customer_id: cust-client-2
+  customer_name: Mbeki Joinery LLC
+  txn_sim_day: 214
+  txn_date: '2026-05-08'
+  due_sim_day: 244
+  due_date: '2026-06-07'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Interior detailing
+    description: Interior detailing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '44307.72'
+    amount: '44307.72'
+  total_amount: '44307.72'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '4430.77'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation commission for Mbeki Joinery LLC.
+  provenance_note: sim:70d883e8c81101f4:minv-00016
+  sim_order_id: null
+  sim_obligation_id: invoice-16
+  sim_event_ids:
+  - event-1187
+- id: minv-00017
+  doc_number: INV-1017
+  customer_id: cust-client-5
+  customer_name: Granite Bay Cyclery Inc.
+  txn_sim_day: 219
+  txn_date: '2026-05-13'
+  due_sim_day: 249
+  due_date: '2026-06-12'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Site analysis
+    description: Site analysis, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '19938.46'
+    amount: '19938.46'
+  total_amount: '19938.46'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '17944.62'
+  retainage_amount: '1993.84'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation commission for Granite Bay Cyclery Inc..
+  provenance_note: sim:70d883e8c81101f4:minv-00017
+  sim_order_id: null
+  sim_obligation_id: invoice-17
+  sim_event_ids:
+  - event-1222
+- id: minv-00018
+  doc_number: INV-1018
+  customer_id: cust-client-5
+  customer_name: Granite Bay Cyclery Inc.
+  txn_sim_day: 256
+  txn_date: '2026-06-19'
+  due_sim_day: 286
+  due_date: '2026-07-19'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '29907.69'
+    amount: '29907.69'
+  total_amount: '29907.69'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '1495.38'
+  retainage_amount: '2990.76'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation commission for Granite Bay Cyclery Inc..
+  provenance_note: sim:70d883e8c81101f4:minv-00018
+  sim_order_id: null
+  sim_obligation_id: invoice-18
+  sim_event_ids:
+  - event-1464
+- id: minv-00019
+  doc_number: INV-1019
+  customer_id: cust-client-4
+  customer_name: Meridian Dunmore Goods
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  due_sim_day: 289
+  due_date: '2026-07-22'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '160714.28'
+    amount: '160714.28'
+  total_amount: '160714.28'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '10714.28'
+  retainage_amount: '16071.42'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New building commission for Meridian Dunmore Goods.
+  provenance_note: sim:70d883e8c81101f4:minv-00019
+  sim_order_id: null
+  sim_obligation_id: invoice-19
+  sim_event_ids:
+  - event-1478
+- id: minv-00020
+  doc_number: INV-1020
+  customer_id: cust-client-5
+  customer_name: Granite Bay Cyclery Inc.
+  txn_sim_day: 277
+  txn_date: '2026-07-10'
+  due_sim_day: 307
+  due_date: '2026-08-09'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Mechanical coordination
+    description: Mechanical coordination, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '19938.46'
+    amount: '19938.46'
+  total_amount: '19938.46'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1993.84'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation commission for Granite Bay Cyclery Inc..
+  provenance_note: sim:70d883e8c81101f4:minv-00020
+  sim_order_id: null
+  sim_obligation_id: invoice-20
+  sim_event_ids:
+  - event-1595
+- id: minv-00021
+  doc_number: INV-1021
+  customer_id: cust-client-6
+  customer_name: Westmarch Evergreen Removals Group
+  txn_sim_day: 288
+  txn_date: '2026-07-21'
+  due_sim_day: 318
+  due_date: '2026-08-20'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Schematic design
+    description: Schematic design, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '65714.28'
+    amount: '65714.28'
+  total_amount: '65714.28'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '59142.86'
+  retainage_amount: '6571.42'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New building commission for Westmarch Evergreen Removals Group.
+  provenance_note: sim:70d883e8c81101f4:minv-00021
+  sim_order_id: null
+  sim_obligation_id: invoice-21
+  sim_event_ids:
+  - event-1668
+- id: minv-00022
+  doc_number: INV-1022
+  customer_id: cust-client-4
+  customer_name: Meridian Dunmore Goods
+  txn_sim_day: 302
+  txn_date: '2026-08-04'
+  due_sim_day: 332
+  due_date: '2026-09-03'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Mechanical coordination
+    description: Mechanical coordination, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '71428.57'
+    amount: '71428.57'
+  total_amount: '71428.57'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '7142.85'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on New building commission for Meridian Dunmore Goods.
+  provenance_note: sim:70d883e8c81101f4:minv-00022
+  sim_order_id: null
+  sim_obligation_id: invoice-22
+  sim_event_ids:
+  - event-1766
+- id: minv-00023
+  doc_number: INV-1023
+  customer_id: cust-client-5
+  customer_name: Granite Bay Cyclery Inc.
+  txn_sim_day: 302
+  txn_date: '2026-08-04'
+  due_sim_day: 332
+  due_date: '2026-09-03'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical coordination
+    description: Electrical coordination, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '19938.46'
+    amount: '19938.46'
+  total_amount: '19938.46'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1993.84'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation commission for Granite Bay Cyclery Inc..
+  provenance_note: sim:70d883e8c81101f4:minv-00023
+  sim_order_id: null
+  sim_obligation_id: invoice-23
+  sim_event_ids:
+  - event-1769
+- id: minv-00024
+  doc_number: INV-1024
+  customer_id: cust-client-4
+  customer_name: Meridian Dunmore Goods
+  txn_sim_day: 344
+  txn_date: '2026-09-15'
+  due_sim_day: 374
+  due_date: '2026-10-15'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical coordination
+    description: Electrical coordination, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '71428.57'
+    amount: '71428.57'
+  total_amount: '71428.57'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '7142.85'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on New building commission for Meridian Dunmore Goods.
+  provenance_note: sim:70d883e8c81101f4:minv-00024
+  sim_order_id: null
+  sim_obligation_id: invoice-24
+  sim_event_ids:
+  - event-2095
+- id: minv-00025
+  doc_number: INV-1025
+  customer_id: cust-client-5
+  customer_name: Granite Bay Cyclery Inc.
+  txn_sim_day: 346
+  txn_date: '2026-09-17'
+  due_sim_day: 376
+  due_date: '2026-10-17'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Interior detailing
+    description: Interior detailing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '39876.93'
+    amount: '39876.93'
+  total_amount: '39876.93'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3987.69'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation commission for Granite Bay Cyclery Inc..
+  provenance_note: sim:70d883e8c81101f4:minv-00025
+  sim_order_id: null
+  sim_obligation_id: invoice-25
+  sim_event_ids:
+  - event-2121
+- id: minv-00026
+  doc_number: INV-1026
+  customer_id: cust-client-7
+  customer_name: Coulter Hardware Partners
+  txn_sim_day: 346
+  txn_date: '2026-09-17'
+  due_sim_day: 376
+  due_date: '2026-10-17'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Schematic design
+    description: Schematic design, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '68571.42'
+    amount: '68571.42'
+  total_amount: '68571.42'
+  income_account_id: acct-construction-income
+  project_id: proj-00007
+  deposit_applied_amount: '61714.28'
+  retainage_amount: '6857.14'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New building commission for Coulter Hardware Partners.
+  provenance_note: sim:70d883e8c81101f4:minv-00026
+  sim_order_id: null
+  sim_obligation_id: invoice-26
+  sim_event_ids:
+  - event-2127
+- id: minv-00027
+  doc_number: INV-1027
+  customer_id: cust-client-6
+  customer_name: Westmarch Evergreen Removals Group
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 394
+  due_date: '2026-11-04'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '147857.14'
+    amount: '147857.14'
+  total_amount: '147857.14'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '9857.14'
+  retainage_amount: '14785.71'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New building commission for Westmarch Evergreen Removals Group.
+  provenance_note: sim:70d883e8c81101f4:minv-00027
+  sim_order_id: null
+  sim_obligation_id: invoice-27
+  sim_event_ids:
+  - event-2269

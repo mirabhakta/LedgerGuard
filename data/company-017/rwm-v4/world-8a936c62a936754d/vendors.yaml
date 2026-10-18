@@ -1,0 +1,210 @@
+- id: vend-bank
+  display_name: Underwood Savings Bank
+  company_name: Underwood Savings Bank
+  contact_given_name: Katarina
+  contact_family_name: Pettigrew
+  email: katarina.pettigrew@underwoodsavingsbank.example
+  phone: (555) 168-8360
+  address:
+    line1: 9148 Quire Street
+    city: Akron
+    state: OH
+    postal_code: '44398'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: lender
+  joined_sim_day: 30
+  joined_date: '2025-11-05'
+  sim_actor_id: bank
+  sim_event_ids: []
+- id: vend-electricity
+  display_name: Oakhurst Municipal Utilities
+  company_name: Oakhurst Municipal Utilities
+  contact_given_name: Quentin
+  contact_family_name: Yildirim
+  email: quentin.yildirim@oakhurstmunicipalutiliti.example
+  phone: (555) 232-9905
+  address:
+    line1: 2349 Millrace Drive
+    city: Kalamazoo
+    state: MI
+    postal_code: '49081'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: utility
+  joined_sim_day: 35
+  joined_date: '2025-11-10'
+  sim_actor_id: electricity
+  sim_event_ids: []
+- id: vend-freight-vendor
+  display_name: Cedar Park Pottery
+  company_name: Cedar Park Pottery
+  contact_given_name: Camille
+  contact_family_name: Cortland
+  email: camille.cortland@cedarparkpottery.example
+  phone: (555) 283-0047
+  address:
+    line1: 4494 Dockhouse Lane
+    city: Peoria
+    state: IL
+    postal_code: '61698'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 29
+  joined_date: '2025-11-04'
+  sim_actor_id: freight-vendor
+  sim_event_ids: []
+- id: vend-government
+  display_name: Thornbury Department of Revenue
+  company_name: Thornbury Department of Revenue
+  contact_given_name: Eleni
+  contact_family_name: Sorrentino
+  email: eleni.sorrentino@thornburydepartmentofrev.example
+  phone: (555) 351-8410
+  address:
+    line1: 8328 Cordage Avenue
+    city: Duluth
+    state: MN
+    postal_code: '55892'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: government
+  joined_sim_day: 91
+  joined_date: '2026-01-05'
+  sim_actor_id: government
+  sim_event_ids: []
+- id: vend-landlord
+  display_name: Jasper Mill Realty Partners
+  company_name: Jasper Mill Realty Partners
+  contact_given_name: Darius
+  contact_family_name: Fairbairn
+  email: darius.fairbairn@jaspermillrealtypartners.example
+  phone: (555) 527-3419
+  address:
+    line1: 5666 Dockhouse Lane
+    city: Roanoke
+    state: VA
+    postal_code: '24037'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: premises
+  joined_sim_day: 7
+  joined_date: '2025-10-13'
+  sim_actor_id: landlord
+  sim_event_ids: []
+- id: vend-logistics-vendor
+  display_name: Quintero & Daughters Cyclery
+  company_name: Quintero & Daughters Cyclery
+  contact_given_name: Imani
+  contact_family_name: Yildirim
+  email: imani.yildirim@quinterodaughterscyclery.example
+  phone: (555) 020-5580
+  address:
+    line1: 3013 Mandrel Street
+    city: Albany
+    state: NY
+    postal_code: '12278'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 35
+  joined_date: '2025-11-10'
+  sim_actor_id: logistics-vendor
+  sim_event_ids: []
+- id: vend-operating-vendor
+  display_name: Juniper Grocers Co.
+  company_name: Juniper Grocers Co.
+  contact_given_name: Uma
+  contact_family_name: Moreau
+  email: uma.moreau@junipergrocersco.example
+  phone: (555) 253-2683
+  address:
+    line1: 374 Offcut Avenue
+    city: Wichita
+    state: KS
+    postal_code: '67292'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 84
+  joined_date: '2025-12-29'
+  sim_actor_id: operating-vendor
+  sim_event_ids: []
+- id: vend-professional-vendor
+  display_name: Novotny & Sons Outfitters
+  company_name: Novotny & Sons Outfitters
+  contact_given_name: Verena
+  contact_family_name: Oyelaran
+  email: verena.oyelaran@novotnysonsoutfitters.example
+  phone: (555) 584-2862
+  address:
+    line1: 989 Jobbing Road
+    city: Duluth
+    state: MN
+    postal_code: '55802'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 30
+  joined_date: '2025-11-05'
+  sim_actor_id: professional-vendor
+  sim_event_ids: []
+- id: vend-supplier
+  display_name: Foundry Nursery Inc.
+  company_name: Foundry Nursery Inc.
+  contact_given_name: Yara
+  contact_family_name: Ulloa
+  email: yara.ulloa@foundrynurseryinc.example
+  phone: (555) 025-3766
+  address:
+    line1: 3784 Kraftpaper Way
+    city: Manchester
+    state: NH
+    postal_code: '03166'
+    country: United States
+    line2: null
+  payment_terms: Net 30
+  payment_terms_days: 30
+  supply_role: product
+  joined_sim_day: 28
+  joined_date: '2025-11-03'
+  sim_actor_id: supplier
+  sim_event_ids: []
+- id: vend-water
+  display_name: Underwood Municipal Utilities
+  company_name: Underwood Municipal Utilities
+  contact_given_name: Liesel
+  contact_family_name: Quiroga
+  email: liesel.quiroga@underwoodmunicipalutilit.example
+  phone: (555) 550-6193
+  address:
+    line1: 2906 Bailer Street
+    city: Toledo
+    state: OH
+    postal_code: '43680'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: utility
+  joined_sim_day: 35
+  joined_date: '2025-11-10'
+  sim_actor_id: water
+  sim_event_ids: []

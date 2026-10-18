@@ -1,0 +1,39 @@
+report: Accounts Payable Aging
+company: Northgate Portfolio Partners
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-c8797b041efbda46
+buckets:
+  current: '107283.54'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '107283.54'
+rows:
+- document_id: bill-insurance-00726
+  party: Stonegate Insurance Group
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1000.00'
+- document_id: bill-premises-00724
+  party: Lantern Property Group
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '3857.14'
+- document_id: bill-software-00725
+  party: Cloudledger Software Subscriptions
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '700.00'
+- document_id: bill-income-tax-00730
+  party: City of Kiln Hollow
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '101726.40'

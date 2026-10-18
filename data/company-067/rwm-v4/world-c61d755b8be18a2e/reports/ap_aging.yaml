@@ -1,0 +1,39 @@
+report: Accounts Payable Aging
+company: Lanternwade Commercial Realty
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-c61d755b8be18a2e
+buckets:
+  current: '45452.79'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '45452.79'
+rows:
+- document_id: bill-insurance-00397
+  party: Dovetail Casualty & Surety
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '750.00'
+- document_id: bill-premises-00395
+  party: Rasmussen Holdings LLC
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1714.28'
+- document_id: bill-software-00396
+  party: Cloudledger Software Subscriptions
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '120.00'
+- document_id: bill-income-tax-00398
+  party: City of Lanternwood
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '42868.51'

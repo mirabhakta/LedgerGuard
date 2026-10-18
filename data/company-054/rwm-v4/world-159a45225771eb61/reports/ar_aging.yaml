@@ -1,0 +1,105 @@
+report: Accounts Receivable Aging
+company: Signalcraft Systems Integration
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-159a45225771eb61
+buckets:
+  current: '23860.26'
+  1-30: '27712.72'
+  31-60: '0.00'
+  61-90: '19.04'
+  90+: '0.00'
+total_outstanding: '51592.02'
+rows:
+- document_id: inv-00319
+  party: Westmarch Grocers Inc.
+  due_date: '2026-07-27'
+  days_past_due: 71
+  bucket: 61-90
+  balance: '19.04'
+- document_id: inv-00372
+  party: Westmarch Grocers Inc.
+  due_date: '2026-09-14'
+  days_past_due: 22
+  bucket: 1-30
+  balance: '526.50'
+- document_id: inv-00374
+  party: Yamada & Daughters Pottery
+  due_date: '2026-09-15'
+  days_past_due: 21
+  bucket: 1-30
+  balance: '715.50'
+- document_id: inv-00392
+  party: Westmarch Grocers Inc.
+  due_date: '2026-09-30'
+  days_past_due: 6
+  bucket: 1-30
+  balance: '837.00'
+- document_id: inv-00393
+  party: Yamada & Daughters Pottery
+  due_date: '2026-10-01'
+  days_past_due: 5
+  bucket: 1-30
+  balance: '351.00'
+- document_id: inv-00395
+  party: Juniper Flats Fulfillment
+  due_date: '2026-10-01'
+  days_past_due: 5
+  bucket: 1-30
+  balance: '418.50'
+- document_id: minv-00012
+  party: Farrow & Daughters Florals
+  due_date: '2026-10-04'
+  days_past_due: 2
+  bucket: 1-30
+  balance: '24364.72'
+- document_id: inv-00396
+  party: Westmarch Grocers Inc.
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '499.50'
+- document_id: inv-00397
+  party: Yamada & Daughters Pottery
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '486.00'
+- document_id: inv-00398
+  party: Timberline Stonegate Orchards
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '553.50'
+- document_id: inv-00399
+  party: Iversen & Daughters Warehousing
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '243.00'
+- document_id: inv-00400
+  party: Juniper Flats Fulfillment
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '621.00'
+- document_id: inv-00401
+  party: Westmarch Grocers Inc.
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '567.00'
+- document_id: inv-00402
+  party: Yamada & Daughters Pottery
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '675.00'
+- document_id: minv-00014
+  party: Farrow & Daughters Florals
+  due_date: '2026-10-31'
+  days_past_due: 0
+  bucket: current
+  balance: '20714.76'

@@ -1,0 +1,5285 @@
+- id: bill-operating-00002
+  doc_number: BILL-5001
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 7
+  txn_date: '2025-10-13'
+  due_sim_day: 7
+  due_date: '2025-10-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00002
+  sim_obligation_id: obligation-00002
+  sim_order_id: null
+  sim_event_ids:
+  - event-00096
+- id: bill-operating-00004
+  doc_number: BILL-5002
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  due_sim_day: 14
+  due_date: '2025-10-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00004
+  sim_obligation_id: obligation-00004
+  sim_order_id: null
+  sim_event_ids:
+  - event-00200
+- id: bill-operating-00006
+  doc_number: BILL-5003
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 21
+  txn_date: '2025-10-27'
+  due_sim_day: 21
+  due_date: '2025-10-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00006
+  sim_obligation_id: obligation-00006
+  sim_order_id: null
+  sim_event_ids:
+  - event-00323
+- id: bill-operating-00008
+  doc_number: BILL-5004
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 28
+  txn_date: '2025-11-03'
+  due_sim_day: 28
+  due_date: '2025-11-03'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00008
+  sim_obligation_id: obligation-00008
+  sim_order_id: null
+  sim_event_ids:
+  - event-00450
+- id: bill-interest-00009
+  doc_number: BILL-5005
+  vendor_id: vend-bank
+  vendor_name: First Riverbend Bank
+  expense_kind: operating
+  txn_sim_day: 30
+  txn_date: '2025-11-05'
+  due_sim_day: 37
+  due_date: '2025-11-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '43.76'
+  total_amount: '43.76'
+  project_id: null
+  cost_category: interest
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-interest-00009
+  sim_obligation_id: obligation-00009
+  sim_order_id: null
+  sim_event_ids:
+  - event-00502
+- id: bill-operating-00013
+  doc_number: BILL-5006
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 35
+  txn_date: '2025-11-10'
+  due_sim_day: 35
+  due_date: '2025-11-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00013
+  sim_obligation_id: obligation-00013
+  sim_order_id: null
+  sim_event_ids:
+  - event-00573
+- id: bill-00005
+  doc_number: BILL-5007
+  vendor_id: vend-supplier
+  vendor_name: Castellano & Sons Brewing
+  expense_kind: product
+  txn_sim_day: 37
+  txn_date: '2025-11-12'
+  due_sim_day: 67
+  due_date: '2025-12-12'
+  item_lines:
+  - line_num: 1
+    item_id: item-00001
+    item_name: Staple Case, Standard
+    description: Standard chisel-point staples, ten cartons per case.
+    quantity: 3000
+    unit_price_amount: '4.89'
+    amount: '14670.00'
+  account_lines: []
+  total_amount: '14670.00'
+  project_id: null
+  cost_category: purchase
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-00005
+  sim_obligation_id: obligation-00014
+  sim_order_id: order-00005
+  sim_event_ids:
+  - event-00631
+- id: bill-operating-00028
+  doc_number: BILL-5008
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  due_sim_day: 42
+  due_date: '2025-11-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00028
+  sim_obligation_id: obligation-00028
+  sim_order_id: null
+  sim_event_ids:
+  - event-00714
+- id: bill-utilities-00024
+  doc_number: BILL-5009
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  due_sim_day: 42
+  due_date: '2025-11-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '14.10'
+  total_amount: '14.10'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00024
+  sim_obligation_id: obligation-00024
+  sim_order_id: null
+  sim_event_ids:
+  - event-00710
+- id: bill-utilities-00025
+  doc_number: BILL-5010
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  due_sim_day: 42
+  due_date: '2025-11-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '2.82'
+  total_amount: '2.82'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00025
+  sim_obligation_id: obligation-00025
+  sim_order_id: null
+  sim_event_ids:
+  - event-00711
+- id: bill-variable-services-00026
+  doc_number: BILL-5011
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  due_sim_day: 42
+  due_date: '2025-11-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '197.40'
+  total_amount: '197.40'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00026
+  sim_obligation_id: obligation-00026
+  sim_order_id: null
+  sim_event_ids:
+  - event-00712
+- id: bill-00033
+  doc_number: BILL-5012
+  vendor_id: vend-supplier
+  vendor_name: Castellano & Sons Brewing
+  expense_kind: product
+  txn_sim_day: 45
+  txn_date: '2025-11-20'
+  due_sim_day: 75
+  due_date: '2025-12-20'
+  item_lines:
+  - line_num: 1
+    item_id: item-00001
+    item_name: Staple Case, Standard
+    description: Standard chisel-point staples, ten cartons per case.
+    quantity: 12587
+    unit_price_amount: '4.89'
+    amount: '61550.43'
+  account_lines: []
+  total_amount: '61550.43'
+  project_id: null
+  cost_category: purchase
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-00033
+  sim_obligation_id: obligation-00046
+  sim_order_id: order-00033
+  sim_event_ids:
+  - event-00844
+- id: bill-operating-00066
+  doc_number: BILL-5013
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  due_sim_day: 49
+  due_date: '2025-11-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00066
+  sim_obligation_id: obligation-00066
+  sim_order_id: null
+  sim_event_ids:
+  - event-00929
+- id: bill-utilities-00062
+  doc_number: BILL-5014
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  due_sim_day: 49
+  due_date: '2025-11-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '45.00'
+  total_amount: '45.00'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00062
+  sim_obligation_id: obligation-00062
+  sim_order_id: null
+  sim_event_ids:
+  - event-00925
+- id: bill-utilities-00063
+  doc_number: BILL-5015
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  due_sim_day: 49
+  due_date: '2025-11-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.00'
+  total_amount: '9.00'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00063
+  sim_obligation_id: obligation-00063
+  sim_order_id: null
+  sim_event_ids:
+  - event-00926
+- id: bill-variable-services-00064
+  doc_number: BILL-5016
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  due_sim_day: 49
+  due_date: '2025-11-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '624.40'
+  total_amount: '624.40'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00064
+  sim_obligation_id: obligation-00064
+  sim_order_id: null
+  sim_event_ids:
+  - event-00927
+- id: bill-operating-00099
+  doc_number: BILL-5017
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  due_sim_day: 56
+  due_date: '2025-12-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00099
+  sim_obligation_id: obligation-00099
+  sim_order_id: null
+  sim_event_ids:
+  - event-01139
+- id: bill-utilities-00095
+  doc_number: BILL-5018
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  due_sim_day: 56
+  due_date: '2025-12-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '45.00'
+  total_amount: '45.00'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00095
+  sim_obligation_id: obligation-00095
+  sim_order_id: null
+  sim_event_ids:
+  - event-01135
+- id: bill-utilities-00096
+  doc_number: BILL-5019
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  due_sim_day: 56
+  due_date: '2025-12-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.00'
+  total_amount: '9.00'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00096
+  sim_obligation_id: obligation-00096
+  sim_order_id: null
+  sim_event_ids:
+  - event-01136
+- id: bill-variable-services-00097
+  doc_number: BILL-5020
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  due_sim_day: 56
+  due_date: '2025-12-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '624.40'
+  total_amount: '624.40'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00097
+  sim_obligation_id: obligation-00097
+  sim_order_id: null
+  sim_event_ids:
+  - event-01137
+- id: bill-interest-00127
+  doc_number: BILL-5021
+  vendor_id: vend-bank
+  vendor_name: First Riverbend Bank
+  expense_kind: operating
+  txn_sim_day: 60
+  txn_date: '2025-12-05'
+  due_sim_day: 67
+  due_date: '2025-12-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '260.21'
+  total_amount: '260.21'
+  project_id: null
+  cost_category: interest
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-interest-00127
+  sim_obligation_id: obligation-00127
+  sim_order_id: null
+  sim_event_ids:
+  - event-01306
+- id: bill-operating-00143
+  doc_number: BILL-5022
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  due_sim_day: 63
+  due_date: '2025-12-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00143
+  sim_obligation_id: obligation-00143
+  sim_order_id: null
+  sim_event_ids:
+  - event-01368
+- id: bill-utilities-00139
+  doc_number: BILL-5023
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  due_sim_day: 63
+  due_date: '2025-12-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '60.00'
+  total_amount: '60.00'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00139
+  sim_obligation_id: obligation-00139
+  sim_order_id: null
+  sim_event_ids:
+  - event-01364
+- id: bill-utilities-00140
+  doc_number: BILL-5024
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  due_sim_day: 63
+  due_date: '2025-12-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '12.00'
+  total_amount: '12.00'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00140
+  sim_obligation_id: obligation-00140
+  sim_order_id: null
+  sim_event_ids:
+  - event-01365
+- id: bill-variable-services-00141
+  doc_number: BILL-5025
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  due_sim_day: 63
+  due_date: '2025-12-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '844.90'
+  total_amount: '844.90'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00141
+  sim_obligation_id: obligation-00141
+  sim_order_id: null
+  sim_event_ids:
+  - event-01366
+- id: bill-operating-00185
+  doc_number: BILL-5026
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  due_sim_day: 70
+  due_date: '2025-12-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00185
+  sim_obligation_id: obligation-00185
+  sim_order_id: null
+  sim_event_ids:
+  - event-01600
+- id: bill-utilities-00181
+  doc_number: BILL-5027
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  due_sim_day: 70
+  due_date: '2025-12-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '60.00'
+  total_amount: '60.00'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00181
+  sim_obligation_id: obligation-00181
+  sim_order_id: null
+  sim_event_ids:
+  - event-01596
+- id: bill-utilities-00182
+  doc_number: BILL-5028
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  due_sim_day: 70
+  due_date: '2025-12-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '12.00'
+  total_amount: '12.00'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00182
+  sim_obligation_id: obligation-00182
+  sim_order_id: null
+  sim_event_ids:
+  - event-01597
+- id: bill-variable-services-00183
+  doc_number: BILL-5029
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  due_sim_day: 70
+  due_date: '2025-12-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '865.64'
+  total_amount: '865.64'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00183
+  sim_obligation_id: obligation-00183
+  sim_order_id: null
+  sim_event_ids:
+  - event-01598
+- id: bill-operating-00225
+  doc_number: BILL-5030
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  due_sim_day: 77
+  due_date: '2025-12-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00225
+  sim_obligation_id: obligation-00225
+  sim_order_id: null
+  sim_event_ids:
+  - event-01843
+- id: bill-utilities-00221
+  doc_number: BILL-5031
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  due_sim_day: 77
+  due_date: '2025-12-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '52.30'
+  total_amount: '52.30'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00221
+  sim_obligation_id: obligation-00221
+  sim_order_id: null
+  sim_event_ids:
+  - event-01839
+- id: bill-utilities-00222
+  doc_number: BILL-5032
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  due_sim_day: 77
+  due_date: '2025-12-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.46'
+  total_amount: '10.46'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00222
+  sim_obligation_id: obligation-00222
+  sim_order_id: null
+  sim_event_ids:
+  - event-01840
+- id: bill-variable-services-00223
+  doc_number: BILL-5033
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  due_sim_day: 77
+  due_date: '2025-12-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '772.52'
+  total_amount: '772.52'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00223
+  sim_obligation_id: obligation-00223
+  sim_order_id: null
+  sim_event_ids:
+  - event-01841
+- id: bill-operating-00267
+  doc_number: BILL-5034
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  due_sim_day: 84
+  due_date: '2025-12-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00267
+  sim_obligation_id: obligation-00267
+  sim_order_id: null
+  sim_event_ids:
+  - event-02105
+- id: bill-utilities-00263
+  doc_number: BILL-5035
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  due_sim_day: 84
+  due_date: '2025-12-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '60.00'
+  total_amount: '60.00'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00263
+  sim_obligation_id: obligation-00263
+  sim_order_id: null
+  sim_event_ids:
+  - event-02101
+- id: bill-utilities-00264
+  doc_number: BILL-5036
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  due_sim_day: 84
+  due_date: '2025-12-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '12.00'
+  total_amount: '12.00'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00264
+  sim_obligation_id: obligation-00264
+  sim_order_id: null
+  sim_event_ids:
+  - event-02102
+- id: bill-variable-services-00265
+  doc_number: BILL-5037
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  due_sim_day: 84
+  due_date: '2025-12-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '862.17'
+  total_amount: '862.17'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00265
+  sim_obligation_id: obligation-00265
+  sim_order_id: null
+  sim_event_ids:
+  - event-02103
+- id: bill-interest-00307
+  doc_number: BILL-5038
+  vendor_id: vend-bank
+  vendor_name: First Riverbend Bank
+  expense_kind: operating
+  txn_sim_day: 90
+  txn_date: '2026-01-04'
+  due_sim_day: 97
+  due_date: '2026-01-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '554.06'
+  total_amount: '554.06'
+  project_id: null
+  cost_category: interest
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-interest-00307
+  sim_obligation_id: obligation-00307
+  sim_order_id: null
+  sim_event_ids:
+  - event-02379
+- id: bill-operating-00316
+  doc_number: BILL-5039
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  due_sim_day: 91
+  due_date: '2026-01-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00316
+  sim_obligation_id: obligation-00316
+  sim_order_id: null
+  sim_event_ids:
+  - event-02425
+- id: bill-utilities-00312
+  doc_number: BILL-5040
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  due_sim_day: 91
+  due_date: '2026-01-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '61.10'
+  total_amount: '61.10'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00312
+  sim_obligation_id: obligation-00312
+  sim_order_id: null
+  sim_event_ids:
+  - event-02421
+- id: bill-utilities-00313
+  doc_number: BILL-5041
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  due_sim_day: 91
+  due_date: '2026-01-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '12.22'
+  total_amount: '12.22'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00313
+  sim_obligation_id: obligation-00313
+  sim_order_id: null
+  sim_event_ids:
+  - event-02422
+- id: bill-variable-services-00314
+  doc_number: BILL-5042
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  due_sim_day: 91
+  due_date: '2026-01-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '902.98'
+  total_amount: '902.98'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00314
+  sim_obligation_id: obligation-00314
+  sim_order_id: null
+  sim_event_ids:
+  - event-02423
+- id: bill-operating-00361
+  doc_number: BILL-5043
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  due_sim_day: 98
+  due_date: '2026-01-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00361
+  sim_obligation_id: obligation-00361
+  sim_order_id: null
+  sim_event_ids:
+  - event-02771
+- id: bill-utilities-00357
+  doc_number: BILL-5044
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  due_sim_day: 98
+  due_date: '2026-01-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '59.90'
+  total_amount: '59.90'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00357
+  sim_obligation_id: obligation-00357
+  sim_order_id: null
+  sim_event_ids:
+  - event-02767
+- id: bill-utilities-00358
+  doc_number: BILL-5045
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  due_sim_day: 98
+  due_date: '2026-01-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '11.98'
+  total_amount: '11.98'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00358
+  sim_obligation_id: obligation-00358
+  sim_order_id: null
+  sim_event_ids:
+  - event-02768
+- id: bill-variable-services-00359
+  doc_number: BILL-5046
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  due_sim_day: 98
+  due_date: '2026-01-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '887.08'
+  total_amount: '887.08'
+  project_id: null
+  cost_category: variable_services
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00359
+  sim_obligation_id: obligation-00359
+  sim_order_id: null
+  sim_event_ids:
+  - event-02769
+- id: bill-operating-00406
+  doc_number: BILL-5047
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  due_sim_day: 105
+  due_date: '2026-01-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00406
+  sim_obligation_id: obligation-00406
+  sim_order_id: null
+  sim_event_ids:
+  - event-03144
+- id: bill-utilities-00402
+  doc_number: BILL-5048
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  due_sim_day: 105
+  due_date: '2026-01-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '52.30'
+  total_amount: '52.30'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00402
+  sim_obligation_id: obligation-00402
+  sim_order_id: null
+  sim_event_ids:
+  - event-03140
+- id: bill-utilities-00403
+  doc_number: BILL-5049
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  due_sim_day: 105
+  due_date: '2026-01-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.46'
+  total_amount: '10.46'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00403
+  sim_obligation_id: obligation-00403
+  sim_order_id: null
+  sim_event_ids:
+  - event-03141
+- id: bill-variable-services-00404
+  doc_number: BILL-5050
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  due_sim_day: 105
+  due_date: '2026-01-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '778.22'
+  total_amount: '778.22'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00404
+  sim_obligation_id: obligation-00404
+  sim_order_id: null
+  sim_event_ids:
+  - event-03142
+- id: bill-00377
+  doc_number: BILL-5051
+  vendor_id: vend-supplier
+  vendor_name: Castellano & Sons Brewing
+  expense_kind: product
+  txn_sim_day: 108
+  txn_date: '2026-01-22'
+  due_sim_day: 138
+  due_date: '2026-02-21'
+  item_lines:
+  - line_num: 1
+    item_id: item-00001
+    item_name: Staple Case, Standard
+    description: Standard chisel-point staples, ten cartons per case.
+    quantity: 14736
+    unit_price_amount: '5.18'
+    amount: '76332.48'
+  account_lines: []
+  total_amount: '76332.48'
+  project_id: null
+  cost_category: purchase
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-00377
+  sim_obligation_id: obligation-00437
+  sim_order_id: order-00377
+  sim_event_ids:
+  - event-03350
+- id: bill-operating-00454
+  doc_number: BILL-5052
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  due_sim_day: 112
+  due_date: '2026-01-26'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00454
+  sim_obligation_id: obligation-00454
+  sim_order_id: null
+  sim_event_ids:
+  - event-03525
+- id: bill-utilities-00450
+  doc_number: BILL-5053
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  due_sim_day: 112
+  due_date: '2026-01-26'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '51.50'
+  total_amount: '51.50'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00450
+  sim_obligation_id: obligation-00450
+  sim_order_id: null
+  sim_event_ids:
+  - event-03521
+- id: bill-utilities-00451
+  doc_number: BILL-5054
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  due_sim_day: 112
+  due_date: '2026-01-26'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.30'
+  total_amount: '10.30'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00451
+  sim_obligation_id: obligation-00451
+  sim_order_id: null
+  sim_event_ids:
+  - event-03522
+- id: bill-variable-services-00452
+  doc_number: BILL-5055
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  due_sim_day: 112
+  due_date: '2026-01-26'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '766.32'
+  total_amount: '766.32'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00452
+  sim_obligation_id: obligation-00452
+  sim_order_id: null
+  sim_event_ids:
+  - event-03523
+- id: bill-operating-00496
+  doc_number: BILL-5056
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  due_sim_day: 119
+  due_date: '2026-02-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00496
+  sim_obligation_id: obligation-00496
+  sim_order_id: null
+  sim_event_ids:
+  - event-03881
+- id: bill-utilities-00492
+  doc_number: BILL-5057
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  due_sim_day: 119
+  due_date: '2026-02-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '37.10'
+  total_amount: '37.10'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00492
+  sim_obligation_id: obligation-00492
+  sim_order_id: null
+  sim_event_ids:
+  - event-03877
+- id: bill-utilities-00493
+  doc_number: BILL-5058
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  due_sim_day: 119
+  due_date: '2026-02-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '7.42'
+  total_amount: '7.42'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00493
+  sim_obligation_id: obligation-00493
+  sim_order_id: null
+  sim_event_ids:
+  - event-03878
+- id: bill-variable-services-00494
+  doc_number: BILL-5059
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  due_sim_day: 119
+  due_date: '2026-02-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '552.04'
+  total_amount: '552.04'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00494
+  sim_obligation_id: obligation-00494
+  sim_order_id: null
+  sim_event_ids:
+  - event-03879
+- id: bill-interest-00502
+  doc_number: BILL-5060
+  vendor_id: vend-bank
+  vendor_name: First Riverbend Bank
+  expense_kind: operating
+  txn_sim_day: 120
+  txn_date: '2026-02-03'
+  due_sim_day: 127
+  due_date: '2026-02-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '697.35'
+  total_amount: '697.35'
+  project_id: null
+  cost_category: interest
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-interest-00502
+  sim_obligation_id: obligation-00502
+  sim_order_id: null
+  sim_event_ids:
+  - event-03961
+- id: bill-operating-00535
+  doc_number: BILL-5061
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  due_sim_day: 126
+  due_date: '2026-02-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00535
+  sim_obligation_id: obligation-00535
+  sim_order_id: null
+  sim_event_ids:
+  - event-04216
+- id: bill-utilities-00531
+  doc_number: BILL-5062
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  due_sim_day: 126
+  due_date: '2026-02-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '43.45'
+  total_amount: '43.45'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00531
+  sim_obligation_id: obligation-00531
+  sim_order_id: null
+  sim_event_ids:
+  - event-04212
+- id: bill-utilities-00532
+  doc_number: BILL-5063
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  due_sim_day: 126
+  due_date: '2026-02-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.69'
+  total_amount: '8.69'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00532
+  sim_obligation_id: obligation-00532
+  sim_order_id: null
+  sim_event_ids:
+  - event-04213
+- id: bill-variable-services-00533
+  doc_number: BILL-5064
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  due_sim_day: 126
+  due_date: '2026-02-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '657.19'
+  total_amount: '657.19'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00533
+  sim_obligation_id: obligation-00533
+  sim_order_id: null
+  sim_event_ids:
+  - event-04214
+- id: bill-operating-00574
+  doc_number: BILL-5065
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  due_sim_day: 133
+  due_date: '2026-02-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00574
+  sim_obligation_id: obligation-00574
+  sim_order_id: null
+  sim_event_ids:
+  - event-04583
+- id: bill-utilities-00570
+  doc_number: BILL-5066
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  due_sim_day: 133
+  due_date: '2026-02-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '40.40'
+  total_amount: '40.40'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00570
+  sim_obligation_id: obligation-00570
+  sim_order_id: null
+  sim_event_ids:
+  - event-04579
+- id: bill-utilities-00571
+  doc_number: BILL-5067
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  due_sim_day: 133
+  due_date: '2026-02-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.08'
+  total_amount: '8.08'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00571
+  sim_obligation_id: obligation-00571
+  sim_order_id: null
+  sim_event_ids:
+  - event-04580
+- id: bill-variable-services-00572
+  doc_number: BILL-5068
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  due_sim_day: 133
+  due_date: '2026-02-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '625.06'
+  total_amount: '625.06'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00572
+  sim_obligation_id: obligation-00572
+  sim_order_id: null
+  sim_event_ids:
+  - event-04581
+- id: bill-operating-00619
+  doc_number: BILL-5069
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  due_sim_day: 140
+  due_date: '2026-02-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00619
+  sim_obligation_id: obligation-00619
+  sim_order_id: null
+  sim_event_ids:
+  - event-04992
+- id: bill-utilities-00615
+  doc_number: BILL-5070
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  due_sim_day: 140
+  due_date: '2026-02-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '49.90'
+  total_amount: '49.90'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00615
+  sim_obligation_id: obligation-00615
+  sim_order_id: null
+  sim_event_ids:
+  - event-04988
+- id: bill-utilities-00616
+  doc_number: BILL-5071
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  due_sim_day: 140
+  due_date: '2026-02-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.98'
+  total_amount: '9.98'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00616
+  sim_obligation_id: obligation-00616
+  sim_order_id: null
+  sim_event_ids:
+  - event-04989
+- id: bill-variable-services-00617
+  doc_number: BILL-5072
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  due_sim_day: 140
+  due_date: '2026-02-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '772.05'
+  total_amount: '772.05'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00617
+  sim_obligation_id: obligation-00617
+  sim_order_id: null
+  sim_event_ids:
+  - event-04990
+- id: bill-operating-00667
+  doc_number: BILL-5073
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  due_sim_day: 147
+  due_date: '2026-03-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00667
+  sim_obligation_id: obligation-00667
+  sim_order_id: null
+  sim_event_ids:
+  - event-05377
+- id: bill-utilities-00663
+  doc_number: BILL-5074
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  due_sim_day: 147
+  due_date: '2026-03-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '47.30'
+  total_amount: '47.30'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00663
+  sim_obligation_id: obligation-00663
+  sim_order_id: null
+  sim_event_ids:
+  - event-05373
+- id: bill-utilities-00664
+  doc_number: BILL-5075
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  due_sim_day: 147
+  due_date: '2026-03-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.46'
+  total_amount: '9.46'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00664
+  sim_obligation_id: obligation-00664
+  sim_order_id: null
+  sim_event_ids:
+  - event-05374
+- id: bill-variable-services-00665
+  doc_number: BILL-5076
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  due_sim_day: 147
+  due_date: '2026-03-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '731.82'
+  total_amount: '731.82'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00665
+  sim_obligation_id: obligation-00665
+  sim_order_id: null
+  sim_event_ids:
+  - event-05375
+- id: bill-interest-00691
+  doc_number: BILL-5077
+  vendor_id: vend-bank
+  vendor_name: First Riverbend Bank
+  expense_kind: operating
+  txn_sim_day: 150
+  txn_date: '2026-03-05'
+  due_sim_day: 157
+  due_date: '2026-03-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.23'
+  total_amount: '721.23'
+  project_id: null
+  cost_category: interest
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-interest-00691
+  sim_obligation_id: obligation-00691
+  sim_order_id: null
+  sim_event_ids:
+  - event-05576
+- id: bill-operating-00708
+  doc_number: BILL-5078
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  due_sim_day: 154
+  due_date: '2026-03-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00708
+  sim_obligation_id: obligation-00708
+  sim_order_id: null
+  sim_event_ids:
+  - event-05743
+- id: bill-utilities-00704
+  doc_number: BILL-5079
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  due_sim_day: 154
+  due_date: '2026-03-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '38.45'
+  total_amount: '38.45'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00704
+  sim_obligation_id: obligation-00704
+  sim_order_id: null
+  sim_event_ids:
+  - event-05739
+- id: bill-utilities-00705
+  doc_number: BILL-5080
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  due_sim_day: 154
+  due_date: '2026-03-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '7.69'
+  total_amount: '7.69'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00705
+  sim_obligation_id: obligation-00705
+  sim_order_id: null
+  sim_event_ids:
+  - event-05740
+- id: bill-variable-services-00706
+  doc_number: BILL-5081
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  due_sim_day: 154
+  due_date: '2026-03-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '593.24'
+  total_amount: '593.24'
+  project_id: null
+  cost_category: variable_services
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00706
+  sim_obligation_id: obligation-00706
+  sim_order_id: null
+  sim_event_ids:
+  - event-05741
+- id: bill-operating-00749
+  doc_number: BILL-5082
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 161
+  due_date: '2026-03-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00749
+  sim_obligation_id: obligation-00749
+  sim_order_id: null
+  sim_event_ids:
+  - event-06118
+- id: bill-utilities-00745
+  doc_number: BILL-5083
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 161
+  due_date: '2026-03-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '46.00'
+  total_amount: '46.00'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00745
+  sim_obligation_id: obligation-00745
+  sim_order_id: null
+  sim_event_ids:
+  - event-06114
+- id: bill-utilities-00746
+  doc_number: BILL-5084
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 161
+  due_date: '2026-03-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.20'
+  total_amount: '9.20'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00746
+  sim_obligation_id: obligation-00746
+  sim_order_id: null
+  sim_event_ids:
+  - event-06115
+- id: bill-variable-services-00747
+  doc_number: BILL-5085
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 161
+  due_date: '2026-03-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '689.63'
+  total_amount: '689.63'
+  project_id: null
+  cost_category: variable_services
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00747
+  sim_obligation_id: obligation-00747
+  sim_order_id: null
+  sim_event_ids:
+  - event-06116
+- id: bill-operating-00795
+  doc_number: BILL-5086
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  due_sim_day: 168
+  due_date: '2026-03-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00795
+  sim_obligation_id: obligation-00795
+  sim_order_id: null
+  sim_event_ids:
+  - event-06489
+- id: bill-utilities-00791
+  doc_number: BILL-5087
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  due_sim_day: 168
+  due_date: '2026-03-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '42.90'
+  total_amount: '42.90'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00791
+  sim_obligation_id: obligation-00791
+  sim_order_id: null
+  sim_event_ids:
+  - event-06485
+- id: bill-utilities-00792
+  doc_number: BILL-5088
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  due_sim_day: 168
+  due_date: '2026-03-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.58'
+  total_amount: '8.58'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00792
+  sim_obligation_id: obligation-00792
+  sim_order_id: null
+  sim_event_ids:
+  - event-06486
+- id: bill-variable-services-00793
+  doc_number: BILL-5089
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  due_sim_day: 168
+  due_date: '2026-03-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '643.15'
+  total_amount: '643.15'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00793
+  sim_obligation_id: obligation-00793
+  sim_order_id: null
+  sim_event_ids:
+  - event-06487
+- id: bill-operating-00837
+  doc_number: BILL-5090
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  due_sim_day: 175
+  due_date: '2026-03-30'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00837
+  sim_obligation_id: obligation-00837
+  sim_order_id: null
+  sim_event_ids:
+  - event-06851
+- id: bill-utilities-00833
+  doc_number: BILL-5091
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  due_sim_day: 175
+  due_date: '2026-03-30'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '40.90'
+  total_amount: '40.90'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00833
+  sim_obligation_id: obligation-00833
+  sim_order_id: null
+  sim_event_ids:
+  - event-06847
+- id: bill-utilities-00834
+  doc_number: BILL-5092
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  due_sim_day: 175
+  due_date: '2026-03-30'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.18'
+  total_amount: '8.18'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00834
+  sim_obligation_id: obligation-00834
+  sim_order_id: null
+  sim_event_ids:
+  - event-06848
+- id: bill-variable-services-00835
+  doc_number: BILL-5093
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  due_sim_day: 175
+  due_date: '2026-03-30'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '613.17'
+  total_amount: '613.17'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00835
+  sim_obligation_id: obligation-00835
+  sim_order_id: null
+  sim_event_ids:
+  - event-06849
+- id: bill-interest-00873
+  doc_number: BILL-5094
+  vendor_id: vend-bank
+  vendor_name: First Riverbend Bank
+  expense_kind: operating
+  txn_sim_day: 180
+  txn_date: '2026-04-04'
+  due_sim_day: 187
+  due_date: '2026-04-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.24'
+  total_amount: '721.24'
+  project_id: null
+  cost_category: interest
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-interest-00873
+  sim_obligation_id: obligation-00873
+  sim_order_id: null
+  sim_event_ids:
+  - event-07128
+- id: bill-operating-00881
+  doc_number: BILL-5095
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  due_sim_day: 182
+  due_date: '2026-04-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00881
+  sim_obligation_id: obligation-00881
+  sim_order_id: null
+  sim_event_ids:
+  - event-07208
+- id: bill-utilities-00877
+  doc_number: BILL-5096
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  due_sim_day: 182
+  due_date: '2026-04-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '37.25'
+  total_amount: '37.25'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00877
+  sim_obligation_id: obligation-00877
+  sim_order_id: null
+  sim_event_ids:
+  - event-07204
+- id: bill-utilities-00878
+  doc_number: BILL-5097
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  due_sim_day: 182
+  due_date: '2026-04-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '7.45'
+  total_amount: '7.45'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00878
+  sim_obligation_id: obligation-00878
+  sim_order_id: null
+  sim_event_ids:
+  - event-07205
+- id: bill-variable-services-00879
+  doc_number: BILL-5098
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  due_sim_day: 182
+  due_date: '2026-04-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '558.45'
+  total_amount: '558.45'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00879
+  sim_obligation_id: obligation-00879
+  sim_order_id: null
+  sim_event_ids:
+  - event-07206
+- id: bill-operating-00926
+  doc_number: BILL-5099
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  due_sim_day: 189
+  due_date: '2026-04-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00926
+  sim_obligation_id: obligation-00926
+  sim_order_id: null
+  sim_event_ids:
+  - event-07585
+- id: bill-utilities-00922
+  doc_number: BILL-5100
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  due_sim_day: 189
+  due_date: '2026-04-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '41.90'
+  total_amount: '41.90'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00922
+  sim_obligation_id: obligation-00922
+  sim_order_id: null
+  sim_event_ids:
+  - event-07581
+- id: bill-utilities-00923
+  doc_number: BILL-5101
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  due_sim_day: 189
+  due_date: '2026-04-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.38'
+  total_amount: '8.38'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00923
+  sim_obligation_id: obligation-00923
+  sim_order_id: null
+  sim_event_ids:
+  - event-07582
+- id: bill-variable-services-00924
+  doc_number: BILL-5102
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  due_sim_day: 189
+  due_date: '2026-04-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '643.59'
+  total_amount: '643.59'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00924
+  sim_obligation_id: obligation-00924
+  sim_order_id: null
+  sim_event_ids:
+  - event-07583
+- id: bill-operating-00967
+  doc_number: BILL-5103
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  due_sim_day: 196
+  due_date: '2026-04-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-00967
+  sim_obligation_id: obligation-00967
+  sim_order_id: null
+  sim_event_ids:
+  - event-07949
+- id: bill-utilities-00963
+  doc_number: BILL-5104
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  due_sim_day: 196
+  due_date: '2026-04-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '35.45'
+  total_amount: '35.45'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00963
+  sim_obligation_id: obligation-00963
+  sim_order_id: null
+  sim_event_ids:
+  - event-07945
+- id: bill-utilities-00964
+  doc_number: BILL-5105
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  due_sim_day: 196
+  due_date: '2026-04-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '7.09'
+  total_amount: '7.09'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-00964
+  sim_obligation_id: obligation-00964
+  sim_order_id: null
+  sim_event_ids:
+  - event-07946
+- id: bill-variable-services-00965
+  doc_number: BILL-5106
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  due_sim_day: 196
+  due_date: '2026-04-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '547.34'
+  total_amount: '547.34'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-00965
+  sim_obligation_id: obligation-00965
+  sim_order_id: null
+  sim_event_ids:
+  - event-07947
+- id: bill-operating-01013
+  doc_number: BILL-5107
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  due_sim_day: 203
+  due_date: '2026-04-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01013
+  sim_obligation_id: obligation-01013
+  sim_order_id: null
+  sim_event_ids:
+  - event-08327
+- id: bill-utilities-01009
+  doc_number: BILL-5108
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  due_sim_day: 203
+  due_date: '2026-04-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '41.95'
+  total_amount: '41.95'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01009
+  sim_obligation_id: obligation-01009
+  sim_order_id: null
+  sim_event_ids:
+  - event-08323
+- id: bill-utilities-01010
+  doc_number: BILL-5109
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  due_sim_day: 203
+  due_date: '2026-04-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.39'
+  total_amount: '8.39'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01010
+  sim_obligation_id: obligation-01010
+  sim_order_id: null
+  sim_event_ids:
+  - event-08324
+- id: bill-variable-services-01011
+  doc_number: BILL-5110
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  due_sim_day: 203
+  due_date: '2026-04-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '647.70'
+  total_amount: '647.70'
+  project_id: null
+  cost_category: variable_services
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01011
+  sim_obligation_id: obligation-01011
+  sim_order_id: null
+  sim_event_ids:
+  - event-08325
+- id: bill-interest-01046
+  doc_number: BILL-5111
+  vendor_id: vend-bank
+  vendor_name: First Riverbend Bank
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 217
+  due_date: '2026-05-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.23'
+  total_amount: '721.23'
+  project_id: null
+  cost_category: interest
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-interest-01046
+  sim_obligation_id: obligation-01046
+  sim_order_id: null
+  sim_event_ids:
+  - event-08688
+- id: bill-operating-01053
+  doc_number: BILL-5112
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 210
+  due_date: '2026-05-04'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01053
+  sim_obligation_id: obligation-01053
+  sim_order_id: null
+  sim_event_ids:
+  - event-08701
+- id: bill-utilities-01049
+  doc_number: BILL-5113
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 210
+  due_date: '2026-05-04'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '36.85'
+  total_amount: '36.85'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01049
+  sim_obligation_id: obligation-01049
+  sim_order_id: null
+  sim_event_ids:
+  - event-08697
+- id: bill-utilities-01050
+  doc_number: BILL-5114
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 210
+  due_date: '2026-05-04'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '7.37'
+  total_amount: '7.37'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01050
+  sim_obligation_id: obligation-01050
+  sim_order_id: null
+  sim_event_ids:
+  - event-08698
+- id: bill-variable-services-01051
+  doc_number: BILL-5115
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 210
+  due_date: '2026-05-04'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '568.96'
+  total_amount: '568.96'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01051
+  sim_obligation_id: obligation-01051
+  sim_order_id: null
+  sim_event_ids:
+  - event-08699
+- id: bill-operating-01095
+  doc_number: BILL-5116
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  due_sim_day: 217
+  due_date: '2026-05-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01095
+  sim_obligation_id: obligation-01095
+  sim_order_id: null
+  sim_event_ids:
+  - event-09064
+- id: bill-utilities-01091
+  doc_number: BILL-5117
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  due_sim_day: 217
+  due_date: '2026-05-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '41.20'
+  total_amount: '41.20'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01091
+  sim_obligation_id: obligation-01091
+  sim_order_id: null
+  sim_event_ids:
+  - event-09060
+- id: bill-utilities-01092
+  doc_number: BILL-5118
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  due_sim_day: 217
+  due_date: '2026-05-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.24'
+  total_amount: '8.24'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01092
+  sim_obligation_id: obligation-01092
+  sim_order_id: null
+  sim_event_ids:
+  - event-09061
+- id: bill-variable-services-01093
+  doc_number: BILL-5119
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  due_sim_day: 217
+  due_date: '2026-05-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '595.85'
+  total_amount: '595.85'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01093
+  sim_obligation_id: obligation-01093
+  sim_order_id: null
+  sim_event_ids:
+  - event-09062
+- id: bill-operating-01136
+  doc_number: BILL-5120
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  due_sim_day: 224
+  due_date: '2026-05-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01136
+  sim_obligation_id: obligation-01136
+  sim_order_id: null
+  sim_event_ids:
+  - event-09436
+- id: bill-utilities-01132
+  doc_number: BILL-5121
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  due_sim_day: 224
+  due_date: '2026-05-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '44.15'
+  total_amount: '44.15'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01132
+  sim_obligation_id: obligation-01132
+  sim_order_id: null
+  sim_event_ids:
+  - event-09432
+- id: bill-utilities-01133
+  doc_number: BILL-5122
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  due_sim_day: 224
+  due_date: '2026-05-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.83'
+  total_amount: '8.83'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01133
+  sim_obligation_id: obligation-01133
+  sim_order_id: null
+  sim_event_ids:
+  - event-09433
+- id: bill-variable-services-01134
+  doc_number: BILL-5123
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  due_sim_day: 224
+  due_date: '2026-05-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '613.15'
+  total_amount: '613.15'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01134
+  sim_obligation_id: obligation-01134
+  sim_order_id: null
+  sim_event_ids:
+  - event-09434
+- id: bill-operating-01178
+  doc_number: BILL-5124
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  due_sim_day: 231
+  due_date: '2026-05-25'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01178
+  sim_obligation_id: obligation-01178
+  sim_order_id: null
+  sim_event_ids:
+  - event-09808
+- id: bill-utilities-01174
+  doc_number: BILL-5125
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  due_sim_day: 231
+  due_date: '2026-05-25'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '43.65'
+  total_amount: '43.65'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01174
+  sim_obligation_id: obligation-01174
+  sim_order_id: null
+  sim_event_ids:
+  - event-09804
+- id: bill-utilities-01175
+  doc_number: BILL-5126
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  due_sim_day: 231
+  due_date: '2026-05-25'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.73'
+  total_amount: '8.73'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01175
+  sim_obligation_id: obligation-01175
+  sim_order_id: null
+  sim_event_ids:
+  - event-09805
+- id: bill-variable-services-01176
+  doc_number: BILL-5127
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  due_sim_day: 231
+  due_date: '2026-05-25'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '606.21'
+  total_amount: '606.21'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01176
+  sim_obligation_id: obligation-01176
+  sim_order_id: null
+  sim_event_ids:
+  - event-09806
+- id: bill-operating-01221
+  doc_number: BILL-5128
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  due_sim_day: 238
+  due_date: '2026-06-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01221
+  sim_obligation_id: obligation-01221
+  sim_order_id: null
+  sim_event_ids:
+  - event-10160
+- id: bill-utilities-01217
+  doc_number: BILL-5129
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  due_sim_day: 238
+  due_date: '2026-06-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '37.50'
+  total_amount: '37.50'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01217
+  sim_obligation_id: obligation-01217
+  sim_order_id: null
+  sim_event_ids:
+  - event-10156
+- id: bill-utilities-01218
+  doc_number: BILL-5130
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  due_sim_day: 238
+  due_date: '2026-06-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '7.50'
+  total_amount: '7.50'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01218
+  sim_obligation_id: obligation-01218
+  sim_order_id: null
+  sim_event_ids:
+  - event-10157
+- id: bill-variable-services-01219
+  doc_number: BILL-5131
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  due_sim_day: 238
+  due_date: '2026-06-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '520.80'
+  total_amount: '520.80'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01219
+  sim_obligation_id: obligation-01219
+  sim_order_id: null
+  sim_event_ids:
+  - event-10158
+- id: bill-01059
+  doc_number: BILL-5132
+  vendor_id: vend-supplier
+  vendor_name: Castellano & Sons Brewing
+  expense_kind: product
+  txn_sim_day: 239
+  txn_date: '2026-06-02'
+  due_sim_day: 269
+  due_date: '2026-07-02'
+  item_lines:
+  - line_num: 1
+    item_id: item-00001
+    item_name: Staple Case, Standard
+    description: Standard chisel-point staples, ten cartons per case.
+    quantity: 10547
+    unit_price_amount: '5.38'
+    amount: '56742.86'
+  account_lines: []
+  total_amount: '56742.86'
+  project_id: null
+  cost_category: purchase
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-01059
+  sim_obligation_id: obligation-01232
+  sim_order_id: order-01059
+  sim_event_ids:
+  - event-10260
+- id: bill-interest-01241
+  doc_number: BILL-5133
+  vendor_id: vend-bank
+  vendor_name: First Riverbend Bank
+  expense_kind: operating
+  txn_sim_day: 240
+  txn_date: '2026-06-03'
+  due_sim_day: 247
+  due_date: '2026-06-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.23'
+  total_amount: '721.23'
+  project_id: null
+  cost_category: interest
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-interest-01241
+  sim_obligation_id: obligation-01241
+  sim_order_id: null
+  sim_event_ids:
+  - event-10320
+- id: bill-operating-01269
+  doc_number: BILL-5134
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  due_sim_day: 245
+  due_date: '2026-06-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01269
+  sim_obligation_id: obligation-01269
+  sim_order_id: null
+  sim_event_ids:
+  - event-10545
+- id: bill-utilities-01265
+  doc_number: BILL-5135
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  due_sim_day: 245
+  due_date: '2026-06-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '52.00'
+  total_amount: '52.00'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01265
+  sim_obligation_id: obligation-01265
+  sim_order_id: null
+  sim_event_ids:
+  - event-10541
+- id: bill-utilities-01266
+  doc_number: BILL-5136
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  due_sim_day: 245
+  due_date: '2026-06-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.40'
+  total_amount: '10.40'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01266
+  sim_obligation_id: obligation-01266
+  sim_order_id: null
+  sim_event_ids:
+  - event-10542
+- id: bill-variable-services-01267
+  doc_number: BILL-5137
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  due_sim_day: 245
+  due_date: '2026-06-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '702.41'
+  total_amount: '702.41'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01267
+  sim_obligation_id: obligation-01267
+  sim_order_id: null
+  sim_event_ids:
+  - event-10543
+- id: bill-operating-01309
+  doc_number: BILL-5138
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  due_sim_day: 252
+  due_date: '2026-06-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01309
+  sim_obligation_id: obligation-01309
+  sim_order_id: null
+  sim_event_ids:
+  - event-10922
+- id: bill-utilities-01305
+  doc_number: BILL-5139
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  due_sim_day: 252
+  due_date: '2026-06-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '52.30'
+  total_amount: '52.30'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01305
+  sim_obligation_id: obligation-01305
+  sim_order_id: null
+  sim_event_ids:
+  - event-10918
+- id: bill-utilities-01306
+  doc_number: BILL-5140
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  due_sim_day: 252
+  due_date: '2026-06-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.46'
+  total_amount: '10.46'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01306
+  sim_obligation_id: obligation-01306
+  sim_order_id: null
+  sim_event_ids:
+  - event-10919
+- id: bill-variable-services-01307
+  doc_number: BILL-5141
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  due_sim_day: 252
+  due_date: '2026-06-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '658.69'
+  total_amount: '658.69'
+  project_id: null
+  cost_category: variable_services
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01307
+  sim_obligation_id: obligation-01307
+  sim_order_id: null
+  sim_event_ids:
+  - event-10920
+- id: bill-operating-01348
+  doc_number: BILL-5142
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  due_sim_day: 259
+  due_date: '2026-06-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01348
+  sim_obligation_id: obligation-01348
+  sim_order_id: null
+  sim_event_ids:
+  - event-11275
+- id: bill-utilities-01344
+  doc_number: BILL-5143
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  due_sim_day: 259
+  due_date: '2026-06-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '44.60'
+  total_amount: '44.60'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01344
+  sim_obligation_id: obligation-01344
+  sim_order_id: null
+  sim_event_ids:
+  - event-11271
+- id: bill-utilities-01345
+  doc_number: BILL-5144
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  due_sim_day: 259
+  due_date: '2026-06-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.92'
+  total_amount: '8.92'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01345
+  sim_obligation_id: obligation-01345
+  sim_order_id: null
+  sim_event_ids:
+  - event-11272
+- id: bill-variable-services-01346
+  doc_number: BILL-5145
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  due_sim_day: 259
+  due_date: '2026-06-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '600.23'
+  total_amount: '600.23'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01346
+  sim_obligation_id: obligation-01346
+  sim_order_id: null
+  sim_event_ids:
+  - event-11273
+- id: bill-operating-01392
+  doc_number: BILL-5146
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  due_sim_day: 266
+  due_date: '2026-06-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01392
+  sim_obligation_id: obligation-01392
+  sim_order_id: null
+  sim_event_ids:
+  - event-11651
+- id: bill-utilities-01388
+  doc_number: BILL-5147
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  due_sim_day: 266
+  due_date: '2026-06-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '54.60'
+  total_amount: '54.60'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01388
+  sim_obligation_id: obligation-01388
+  sim_order_id: null
+  sim_event_ids:
+  - event-11647
+- id: bill-utilities-01389
+  doc_number: BILL-5148
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  due_sim_day: 266
+  due_date: '2026-06-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.92'
+  total_amount: '10.92'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01389
+  sim_obligation_id: obligation-01389
+  sim_order_id: null
+  sim_event_ids:
+  - event-11648
+- id: bill-variable-services-01390
+  doc_number: BILL-5149
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  due_sim_day: 266
+  due_date: '2026-06-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '709.36'
+  total_amount: '709.36'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01390
+  sim_obligation_id: obligation-01390
+  sim_order_id: null
+  sim_event_ids:
+  - event-11649
+- id: bill-interest-01422
+  doc_number: BILL-5150
+  vendor_id: vend-bank
+  vendor_name: First Riverbend Bank
+  expense_kind: operating
+  txn_sim_day: 270
+  txn_date: '2026-07-03'
+  due_sim_day: 277
+  due_date: '2026-07-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.23'
+  total_amount: '721.23'
+  project_id: null
+  cost_category: interest
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-interest-01422
+  sim_obligation_id: obligation-01422
+  sim_order_id: null
+  sim_event_ids:
+  - event-11895
+- id: bill-operating-01436
+  doc_number: BILL-5151
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  due_sim_day: 273
+  due_date: '2026-07-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01436
+  sim_obligation_id: obligation-01436
+  sim_order_id: null
+  sim_event_ids:
+  - event-12033
+- id: bill-utilities-01432
+  doc_number: BILL-5152
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  due_sim_day: 273
+  due_date: '2026-07-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '51.00'
+  total_amount: '51.00'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01432
+  sim_obligation_id: obligation-01432
+  sim_order_id: null
+  sim_event_ids:
+  - event-12029
+- id: bill-utilities-01433
+  doc_number: BILL-5153
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  due_sim_day: 273
+  due_date: '2026-07-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.20'
+  total_amount: '10.20'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01433
+  sim_obligation_id: obligation-01433
+  sim_order_id: null
+  sim_event_ids:
+  - event-12030
+- id: bill-variable-services-01434
+  doc_number: BILL-5154
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  due_sim_day: 273
+  due_date: '2026-07-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '650.24'
+  total_amount: '650.24'
+  project_id: null
+  cost_category: variable_services
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01434
+  sim_obligation_id: obligation-01434
+  sim_order_id: null
+  sim_event_ids:
+  - event-12031
+- id: bill-operating-01477
+  doc_number: BILL-5155
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  due_sim_day: 280
+  due_date: '2026-07-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01477
+  sim_obligation_id: obligation-01477
+  sim_order_id: null
+  sim_event_ids:
+  - event-12399
+- id: bill-utilities-01473
+  doc_number: BILL-5156
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  due_sim_day: 280
+  due_date: '2026-07-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '41.65'
+  total_amount: '41.65'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01473
+  sim_obligation_id: obligation-01473
+  sim_order_id: null
+  sim_event_ids:
+  - event-12395
+- id: bill-utilities-01474
+  doc_number: BILL-5157
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  due_sim_day: 280
+  due_date: '2026-07-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.33'
+  total_amount: '8.33'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01474
+  sim_obligation_id: obligation-01474
+  sim_order_id: null
+  sim_event_ids:
+  - event-12396
+- id: bill-variable-services-01475
+  doc_number: BILL-5158
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  due_sim_day: 280
+  due_date: '2026-07-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '606.72'
+  total_amount: '606.72'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01475
+  sim_obligation_id: obligation-01475
+  sim_order_id: null
+  sim_event_ids:
+  - event-12397
+- id: bill-operating-01524
+  doc_number: BILL-5159
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  due_sim_day: 287
+  due_date: '2026-07-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01524
+  sim_obligation_id: obligation-01524
+  sim_order_id: null
+  sim_event_ids:
+  - event-12778
+- id: bill-utilities-01520
+  doc_number: BILL-5160
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  due_sim_day: 287
+  due_date: '2026-07-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '50.30'
+  total_amount: '50.30'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01520
+  sim_obligation_id: obligation-01520
+  sim_order_id: null
+  sim_event_ids:
+  - event-12774
+- id: bill-utilities-01521
+  doc_number: BILL-5161
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  due_sim_day: 287
+  due_date: '2026-07-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.06'
+  total_amount: '10.06'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01521
+  sim_obligation_id: obligation-01521
+  sim_order_id: null
+  sim_event_ids:
+  - event-12775
+- id: bill-variable-services-01522
+  doc_number: BILL-5162
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  due_sim_day: 287
+  due_date: '2026-07-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '718.68'
+  total_amount: '718.68'
+  project_id: null
+  cost_category: variable_services
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01522
+  sim_obligation_id: obligation-01522
+  sim_order_id: null
+  sim_event_ids:
+  - event-12776
+- id: bill-operating-01565
+  doc_number: BILL-5163
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  due_sim_day: 294
+  due_date: '2026-07-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01565
+  sim_obligation_id: obligation-01565
+  sim_order_id: null
+  sim_event_ids:
+  - event-13157
+- id: bill-utilities-01561
+  doc_number: BILL-5164
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  due_sim_day: 294
+  due_date: '2026-07-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '47.30'
+  total_amount: '47.30'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01561
+  sim_obligation_id: obligation-01561
+  sim_order_id: null
+  sim_event_ids:
+  - event-13153
+- id: bill-utilities-01562
+  doc_number: BILL-5165
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  due_sim_day: 294
+  due_date: '2026-07-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.46'
+  total_amount: '9.46'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01562
+  sim_obligation_id: obligation-01562
+  sim_order_id: null
+  sim_event_ids:
+  - event-13154
+- id: bill-variable-services-01563
+  doc_number: BILL-5166
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  due_sim_day: 294
+  due_date: '2026-07-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '675.82'
+  total_amount: '675.82'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01563
+  sim_obligation_id: obligation-01563
+  sim_order_id: null
+  sim_event_ids:
+  - event-13155
+- id: bill-interest-01599
+  doc_number: BILL-5167
+  vendor_id: vend-bank
+  vendor_name: First Riverbend Bank
+  expense_kind: operating
+  txn_sim_day: 300
+  txn_date: '2026-08-02'
+  due_sim_day: 307
+  due_date: '2026-08-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.24'
+  total_amount: '721.24'
+  project_id: null
+  cost_category: interest
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-interest-01599
+  sim_obligation_id: obligation-01599
+  sim_order_id: null
+  sim_event_ids:
+  - event-13477
+- id: bill-operating-01607
+  doc_number: BILL-5168
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  due_sim_day: 301
+  due_date: '2026-08-03'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01607
+  sim_obligation_id: obligation-01607
+  sim_order_id: null
+  sim_event_ids:
+  - event-13512
+- id: bill-utilities-01603
+  doc_number: BILL-5169
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  due_sim_day: 301
+  due_date: '2026-08-03'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '46.10'
+  total_amount: '46.10'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01603
+  sim_obligation_id: obligation-01603
+  sim_order_id: null
+  sim_event_ids:
+  - event-13508
+- id: bill-utilities-01604
+  doc_number: BILL-5170
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  due_sim_day: 301
+  due_date: '2026-08-03'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.22'
+  total_amount: '9.22'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01604
+  sim_obligation_id: obligation-01604
+  sim_order_id: null
+  sim_event_ids:
+  - event-13509
+- id: bill-variable-services-01605
+  doc_number: BILL-5171
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  due_sim_day: 301
+  due_date: '2026-08-03'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '658.67'
+  total_amount: '658.67'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01605
+  sim_obligation_id: obligation-01605
+  sim_order_id: null
+  sim_event_ids:
+  - event-13510
+- id: bill-operating-01650
+  doc_number: BILL-5172
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  due_sim_day: 308
+  due_date: '2026-08-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01650
+  sim_obligation_id: obligation-01650
+  sim_order_id: null
+  sim_event_ids:
+  - event-13882
+- id: bill-utilities-01646
+  doc_number: BILL-5173
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  due_sim_day: 308
+  due_date: '2026-08-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '42.50'
+  total_amount: '42.50'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01646
+  sim_obligation_id: obligation-01646
+  sim_order_id: null
+  sim_event_ids:
+  - event-13878
+- id: bill-utilities-01647
+  doc_number: BILL-5174
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  due_sim_day: 308
+  due_date: '2026-08-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.50'
+  total_amount: '8.50'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01647
+  sim_obligation_id: obligation-01647
+  sim_order_id: null
+  sim_event_ids:
+  - event-13879
+- id: bill-variable-services-01648
+  doc_number: BILL-5175
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  due_sim_day: 308
+  due_date: '2026-08-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '627.26'
+  total_amount: '627.26'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01648
+  sim_obligation_id: obligation-01648
+  sim_order_id: null
+  sim_event_ids:
+  - event-13880
+- id: bill-01423
+  doc_number: BILL-5176
+  vendor_id: vend-supplier
+  vendor_name: Castellano & Sons Brewing
+  expense_kind: product
+  txn_sim_day: 313
+  txn_date: '2026-08-15'
+  due_sim_day: 343
+  due_date: '2026-09-14'
+  item_lines:
+  - line_num: 1
+    item_id: item-00001
+    item_name: Staple Case, Standard
+    description: Standard chisel-point staples, ten cartons per case.
+    quantity: 12026
+    unit_price_amount: '5.27'
+    amount: '63377.02'
+  account_lines: []
+  total_amount: '63377.02'
+  project_id: null
+  cost_category: purchase
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-01423
+  sim_obligation_id: obligation-01684
+  sim_order_id: order-01423
+  sim_event_ids:
+  - event-14156
+- id: bill-operating-01692
+  doc_number: BILL-5177
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  due_sim_day: 315
+  due_date: '2026-08-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01692
+  sim_obligation_id: obligation-01692
+  sim_order_id: null
+  sim_event_ids:
+  - event-14245
+- id: bill-utilities-01688
+  doc_number: BILL-5178
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  due_sim_day: 315
+  due_date: '2026-08-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '42.80'
+  total_amount: '42.80'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01688
+  sim_obligation_id: obligation-01688
+  sim_order_id: null
+  sim_event_ids:
+  - event-14241
+- id: bill-utilities-01689
+  doc_number: BILL-5179
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  due_sim_day: 315
+  due_date: '2026-08-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.56'
+  total_amount: '8.56'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01689
+  sim_obligation_id: obligation-01689
+  sim_order_id: null
+  sim_event_ids:
+  - event-14242
+- id: bill-variable-services-01690
+  doc_number: BILL-5180
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  due_sim_day: 315
+  due_date: '2026-08-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '640.28'
+  total_amount: '640.28'
+  project_id: null
+  cost_category: variable_services
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01690
+  sim_obligation_id: obligation-01690
+  sim_order_id: null
+  sim_event_ids:
+  - event-14243
+- id: bill-operating-01738
+  doc_number: BILL-5181
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  due_sim_day: 322
+  due_date: '2026-08-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01738
+  sim_obligation_id: obligation-01738
+  sim_order_id: null
+  sim_event_ids:
+  - event-14620
+- id: bill-utilities-01734
+  doc_number: BILL-5182
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  due_sim_day: 322
+  due_date: '2026-08-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '53.55'
+  total_amount: '53.55'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01734
+  sim_obligation_id: obligation-01734
+  sim_order_id: null
+  sim_event_ids:
+  - event-14616
+- id: bill-utilities-01735
+  doc_number: BILL-5183
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  due_sim_day: 322
+  due_date: '2026-08-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.71'
+  total_amount: '10.71'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01735
+  sim_obligation_id: obligation-01735
+  sim_order_id: null
+  sim_event_ids:
+  - event-14617
+- id: bill-variable-services-01736
+  doc_number: BILL-5184
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  due_sim_day: 322
+  due_date: '2026-08-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '782.40'
+  total_amount: '782.40'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01736
+  sim_obligation_id: obligation-01736
+  sim_order_id: null
+  sim_event_ids:
+  - event-14618
+- id: bill-operating-01775
+  doc_number: BILL-5185
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  due_sim_day: 329
+  due_date: '2026-08-31'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01775
+  sim_obligation_id: obligation-01775
+  sim_order_id: null
+  sim_event_ids:
+  - event-14979
+- id: bill-utilities-01771
+  doc_number: BILL-5186
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  due_sim_day: 329
+  due_date: '2026-08-31'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '37.90'
+  total_amount: '37.90'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01771
+  sim_obligation_id: obligation-01771
+  sim_order_id: null
+  sim_event_ids:
+  - event-14975
+- id: bill-utilities-01772
+  doc_number: BILL-5187
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  due_sim_day: 329
+  due_date: '2026-08-31'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '7.58'
+  total_amount: '7.58'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01772
+  sim_obligation_id: obligation-01772
+  sim_order_id: null
+  sim_event_ids:
+  - event-14976
+- id: bill-variable-services-01773
+  doc_number: BILL-5188
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  due_sim_day: 329
+  due_date: '2026-08-31'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '585.68'
+  total_amount: '585.68'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01773
+  sim_obligation_id: obligation-01773
+  sim_order_id: null
+  sim_event_ids:
+  - event-14977
+- id: bill-interest-01785
+  doc_number: BILL-5189
+  vendor_id: vend-bank
+  vendor_name: First Riverbend Bank
+  expense_kind: operating
+  txn_sim_day: 330
+  txn_date: '2026-09-01'
+  due_sim_day: 337
+  due_date: '2026-09-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.23'
+  total_amount: '721.23'
+  project_id: null
+  cost_category: interest
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-interest-01785
+  sim_obligation_id: obligation-01785
+  sim_order_id: null
+  sim_event_ids:
+  - event-15079
+- id: bill-operating-01821
+  doc_number: BILL-5190
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  due_sim_day: 336
+  due_date: '2026-09-07'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01821
+  sim_obligation_id: obligation-01821
+  sim_order_id: null
+  sim_event_ids:
+  - event-15369
+- id: bill-utilities-01817
+  doc_number: BILL-5191
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  due_sim_day: 336
+  due_date: '2026-09-07'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '51.35'
+  total_amount: '51.35'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01817
+  sim_obligation_id: obligation-01817
+  sim_order_id: null
+  sim_event_ids:
+  - event-15365
+- id: bill-utilities-01818
+  doc_number: BILL-5192
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  due_sim_day: 336
+  due_date: '2026-09-07'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.27'
+  total_amount: '10.27'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01818
+  sim_obligation_id: obligation-01818
+  sim_order_id: null
+  sim_event_ids:
+  - event-15366
+- id: bill-variable-services-01819
+  doc_number: BILL-5193
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  due_sim_day: 336
+  due_date: '2026-09-07'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '782.17'
+  total_amount: '782.17'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01819
+  sim_obligation_id: obligation-01819
+  sim_order_id: null
+  sim_event_ids:
+  - event-15367
+- id: bill-operating-01867
+  doc_number: BILL-5194
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  due_sim_day: 343
+  due_date: '2026-09-14'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01867
+  sim_obligation_id: obligation-01867
+  sim_order_id: null
+  sim_event_ids:
+  - event-15752
+- id: bill-utilities-01863
+  doc_number: BILL-5195
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  due_sim_day: 343
+  due_date: '2026-09-14'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '48.60'
+  total_amount: '48.60'
+  project_id: null
+  cost_category: utilities
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01863
+  sim_obligation_id: obligation-01863
+  sim_order_id: null
+  sim_event_ids:
+  - event-15748
+- id: bill-utilities-01864
+  doc_number: BILL-5196
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  due_sim_day: 343
+  due_date: '2026-09-14'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.72'
+  total_amount: '9.72'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01864
+  sim_obligation_id: obligation-01864
+  sim_order_id: null
+  sim_event_ids:
+  - event-15749
+- id: bill-variable-services-01865
+  doc_number: BILL-5197
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  due_sim_day: 343
+  due_date: '2026-09-14'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '764.38'
+  total_amount: '764.38'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01865
+  sim_obligation_id: obligation-01865
+  sim_order_id: null
+  sim_event_ids:
+  - event-15750
+- id: bill-operating-01912
+  doc_number: BILL-5198
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  due_sim_day: 350
+  due_date: '2026-09-21'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01912
+  sim_obligation_id: obligation-01912
+  sim_order_id: null
+  sim_event_ids:
+  - event-16120
+- id: bill-utilities-01908
+  doc_number: BILL-5199
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  due_sim_day: 350
+  due_date: '2026-09-21'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '46.25'
+  total_amount: '46.25'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01908
+  sim_obligation_id: obligation-01908
+  sim_order_id: null
+  sim_event_ids:
+  - event-16116
+- id: bill-utilities-01909
+  doc_number: BILL-5200
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  due_sim_day: 350
+  due_date: '2026-09-21'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '9.25'
+  total_amount: '9.25'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01909
+  sim_obligation_id: obligation-01909
+  sim_order_id: null
+  sim_event_ids:
+  - event-16117
+- id: bill-variable-services-01910
+  doc_number: BILL-5201
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  due_sim_day: 350
+  due_date: '2026-09-21'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '727.42'
+  total_amount: '727.42'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01910
+  sim_obligation_id: obligation-01910
+  sim_order_id: null
+  sim_event_ids:
+  - event-16118
+- id: bill-operating-01950
+  doc_number: BILL-5202
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  due_sim_day: 357
+  due_date: '2026-09-28'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01950
+  sim_obligation_id: obligation-01950
+  sim_order_id: null
+  sim_event_ids:
+  - event-16478
+- id: bill-utilities-01946
+  doc_number: BILL-5203
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  due_sim_day: 357
+  due_date: '2026-09-28'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '40.25'
+  total_amount: '40.25'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01946
+  sim_obligation_id: obligation-01946
+  sim_order_id: null
+  sim_event_ids:
+  - event-16474
+- id: bill-utilities-01947
+  doc_number: BILL-5204
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  due_sim_day: 357
+  due_date: '2026-09-28'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '8.05'
+  total_amount: '8.05'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01947
+  sim_obligation_id: obligation-01947
+  sim_order_id: null
+  sim_event_ids:
+  - event-16475
+- id: bill-variable-services-01948
+  doc_number: BILL-5205
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  due_sim_day: 357
+  due_date: '2026-09-28'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '633.05'
+  total_amount: '633.05'
+  project_id: null
+  cost_category: variable_services
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01948
+  sim_obligation_id: obligation-01948
+  sim_order_id: null
+  sim_event_ids:
+  - event-16476
+- id: bill-interest-01975
+  doc_number: BILL-5206
+  vendor_id: vend-bank
+  vendor_name: First Riverbend Bank
+  expense_kind: operating
+  txn_sim_day: 360
+  txn_date: '2026-10-01'
+  due_sim_day: 367
+  due_date: '2026-10-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-accrued-interest
+    account_name: Accrued Interest
+    description: Interest statement, already expensed as it accrued (interest).
+    amount: '721.23'
+  total_amount: '721.23'
+  project_id: null
+  cost_category: interest
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-interest-01975
+  sim_obligation_id: obligation-01975
+  sim_order_id: null
+  sim_event_ids:
+  - event-16683
+- id: bill-operating-01996
+  doc_number: BILL-5207
+  vendor_id: vend-landlord
+  vendor_name: Balewa Property Management
+  expense_kind: operating
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 364
+  due_date: '2026-10-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Premises, utilities and routine running costs (operating).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: operating
+  memo: Received complete against our purchase order.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-operating-01996
+  sim_obligation_id: obligation-01996
+  sim_order_id: null
+  sim_event_ids:
+  - event-16860
+- id: bill-utilities-01992
+  doc_number: BILL-5208
+  vendor_id: vend-electricity
+  vendor_name: Eastgate Water District
+  expense_kind: operating
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 364
+  due_date: '2026-10-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '54.80'
+  total_amount: '54.80'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01992
+  sim_obligation_id: obligation-01992
+  sim_order_id: null
+  sim_event_ids:
+  - event-16856
+- id: bill-utilities-01993
+  doc_number: BILL-5209
+  vendor_id: vend-water
+  vendor_name: Lanternwood Gas & Electric
+  expense_kind: operating
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 364
+  due_date: '2026-10-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '10.96'
+  total_amount: '10.96'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-utilities-01993
+  sim_obligation_id: obligation-01993
+  sim_order_id: null
+  sim_event_ids:
+  - event-16857
+- id: bill-variable-services-01994
+  doc_number: BILL-5210
+  vendor_id: vend-logistics-vendor
+  vendor_name: Sterling Fulfillment Co.
+  expense_kind: operating
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 364
+  due_date: '2026-10-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-operating-expense
+    account_name: Operating Expense
+    description: Services charged in proportion to trading (variable_services).
+    amount: '859.04'
+  total_amount: '859.04'
+  project_id: null
+  cost_category: variable_services
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-variable-services-01994
+  sim_obligation_id: obligation-01994
+  sim_order_id: null
+  sim_event_ids:
+  - event-16858
+- id: bill-permit-02003
+  doc_number: BILL-5211
+  vendor_id: vend-government
+  vendor_name: City of Kiln Hollow
+  expense_kind: operating
+  txn_sim_day: 365
+  txn_date: '2026-10-06'
+  due_sim_day: 365
+  due_date: '2026-10-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-permits
+    account_name: Taxes and Licenses
+    description: Statutory permit and licence fees (permit).
+    amount: '500.00'
+  total_amount: '500.00'
+  project_id: null
+  cost_category: permit
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:97f7ac3a0a7fd456:bill-permit-02003
+  sim_obligation_id: obligation-02003
+  sim_order_id: null
+  sim_event_ids:
+  - event-16934

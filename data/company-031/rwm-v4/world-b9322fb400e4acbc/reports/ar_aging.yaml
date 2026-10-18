@@ -1,0 +1,45 @@
+report: Accounts Receivable Aging
+company: Keystone Commercial Construction
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-b9322fb400e4acbc
+buckets:
+  current: '141085.86'
+  1-30: '104889.15'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '245975.01'
+rows:
+- document_id: minv-00031
+  party: Dovetail Clearwater Brewing
+  due_date: '2026-09-19'
+  days_past_due: 17
+  bucket: 1-30
+  balance: '3639.13'
+- document_id: minv-00032
+  party: Opal Nursery Company
+  due_date: '2026-09-27'
+  days_past_due: 9
+  bucket: 1-30
+  balance: '101250.02'
+- document_id: minv-00034
+  party: Dovetail Clearwater Brewing
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '4548.92'
+- document_id: minv-00035
+  party: Fairhaven Florals
+  due_date: '2026-10-14'
+  days_past_due: 0
+  bucket: current
+  balance: '117000.02'
+- document_id: minv-00036
+  party: Thornbury Bindery Partners
+  due_date: '2026-11-01'
+  days_past_due: 0
+  bucket: current
+  balance: '19536.92'

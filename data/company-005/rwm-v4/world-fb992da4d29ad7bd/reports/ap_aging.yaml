@@ -1,0 +1,75 @@
+report: Accounts Payable Aging
+company: Pistonhouse Auto Parts
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-fb992da4d29ad7bd
+buckets:
+  current: '79271.94'
+  1-30: '6437.62'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '85709.56'
+rows:
+- document_id: bill-operating-03703
+  party: Hollings Property Management
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '500.00'
+- document_id: bill-utilities-03699
+  party: Bellrock Water District
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '13.25'
+- document_id: bill-variable-services-03700
+  party: Lowry Nursery LLC
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '5924.37'
+- document_id: bill-permit-03720
+  party: Cedar Park Department of Revenue
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '500.00'
+- document_id: bill-03328
+  party: Castellano & Daughters Brewing
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '6854.81'
+- document_id: bill-interest-03674
+  party: Foxglove Community Bank
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '53.87'
+- document_id: bill-03340
+  party: Castellano & Daughters Brewing
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '13191.10'
+- document_id: bill-03370
+  party: Castellano & Daughters Brewing
+  due_date: '2026-10-11'
+  days_past_due: 0
+  bucket: current
+  balance: '13274.64'
+- document_id: bill-03357
+  party: Castellano & Daughters Brewing
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '9407.52'
+- document_id: bill-income-tax-03693
+  party: Cedar Park Department of Revenue
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '35990.00'

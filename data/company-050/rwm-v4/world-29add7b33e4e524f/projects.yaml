@@ -1,0 +1,108 @@
+- id: proj-00001
+  name: Landscaping for Ridgeline Orchards
+  customer_id: cust-client-1
+  customer_name: Ridgeline Orchards
+  project_kind: landscaping
+  contract_amount: '27750.00'
+  original_contract_amount: '27750.00'
+  change_orders: []
+  started_sim_day: 0
+  started_date: '2025-10-06'
+  planned_finish_sim_day: 54
+  planned_finish_date: '2025-11-29'
+  reschedules: []
+  completed_sim_day: 64
+  completed_date: '2025-12-09'
+  status: completed
+  status_history:
+  - sim_day: 0
+    date: '2025-10-06'
+    status: active
+  - sim_day: 64
+    date: '2025-12-09'
+    status: completed
+  provenance_note: sim:29add7b33e4e524f:proj-00001
+  sim_project_id: project-1
+  sim_event_ids:
+  - event-29
+- id: proj-00002
+  name: Landscaping for Fairhaven Quilting
+  customer_id: cust-client-2
+  customer_name: Fairhaven Quilting
+  project_kind: landscaping
+  contract_amount: '27089.27'
+  original_contract_amount: '27089.27'
+  change_orders: []
+  started_sim_day: 112
+  started_date: '2026-01-26'
+  planned_finish_sim_day: 165
+  planned_finish_date: '2026-03-20'
+  reschedules: []
+  completed_sim_day: 172
+  completed_date: '2026-03-27'
+  status: completed
+  status_history:
+  - sim_day: 112
+    date: '2026-01-26'
+    status: active
+  - sim_day: 172
+    date: '2026-03-27'
+    status: completed
+  provenance_note: sim:29add7b33e4e524f:proj-00002
+  sim_project_id: project-2
+  sim_event_ids:
+  - event-4202
+- id: proj-00003
+  name: Renovation for Hollyhock Supply Partners
+  customer_id: cust-client-3
+  customer_name: Hollyhock Supply Partners
+  project_kind: renovation
+  contract_amount: '122857.38'
+  original_contract_amount: '119672.52'
+  change_orders:
+  - sim_day: 213
+    date: '2026-05-07'
+    amount: '3184.86'
+  started_sim_day: 140
+  started_date: '2026-02-23'
+  planned_finish_sim_day: 266
+  planned_finish_date: '2026-06-29'
+  reschedules: []
+  completed_sim_day: 312
+  completed_date: '2026-08-14'
+  status: completed
+  status_history:
+  - sim_day: 140
+    date: '2026-02-23'
+    status: active
+  - sim_day: 312
+    date: '2026-08-14'
+    status: completed
+  provenance_note: sim:29add7b33e4e524f:proj-00003
+  sim_project_id: project-3
+  sim_event_ids:
+  - event-5401
+- id: proj-00004
+  name: Renovation for Foundry Joinery Partners
+  customer_id: cust-client-4
+  customer_name: Foundry Joinery Partners
+  project_kind: renovation
+  contract_amount: '118587.38'
+  original_contract_amount: '118587.38'
+  change_orders: []
+  started_sim_day: 336
+  started_date: '2026-09-07'
+  planned_finish_sim_day: 455
+  planned_finish_date: '2027-01-04'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: active
+  status_history:
+  - sim_day: 336
+    date: '2026-09-07'
+    status: active
+  provenance_note: sim:29add7b33e4e524f:proj-00004
+  sim_project_id: project-4
+  sim_event_ids:
+  - event-13248

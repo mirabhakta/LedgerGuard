@@ -1,0 +1,57 @@
+report: Accounts Receivable Aging
+company: Oddjob Specialty Trades & Supply
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-08b8d6446a1edf1a
+buckets:
+  current: '12686.89'
+  1-30: '345.95'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '13032.84'
+rows:
+- document_id: inv-00317
+  party: Lantern Quarry Hill Nursery
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '345.95'
+- document_id: inv-00318
+  party: Coulter & Daughters Outfitters
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '205.70'
+- document_id: inv-00319
+  party: Lanternwood Quicksilver Supply LLC
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '97.62'
+- document_id: inv-00320
+  party: Novotny & Sons Cyclery
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '13.47'
+- document_id: inv-00321
+  party: Lantern Quarry Hill Nursery
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '271.15'
+- document_id: inv-00322
+  party: Coulter & Daughters Outfitters
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '504.90'
+- document_id: minv-00014
+  party: Keystone Printworks Company
+  due_date: '2026-10-31'
+  days_past_due: 0
+  bucket: current
+  balance: '11594.05'

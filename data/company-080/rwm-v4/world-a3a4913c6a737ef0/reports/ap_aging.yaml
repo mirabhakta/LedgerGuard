@@ -1,0 +1,57 @@
+report: Accounts Payable Aging
+company: Blue Heron Bistro
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-a3a4913c6a737ef0
+buckets:
+  current: '33150.50'
+  1-30: '7085.27'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '40235.77'
+rows:
+- document_id: bill-supplies-00674
+  party: Fresh City Provisions
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '7085.27'
+- document_id: bill-supplies-00687
+  party: Fresh City Provisions
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '6740.84'
+- document_id: bill-insurance-00702
+  party: Amber Casualty & Surety
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '750.00'
+- document_id: bill-premises-00700
+  party: Jankowski Property Management
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '10714.28'
+- document_id: bill-utilities-00701
+  party: Brightwater Power & Light
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '900.00'
+- document_id: bill-supplies-00704
+  party: Fresh City Provisions
+  due_date: '2026-10-19'
+  days_past_due: 0
+  bucket: current
+  balance: '7404.23'
+- document_id: bill-income-tax-00703
+  party: City of Clearwater
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '6641.15'

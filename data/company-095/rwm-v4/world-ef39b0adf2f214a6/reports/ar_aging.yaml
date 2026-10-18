@@ -1,0 +1,39 @@
+report: Accounts Receivable Aging
+company: Clipper & Crown Barbershop
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-ef39b0adf2f214a6
+buckets:
+  current: '255.27'
+  1-30: '68.82'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '324.09'
+rows:
+- document_id: inv-00789
+  party: Lucia Pettigrew
+  due_date: '2026-10-03'
+  days_past_due: 3
+  bucket: 1-30
+  balance: '68.82'
+- document_id: inv-00804
+  party: Wendell Halvorsen
+  due_date: '2026-10-11'
+  days_past_due: 0
+  bucket: current
+  balance: '97.33'
+- document_id: inv-00805
+  party: Zeke Ulloa
+  due_date: '2026-10-11'
+  days_past_due: 0
+  bucket: current
+  balance: '66.81'
+- document_id: inv-00822
+  party: Fabian Kettleborough
+  due_date: '2026-10-16'
+  days_past_due: 0
+  bucket: current
+  balance: '91.13'

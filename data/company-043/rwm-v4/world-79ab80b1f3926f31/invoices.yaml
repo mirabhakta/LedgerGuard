@@ -1,0 +1,1218 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Northstar Thornbury Confections
+  txn_sim_day: 29
+  txn_date: '2025-11-04'
+  due_sim_day: 59
+  due_date: '2025-12-04'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '19753.84'
+    amount: '19753.84'
+  total_amount: '19753.84'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '17778.46'
+  retainage_amount: '1975.38'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Northstar Thornbury Confections.
+  provenance_note: sim:79ab80b1f3926f31:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-70
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-2
+  customer_name: Grimaldi & Daughters Roasters
+  txn_sim_day: 46
+  txn_date: '2025-11-21'
+  due_sim_day: 76
+  due_date: '2025-12-21'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5543.47'
+    amount: '5543.47'
+  total_amount: '5543.47'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '3825.00'
+  retainage_amount: '554.34'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Grimaldi & Daughters Roasters.
+  provenance_note: sim:79ab80b1f3926f31:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-130
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-1
+  customer_name: Northstar Thornbury Confections
+  txn_sim_day: 64
+  txn_date: '2025-12-09'
+  due_sim_day: 94
+  due_date: '2026-01-08'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '29630.76'
+    amount: '29630.76'
+  total_amount: '29630.76'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '1481.54'
+  retainage_amount: '2963.07'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation for Northstar Thornbury Confections.
+  provenance_note: sim:79ab80b1f3926f31:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-216
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-2
+  customer_name: Grimaldi & Daughters Roasters
+  txn_sim_day: 66
+  txn_date: '2025-12-11'
+  due_sim_day: 96
+  due_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '8869.56'
+    amount: '8869.56'
+  total_amount: '8869.56'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '886.95'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Grimaldi & Daughters Roasters.
+  provenance_note: sim:79ab80b1f3926f31:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-229
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-1
+  customer_name: Northstar Thornbury Confections
+  txn_sim_day: 88
+  txn_date: '2026-01-02'
+  due_sim_day: 118
+  due_date: '2026-02-01'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '19753.84'
+    amount: '19753.84'
+  total_amount: '19753.84'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1975.38'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation for Northstar Thornbury Confections.
+  provenance_note: sim:79ab80b1f3926f31:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-368
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-2
+  customer_name: Grimaldi & Daughters Roasters
+  txn_sim_day: 92
+  txn_date: '2026-01-06'
+  due_sim_day: 122
+  due_date: '2026-02-05'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '11086.97'
+    amount: '11086.97'
+  total_amount: '11086.97'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1108.69'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Grimaldi & Daughters Roasters.
+  provenance_note: sim:79ab80b1f3926f31:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-395
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-3
+  customer_name: Dunmore Fulfillment Inc.
+  txn_sim_day: 92
+  txn_date: '2026-01-06'
+  due_sim_day: 122
+  due_date: '2026-02-05'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '63571.42'
+    amount: '63571.42'
+  total_amount: '63571.42'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '57214.28'
+  retainage_amount: '6357.14'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Dunmore Fulfillment Inc..
+  provenance_note: sim:79ab80b1f3926f31:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-399
+- id: minv-00008
+  doc_number: INV-1008
+  customer_id: cust-client-4
+  customer_name: Pioneer Roasters & Co.
+  txn_sim_day: 108
+  txn_date: '2026-01-22'
+  due_sim_day: 138
+  due_date: '2026-02-21'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '16800.00'
+    amount: '16800.00'
+  total_amount: '16800.00'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '15120.00'
+  retainage_amount: '1680.00'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Pioneer Roasters & Co..
+  provenance_note: sim:79ab80b1f3926f31:minv-00008
+  sim_order_id: null
+  sim_obligation_id: invoice-8
+  sim_event_ids:
+  - event-497
+- id: minv-00009
+  doc_number: INV-1009
+  customer_id: cust-client-1
+  customer_name: Northstar Thornbury Confections
+  txn_sim_day: 115
+  txn_date: '2026-01-29'
+  due_sim_day: 145
+  due_date: '2026-02-28'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '23501.14'
+    amount: '23501.14'
+  total_amount: '23501.14'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2350.11'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation for Northstar Thornbury Confections.
+  provenance_note: sim:79ab80b1f3926f31:minv-00009
+  sim_order_id: null
+  sim_obligation_id: invoice-9
+  sim_event_ids:
+  - event-550
+- id: minv-00010
+  doc_number: INV-1010
+  customer_id: cust-client-5
+  customer_name: Verdant Quilting Company
+  txn_sim_day: 128
+  txn_date: '2026-02-11'
+  due_sim_day: 158
+  due_date: '2026-03-13'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4565.21'
+    amount: '4565.21'
+  total_amount: '4565.21'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '3150.00'
+  retainage_amount: '456.52'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Verdant Quilting Company.
+  provenance_note: sim:79ab80b1f3926f31:minv-00010
+  sim_order_id: null
+  sim_obligation_id: invoice-10
+  sim_event_ids:
+  - event-645
+- id: minv-00011
+  doc_number: INV-1011
+  customer_id: cust-client-4
+  customer_name: Pioneer Roasters & Co.
+  txn_sim_day: 135
+  txn_date: '2026-02-18'
+  due_sim_day: 165
+  due_date: '2026-03-20'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '25200.00'
+    amount: '25200.00'
+  total_amount: '25200.00'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '1260.00'
+  retainage_amount: '2520.00'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation for Pioneer Roasters & Co..
+  provenance_note: sim:79ab80b1f3926f31:minv-00011
+  sim_order_id: null
+  sim_obligation_id: invoice-11
+  sim_event_ids:
+  - event-702
+- id: minv-00012
+  doc_number: INV-1012
+  customer_id: cust-client-5
+  customer_name: Verdant Quilting Company
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  due_sim_day: 177
+  due_date: '2026-04-01'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '7304.34'
+    amount: '7304.34'
+  total_amount: '7304.34'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '730.43'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Verdant Quilting Company.
+  provenance_note: sim:79ab80b1f3926f31:minv-00012
+  sim_order_id: null
+  sim_obligation_id: invoice-12
+  sim_event_ids:
+  - event-804
+- id: minv-00013
+  doc_number: INV-1013
+  customer_id: cust-client-4
+  customer_name: Pioneer Roasters & Co.
+  txn_sim_day: 157
+  txn_date: '2026-03-12'
+  due_sim_day: 187
+  due_date: '2026-04-11'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '16800.00'
+    amount: '16800.00'
+  total_amount: '16800.00'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1680.00'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation for Pioneer Roasters & Co..
+  provenance_note: sim:79ab80b1f3926f31:minv-00013
+  sim_order_id: null
+  sim_obligation_id: invoice-13
+  sim_event_ids:
+  - event-906
+- id: minv-00014
+  doc_number: INV-1014
+  customer_id: cust-client-1
+  customer_name: Northstar Thornbury Confections
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 191
+  due_date: '2026-04-15'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '39507.72'
+    amount: '39507.72'
+  total_amount: '39507.72'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3950.77'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation for Northstar Thornbury Confections.
+  provenance_note: sim:79ab80b1f3926f31:minv-00014
+  sim_order_id: null
+  sim_obligation_id: invoice-14
+  sim_event_ids:
+  - event-939
+- id: minv-00015
+  doc_number: INV-1015
+  customer_id: cust-client-3
+  customer_name: Dunmore Fulfillment Inc.
+  txn_sim_day: 164
+  txn_date: '2026-03-19'
+  due_sim_day: 194
+  due_date: '2026-04-18'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '143035.71'
+    amount: '143035.71'
+  total_amount: '143035.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '9535.72'
+  retainage_amount: '14303.57'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New home for Dunmore Fulfillment Inc..
+  provenance_note: sim:79ab80b1f3926f31:minv-00015
+  sim_order_id: null
+  sim_obligation_id: invoice-15
+  sim_event_ids:
+  - event-970
+- id: minv-00016
+  doc_number: INV-1016
+  customer_id: cust-client-5
+  customer_name: Verdant Quilting Company
+  txn_sim_day: 169
+  txn_date: '2026-03-24'
+  due_sim_day: 199
+  due_date: '2026-04-23'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '9130.45'
+    amount: '9130.45'
+  total_amount: '9130.45'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '913.04'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Verdant Quilting Company.
+  provenance_note: sim:79ab80b1f3926f31:minv-00016
+  sim_order_id: null
+  sim_obligation_id: invoice-16
+  sim_event_ids:
+  - event-1007
+- id: minv-00017
+  doc_number: INV-1017
+  customer_id: cust-client-4
+  customer_name: Pioneer Roasters & Co.
+  txn_sim_day: 179
+  txn_date: '2026-04-03'
+  due_sim_day: 209
+  due_date: '2026-05-03'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '16800.00'
+    amount: '16800.00'
+  total_amount: '16800.00'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1680.00'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation for Pioneer Roasters & Co..
+  provenance_note: sim:79ab80b1f3926f31:minv-00017
+  sim_order_id: null
+  sim_obligation_id: invoice-17
+  sim_event_ids:
+  - event-1107
+- id: minv-00018
+  doc_number: INV-1018
+  customer_id: cust-client-7
+  customer_name: Grimaldi Stationers Company
+  txn_sim_day: 184
+  txn_date: '2026-04-08'
+  due_sim_day: 214
+  due_date: '2026-05-08'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5652.17'
+    amount: '5652.17'
+  total_amount: '5652.17'
+  income_account_id: acct-construction-income
+  project_id: proj-00007
+  deposit_applied_amount: '3900.00'
+  retainage_amount: '565.21'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Grimaldi Stationers Company.
+  provenance_note: sim:79ab80b1f3926f31:minv-00018
+  sim_order_id: null
+  sim_obligation_id: invoice-18
+  sim_event_ids:
+  - event-1152
+- id: minv-00019
+  doc_number: INV-1019
+  customer_id: cust-client-6
+  customer_name: Hearth Inlet Cove Toyworks
+  txn_sim_day: 185
+  txn_date: '2026-04-09'
+  due_sim_day: 215
+  due_date: '2026-05-09'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '76428.57'
+    amount: '76428.57'
+  total_amount: '76428.57'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '68785.72'
+  retainage_amount: '7642.85'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Hearth Inlet Cove Toyworks.
+  provenance_note: sim:79ab80b1f3926f31:minv-00019
+  sim_order_id: null
+  sim_obligation_id: invoice-19
+  sim_event_ids:
+  - event-1164
+- id: minv-00020
+  doc_number: INV-1020
+  customer_id: cust-client-3
+  customer_name: Dunmore Fulfillment Inc.
+  txn_sim_day: 199
+  txn_date: '2026-04-23'
+  due_sim_day: 229
+  due_date: '2026-05-23'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '63571.42'
+    amount: '63571.42'
+  total_amount: '63571.42'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '6357.14'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on New home for Dunmore Fulfillment Inc..
+  provenance_note: sim:79ab80b1f3926f31:minv-00020
+  sim_order_id: null
+  sim_obligation_id: invoice-20
+  sim_event_ids:
+  - event-1283
+- id: minv-00021
+  doc_number: INV-1021
+  customer_id: cust-client-7
+  customer_name: Grimaldi Stationers Company
+  txn_sim_day: 205
+  txn_date: '2026-04-29'
+  due_sim_day: 235
+  due_date: '2026-05-29'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '9043.47'
+    amount: '9043.47'
+  total_amount: '9043.47'
+  income_account_id: acct-construction-income
+  project_id: proj-00007
+  deposit_applied_amount: '0.00'
+  retainage_amount: '904.34'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Grimaldi Stationers Company.
+  provenance_note: sim:79ab80b1f3926f31:minv-00021
+  sim_order_id: null
+  sim_obligation_id: invoice-21
+  sim_event_ids:
+  - event-1333
+- id: minv-00022
+  doc_number: INV-1022
+  customer_id: cust-client-8
+  customer_name: Brennan Stationers Group
+  txn_sim_day: 214
+  txn_date: '2026-05-08'
+  due_sim_day: 244
+  due_date: '2026-06-07'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5760.86'
+    amount: '5760.86'
+  total_amount: '5760.86'
+  income_account_id: acct-construction-income
+  project_id: proj-00008
+  deposit_applied_amount: '3975.00'
+  retainage_amount: '576.08'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Brennan Stationers Group.
+  provenance_note: sim:79ab80b1f3926f31:minv-00022
+  sim_order_id: null
+  sim_obligation_id: invoice-22
+  sim_event_ids:
+  - event-1432
+- id: minv-00023
+  doc_number: INV-1023
+  customer_id: cust-client-4
+  customer_name: Pioneer Roasters & Co.
+  txn_sim_day: 220
+  txn_date: '2026-05-14'
+  due_sim_day: 250
+  due_date: '2026-06-13'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '39197.75'
+    amount: '39197.75'
+  total_amount: '39197.75'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3919.77'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation for Pioneer Roasters & Co..
+  provenance_note: sim:79ab80b1f3926f31:minv-00023
+  sim_order_id: null
+  sim_obligation_id: invoice-23
+  sim_event_ids:
+  - event-1480
+- id: minv-00024
+  doc_number: INV-1024
+  customer_id: cust-client-7
+  customer_name: Grimaldi Stationers Company
+  txn_sim_day: 232
+  txn_date: '2026-05-26'
+  due_sim_day: 262
+  due_date: '2026-06-25'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '11304.36'
+    amount: '11304.36'
+  total_amount: '11304.36'
+  income_account_id: acct-construction-income
+  project_id: proj-00007
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1130.43'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Grimaldi Stationers Company.
+  provenance_note: sim:79ab80b1f3926f31:minv-00024
+  sim_order_id: null
+  sim_obligation_id: invoice-24
+  sim_event_ids:
+  - event-1601
+- id: minv-00025
+  doc_number: INV-1025
+  customer_id: cust-client-3
+  customer_name: Dunmore Fulfillment Inc.
+  txn_sim_day: 233
+  txn_date: '2026-05-27'
+  due_sim_day: 263
+  due_date: '2026-06-26'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '63571.42'
+    amount: '63571.42'
+  total_amount: '63571.42'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '6357.14'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on New home for Dunmore Fulfillment Inc..
+  provenance_note: sim:79ab80b1f3926f31:minv-00025
+  sim_order_id: null
+  sim_obligation_id: invoice-25
+  sim_event_ids:
+  - event-1614
+- id: minv-00026
+  doc_number: INV-1026
+  customer_id: cust-client-8
+  customer_name: Brennan Stationers Group
+  txn_sim_day: 235
+  txn_date: '2026-05-29'
+  due_sim_day: 265
+  due_date: '2026-06-28'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '9217.39'
+    amount: '9217.39'
+  total_amount: '9217.39'
+  income_account_id: acct-construction-income
+  project_id: proj-00008
+  deposit_applied_amount: '0.00'
+  retainage_amount: '921.73'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Brennan Stationers Group.
+  provenance_note: sim:79ab80b1f3926f31:minv-00026
+  sim_order_id: null
+  sim_obligation_id: invoice-26
+  sim_event_ids:
+  - event-1641
+- id: minv-00027
+  doc_number: INV-1027
+  customer_id: cust-client-9
+  customer_name: Juniper Brewing Partners
+  txn_sim_day: 249
+  txn_date: '2026-06-12'
+  due_sim_day: 279
+  due_date: '2026-07-12'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '20676.92'
+    amount: '20676.92'
+  total_amount: '20676.92'
+  income_account_id: acct-construction-income
+  project_id: proj-00009
+  deposit_applied_amount: '18609.23'
+  retainage_amount: '2067.69'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Juniper Brewing Partners.
+  provenance_note: sim:79ab80b1f3926f31:minv-00027
+  sim_order_id: null
+  sim_obligation_id: invoice-27
+  sim_event_ids:
+  - event-1766
+- id: minv-00028
+  doc_number: INV-1028
+  customer_id: cust-client-8
+  customer_name: Brennan Stationers Group
+  txn_sim_day: 262
+  txn_date: '2026-06-25'
+  due_sim_day: 292
+  due_date: '2026-07-25'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '13574.35'
+    amount: '13574.35'
+  total_amount: '13574.35'
+  income_account_id: acct-construction-income
+  project_id: proj-00008
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1357.43'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Brennan Stationers Group.
+  provenance_note: sim:79ab80b1f3926f31:minv-00028
+  sim_order_id: null
+  sim_obligation_id: invoice-28
+  sim_event_ids:
+  - event-1894
+- id: minv-00029
+  doc_number: INV-1029
+  customer_id: cust-client-10
+  customer_name: Juniper Flats Union Brewing Inc.
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  due_sim_day: 296
+  due_date: '2026-07-29'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5217.39'
+    amount: '5217.39'
+  total_amount: '5217.39'
+  income_account_id: acct-construction-income
+  project_id: proj-00010
+  deposit_applied_amount: '3600.00'
+  retainage_amount: '521.73'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Juniper Flats Union Brewing Inc..
+  provenance_note: sim:79ab80b1f3926f31:minv-00029
+  sim_order_id: null
+  sim_obligation_id: invoice-29
+  sim_event_ids:
+  - event-1935
+- id: minv-00030
+  doc_number: INV-1030
+  customer_id: cust-client-6
+  customer_name: Hearth Inlet Cove Toyworks
+  txn_sim_day: 269
+  txn_date: '2026-07-02'
+  due_sim_day: 299
+  due_date: '2026-08-01'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '171964.28'
+    amount: '171964.28'
+  total_amount: '171964.28'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '11464.28'
+  retainage_amount: '17196.42'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New home for Hearth Inlet Cove Toyworks.
+  provenance_note: sim:79ab80b1f3926f31:minv-00030
+  sim_order_id: null
+  sim_obligation_id: invoice-30
+  sim_event_ids:
+  - event-1970
+- id: minv-00031
+  doc_number: INV-1031
+  customer_id: cust-client-9
+  customer_name: Juniper Brewing Partners
+  txn_sim_day: 282
+  txn_date: '2026-07-15'
+  due_sim_day: 312
+  due_date: '2026-08-14'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '31015.38'
+    amount: '31015.38'
+  total_amount: '31015.38'
+  income_account_id: acct-construction-income
+  project_id: proj-00009
+  deposit_applied_amount: '1550.77'
+  retainage_amount: '3101.53'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation for Juniper Brewing Partners.
+  provenance_note: sim:79ab80b1f3926f31:minv-00031
+  sim_order_id: null
+  sim_obligation_id: invoice-31
+  sim_event_ids:
+  - event-2080
+- id: minv-00032
+  doc_number: INV-1032
+  customer_id: cust-client-3
+  customer_name: Dunmore Fulfillment Inc.
+  txn_sim_day: 290
+  txn_date: '2026-07-23'
+  due_sim_day: 320
+  due_date: '2026-08-22'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '111250.03'
+    amount: '111250.03'
+  total_amount: '111250.03'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '11125.00'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on New home for Dunmore Fulfillment Inc..
+  provenance_note: sim:79ab80b1f3926f31:minv-00032
+  sim_order_id: null
+  sim_obligation_id: invoice-32
+  sim_event_ids:
+  - event-2149
+- id: minv-00033
+  doc_number: INV-1033
+  customer_id: cust-client-10
+  customer_name: Juniper Flats Union Brewing Inc.
+  txn_sim_day: 291
+  txn_date: '2026-07-24'
+  due_sim_day: 321
+  due_date: '2026-08-23'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '8347.82'
+    amount: '8347.82'
+  total_amount: '8347.82'
+  income_account_id: acct-construction-income
+  project_id: proj-00010
+  deposit_applied_amount: '0.00'
+  retainage_amount: '834.78'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Juniper Flats Union Brewing Inc..
+  provenance_note: sim:79ab80b1f3926f31:minv-00033
+  sim_order_id: null
+  sim_obligation_id: invoice-33
+  sim_event_ids:
+  - event-2176
+- id: minv-00034
+  doc_number: INV-1034
+  customer_id: cust-client-9
+  customer_name: Juniper Brewing Partners
+  txn_sim_day: 305
+  txn_date: '2026-08-07'
+  due_sim_day: 335
+  due_date: '2026-09-06'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '20676.92'
+    amount: '20676.92'
+  total_amount: '20676.92'
+  income_account_id: acct-construction-income
+  project_id: proj-00009
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2067.69'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation for Juniper Brewing Partners.
+  provenance_note: sim:79ab80b1f3926f31:minv-00034
+  sim_order_id: null
+  sim_obligation_id: invoice-34
+  sim_event_ids:
+  - event-2305
+- id: minv-00035
+  doc_number: INV-1035
+  customer_id: cust-client-6
+  customer_name: Hearth Inlet Cove Toyworks
+  txn_sim_day: 309
+  txn_date: '2026-08-11'
+  due_sim_day: 339
+  due_date: '2026-09-10'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '76428.57'
+    amount: '76428.57'
+  total_amount: '76428.57'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '0.00'
+  retainage_amount: '7642.85'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on New home for Hearth Inlet Cove Toyworks.
+  provenance_note: sim:79ab80b1f3926f31:minv-00035
+  sim_order_id: null
+  sim_obligation_id: invoice-35
+  sim_event_ids:
+  - event-2336
+- id: minv-00036
+  doc_number: INV-1036
+  customer_id: cust-client-11
+  customer_name: Yarrow Field Outfitters
+  txn_sim_day: 312
+  txn_date: '2026-08-14'
+  due_sim_day: 342
+  due_date: '2026-09-13'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '57142.85'
+    amount: '57142.85'
+  total_amount: '57142.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00011
+  deposit_applied_amount: '51428.57'
+  retainage_amount: '5714.28'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Yarrow Field Outfitters.
+  provenance_note: sim:79ab80b1f3926f31:minv-00036
+  sim_order_id: null
+  sim_obligation_id: invoice-36
+  sim_event_ids:
+  - event-2378
+- id: minv-00037
+  doc_number: INV-1037
+  customer_id: cust-client-10
+  customer_name: Juniper Flats Union Brewing Inc.
+  txn_sim_day: 316
+  txn_date: '2026-08-18'
+  due_sim_day: 346
+  due_date: '2026-09-17'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '10434.79'
+    amount: '10434.79'
+  total_amount: '10434.79'
+  income_account_id: acct-construction-income
+  project_id: proj-00010
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1043.47'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Juniper Flats Union Brewing Inc..
+  provenance_note: sim:79ab80b1f3926f31:minv-00037
+  sim_order_id: null
+  sim_obligation_id: invoice-37
+  sim_event_ids:
+  - event-2404
+- id: minv-00038
+  doc_number: INV-1038
+  customer_id: cust-client-12
+  customer_name: Vasquez & Sons Goods
+  txn_sim_day: 325
+  txn_date: '2026-08-27'
+  due_sim_day: 355
+  due_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4510.86'
+    amount: '4510.86'
+  total_amount: '4510.86'
+  income_account_id: acct-construction-income
+  project_id: proj-00012
+  deposit_applied_amount: '3112.50'
+  retainage_amount: '451.08'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Vasquez & Sons Goods.
+  provenance_note: sim:79ab80b1f3926f31:minv-00038
+  sim_order_id: null
+  sim_obligation_id: invoice-38
+  sim_event_ids:
+  - event-2496
+- id: minv-00039
+  doc_number: INV-1039
+  customer_id: cust-client-9
+  customer_name: Juniper Brewing Partners
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  due_sim_day: 359
+  due_date: '2026-09-30'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '20676.92'
+    amount: '20676.92'
+  total_amount: '20676.92'
+  income_account_id: acct-construction-income
+  project_id: proj-00009
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2067.69'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation for Juniper Brewing Partners.
+  provenance_note: sim:79ab80b1f3926f31:minv-00039
+  sim_order_id: null
+  sim_obligation_id: invoice-39
+  sim_event_ids:
+  - event-2526
+- id: minv-00040
+  doc_number: INV-1040
+  customer_id: cust-client-12
+  customer_name: Vasquez & Sons Goods
+  txn_sim_day: 345
+  txn_date: '2026-09-16'
+  due_sim_day: 375
+  due_date: '2026-10-16'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '7217.39'
+    amount: '7217.39'
+  total_amount: '7217.39'
+  income_account_id: acct-construction-income
+  project_id: proj-00012
+  deposit_applied_amount: '0.00'
+  retainage_amount: '721.73'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Vasquez & Sons Goods.
+  provenance_note: sim:79ab80b1f3926f31:minv-00040
+  sim_order_id: null
+  sim_obligation_id: invoice-40
+  sim_event_ids:
+  - event-2682
+- id: minv-00041
+  doc_number: INV-1041
+  customer_id: cust-client-6
+  customer_name: Hearth Inlet Cove Toyworks
+  txn_sim_day: 354
+  txn_date: '2026-09-25'
+  due_sim_day: 384
+  due_date: '2026-10-25'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '76428.57'
+    amount: '76428.57'
+  total_amount: '76428.57'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '0.00'
+  retainage_amount: '7642.85'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on New home for Hearth Inlet Cove Toyworks.
+  provenance_note: sim:79ab80b1f3926f31:minv-00041
+  sim_order_id: null
+  sim_obligation_id: invoice-41
+  sim_event_ids:
+  - event-2766
+- id: minv-00042
+  doc_number: INV-1042
+  customer_id: cust-client-13
+  customer_name: Sterling Eastgate Movers
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 394
+  due_date: '2026-11-04'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '15323.07'
+    amount: '15323.07'
+  total_amount: '15323.07'
+  income_account_id: acct-construction-income
+  project_id: proj-00013
+  deposit_applied_amount: '13790.77'
+  retainage_amount: '1532.30'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Sterling Eastgate Movers.
+  provenance_note: sim:79ab80b1f3926f31:minv-00042
+  sim_order_id: null
+  sim_obligation_id: invoice-42
+  sim_event_ids:
+  - event-2868

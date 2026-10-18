@@ -1,0 +1,33 @@
+report: Accounts Payable Aging
+company: Riverstage Arts Alliance
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-b3a78c1867b97746
+buckets:
+  current: '17640.37'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '17640.37'
+rows:
+- document_id: bill-insurance-00599
+  party: Grimaldi Insurance Agency
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '600.00'
+- document_id: bill-premises-00597
+  party: Novotny Holdings LLC
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '4714.28'
+- document_id: bill-program-services-00598
+  party: Community Program Services
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '12326.09'

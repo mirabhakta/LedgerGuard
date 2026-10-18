@@ -1,0 +1,114 @@
+- id: proj-00001
+  name: Kitchen refresh for Elmsworth Pottery
+  customer_id: cust-client-1
+  customer_name: Elmsworth Pottery
+  project_kind: kitchen refresh
+  contract_amount: '132049.00'
+  original_contract_amount: '128400.00'
+  change_orders:
+  - sim_day: 117
+    date: '2026-01-31'
+    amount: '3649.00'
+  started_sim_day: 28
+  started_date: '2025-11-03'
+  planned_finish_sim_day: 156
+  planned_finish_date: '2026-03-11'
+  reschedules: []
+  completed_sim_day: 192
+  completed_date: '2026-04-16'
+  status: completed
+  status_history:
+  - sim_day: 28
+    date: '2025-11-03'
+    status: active
+  - sim_day: 192
+    date: '2026-04-16'
+    status: completed
+  provenance_note: sim:bca099baf89afc8b:proj-00001
+  sim_project_id: project-1
+  sim_event_ids:
+  - event-461
+- id: proj-00002
+  name: Full kitchen remodel for Fitzgerald & Sons Removals
+  customer_id: cust-client-2
+  customer_name: Fitzgerald & Sons Removals
+  project_kind: full kitchen remodel
+  contract_amount: '436713.68'
+  original_contract_amount: '426476.87'
+  change_orders:
+  - sim_day: 169
+    date: '2026-03-24'
+    amount: '10236.81'
+  started_sim_day: 56
+  started_date: '2025-12-01'
+  planned_finish_sim_day: 256
+  planned_finish_date: '2026-06-19'
+  reschedules: []
+  completed_sim_day: 311
+  completed_date: '2026-08-13'
+  status: completed
+  status_history:
+  - sim_day: 56
+    date: '2025-12-01'
+    status: active
+  - sim_day: 311
+    date: '2026-08-13'
+    status: completed
+  provenance_note: sim:bca099baf89afc8b:proj-00002
+  sim_project_id: project-2
+  sim_event_ids:
+  - event-1067
+- id: proj-00003
+  name: Kitchen refresh for Mbeki & Sons Grocers
+  customer_id: cust-client-3
+  customer_name: Mbeki & Sons Grocers
+  project_kind: kitchen refresh
+  contract_amount: '104229.56'
+  original_contract_amount: '97290.88'
+  change_orders:
+  - sim_day: 305
+    date: '2026-08-07'
+    amount: '4158.68'
+  - sim_day: 339
+    date: '2026-09-10'
+    amount: '2780.00'
+  started_sim_day: 280
+  started_date: '2026-07-13'
+  planned_finish_sim_day: 387
+  planned_finish_date: '2026-10-28'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: active
+  status_history:
+  - sim_day: 280
+    date: '2026-07-13'
+    status: active
+  provenance_note: sim:bca099baf89afc8b:proj-00003
+  sim_project_id: project-3
+  sim_event_ids:
+  - event-6881
+- id: proj-00004
+  name: Full kitchen remodel for Espinoza Trading & Co.
+  customer_id: cust-client-4
+  customer_name: Espinoza Trading & Co.
+  project_kind: full kitchen remodel
+  contract_amount: '499603.00'
+  original_contract_amount: '499603.00'
+  change_orders: []
+  started_sim_day: 336
+  started_date: '2026-09-07'
+  planned_finish_sim_day: 560
+  planned_finish_date: '2027-04-19'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: active
+  status_history:
+  - sim_day: 336
+    date: '2026-09-07'
+    status: active
+  provenance_note: sim:bca099baf89afc8b:proj-00004
+  sim_project_id: project-4
+  sim_event_ids:
+  - event-8357

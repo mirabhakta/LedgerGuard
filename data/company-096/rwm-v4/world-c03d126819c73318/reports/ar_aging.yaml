@@ -1,0 +1,21 @@
+report: Accounts Receivable Aging
+company: Golden Hour Massage Studio
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-c03d126819c73318
+buckets:
+  current: '58.97'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '58.97'
+rows:
+- document_id: inv-00166
+  party: Joaquin Cortland
+  due_date: '2026-10-11'
+  days_past_due: 0
+  bucket: current
+  balance: '58.97'

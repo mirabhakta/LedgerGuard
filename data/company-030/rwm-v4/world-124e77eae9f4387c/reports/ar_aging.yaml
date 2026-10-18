@@ -1,0 +1,21 @@
+report: Accounts Receivable Aging
+company: Hearthworn Remodeling
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-124e77eae9f4387c
+buckets:
+  current: '0.00'
+  1-30: '212904.25'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '212904.25'
+rows:
+- document_id: minv-00018
+  party: Yarrow Field Confections Inc.
+  due_date: '2026-09-26'
+  days_past_due: 10
+  bucket: 1-30
+  balance: '212904.25'

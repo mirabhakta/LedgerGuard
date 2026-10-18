@@ -1,0 +1,57 @@
+report: Accounts Payable Aging
+company: Lotus Garden Kitchen
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-aff50d5a2d421309
+buckets:
+  current: '20854.93'
+  1-30: '3417.46'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '24272.39'
+rows:
+- document_id: bill-supplies-00380
+  party: Fresh City Provisions
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '3417.46'
+- document_id: bill-supplies-00387
+  party: Fresh City Provisions
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '4061.21'
+- document_id: bill-insurance-00396
+  party: Lindqvist Insurance Agency
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '750.00'
+- document_id: bill-premises-00394
+  party: Vasquez Property Management
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '10714.28'
+- document_id: bill-utilities-00395
+  party: Brightwater Water District
+  due_date: '2026-10-15'
+  days_past_due: 0
+  bucket: current
+  balance: '900.00'
+- document_id: bill-supplies-00398
+  party: Fresh City Provisions
+  due_date: '2026-10-19'
+  days_past_due: 0
+  bucket: current
+  balance: '3824.34'
+- document_id: bill-income-tax-00397
+  party: Harbor Point Department of Revenue
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '605.10'

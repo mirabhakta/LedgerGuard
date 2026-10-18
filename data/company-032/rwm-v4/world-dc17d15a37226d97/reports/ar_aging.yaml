@@ -1,0 +1,21 @@
+report: Accounts Receivable Aging
+company: Clapboard Lane Films
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-dc17d15a37226d97
+buckets:
+  current: '27964.28'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '27964.28'
+rows:
+- document_id: minv-00016
+  party: Hearth Cedar Park Trading
+  due_date: '2026-10-10'
+  days_past_due: 0
+  bucket: current
+  balance: '27964.28'

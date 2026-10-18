@@ -1,0 +1,2300 @@
+- id: bill-supplies-00001
+  doc_number: BILL-5001
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 7
+  txn_date: '2025-10-13'
+  due_sim_day: 21
+  due_date: '2025-10-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '3502.43'
+  total_amount: '3502.43'
+  project_id: null
+  cost_category: supplies
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00001
+  sim_obligation_id: obligation-00001
+  sim_order_id: null
+  sim_event_ids:
+  - event-00012
+- id: bill-supplies-00004
+  doc_number: BILL-5002
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  due_sim_day: 28
+  due_date: '2025-11-03'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2695.39'
+  total_amount: '2695.39'
+  project_id: null
+  cost_category: supplies
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00004
+  sim_obligation_id: obligation-00004
+  sim_order_id: null
+  sim_event_ids:
+  - event-00032
+- id: bill-supplies-00007
+  doc_number: BILL-5003
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 21
+  txn_date: '2025-10-27'
+  due_sim_day: 35
+  due_date: '2025-11-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2570.20'
+  total_amount: '2570.20'
+  project_id: null
+  cost_category: supplies
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00007
+  sim_obligation_id: obligation-00007
+  sim_order_id: null
+  sim_event_ids:
+  - event-00053
+- id: bill-supplies-00010
+  doc_number: BILL-5004
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 28
+  txn_date: '2025-11-03'
+  due_sim_day: 42
+  due_date: '2025-11-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2583.90'
+  total_amount: '2583.90'
+  project_id: null
+  cost_category: supplies
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00010
+  sim_obligation_id: obligation-00010
+  sim_order_id: null
+  sim_event_ids:
+  - event-00075
+- id: bill-insurance-00015
+  doc_number: BILL-5005
+  vendor_id: vend-insurer
+  vendor_name: Jankowski Insurance Agency
+  expense_kind: operating
+  txn_sim_day: 30
+  txn_date: '2025-11-05'
+  due_sim_day: 44
+  due_date: '2025-11-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-insurance
+    account_name: Insurance
+    description: Business and project insurance (insurance).
+    amount: '350.00'
+  total_amount: '350.00'
+  project_id: null
+  cost_category: insurance
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-insurance-00015
+  sim_obligation_id: obligation-00015
+  sim_order_id: null
+  sim_event_ids:
+  - event-00087
+- id: bill-premises-00013
+  doc_number: BILL-5006
+  vendor_id: vend-landlord
+  vendor_name: Pinecrest Commercial Properties
+  expense_kind: operating
+  txn_sim_day: 30
+  txn_date: '2025-11-05'
+  due_sim_day: 44
+  due_date: '2025-11-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-rent
+    account_name: Rent and Lease
+    description: Premises rent (premises).
+    amount: '4714.28'
+  total_amount: '4714.28'
+  project_id: null
+  cost_category: premises
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:77941a94cf053d07:bill-premises-00013
+  sim_obligation_id: obligation-00013
+  sim_order_id: null
+  sim_event_ids:
+  - event-00085
+- id: bill-utilities-00014
+  doc_number: BILL-5007
+  vendor_id: vend-utilities
+  vendor_name: Eastgate Power & Light
+  expense_kind: operating
+  txn_sim_day: 30
+  txn_date: '2025-11-05'
+  due_sim_day: 44
+  due_date: '2025-11-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '450.00'
+  total_amount: '450.00'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-utilities-00014
+  sim_obligation_id: obligation-00014
+  sim_order_id: null
+  sim_event_ids:
+  - event-00086
+- id: bill-supplies-00016
+  doc_number: BILL-5008
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 35
+  txn_date: '2025-11-10'
+  due_sim_day: 49
+  due_date: '2025-11-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2651.41'
+  total_amount: '2651.41'
+  project_id: null
+  cost_category: supplies
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00016
+  sim_obligation_id: obligation-00016
+  sim_order_id: null
+  sim_event_ids:
+  - event-00100
+- id: bill-supplies-00019
+  doc_number: BILL-5009
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  due_sim_day: 56
+  due_date: '2025-12-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2400.26'
+  total_amount: '2400.26'
+  project_id: null
+  cost_category: supplies
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00019
+  sim_obligation_id: obligation-00019
+  sim_order_id: null
+  sim_event_ids:
+  - event-00122
+- id: bill-supplies-00022
+  doc_number: BILL-5010
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  due_sim_day: 63
+  due_date: '2025-12-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2990.12'
+  total_amount: '2990.12'
+  project_id: null
+  cost_category: supplies
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00022
+  sim_obligation_id: obligation-00022
+  sim_order_id: null
+  sim_event_ids:
+  - event-00150
+- id: bill-supplies-00025
+  doc_number: BILL-5011
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  due_sim_day: 70
+  due_date: '2025-12-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '3031.15'
+  total_amount: '3031.15'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00025
+  sim_obligation_id: obligation-00025
+  sim_order_id: null
+  sim_event_ids:
+  - event-00172
+- id: bill-insurance-00030
+  doc_number: BILL-5012
+  vendor_id: vend-insurer
+  vendor_name: Jankowski Insurance Agency
+  expense_kind: operating
+  txn_sim_day: 60
+  txn_date: '2025-12-05'
+  due_sim_day: 74
+  due_date: '2025-12-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-insurance
+    account_name: Insurance
+    description: Business and project insurance (insurance).
+    amount: '350.00'
+  total_amount: '350.00'
+  project_id: null
+  cost_category: insurance
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-insurance-00030
+  sim_obligation_id: obligation-00030
+  sim_order_id: null
+  sim_event_ids:
+  - event-00189
+- id: bill-premises-00028
+  doc_number: BILL-5013
+  vendor_id: vend-landlord
+  vendor_name: Pinecrest Commercial Properties
+  expense_kind: operating
+  txn_sim_day: 60
+  txn_date: '2025-12-05'
+  due_sim_day: 74
+  due_date: '2025-12-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-rent
+    account_name: Rent and Lease
+    description: Premises rent (premises).
+    amount: '4714.28'
+  total_amount: '4714.28'
+  project_id: null
+  cost_category: premises
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-premises-00028
+  sim_obligation_id: obligation-00028
+  sim_order_id: null
+  sim_event_ids:
+  - event-00187
+- id: bill-utilities-00029
+  doc_number: BILL-5014
+  vendor_id: vend-utilities
+  vendor_name: Eastgate Power & Light
+  expense_kind: operating
+  txn_sim_day: 60
+  txn_date: '2025-12-05'
+  due_sim_day: 74
+  due_date: '2025-12-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '450.00'
+  total_amount: '450.00'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-utilities-00029
+  sim_obligation_id: obligation-00029
+  sim_order_id: null
+  sim_event_ids:
+  - event-00188
+- id: bill-supplies-00031
+  doc_number: BILL-5015
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  due_sim_day: 77
+  due_date: '2025-12-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2670.75'
+  total_amount: '2670.75'
+  project_id: null
+  cost_category: supplies
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00031
+  sim_obligation_id: obligation-00031
+  sim_order_id: null
+  sim_event_ids:
+  - event-00197
+- id: bill-supplies-00034
+  doc_number: BILL-5016
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  due_sim_day: 84
+  due_date: '2025-12-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2682.00'
+  total_amount: '2682.00'
+  project_id: null
+  cost_category: supplies
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00034
+  sim_obligation_id: obligation-00034
+  sim_order_id: null
+  sim_event_ids:
+  - event-00219
+- id: bill-supplies-00037
+  doc_number: BILL-5017
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  due_sim_day: 91
+  due_date: '2026-01-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2867.51'
+  total_amount: '2867.51'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00037
+  sim_obligation_id: obligation-00037
+  sim_order_id: null
+  sim_event_ids:
+  - event-00247
+- id: bill-supplies-00040
+  doc_number: BILL-5018
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  due_sim_day: 98
+  due_date: '2026-01-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2540.66'
+  total_amount: '2540.66'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00040
+  sim_obligation_id: obligation-00040
+  sim_order_id: null
+  sim_event_ids:
+  - event-00269
+- id: bill-insurance-00045
+  doc_number: BILL-5019
+  vendor_id: vend-insurer
+  vendor_name: Jankowski Insurance Agency
+  expense_kind: operating
+  txn_sim_day: 90
+  txn_date: '2026-01-04'
+  due_sim_day: 104
+  due_date: '2026-01-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-insurance
+    account_name: Insurance
+    description: Business and project insurance (insurance).
+    amount: '350.00'
+  total_amount: '350.00'
+  project_id: null
+  cost_category: insurance
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-insurance-00045
+  sim_obligation_id: obligation-00045
+  sim_order_id: null
+  sim_event_ids:
+  - event-00292
+- id: bill-premises-00043
+  doc_number: BILL-5020
+  vendor_id: vend-landlord
+  vendor_name: Pinecrest Commercial Properties
+  expense_kind: operating
+  txn_sim_day: 90
+  txn_date: '2026-01-04'
+  due_sim_day: 104
+  due_date: '2026-01-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-rent
+    account_name: Rent and Lease
+    description: Premises rent (premises).
+    amount: '4714.28'
+  total_amount: '4714.28'
+  project_id: null
+  cost_category: premises
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-premises-00043
+  sim_obligation_id: obligation-00043
+  sim_order_id: null
+  sim_event_ids:
+  - event-00290
+- id: bill-utilities-00044
+  doc_number: BILL-5021
+  vendor_id: vend-utilities
+  vendor_name: Eastgate Power & Light
+  expense_kind: operating
+  txn_sim_day: 90
+  txn_date: '2026-01-04'
+  due_sim_day: 104
+  due_date: '2026-01-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '450.00'
+  total_amount: '450.00'
+  project_id: null
+  cost_category: utilities
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-utilities-00044
+  sim_obligation_id: obligation-00044
+  sim_order_id: null
+  sim_event_ids:
+  - event-00291
+- id: bill-income-tax-00046
+  doc_number: BILL-5022
+  vendor_id: vend-government
+  vendor_name: Underwood County Treasurer
+  expense_kind: operating
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  due_sim_day: 121
+  due_date: '2026-02-04'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-income-tax
+    account_name: Income Tax Expense
+    description: Income tax assessed on the period (income_tax).
+    amount: '8272.97'
+  total_amount: '8272.97'
+  project_id: null
+  cost_category: income_tax
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:77941a94cf053d07:bill-income-tax-00046
+  sim_obligation_id: obligation-00046
+  sim_order_id: null
+  sim_event_ids:
+  - event-00294
+- id: bill-supplies-00047
+  doc_number: BILL-5023
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  due_sim_day: 105
+  due_date: '2026-01-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2627.73'
+  total_amount: '2627.73'
+  project_id: null
+  cost_category: supplies
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00047
+  sim_obligation_id: obligation-00047
+  sim_order_id: null
+  sim_event_ids:
+  - event-00297
+- id: bill-supplies-00050
+  doc_number: BILL-5024
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  due_sim_day: 112
+  due_date: '2026-01-26'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '3097.23'
+  total_amount: '3097.23'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00050
+  sim_obligation_id: obligation-00050
+  sim_order_id: null
+  sim_event_ids:
+  - event-00319
+- id: bill-supplies-00053
+  doc_number: BILL-5025
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  due_sim_day: 119
+  due_date: '2026-02-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '3048.19'
+  total_amount: '3048.19'
+  project_id: null
+  cost_category: supplies
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00053
+  sim_obligation_id: obligation-00053
+  sim_order_id: null
+  sim_event_ids:
+  - event-00345
+- id: bill-supplies-00056
+  doc_number: BILL-5026
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  due_sim_day: 126
+  due_date: '2026-02-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2854.26'
+  total_amount: '2854.26'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00056
+  sim_obligation_id: obligation-00056
+  sim_order_id: null
+  sim_event_ids:
+  - event-00371
+- id: bill-supplies-00059
+  doc_number: BILL-5027
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  due_sim_day: 133
+  due_date: '2026-02-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2569.29'
+  total_amount: '2569.29'
+  project_id: null
+  cost_category: supplies
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00059
+  sim_obligation_id: obligation-00059
+  sim_order_id: null
+  sim_event_ids:
+  - event-00393
+- id: bill-insurance-00064
+  doc_number: BILL-5028
+  vendor_id: vend-insurer
+  vendor_name: Jankowski Insurance Agency
+  expense_kind: operating
+  txn_sim_day: 120
+  txn_date: '2026-02-03'
+  due_sim_day: 134
+  due_date: '2026-02-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-insurance
+    account_name: Insurance
+    description: Business and project insurance (insurance).
+    amount: '350.00'
+  total_amount: '350.00'
+  project_id: null
+  cost_category: insurance
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:77941a94cf053d07:bill-insurance-00064
+  sim_obligation_id: obligation-00064
+  sim_order_id: null
+  sim_event_ids:
+  - event-00402
+- id: bill-premises-00062
+  doc_number: BILL-5029
+  vendor_id: vend-landlord
+  vendor_name: Pinecrest Commercial Properties
+  expense_kind: operating
+  txn_sim_day: 120
+  txn_date: '2026-02-03'
+  due_sim_day: 134
+  due_date: '2026-02-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-rent
+    account_name: Rent and Lease
+    description: Premises rent (premises).
+    amount: '4714.28'
+  total_amount: '4714.28'
+  project_id: null
+  cost_category: premises
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:77941a94cf053d07:bill-premises-00062
+  sim_obligation_id: obligation-00062
+  sim_order_id: null
+  sim_event_ids:
+  - event-00400
+- id: bill-utilities-00063
+  doc_number: BILL-5030
+  vendor_id: vend-utilities
+  vendor_name: Eastgate Power & Light
+  expense_kind: operating
+  txn_sim_day: 120
+  txn_date: '2026-02-03'
+  due_sim_day: 134
+  due_date: '2026-02-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '450.00'
+  total_amount: '450.00'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-utilities-00063
+  sim_obligation_id: obligation-00063
+  sim_order_id: null
+  sim_event_ids:
+  - event-00401
+- id: bill-supplies-00065
+  doc_number: BILL-5031
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  due_sim_day: 140
+  due_date: '2026-02-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2833.47'
+  total_amount: '2833.47'
+  project_id: null
+  cost_category: supplies
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00065
+  sim_obligation_id: obligation-00065
+  sim_order_id: null
+  sim_event_ids:
+  - event-00418
+- id: bill-supplies-00068
+  doc_number: BILL-5032
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  due_sim_day: 147
+  due_date: '2026-03-02'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2676.41'
+  total_amount: '2676.41'
+  project_id: null
+  cost_category: supplies
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00068
+  sim_obligation_id: obligation-00068
+  sim_order_id: null
+  sim_event_ids:
+  - event-00440
+- id: bill-supplies-00071
+  doc_number: BILL-5033
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  due_sim_day: 154
+  due_date: '2026-03-09'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2787.94'
+  total_amount: '2787.94'
+  project_id: null
+  cost_category: supplies
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00071
+  sim_obligation_id: obligation-00071
+  sim_order_id: null
+  sim_event_ids:
+  - event-00468
+- id: bill-supplies-00074
+  doc_number: BILL-5034
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  due_sim_day: 161
+  due_date: '2026-03-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2442.91'
+  total_amount: '2442.91'
+  project_id: null
+  cost_category: supplies
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00074
+  sim_obligation_id: obligation-00074
+  sim_order_id: null
+  sim_event_ids:
+  - event-00490
+- id: bill-insurance-00079
+  doc_number: BILL-5035
+  vendor_id: vend-insurer
+  vendor_name: Jankowski Insurance Agency
+  expense_kind: operating
+  txn_sim_day: 150
+  txn_date: '2026-03-05'
+  due_sim_day: 164
+  due_date: '2026-03-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-insurance
+    account_name: Insurance
+    description: Business and project insurance (insurance).
+    amount: '350.00'
+  total_amount: '350.00'
+  project_id: null
+  cost_category: insurance
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-insurance-00079
+  sim_obligation_id: obligation-00079
+  sim_order_id: null
+  sim_event_ids:
+  - event-00505
+- id: bill-premises-00077
+  doc_number: BILL-5036
+  vendor_id: vend-landlord
+  vendor_name: Pinecrest Commercial Properties
+  expense_kind: operating
+  txn_sim_day: 150
+  txn_date: '2026-03-05'
+  due_sim_day: 164
+  due_date: '2026-03-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-rent
+    account_name: Rent and Lease
+    description: Premises rent (premises).
+    amount: '4714.28'
+  total_amount: '4714.28'
+  project_id: null
+  cost_category: premises
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-premises-00077
+  sim_obligation_id: obligation-00077
+  sim_order_id: null
+  sim_event_ids:
+  - event-00503
+- id: bill-utilities-00078
+  doc_number: BILL-5037
+  vendor_id: vend-utilities
+  vendor_name: Eastgate Power & Light
+  expense_kind: operating
+  txn_sim_day: 150
+  txn_date: '2026-03-05'
+  due_sim_day: 164
+  due_date: '2026-03-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '450.00'
+  total_amount: '450.00'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-utilities-00078
+  sim_obligation_id: obligation-00078
+  sim_order_id: null
+  sim_event_ids:
+  - event-00504
+- id: bill-supplies-00080
+  doc_number: BILL-5038
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  due_sim_day: 168
+  due_date: '2026-03-23'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2408.27'
+  total_amount: '2408.27'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00080
+  sim_obligation_id: obligation-00080
+  sim_order_id: null
+  sim_event_ids:
+  - event-00515
+- id: bill-supplies-00083
+  doc_number: BILL-5039
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 175
+  due_date: '2026-03-30'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2729.29'
+  total_amount: '2729.29'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00083
+  sim_obligation_id: obligation-00083
+  sim_order_id: null
+  sim_event_ids:
+  - event-00537
+- id: bill-supplies-00086
+  doc_number: BILL-5040
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  due_sim_day: 182
+  due_date: '2026-04-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2466.04'
+  total_amount: '2466.04'
+  project_id: null
+  cost_category: supplies
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00086
+  sim_obligation_id: obligation-00086
+  sim_order_id: null
+  sim_event_ids:
+  - event-00565
+- id: bill-supplies-00089
+  doc_number: BILL-5041
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  due_sim_day: 189
+  due_date: '2026-04-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2564.03'
+  total_amount: '2564.03'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00089
+  sim_obligation_id: obligation-00089
+  sim_order_id: null
+  sim_event_ids:
+  - event-00587
+- id: bill-insurance-00094
+  doc_number: BILL-5042
+  vendor_id: vend-insurer
+  vendor_name: Jankowski Insurance Agency
+  expense_kind: operating
+  txn_sim_day: 180
+  txn_date: '2026-04-04'
+  due_sim_day: 194
+  due_date: '2026-04-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-insurance
+    account_name: Insurance
+    description: Business and project insurance (insurance).
+    amount: '350.00'
+  total_amount: '350.00'
+  project_id: null
+  cost_category: insurance
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-insurance-00094
+  sim_obligation_id: obligation-00094
+  sim_order_id: null
+  sim_event_ids:
+  - event-00608
+- id: bill-premises-00092
+  doc_number: BILL-5043
+  vendor_id: vend-landlord
+  vendor_name: Pinecrest Commercial Properties
+  expense_kind: operating
+  txn_sim_day: 180
+  txn_date: '2026-04-04'
+  due_sim_day: 194
+  due_date: '2026-04-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-rent
+    account_name: Rent and Lease
+    description: Premises rent (premises).
+    amount: '4714.28'
+  total_amount: '4714.28'
+  project_id: null
+  cost_category: premises
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-premises-00092
+  sim_obligation_id: obligation-00092
+  sim_order_id: null
+  sim_event_ids:
+  - event-00606
+- id: bill-utilities-00093
+  doc_number: BILL-5044
+  vendor_id: vend-utilities
+  vendor_name: Eastgate Power & Light
+  expense_kind: operating
+  txn_sim_day: 180
+  txn_date: '2026-04-04'
+  due_sim_day: 194
+  due_date: '2026-04-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '450.00'
+  total_amount: '450.00'
+  project_id: null
+  cost_category: utilities
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:77941a94cf053d07:bill-utilities-00093
+  sim_obligation_id: obligation-00093
+  sim_order_id: null
+  sim_event_ids:
+  - event-00607
+- id: bill-income-tax-00095
+  doc_number: BILL-5045
+  vendor_id: vend-government
+  vendor_name: Underwood County Treasurer
+  expense_kind: operating
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  due_sim_day: 212
+  due_date: '2026-05-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-income-tax
+    account_name: Income Tax Expense
+    description: Income tax assessed on the period (income_tax).
+    amount: '7551.20'
+  total_amount: '7551.20'
+  project_id: null
+  cost_category: income_tax
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:77941a94cf053d07:bill-income-tax-00095
+  sim_obligation_id: obligation-00095
+  sim_order_id: null
+  sim_event_ids:
+  - event-00612
+- id: bill-supplies-00096
+  doc_number: BILL-5046
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  due_sim_day: 196
+  due_date: '2026-04-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2190.78'
+  total_amount: '2190.78'
+  project_id: null
+  cost_category: supplies
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00096
+  sim_obligation_id: obligation-00096
+  sim_order_id: null
+  sim_event_ids:
+  - event-00615
+- id: bill-supplies-00099
+  doc_number: BILL-5047
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  due_sim_day: 203
+  due_date: '2026-04-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2511.37'
+  total_amount: '2511.37'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00099
+  sim_obligation_id: obligation-00099
+  sim_order_id: null
+  sim_event_ids:
+  - event-00637
+- id: bill-supplies-00102
+  doc_number: BILL-5048
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  due_sim_day: 210
+  due_date: '2026-05-04'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2364.00'
+  total_amount: '2364.00'
+  project_id: null
+  cost_category: supplies
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00102
+  sim_obligation_id: obligation-00102
+  sim_order_id: null
+  sim_event_ids:
+  - event-00663
+- id: bill-supplies-00105
+  doc_number: BILL-5049
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  due_sim_day: 217
+  due_date: '2026-05-11'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2612.01'
+  total_amount: '2612.01'
+  project_id: null
+  cost_category: supplies
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00105
+  sim_obligation_id: obligation-00105
+  sim_order_id: null
+  sim_event_ids:
+  - event-00689
+- id: bill-insurance-00113
+  doc_number: BILL-5050
+  vendor_id: vend-insurer
+  vendor_name: Jankowski Insurance Agency
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 224
+  due_date: '2026-05-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-insurance
+    account_name: Insurance
+    description: Business and project insurance (insurance).
+    amount: '350.00'
+  total_amount: '350.00'
+  project_id: null
+  cost_category: insurance
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-insurance-00113
+  sim_obligation_id: obligation-00113
+  sim_order_id: null
+  sim_event_ids:
+  - event-00719
+- id: bill-premises-00111
+  doc_number: BILL-5051
+  vendor_id: vend-landlord
+  vendor_name: Pinecrest Commercial Properties
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 224
+  due_date: '2026-05-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-rent
+    account_name: Rent and Lease
+    description: Premises rent (premises).
+    amount: '4714.28'
+  total_amount: '4714.28'
+  project_id: null
+  cost_category: premises
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-premises-00111
+  sim_obligation_id: obligation-00111
+  sim_order_id: null
+  sim_event_ids:
+  - event-00717
+- id: bill-supplies-00108
+  doc_number: BILL-5052
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 224
+  due_date: '2026-05-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2113.11'
+  total_amount: '2113.11'
+  project_id: null
+  cost_category: supplies
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00108
+  sim_obligation_id: obligation-00108
+  sim_order_id: null
+  sim_event_ids:
+  - event-00711
+- id: bill-utilities-00112
+  doc_number: BILL-5053
+  vendor_id: vend-utilities
+  vendor_name: Eastgate Power & Light
+  expense_kind: operating
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  due_sim_day: 224
+  due_date: '2026-05-18'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '450.00'
+  total_amount: '450.00'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-utilities-00112
+  sim_obligation_id: obligation-00112
+  sim_order_id: null
+  sim_event_ids:
+  - event-00718
+- id: bill-supplies-00114
+  doc_number: BILL-5054
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  due_sim_day: 231
+  due_date: '2026-05-25'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2153.16'
+  total_amount: '2153.16'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00114
+  sim_obligation_id: obligation-00114
+  sim_order_id: null
+  sim_event_ids:
+  - event-00736
+- id: bill-supplies-00117
+  doc_number: BILL-5055
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  due_sim_day: 238
+  due_date: '2026-06-01'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2191.26'
+  total_amount: '2191.26'
+  project_id: null
+  cost_category: supplies
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00117
+  sim_obligation_id: obligation-00117
+  sim_order_id: null
+  sim_event_ids:
+  - event-00761
+- id: bill-supplies-00120
+  doc_number: BILL-5056
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  due_sim_day: 245
+  due_date: '2026-06-08'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2162.79'
+  total_amount: '2162.79'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00120
+  sim_obligation_id: obligation-00120
+  sim_order_id: null
+  sim_event_ids:
+  - event-00786
+- id: bill-supplies-00123
+  doc_number: BILL-5057
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  due_sim_day: 252
+  due_date: '2026-06-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2346.48'
+  total_amount: '2346.48'
+  project_id: null
+  cost_category: supplies
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00123
+  sim_obligation_id: obligation-00123
+  sim_order_id: null
+  sim_event_ids:
+  - event-00808
+- id: bill-insurance-00128
+  doc_number: BILL-5058
+  vendor_id: vend-insurer
+  vendor_name: Jankowski Insurance Agency
+  expense_kind: operating
+  txn_sim_day: 240
+  txn_date: '2026-06-03'
+  due_sim_day: 254
+  due_date: '2026-06-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-insurance
+    account_name: Insurance
+    description: Business and project insurance (insurance).
+    amount: '350.00'
+  total_amount: '350.00'
+  project_id: null
+  cost_category: insurance
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-insurance-00128
+  sim_obligation_id: obligation-00128
+  sim_order_id: null
+  sim_event_ids:
+  - event-00820
+- id: bill-premises-00126
+  doc_number: BILL-5059
+  vendor_id: vend-landlord
+  vendor_name: Pinecrest Commercial Properties
+  expense_kind: operating
+  txn_sim_day: 240
+  txn_date: '2026-06-03'
+  due_sim_day: 254
+  due_date: '2026-06-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-rent
+    account_name: Rent and Lease
+    description: Premises rent (premises).
+    amount: '4714.28'
+  total_amount: '4714.28'
+  project_id: null
+  cost_category: premises
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:77941a94cf053d07:bill-premises-00126
+  sim_obligation_id: obligation-00126
+  sim_order_id: null
+  sim_event_ids:
+  - event-00818
+- id: bill-utilities-00127
+  doc_number: BILL-5060
+  vendor_id: vend-utilities
+  vendor_name: Eastgate Power & Light
+  expense_kind: operating
+  txn_sim_day: 240
+  txn_date: '2026-06-03'
+  due_sim_day: 254
+  due_date: '2026-06-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '450.00'
+  total_amount: '450.00'
+  project_id: null
+  cost_category: utilities
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-utilities-00127
+  sim_obligation_id: obligation-00127
+  sim_order_id: null
+  sim_event_ids:
+  - event-00819
+- id: bill-supplies-00129
+  doc_number: BILL-5061
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  due_sim_day: 259
+  due_date: '2026-06-22'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2132.61'
+  total_amount: '2132.61'
+  project_id: null
+  cost_category: supplies
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00129
+  sim_obligation_id: obligation-00129
+  sim_order_id: null
+  sim_event_ids:
+  - event-00833
+- id: bill-supplies-00132
+  doc_number: BILL-5062
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  due_sim_day: 266
+  due_date: '2026-06-29'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '1807.89'
+  total_amount: '1807.89'
+  project_id: null
+  cost_category: supplies
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00132
+  sim_obligation_id: obligation-00132
+  sim_order_id: null
+  sim_event_ids:
+  - event-00855
+- id: bill-supplies-00135
+  doc_number: BILL-5063
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  due_sim_day: 273
+  due_date: '2026-07-06'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2030.03'
+  total_amount: '2030.03'
+  project_id: null
+  cost_category: supplies
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00135
+  sim_obligation_id: obligation-00135
+  sim_order_id: null
+  sim_event_ids:
+  - event-00883
+- id: bill-supplies-00138
+  doc_number: BILL-5064
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  due_sim_day: 280
+  due_date: '2026-07-13'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2319.05'
+  total_amount: '2319.05'
+  project_id: null
+  cost_category: supplies
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00138
+  sim_obligation_id: obligation-00138
+  sim_order_id: null
+  sim_event_ids:
+  - event-00905
+- id: bill-insurance-00143
+  doc_number: BILL-5065
+  vendor_id: vend-insurer
+  vendor_name: Jankowski Insurance Agency
+  expense_kind: operating
+  txn_sim_day: 270
+  txn_date: '2026-07-03'
+  due_sim_day: 284
+  due_date: '2026-07-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-insurance
+    account_name: Insurance
+    description: Business and project insurance (insurance).
+    amount: '350.00'
+  total_amount: '350.00'
+  project_id: null
+  cost_category: insurance
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-insurance-00143
+  sim_obligation_id: obligation-00143
+  sim_order_id: null
+  sim_event_ids:
+  - event-00922
+- id: bill-premises-00141
+  doc_number: BILL-5066
+  vendor_id: vend-landlord
+  vendor_name: Pinecrest Commercial Properties
+  expense_kind: operating
+  txn_sim_day: 270
+  txn_date: '2026-07-03'
+  due_sim_day: 284
+  due_date: '2026-07-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-rent
+    account_name: Rent and Lease
+    description: Premises rent (premises).
+    amount: '4714.28'
+  total_amount: '4714.28'
+  project_id: null
+  cost_category: premises
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-premises-00141
+  sim_obligation_id: obligation-00141
+  sim_order_id: null
+  sim_event_ids:
+  - event-00920
+- id: bill-utilities-00142
+  doc_number: BILL-5067
+  vendor_id: vend-utilities
+  vendor_name: Eastgate Power & Light
+  expense_kind: operating
+  txn_sim_day: 270
+  txn_date: '2026-07-03'
+  due_sim_day: 284
+  due_date: '2026-07-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '450.00'
+  total_amount: '450.00'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-utilities-00142
+  sim_obligation_id: obligation-00142
+  sim_order_id: null
+  sim_event_ids:
+  - event-00921
+- id: bill-income-tax-00144
+  doc_number: BILL-5068
+  vendor_id: vend-government
+  vendor_name: Underwood County Treasurer
+  expense_kind: operating
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  due_sim_day: 303
+  due_date: '2026-08-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-income-tax
+    account_name: Income Tax Expense
+    description: Income tax assessed on the period (income_tax).
+    amount: '4936.78'
+  total_amount: '4936.78'
+  project_id: null
+  cost_category: income_tax
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-income-tax-00144
+  sim_obligation_id: obligation-00144
+  sim_order_id: null
+  sim_event_ids:
+  - event-00930
+- id: bill-supplies-00145
+  doc_number: BILL-5069
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  due_sim_day: 287
+  due_date: '2026-07-20'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2076.97'
+  total_amount: '2076.97'
+  project_id: null
+  cost_category: supplies
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00145
+  sim_obligation_id: obligation-00145
+  sim_order_id: null
+  sim_event_ids:
+  - event-00933
+- id: bill-supplies-00148
+  doc_number: BILL-5070
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  due_sim_day: 294
+  due_date: '2026-07-27'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2251.06'
+  total_amount: '2251.06'
+  project_id: null
+  cost_category: supplies
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00148
+  sim_obligation_id: obligation-00148
+  sim_order_id: null
+  sim_event_ids:
+  - event-00955
+- id: bill-supplies-00151
+  doc_number: BILL-5071
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  due_sim_day: 301
+  due_date: '2026-08-03'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2083.97'
+  total_amount: '2083.97'
+  project_id: null
+  cost_category: supplies
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00151
+  sim_obligation_id: obligation-00151
+  sim_order_id: null
+  sim_event_ids:
+  - event-00984
+- id: bill-supplies-00154
+  doc_number: BILL-5072
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  due_sim_day: 308
+  due_date: '2026-08-10'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '1968.86'
+  total_amount: '1968.86'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00154
+  sim_obligation_id: obligation-00154
+  sim_order_id: null
+  sim_event_ids:
+  - event-01007
+- id: bill-insurance-00159
+  doc_number: BILL-5073
+  vendor_id: vend-insurer
+  vendor_name: Jankowski Insurance Agency
+  expense_kind: operating
+  txn_sim_day: 300
+  txn_date: '2026-08-02'
+  due_sim_day: 314
+  due_date: '2026-08-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-insurance
+    account_name: Insurance
+    description: Business and project insurance (insurance).
+    amount: '350.00'
+  total_amount: '350.00'
+  project_id: null
+  cost_category: insurance
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-insurance-00159
+  sim_obligation_id: obligation-00159
+  sim_order_id: null
+  sim_event_ids:
+  - event-01030
+- id: bill-premises-00157
+  doc_number: BILL-5074
+  vendor_id: vend-landlord
+  vendor_name: Pinecrest Commercial Properties
+  expense_kind: operating
+  txn_sim_day: 300
+  txn_date: '2026-08-02'
+  due_sim_day: 314
+  due_date: '2026-08-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-rent
+    account_name: Rent and Lease
+    description: Premises rent (premises).
+    amount: '4714.28'
+  total_amount: '4714.28'
+  project_id: null
+  cost_category: premises
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-premises-00157
+  sim_obligation_id: obligation-00157
+  sim_order_id: null
+  sim_event_ids:
+  - event-01028
+- id: bill-utilities-00158
+  doc_number: BILL-5075
+  vendor_id: vend-utilities
+  vendor_name: Eastgate Power & Light
+  expense_kind: operating
+  txn_sim_day: 300
+  txn_date: '2026-08-02'
+  due_sim_day: 314
+  due_date: '2026-08-16'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '450.00'
+  total_amount: '450.00'
+  project_id: null
+  cost_category: utilities
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-utilities-00158
+  sim_obligation_id: obligation-00158
+  sim_order_id: null
+  sim_event_ids:
+  - event-01029
+- id: bill-supplies-00160
+  doc_number: BILL-5076
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  due_sim_day: 315
+  due_date: '2026-08-17'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2334.04'
+  total_amount: '2334.04'
+  project_id: null
+  cost_category: supplies
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00160
+  sim_obligation_id: obligation-00160
+  sim_order_id: null
+  sim_event_ids:
+  - event-01032
+- id: bill-supplies-00163
+  doc_number: BILL-5077
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  due_sim_day: 322
+  due_date: '2026-08-24'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2010.10'
+  total_amount: '2010.10'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00163
+  sim_obligation_id: obligation-00163
+  sim_order_id: null
+  sim_event_ids:
+  - event-01054
+- id: bill-supplies-00166
+  doc_number: BILL-5078
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  due_sim_day: 329
+  due_date: '2026-08-31'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2203.65'
+  total_amount: '2203.65'
+  project_id: null
+  cost_category: supplies
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00166
+  sim_obligation_id: obligation-00166
+  sim_order_id: null
+  sim_event_ids:
+  - event-01079
+- id: bill-supplies-00169
+  doc_number: BILL-5079
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  due_sim_day: 336
+  due_date: '2026-09-07'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2134.48'
+  total_amount: '2134.48'
+  project_id: null
+  cost_category: supplies
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00169
+  sim_obligation_id: obligation-00169
+  sim_order_id: null
+  sim_event_ids:
+  - event-01104
+- id: bill-supplies-00172
+  doc_number: BILL-5080
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  due_sim_day: 343
+  due_date: '2026-09-14'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2069.33'
+  total_amount: '2069.33'
+  project_id: null
+  cost_category: supplies
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00172
+  sim_obligation_id: obligation-00172
+  sim_order_id: null
+  sim_event_ids:
+  - event-01126
+- id: bill-insurance-00177
+  doc_number: BILL-5081
+  vendor_id: vend-insurer
+  vendor_name: Jankowski Insurance Agency
+  expense_kind: operating
+  txn_sim_day: 330
+  txn_date: '2026-09-01'
+  due_sim_day: 344
+  due_date: '2026-09-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-insurance
+    account_name: Insurance
+    description: Business and project insurance (insurance).
+    amount: '350.00'
+  total_amount: '350.00'
+  project_id: null
+  cost_category: insurance
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-insurance-00177
+  sim_obligation_id: obligation-00177
+  sim_order_id: null
+  sim_event_ids:
+  - event-01135
+- id: bill-premises-00175
+  doc_number: BILL-5082
+  vendor_id: vend-landlord
+  vendor_name: Pinecrest Commercial Properties
+  expense_kind: operating
+  txn_sim_day: 330
+  txn_date: '2026-09-01'
+  due_sim_day: 344
+  due_date: '2026-09-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-rent
+    account_name: Rent and Lease
+    description: Premises rent (premises).
+    amount: '4714.28'
+  total_amount: '4714.28'
+  project_id: null
+  cost_category: premises
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-premises-00175
+  sim_obligation_id: obligation-00175
+  sim_order_id: null
+  sim_event_ids:
+  - event-01133
+- id: bill-utilities-00176
+  doc_number: BILL-5083
+  vendor_id: vend-utilities
+  vendor_name: Eastgate Power & Light
+  expense_kind: operating
+  txn_sim_day: 330
+  txn_date: '2026-09-01'
+  due_sim_day: 344
+  due_date: '2026-09-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '450.00'
+  total_amount: '450.00'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-utilities-00176
+  sim_obligation_id: obligation-00176
+  sim_order_id: null
+  sim_event_ids:
+  - event-01134
+- id: bill-supplies-00178
+  doc_number: BILL-5084
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  due_sim_day: 350
+  due_date: '2026-09-21'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2263.04'
+  total_amount: '2263.04'
+  project_id: null
+  cost_category: supplies
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00178
+  sim_obligation_id: obligation-00178
+  sim_order_id: null
+  sim_event_ids:
+  - event-01151
+- id: bill-supplies-00181
+  doc_number: BILL-5085
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  due_sim_day: 357
+  due_date: '2026-09-28'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2234.04'
+  total_amount: '2234.04'
+  project_id: null
+  cost_category: supplies
+  memo: Received complete against our purchase order.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00181
+  sim_obligation_id: obligation-00181
+  sim_order_id: null
+  sim_event_ids:
+  - event-01173
+- id: bill-supplies-00184
+  doc_number: BILL-5086
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  due_sim_day: 364
+  due_date: '2026-10-05'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2110.15'
+  total_amount: '2110.15'
+  project_id: null
+  cost_category: supplies
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00184
+  sim_obligation_id: obligation-00184
+  sim_order_id: null
+  sim_event_ids:
+  - event-01201
+- id: bill-supplies-00187
+  doc_number: BILL-5087
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  due_sim_day: 371
+  due_date: '2026-10-12'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2430.25'
+  total_amount: '2430.25'
+  project_id: null
+  cost_category: supplies
+  memo: Delivery accepted with seals intact.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00187
+  sim_obligation_id: obligation-00187
+  sim_order_id: null
+  sim_event_ids:
+  - event-01223
+- id: bill-insurance-00192
+  doc_number: BILL-5088
+  vendor_id: vend-insurer
+  vendor_name: Jankowski Insurance Agency
+  expense_kind: operating
+  txn_sim_day: 360
+  txn_date: '2026-10-01'
+  due_sim_day: 374
+  due_date: '2026-10-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-insurance
+    account_name: Insurance
+    description: Business and project insurance (insurance).
+    amount: '350.00'
+  total_amount: '350.00'
+  project_id: null
+  cost_category: insurance
+  memo: Standing overhead charge for the period.
+  provenance_note: sim:77941a94cf053d07:bill-insurance-00192
+  sim_obligation_id: obligation-00192
+  sim_order_id: null
+  sim_event_ids:
+  - event-01238
+- id: bill-premises-00190
+  doc_number: BILL-5089
+  vendor_id: vend-landlord
+  vendor_name: Pinecrest Commercial Properties
+  expense_kind: operating
+  txn_sim_day: 360
+  txn_date: '2026-10-01'
+  due_sim_day: 374
+  due_date: '2026-10-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-rent
+    account_name: Rent and Lease
+    description: Premises rent (premises).
+    amount: '4714.28'
+  total_amount: '4714.28'
+  project_id: null
+  cost_category: premises
+  memo: Stock received into the warehouse and counted.
+  provenance_note: sim:77941a94cf053d07:bill-premises-00190
+  sim_obligation_id: obligation-00190
+  sim_order_id: null
+  sim_event_ids:
+  - event-01236
+- id: bill-utilities-00191
+  doc_number: BILL-5090
+  vendor_id: vend-utilities
+  vendor_name: Eastgate Power & Light
+  expense_kind: operating
+  txn_sim_day: 360
+  txn_date: '2026-10-01'
+  due_sim_day: 374
+  due_date: '2026-10-15'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-utilities
+    account_name: Utilities
+    description: Metered electricity and water (utilities).
+    amount: '450.00'
+  total_amount: '450.00'
+  project_id: null
+  cost_category: utilities
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-utilities-00191
+  sim_obligation_id: obligation-00191
+  sim_order_id: null
+  sim_event_ids:
+  - event-01237
+- id: bill-income-tax-00193
+  doc_number: BILL-5091
+  vendor_id: vend-government
+  vendor_name: Underwood County Treasurer
+  expense_kind: operating
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 394
+  due_date: '2026-11-04'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-income-tax
+    account_name: Income Tax Expense
+    description: Income tax assessed on the period (income_tax).
+    amount: '4820.72'
+  total_amount: '4820.72'
+  project_id: null
+  cost_category: income_tax
+  memo: Partial backorder noted; balance to follow separately.
+  provenance_note: sim:77941a94cf053d07:bill-income-tax-00193
+  sim_obligation_id: obligation-00193
+  sim_order_id: null
+  sim_event_ids:
+  - event-01248
+- id: bill-supplies-00194
+  doc_number: BILL-5092
+  vendor_id: vend-food-supplier
+  vendor_name: Fresh City Provisions
+  expense_kind: operating
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  due_sim_day: 378
+  due_date: '2026-10-19'
+  item_lines: []
+  account_lines:
+  - line_num: 1
+    account_id: acct-inventory
+    account_name: Inventory Asset
+    description: Goods and supplies bought for resale (supplies).
+    amount: '2520.86'
+  total_amount: '2520.86'
+  project_id: null
+  cost_category: supplies
+  memo: Monthly service charge as agreed.
+  provenance_note: sim:77941a94cf053d07:bill-supplies-00194
+  sim_obligation_id: obligation-00194
+  sim_order_id: null
+  sim_event_ids:
+  - event-01251

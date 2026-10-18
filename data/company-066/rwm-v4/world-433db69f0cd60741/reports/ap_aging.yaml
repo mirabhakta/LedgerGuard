@@ -1,0 +1,39 @@
+report: Accounts Payable Aging
+company: Garnet Row Apartments
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-433db69f0cd60741
+buckets:
+  current: '19796.57'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '19796.57'
+rows:
+- document_id: bill-insurance-00216
+  party: Inlet Cove Mutual Insurance
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '750.00'
+- document_id: bill-premises-00214
+  party: Underwood Commercial Properties
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1714.28'
+- document_id: bill-software-00215
+  party: Cloudledger Software Subscriptions
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '120.00'
+- document_id: bill-income-tax-00217
+  party: Kestrel Ridge Department of Revenue
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '17212.29'

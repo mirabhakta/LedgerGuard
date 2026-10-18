@@ -1,0 +1,39 @@
+report: Accounts Payable Aging
+company: Beacon Hill Tax & Accounting
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-063c92dced91c6a7
+buckets:
+  current: '5982.25'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '5982.25'
+rows:
+- document_id: bill-insurance-00545
+  party: Bright Casualty & Surety
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '300.00'
+- document_id: bill-premises-00543
+  party: Jarvis Holdings LLC
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '2571.42'
+- document_id: bill-software-00544
+  party: Cloudledger Software Subscriptions
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '450.00'
+- document_id: bill-income-tax-00546
+  party: City of Granite Bay
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '2660.83'

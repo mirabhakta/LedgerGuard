@@ -1,0 +1,45 @@
+report: Accounts Receivable Aging
+company: Velvet Finch Salon
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-8e463bca604bed23
+buckets:
+  current: '224.76'
+  1-30: '149.46'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '374.22'
+rows:
+- document_id: inv-00446
+  party: Nadia Fontaine
+  due_date: '2026-10-04'
+  days_past_due: 2
+  bucket: 1-30
+  balance: '64.77'
+- document_id: inv-00448
+  party: Oskar Ironside (2)
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '84.69'
+- document_id: inv-00449
+  party: Pascal Uddin
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '77.19'
+- document_id: inv-00455
+  party: Ana Grabowski
+  due_date: '2026-10-10'
+  days_past_due: 0
+  bucket: current
+  balance: '63.17'
+- document_id: inv-00465
+  party: Delphine Cortland
+  due_date: '2026-10-16'
+  days_past_due: 0
+  bucket: current
+  balance: '84.40'

@@ -1,0 +1,93 @@
+report: Accounts Payable Aging
+company: Shipwise Online Goods
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-80eb4a492be4e0f2
+buckets:
+  current: '76012.94'
+  1-30: '32446.43'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '108459.37'
+rows:
+- document_id: bill-06315
+  party: Lowry & Sons Florals
+  due_date: '2026-10-04'
+  days_past_due: 2
+  bucket: 1-30
+  balance: '11161.80'
+- document_id: bill-06353
+  party: Lowry & Sons Florals
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '7760.61'
+- document_id: bill-06354
+  party: Lowry & Sons Florals
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '12990.56'
+- document_id: bill-operating-06479
+  party: Keystone Property Group
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '500.00'
+- document_id: bill-utilities-06473
+  party: Glenmoor Water District
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '33.46'
+- document_id: bill-06370
+  party: Lowry & Sons Florals
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '7334.85'
+- document_id: bill-permit-06507
+  party: City of Havenwood
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '500.00'
+- document_id: bill-06478
+  party: Lowry & Sons Florals
+  due_date: '2026-10-10'
+  days_past_due: 0
+  bucket: current
+  balance: '12344.72'
+- document_id: bill-06455
+  party: Lowry & Sons Florals
+  due_date: '2026-10-11'
+  days_past_due: 0
+  bucket: current
+  balance: '8980.29'
+- document_id: bill-06456
+  party: Lowry & Sons Florals
+  due_date: '2026-10-11'
+  days_past_due: 0
+  bucket: current
+  balance: '8606.25'
+- document_id: bill-06477
+  party: Lowry & Sons Florals
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '14024.52'
+- document_id: bill-06541
+  party: Lowry & Sons Florals
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '7770.40'
+- document_id: bill-income-tax-06461
+  party: City of Havenwood
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '16451.91'

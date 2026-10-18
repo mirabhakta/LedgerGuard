@@ -1,0 +1,210 @@
+- id: vend-bank
+  display_name: Bellrock Community Bank
+  company_name: Bellrock Community Bank
+  contact_given_name: Ulises
+  contact_family_name: Jessup
+  email: ulises.jessup@bellrockcommunitybank.example
+  phone: (555) 813-2670
+  address:
+    line1: 3404 Anvil Court
+    city: Wichita
+    state: KS
+    postal_code: '67282'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: lender
+  joined_sim_day: 30
+  joined_date: '2025-11-05'
+  sim_actor_id: bank
+  sim_event_ids: []
+- id: vend-electricity
+  display_name: Pinecrest Power & Light
+  company_name: Pinecrest Power & Light
+  contact_given_name: Amara
+  contact_family_name: Ostrowski
+  email: amara.ostrowski@pinecrestpowerlight.example
+  phone: (555) 667-8228
+  address:
+    line1: 6050 Handcart Way
+    city: Peoria
+    state: IL
+    postal_code: '61628'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: utility
+  joined_sim_day: 42
+  joined_date: '2025-11-17'
+  sim_actor_id: electricity
+  sim_event_ids: []
+- id: vend-equipment-vendor
+  display_name: Balewa & Sons Creamery
+  company_name: Balewa & Sons Creamery
+  contact_given_name: Fenna
+  contact_family_name: Yildirim
+  email: fenna.yildirim@balewasonscreamery.example
+  phone: (555) 875-1659
+  address:
+    line1: 1732 Keelson Lane
+    city: Fresno
+    state: CA
+    postal_code: '93787'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 224
+  joined_date: '2026-05-18'
+  sim_actor_id: equipment-vendor
+  sim_event_ids: []
+- id: vend-government
+  display_name: Glenmoor County Treasurer
+  company_name: Glenmoor County Treasurer
+  contact_given_name: Malik
+  contact_family_name: Quiroga
+  email: malik.quiroga@glenmoorcountytreasurer.example
+  phone: (555) 722-4076
+  address:
+    line1: 4821 Nailhouse Lane
+    city: Greensboro
+    state: NC
+    postal_code: '27411'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: government
+  joined_sim_day: 91
+  joined_date: '2026-01-05'
+  sim_actor_id: government
+  sim_event_ids: []
+- id: vend-landlord
+  display_name: Espinoza Property Management
+  company_name: Espinoza Property Management
+  contact_given_name: Fabian
+  contact_family_name: Quiroga
+  email: fabian.quiroga@espinozapropertymanageme.example
+  phone: (555) 564-5770
+  address:
+    line1: 3096 Offcut Avenue
+    city: Duluth
+    state: MN
+    postal_code: '55809'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: premises
+  joined_sim_day: 7
+  joined_date: '2025-10-13'
+  sim_actor_id: landlord
+  sim_event_ids: []
+- id: vend-logistics-vendor
+  display_name: Eriksen Works Company
+  company_name: Eriksen Works Company
+  contact_given_name: Ingrid
+  contact_family_name: Ikeda
+  email: ingrid.ikeda@eriksenworkscompany.example
+  phone: (555) 535-6485
+  address:
+    line1: 9331 Wharfinger Lane
+    city: Pueblo
+    state: CO
+    postal_code: '81036'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 42
+  joined_date: '2025-11-17'
+  sim_actor_id: logistics-vendor
+  sim_event_ids: []
+- id: vend-maintenance-vendor
+  display_name: Foundry Printworks Group
+  company_name: Foundry Printworks Group
+  contact_given_name: Bertram
+  contact_family_name: Kirkland
+  email: bertram.kirkland@foundryprintworksgroup.example
+  phone: (555) 526-0466
+  address:
+    line1: 9595 Ledgeway Drive
+    city: Peoria
+    state: IL
+    postal_code: '61681'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 270
+  joined_date: '2026-07-03'
+  sim_actor_id: maintenance-vendor
+  sim_event_ids: []
+- id: vend-operating-vendor
+  display_name: Whitlock & Daughters Grocers
+  company_name: Whitlock & Daughters Grocers
+  contact_given_name: Amara
+  contact_family_name: Ulloa
+  email: amara.ulloa@whitlockdaughtersgrocers.example
+  phone: (555) 273-0677
+  address:
+    line1: 2188 Grommet Lane
+    city: Albany
+    state: NY
+    postal_code: '12209'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 84
+  joined_date: '2025-12-29'
+  sim_actor_id: operating-vendor
+  sim_event_ids: []
+- id: vend-supplier
+  display_name: Brightwater Fulfillment Inc.
+  company_name: Brightwater Fulfillment Inc.
+  contact_given_name: Javier
+  contact_family_name: Tokarz
+  email: javier.tokarz@brightwaterfulfillmentin.example
+  phone: (555) 352-1451
+  address:
+    line1: 2864 Jointer Road
+    city: Providence
+    state: RI
+    postal_code: 02968
+    country: United States
+    line2: null
+  payment_terms: Net 30
+  payment_terms_days: 30
+  supply_role: product
+  joined_sim_day: 36
+  joined_date: '2025-11-11'
+  sim_actor_id: supplier
+  sim_event_ids: []
+- id: vend-water
+  display_name: Harbor Point Water District
+  company_name: Harbor Point Water District
+  contact_given_name: Delphine
+  contact_family_name: Jemison
+  email: delphine.jemison@harborpointwaterdistrict.example
+  phone: (555) 104-6106
+  address:
+    line1: 2357 Palletier Drive
+    city: Mobile
+    state: AL
+    postal_code: '36621'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: utility
+  joined_sim_day: 42
+  joined_date: '2025-11-17'
+  sim_actor_id: water
+  sim_event_ids: []

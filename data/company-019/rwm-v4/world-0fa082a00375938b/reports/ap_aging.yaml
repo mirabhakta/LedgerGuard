@@ -1,0 +1,81 @@
+report: Accounts Payable Aging
+company: Pawmart Pet Supply
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-0fa082a00375938b
+buckets:
+  current: '56311.81'
+  1-30: '9816.71'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '66128.52'
+rows:
+- document_id: bill-01797
+  party: Kestrel Ridge Golden Removals LLC
+  due_date: '2026-10-04'
+  days_past_due: 2
+  bucket: 1-30
+  balance: '5638.44'
+- document_id: bill-operating-02154
+  party: Glenmoor Realty Partners
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '500.00'
+- document_id: bill-utilities-02150
+  party: Inlet Cove Power & Light
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '237.75'
+- document_id: bill-utilities-02151
+  party: Inlet Cove Municipal Utilities
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '9.51'
+- document_id: bill-variable-services-02152
+  party: Farrow & Sons Pottery
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '3431.01'
+- document_id: bill-permit-02164
+  party: Harbor Point Department of Revenue
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '500.00'
+- document_id: bill-01823
+  party: Kestrel Ridge Golden Removals LLC
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '7439.22'
+- document_id: bill-01816
+  party: Kestrel Ridge Golden Removals LLC
+  due_date: '2026-10-10'
+  days_past_due: 0
+  bucket: current
+  balance: '6405.07'
+- document_id: bill-01824
+  party: Kestrel Ridge Golden Removals LLC
+  due_date: '2026-10-11'
+  days_past_due: 0
+  bucket: current
+  balance: '11010.72'
+- document_id: bill-01834
+  party: Kestrel Ridge Golden Removals LLC
+  due_date: '2026-10-11'
+  days_past_due: 0
+  bucket: current
+  balance: '3458.00'
+- document_id: bill-income-tax-02146
+  party: Harbor Point Department of Revenue
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '27498.80'

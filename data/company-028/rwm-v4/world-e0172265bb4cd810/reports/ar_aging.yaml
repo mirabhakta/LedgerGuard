@@ -1,0 +1,45 @@
+report: Accounts Receivable Aging
+company: Gilded Oak Weddings
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-e0172265bb4cd810
+buckets:
+  current: '80106.85'
+  1-30: '13439.47'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '93546.32'
+rows:
+- document_id: minv-00030
+  party: Bruno Ferreira
+  due_date: '2026-09-19'
+  days_past_due: 17
+  bucket: 1-30
+  balance: '7180.49'
+- document_id: minv-00031
+  party: Hassan Cortland
+  due_date: '2026-09-30'
+  days_past_due: 6
+  bucket: 1-30
+  balance: '6258.98'
+- document_id: minv-00032
+  party: Bruno Ferreira
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '14360.98'
+- document_id: minv-00034
+  party: Clarisse Kirkland
+  due_date: '2026-10-21'
+  days_past_due: 0
+  bucket: current
+  balance: '64294.49'
+- document_id: minv-00035
+  party: Cormac Cortland
+  due_date: '2026-10-21'
+  days_past_due: 0
+  bucket: current
+  balance: '1451.38'

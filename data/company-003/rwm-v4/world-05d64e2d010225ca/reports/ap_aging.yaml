@@ -1,0 +1,75 @@
+report: Accounts Payable Aging
+company: Keghouse Brewing Co
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-05d64e2d010225ca
+buckets:
+  current: '42478.69'
+  1-30: '710.18'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '43188.87'
+rows:
+- document_id: bill-operating-06007
+  party: Ironbridge Realty Partners
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '500.00'
+- document_id: bill-utilities-06000
+  party: Brightwater Gas & Electric
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '175.15'
+- document_id: bill-utilities-06001
+  party: Vale Crossing Water District
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '35.03'
+- document_id: bill-05964
+  party: Novotny & Sons Hardware (2)
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '8148.60'
+- document_id: bill-permit-06034
+  party: City of Glenmoor
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '500.00'
+- document_id: bill-interest-05955
+  party: First Fairhaven Bank
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '212.54'
+- document_id: bill-06072
+  party: Novotny & Sons Hardware (2)
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '11039.56'
+- document_id: bill-06073
+  party: Novotny & Sons Hardware (2)
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '9090.16'
+- document_id: bill-06102
+  party: Novotny & Sons Hardware (2)
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '7300.48'
+- document_id: bill-06120
+  party: Novotny & Sons Hardware (2)
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '6187.35'

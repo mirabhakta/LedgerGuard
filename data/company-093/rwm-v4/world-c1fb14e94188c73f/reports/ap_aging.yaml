@@ -1,0 +1,45 @@
+report: Accounts Payable Aging
+company: Hollis & Pine Legal Group
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-c1fb14e94188c73f
+buckets:
+  current: '13279.50'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '8142.85'
+  90+: '0.00'
+total_outstanding: '21422.35'
+rows:
+- document_id: bill-premises-00240
+  party: Lantern Property Group
+  due_date: '2026-07-10'
+  days_past_due: 88
+  bucket: 61-90
+  balance: '8142.85'
+- document_id: bill-insurance-00333
+  party: Okonkwo Insurance Agency
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1500.00'
+- document_id: bill-practice-supplies-00332
+  party: Meridian Practice Supply
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '350.00'
+- document_id: bill-premises-00331
+  party: Lantern Property Group
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '8142.85'
+- document_id: bill-income-tax-00336
+  party: Copperfield Department of Revenue
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '3286.65'

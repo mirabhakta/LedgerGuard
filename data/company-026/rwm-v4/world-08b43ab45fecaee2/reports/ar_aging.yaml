@@ -1,0 +1,27 @@
+report: Accounts Receivable Aging
+company: Loudfield Advertising
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-08b43ab45fecaee2
+buckets:
+  current: '1186.96'
+  1-30: '32464.28'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '33651.24'
+rows:
+- document_id: minv-00012
+  party: Dunmore Redwood Movers Co.
+  due_date: '2026-09-20'
+  days_past_due: 16
+  bucket: 1-30
+  balance: '32464.28'
+- document_id: minv-00013
+  party: Opal Supply Inc.
+  due_date: '2026-10-28'
+  days_past_due: 0
+  bucket: current
+  balance: '1186.96'

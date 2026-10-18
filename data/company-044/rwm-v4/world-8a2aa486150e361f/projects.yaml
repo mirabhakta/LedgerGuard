@@ -1,0 +1,57 @@
+- id: proj-00001
+  name: Documentary project for Quintero & Sons Roasters
+  customer_id: cust-client-1
+  customer_name: Quintero & Sons Roasters
+  project_kind: documentary project
+  contract_amount: '108000.00'
+  original_contract_amount: '108000.00'
+  change_orders: []
+  started_sim_day: 0
+  started_date: '2025-10-06'
+  planned_finish_sim_day: 116
+  planned_finish_date: '2026-01-30'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: terminated
+  status_history:
+  - sim_day: 0
+    date: '2025-10-06'
+    status: active
+  - sim_day: 207
+    date: '2026-05-01'
+    status: terminated
+  provenance_note: sim:8a2aa486150e361f:proj-00001
+  sim_project_id: project-1
+  sim_event_ids:
+  - event-2
+- id: proj-00002
+  name: Commercial production for Kingsmere Meridian Stationers & Co.
+  customer_id: cust-client-2
+  customer_name: Kingsmere Meridian Stationers & Co.
+  project_kind: commercial production
+  contract_amount: '533078.00'
+  original_contract_amount: '520000.00'
+  change_orders:
+  - sim_day: 151
+    date: '2026-03-06'
+    amount: '13078.00'
+  started_sim_day: 28
+  started_date: '2025-11-03'
+  planned_finish_sim_day: 261
+  planned_finish_date: '2026-06-24'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: terminated
+  status_history:
+  - sim_day: 28
+    date: '2025-11-03'
+    status: active
+  - sim_day: 301
+    date: '2026-08-03'
+    status: terminated
+  provenance_note: sim:8a2aa486150e361f:proj-00002
+  sim_project_id: project-2
+  sim_event_ids:
+  - event-67

@@ -1,0 +1,21 @@
+report: Accounts Receivable Aging
+company: Brightwater Community Fund
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-1c03d9f2014feb2e
+buckets:
+  current: '0.00'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '3900.00'
+  90+: '0.00'
+total_outstanding: '3900.00'
+rows:
+- document_id: inv-00085
+  party: Driftwood Family Foundation
+  due_date: '2026-07-15'
+  days_past_due: 83
+  bucket: 61-90
+  balance: '3900.00'

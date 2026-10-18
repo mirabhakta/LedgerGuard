@@ -1,0 +1,63 @@
+report: Accounts Payable Aging
+company: Elm Street Counseling Group
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-923f5b37178e7d54
+buckets:
+  current: '9423.80'
+  1-30: '6857.14'
+  31-60: '6857.14'
+  61-90: '6857.14'
+  90+: '13714.28'
+total_outstanding: '43709.50'
+rows:
+- document_id: bill-premises-00202
+  party: Harbor Point Realty Partners
+  due_date: '2026-04-11'
+  days_past_due: 178
+  bucket: 90+
+  balance: '6857.14'
+- document_id: bill-premises-00240
+  party: Harbor Point Realty Partners
+  due_date: '2026-05-11'
+  days_past_due: 148
+  bucket: 90+
+  balance: '6857.14'
+- document_id: bill-premises-00311
+  party: Harbor Point Realty Partners
+  due_date: '2026-07-10'
+  days_past_due: 88
+  bucket: 61-90
+  balance: '6857.14'
+- document_id: bill-premises-00347
+  party: Harbor Point Realty Partners
+  due_date: '2026-08-09'
+  days_past_due: 58
+  bucket: 31-60
+  balance: '6857.14'
+- document_id: bill-premises-00392
+  party: Harbor Point Realty Partners
+  due_date: '2026-09-08'
+  days_past_due: 28
+  bucket: 1-30
+  balance: '6857.14'
+- document_id: bill-insurance-00423
+  party: Elmsworth Insurance Group
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1166.66'
+- document_id: bill-practice-supplies-00422
+  party: Meridian Practice Supply
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1400.00'
+- document_id: bill-premises-00421
+  party: Harbor Point Realty Partners
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '6857.14'

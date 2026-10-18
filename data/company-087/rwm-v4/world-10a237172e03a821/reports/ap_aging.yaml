@@ -1,0 +1,33 @@
+report: Accounts Payable Aging
+company: Lakeview Family Dental
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-10a237172e03a821
+buckets:
+  current: '9423.80'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '9423.80'
+rows:
+- document_id: bill-insurance-00411
+  party: Riverbend Insurance Group
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1166.66'
+- document_id: bill-practice-supplies-00410
+  party: Meridian Practice Supply
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1400.00'
+- document_id: bill-premises-00409
+  party: Balewa Property Management
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '6857.14'

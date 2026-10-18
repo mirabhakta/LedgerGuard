@@ -1,0 +1,39 @@
+report: Accounts Receivable Aging
+company: Brightmark Ad Agency
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-9a0db23935b041db
+buckets:
+  current: '27328.97'
+  1-30: '7712.07'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '35041.04'
+rows:
+- document_id: minv-00013
+  party: Balewa & Sons Warehousing
+  due_date: '2026-09-26'
+  days_past_due: 10
+  bucket: 1-30
+  balance: '7061.53'
+- document_id: minv-00014
+  party: Sandoval Movers Co.
+  due_date: '2026-09-26'
+  days_past_due: 10
+  bucket: 1-30
+  balance: '650.54'
+- document_id: minv-00015
+  party: Sandoval Movers Co.
+  due_date: '2026-10-18'
+  days_past_due: 0
+  bucket: current
+  balance: '10586.08'
+- document_id: minv-00016
+  party: Balewa & Sons Warehousing
+  due_date: '2026-10-21'
+  days_past_due: 0
+  bucket: current
+  balance: '16742.89'

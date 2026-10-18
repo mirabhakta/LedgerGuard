@@ -1,0 +1,45 @@
+report: Accounts Receivable Aging
+company: Trueline Architecture
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-1c2b77ab9854b37b
+buckets:
+  current: '10123.37'
+  1-30: '61278.28'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '71401.65'
+rows:
+- document_id: minv-00028
+  party: Harbor Point Movers
+  due_date: '2026-09-16'
+  days_past_due: 20
+  bucket: 1-30
+  balance: '4842.40'
+- document_id: minv-00029
+  party: Thackeray & Sons Quilting
+  due_date: '2026-09-24'
+  days_past_due: 12
+  bucket: 1-30
+  balance: '3560.87'
+- document_id: minv-00030
+  party: Riverbend Nursery
+  due_date: '2026-09-26'
+  days_past_due: 10
+  bucket: 1-30
+  balance: '52875.01'
+- document_id: minv-00031
+  party: Thackeray & Sons Quilting
+  due_date: '2026-10-17'
+  days_past_due: 0
+  bucket: current
+  balance: '8902.18'
+- document_id: minv-00032
+  party: Lowry & Daughters Goods
+  due_date: '2026-10-28'
+  days_past_due: 0
+  bucket: current
+  balance: '1221.19'

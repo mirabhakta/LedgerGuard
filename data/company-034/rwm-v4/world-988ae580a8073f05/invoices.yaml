@@ -1,0 +1,609 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Pascal Wickramasinghe
+  txn_sim_day: 16
+  txn_date: '2025-10-22'
+  due_sim_day: 46
+  due_date: '2025-11-21'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Space planning
+    description: Space planning, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5815.21'
+    amount: '5815.21'
+  total_amount: '5815.21'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '4012.50'
+  retainage_amount: '581.52'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Styling refresh for Pascal Wickramasinghe.
+  provenance_note: sim:988ae580a8073f05:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-40
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-1
+  customer_name: Pascal Wickramasinghe
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  due_sim_day: 72
+  due_date: '2025-12-17'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Custom millwork
+    description: Custom millwork, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '11000.97'
+    amount: '11000.97'
+  total_amount: '11000.97'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1100.09'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Styling refresh for Pascal Wickramasinghe.
+  provenance_note: sim:988ae580a8073f05:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-112
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-1
+  customer_name: Pascal Wickramasinghe
+  txn_sim_day: 67
+  txn_date: '2025-12-12'
+  due_sim_day: 97
+  due_date: '2026-01-11'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Art and accessories
+    description: Art and accessories, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '11630.45'
+    amount: '11630.45'
+  total_amount: '11630.45'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1163.04'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Styling refresh for Pascal Wickramasinghe.
+  provenance_note: sim:988ae580a8073f05:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-203
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-2
+  customer_name: Jonas Wexler
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  due_sim_day: 107
+  due_date: '2026-01-21'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Space planning
+    description: Space planning, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5706.52'
+    amount: '5706.52'
+  total_amount: '5706.52'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '3937.50'
+  retainage_amount: '570.65'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Styling refresh for Jonas Wexler.
+  provenance_note: sim:988ae580a8073f05:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-236
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-2
+  customer_name: Jonas Wexler
+  txn_sim_day: 95
+  txn_date: '2026-01-09'
+  due_sim_day: 125
+  due_date: '2026-02-08'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Custom millwork
+    description: Custom millwork, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '9130.43'
+    amount: '9130.43'
+  total_amount: '9130.43'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '913.04'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Styling refresh for Jonas Wexler.
+  provenance_note: sim:988ae580a8073f05:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-307
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-2
+  customer_name: Jonas Wexler
+  txn_sim_day: 120
+  txn_date: '2026-02-03'
+  due_sim_day: 150
+  due_date: '2026-03-05'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Art and accessories
+    description: Art and accessories, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '13386.36'
+    amount: '13386.36'
+  total_amount: '13386.36'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1338.63'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Styling refresh for Jonas Wexler.
+  provenance_note: sim:988ae580a8073f05:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-407
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-3
+  customer_name: Greta Eriksdottir
+  txn_sim_day: 157
+  txn_date: '2026-03-12'
+  due_sim_day: 187
+  due_date: '2026-04-11'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Space planning
+    description: Space planning, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '72142.85'
+    amount: '72142.85'
+  total_amount: '72142.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '64928.57'
+  retainage_amount: '7214.28'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Whole-home design for Greta Eriksdottir.
+  provenance_note: sim:988ae580a8073f05:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-552
+- id: minv-00008
+  doc_number: INV-1008
+  customer_id: cust-client-4
+  customer_name: Cormac Hjelm
+  txn_sim_day: 207
+  txn_date: '2026-05-01'
+  due_sim_day: 237
+  due_date: '2026-05-31'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Space planning
+    description: Space planning, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '84285.71'
+    amount: '84285.71'
+  total_amount: '84285.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '75857.14'
+  retainage_amount: '8428.57'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Whole-home design for Cormac Hjelm.
+  provenance_note: sim:988ae580a8073f05:minv-00008
+  sim_order_id: null
+  sim_obligation_id: invoice-8
+  sim_event_ids:
+  - event-797
+- id: minv-00009
+  doc_number: INV-1009
+  customer_id: cust-client-5
+  customer_name: Yusuf Tokarz
+  txn_sim_day: 220
+  txn_date: '2026-05-14'
+  due_sim_day: 250
+  due_date: '2026-06-13'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition and prep
+    description: Demolition and prep, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '15323.07'
+    amount: '15323.07'
+  total_amount: '15323.07'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '13790.77'
+  retainage_amount: '1532.30'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Room redesign for Yusuf Tokarz.
+  provenance_note: sim:988ae580a8073f05:minv-00009
+  sim_order_id: null
+  sim_obligation_id: invoice-9
+  sim_event_ids:
+  - event-880
+- id: minv-00010
+  doc_number: INV-1010
+  customer_id: cust-client-3
+  customer_name: Greta Eriksdottir
+  txn_sim_day: 235
+  txn_date: '2026-05-29'
+  due_sim_day: 265
+  due_date: '2026-06-28'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Custom millwork
+    description: Custom millwork, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '162321.42'
+    amount: '162321.42'
+  total_amount: '162321.42'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '10821.43'
+  retainage_amount: '16232.14'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Whole-home design for Greta Eriksdottir.
+  provenance_note: sim:988ae580a8073f05:minv-00010
+  sim_order_id: null
+  sim_obligation_id: invoice-10
+  sim_event_ids:
+  - event-977
+- id: minv-00011
+  doc_number: INV-1011
+  customer_id: cust-client-5
+  customer_name: Yusuf Tokarz
+  txn_sim_day: 253
+  txn_date: '2026-06-16'
+  due_sim_day: 283
+  due_date: '2026-07-16'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Custom millwork
+    description: Custom millwork, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '22984.61'
+    amount: '22984.61'
+  total_amount: '22984.61'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '1149.23'
+  retainage_amount: '2298.46'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Room redesign for Yusuf Tokarz.
+  provenance_note: sim:988ae580a8073f05:minv-00011
+  sim_order_id: null
+  sim_obligation_id: invoice-11
+  sim_event_ids:
+  - event-1102
+- id: minv-00012
+  doc_number: INV-1012
+  customer_id: cust-client-6
+  customer_name: Bruno Yildirim
+  txn_sim_day: 269
+  txn_date: '2026-07-02'
+  due_sim_day: 299
+  due_date: '2026-08-01'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Space planning
+    description: Space planning, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5380.43'
+    amount: '5380.43'
+  total_amount: '5380.43'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '3712.50'
+  retainage_amount: '538.04'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Styling refresh for Bruno Yildirim.
+  provenance_note: sim:988ae580a8073f05:minv-00012
+  sim_order_id: null
+  sim_obligation_id: invoice-12
+  sim_event_ids:
+  - event-1227
+- id: minv-00013
+  doc_number: INV-1013
+  customer_id: cust-client-5
+  customer_name: Yusuf Tokarz
+  txn_sim_day: 275
+  txn_date: '2026-07-08'
+  due_sim_day: 305
+  due_date: '2026-08-07'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Fixture selection
+    description: Fixture selection, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '15323.07'
+    amount: '15323.07'
+  total_amount: '15323.07'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1532.30'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Room redesign for Yusuf Tokarz.
+  provenance_note: sim:988ae580a8073f05:minv-00013
+  sim_order_id: null
+  sim_obligation_id: invoice-13
+  sim_event_ids:
+  - event-1273
+- id: minv-00014
+  doc_number: INV-1014
+  customer_id: cust-client-3
+  customer_name: Greta Eriksdottir
+  txn_sim_day: 277
+  txn_date: '2026-07-10'
+  due_sim_day: 307
+  due_date: '2026-08-09'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Fixture selection
+    description: Fixture selection, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '72142.85'
+    amount: '72142.85'
+  total_amount: '72142.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '7214.28'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Whole-home design for Greta Eriksdottir.
+  provenance_note: sim:988ae580a8073f05:minv-00014
+  sim_order_id: null
+  sim_obligation_id: invoice-14
+  sim_event_ids:
+  - event-1291
+- id: minv-00015
+  doc_number: INV-1015
+  customer_id: cust-client-6
+  customer_name: Bruno Yildirim
+  txn_sim_day: 290
+  txn_date: '2026-07-23'
+  due_sim_day: 320
+  due_date: '2026-08-22'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Custom millwork
+    description: Custom millwork, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '10115.20'
+    amount: '10115.20'
+  total_amount: '10115.20'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1011.52'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Styling refresh for Bruno Yildirim.
+  provenance_note: sim:988ae580a8073f05:minv-00015
+  sim_order_id: null
+  sim_obligation_id: invoice-15
+  sim_event_ids:
+  - event-1397
+- id: minv-00016
+  doc_number: INV-1016
+  customer_id: cust-client-5
+  customer_name: Yusuf Tokarz
+  txn_sim_day: 298
+  txn_date: '2026-07-31'
+  due_sim_day: 328
+  due_date: '2026-08-30'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Lighting design
+    description: Lighting design, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '18133.32'
+    amount: '18133.32'
+  total_amount: '18133.32'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1813.33'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Room redesign for Yusuf Tokarz.
+  provenance_note: sim:988ae580a8073f05:minv-00016
+  sim_order_id: null
+  sim_obligation_id: invoice-16
+  sim_event_ids:
+  - event-1468
+- id: minv-00017
+  doc_number: INV-1017
+  customer_id: cust-client-4
+  customer_name: Cormac Hjelm
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  due_sim_day: 331
+  due_date: '2026-09-02'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Custom millwork
+    description: Custom millwork, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '189642.85'
+    amount: '189642.85'
+  total_amount: '189642.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '12642.86'
+  retainage_amount: '18964.28'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Whole-home design for Cormac Hjelm.
+  provenance_note: sim:988ae580a8073f05:minv-00017
+  sim_order_id: null
+  sim_obligation_id: invoice-17
+  sim_event_ids:
+  - event-1494
+- id: minv-00018
+  doc_number: INV-1018
+  customer_id: cust-client-3
+  customer_name: Greta Eriksdottir
+  txn_sim_day: 312
+  txn_date: '2026-08-14'
+  due_sim_day: 342
+  due_date: '2026-09-13'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Lighting design
+    description: Lighting design, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '72142.85'
+    amount: '72142.85'
+  total_amount: '72142.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '7214.28'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Whole-home design for Greta Eriksdottir.
+  provenance_note: sim:988ae580a8073f05:minv-00018
+  sim_order_id: null
+  sim_obligation_id: invoice-18
+  sim_event_ids:
+  - event-1575
+- id: minv-00019
+  doc_number: INV-1019
+  customer_id: cust-client-6
+  customer_name: Bruno Yildirim
+  txn_sim_day: 312
+  txn_date: '2026-08-14'
+  due_sim_day: 342
+  due_date: '2026-09-13'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Art and accessories
+    description: Art and accessories, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '10760.88'
+    amount: '10760.88'
+  total_amount: '10760.88'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1076.08'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Styling refresh for Bruno Yildirim.
+  provenance_note: sim:988ae580a8073f05:minv-00019
+  sim_order_id: null
+  sim_obligation_id: invoice-19
+  sim_event_ids:
+  - event-1580
+- id: minv-00020
+  doc_number: INV-1020
+  customer_id: cust-client-5
+  customer_name: Yusuf Tokarz
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  due_sim_day: 366
+  due_date: '2026-10-07'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishes and styling
+    description: Finishes and styling, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '30646.18'
+    amount: '30646.18'
+  total_amount: '30646.18'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3064.61'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Room redesign for Yusuf Tokarz.
+  provenance_note: sim:988ae580a8073f05:minv-00020
+  sim_order_id: null
+  sim_obligation_id: invoice-20
+  sim_event_ids:
+  - event-1766
+- id: minv-00021
+  doc_number: INV-1021
+  customer_id: cust-client-4
+  customer_name: Cormac Hjelm
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  due_sim_day: 380
+  due_date: '2026-10-21'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Fixture selection
+    description: Fixture selection, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '84285.71'
+    amount: '84285.71'
+  total_amount: '84285.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '8428.57'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Whole-home design for Cormac Hjelm.
+  provenance_note: sim:988ae580a8073f05:minv-00021
+  sim_order_id: null
+  sim_obligation_id: invoice-21
+  sim_event_ids:
+  - event-1856

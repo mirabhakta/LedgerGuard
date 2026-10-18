@@ -1,0 +1,81 @@
+report: Accounts Receivable Aging
+company: Ductline Mechanical & Supply
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-a5dd7673241855be
+buckets:
+  current: '147051.95'
+  1-30: '152.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '147203.95'
+rows:
+- document_id: inv-01135
+  party: Golden Larkspur Provisions
+  due_date: '2026-09-18'
+  days_past_due: 18
+  bucket: 1-30
+  balance: '22.40'
+- document_id: inv-01156
+  party: Golden Larkspur Provisions
+  due_date: '2026-09-24'
+  days_past_due: 12
+  bucket: 1-30
+  balance: '36.80'
+- document_id: inv-01163
+  party: Elmsworth Nursery Inc.
+  due_date: '2026-09-28'
+  days_past_due: 8
+  bucket: 1-30
+  balance: '51.20'
+- document_id: inv-01167
+  party: Quintero & Daughters Pottery
+  due_date: '2026-09-29'
+  days_past_due: 7
+  bucket: 1-30
+  balance: '41.60'
+- document_id: inv-01199
+  party: Vasquez Warehousing Company
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '76.80'
+- document_id: inv-01200
+  party: Farrow Outfitters Holdings
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '8.64'
+- document_id: inv-01201
+  party: Larkspur Quilting
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '76.56'
+- document_id: inv-01202
+  party: Clearwater Removals
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '23.04'
+- document_id: inv-01203
+  party: Whitlock & Daughters Fulfillment
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '27.20'
+- document_id: inv-01204
+  party: Ubeda Supply Holdings
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '264.00'
+- document_id: minv-00014
+  party: Espinoza Orchards Partners
+  due_date: '2026-10-28'
+  days_past_due: 0
+  bucket: current
+  balance: '146575.71'

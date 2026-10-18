@@ -1,0 +1,928 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Zielinski Provisions Co.
+  txn_sim_day: 29
+  txn_date: '2025-11-04'
+  due_sim_day: 59
+  due_date: '2025-12-04'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Site analysis
+    description: Site analysis, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '21600.00'
+    amount: '21600.00'
+  total_amount: '21600.00'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '19440.00'
+  retainage_amount: '2160.00'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation commission for Zielinski Provisions Co..
+  provenance_note: sim:1c2b77ab9854b37b:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-71
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-2
+  customer_name: Whitlock & Sons Printworks
+  txn_sim_day: 51
+  txn_date: '2025-11-26'
+  due_sim_day: 81
+  due_date: '2025-12-26'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Site analysis
+    description: Site analysis, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '15876.92'
+    amount: '15876.92'
+  total_amount: '15876.92'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '14289.23'
+  retainage_amount: '1587.69'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation commission for Whitlock & Sons Printworks.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-155
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-1
+  customer_name: Zielinski Provisions Co.
+  txn_sim_day: 67
+  txn_date: '2025-12-12'
+  due_sim_day: 97
+  due_date: '2026-01-11'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '32400.00'
+    amount: '32400.00'
+  total_amount: '32400.00'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '1620.00'
+  retainage_amount: '3240.00'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation commission for Zielinski Provisions Co..
+  provenance_note: sim:1c2b77ab9854b37b:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-228
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-2
+  customer_name: Whitlock & Sons Printworks
+  txn_sim_day: 85
+  txn_date: '2025-12-30'
+  due_sim_day: 115
+  due_date: '2026-01-29'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '27858.03'
+    amount: '27858.03'
+  total_amount: '27858.03'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '1190.77'
+  retainage_amount: '2785.80'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation commission for Whitlock & Sons Printworks.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-345
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-1
+  customer_name: Zielinski Provisions Co.
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  due_sim_day: 121
+  due_date: '2026-02-04'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Mechanical coordination
+    description: Mechanical coordination, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '21600.00'
+    amount: '21600.00'
+  total_amount: '21600.00'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2160.00'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation commission for Zielinski Provisions Co..
+  provenance_note: sim:1c2b77ab9854b37b:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-386
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-3
+  customer_name: Riverbend Nursery
+  txn_sim_day: 93
+  txn_date: '2026-01-07'
+  due_sim_day: 123
+  due_date: '2026-02-06'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Schematic design
+    description: Schematic design, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '67142.85'
+    amount: '67142.85'
+  total_amount: '67142.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '60428.57'
+  retainage_amount: '6714.28'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New building commission for Riverbend Nursery.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-400
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-2
+  customer_name: Whitlock & Sons Printworks
+  txn_sim_day: 108
+  txn_date: '2026-01-22'
+  due_sim_day: 138
+  due_date: '2026-02-21'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Mechanical coordination
+    description: Mechanical coordination, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '18572.02'
+    amount: '18572.02'
+  total_amount: '18572.02'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1857.20'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation commission for Whitlock & Sons Printworks.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-511
+- id: minv-00008
+  doc_number: INV-1008
+  customer_id: cust-client-1
+  customer_name: Zielinski Provisions Co.
+  txn_sim_day: 116
+  txn_date: '2026-01-30'
+  due_sim_day: 146
+  due_date: '2026-03-01'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical coordination
+    description: Electrical coordination, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '21600.00'
+    amount: '21600.00'
+  total_amount: '21600.00'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '2160.00'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation commission for Zielinski Provisions Co..
+  provenance_note: sim:1c2b77ab9854b37b:minv-00008
+  sim_order_id: null
+  sim_obligation_id: invoice-8
+  sim_event_ids:
+  - event-581
+- id: minv-00009
+  doc_number: INV-1009
+  customer_id: cust-client-2
+  customer_name: Whitlock & Sons Printworks
+  txn_sim_day: 130
+  txn_date: '2026-02-13'
+  due_sim_day: 160
+  due_date: '2026-03-15'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical coordination
+    description: Electrical coordination, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '18572.02'
+    amount: '18572.02'
+  total_amount: '18572.02'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1857.20'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation commission for Whitlock & Sons Printworks.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00009
+  sim_order_id: null
+  sim_obligation_id: invoice-9
+  sim_event_ids:
+  - event-702
+- id: minv-00010
+  doc_number: INV-1010
+  customer_id: cust-client-4
+  customer_name: Grimaldi Provisions & Co.
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  due_sim_day: 163
+  due_date: '2026-03-18'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Schematic design
+    description: Schematic design, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '81428.57'
+    amount: '81428.57'
+  total_amount: '81428.57'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '73285.72'
+  retainage_amount: '8142.85'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New building commission for Grimaldi Provisions & Co..
+  provenance_note: sim:1c2b77ab9854b37b:minv-00010
+  sim_order_id: null
+  sim_obligation_id: invoice-10
+  sim_event_ids:
+  - event-725
+- id: minv-00011
+  doc_number: INV-1011
+  customer_id: cust-client-1
+  customer_name: Zielinski Provisions Co.
+  txn_sim_day: 164
+  txn_date: '2026-03-19'
+  due_sim_day: 194
+  due_date: '2026-04-18'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Interior detailing
+    description: Interior detailing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '50578.55'
+    amount: '50578.55'
+  total_amount: '50578.55'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '5057.85'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation commission for Zielinski Provisions Co..
+  provenance_note: sim:1c2b77ab9854b37b:minv-00011
+  sim_order_id: null
+  sim_obligation_id: invoice-11
+  sim_event_ids:
+  - event-998
+- id: minv-00012
+  doc_number: INV-1012
+  customer_id: cust-client-2
+  customer_name: Whitlock & Sons Printworks
+  txn_sim_day: 169
+  txn_date: '2026-03-24'
+  due_sim_day: 199
+  due_date: '2026-04-23'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Interior detailing
+    description: Interior detailing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '31753.86'
+    amount: '31753.86'
+  total_amount: '31753.86'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3175.38'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation commission for Whitlock & Sons Printworks.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00012
+  sim_order_id: null
+  sim_obligation_id: invoice-12
+  sim_event_ids:
+  - event-1033
+- id: minv-00013
+  doc_number: INV-1013
+  customer_id: cust-client-5
+  customer_name: Lanternwood Toyworks Holdings
+  txn_sim_day: 185
+  txn_date: '2026-04-09'
+  due_sim_day: 215
+  due_date: '2026-05-09'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Schematic design
+    description: Schematic design, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4456.52'
+    amount: '4456.52'
+  total_amount: '4456.52'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '3075.00'
+  retainage_amount: '445.65'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Site master plan for Lanternwood Toyworks Holdings.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00013
+  sim_order_id: null
+  sim_obligation_id: invoice-13
+  sim_event_ids:
+  - event-1169
+- id: minv-00014
+  doc_number: INV-1014
+  customer_id: cust-client-3
+  customer_name: Riverbend Nursery
+  txn_sim_day: 186
+  txn_date: '2026-04-10'
+  due_sim_day: 216
+  due_date: '2026-05-10'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '177350.29'
+    amount: '177350.29'
+  total_amount: '177350.29'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '10071.43'
+  retainage_amount: '17735.02'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New building commission for Riverbend Nursery.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00014
+  sim_order_id: null
+  sim_obligation_id: invoice-14
+  sim_event_ids:
+  - event-1177
+- id: minv-00015
+  doc_number: INV-1015
+  customer_id: cust-client-5
+  customer_name: Lanternwood Toyworks Holdings
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  due_sim_day: 233
+  due_date: '2026-05-27'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '7130.43'
+    amount: '7130.43'
+  total_amount: '7130.43'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '713.04'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Site master plan for Lanternwood Toyworks Holdings.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00015
+  sim_order_id: null
+  sim_obligation_id: invoice-15
+  sim_event_ids:
+  - event-1299
+- id: minv-00016
+  doc_number: INV-1016
+  customer_id: cust-client-6
+  customer_name: Keaton & Sons Fulfillment
+  txn_sim_day: 213
+  txn_date: '2026-05-07'
+  due_sim_day: 243
+  due_date: '2026-06-06'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Schematic design
+    description: Schematic design, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5706.52'
+    amount: '5706.52'
+  total_amount: '5706.52'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '3937.50'
+  retainage_amount: '570.65'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Site master plan for Keaton & Sons Fulfillment.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00016
+  sim_order_id: null
+  sim_obligation_id: invoice-16
+  sim_event_ids:
+  - event-1384
+- id: minv-00017
+  doc_number: INV-1017
+  customer_id: cust-client-3
+  customer_name: Riverbend Nursery
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  due_sim_day: 254
+  due_date: '2026-06-17'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Mechanical coordination
+    description: Mechanical coordination, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '67142.85'
+    amount: '67142.85'
+  total_amount: '67142.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '6714.28'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on New building commission for Riverbend Nursery.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00017
+  sim_order_id: null
+  sim_obligation_id: invoice-17
+  sim_event_ids:
+  - event-1461
+- id: minv-00018
+  doc_number: INV-1018
+  customer_id: cust-client-4
+  customer_name: Grimaldi Provisions & Co.
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  due_sim_day: 254
+  due_date: '2026-06-17'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '183214.28'
+    amount: '183214.28'
+  total_amount: '183214.28'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '12214.28'
+  retainage_amount: '18321.42'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New building commission for Grimaldi Provisions & Co..
+  provenance_note: sim:1c2b77ab9854b37b:minv-00018
+  sim_order_id: null
+  sim_obligation_id: invoice-18
+  sim_event_ids:
+  - event-1464
+- id: minv-00019
+  doc_number: INV-1019
+  customer_id: cust-client-5
+  customer_name: Lanternwood Toyworks Holdings
+  txn_sim_day: 225
+  txn_date: '2026-05-19'
+  due_sim_day: 255
+  due_date: '2026-06-18'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscape integration
+    description: Landscape integration, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '8913.05'
+    amount: '8913.05'
+  total_amount: '8913.05'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '891.30'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Site master plan for Lanternwood Toyworks Holdings.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00019
+  sim_order_id: null
+  sim_obligation_id: invoice-19
+  sim_event_ids:
+  - event-1479
+- id: minv-00020
+  doc_number: INV-1020
+  customer_id: cust-client-6
+  customer_name: Keaton & Sons Fulfillment
+  txn_sim_day: 233
+  txn_date: '2026-05-27'
+  due_sim_day: 263
+  due_date: '2026-06-26'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '9130.43'
+    amount: '9130.43'
+  total_amount: '9130.43'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '0.00'
+  retainage_amount: '913.04'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Site master plan for Keaton & Sons Fulfillment.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00020
+  sim_order_id: null
+  sim_obligation_id: invoice-20
+  sim_event_ids:
+  - event-1536
+- id: minv-00021
+  doc_number: INV-1021
+  customer_id: cust-client-6
+  customer_name: Keaton & Sons Fulfillment
+  txn_sim_day: 260
+  txn_date: '2026-06-23'
+  due_sim_day: 290
+  due_date: '2026-07-23'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscape integration
+    description: Landscape integration, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '11413.05'
+    amount: '11413.05'
+  total_amount: '11413.05'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1141.30'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Site master plan for Keaton & Sons Fulfillment.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00021
+  sim_order_id: null
+  sim_obligation_id: invoice-21
+  sim_event_ids:
+  - event-1746
+- id: minv-00022
+  doc_number: INV-1022
+  customer_id: cust-client-3
+  customer_name: Riverbend Nursery
+  txn_sim_day: 261
+  txn_date: '2026-06-24'
+  due_sim_day: 291
+  due_date: '2026-07-24'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical coordination
+    description: Electrical coordination, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '67142.85'
+    amount: '67142.85'
+  total_amount: '67142.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '6714.28'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on New building commission for Riverbend Nursery.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00022
+  sim_order_id: null
+  sim_obligation_id: invoice-22
+  sim_event_ids:
+  - event-1755
+- id: minv-00023
+  doc_number: INV-1023
+  customer_id: cust-client-4
+  customer_name: Grimaldi Provisions & Co.
+  txn_sim_day: 267
+  txn_date: '2026-06-30'
+  due_sim_day: 297
+  due_date: '2026-07-30'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Mechanical coordination
+    description: Mechanical coordination, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '81428.57'
+    amount: '81428.57'
+  total_amount: '81428.57'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '8142.85'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on New building commission for Grimaldi Provisions & Co..
+  provenance_note: sim:1c2b77ab9854b37b:minv-00023
+  sim_order_id: null
+  sim_obligation_id: invoice-23
+  sim_event_ids:
+  - event-1796
+- id: minv-00024
+  doc_number: INV-1024
+  customer_id: cust-client-7
+  customer_name: Harbor Point Movers
+  txn_sim_day: 268
+  txn_date: '2026-07-01'
+  due_sim_day: 298
+  due_date: '2026-07-31'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Schematic design
+    description: Schematic design, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5380.43'
+    amount: '5380.43'
+  total_amount: '5380.43'
+  income_account_id: acct-construction-income
+  project_id: proj-00007
+  deposit_applied_amount: '3712.50'
+  retainage_amount: '538.04'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Site master plan for Harbor Point Movers.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00024
+  sim_order_id: null
+  sim_obligation_id: invoice-24
+  sim_event_ids:
+  - event-1807
+- id: minv-00025
+  doc_number: INV-1025
+  customer_id: cust-client-7
+  customer_name: Harbor Point Movers
+  txn_sim_day: 290
+  txn_date: '2026-07-23'
+  due_sim_day: 320
+  due_date: '2026-08-22'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '8608.69'
+    amount: '8608.69'
+  total_amount: '8608.69'
+  income_account_id: acct-construction-income
+  project_id: proj-00007
+  deposit_applied_amount: '0.00'
+  retainage_amount: '860.86'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Site master plan for Harbor Point Movers.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00025
+  sim_order_id: null
+  sim_obligation_id: invoice-25
+  sim_event_ids:
+  - event-1969
+- id: minv-00026
+  doc_number: INV-1026
+  customer_id: cust-client-8
+  customer_name: Thackeray & Sons Quilting
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  due_sim_day: 331
+  due_date: '2026-09-02'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Schematic design
+    description: Schematic design, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4945.65'
+    amount: '4945.65'
+  total_amount: '4945.65'
+  income_account_id: acct-construction-income
+  project_id: proj-00008
+  deposit_applied_amount: '3412.50'
+  retainage_amount: '494.56'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Site master plan for Thackeray & Sons Quilting.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00026
+  sim_order_id: null
+  sim_obligation_id: invoice-26
+  sim_event_ids:
+  - event-2043
+- id: minv-00027
+  doc_number: INV-1027
+  customer_id: cust-client-4
+  customer_name: Grimaldi Provisions & Co.
+  txn_sim_day: 310
+  txn_date: '2026-08-12'
+  due_sim_day: 340
+  due_date: '2026-09-11'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical coordination
+    description: Electrical coordination, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '81428.57'
+    amount: '81428.57'
+  total_amount: '81428.57'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '8142.85'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on New building commission for Grimaldi Provisions & Co..
+  provenance_note: sim:1c2b77ab9854b37b:minv-00027
+  sim_order_id: null
+  sim_obligation_id: invoice-27
+  sim_event_ids:
+  - event-2116
+- id: minv-00028
+  doc_number: INV-1028
+  customer_id: cust-client-7
+  customer_name: Harbor Point Movers
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  due_sim_day: 345
+  due_date: '2026-09-16'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscape integration
+    description: Landscape integration, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '10760.88'
+    amount: '10760.88'
+  total_amount: '10760.88'
+  income_account_id: acct-construction-income
+  project_id: proj-00007
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1076.08'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Site master plan for Harbor Point Movers.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00028
+  sim_order_id: null
+  sim_obligation_id: invoice-28
+  sim_event_ids:
+  - event-2152
+- id: minv-00029
+  doc_number: INV-1029
+  customer_id: cust-client-8
+  customer_name: Thackeray & Sons Quilting
+  txn_sim_day: 323
+  txn_date: '2026-08-25'
+  due_sim_day: 353
+  due_date: '2026-09-24'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Structural coordination
+    description: Structural coordination, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '7913.04'
+    amount: '7913.04'
+  total_amount: '7913.04'
+  income_account_id: acct-construction-income
+  project_id: proj-00008
+  deposit_applied_amount: '0.00'
+  retainage_amount: '791.30'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Site master plan for Thackeray & Sons Quilting.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00029
+  sim_order_id: null
+  sim_obligation_id: invoice-29
+  sim_event_ids:
+  - event-2217
+- id: minv-00030
+  doc_number: INV-1030
+  customer_id: cust-client-3
+  customer_name: Riverbend Nursery
+  txn_sim_day: 325
+  txn_date: '2026-08-27'
+  due_sim_day: 355
+  due_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Interior detailing
+    description: Interior detailing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '117500.03'
+    amount: '117500.03'
+  total_amount: '117500.03'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '11750.00'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on New building commission for Riverbend Nursery.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00030
+  sim_order_id: null
+  sim_obligation_id: invoice-30
+  sim_event_ids:
+  - event-2233
+- id: minv-00031
+  doc_number: INV-1031
+  customer_id: cust-client-8
+  customer_name: Thackeray & Sons Quilting
+  txn_sim_day: 346
+  txn_date: '2026-09-17'
+  due_sim_day: 376
+  due_date: '2026-10-17'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscape integration
+    description: Landscape integration, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '9891.31'
+    amount: '9891.31'
+  total_amount: '9891.31'
+  income_account_id: acct-construction-income
+  project_id: proj-00008
+  deposit_applied_amount: '0.00'
+  retainage_amount: '989.13'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Site master plan for Thackeray & Sons Quilting.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00031
+  sim_order_id: null
+  sim_obligation_id: invoice-31
+  sim_event_ids:
+  - event-2372
+- id: minv-00032
+  doc_number: INV-1032
+  customer_id: cust-client-9
+  customer_name: Lowry & Daughters Goods
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  due_sim_day: 387
+  due_date: '2026-10-28'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Schematic design
+    description: Schematic design, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5815.21'
+    amount: '5815.21'
+  total_amount: '5815.21'
+  income_account_id: acct-construction-income
+  project_id: proj-00009
+  deposit_applied_amount: '4012.50'
+  retainage_amount: '581.52'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Site master plan for Lowry & Daughters Goods.
+  provenance_note: sim:1c2b77ab9854b37b:minv-00032
+  sim_order_id: null
+  sim_obligation_id: invoice-32
+  sim_event_ids:
+  - event-2440

@@ -1,0 +1,27 @@
+report: Accounts Receivable Aging
+company: Reelmark Productions
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-68bc373bd545d63d
+buckets:
+  current: '63642.86'
+  1-30: '66294.64'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '129937.50'
+rows:
+- document_id: minv-00017
+  party: Vasquez Fulfillment Group
+  due_date: '2026-09-18'
+  days_past_due: 18
+  bucket: 1-30
+  balance: '66294.64'
+- document_id: minv-00018
+  party: Vasquez Fulfillment Group
+  due_date: '2026-10-30'
+  days_past_due: 0
+  bucket: current
+  balance: '63642.86'

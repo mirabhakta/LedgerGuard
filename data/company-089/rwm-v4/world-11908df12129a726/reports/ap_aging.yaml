@@ -1,0 +1,39 @@
+report: Accounts Payable Aging
+company: Cedar Hollow Veterinary Clinic
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-11908df12129a726
+buckets:
+  current: '29196.61'
+  1-30: '0.00'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '29196.61'
+rows:
+- document_id: bill-insurance-01637
+  party: Elmsworth Insurance Group
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1166.66'
+- document_id: bill-practice-supplies-01636
+  party: Meridian Practice Supply
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1400.00'
+- document_id: bill-premises-01635
+  party: Stonegate Realty Partners
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '6857.14'
+- document_id: bill-income-tax-01642
+  party: City of Driftwood
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '19772.81'

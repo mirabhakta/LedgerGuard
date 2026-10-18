@@ -1,0 +1,29 @@
+- id: inv-00012
+  doc_number: INV-1001
+  customer_id: cust-grantor-1
+  customer_name: Abernathy Community Foundation
+  txn_sim_day: 34
+  txn_date: '2025-11-09'
+  due_sim_day: 89
+  due_date: '2026-01-03'
+  lines:
+  - line_num: 1
+    item_id: item-grant
+    item_name: Grant award
+    description: A foundation grant supporting the organization's programs.
+    quantity: 1
+    unit_price_amount: '17100.00'
+    amount: '17100.00'
+  total_amount: '17100.00'
+  income_account_id: acct-product-income
+  project_id: null
+  deposit_applied_amount: '0.00'
+  retainage_amount: '0.00'
+  deposit_account_id: null
+  retainage_account_id: null
+  memo: Grant award, payable in installments.
+  provenance_note: sim:39b30eee6c496cae:inv-00012
+  sim_order_id: null
+  sim_obligation_id: obligation-00012
+  sim_event_ids:
+  - event-00045

@@ -1,0 +1,108 @@
+- id: proj-00001
+  name: Landscaping for Sterling Brightwater Nursery
+  customer_id: cust-client-1
+  customer_name: Sterling Brightwater Nursery
+  project_kind: landscaping
+  contract_amount: '30288.06'
+  original_contract_amount: '28000.00'
+  change_orders:
+  - sim_day: 45
+    date: '2025-11-20'
+    amount: '2288.06'
+  started_sim_day: 0
+  started_date: '2025-10-06'
+  planned_finish_sim_day: 54
+  planned_finish_date: '2025-11-29'
+  reschedules: []
+  completed_sim_day: 78
+  completed_date: '2025-12-23'
+  status: completed
+  status_history:
+  - sim_day: 0
+    date: '2025-10-06'
+    status: active
+  - sim_day: 78
+    date: '2025-12-23'
+    status: completed
+  provenance_note: sim:4d4a2d07ed6184b4:proj-00001
+  sim_project_id: project-1
+  sim_event_ids:
+  - event-18
+- id: proj-00002
+  name: Landscaping for Union Alder Creek Textiles
+  customer_id: cust-client-2
+  customer_name: Union Alder Creek Textiles
+  project_kind: landscaping
+  contract_amount: '30340.32'
+  original_contract_amount: '30340.32'
+  change_orders: []
+  started_sim_day: 196
+  started_date: '2026-04-20'
+  planned_finish_sim_day: 252
+  planned_finish_date: '2026-06-15'
+  reschedules: []
+  completed_sim_day: 261
+  completed_date: '2026-06-24'
+  status: completed
+  status_history:
+  - sim_day: 196
+    date: '2026-04-20'
+    status: active
+  - sim_day: 261
+    date: '2026-06-24'
+    status: completed
+  provenance_note: sim:4d4a2d07ed6184b4:proj-00002
+  sim_project_id: project-2
+  sim_event_ids:
+  - event-4272
+- id: proj-00003
+  name: Landscaping for Dubois & Daughters Grocers
+  customer_id: cust-client-3
+  customer_name: Dubois & Daughters Grocers
+  project_kind: landscaping
+  contract_amount: '21282.46'
+  original_contract_amount: '21282.46'
+  change_orders: []
+  started_sim_day: 252
+  started_date: '2026-06-15'
+  planned_finish_sim_day: 298
+  planned_finish_date: '2026-07-31'
+  reschedules: []
+  completed_sim_day: 316
+  completed_date: '2026-08-18'
+  status: completed
+  status_history:
+  - sim_day: 252
+    date: '2026-06-15'
+    status: active
+  - sim_day: 316
+    date: '2026-08-18'
+    status: completed
+  provenance_note: sim:4d4a2d07ed6184b4:proj-00003
+  sim_project_id: project-3
+  sim_event_ids:
+  - event-5546
+- id: proj-00004
+  name: Renovation for Redwood Inlet Cove Supply
+  customer_id: cust-client-4
+  customer_name: Redwood Inlet Cove Supply
+  project_kind: renovation
+  contract_amount: '131460.96'
+  original_contract_amount: '131460.96'
+  change_orders: []
+  started_sim_day: 336
+  started_date: '2026-09-07'
+  planned_finish_sim_day: 462
+  planned_finish_date: '2027-01-11'
+  reschedules: []
+  completed_sim_day: null
+  completed_date: null
+  status: active
+  status_history:
+  - sim_day: 336
+    date: '2026-09-07'
+    status: active
+  provenance_note: sim:4d4a2d07ed6184b4:proj-00004
+  sim_project_id: project-4
+  sim_event_ids:
+  - event-7439

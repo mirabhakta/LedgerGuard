@@ -1,0 +1,3348 @@
+- id: je-open-00001
+  doc_number: JE-9001
+  purpose: opening_equity
+  txn_sim_day: 0
+  txn_date: '2025-10-06'
+  lines:
+  - line_num: 1
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Opening cash.
+    debit_amount: '20054.15'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-opening-equity
+    account_name: Opening Balance Equity
+    description: Owner contribution.
+    debit_amount: '0.00'
+    credit_amount: '20054.15'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Owner's opening cash contribution.
+  provenance_note: sim:efa5ed700f498f75:je-open-00001
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00001
+- id: je-wageacc-00013
+  doc_number: JE-9002
+  purpose: wage_accrual
+  txn_sim_day: 7
+  txn_date: '2025-10-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00013
+  sim_obligation_id: obligation-00013
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00021
+- id: je-wagepay-00006
+  doc_number: JE-9003
+  purpose: wage_payment
+  txn_sim_day: 12
+  txn_date: '2025-10-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00006
+  sim_obligation_id: obligation-00013
+  sim_payment_id: payment-00006
+  sim_event_ids:
+  - event-00028
+- id: je-wageacc-00014
+  doc_number: JE-9004
+  purpose: wage_accrual
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00014
+  sim_obligation_id: obligation-00014
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00030
+- id: je-wagepay-00011
+  doc_number: JE-9005
+  purpose: wage_payment
+  txn_sim_day: 19
+  txn_date: '2025-10-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00011
+  sim_obligation_id: obligation-00014
+  sim_payment_id: payment-00011
+  sim_event_ids:
+  - event-00038
+- id: je-wageacc-00015
+  doc_number: JE-9006
+  purpose: wage_accrual
+  txn_sim_day: 21
+  txn_date: '2025-10-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00015
+  sim_obligation_id: obligation-00015
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00041
+- id: je-wagepay-00014
+  doc_number: JE-9007
+  purpose: wage_payment
+  txn_sim_day: 26
+  txn_date: '2025-11-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00014
+  sim_obligation_id: obligation-00015
+  sim_payment_id: payment-00014
+  sim_event_ids:
+  - event-00045
+- id: je-wageacc-00016
+  doc_number: JE-9008
+  purpose: wage_accrual
+  txn_sim_day: 28
+  txn_date: '2025-11-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00016
+  sim_obligation_id: obligation-00016
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00047
+- id: je-wagepay-00019
+  doc_number: JE-9009
+  purpose: wage_payment
+  txn_sim_day: 33
+  txn_date: '2025-11-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00019
+  sim_obligation_id: obligation-00016
+  sim_payment_id: payment-00019
+  sim_event_ids:
+  - event-00070
+- id: je-wageacc-00032
+  doc_number: JE-9010
+  purpose: wage_accrual
+  txn_sim_day: 35
+  txn_date: '2025-11-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00032
+  sim_obligation_id: obligation-00032
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00071
+- id: je-wagepay-00024
+  doc_number: JE-9011
+  purpose: wage_payment
+  txn_sim_day: 40
+  txn_date: '2025-11-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00024
+  sim_obligation_id: obligation-00032
+  sim_payment_id: payment-00024
+  sim_event_ids:
+  - event-00082
+- id: je-wageacc-00033
+  doc_number: JE-9012
+  purpose: wage_accrual
+  txn_sim_day: 42
+  txn_date: '2025-11-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00033
+  sim_obligation_id: obligation-00033
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00085
+- id: je-wagepay-00029
+  doc_number: JE-9013
+  purpose: wage_payment
+  txn_sim_day: 47
+  txn_date: '2025-11-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00029
+  sim_obligation_id: obligation-00033
+  sim_payment_id: payment-00029
+  sim_event_ids:
+  - event-00093
+- id: je-wageacc-00034
+  doc_number: JE-9014
+  purpose: wage_accrual
+  txn_sim_day: 49
+  txn_date: '2025-11-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00034
+  sim_obligation_id: obligation-00034
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00096
+- id: je-wagepay-00033
+  doc_number: JE-9015
+  purpose: wage_payment
+  txn_sim_day: 54
+  txn_date: '2025-11-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00033
+  sim_obligation_id: obligation-00034
+  sim_payment_id: payment-00033
+  sim_event_ids:
+  - event-00101
+- id: je-wageacc-00035
+  doc_number: JE-9016
+  purpose: wage_accrual
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00035
+  sim_obligation_id: obligation-00035
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00103
+- id: je-wagepay-00035
+  doc_number: JE-9017
+  purpose: wage_payment
+  txn_sim_day: 61
+  txn_date: '2025-12-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00035
+  sim_obligation_id: obligation-00035
+  sim_payment_id: payment-00035
+  sim_event_ids:
+  - event-00124
+- id: je-wageacc-00051
+  doc_number: JE-9018
+  purpose: wage_accrual
+  txn_sim_day: 63
+  txn_date: '2025-12-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00051
+  sim_obligation_id: obligation-00051
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00128
+- id: je-wagepay-00040
+  doc_number: JE-9019
+  purpose: wage_payment
+  txn_sim_day: 68
+  txn_date: '2025-12-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00040
+  sim_obligation_id: obligation-00051
+  sim_payment_id: payment-00040
+  sim_event_ids:
+  - event-00135
+- id: je-wageacc-00052
+  doc_number: JE-9020
+  purpose: wage_accrual
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00052
+  sim_obligation_id: obligation-00052
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00140
+- id: je-wagepay-00048
+  doc_number: JE-9021
+  purpose: wage_payment
+  txn_sim_day: 75
+  txn_date: '2025-12-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00048
+  sim_obligation_id: obligation-00052
+  sim_payment_id: payment-00048
+  sim_event_ids:
+  - event-00149
+- id: je-wageacc-00053
+  doc_number: JE-9022
+  purpose: wage_accrual
+  txn_sim_day: 77
+  txn_date: '2025-12-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00053
+  sim_obligation_id: obligation-00053
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00151
+- id: je-wagepay-00051
+  doc_number: JE-9023
+  purpose: wage_payment
+  txn_sim_day: 82
+  txn_date: '2025-12-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00051
+  sim_obligation_id: obligation-00053
+  sim_payment_id: payment-00051
+  sim_event_ids:
+  - event-00157
+- id: je-wageacc-00054
+  doc_number: JE-9024
+  purpose: wage_accrual
+  txn_sim_day: 84
+  txn_date: '2025-12-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00054
+  sim_obligation_id: obligation-00054
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00159
+- id: je-wagepay-00054
+  doc_number: JE-9025
+  purpose: wage_payment
+  txn_sim_day: 89
+  txn_date: '2026-01-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00054
+  sim_obligation_id: obligation-00054
+  sim_payment_id: payment-00054
+  sim_event_ids:
+  - event-00163
+- id: je-distribution-00184
+  doc_number: JE-9026
+  purpose: owner_distribution
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '4131.33'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '4131.33'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:efa5ed700f498f75:je-distribution-00184
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00184
+- id: je-wageacc-00071
+  doc_number: JE-9027
+  purpose: wage_accrual
+  txn_sim_day: 91
+  txn_date: '2026-01-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00071
+  sim_obligation_id: obligation-00071
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00185
+- id: je-wagepay-00058
+  doc_number: JE-9028
+  purpose: wage_payment
+  txn_sim_day: 96
+  txn_date: '2026-01-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00058
+  sim_obligation_id: obligation-00071
+  sim_payment_id: payment-00058
+  sim_event_ids:
+  - event-00191
+- id: je-wageacc-00072
+  doc_number: JE-9029
+  purpose: wage_accrual
+  txn_sim_day: 98
+  txn_date: '2026-01-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00072
+  sim_obligation_id: obligation-00072
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00196
+- id: je-wagepay-00065
+  doc_number: JE-9030
+  purpose: wage_payment
+  txn_sim_day: 103
+  txn_date: '2026-01-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00065
+  sim_obligation_id: obligation-00072
+  sim_payment_id: payment-00065
+  sim_event_ids:
+  - event-00208
+- id: je-wageacc-00073
+  doc_number: JE-9031
+  purpose: wage_accrual
+  txn_sim_day: 105
+  txn_date: '2026-01-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00073
+  sim_obligation_id: obligation-00073
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00211
+- id: je-wagepay-00071
+  doc_number: JE-9032
+  purpose: wage_payment
+  txn_sim_day: 110
+  txn_date: '2026-01-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00071
+  sim_obligation_id: obligation-00073
+  sim_payment_id: payment-00071
+  sim_event_ids:
+  - event-00218
+- id: je-wageacc-00074
+  doc_number: JE-9033
+  purpose: wage_accrual
+  txn_sim_day: 112
+  txn_date: '2026-01-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00074
+  sim_obligation_id: obligation-00074
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00220
+- id: je-wagepay-00074
+  doc_number: JE-9034
+  purpose: wage_payment
+  txn_sim_day: 117
+  txn_date: '2026-01-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00074
+  sim_obligation_id: obligation-00074
+  sim_payment_id: payment-00074
+  sim_event_ids:
+  - event-00225
+- id: je-wageacc-00075
+  doc_number: JE-9035
+  purpose: wage_accrual
+  txn_sim_day: 119
+  txn_date: '2026-02-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00075
+  sim_obligation_id: obligation-00075
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00226
+- id: je-wagepay-00078
+  doc_number: JE-9036
+  purpose: wage_payment
+  txn_sim_day: 124
+  txn_date: '2026-02-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00078
+  sim_obligation_id: obligation-00075
+  sim_payment_id: payment-00078
+  sim_event_ids:
+  - event-00249
+- id: je-wageacc-00091
+  doc_number: JE-9037
+  purpose: wage_accrual
+  txn_sim_day: 126
+  txn_date: '2026-02-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00091
+  sim_obligation_id: obligation-00091
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00250
+- id: je-wagepay-00083
+  doc_number: JE-9038
+  purpose: wage_payment
+  txn_sim_day: 131
+  txn_date: '2026-02-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00083
+  sim_obligation_id: obligation-00091
+  sim_payment_id: payment-00083
+  sim_event_ids:
+  - event-00261
+- id: je-wageacc-00092
+  doc_number: JE-9039
+  purpose: wage_accrual
+  txn_sim_day: 133
+  txn_date: '2026-02-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00092
+  sim_obligation_id: obligation-00092
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00266
+- id: je-wagepay-00089
+  doc_number: JE-9040
+  purpose: wage_payment
+  txn_sim_day: 138
+  txn_date: '2026-02-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00089
+  sim_obligation_id: obligation-00092
+  sim_payment_id: payment-00089
+  sim_event_ids:
+  - event-00274
+- id: je-wageacc-00093
+  doc_number: JE-9041
+  purpose: wage_accrual
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00093
+  sim_obligation_id: obligation-00093
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00275
+- id: je-wagepay-00092
+  doc_number: JE-9042
+  purpose: wage_payment
+  txn_sim_day: 145
+  txn_date: '2026-02-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00092
+  sim_obligation_id: obligation-00093
+  sim_payment_id: payment-00092
+  sim_event_ids:
+  - event-00281
+- id: je-wageacc-00094
+  doc_number: JE-9043
+  purpose: wage_accrual
+  txn_sim_day: 147
+  txn_date: '2026-03-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00094
+  sim_obligation_id: obligation-00094
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00282
+- id: je-wagepay-00094
+  doc_number: JE-9044
+  purpose: wage_payment
+  txn_sim_day: 152
+  txn_date: '2026-03-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00094
+  sim_obligation_id: obligation-00094
+  sim_payment_id: payment-00094
+  sim_event_ids:
+  - event-00303
+- id: je-wageacc-00110
+  doc_number: JE-9045
+  purpose: wage_accrual
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00110
+  sim_obligation_id: obligation-00110
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00307
+- id: je-wagepay-00102
+  doc_number: JE-9046
+  purpose: wage_payment
+  txn_sim_day: 159
+  txn_date: '2026-03-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00102
+  sim_obligation_id: obligation-00110
+  sim_payment_id: payment-00102
+  sim_event_ids:
+  - event-00317
+- id: je-wageacc-00111
+  doc_number: JE-9047
+  purpose: wage_accrual
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00111
+  sim_obligation_id: obligation-00111
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00319
+- id: je-wagepay-00107
+  doc_number: JE-9048
+  purpose: wage_payment
+  txn_sim_day: 166
+  txn_date: '2026-03-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00107
+  sim_obligation_id: obligation-00111
+  sim_payment_id: payment-00107
+  sim_event_ids:
+  - event-00329
+- id: je-wageacc-00112
+  doc_number: JE-9049
+  purpose: wage_accrual
+  txn_sim_day: 168
+  txn_date: '2026-03-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00112
+  sim_obligation_id: obligation-00112
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00331
+- id: je-wagepay-00111
+  doc_number: JE-9050
+  purpose: wage_payment
+  txn_sim_day: 173
+  txn_date: '2026-03-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00111
+  sim_obligation_id: obligation-00112
+  sim_payment_id: payment-00111
+  sim_event_ids:
+  - event-00337
+- id: je-wageacc-00113
+  doc_number: JE-9051
+  purpose: wage_accrual
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00113
+  sim_obligation_id: obligation-00113
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00339
+- id: je-wagepay-00113
+  doc_number: JE-9052
+  purpose: wage_payment
+  txn_sim_day: 180
+  txn_date: '2026-04-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00113
+  sim_obligation_id: obligation-00113
+  sim_payment_id: payment-00113
+  sim_event_ids:
+  - event-00354
+- id: je-distribution-00363
+  doc_number: JE-9053
+  purpose: owner_distribution
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '5822.61'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '5822.61'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:efa5ed700f498f75:je-distribution-00363
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00363
+- id: je-wageacc-00130
+  doc_number: JE-9054
+  purpose: wage_accrual
+  txn_sim_day: 182
+  txn_date: '2026-04-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00130
+  sim_obligation_id: obligation-00130
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00364
+- id: je-wagepay-00117
+  doc_number: JE-9055
+  purpose: wage_payment
+  txn_sim_day: 187
+  txn_date: '2026-04-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00117
+  sim_obligation_id: obligation-00130
+  sim_payment_id: payment-00117
+  sim_event_ids:
+  - event-00373
+- id: je-wageacc-00131
+  doc_number: JE-9056
+  purpose: wage_accrual
+  txn_sim_day: 189
+  txn_date: '2026-04-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00131
+  sim_obligation_id: obligation-00131
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00376
+- id: je-wagepay-00126
+  doc_number: JE-9057
+  purpose: wage_payment
+  txn_sim_day: 194
+  txn_date: '2026-04-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00126
+  sim_obligation_id: obligation-00131
+  sim_payment_id: payment-00126
+  sim_event_ids:
+  - event-00389
+- id: je-wageacc-00132
+  doc_number: JE-9058
+  purpose: wage_accrual
+  txn_sim_day: 196
+  txn_date: '2026-04-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00132
+  sim_obligation_id: obligation-00132
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00392
+- id: je-wagepay-00130
+  doc_number: JE-9059
+  purpose: wage_payment
+  txn_sim_day: 201
+  txn_date: '2026-04-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00130
+  sim_obligation_id: obligation-00132
+  sim_payment_id: payment-00130
+  sim_event_ids:
+  - event-00398
+- id: je-wageacc-00133
+  doc_number: JE-9060
+  purpose: wage_accrual
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00133
+  sim_obligation_id: obligation-00133
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00399
+- id: je-wagepay-00133
+  doc_number: JE-9061
+  purpose: wage_payment
+  txn_sim_day: 208
+  txn_date: '2026-05-02'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00133
+  sim_obligation_id: obligation-00133
+  sim_payment_id: payment-00133
+  sim_event_ids:
+  - event-00404
+- id: je-wageacc-00146
+  doc_number: JE-9062
+  purpose: wage_accrual
+  txn_sim_day: 210
+  txn_date: '2026-05-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00146
+  sim_obligation_id: obligation-00146
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00417
+- id: je-wagepay-00137
+  doc_number: JE-9063
+  purpose: wage_payment
+  txn_sim_day: 215
+  txn_date: '2026-05-09'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00137
+  sim_obligation_id: obligation-00146
+  sim_payment_id: payment-00137
+  sim_event_ids:
+  - event-00428
+- id: je-wageacc-00150
+  doc_number: JE-9064
+  purpose: wage_accrual
+  txn_sim_day: 217
+  txn_date: '2026-05-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00150
+  sim_obligation_id: obligation-00150
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00430
+- id: je-wagepay-00143
+  doc_number: JE-9065
+  purpose: wage_payment
+  txn_sim_day: 222
+  txn_date: '2026-05-16'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00143
+  sim_obligation_id: obligation-00150
+  sim_payment_id: payment-00143
+  sim_event_ids:
+  - event-00443
+- id: je-wageacc-00151
+  doc_number: JE-9066
+  purpose: wage_accrual
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00151
+  sim_obligation_id: obligation-00151
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00445
+- id: je-wagepay-00148
+  doc_number: JE-9067
+  purpose: wage_payment
+  txn_sim_day: 229
+  txn_date: '2026-05-23'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00148
+  sim_obligation_id: obligation-00151
+  sim_payment_id: payment-00148
+  sim_event_ids:
+  - event-00453
+- id: je-wageacc-00152
+  doc_number: JE-9068
+  purpose: wage_accrual
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00152
+  sim_obligation_id: obligation-00152
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00456
+- id: je-wagepay-00151
+  doc_number: JE-9069
+  purpose: wage_payment
+  txn_sim_day: 236
+  txn_date: '2026-05-30'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00151
+  sim_obligation_id: obligation-00152
+  sim_payment_id: payment-00151
+  sim_event_ids:
+  - event-00460
+- id: je-wageacc-00153
+  doc_number: JE-9070
+  purpose: wage_accrual
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00153
+  sim_obligation_id: obligation-00153
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00462
+- id: je-wagepay-00156
+  doc_number: JE-9071
+  purpose: wage_payment
+  txn_sim_day: 243
+  txn_date: '2026-06-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00156
+  sim_obligation_id: obligation-00153
+  sim_payment_id: payment-00156
+  sim_event_ids:
+  - event-00485
+- id: je-wageacc-00169
+  doc_number: JE-9072
+  purpose: wage_accrual
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00169
+  sim_obligation_id: obligation-00169
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00486
+- id: je-wagepay-00161
+  doc_number: JE-9073
+  purpose: wage_payment
+  txn_sim_day: 250
+  txn_date: '2026-06-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00161
+  sim_obligation_id: obligation-00169
+  sim_payment_id: payment-00161
+  sim_event_ids:
+  - event-00497
+- id: je-wageacc-00170
+  doc_number: JE-9074
+  purpose: wage_accrual
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00170
+  sim_obligation_id: obligation-00170
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00500
+- id: je-wagepay-00166
+  doc_number: JE-9075
+  purpose: wage_payment
+  txn_sim_day: 257
+  txn_date: '2026-06-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00166
+  sim_obligation_id: obligation-00170
+  sim_payment_id: payment-00166
+  sim_event_ids:
+  - event-00508
+- id: je-wageacc-00171
+  doc_number: JE-9076
+  purpose: wage_accrual
+  txn_sim_day: 259
+  txn_date: '2026-06-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00171
+  sim_obligation_id: obligation-00171
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00511
+- id: je-wagepay-00170
+  doc_number: JE-9077
+  purpose: wage_payment
+  txn_sim_day: 264
+  txn_date: '2026-06-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00170
+  sim_obligation_id: obligation-00171
+  sim_payment_id: payment-00170
+  sim_event_ids:
+  - event-00516
+- id: je-wageacc-00172
+  doc_number: JE-9078
+  purpose: wage_accrual
+  txn_sim_day: 266
+  txn_date: '2026-06-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00172
+  sim_obligation_id: obligation-00172
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00518
+- id: je-wagepay-00172
+  doc_number: JE-9079
+  purpose: wage_payment
+  txn_sim_day: 271
+  txn_date: '2026-07-04'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00172
+  sim_obligation_id: obligation-00172
+  sim_payment_id: payment-00172
+  sim_event_ids:
+  - event-00539
+- id: je-distribution-00545
+  doc_number: JE-9080
+  purpose: owner_distribution
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '8642.20'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '8642.20'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:efa5ed700f498f75:je-distribution-00545
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00545
+- id: je-wageacc-00189
+  doc_number: JE-9081
+  purpose: wage_accrual
+  txn_sim_day: 273
+  txn_date: '2026-07-06'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00189
+  sim_obligation_id: obligation-00189
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00546
+- id: je-wagepay-00177
+  doc_number: JE-9082
+  purpose: wage_payment
+  txn_sim_day: 278
+  txn_date: '2026-07-11'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00177
+  sim_obligation_id: obligation-00189
+  sim_payment_id: payment-00177
+  sim_event_ids:
+  - event-00553
+- id: je-wageacc-00190
+  doc_number: JE-9083
+  purpose: wage_accrual
+  txn_sim_day: 280
+  txn_date: '2026-07-13'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00190
+  sim_obligation_id: obligation-00190
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00559
+- id: je-wagepay-00186
+  doc_number: JE-9084
+  purpose: wage_payment
+  txn_sim_day: 285
+  txn_date: '2026-07-18'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00186
+  sim_obligation_id: obligation-00190
+  sim_payment_id: payment-00186
+  sim_event_ids:
+  - event-00569
+- id: je-wageacc-00191
+  doc_number: JE-9085
+  purpose: wage_accrual
+  txn_sim_day: 287
+  txn_date: '2026-07-20'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00191
+  sim_obligation_id: obligation-00191
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00571
+- id: je-wagepay-00189
+  doc_number: JE-9086
+  purpose: wage_payment
+  txn_sim_day: 292
+  txn_date: '2026-07-25'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00189
+  sim_obligation_id: obligation-00191
+  sim_payment_id: payment-00189
+  sim_event_ids:
+  - event-00577
+- id: je-wageacc-00192
+  doc_number: JE-9087
+  purpose: wage_accrual
+  txn_sim_day: 294
+  txn_date: '2026-07-27'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00192
+  sim_obligation_id: obligation-00192
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00579
+- id: je-wagepay-00192
+  doc_number: JE-9088
+  purpose: wage_payment
+  txn_sim_day: 299
+  txn_date: '2026-08-01'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00192
+  sim_obligation_id: obligation-00192
+  sim_payment_id: payment-00192
+  sim_event_ids:
+  - event-00583
+- id: je-wageacc-00208
+  doc_number: JE-9089
+  purpose: wage_accrual
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00208
+  sim_obligation_id: obligation-00208
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00602
+- id: je-wagepay-00196
+  doc_number: JE-9090
+  purpose: wage_payment
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00196
+  sim_obligation_id: obligation-00208
+  sim_payment_id: payment-00196
+  sim_event_ids:
+  - event-00608
+- id: je-wageacc-00209
+  doc_number: JE-9091
+  purpose: wage_accrual
+  txn_sim_day: 308
+  txn_date: '2026-08-10'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00209
+  sim_obligation_id: obligation-00209
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00612
+- id: je-wagepay-00202
+  doc_number: JE-9092
+  purpose: wage_payment
+  txn_sim_day: 313
+  txn_date: '2026-08-15'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00202
+  sim_obligation_id: obligation-00209
+  sim_payment_id: payment-00202
+  sim_event_ids:
+  - event-00623
+- id: je-wageacc-00210
+  doc_number: JE-9093
+  purpose: wage_accrual
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00210
+  sim_obligation_id: obligation-00210
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00626
+- id: je-wagepay-00208
+  doc_number: JE-9094
+  purpose: wage_payment
+  txn_sim_day: 320
+  txn_date: '2026-08-22'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00208
+  sim_obligation_id: obligation-00210
+  sim_payment_id: payment-00208
+  sim_event_ids:
+  - event-00633
+- id: je-wageacc-00211
+  doc_number: JE-9095
+  purpose: wage_accrual
+  txn_sim_day: 322
+  txn_date: '2026-08-24'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00211
+  sim_obligation_id: obligation-00211
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00635
+- id: je-wagepay-00211
+  doc_number: JE-9096
+  purpose: wage_payment
+  txn_sim_day: 327
+  txn_date: '2026-08-29'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00211
+  sim_obligation_id: obligation-00211
+  sim_payment_id: payment-00211
+  sim_event_ids:
+  - event-00640
+- id: je-wageacc-00212
+  doc_number: JE-9097
+  purpose: wage_accrual
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00212
+  sim_obligation_id: obligation-00212
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00641
+- id: je-wagepay-00215
+  doc_number: JE-9098
+  purpose: wage_payment
+  txn_sim_day: 334
+  txn_date: '2026-09-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00215
+  sim_obligation_id: obligation-00212
+  sim_payment_id: payment-00215
+  sim_event_ids:
+  - event-00664
+- id: je-wageacc-00228
+  doc_number: JE-9099
+  purpose: wage_accrual
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00228
+  sim_obligation_id: obligation-00228
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00665
+- id: je-wagepay-00220
+  doc_number: JE-9100
+  purpose: wage_payment
+  txn_sim_day: 341
+  txn_date: '2026-09-12'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00220
+  sim_obligation_id: obligation-00228
+  sim_payment_id: payment-00220
+  sim_event_ids:
+  - event-00676
+- id: je-wageacc-00229
+  doc_number: JE-9101
+  purpose: wage_accrual
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00229
+  sim_obligation_id: obligation-00229
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00681
+- id: je-wagepay-00226
+  doc_number: JE-9102
+  purpose: wage_payment
+  txn_sim_day: 348
+  txn_date: '2026-09-19'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00226
+  sim_obligation_id: obligation-00229
+  sim_payment_id: payment-00226
+  sim_event_ids:
+  - event-00689
+- id: je-wageacc-00230
+  doc_number: JE-9103
+  purpose: wage_accrual
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00230
+  sim_obligation_id: obligation-00230
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00690
+- id: je-wagepay-00229
+  doc_number: JE-9104
+  purpose: wage_payment
+  txn_sim_day: 355
+  txn_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00229
+  sim_obligation_id: obligation-00230
+  sim_payment_id: payment-00229
+  sim_event_ids:
+  - event-00696
+- id: je-wageacc-00231
+  doc_number: JE-9105
+  purpose: wage_accrual
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00231
+  sim_obligation_id: obligation-00231
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00697
+- id: je-wagepay-00231
+  doc_number: JE-9106
+  purpose: wage_payment
+  txn_sim_day: 362
+  txn_date: '2026-10-03'
+  lines:
+  - line_num: 1
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages liability settled.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Wages paid to Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wagepay-00231
+  sim_obligation_id: obligation-00231
+  sim_payment_id: payment-00231
+  sim_event_ids:
+  - event-00718
+- id: je-distribution-00724
+  doc_number: JE-9107
+  purpose: owner_distribution
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  lines:
+  - line_num: 1
+    account_id: acct-owner-distributions
+    account_name: Owner Distributions
+    description: Owner draw.
+    debit_amount: '5822.61'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-checking
+    account_name: Business Checking
+    description: Cash paid to the owner.
+    debit_amount: '0.00'
+    credit_amount: '5822.61'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Quarterly owner draw of cash above the working reserve.
+  provenance_note: sim:efa5ed700f498f75:je-distribution-00724
+  sim_obligation_id: null
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00724
+- id: je-wageacc-00248
+  doc_number: JE-9108
+  purpose: wage_accrual
+  txn_sim_day: 364
+  txn_date: '2026-10-05'
+  lines:
+  - line_num: 1
+    account_id: acct-wage-expense
+    account_name: Wage Expense
+    description: Wages earned.
+    debit_amount: '1100.00'
+    credit_amount: '0.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  - line_num: 2
+    account_id: acct-wages-payable
+    account_name: Wages Payable
+    description: Wages owed to employee.
+    debit_amount: '0.00'
+    credit_amount: '1100.00'
+    customer_id: null
+    vendor_id: null
+    document_id: null
+  project_id: null
+  memo: Weekly wages earned by Bruno Jessup.
+  provenance_note: sim:efa5ed700f498f75:je-wageacc-00248
+  sim_obligation_id: obligation-00248
+  sim_payment_id: null
+  sim_event_ids:
+  - event-00725

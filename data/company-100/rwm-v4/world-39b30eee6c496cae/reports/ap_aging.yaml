@@ -1,0 +1,87 @@
+report: Accounts Payable Aging
+company: Lanternlight Community Theater
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-39b30eee6c496cae
+buckets:
+  current: '6844.76'
+  1-30: '4714.28'
+  31-60: '6244.76'
+  61-90: '6244.76'
+  90+: '21379.25'
+total_outstanding: '45427.81'
+rows:
+- document_id: bill-event-costs-00061
+  party: Grand Hall Event Productions
+  due_date: '2026-03-22'
+  days_past_due: 198
+  bucket: 90+
+  balance: '10420.21'
+- document_id: bill-program-services-00069
+  party: Community Program Services
+  due_date: '2026-04-11'
+  days_past_due: 178
+  bucket: 90+
+  balance: '1530.48'
+- document_id: bill-premises-00081
+  party: Bright Property Group
+  due_date: '2026-05-11'
+  days_past_due: 148
+  bucket: 90+
+  balance: '4714.28'
+- document_id: bill-premises-00092
+  party: Bright Property Group
+  due_date: '2026-06-10'
+  days_past_due: 118
+  bucket: 90+
+  balance: '4714.28'
+- document_id: bill-premises-00103
+  party: Bright Property Group
+  due_date: '2026-07-10'
+  days_past_due: 88
+  bucket: 61-90
+  balance: '4714.28'
+- document_id: bill-program-services-00104
+  party: Community Program Services
+  due_date: '2026-07-10'
+  days_past_due: 88
+  bucket: 61-90
+  balance: '1530.48'
+- document_id: bill-premises-00114
+  party: Bright Property Group
+  due_date: '2026-08-09'
+  days_past_due: 58
+  bucket: 31-60
+  balance: '4714.28'
+- document_id: bill-program-services-00115
+  party: Community Program Services
+  due_date: '2026-08-09'
+  days_past_due: 58
+  bucket: 31-60
+  balance: '1530.48'
+- document_id: bill-premises-00127
+  party: Bright Property Group
+  due_date: '2026-09-08'
+  days_past_due: 28
+  bucket: 1-30
+  balance: '4714.28'
+- document_id: bill-insurance-00140
+  party: Farrow Insurance Agency
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '600.00'
+- document_id: bill-premises-00138
+  party: Bright Property Group
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '4714.28'
+- document_id: bill-program-services-00139
+  party: Community Program Services
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1530.48'

@@ -1,0 +1,638 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Delacroix Brewing Co.
+  txn_sim_day: 45
+  txn_date: '2025-11-20'
+  due_sim_day: 75
+  due_date: '2025-12-20'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '4619.56'
+    amount: '4619.56'
+  total_amount: '4619.56'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '3187.50'
+  retainage_amount: '461.95'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Delacroix Brewing Co..
+  provenance_note: sim:30175d85c5f409f9:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-85
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-1
+  customer_name: Delacroix Brewing Co.
+  txn_sim_day: 64
+  txn_date: '2025-12-09'
+  due_sim_day: 94
+  due_date: '2026-01-08'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '7391.30'
+    amount: '7391.30'
+  total_amount: '7391.30'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '739.13'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Delacroix Brewing Co..
+  provenance_note: sim:30175d85c5f409f9:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-145
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-1
+  customer_name: Delacroix Brewing Co.
+  txn_sim_day: 85
+  txn_date: '2025-12-30'
+  due_sim_day: 115
+  due_date: '2026-01-29'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '9239.14'
+    amount: '9239.14'
+  total_amount: '9239.14'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '923.91'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Delacroix Brewing Co..
+  provenance_note: sim:30175d85c5f409f9:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-233
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-2
+  customer_name: Quarry Hill Works
+  txn_sim_day: 94
+  txn_date: '2026-01-08'
+  due_sim_day: 124
+  due_date: '2026-02-07'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '58571.42'
+    amount: '58571.42'
+  total_amount: '58571.42'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '52714.28'
+  retainage_amount: '5857.14'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Quarry Hill Works.
+  provenance_note: sim:30175d85c5f409f9:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-282
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-3
+  customer_name: Northfield Quilting
+  txn_sim_day: 109
+  txn_date: '2026-01-23'
+  due_sim_day: 139
+  due_date: '2026-02-22'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '19569.23'
+    amount: '19569.23'
+  total_amount: '19569.23'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '17612.31'
+  retainage_amount: '1956.92'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Northfield Quilting.
+  provenance_note: sim:30175d85c5f409f9:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-355
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-3
+  customer_name: Northfield Quilting
+  txn_sim_day: 140
+  txn_date: '2026-02-23'
+  due_sim_day: 170
+  due_date: '2026-03-25'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '29353.84'
+    amount: '29353.84'
+  total_amount: '29353.84'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '1467.69'
+  retainage_amount: '2935.38'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation for Northfield Quilting.
+  provenance_note: sim:30175d85c5f409f9:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-522
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-3
+  customer_name: Northfield Quilting
+  txn_sim_day: 161
+  txn_date: '2026-03-16'
+  due_sim_day: 191
+  due_date: '2026-04-15'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '19569.23'
+    amount: '19569.23'
+  total_amount: '19569.23'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1956.92'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Renovation for Northfield Quilting.
+  provenance_note: sim:30175d85c5f409f9:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-640
+- id: minv-00008
+  doc_number: INV-1008
+  customer_id: cust-client-2
+  customer_name: Quarry Hill Works
+  txn_sim_day: 172
+  txn_date: '2026-03-27'
+  due_sim_day: 202
+  due_date: '2026-04-26'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '154709.83'
+    amount: '154709.83'
+  total_amount: '154709.83'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '8785.72'
+  retainage_amount: '15470.98'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New home for Quarry Hill Works.
+  provenance_note: sim:30175d85c5f409f9:minv-00008
+  sim_order_id: null
+  sim_obligation_id: invoice-8
+  sim_event_ids:
+  - event-700
+- id: minv-00009
+  doc_number: INV-1009
+  customer_id: cust-client-3
+  customer_name: Northfield Quilting
+  txn_sim_day: 183
+  txn_date: '2026-04-07'
+  due_sim_day: 213
+  due_date: '2026-05-07'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '19569.23'
+    amount: '19569.23'
+  total_amount: '19569.23'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1956.92'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Renovation for Northfield Quilting.
+  provenance_note: sim:30175d85c5f409f9:minv-00009
+  sim_order_id: null
+  sim_obligation_id: invoice-9
+  sim_event_ids:
+  - event-759
+- id: minv-00010
+  doc_number: INV-1010
+  customer_id: cust-client-2
+  customer_name: Quarry Hill Works
+  txn_sim_day: 204
+  txn_date: '2026-04-28'
+  due_sim_day: 234
+  due_date: '2026-05-28'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '58571.42'
+    amount: '58571.42'
+  total_amount: '58571.42'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '5857.14'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on New home for Quarry Hill Works.
+  provenance_note: sim:30175d85c5f409f9:minv-00010
+  sim_order_id: null
+  sim_obligation_id: invoice-10
+  sim_event_ids:
+  - event-874
+- id: minv-00011
+  doc_number: INV-1011
+  customer_id: cust-client-3
+  customer_name: Northfield Quilting
+  txn_sim_day: 226
+  txn_date: '2026-05-20'
+  due_sim_day: 256
+  due_date: '2026-06-19'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '39138.47'
+    amount: '39138.47'
+  total_amount: '39138.47'
+  income_account_id: acct-construction-income
+  project_id: proj-00003
+  deposit_applied_amount: '0.00'
+  retainage_amount: '3913.84'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on Renovation for Northfield Quilting.
+  provenance_note: sim:30175d85c5f409f9:minv-00011
+  sim_order_id: null
+  sim_obligation_id: invoice-11
+  sim_event_ids:
+  - event-1024
+- id: minv-00012
+  doc_number: INV-1012
+  customer_id: cust-client-4
+  customer_name: Copperfield Zephyr Confections & Co.
+  txn_sim_day: 238
+  txn_date: '2026-06-01'
+  due_sim_day: 268
+  due_date: '2026-07-01'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '74285.71'
+    amount: '74285.71'
+  total_amount: '74285.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '66857.14'
+  retainage_amount: '7428.57'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Copperfield Zephyr Confections & Co..
+  provenance_note: sim:30175d85c5f409f9:minv-00012
+  sim_order_id: null
+  sim_obligation_id: invoice-12
+  sim_event_ids:
+  - event-1094
+- id: minv-00013
+  doc_number: INV-1013
+  customer_id: cust-client-5
+  customer_name: Northstar Elmsworth Provisions
+  txn_sim_day: 242
+  txn_date: '2026-06-05'
+  due_sim_day: 272
+  due_date: '2026-07-05'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '5543.47'
+    amount: '5543.47'
+  total_amount: '5543.47'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '3825.00'
+  retainage_amount: '554.34'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Landscaping for Northstar Elmsworth Provisions.
+  provenance_note: sim:30175d85c5f409f9:minv-00013
+  sim_order_id: null
+  sim_obligation_id: invoice-13
+  sim_event_ids:
+  - event-1131
+- id: minv-00014
+  doc_number: INV-1014
+  customer_id: cust-client-2
+  customer_name: Quarry Hill Works
+  txn_sim_day: 247
+  txn_date: '2026-06-10'
+  due_sim_day: 277
+  due_date: '2026-07-10'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Electrical
+    description: Electrical, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '69436.42'
+    amount: '69436.42'
+  total_amount: '69436.42'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '6943.64'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on New home for Quarry Hill Works.
+  provenance_note: sim:30175d85c5f409f9:minv-00014
+  sim_order_id: null
+  sim_obligation_id: invoice-14
+  sim_event_ids:
+  - event-1161
+- id: minv-00015
+  doc_number: INV-1015
+  customer_id: cust-client-5
+  customer_name: Northstar Elmsworth Provisions
+  txn_sim_day: 261
+  txn_date: '2026-06-24'
+  due_sim_day: 291
+  due_date: '2026-07-24'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '8869.56'
+    amount: '8869.56'
+  total_amount: '8869.56'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '886.95'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Landscaping for Northstar Elmsworth Provisions.
+  provenance_note: sim:30175d85c5f409f9:minv-00015
+  sim_order_id: null
+  sim_obligation_id: invoice-15
+  sim_event_ids:
+  - event-1262
+- id: minv-00016
+  doc_number: INV-1016
+  customer_id: cust-client-5
+  customer_name: Northstar Elmsworth Provisions
+  txn_sim_day: 288
+  txn_date: '2026-07-21'
+  due_sim_day: 318
+  due_date: '2026-08-20'
+  lines:
+  - line_num: 1
+    item_id: item-landscaping
+    item_name: Landscaping
+    description: Landscaping, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '13085.39'
+    amount: '13085.39'
+  total_amount: '13085.39'
+  income_account_id: acct-construction-income
+  project_id: proj-00005
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1308.53'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Landscaping for Northstar Elmsworth Provisions.
+  provenance_note: sim:30175d85c5f409f9:minv-00016
+  sim_order_id: null
+  sim_obligation_id: invoice-16
+  sim_event_ids:
+  - event-1463
+- id: minv-00017
+  doc_number: INV-1017
+  customer_id: cust-client-2
+  customer_name: Quarry Hill Works
+  txn_sim_day: 296
+  txn_date: '2026-07-29'
+  due_sim_day: 326
+  due_date: '2026-08-28'
+  lines:
+  - line_num: 1
+    item_id: item-finishing
+    item_name: Finishing
+    description: Finishing, stage 4 accepted.
+    quantity: 1
+    unit_price_amount: '102500.03'
+    amount: '102500.03'
+  total_amount: '102500.03'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '10250.00'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 4 accepted on New home for Quarry Hill Works.
+  provenance_note: sim:30175d85c5f409f9:minv-00017
+  sim_order_id: null
+  sim_obligation_id: invoice-17
+  sim_event_ids:
+  - event-1526
+- id: minv-00018
+  doc_number: INV-1018
+  customer_id: cust-client-4
+  customer_name: Copperfield Zephyr Confections & Co.
+  txn_sim_day: 316
+  txn_date: '2026-08-18'
+  due_sim_day: 346
+  due_date: '2026-09-17'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '167142.85'
+    amount: '167142.85'
+  total_amount: '167142.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '11142.86'
+  retainage_amount: '16714.28'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on New home for Copperfield Zephyr Confections & Co..
+  provenance_note: sim:30175d85c5f409f9:minv-00018
+  sim_order_id: null
+  sim_obligation_id: invoice-18
+  sim_event_ids:
+  - event-1668
+- id: minv-00019
+  doc_number: INV-1019
+  customer_id: cust-client-6
+  customer_name: Keystone Hardware Holdings
+  txn_sim_day: 325
+  txn_date: '2026-08-27'
+  due_sim_day: 355
+  due_date: '2026-09-26'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Site preparation
+    description: Site preparation, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '82857.14'
+    amount: '82857.14'
+  total_amount: '82857.14'
+  income_account_id: acct-construction-income
+  project_id: proj-00006
+  deposit_applied_amount: '74571.43'
+  retainage_amount: '8285.71'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on New home for Keystone Hardware Holdings.
+  provenance_note: sim:30175d85c5f409f9:minv-00019
+  sim_order_id: null
+  sim_obligation_id: invoice-19
+  sim_event_ids:
+  - event-1736
+- id: minv-00020
+  doc_number: INV-1020
+  customer_id: cust-client-7
+  customer_name: Opal Granite Bay Supply
+  txn_sim_day: 332
+  txn_date: '2026-09-03'
+  due_sim_day: 362
+  due_date: '2026-10-03'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Demolition
+    description: Demolition, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '21230.76'
+    amount: '21230.76'
+  total_amount: '21230.76'
+  income_account_id: acct-construction-income
+  project_id: proj-00007
+  deposit_applied_amount: '19107.69'
+  retainage_amount: '2123.07'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Renovation for Opal Granite Bay Supply.
+  provenance_note: sim:30175d85c5f409f9:minv-00020
+  sim_order_id: null
+  sim_obligation_id: invoice-20
+  sim_event_ids:
+  - event-1788
+- id: minv-00021
+  doc_number: INV-1021
+  customer_id: cust-client-4
+  customer_name: Copperfield Zephyr Confections & Co.
+  txn_sim_day: 365
+  txn_date: '2026-10-06'
+  due_sim_day: 395
+  due_date: '2026-11-05'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Plumbing
+    description: Plumbing, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '88455.71'
+    amount: '88455.71'
+  total_amount: '88455.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00004
+  deposit_applied_amount: '0.00'
+  retainage_amount: '8845.57'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on New home for Copperfield Zephyr Confections & Co..
+  provenance_note: sim:30175d85c5f409f9:minv-00021
+  sim_order_id: null
+  sim_obligation_id: invoice-21
+  sim_event_ids:
+  - event-2032
+- id: minv-00022
+  doc_number: INV-1022
+  customer_id: cust-client-7
+  customer_name: Opal Granite Bay Supply
+  txn_sim_day: 365
+  txn_date: '2026-10-06'
+  due_sim_day: 395
+  due_date: '2026-11-05'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Masonry
+    description: Masonry, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '31846.15'
+    amount: '31846.15'
+  total_amount: '31846.15'
+  income_account_id: acct-construction-income
+  project_id: proj-00007
+  deposit_applied_amount: '1592.31'
+  retainage_amount: '3184.61'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Renovation for Opal Granite Bay Supply.
+  provenance_note: sim:30175d85c5f409f9:minv-00022
+  sim_order_id: null
+  sim_obligation_id: invoice-22
+  sim_event_ids:
+  - event-2037

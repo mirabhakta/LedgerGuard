@@ -1,0 +1,203 @@
+- id: minv-00001
+  doc_number: INV-1001
+  customer_id: cust-client-1
+  customer_name: Quintero & Sons Roasters
+  txn_sim_day: 24
+  txn_date: '2025-10-30'
+  due_sim_day: 54
+  due_date: '2025-11-29'
+  lines:
+  - line_num: 1
+    item_id: item-demolition
+    item_name: Location services
+    description: Location services, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '16615.38'
+    amount: '16615.38'
+  total_amount: '16615.38'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '14953.85'
+  retainage_amount: '1661.53'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Documentary project for Quintero & Sons Roasters.
+  provenance_note: sim:8a2aa486150e361f:minv-00001
+  sim_order_id: null
+  sim_obligation_id: invoice-1
+  sim_event_ids:
+  - event-57
+- id: minv-00002
+  doc_number: INV-1002
+  customer_id: cust-client-1
+  customer_name: Quintero & Sons Roasters
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  due_sim_day: 86
+  due_date: '2025-12-31'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Set construction
+    description: Set construction, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '24923.07'
+    amount: '24923.07'
+  total_amount: '24923.07'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '1246.15'
+  retainage_amount: '2492.30'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Documentary project for Quintero & Sons Roasters.
+  provenance_note: sim:8a2aa486150e361f:minv-00002
+  sim_order_id: null
+  sim_obligation_id: invoice-2
+  sim_event_ids:
+  - event-184
+- id: minv-00003
+  doc_number: INV-1003
+  customer_id: cust-client-2
+  customer_name: Kingsmere Meridian Stationers & Co.
+  txn_sim_day: 70
+  txn_date: '2025-12-15'
+  due_sim_day: 100
+  due_date: '2026-01-14'
+  lines:
+  - line_num: 1
+    item_id: item-sitework
+    item_name: Pre-production
+    description: Pre-production, stage 0 accepted.
+    quantity: 1
+    unit_price_amount: '74285.71'
+    amount: '74285.71'
+  total_amount: '74285.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '66857.14'
+  retainage_amount: '7428.57'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 0 accepted on Commercial production for Kingsmere Meridian Stationers & Co..
+  provenance_note: sim:8a2aa486150e361f:minv-00003
+  sim_order_id: null
+  sim_obligation_id: invoice-3
+  sim_event_ids:
+  - event-244
+- id: minv-00004
+  doc_number: INV-1004
+  customer_id: cust-client-1
+  customer_name: Quintero & Sons Roasters
+  txn_sim_day: 80
+  txn_date: '2025-12-25'
+  due_sim_day: 110
+  due_date: '2026-01-24'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Sound recording
+    description: Sound recording, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '16615.38'
+    amount: '16615.38'
+  total_amount: '16615.38'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1661.53'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Documentary project for Quintero & Sons Roasters.
+  provenance_note: sim:8a2aa486150e361f:minv-00004
+  sim_order_id: null
+  sim_obligation_id: invoice-4
+  sim_event_ids:
+  - event-299
+- id: minv-00005
+  doc_number: INV-1005
+  customer_id: cust-client-1
+  customer_name: Quintero & Sons Roasters
+  txn_sim_day: 101
+  txn_date: '2026-01-15'
+  due_sim_day: 131
+  due_date: '2026-02-14'
+  lines:
+  - line_num: 1
+    item_id: item-electrical
+    item_name: Lighting and grip
+    description: Lighting and grip, stage 3 accepted.
+    quantity: 1
+    unit_price_amount: '16615.38'
+    amount: '16615.38'
+  total_amount: '16615.38'
+  income_account_id: acct-construction-income
+  project_id: proj-00001
+  deposit_applied_amount: '0.00'
+  retainage_amount: '1661.53'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 3 accepted on Documentary project for Quintero & Sons Roasters.
+  provenance_note: sim:8a2aa486150e361f:minv-00005
+  sim_order_id: null
+  sim_obligation_id: invoice-5
+  sim_event_ids:
+  - event-405
+- id: minv-00006
+  doc_number: INV-1006
+  customer_id: cust-client-2
+  customer_name: Kingsmere Meridian Stationers & Co.
+  txn_sim_day: 150
+  txn_date: '2026-03-05'
+  due_sim_day: 180
+  due_date: '2026-04-04'
+  lines:
+  - line_num: 1
+    item_id: item-masonry
+    item_name: Set construction
+    description: Set construction, stage 1 accepted.
+    quantity: 1
+    unit_price_amount: '167142.85'
+    amount: '167142.85'
+  total_amount: '167142.85'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '11142.86'
+  retainage_amount: '16714.28'
+  deposit_account_id: acct-customer-deposits
+  retainage_account_id: acct-retainage
+  memo: Stage 1 accepted on Commercial production for Kingsmere Meridian Stationers & Co..
+  provenance_note: sim:8a2aa486150e361f:minv-00006
+  sim_order_id: null
+  sim_obligation_id: invoice-6
+  sim_event_ids:
+  - event-631
+- id: minv-00007
+  doc_number: INV-1007
+  customer_id: cust-client-2
+  customer_name: Kingsmere Meridian Stationers & Co.
+  txn_sim_day: 193
+  txn_date: '2026-04-17'
+  due_sim_day: 223
+  due_date: '2026-05-17'
+  lines:
+  - line_num: 1
+    item_id: item-plumbing
+    item_name: Sound recording
+    description: Sound recording, stage 2 accepted.
+    quantity: 1
+    unit_price_amount: '87363.71'
+    amount: '87363.71'
+  total_amount: '87363.71'
+  income_account_id: acct-construction-income
+  project_id: proj-00002
+  deposit_applied_amount: '0.00'
+  retainage_amount: '8736.37'
+  deposit_account_id: null
+  retainage_account_id: acct-retainage
+  memo: Stage 2 accepted on Commercial production for Kingsmere Meridian Stationers & Co..
+  provenance_note: sim:8a2aa486150e361f:minv-00007
+  sim_order_id: null
+  sim_obligation_id: invoice-7
+  sim_event_ids:
+  - event-781

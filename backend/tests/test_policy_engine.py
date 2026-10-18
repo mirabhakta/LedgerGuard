@@ -50,7 +50,12 @@ def test_hard_violation_has_highest_priority() -> None:
         ({"counterparty_change_score": 0.70}, FinalAction.REQUIRE_APPROVAL, "COUNTERPARTY_CHANGE_RISK"),
         ({"missing_context_probability": 0.70}, FinalAction.REQUEST_CONTEXT, "MISSING_CONTEXT"),
         ({"action_anomaly_score": 0.80}, FinalAction.REQUIRE_APPROVAL, "ACTION_ANOMALY"),
-        ({"action_anomaly_confidence": 0.59}, FinalAction.REQUIRE_APPROVAL, "LOW_CONFIDENCE"),
+        # Score clears the line, but confidence does not, so the score is ignored.
+        (
+            {"missing_context_probability": 0.735, "missing_context_confidence": 0.19},
+            FinalAction.ALLOW,
+            "POLICY_ALLOW",
+        ),
     ],
 )
 def test_threshold_boundaries(changes, expected, reason) -> None:
@@ -75,6 +80,31 @@ def test_just_below_risk_thresholds_and_exact_minimum_confidence_allow() -> None
     )
     assert decision.final_action is FinalAction.ALLOW
     assert len(decision.config_hash) == 64 and len(decision.assessment_hash or "") == 64
+
+
+def test_jev_safe_bill_low_confidence_is_allowed() -> None:
+    """Jev on a safe bill: missing-context 0.735 @ 0.19, other confidences under 0.60."""
+    decision = PolicyEngine().decide(
+        action(), PrecheckResult(hard_violation=False),
+        risk(
+            goal_alignment_probability=0.9, goal_alignment_confidence=0.10,
+            duplicate_obligation_probability=0.1, duplicate_obligation_confidence=0.35,
+            counterparty_change_score=0.1, counterparty_change_confidence=0.35,
+            missing_context_probability=0.735, missing_context_confidence=0.19,
+            action_anomaly_score=0.1, action_anomaly_confidence=0.10,
+        ),
+    )
+    assert decision.final_action is FinalAction.ALLOW
+    assert decision.reason_codes == ("POLICY_ALLOW",)
+
+
+def test_confident_score_still_fires_at_the_confidence_floor() -> None:
+    decision = PolicyEngine().decide(
+        action(), PrecheckResult(hard_violation=False),
+        risk(missing_context_probability=0.70, missing_context_confidence=0.60),
+    )
+    assert decision.final_action is FinalAction.REQUEST_CONTEXT
+    assert decision.reason_codes == ("MISSING_CONTEXT",)
 
 
 def test_duplicate_priority_beats_missing_context() -> None:

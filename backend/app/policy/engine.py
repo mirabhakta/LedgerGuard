@@ -41,22 +41,30 @@ class PolicyEngine:
         if isinstance(outcome, ProviderFailure):
             return self._provider_failure(action, outcome, evaluated, audit_id)
 
+        # A score only counts when the provider is confident in it. Jev reports
+        # missing-context 0.735 at confidence 0.19 on a safe bill; acting on the
+        # score alone requests context, and a blanket confidence floor then holds
+        # the bill because Jev's confidences (0.10, 0.19, 0.35) sit under 0.60.
         checks = (
             ("duplicate", outcome.duplicate_obligation_probability,
+             outcome.duplicate_obligation_confidence,
              self.config.duplicate_block_threshold, FinalAction.BLOCK, reasons.DUPLICATE_RISK),
             ("counterparty", outcome.counterparty_change_score,
+             outcome.counterparty_change_confidence,
              self.config.counterparty_review_threshold, FinalAction.REQUIRE_APPROVAL,
              reasons.COUNTERPARTY_CHANGE_RISK),
             ("missing_context", outcome.missing_context_probability,
+             outcome.missing_context_confidence,
              self.config.missing_context_threshold, FinalAction.REQUEST_CONTEXT,
              reasons.MISSING_CONTEXT),
             ("anomaly", outcome.action_anomaly_score,
+             outcome.action_anomaly_confidence,
              self.config.anomaly_review_threshold, FinalAction.REQUIRE_APPROVAL,
              reasons.ACTION_ANOMALY),
         )
-        for name, actual, threshold, final_action, reason in checks:
+        for name, actual, confidence, threshold, final_action, reason in checks:
             evaluated.append(name)
-            if actual >= threshold:
+            if actual >= threshold and confidence >= self.config.minimum_confidence:
                 hit = TriggeredThreshold(
                     name=name, comparator=">=", threshold=threshold, actual=actual
                 )
@@ -66,7 +74,10 @@ class PolicyEngine:
                 )
             if name == "duplicate":
                 evaluated.append("goal_alignment")
-                if outcome.goal_alignment_probability < self.config.minimum_goal_alignment:
+                if (
+                    outcome.goal_alignment_probability < self.config.minimum_goal_alignment
+                    and outcome.goal_alignment_confidence >= self.config.minimum_confidence
+                ):
                     hit = TriggeredThreshold(
                         name="goal_alignment", comparator="<",
                         threshold=self.config.minimum_goal_alignment,
@@ -76,27 +87,6 @@ class PolicyEngine:
                         action, FinalAction.REQUIRE_APPROVAL, (reasons.GOAL_MISMATCH,),
                         (hit,), outcome, evaluated, audit_id,
                     )
-        confidences = {
-            "goal_alignment": outcome.goal_alignment_confidence,
-            "duplicate": outcome.duplicate_obligation_confidence,
-            "counterparty": outcome.counterparty_change_confidence,
-            "missing_context": outcome.missing_context_confidence,
-            "anomaly": outcome.action_anomaly_confidence,
-        }
-        evaluated.append("minimum_confidence")
-        low = {name: value for name, value in confidences.items() if value < self.config.minimum_confidence}
-        if low:
-            hits = tuple(
-                TriggeredThreshold(
-                    name=f"{name}_confidence", comparator="<",
-                    threshold=self.config.minimum_confidence, actual=value,
-                )
-                for name, value in sorted(low.items())
-            )
-            return self._decision(
-                action, FinalAction.REQUIRE_APPROVAL, (reasons.LOW_CONFIDENCE,),
-                hits, outcome, evaluated, audit_id,
-            )
         evaluated.append("allow")
         return self._decision(
             action, FinalAction.ALLOW, (reasons.POLICY_ALLOW,), (), outcome,

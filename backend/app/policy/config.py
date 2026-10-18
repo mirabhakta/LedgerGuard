@@ -24,6 +24,8 @@ class PolicyConfig(BaseModel):
     counterparty_review_threshold: float = Field(default=0.70, ge=0, le=1)
     missing_context_threshold: float = Field(default=0.70, ge=0, le=1)
     anomaly_review_threshold: float = Field(default=0.80, ge=0, le=1)
+    # Confidence required before a score can change the decision. A low
+    # confidence does not itself hold the action.
     minimum_confidence: float = Field(default=0.60, ge=0, le=1)
     provider_failure_fallback: FinalAction = FinalAction.REQUIRE_APPROVAL
 
